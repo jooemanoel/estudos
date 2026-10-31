@@ -156,8 +156,7 @@
 ### 3.1 Finalidades do controle interno, externo e social; inserção institucional da CGU no Poder Executivo federal.
 ### 3.2 Avaliação da ação governamental e apoio ao aprimoramento da gestão, da governança, dos controles e dos resultados das políticas públicas; prevenção, detecção e correção de irregularidades.
 ### 3.3 Autonomia técnica e responsabilidades dos gestores; diferenças de competências e complementaridade com o controle externo exercido pelo Congresso Nacional com o auxílio do TCU.
-### 3.4 Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de
-informações.
+### 3.4 Distinção entre avaliar a gestão, apurar fatos e aplicar sanções; cooperação e compartilhamento lícito de informações.
 
 ## 4 Responsabilização em nível introdutório.
 ### 4.1 Distinção entre indício, falha de gestão, irregularidade e responsabilidade.
