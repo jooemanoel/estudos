@@ -1,0 +1,635 @@
+AUDIOAULA. Concurso da CGU, Auditor Federal de Finanças e Controle, especialidade Desenvolvimento de Sistemas.
+Item três, um, dois do edital: Programação e correção.
+
+
+BLOCO ZERO. ABERTURA.
+
+Olá. Esta é a audioaula do item três, um, dois do edital da CGU: Programação e correção.
+
+Esse item faz parte do bloco Engenharia de Software e Programação e tem oito subitens. Vamos passar por todos, na ordem do edital.
+
+Primeiro, a linguagem Java: tipos, estruturas de controle, métodos, classes e objetos.
+Segundo, encapsulamento, interfaces, herança e polimorfismo.
+Terceiro, coleções e tipos genéricos.
+Quarto, igualdade de objetos, mutabilidade, exceções e arquivos.
+Quinto, estruturas de dados, algoritmos e pseudocódigo.
+Sexto, leitura, depuração e testes de borda.
+Sétimo, complexidade em decisões de desempenho.
+Oitavo, modularidade e padrões de projeto aplicados à manutenção.
+
+No final, faremos uma revisão com doze afirmações no estilo Cebraspe, para você julgar como certo ou errado.
+
+Um lembrete antes de começar. Na prova de conhecimentos específicos, cada item vale dois pontos, e cada erro desconta dois pontos. Então, em questão com trecho de código, só marque depois de simular a execução inteira.
+
+Vamos lá.
+
+
+BLOCO UM. LINGUAGEM JAVA: TIPOS, CONTROLE, MÉTODOS, CLASSES E OBJETOS.
+
+Java é uma linguagem fortemente tipada. O código é compilado para bytecode, e o bytecode é executado pela máquina virtual, a JVM.
+
+Guarde três regras, porque quase toda questão de código depende delas: promoção numérica, passagem por valor e ordem de inicialização.
+
+Comecemos pelos tipos de dados.
+
+Java tem oito tipos primitivos. Quatro inteiros: byte, com oito bits; short, com dezesseis; int, com trinta e dois; e long, com sessenta e quatro. Dois de ponto flutuante: float, com trinta e dois bits, e double, com sessenta e quatro. Mais o char, de dezesseis bits, sem sinal. E o boolean, que só aceita verdadeiro ou falso e não se converte em número.
+
+Tudo o que não é primitivo é referência a objeto.
+
+Agora, as regras que viram item de prova.
+
+Regra um: valor padrão. Atributos de classe recebem valor padrão: zero, falso ou nulo. Variável local não recebe. Usar uma variável local sem inicializar é erro de compilação. Não é zero, não é nulo: o código simplesmente não compila.
+
+Regra dois: promoção numérica. Em operações aritméticas, byte, short e char são promovidos a int. Por isso, se b é um byte, a instrução b recebe b mais um não compila, porque o resultado é int. Já a forma composta, b mais igual a um, compila, porque a atribuição composta embute a conversão.
+
+Regra três: divisão inteira. Sete dividido por dois, com inteiros, resulta em três. Não em três e meio. Para obter três e meio, um dos operandos precisa ser decimal. E o resto da divisão de sete por dois é um.
+
+Regra quatro: estouro silencioso. Se você soma um ao maior valor inteiro possível, o resultado vira o menor valor inteiro possível. Nenhuma exceção é lançada.
+
+Regra cinco: ponto flutuante é impreciso. Zero vírgula um mais zero vírgula dois não é exatamente igual a zero vírgula três. Por isso, valores monetários usam a classe BigDecimal.
+
+Regra seis: divisão por zero. Com inteiros, lança a exceção ArithmeticException. Com double, não lança nada: o resultado é infinito, ou o valor especial chamado NaN, que significa não é um número.
+
+Regra sete: as classes empacotadoras, os wrappers, como Integer e Long. São objetos imutáveis. E aqui mora uma pegadinha clássica. O Java guarda em cache os objetos Integer de menos cento e vinte e oito até cento e vinte e sete. Então, duas variáveis Integer com valor cento e vinte e sete, comparadas com o operador de igualdade, dão verdadeiro, porque apontam para o mesmo objeto. Mas duas variáveis Integer com valor cento e vinte e oito, comparadas com o mesmo operador, dão falso, porque são objetos distintos. Com o método equals, o resultado é verdadeiro nos dois casos.
+
+Por fim, a palavra var, que existe desde o Java 10. Ela permite inferência de tipo, mas só em variáveis locais com valor inicial. O tipo continua sendo fixo e verificado na compilação. Java não vira linguagem dinâmica por causa do var.
+
+Passemos às estruturas de controle.
+
+Você tem o se e senão, o operador ternário, o laço for, o for each, o while e o do while. A diferença do do while é que o corpo executa pelo menos uma vez, porque o teste vem no final.
+
+Os operadores lógicos com símbolo duplicado, o E duplo e o OU duplo, fazem curto-circuito. Isso significa que o segundo operando só é avaliado se for necessário. Os operadores com símbolo simples avaliam sempre os dois lados.
+
+Sobre o incremento. A forma pós-fixada, i mais mais, devolve o valor antigo e depois incrementa. A forma prefixada, mais mais i, incrementa primeiro e devolve o valor novo. Em questão de saída de código, essa diferença muda a resposta.
+
+Agora, o switch. O switch clássico aceita byte, short, char, int, os wrappers desses tipos, enumerações e, desde o Java 7, String. Não aceita long, float, double nem boolean.
+
+E a pegadinha principal: sem a instrução break, o switch clássico cai para o caso seguinte. Imagine uma variável valendo dois, e um switch com os casos um, dois, três e o padrão, que imprimem A, B, C e D, nessa ordem, todos sem break. A saída é B, C, D. A execução entra no caso dois e segue caindo até o fim.
+
+A forma mais nova do switch, com seta, disponível desde o Java 14, não cai para o caso seguinte e ainda pode devolver valor.
+
+Vamos aos métodos.
+
+Aqui está talvez a regra mais cobrada da linguagem: Java passa argumentos sempre por valor. Sempre.
+
+Quando o argumento é um objeto, o que se copia é a referência. Consequência: dentro do método, você consegue alterar o estado do objeto, e o chamador enxerga essa alteração. Mas, se dentro do método você faz o parâmetro apontar para um objeto novo, isso não afeta a variável do chamador.
+
+Exemplo falado. Um método recebe um StringBuilder e um inteiro. Dentro dele, acrescenta um ponto de exclamação ao StringBuilder, depois atribui ao parâmetro um StringBuilder novo, e por fim muda o inteiro para noventa e nove. Quem chamou tinha o texto oi e o número um. Depois da chamada, o chamador tem oi com exclamação, e o número continua um. A exclamação ficou, porque alterou o objeto compartilhado. O resto se perdeu, porque só mexeu em cópias locais.
+
+Mais três pontos sobre métodos.
+
+A assinatura de um método é o nome mais a lista de tipos dos parâmetros. O tipo de retorno não faz parte da assinatura.
+
+Sobrecarga é ter métodos de mesmo nome com parâmetros diferentes. Mudar apenas o tipo de retorno não é sobrecarga: é erro de compilação.
+
+E método estático pertence à classe, não ao objeto. Ele não tem acesso ao this e não acessa diretamente membros de instância.
+
+Fechando o bloco: classes e objetos.
+
+A classe é o molde. O objeto é a instância, criada com o operador new e armazenada na área de memória chamada heap. A variável guarda só a referência.
+
+Sobre construtores. O compilador só gera o construtor padrão, sem argumentos, quando a classe não declara nenhum construtor. Se você declarar um construtor com parâmetros, o construtor vazio deixa de existir.
+
+A ordem de inicialização é: primeiro, os blocos e atributos estáticos, uma única vez, quando a classe é carregada. Depois, a cada objeto criado, vem a parte da superclasse e só então a da subclasse.
+
+A palavra final tem três usos. Em variável, impede nova atribuição. Em método, impede sobrescrita. Em classe, impede herança.
+
+Os níveis de acesso, do mais restrito ao mais aberto. Private: só a própria classe. Sem modificador: a classe e o mesmo pacote. Protected: o mesmo pacote e também subclasses em outros pacotes. Public: qualquer lugar. Repare que protected é mais aberto que o acesso de pacote, e não mais fechado.
+
+E dois recursos recentes. O record, do Java 16, declara uma classe de dados imutável, com construtor, acessores, equals, hashCode e toString gerados automaticamente. E a enumeração define um conjunto fechado de instâncias.
+
+
+BLOCO DOIS. ENCAPSULAMENTO, INTERFACES, HERANÇA E POLIMORFISMO.
+
+A ideia central deste bloco é separar o que se decide na compilação do que se decide na execução.
+
+Encapsulamento primeiro.
+
+Encapsular é esconder o estado interno do objeto e expor apenas operações que preservam as regras dele. Na prática: atributos privados e métodos públicos que validam.
+
+Atenção: criar um método get e um método set para cada atributo não é encapsulamento de verdade. É só acesso indireto. O ganho está em proteger as regras do objeto. E devolver uma lista interna mutável quebra o encapsulamento, porque quem recebe pode alterá-la. O correto é devolver uma cópia ou uma visão não modificável.
+
+Agora, herança.
+
+A palavra extends cria uma relação do tipo é um. Java tem herança simples de classes: cada classe estende uma única classe. E toda classe descende de Object.
+
+Construtores não são herdados. O construtor da subclasse chama o da superclasse, de forma implícita, se existir um construtor sem argumentos. Se não existir, a chamada explícita é obrigatória e precisa ser a primeira instrução.
+
+Membros privados existem dentro do objeto da subclasse, mas a subclasse não tem acesso a eles.
+
+E uma orientação de projeto: herança acopla fortemente. Quando a relação for do tipo tem um, ou quando o objetivo for só reaproveitar código, prefira composição.
+
+Interfaces e classes abstratas.
+
+As diferenças que caem em prova. Uma classe pode implementar várias interfaces, mas estender só uma classe abstrata. Interface só tem constantes; classe abstrata pode ter atributos comuns. Interface não tem construtor; classe abstrata tem. Nenhuma das duas pode ser instanciada diretamente.
+
+E cuidado com a afirmação de que interface não pode ter método com corpo. Isso é falso desde o Java 8, que trouxe os métodos default e os métodos estáticos em interfaces. O Java 9 acrescentou os métodos privados.
+
+Se uma classe implementa duas interfaces que trazem o mesmo método default, ela é obrigada a sobrescrever esse método.
+
+E interface funcional é a que tem exatamente um método abstrato. Ela pode ser alvo de uma expressão lambda.
+
+Chegamos ao polimorfismo.
+
+Uma referência do tipo da superclasse pode apontar para um objeto de uma subclasse. Quando você chama um método de instância sobrescrito, quem decide qual versão executa é o tipo real do objeto, em tempo de execução. Isso se chama ligação dinâmica.
+
+Compare sobrescrita e sobrecarga.
+
+Sobrescrita: a subclasse redefine um método herdado, com os mesmos parâmetros. A resolução acontece na execução, pelo tipo do objeto.
+
+Sobrecarga: métodos de mesmo nome com parâmetros diferentes. A resolução acontece na compilação, pelo tipo declarado dos argumentos.
+
+As regras da sobrescrita. A visibilidade não pode ficar mais restrita. O método não pode declarar exceções verificadas novas ou mais amplas. O tipo de retorno pode ser o mesmo ou um subtipo. E métodos finais, estáticos e privados não são sobrescritos.
+
+Agora, a pegadinha mais importante do bloco. Atributos e métodos estáticos não são polimórficos. Eles são resolvidos pelo tipo declarado da referência.
+
+Exemplo falado. A classe Animal tem um atributo nome valendo animal, um método som e um método estático tipo. A classe Cão estende Animal, declara de novo o atributo nome valendo cão, sobrescreve o método som e declara outro método estático tipo. Você cria uma variável do tipo Animal apontando para um objeto Cão.
+
+Chamar o método som executa a versão do Cão, porque método de instância é resolvido pelo objeto.
+Ler o atributo nome devolve animal, porque atributo é resolvido pela referência.
+Chamar o método estático tipo executa a versão de Animal, pela mesma razão.
+
+A mesma lógica vale para sobrecarga. Se há um método que recebe Object e outro que recebe String, e você passa uma variável declarada como Object que guarda um texto, executa a versão de Object. O compilador olha o tipo declarado, não o conteúdo.
+
+Para encerrar, conversões. Converter de subtipo para supertipo é implícito e sempre seguro. Converter de supertipo para subtipo exige conversão explícita e pode lançar ClassCastException na execução. O operador instanceof testa o tipo antes, e com valor nulo devolve falso.
+
+
+BLOCO TRÊS. COLEÇÕES E TIPOS GENÉRICOS.
+
+Para escolher uma coleção, faça quatro perguntas. Existe ordem? Aceita duplicata? Aceita nulo? Quanto custa cada operação?
+
+A hierarquia. No topo está a interface Collection. Abaixo dela, três famílias: List, Set e Queue. E um detalhe que cai muito: a interface Map faz parte do framework de coleções, mas não estende Collection. É uma hierarquia separada.
+
+Vamos às implementações.
+
+ArrayList. Lista baseada em vetor. Mantém a ordem de inserção e aceita duplicatas. Acesso por índice em tempo constante. Inserir no fim é barato. Inserir ou remover no meio é caro, porque desloca elementos.
+
+LinkedList. Lista duplamente encadeada. Inserção e remoção nas pontas em tempo constante. Mas o acesso por índice é linear, porque precisa percorrer os nós.
+
+HashSet. Conjunto sem duplicatas e sem garantia de ordem. Inserção e busca em tempo constante, no caso médio.
+
+LinkedHashSet. Igual ao HashSet, mas preserva a ordem de inserção.
+
+TreeSet. Conjunto ordenado. As operações custam tempo logarítmico.
+
+HashMap. Mapa de chave e valor, sem garantia de ordem, com acesso constante no caso médio. Aceita uma chave nula e valores nulos.
+
+LinkedHashMap. Preserva a ordem de inserção das chaves.
+
+TreeMap. Mantém as chaves ordenadas, com custo logarítmico.
+
+ArrayDeque. Fila de duas pontas. Serve como pilha e como fila, e é a escolha recomendada para pilha, no lugar da classe antiga Stack.
+
+PriorityQueue. Fila de prioridade, baseada em heap. Retira sempre o menor elemento, com custo logarítmico.
+
+Agora, os pontos de atenção.
+
+HashSet e HashMap dependem dos métodos equals e hashCode. TreeSet e TreeMap dependem da comparação, seja pela interface Comparable, seja por um Comparator. E usam a comparação até para decidir se dois elementos são duplicados.
+
+Comparable define a ordem natural, dentro da própria classe. Comparator define ordens alternativas, fora da classe.
+
+As classes Vector e Hashtable são antigas e sincronizadas. E nem a Hashtable nem o ConcurrentHashMap aceitam chave ou valor nulo, diferentemente do HashMap.
+
+Coleções não modificáveis: quatro casos para distinguir.
+
+Lista criada com List ponto of. É imutável. Qualquer tentativa de adicionar, alterar ou remover lança UnsupportedOperationException. E não aceita nulo.
+
+Lista criada com Arrays ponto asList. Tem tamanho fixo. Você pode trocar o valor de uma posição, mas não pode adicionar nem remover.
+
+Lista criada com Collections ponto unmodifiableList. É apenas uma visão somente leitura. Se a lista original mudar, a visão muda junto.
+
+Lista criada com List ponto copyOf. É uma cópia imutável e independente da original.
+
+Outra armadilha: modificar a coleção durante a iteração. Remover elementos da lista dentro de um laço for each lança ConcurrentModificationException. E isso acontece mesmo com uma única thread. O nome engana. A forma correta é usar o método removeIf, ou o método remove do próprio iterador.
+
+E mais uma. Em uma lista de inteiros, chamar remove passando o número um remove o elemento da posição um, não o valor um. O compilador escolhe a versão que recebe o índice.
+
+Agora, os tipos genéricos.
+
+Genéricos dão segurança de tipos na compilação e dispensam conversões explícitas.
+
+O conceito mais cobrado é o apagamento de tipos, em inglês type erasure. Os parâmetros de tipo existem só na compilação. No bytecode, são apagados. Em tempo de execução, uma lista de textos e uma lista de inteiros têm a mesma classe.
+
+Consequências: não é possível instanciar o tipo genérico com new, nem criar vetor do tipo genérico, nem testar com instanceof se algo é uma lista de textos. E genéricos não aceitam tipos primitivos: usa-se Integer, não int.
+
+Segundo conceito: invariância. Uma lista de Integer não é subtipo de uma lista de Number, embora Integer seja subtipo de Number. Com vetores é diferente: vetores são covariantes, e o erro só aparece na execução.
+
+Terceiro conceito: os curingas. A regra para memorizar é: quem produz usa extends, quem consome usa super.
+
+Uma lista de interrogação extends Number aceita lista de Integer, de Double e assim por diante. Você pode ler os elementos como Number, mas não pode adicionar nada.
+
+Uma lista de interrogação super Integer aceita lista de Integer, de Number ou de Object. Você pode adicionar inteiros, mas só consegue ler como Object.
+
+
+BLOCO QUATRO. IGUALDADE DE OBJETOS, MUTABILIDADE, EXCEÇÕES E ARQUIVOS.
+
+Quatro temas, com algo em comum: erros que compilam sem aviso e só aparecem quando o programa roda.
+
+Primeiro tema: igualdade.
+
+O operador de igualdade, os dois sinais de igual, compara valores quando os operandos são primitivos, e compara referências quando são objetos. Ou seja, com objetos, ele pergunta se as duas variáveis apontam para o mesmo objeto.
+
+O método equals compara conteúdo. Mas só se a classe sobrescrever o método. A versão herdada de Object faz a mesma coisa que o operador de igualdade.
+
+O contrato entre equals e hashCode tem três frases.
+
+Se dois objetos são iguais pelo equals, eles precisam ter o mesmo hashCode.
+O inverso não vale: objetos diferentes podem ter o mesmo hashCode. Isso se chama colisão e é permitido.
+Quem sobrescreve equals deve sobrescrever hashCode.
+
+Se você sobrescrever só o equals, as coleções baseadas em hash deixam de funcionar. Você insere um CPF em um HashSet, procura por outro objeto com o mesmo número, e o conjunto responde que não contém.
+
+Agora, o caso clássico com textos.
+
+Dois textos criados como literais iguais apontam para o mesmo objeto, porque literais ficam em uma área compartilhada, chamada pool de strings. Comparados com o operador de igualdade, dão verdadeiro.
+
+Um texto criado com new String é sempre um objeto novo. Comparado com o literal pelo operador de igualdade, dá falso. Pelo equals, dá verdadeiro.
+
+A concatenação de dois literais é resolvida na compilação e cai no pool. Já a concatenação que envolve uma variável acontece na execução e gera um objeto novo.
+
+Conclusão prática: texto se compara com equals.
+
+Mais dois detalhes. Vetores não sobrescrevem equals: use o método Arrays ponto equals. E o equals da classe BigDecimal considera a escala: dois vírgula zero e dois vírgula zero zero são considerados diferentes. Para comparar o valor numérico, use compareTo.
+
+Segundo tema: mutabilidade.
+
+Objeto imutável não muda de estado depois de construído. São imutáveis: String, os wrappers, BigDecimal e as classes de data como LocalDate.
+
+A receita para uma classe imutável: classe final, atributos privados e finais, nenhum método set, e cópia defensiva dos componentes mutáveis.
+
+Pegadinha número um: a palavra final em uma variável fixa a referência, não o objeto. Uma lista declarada como final ainda aceita novos elementos. O que não pode é a variável apontar para outra lista.
+
+Pegadinha número dois: os métodos de String devolvem um texto novo. Chamar o método que converte para maiúsculas, sem guardar o resultado, não altera o texto original.
+
+Sobre desempenho: concatenar textos com o operador de soma dentro de um laço cria um objeto a cada volta, com custo total quadrático. Use StringBuilder, que é mutável. O StringBuffer também é mutável, mas é sincronizado.
+
+E um problema sério: se você altera um atributo que participa do hashCode depois de inserir o objeto em um HashSet, o conjunto não o encontra mais.
+
+Terceiro tema: exceções.
+
+A hierarquia começa em Throwable, que tem dois ramos.
+
+O ramo Error representa falhas graves do ambiente, como falta de memória e estouro de pilha. Não se trata.
+
+O ramo Exception se divide em dois grupos.
+
+As exceções verificadas, em inglês checked. O compilador obriga você a capturar ou a declarar na assinatura do método. Exemplos: IOException e SQLException.
+
+As exceções não verificadas, em inglês unchecked. São a RuntimeException e suas subclasses. Em geral indicam erro de programação. Exemplos: NullPointerException, IllegalArgumentException, ArithmeticException, ClassCastException e a de índice fora dos limites.
+
+Duas palavras parecidas. Throw, sem s, lança uma exceção. Throws, com s, aparece na assinatura e declara que o método pode lançar.
+
+Na ordem dos blocos catch, o mais específico vem antes do mais genérico. A ordem inversa é erro de compilação.
+
+Agora, o bloco finally. Ele executa sempre, com ou sem exceção. Executa inclusive quando o bloco try tem um return. Só não executa se a máquina virtual for encerrada.
+
+Dois exemplos falados. Um método tem return um dentro do try e, no finally, imprime a palavra fim. O método imprime fim e depois devolve um.
+
+Segundo exemplo: o try lança uma exceção, e o finally tem return dois. O método devolve dois, e a exceção é engolida. Return dentro de finally é má prática justamente por isso.
+
+Por fim, o try com recursos, do Java 7. Ele fecha automaticamente todo recurso que implemente a interface AutoCloseable. Três detalhes. O fechamento ocorre na ordem inversa da declaração. Os recursos são fechados antes da execução do catch e do finally. E, se o corpo e o fechamento lançarem exceções, prevalece a do corpo; a outra fica registrada como suprimida.
+
+Quarto tema: leitura e escrita de arquivos.
+
+Java tem duas interfaces de programação para isso. A antiga, do pacote java ponto io, baseada em fluxos. E a mais nova, do pacote java ponto nio ponto file, com as classes Path e Files.
+
+Na antiga, a distinção é esta. InputStream e OutputStream trabalham com bytes. Reader e Writer trabalham com caracteres. As versões com buffer, como BufferedReader, reduzem os acessos ao disco.
+
+Na nova, a classe Files tem métodos prontos. Para arquivo pequeno, você lê tudo de uma vez, como texto único ou como lista de linhas. Para arquivo grande, lê linha a linha, sob demanda, sem carregar tudo na memória.
+
+Os detalhes cobrados.
+
+O método que lê uma linha devolve nulo quando o arquivo acaba. O método que lê um caractere devolve menos um.
+
+A IOException é verificada. As exceções de arquivo não encontrado são subclasses dela.
+
+A escrita, por padrão, sobrescreve o conteúdo do arquivo. Para acrescentar no final, é preciso pedir explicitamente o modo de acréscimo.
+
+Os métodos da classe Files usam a codificação UTF-8 por padrão. As classes antigas FileReader e FileWriter usam a codificação padrão da plataforma. O recomendado é informar a codificação explicitamente.
+
+E, sem fechar o fluxo, os dados que estão no buffer podem não chegar ao disco. Por isso, arquivo se abre com try com recursos.
+
+
+BLOCO CINCO. ESTRUTURAS DE DADOS, ALGORITMOS E PSEUDOCÓDIGO.
+
+Aqui o edital pede o conceito, independente de linguagem.
+
+Estruturas lineares.
+
+O vetor tem acesso por índice em tempo constante e tamanho fixo. Inserir no meio é linear.
+
+A lista encadeada é formada por nós ligados por referências. Inserir é rápido quando você já está no ponto certo, mas a busca é linear.
+
+A pilha segue a política LIFO: o último a entrar é o primeiro a sair. Pense em uma pilha de pratos. É usada em chamadas de método, na função desfazer e na busca em profundidade.
+
+A fila segue a política FIFO: o primeiro a entrar é o primeiro a sair. Pense em uma fila de banco. É usada em processamento por ordem de chegada e na busca em largura.
+
+Tabela de dispersão, ou tabela hash.
+
+Uma função de hash transforma a chave em uma posição. Inserir, buscar e remover custam tempo constante no caso médio.
+
+Chaves diferentes podem cair na mesma posição: é a colisão. Há duas formas de tratar: encadeamento, em que cada posição guarda uma lista, e endereçamento aberto, em que se procura outra posição livre.
+
+Com muitas colisões, o pior caso passa a ser linear. Então, cuidado com a afirmação de que a tabela hash garante tempo constante. Ela não garante: é o caso médio.
+
+No Java, o HashMap usa encadeamento, começa com dezesseis posições e fator de carga de zero vírgula setenta e cinco. Quando passa desse limite, ele dobra de tamanho e redistribui os elementos.
+
+Árvores.
+
+Na árvore binária de busca, os menores ficam à esquerda e os maiores à direita. O custo das operações depende da altura. Se a árvore estiver equilibrada, é logarítmico. Mas, se você inserir os dados já ordenados, a árvore degenera em uma lista, e o custo vira linear.
+
+As árvores balanceadas, como a AVL e a rubro-negra, se reorganizam para manter a altura logarítmica. O TreeMap do Java é uma árvore rubro-negra.
+
+Três percursos. Em pré-ordem: raiz, esquerda, direita. Em ordem: esquerda, raiz, direita. Em pós-ordem: esquerda, direita, raiz. E guarde: o percurso em ordem de uma árvore binária de busca visita as chaves em ordem crescente.
+
+O heap é uma árvore em que o pai é sempre menor que os filhos, no heap mínimo, ou sempre maior, no heap máximo. Consultar o topo é constante; inserir e remover é logarítmico.
+
+Sobre grafos, basta saber: a busca em largura usa fila e encontra o menor caminho em número de arestas. A busca em profundidade usa pilha ou recursão.
+
+Busca e ordenação.
+
+A busca linear olha elemento por elemento. Funciona em qualquer sequência e tem custo linear.
+
+A busca binária divide o espaço pela metade a cada passo e tem custo logarítmico. Mas exige que os dados estejam ordenados. Essa condição é o que o examinador costuma omitir para tornar o item errado.
+
+Os algoritmos de ordenação, em dois grupos.
+
+Os simples, de custo quadrático: bolha, seleção e inserção. O de inserção é muito bom quando os dados já estão quase ordenados.
+
+Os eficientes, de custo n log n: merge sort, quick sort e heap sort.
+
+O merge sort tem custo n log n em todos os casos, mas precisa de memória extra proporcional à entrada. E é estável.
+
+O quick sort tem custo n log n no caso médio, mas quadrático no pior caso, que ocorre com uma escolha ruim de pivô. E não é estável.
+
+O heap sort tem custo n log n em todos os casos e não usa memória extra, mas não é estável.
+
+Ordenação estável é a que preserva a ordem relativa dos elementos de chave igual.
+
+Agora, pseudocódigo.
+
+Antes de simular, confira três convenções no enunciado. O índice começa em zero ou em um? O limite do laço é inclusivo? E a divisão é inteira? Além disso, a seta para a esquerda significa atribuição, e o sinal de igual significa comparação.
+
+Vamos simular uma busca binária juntos. O vetor tem sete posições, de zero a seis, com os valores dois, cinco, oito, doze, dezesseis, vinte e três e trinta e oito. Queremos achar o vinte e três.
+
+Início vale zero, fim vale seis.
+
+Primeira volta: o meio é zero mais seis, dividido por dois, que dá três. Na posição três está o doze. Doze é menor que vinte e três, então o início passa a ser quatro.
+
+Segunda volta: o meio é quatro mais seis, dividido por dois, que dá cinco. Na posição cinco está o vinte e três. Encontrado. O algoritmo devolve a posição cinco, em duas comparações.
+
+Erros que o examinador planta nesse algoritmo. Trocar a condição menor ou igual por apenas menor: o último candidato deixa de ser examinado. E atualizar o início para o meio, em vez de meio mais um: isso pode gerar laço infinito.
+
+
+BLOCO SEIS. LEITURA, DEPURAÇÃO E TESTES DE BORDA.
+
+Este subitem explica a palavra correção no título do tópico. O edital quer que você leia um trecho, diga o que ele faz, encontre o defeito e escolha os testes que o revelam.
+
+Método para ler código em prova. Cinco passos.
+
+Um: leia as declarações. Tipos e valores iniciais.
+Dois: monte uma tabela, com uma coluna para cada variável.
+Três: execute linha a linha, sem pular iterações.
+Quatro: confira com atenção a primeira e a última volta de cada laço.
+Cinco: só então compare com a afirmação do item.
+
+Os defeitos mais plantados.
+
+Erro por um. O laço vai até menor ou igual ao tamanho do vetor, em vez de menor. Na última volta, estoura o índice.
+
+Divisão inteira. A média calculada com dois inteiros perde a parte decimal.
+
+Comparação de textos com o operador de igualdade, em vez de equals.
+
+Valor nulo não tratado, que gera NullPointerException.
+
+Falta de break no switch.
+
+Atribuição no lugar de comparação. Com variável booleana, um único sinal de igual dentro do if compila, e a condição passa a valer o que foi atribuído.
+
+Ponto e vírgula logo depois do for, que deixa o laço com corpo vazio.
+
+E resultado ignorado, como chamar um método de String sem guardar o retorno.
+
+Agora, depuração.
+
+Primeiro, um conceito. Testar é mostrar que existe um defeito. Depurar é localizar e remover a causa de um defeito já observado. São atividades diferentes.
+
+O processo de depuração tem seis passos. Reproduzir a falha de forma confiável, com a menor entrada possível. Formular uma hipótese. Isolar o trecho suspeito, por exemplo dividindo o problema ao meio. Observar o estado real, com depurador ou com registros de log. Corrigir a causa, e não o sintoma. E escrever um teste que falhava antes e passa depois, para evitar regressão.
+
+Os recursos de um depurador. O ponto de parada, ou breakpoint, suspende a execução em uma linha; o condicional só para quando uma expressão é verdadeira. O comando step over executa a linha sem entrar nos métodos chamados. O step into entra no método chamado. O step out termina o método atual e volta ao chamador.
+
+E como ler o rastro de pilha do Java, o stack trace. A primeira linha traz o tipo da exceção e a mensagem. A primeira linha que começa com at mostra onde a exceção foi lançada. As seguintes mostram quem chamou. E, quando aparece a expressão caused by, ela indica a exceção original. A causa raiz é a última da cadeia.
+
+Testes de borda.
+
+Os defeitos se concentram nos limites. Duas técnicas de caixa-preta trabalham juntas.
+
+A partição de equivalência divide as entradas em classes que o programa deve tratar do mesmo modo. Basta um representante de cada classe, incluindo as inválidas.
+
+A análise de valor limite testa as fronteiras de cada classe.
+
+Exemplo. Um campo aceita idade de dezoito a sessenta e cinco, inclusive.
+
+Pela partição de equivalência, são três classes: abaixo de dezoito, de dezoito a sessenta e cinco, e acima de sessenta e cinco. Três testes bastam, por exemplo dez, quarenta e oitenta.
+
+Pela análise de valor limite, na versão de dois valores por fronteira, testamos dezessete, dezoito, sessenta e cinco e sessenta e seis.
+
+Veja por que isso importa. O requisito diz: pode se aposentar a partir de sessenta e cinco anos. O programador escreveu: idade maior que sessenta e cinco. Testar com trinta e com setenta passa, e não revela nada. Só o valor de borda, sessenta e cinco, mostra que o correto era maior ou igual.
+
+Bordas que valem para quase todo código: coleção vazia, com um elemento só e com duplicatas. Valor nulo, texto vazio e texto só com espaços. Zero, negativos e os valores extremos do tipo. Primeiro e último índice. E, em datas, o dia vinte e nove de fevereiro e as viradas de mês e de ano.
+
+
+BLOCO SETE. COMPLEXIDADE EM DECISÕES DE DESEMPENHO.
+
+Complexidade mede como o custo cresce quando a entrada cresce. Não mede tempo em segundos.
+
+A notação. O O grande é o limite superior do crescimento. O ômega é o limite inferior. O teta é o limite justo, superior e inferior ao mesmo tempo.
+
+Constantes e termos menores são descartados. Três n ao quadrado mais dez n mais cinco é, simplesmente, ordem de n ao quadrado.
+
+A escala de crescimento, do melhor para o pior: constante, logarítmico, linear, n log n, quadrático, exponencial e fatorial.
+
+Para sentir a diferença, pense em um milhão de elementos. Constante: uma operação. Logarítmico: cerca de vinte. Linear: um milhão. N log n: cerca de vinte milhões. Quadrático: um trilhão.
+
+Como calcular.
+
+Instruções em sequência somam, e prevalece o termo maior.
+Laços aninhados multiplicam.
+Um laço que divide o problema pela metade, ou dobra o contador a cada volta, é logarítmico.
+Um laço linear com trabalho logarítmico dentro é n log n.
+
+Cuidado com um caso. Dois laços aninhados em que o laço interno começa no valor do externo. O total de voltas é a soma de n, n menos um, n menos dois, até um. Isso dá aproximadamente metade de n ao quadrado. Continua sendo quadrático.
+
+Um conceito adicional: custo amortizado. Adicionar no fim de um ArrayList é constante na média, porque quase sempre é barato, e só de vez em quando há um redimensionamento caro.
+
+E complexidade também mede memória. Muitas otimizações trocam memória por tempo, como o cache.
+
+Agora, o que o edital realmente quer: decisões.
+
+Você precisa verificar muitas vezes se um elemento existe. Fazer isso em uma lista, dentro de um laço, é quadrático no total. Trocar por um HashSet reduz cada busca para constante, no caso médio.
+
+Você busca objetos por uma chave. Em vez de percorrer a lista, monte um HashMap indexado pela chave.
+
+Você precisa dos dados sempre ordenados, ou consulta faixas de valores. Use TreeMap ou TreeSet.
+
+Você acessa por posição dentro de um laço. Use ArrayList, e não LinkedList.
+
+Você monta um texto dentro de um laço. Use StringBuilder.
+
+Você faz muitas buscas em dados que não mudam. Ordene uma vez e use busca binária.
+
+Você sempre retira o menor ou o maior elemento. Use fila de prioridade.
+
+E o caso que aparece em sistemas reais: fazer uma consulta ao banco de dados para cada item de uma lista. É o problema conhecido como n mais um. A solução é uma única consulta com junção, ou em lote.
+
+Para fechar, os limites da análise. A notação descreve a tendência para entradas grandes; para entradas pequenas, as constantes podem inverter o resultado. E a boa prática é medir antes de otimizar. Otimização prematura piora a legibilidade sem ganho comprovado.
+
+
+BLOCO OITO. MODULARIDADE E PADRÕES DE PROJETO APLICADOS À MANUTENÇÃO.
+
+O recorte do edital é a manutenção: dividir o código de modo que uma mudança afete poucos lugares.
+
+A meta se resume em uma frase: alta coesão e baixo acoplamento.
+
+Coesão é o quanto os elementos de um módulo servem a um mesmo propósito. Quanto maior, melhor.
+
+Acoplamento é o quanto um módulo depende dos outros. Quanto menor, melhor.
+
+O examinador costuma inverter os dois. Fique atento.
+
+Outros conceitos de modularidade. Ocultação de informação: o módulo expõe uma interface estável e esconde as decisões internas. Separação de responsabilidades: apresentação, regras de negócio e acesso a dados ficam em camadas distintas. E injeção de dependências: a classe recebe suas dependências prontas, por meio de abstrações, em vez de criá-las.
+
+Os cinco princípios SOLID.
+
+S, responsabilidade única: uma classe deve ter um só motivo para mudar.
+O, aberto e fechado: aberta para extensão, fechada para modificação.
+L, substituição de Liskov: o subtipo deve poder substituir o tipo base sem quebrar o programa.
+I, segregação de interfaces: várias interfaces específicas são melhores do que uma geral.
+D, inversão de dependência: dependa de abstrações, não de implementações concretas.
+
+Agora, os padrões de projeto do catálogo conhecido como GoF. São vinte e três, em três grupos: cinco criacionais, sete estruturais e onze comportamentais.
+
+Os criacionais tratam da criação de objetos.
+
+Singleton garante uma única instância, com acesso global.
+Factory Method delega a criação a subclasses.
+Abstract Factory cria famílias de objetos relacionados.
+Builder constrói um objeto complexo passo a passo, e evita construtores com muitos parâmetros.
+Prototype cria objetos por clonagem.
+
+Os estruturais tratam da composição de classes e objetos.
+
+Adapter converte uma interface em outra que o cliente espera. É muito usado para integrar código legado.
+Facade oferece uma interface única e simples para um subsistema.
+Decorator acrescenta responsabilidades a um objeto, dinamicamente, e evita uma explosão de subclasses.
+Proxy é um substituto que controla o acesso ao objeto real. É assim que o Spring aplica transações.
+Composite trata objetos individuais e composições de modo uniforme, em estruturas de árvore.
+
+Os comportamentais tratam da distribuição de responsabilidades.
+
+Strategy encapsula algoritmos intercambiáveis.
+Template Method define o esqueleto do algoritmo na superclasse e deixa passos para as subclasses.
+Observer notifica os dependentes quando um objeto muda.
+State altera o comportamento do objeto conforme seu estado interno.
+Chain of Responsibility passa a requisição por uma cadeia de tratadores, como os filtros de segurança do Spring.
+Command encapsula uma requisição como objeto.
+Iterator percorre uma coleção sem expor sua estrutura interna.
+
+Agora, os pares que o examinador troca de propósito. Preste atenção.
+
+Adapter e Facade. O Adapter converte uma interface que já existe. O Facade cria uma interface nova e mais simples.
+
+Decorator e Proxy. Os dois mantêm a mesma interface do objeto. O Decorator acrescenta comportamento. O Proxy controla o acesso.
+
+Strategy e State. A estrutura é parecida. No Strategy, o cliente escolhe o algoritmo. No State, o próprio objeto muda de comportamento quando seu estado muda.
+
+Strategy e Template Method. O Strategy varia por composição. O Template Method varia por herança.
+
+Factory Method e Abstract Factory. O primeiro cria um produto, por herança. O segundo cria famílias de produtos, por composição.
+
+Um exemplo aplicado à manutenção. Imagine um método que calcula um valor de glosa e tem uma cadeia de condições: se o tipo for diária, aplica dez por cento; se for passagem, aplica cinco por cento. Cada novo tipo obriga a abrir e alterar essa classe. Isso viola o princípio aberto e fechado.
+
+Com o padrão Strategy, você cria uma interface de regra de glosa e uma classe para cada regra. A classe principal recebe a regra por injeção e apenas a executa. Uma regra nova vira uma classe nova, testável de forma isolada, sem tocar no código que já funciona.
+
+Por último, refatoração. Refatorar é melhorar a estrutura interna do código sem alterar o comportamento externo. Corrigir defeito ou adicionar função não é refatoração.
+
+Os sinais de que o código precisa de refatoração são chamados de maus cheiros: código duplicado, método longo, classe que faz tudo e lista longa de parâmetros.
+
+E um alerta final: padrão de projeto não é obrigação. Aplicado sem necessidade, ele aumenta a complexidade e atrapalha a manutenção.
+
+
+BLOCO NOVE. REVISÃO NO ESTILO CEBRASPE.
+
+Vamos às afirmações. Depois de cada uma, pense na resposta antes de ouvir o gabarito. Se precisar, pause o áudio.
+
+Afirmação um. Em Java, objetos são passados por referência, de modo que um método pode fazer a variável do chamador apontar para outro objeto.
+
+Gabarito: errado. A passagem é sempre por valor. O que se copia é a referência.
+
+Afirmação dois. Uma variável local do tipo inteiro, não inicializada, vale zero.
+
+Gabarito: errado. Só atributos têm valor padrão. Usar a variável local sem inicializar é erro de compilação.
+
+Afirmação três. A chamada a um método de instância sobrescrito é resolvida em tempo de execução, conforme o tipo do objeto.
+
+Gabarito: certo. É a ligação dinâmica.
+
+Afirmação quatro. Métodos estáticos podem ser sobrescritos e têm comportamento polimórfico.
+
+Gabarito: errado. Métodos estáticos são ocultados e resolvidos pelo tipo da referência.
+
+Afirmação cinco. A interface Map é subinterface de Collection.
+
+Gabarito: errado. Map tem hierarquia separada.
+
+Afirmação seis. As informações de tipo genérico são verificadas na compilação e apagadas no bytecode.
+
+Gabarito: certo. É o apagamento de tipos.
+
+Afirmação sete. Se dois objetos têm o mesmo hashCode, então o método equals entre eles devolve verdadeiro.
+
+Gabarito: errado. Colisões são permitidas. A implicação vale no sentido contrário: iguais pelo equals, mesmo hashCode.
+
+Afirmação oito. O bloco finally não é executado quando o bloco try contém uma instrução return.
+
+Gabarito: errado. O finally executa antes de o método retornar.
+
+Afirmação nove. A busca binária localiza um elemento em tempo logarítmico em qualquer vetor.
+
+Gabarito: errado. Ela exige que o vetor esteja ordenado.
+
+Afirmação dez. Para um campo que aceita valores de um a cem, os valores zero, um, cem e cento e um atendem à análise de valor limite.
+
+Gabarito: certo. Cada fronteira é testada com um valor válido e um inválido.
+
+Afirmação onze. Um bom projeto modular busca alto acoplamento e baixa coesão.
+
+Gabarito: errado. É o inverso: alta coesão e baixo acoplamento.
+
+Afirmação doze. O padrão Adapter fornece uma interface simplificada para um conjunto de classes de um subsistema.
+
+Gabarito: errado. Essa é a intenção do padrão Facade. O Adapter converte uma interface em outra.
+
+
+BLOCO DEZ. ENCERRAMENTO.
+
+Para fechar, as oito ideias que você deve levar desta aula, uma por subitem.
+
+Um. Java passa tudo por valor, e variável local não tem valor padrão.
+
+Dois. Método de instância é resolvido pelo objeto. Atributo, método estático e sobrecarga são resolvidos pelo tipo declarado.
+
+Três. Map não é Collection, e os tipos genéricos são apagados na compilação.
+
+Quatro. Objetos se comparam com equals; equals e hashCode andam juntos; e o finally executa sempre.
+
+Cinco. Busca binária exige ordenação, e o quick sort é quadrático no pior caso.
+
+Seis. Os defeitos moram nas bordas: teste o limite e os vizinhos.
+
+Sete. Escolha a estrutura pelo custo da operação que você mais repete.
+
+Oito. Alta coesão, baixo acoplamento, e padrão de projeto só quando resolve um problema real.
+
+Bons estudos, e até a próxima aula.
