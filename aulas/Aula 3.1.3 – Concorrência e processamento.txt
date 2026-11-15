@@ -1,0 +1,607 @@
+AUDIOAULA. Concurso da CGU, Auditor Federal de Finanças e Controle, especialidade Desenvolvimento de Sistemas.
+Item três, um, três do edital: Concorrência e processamento.
+
+
+BLOCO ZERO. ABERTURA.
+
+Olá. Esta é a audioaula do item três, um, três do edital da CGU: Concorrência e processamento.
+
+Esse tópico pertence ao bloco Engenharia de Software e Programação. Ele trata do que muda quando várias tarefas, ou várias requisições, executam ao mesmo tempo: o que pode dar errado, como proteger os dados e quanto isso custa em desempenho.
+
+São quatro subitens, e vamos seguir a ordem do edital.
+
+Primeiro, concorrência, paralelismo e assincronia.
+Segundo, condições de corrida e sincronização.
+Terceiro, compartilhamento de estado, bloqueios e falhas.
+Quarto, correção e desempenho sob requisições concorrentes.
+
+Ao fim de cada bloco, vou destacar as pegadinhas e a estratégia para enfrentá-las. E, no final da aula, teremos dezesseis questões de fixação, no estilo certo ou errado.
+
+Antes de começar, cinco estratégias que a banca usa neste tema. Guarde, porque elas se repetem.
+
+Primeira: a troca de par conceitual. A definição de um conceito é atribuída ao vizinho. Concorrência por paralelismo. Deadlock por livelock. Otimista por pessimista.
+
+Segunda: a garantia exagerada. Palavras como garante, elimina, sempre e qualquer, aplicadas a um mecanismo que resolve só uma parte do problema.
+
+Terceira: a meia verdade no final. O item é longo e correto, e o erro está na última oração. Leia até o ponto final.
+
+Quarta: o código curto com saída supostamente fixa. O item afirma que o programa sempre imprime certo valor. Em código com disputa entre threads, a resposta quase nunca é sempre.
+
+Quinta: a ideia de que mais é melhor. Mais threads, mais isolamento, mais sincronização. Em concorrência, toda escolha tem custo.
+
+E lembre: na prova de conhecimentos específicos, cada erro desconta dois pontos. Em item de concorrência, pergunte sempre três coisas. O que é compartilhado? Quem altera? E o que protege?
+
+Vamos lá.
+
+
+BLOCO UM. CONCORRÊNCIA, PARALELISMO E ASSINCRONIA.
+
+São três ideias diferentes, e a banca cobra, antes de tudo, que você não as confunda.
+
+Concorrência é lidar com várias tarefas no mesmo período. As tarefas estão em andamento ao mesmo tempo, mas podem estar apenas se alternando. Um único núcleo de processador consegue fazer isso, intercalando pedacinhos de cada tarefa.
+
+Paralelismo é executar várias tarefas no mesmo instante físico. Isso exige mais de um núcleo.
+
+Assincronia é não ficar parado esperando um resultado. Quem chama segue em frente, e o resultado chega depois.
+
+Uma forma de memorizar. Concorrência é propriedade da estrutura do programa. Paralelismo é propriedade da execução. Todo paralelismo envolve concorrência, mas existe concorrência sem paralelismo.
+
+E a assincronia não exige várias threads. O JavaScript, por exemplo, trabalha com uma única thread e um laço de eventos, e mesmo assim é assíncrono.
+
+Mais um par de termos. Síncrono e assíncrono dizem respeito a quem espera. Bloqueante e não bloqueante dizem respeito a se a thread fica presa enquanto espera.
+
+Agora, processo e thread.
+
+O processo tem o seu próprio espaço de memória. A thread é uma linha de execução dentro de um processo, e compartilha com as outras threads a área de memória chamada heap. Cada thread tem a sua própria pilha.
+
+Consequência prática: as variáveis locais ficam na pilha e não são compartilhadas. Os objetos ficam no heap e podem ser compartilhados. É daí que nascem os problemas dos próximos blocos.
+
+Criar e trocar de thread é mais barato do que criar e trocar de processo. Em compensação, o processo é mais isolado.
+
+Vamos às threads em Java.
+
+A pegadinha número um da linguagem neste tema: a diferença entre os métodos start e run. O método start cria a nova thread, que então executa o run. Chamar o run diretamente não cria thread nenhuma. O código simplesmente roda na thread atual, como um método qualquer.
+
+Outros pontos.
+
+A interface Runnable não devolve valor e não lança exceção verificada. A interface Callable devolve valor e pode lançar exceção.
+
+Chamar start duas vezes na mesma thread lança uma exceção de estado ilegal.
+
+O método join faz a thread atual esperar a outra terminar.
+
+O método sleep pausa a thread, mas não libera os bloqueios que ela detém. Quem libera o bloqueio é o método wait. Essa troca cai muito.
+
+O método interrupt não mata a thread. Ele apenas sinaliza um pedido de interrupção.
+
+E a ordem de execução entre threads não é garantida. Depende do escalonador.
+
+Os estados de uma thread em Java são seis. Nova. Executável. Bloqueada, que é quando espera um bloqueio. Em espera, sem prazo. Em espera com prazo. E terminada. Detalhe de prova: na enumeração do Java não existe um estado chamado em execução. O estado executável cobre tanto a thread pronta quanto a que está rodando.
+
+Agora, os executores e os pools de threads.
+
+Criar uma thread para cada tarefa é caro e não tem limite. Por isso existe o serviço executor, que separa a tarefa de quem a executa e reaproveita threads.
+
+Os tipos principais.
+
+O pool de tamanho fixo tem um número definido de threads e uma fila sem limite.
+
+O pool com cache cria threads sob demanda, sem limite, e reaproveita as ociosas.
+
+O executor de thread única processa as tarefas em ordem.
+
+O pool agendado executa tarefas com atraso ou de forma periódica.
+
+E o pool de divisão e conquista, chamado fork join, usa uma técnica conhecida como roubo de trabalho.
+
+Há duas formas de enviar uma tarefa. O método execute não devolve nada. O método submit devolve um objeto chamado Future, que representa o resultado que ainda vai chegar.
+
+E aqui mora outra pegadinha. O método get do Future bloqueia a thread até o resultado ficar pronto. Usar Future não torna o código não bloqueante.
+
+Para encerrar um pool, o método shutdown para de aceitar tarefas e conclui as que já foram enviadas. O método shutdown now tenta interromper as que estão rodando.
+
+Para assincronia de verdade, o Java oferece o Completable Future. Com ele, você encadeia etapas sem bloquear: executa algo em outra thread, transforma o resultado, combina com outro resultado e trata a falha, tudo declarado em sequência.
+
+Dois recursos recentes.
+
+As threads virtuais, do Java vinte e um. São threads leves, gerenciadas pela máquina virtual, e muitas delas compartilham poucas threads do sistema operacional. Quando uma thread virtual fica esperando uma operação de entrada e saída, ela libera a thread real para outra tarefa.
+
+Atenção ao ponto que a banca explora. Threads virtuais servem para muitas tarefas que esperam. Elas não aceleram cálculo pesado, porque o número de núcleos continua o mesmo.
+
+E os streams paralelos. Eles ajudam em cálculo sobre grande volume de dados, com operações sem estado. Com poucos dados, com entrada e saída ou com estado compartilhado, eles pioram o resultado.
+
+Isso nos leva a uma distinção importante: tarefa limitada por processador e tarefa limitada por entrada e saída.
+
+Na tarefa limitada por processador, o gargalo é o próprio processador. O tamanho ideal do pool fica perto do número de núcleos. Colocar mais threads só aumenta a troca de contexto.
+
+Na tarefa limitada por entrada e saída, o gargalo é a espera por rede, disco ou banco. Aí faz sentido ter mais threads do que núcleos.
+
+E existe um limite teórico para o ganho com paralelismo: a Lei de Amdahl. Ela diz que o ganho máximo é limitado pela parte do programa que não pode ser paralelizada.
+
+Um exemplo numérico. Se noventa por cento do programa pode rodar em paralelo, sobram dez por cento sequenciais. O ganho máximo, com infinitos núcleos, é um dividido por zero vírgula um, ou seja, dez vezes. Com quatro núcleos, o ganho fica em torno de três vezes. Não quatro.
+
+Por fim, como isso aparece na web.
+
+No modelo tradicional do Spring, cada requisição ocupa uma thread do pool do servidor, que fica bloqueada enquanto espera o banco. É simples, mas limitado pelo tamanho do pool.
+
+No modelo reativo, poucas threads atendem muitas requisições, com entrada e saída não bloqueante. O cuidado é que uma única chamada bloqueante ali dentro trava todas as outras requisições.
+
+A anotação Async do Spring executa um método em outra thread. Ela funciona por meio de um objeto intermediário, chamado proxy. Por isso, se o método for chamado de dentro da própria classe, a chamada não passa pelo proxy, e o método roda de forma síncrona.
+
+E no JavaScript, a palavra await suspende a função, e não a thread. A thread continua livre para atender outros eventos.
+
+Pegadinhas deste bloco.
+
+Concorrência exige múltiplos núcleos. Errado. Isso é paralelismo.
+
+Programação assíncrona implica várias threads. Errado. O laço de eventos faz assincronia com uma thread só.
+
+O método run inicia uma nova thread. Errado. É o start.
+
+Dobrar o número de threads dobra a vazão. Errado. Depende do gargalo.
+
+Threads virtuais aceleram cálculo intensivo. Errado. O ganho é em tarefas que esperam.
+
+O método sleep libera o bloqueio. Errado. Quem libera é o wait.
+
+Estratégia para este bloco: quando ler concorrente, paralelo ou assíncrono, troque mentalmente a palavra pelas outras duas. Se a frase só fizer sentido com outra palavra, o item está errado.
+
+
+BLOCO DOIS. CONDIÇÕES DE CORRIDA E SINCRONIZAÇÃO.
+
+Existe condição de corrida quando o resultado depende da ordem em que as threads se intercalam.
+
+O exemplo clássico é o contador. Uma classe tem um atributo inteiro e um método que faz valor mais mais. Parece uma operação só, mas são três passos: ler o valor, somar um e gravar de volta.
+
+Agora imagine duas threads. A thread A lê cinco. Antes que ela grave, a thread B também lê cinco. A thread A grava seis. A thread B grava seis. Houve dois incrementos, e o valor subiu apenas um. Esse defeito tem nome: atualização perdida.
+
+Se duas threads chamarem esse método mil vezes cada uma, o resultado pode ser dois mil, mas pode ser menos. Não há garantia. Então, se o item disser que o programa sempre imprime dois mil, está errado.
+
+Existem dois padrões de corrida. Reconheça os dois.
+
+O primeiro é ler, modificar e gravar. É o caso do contador e do débito em um saldo.
+
+O segundo é verificar e depois agir. Por exemplo: se a chave não existe, insere. Entre a verificação e a ação, outra thread pode mudar a situação.
+
+Um pouco de vocabulário.
+
+Seção crítica é o trecho de código que acessa estado compartilhado e não pode ser executado por duas threads ao mesmo tempo.
+
+Exclusão mútua é a garantia de que só uma thread por vez entra na seção crítica.
+
+E uma classe é segura para threads quando se comporta corretamente sob acesso concorrente, sem que quem a usa precise coordenar nada.
+
+Agora, o coração do bloco. Código concorrente correto precisa de três garantias.
+
+Atomicidade: a operação composta acontece inteira, sem que outra thread se intrometa no meio.
+
+Visibilidade: o que uma thread gravou é enxergado pelas outras. Sem essa garantia, uma thread pode ficar presa em um laço porque nunca vê que a outra mudou um sinalizador.
+
+Ordenação: as instruções não são vistas fora de ordem pelas outras threads.
+
+Cada mecanismo de sincronização entrega um subconjunto dessas três garantias. Vamos a eles.
+
+Primeiro mecanismo: a palavra synchronized.
+
+Ela usa o bloqueio interno de um objeto, chamado monitor. Garante exclusão mútua e também visibilidade.
+
+O ponto que cai em prova é qual objeto é bloqueado.
+
+Em um método de instância sincronizado, o bloqueio é do próprio objeto, o this.
+
+Em um método estático sincronizado, o bloqueio é do objeto que representa a classe.
+
+Em um bloco sincronizado, o bloqueio é do objeto indicado entre parênteses.
+
+Daí saem quatro consequências.
+
+Dois métodos de instância sincronizados, chamados sobre o mesmo objeto, disputam o mesmo bloqueio. Não rodam ao mesmo tempo.
+
+Objetos diferentes têm bloqueios diferentes.
+
+Um método estático sincronizado e um método de instância sincronizado não se excluem, porque os bloqueios são distintos.
+
+E o synchronized é reentrante. A thread que já tem o bloqueio pode adquiri-lo de novo, sem travar a si mesma.
+
+Além disso, o bloqueio é liberado automaticamente na saída do bloco, mesmo que ocorra uma exceção.
+
+Segundo mecanismo: a palavra volatile.
+
+Ela garante visibilidade e ordenação. Não garante atomicidade de operações compostas.
+
+O uso correto é um sinalizador simples, gravado por uma thread e lido por outras. Por exemplo, uma variável booleana que indica que o serviço deve parar.
+
+Declarar o contador como volatile não corrige o incremento. Essa é provavelmente a pegadinha mais cobrada do tema.
+
+Terceiro mecanismo: as classes atômicas, como o inteiro atômico.
+
+Elas oferecem operações compostas atômicas sem usar bloqueio. A técnica se chama comparar e trocar. A ideia é: grave o novo valor somente se o valor atual ainda for o que eu li. Se outra thread alterou no meio, tente de novo.
+
+É uma abordagem otimista. E cuidado: cada operação é atômica isoladamente. Duas chamadas em sequência não formam uma operação atômica.
+
+Quarto mecanismo: os bloqueios explícitos, como o bloqueio reentrante.
+
+Eles oferecem recursos que o synchronized não tem. Tentar adquirir sem esperar, ou com prazo. Espera que pode ser interrompida. E política justa, que atende por ordem de chegada.
+
+O preço é que a liberação não é automática. O desbloqueio precisa estar em um bloco finally. Se o item disser que o bloqueio reentrante é liberado automaticamente ao fim do método, está errado.
+
+Há também o bloqueio de leitura e escrita. Ele permite vários leitores ao mesmo tempo, ou um único escritor. Compensa quando há muito mais leitura do que escrita.
+
+Sobre a coordenação entre threads.
+
+Os métodos wait e notify pertencem à classe Object, e só podem ser chamados por quem detém o bloqueio daquele objeto. Fora disso, ocorre exceção.
+
+O wait deve ficar dentro de um laço enquanto, e não de um simples se, porque a thread pode acordar sem que a condição seja verdadeira.
+
+E há os sincronizadores prontos.
+
+O semáforo limita o número de acessos simultâneos.
+
+A trava de contagem regressiva espera um número de eventos terminar, e não pode ser reutilizada.
+
+A barreira cíclica faz um grupo de threads esperar umas pelas outras em um ponto, e pode ser reutilizada.
+
+A fila bloqueante atende ao padrão produtor e consumidor.
+
+Para fechar, as coleções concorrentes.
+
+O mapa concorrente, o Concurrent Hash Map, permite leituras sem bloqueio e não aceita chave nem valor nulos.
+
+A lista de cópia na escrita copia o conteúdo a cada alteração. É boa quando há muita leitura e pouca escrita.
+
+E a lista sincronizada, obtida pela classe Collections, usa um único bloqueio para tudo. Nela, a iteração exige sincronização manual.
+
+A pegadinha aqui é fina. Uma coleção segura para threads garante cada operação isolada. A composição de operações continua sendo responsabilidade de quem usa. Verificar se a chave existe e depois inserir é uma corrida, mesmo com o mapa concorrente. A forma correta é usar o método que faz as duas coisas de uma vez, de forma atômica.
+
+Pegadinhas deste bloco.
+
+Volatile torna o incremento seguro. Errado. Dá visibilidade, não atomicidade.
+
+Métodos sincronizados de instância e estáticos compartilham o bloqueio. Errado.
+
+Uma thread entra em deadlock ao chamar outro método sincronizado do mesmo objeto. Errado. O synchronized é reentrante.
+
+Com o mapa concorrente, verificar e inserir é atômico. Errado.
+
+Sincronizar todos os métodos elimina qualquer problema de concorrência. Errado. Operações compostas entre chamadas continuam em corrida, e ainda surge o risco de deadlock.
+
+Estratégia para este bloco: diante de um mecanismo, pergunte qual das três garantias o cenário exige. Volatile cobre visibilidade. As atômicas cobrem uma operação. O bloqueio cobre um trecho inteiro.
+
+
+BLOCO TRÊS. COMPARTILHAMENTO DE ESTADO, BLOQUEIOS E FALHAS.
+
+Comece por esta frase: só existe problema de concorrência quando há estado mutável e compartilhado. Retire um dos dois adjetivos, e o problema desaparece.
+
+Daí vêm três estratégias, em ordem de preferência.
+
+A primeira é não compartilhar. Cada thread usa os seus próprios dados: variáveis locais, parâmetros ou variáveis locais de thread.
+
+A segunda é não alterar. Usar objetos imutáveis, que não mudam depois de criados.
+
+A terceira é sincronizar. É o último recurso, porque custa desempenho e abre espaço para deadlock.
+
+Duas regras simples. Objeto sem estado é sempre seguro para threads. Objeto imutável também, sem nenhuma sincronização.
+
+Agora, o cenário mais provável de prova: aplicações Spring.
+
+Os componentes do Spring, chamados beans, são singleton por padrão. Isso significa que existe uma única instância, e ela atende a todas as requisições, em várias threads ao mesmo tempo.
+
+Imagine um serviço de relatórios com um atributo que é uma lista. O método limpa a lista, preenche com os dados do órgão consultado e devolve. Com um usuário, funciona. Com dois usuários simultâneos, uma requisição apaga os dados da outra, e um usuário pode receber o relatório de outro órgão.
+
+O defeito só aparece sob acesso simultâneo. A correção é transformar o atributo em variável local.
+
+Guarde: o Spring não torna o componente seguro para threads. Ele apenas gerencia o ciclo de vida. Controladores, serviços e repositórios não devem ter estado mutável.
+
+Sobre a variável local de thread, o Thread Local. Ela guarda um valor separado para cada thread. O Spring Security usa esse recurso para guardar o usuário autenticado.
+
+Há dois cuidados. Em um pool, a thread é reaproveitada. Se o valor não for removido, ele vaza para a próxima requisição. E o valor não acompanha a tarefa quando ela muda de thread. Em um método assíncrono, o contexto de segurança e a transação não se propagam por padrão.
+
+E um ponto que diferencia quem entende de quem decorou. O synchronized e os bloqueios do Java valem dentro de uma única máquina virtual. Se a aplicação roda em duas instâncias, atrás de um balanceador de carga, esses bloqueios não protegem nada entre elas. A proteção precisa estar no banco de dados, com transação, restrição de unicidade ou bloqueio de linha.
+
+Vamos ao deadlock.
+
+Deadlock, ou impasse, acontece quando duas ou mais threads esperam, cada uma, um recurso que a outra detém. Ninguém avança.
+
+O exemplo clássico. A thread um bloqueia a conta A e pede a conta B. A thread dois bloqueia a conta B e pede a conta A. As duas ficam esperando para sempre.
+
+Para haver deadlock, quatro condições precisam ocorrer ao mesmo tempo. São as condições de Coffman.
+
+Exclusão mútua: o recurso só serve a uma thread por vez.
+
+Posse e espera: a thread segura um recurso enquanto pede outro.
+
+Não preempção: o recurso não pode ser tomado à força.
+
+Espera circular: A espera B, que espera A.
+
+Repito, porque é aqui que a banca ataca: as quatro são necessárias, juntas. Basta eliminar uma delas para o deadlock se tornar impossível.
+
+A técnica mais usada é quebrar a espera circular, impondo uma ordem global de aquisição. Por exemplo, sempre bloquear primeiro a conta de menor número.
+
+Outra técnica é tentar o bloqueio com prazo, e desistir se não conseguir.
+
+Sobre a detecção. A máquina virtual do Java não desfaz sozinha um deadlock entre threads. O diagnóstico é feito com uma fotografia das threads, o chamado thread dump, que mostra o ciclo de espera. Já os bancos de dados detectam deadlock entre transações e abortam uma delas, a vítima, que precisa ser repetida.
+
+Agora, os parentes do deadlock. A banca troca os nomes.
+
+No deadlock, as threads estão bloqueadas, paradas.
+
+No livelock, as threads estão ativas. Elas reagem uma à outra sem parar, mas não progridem. É como duas pessoas em um corredor que desviam sempre para o mesmo lado.
+
+Na inanição, uma thread está pronta, mas nunca recebe o recurso, que é sempre tomado por outras. As outras progridem.
+
+E contenção é quando muitas threads disputam o mesmo bloqueio, e a vazão cai.
+
+Duas propriedades resumem tudo isso. Segurança, que significa que nada de errado acontece. E vivacidade, que significa que algo de útil acaba acontecendo. A condição de corrida viola a segurança. O deadlock viola a vivacidade.
+
+Passemos às falhas.
+
+Uma exceção não tratada encerra apenas a thread em que ocorreu. Ela não se propaga para a thread que a criou.
+
+No serviço executor, há uma diferença importante. Se a tarefa foi enviada com execute, a exceção vai para um tratador de exceções não capturadas. Se foi enviada com submit, a exceção fica guardada dentro do Future, e só aparece quando alguém chama o método get. Se ninguém chamar, a falha passa em silêncio.
+
+Uma exceção dentro de um bloco sincronizado libera o bloqueio, mas pode deixar o objeto em estado inconsistente.
+
+E a exceção de interrupção não deve ser engolida. Ou se propaga, ou se restaura o sinal de interrupção.
+
+Por fim, a saturação dos pools.
+
+O executor de pool de threads trata uma tarefa nova em quatro passos, nesta ordem.
+
+Um: se há menos threads que o tamanho básico, cria uma thread.
+Dois: senão, coloca a tarefa na fila.
+Três: se a fila está cheia e ainda não chegou ao máximo, cria uma thread.
+Quatro: senão, rejeita a tarefa.
+
+Repare na ordem. O pool enfileira antes de crescer até o máximo. Portanto, com uma fila sem limite, o pool nunca passa do tamanho básico, e a fila pode crescer até esgotar a memória.
+
+Quando rejeita, a política padrão lança uma exceção. Há outras políticas: fazer a própria thread que enviou executar a tarefa, o que freia a entrada, ou descartar a tarefa.
+
+E o risco operacional mais grave: todas as threads ficarem presas esperando um serviço externo lento. A aplicação inteira para. As defesas são: prazo limite em toda chamada externa, filas limitadas, pools separados por dependência e disjuntor.
+
+Pegadinhas deste bloco.
+
+Componentes singleton do Spring são seguros para threads por serem gerenciados. Errado.
+
+O deadlock ocorre quando qualquer uma das quatro condições está presente. Errado. São as quatro juntas.
+
+No livelock, as threads ficam bloqueadas. Errado. Ficam ativas.
+
+A exceção da thread filha se propaga para a thread criadora. Errado.
+
+O pool cria threads até o máximo antes de enfileirar. Errado.
+
+O synchronized garante exclusão mútua entre instâncias em um cluster. Errado.
+
+Variáveis locais precisam de sincronização. Errado. Elas ficam na pilha de cada thread.
+
+Estratégia para este bloco: em cenário de aplicação web, procure o atributo de instância mutável dentro de um componente. Em cenário de travamento, pergunte se as threads estão paradas ou trabalhando sem avançar.
+
+
+BLOCO QUATRO. CORREÇÃO E DESEMPENHO SOB REQUISIÇÕES CONCORRENTES.
+
+Em uma aplicação web, a concorrência que mais causa defeitos não está nas threads. Está nos dados. Duas requisições leem o mesmo registro, decidem com base nele e gravam.
+
+Primeiro, o cenário. Cada requisição é atendida por uma thread do pool do servidor. Cada transação ocupa uma conexão do pool de conexões com o banco. E, quando há várias instâncias da aplicação, o único ponto em comum é o banco de dados. É nele que a correção precisa ser garantida.
+
+O defeito central é a atualização perdida. Veja o exemplo.
+
+Uma conta tem saldo de cem. Duas requisições querem debitar oitenta. A requisição A lê o saldo cem. A requisição B também lê cem. A requisição A verifica que há saldo e grava vinte. A requisição B faz a mesma verificação, com o valor antigo, e também grava vinte.
+
+Foram debitados cento e sessenta de uma conta que tinha cem, e o saldo final é vinte.
+
+O synchronized não resolve se houver mais de uma instância. E o nível de isolamento padrão da maioria dos bancos também não impede esse problema.
+
+Isso nos leva às anomalias de leitura e aos níveis de isolamento.
+
+São três anomalias clássicas, mais a atualização perdida.
+
+Leitura suja: a transação lê um dado gravado por outra transação que ainda não foi confirmada.
+
+Leitura não repetível: a transação lê a mesma linha duas vezes e encontra valores diferentes, porque outra transação alterou e confirmou no meio.
+
+Leitura fantasma: a transação repete uma consulta e aparecem, ou somem, linhas que atendem ao filtro.
+
+A diferença entre as duas últimas é a que mais confunde. Não repetível diz respeito a uma linha que mudou. Fantasma diz respeito ao conjunto de linhas.
+
+Agora, os quatro níveis de isolamento, pelo padrão da linguagem SQL, do mais fraco ao mais forte.
+
+Leitura não confirmada: permite as três anomalias.
+
+Leitura confirmada: impede a leitura suja. Ainda permite a não repetível e a fantasma.
+
+Leitura repetível: impede a suja e a não repetível. Ainda permite a fantasma.
+
+Serializável: impede as três.
+
+Uma forma de lembrar: cada nível elimina uma anomalia a mais, na ordem suja, não repetível e fantasma.
+
+E a regra de equilíbrio: quanto maior o isolamento, maior a correção e menor a vazão.
+
+Sobre os padrões dos bancos. No PostgreSQL, no Oracle e no SQL Server, o padrão é leitura confirmada. No MySQL, é leitura repetível.
+
+Vamos ao bloqueio otimista e ao bloqueio pessimista. É par de troca certa.
+
+O bloqueio otimista parte da hipótese de que o conflito é raro. Ele não bloqueia ninguém. Cada registro tem uma coluna de versão. Na hora de gravar, o sistema confere se a versão ainda é a mesma que foi lida. Se outra transação já alterou, a gravação falha, e a operação deve ser repetida.
+
+Em JPA, isso se faz com a anotação Version. E a falha aparece como uma exceção de bloqueio otimista.
+
+O bloqueio pessimista parte da hipótese de que o conflito é frequente. Ele bloqueia a linha já na leitura, com o comando de seleção para atualização. A segunda transação fica esperando até a primeira terminar.
+
+Os riscos de cada um. No otimista, muitas repetições quando a disputa é alta. No pessimista, espera, deadlock e queda de vazão.
+
+E um detalhe de redação. O bloqueio otimista detecta o conflito na gravação. Ele não impede que duas transações leiam o mesmo registro.
+
+Outras três técnicas de correção.
+
+Primeira: a atualização atômica no banco. Em vez de ler, verificar na aplicação e gravar, você manda uma única instrução: subtraia oitenta do saldo desta conta, desde que o saldo seja maior ou igual a oitenta. A aplicação confere quantas linhas foram alteradas. Se foi zero, o saldo era insuficiente.
+
+Segunda: a restrição de unicidade. Verificar na aplicação se o CPF já existe e depois inserir é o padrão verificar e depois agir. Duas requisições simultâneas passam pela verificação. A garantia real é a restrição de valor único no banco.
+
+Terceira: a idempotência. Uma operação é idempotente quando executá-la uma vez ou várias vezes produz o mesmo estado final.
+
+No protocolo HTTP, os métodos GET, PUT e DELETE são idempotentes. O método POST não é.
+
+Por que isso importa? Porque repetições acontecem. O usuário clica duas vezes. O cliente reenvia depois de esgotar o prazo. Uma mensagem é entregue de novo.
+
+Para proteger um POST contra repetição, usa-se uma chave de idempotência. O cliente envia um identificador único, e o servidor reconhece a repetição e devolve a mesma resposta, sem executar de novo.
+
+E cuidado com outra troca. Idempotente não é o mesmo que seguro. Método seguro é o que não altera o estado, como o GET. O DELETE altera o estado, portanto não é seguro, mas é idempotente, porque apagar duas vezes dá o mesmo resultado final.
+
+Uma nota sobre transações no Spring. A anotação Transactional usa o isolamento padrão do banco, salvo configuração. Por padrão, ela desfaz a transação em exceções não verificadas, e não nas verificadas. E também funciona por proxy.
+
+Agora, o desempenho.
+
+Quatro medidas.
+
+Latência é o tempo de resposta de uma requisição.
+
+Vazão é o número de requisições atendidas por unidade de tempo.
+
+Percentis indicam o tempo abaixo do qual fica certa parcela das requisições. O percentil noventa e nove é o tempo abaixo do qual ficam noventa e nove por cento delas.
+
+E saturação é o grau de ocupação de um recurso.
+
+A pegadinha: a média esconde a cauda. Um serviço pode ter média de duzentos milissegundos e percentil noventa e nove de oito segundos. Isso quer dizer que um em cada cem usuários espera oito segundos ou mais.
+
+Outros pontos de desempenho.
+
+Latência e vazão não são a mesma coisa. Perto da saturação, a vazão estabiliza e a latência dispara, por causa das filas.
+
+O gargalo costuma estar no recurso mais escasso. Em geral, é o pool de conexões com o banco, e não o pool de threads.
+
+Transação longa segura conexão e bloqueios. Por isso, não se faz chamada a serviço externo dentro de uma transação.
+
+Aumentar o pool de conexões além do que o banco suporta piora o desempenho.
+
+E escalar horizontalmente, acrescentando instâncias, exige que a aplicação não guarde estado. A sessão do usuário deve ficar em armazenamento externo.
+
+As proteções sob carga, pelo nome.
+
+Prazo limite: não esperar indefinidamente por uma dependência.
+
+Limite de taxa: restringir o número de requisições por cliente.
+
+Contrapressão: o consumidor sinaliza ao produtor que reduza o ritmo.
+
+Disjuntor: parar de chamar uma dependência que está falhando.
+
+Compartimentos: isolar recursos para que uma dependência lenta não derrube tudo.
+
+E fila com processamento assíncrono, para absorver picos.
+
+Um alerta: repetir automaticamente uma operação que falhou só é seguro se ela for idempotente.
+
+Para terminar, os testes.
+
+Teste de carga avalia o sistema sob o volume esperado.
+
+Teste de estresse vai além do esperado, para achar o ponto de ruptura.
+
+Teste de pico simula um aumento súbito.
+
+Teste de resistência mantém a carga por muito tempo, e revela vazamentos de memória.
+
+E a observação mais importante sobre testes neste tema. Defeito de concorrência é não determinístico. Pode não aparecer em mil execuções e surgir em produção. Um teste que passa não prova que não há corrida. A correção vem do projeto: estado confinado, operações atômicas e restrições no banco.
+
+Pegadinhas deste bloco.
+
+O bloqueio otimista impede que duas transações leiam o mesmo registro. Errado. Ele detecta o conflito ao gravar.
+
+O bloqueio pessimista é indicado quando os conflitos são raros. Errado. É o inverso.
+
+A leitura fantasma ocorre quando se lê dado não confirmado. Errado. Isso é leitura suja.
+
+O POST é idempotente. Errado.
+
+O DELETE não é idempotente porque altera o estado. Errado. Confunde idempotente com seguro.
+
+O nível serializável aumenta a correção e a vazão. Errado. Reduz a vazão.
+
+Teste de estresse avalia a carga normal. Errado. Isso é teste de carga.
+
+Estratégia para este bloco: em cenário com duas requisições e um registro, localize a leitura, a decisão e a gravação. Se houver intervalo entre elas sem bloqueio, sem versão e sem instrução atômica, há corrida.
+
+
+BLOCO CINCO. QUESTÕES DE FIXAÇÃO.
+
+Vamos às questões. São dezesseis, quatro por subitem. Depois de cada afirmação, pense na resposta antes de ouvir o gabarito. Se precisar, pause o áudio.
+
+Questão um. Em um computador com um único núcleo de processamento, é possível haver execução concorrente de tarefas, mas não execução paralela.
+
+Gabarito: certo. Um núcleo intercala tarefas. Paralelismo exige mais de um.
+
+Questão dois. Em Java, a invocação direta do método run de um objeto Thread faz que o código seja executado na thread chamadora, sem a criação de nova thread.
+
+Gabarito: certo. Só o método start cria a nova thread.
+
+Questão três. De acordo com a Lei de Amdahl, se oitenta por cento de um programa for paralelizável, o ganho máximo de desempenho será de cinco vezes, qualquer que seja o número de núcleos.
+
+Gabarito: certo. O limite é um dividido pela parte sequencial. Um dividido por zero vírgula dois dá cinco.
+
+Questão quatro. As threads virtuais do Java são mapeadas uma a uma para threads do sistema operacional, o que as torna indicadas para tarefas de uso intensivo de processador.
+
+Gabarito: errado. Muitas threads virtuais compartilham poucas threads reais, e o ganho está nas tarefas de entrada e saída.
+
+Questão cinco. Um contador do tipo inteiro atômico, incrementado por várias threads, dispensa o uso de synchronized para que a contagem seja correta.
+
+Gabarito: certo. O incremento da classe atômica é uma operação atômica.
+
+Questão seis. É adequado declarar como volatile uma variável booleana usada como sinal de parada, gravada por uma thread e lida por outra.
+
+Gabarito: certo. O caso exige visibilidade, e não há operação composta.
+
+Questão sete. Se uma classe possui dois métodos de instância sincronizados, duas threads podem executá-los ao mesmo tempo sobre o mesmo objeto, desde que cada uma chame um método diferente.
+
+Gabarito: errado. Os dois métodos disputam o bloqueio do mesmo objeto.
+
+Questão oito. Em uma lista sincronizada obtida pela classe Collections, a iteração dispensa sincronização adicional.
+
+Gabarito: errado. A iteração exige um bloco sincronizado sobre a lista.
+
+Questão nove. Em um serviço Spring de escopo singleton, as variáveis locais declaradas nos métodos são compartilhadas entre as requisições simultâneas.
+
+Gabarito: errado. Variáveis locais ficam na pilha de cada thread. Compartilhados são os atributos.
+
+Questão dez. Impor uma ordem global para a aquisição de bloqueios elimina a condição de espera circular e, com isso, previne o deadlock.
+
+Gabarito: certo. Basta eliminar uma das quatro condições.
+
+Questão onze. Em um executor de pool de threads configurado com fila sem limite de capacidade, o número de threads cresce até o máximo configurado à medida que a carga aumenta.
+
+Gabarito: errado. Threads acima do tamanho básico só são criadas quando a fila enche, e uma fila sem limite nunca enche.
+
+Questão doze. Ocorre inanição quando uma thread permanece indefinidamente sem acesso a um recurso, embora as demais continuem progredindo.
+
+Gabarito: certo. No deadlock, ninguém progride. Na inanição, as outras progridem.
+
+Questão treze. Em JPA, quando duas transações leem a mesma entidade com controle de versão e ambas tentam alterá-la, a segunda a gravar recebe uma exceção de bloqueio otimista.
+
+Gabarito: certo. A atualização com a versão antiga não altera nenhuma linha.
+
+Questão catorze. Pelo padrão SQL, o nível de leitura repetível impede leituras sujas e não repetíveis, mas admite leituras fantasmas.
+
+Gabarito: certo. Fantasmas só são impedidos no nível serializável.
+
+Questão quinze. O reenvio automático de uma requisição POST após o esgotamento do prazo de resposta é seguro, pois o protocolo HTTP garante o descarte de requisições duplicadas.
+
+Gabarito: errado. O POST não é idempotente, e a proteção depende da aplicação, por exemplo com chave de idempotência.
+
+Questão dezesseis. Aumentar o tamanho do pool de conexões com o banco de dados sempre eleva a vazão da aplicação.
+
+Gabarito: errado. Além da capacidade do banco, mais conexões aumentam a disputa e pioram o desempenho. E desconfie da palavra sempre.
+
+
+BLOCO SEIS. ENCERRAMENTO.
+
+Para fechar, as quatro ideias que você deve levar desta aula, uma por subitem.
+
+Um. Concorrência é lidar com várias tarefas. Paralelismo é executar várias ao mesmo tempo. Assincronia é não ficar esperando. E mais threads não significa mais velocidade.
+
+Dois. Incremento não é atômico. Volatile dá visibilidade. As classes atômicas protegem uma operação. O bloqueio protege um trecho.
+
+Três. O problema é o estado mutável e compartilhado. Componente singleton não guarda estado. E o deadlock exige quatro condições ao mesmo tempo.
+
+Quatro. Entre instâncias, quem garante a correção é o banco. Otimista detecta, pessimista bloqueia. E desempenho se mede por percentil, e não pela média.
+
+Bons estudos, e até a próxima aula.

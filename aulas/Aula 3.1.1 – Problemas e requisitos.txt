@@ -1,0 +1,524 @@
+AUDIOAULA. Concurso da CGU, Auditor Federal de Finanças e Controle, especialidade Desenvolvimento de Sistemas.
+Item três, um, um do edital: Problemas e requisitos.
+
+
+BLOCO ZERO. ABERTURA.
+
+Olá. Esta é a audioaula do item três, um, um do edital da CGU: Problemas e requisitos.
+
+Esse é o tópico que abre o bloco Engenharia de Software e Programação. Ele trata do que vem antes do código: entender o problema, saber quem é afetado e definir o que a solução precisa cumprir.
+
+São cinco subitens, e vamos seguir a ordem do edital.
+
+Primeiro, necessidades de usuários.
+Segundo, requisitos funcionais e não funcionais.
+Terceiro, restrições e critérios de aceitação.
+Quarto, desenho centrado nas pessoas.
+Quinto, as relações entre problema público, processo de trabalho e solução digital.
+
+No final, faremos uma revisão com doze afirmações no estilo Cebraspe, para você julgar como certo ou errado.
+
+O tom do edital neste item é aplicado. Espere situações de um órgão público em que você precisa identificar o problema real, classificar requisitos e julgar se a solução proposta ataca a causa.
+
+Vamos lá.
+
+
+BLOCO UM. NECESSIDADES DE USUÁRIOS.
+
+Comece por uma distinção. Necessidade é o problema que a pessoa precisa resolver. Requisito é a tradução dessa necessidade em algo que o sistema deve cumprir.
+
+O erro clássico é registrar a solução que o usuário pediu, em vez da necessidade que está por trás do pedido.
+
+Um exemplo, em uma ouvidoria. O cidadão diz: quero um botão para ligar para o atendente. Isso é um pedido, e já vem em forma de solução. A necessidade real é outra: ele quer saber em que pé está a manifestação que registrou. Para essa necessidade, existem várias soluções possíveis. Uma delas é o acompanhamento pela internet, usando o número do protocolo, com aviso a cada mudança de situação. E o requisito seria: o sistema deve exibir a situação atual e o histórico da manifestação a partir do protocolo.
+
+Então, guarde a sequência: necessidade, pedido, solução e requisito. São quatro coisas diferentes.
+
+Como chegar à necessidade? Perguntando para quê. Existe uma técnica chamada cinco porquês, que consiste em perguntar o motivo repetidas vezes, até sair da queixa e chegar à causa.
+
+As necessidades podem ser de três tipos. Explícitas, que o usuário diz. Implícitas, que são tão óbvias para ele que nem menciona. E latentes, que ele ainda não percebeu.
+
+Agora, as partes interessadas.
+
+Parte interessada, em inglês stakeholder, é qualquer pessoa ou organização que afeta o sistema ou é afetada por ele. O usuário final é só um dos tipos.
+
+Além do usuário final, que opera o sistema, existem: o cliente ou demandante, que é a área que pede a solução. O patrocinador, que autoriza e financia. O gestor do serviço, responsável pelo processo de trabalho. As áreas de apoio e controle, como jurídico, segurança da informação e proteção de dados. E os afetados indiretos, como os cidadãos sobre quem o sistema decide e os outros órgãos que trocam dados com ele.
+
+Uma pegadinha frequente: quem pede e quem usa, muitas vezes, não são a mesma pessoa. E as necessidades dos dois podem entrar em conflito.
+
+No serviço público, há um agravante. O usuário não pode escolher outro fornecedor. Por isso, é preciso considerar todos os perfis, inclusive pessoas com deficiência, pessoas com pouca familiaridade com tecnologia e pessoas sem acesso estável à internet.
+
+Duas leis para ter em mente. A Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, trata dos direitos do usuário de serviços públicos. E a Lei catorze mil cento e vinte e nove, de dois mil e vinte e um, é a Lei do Governo Digital.
+
+Vamos à engenharia de requisitos.
+
+É o processo de descobrir, analisar, documentar, validar e gerenciar requisitos. São cinco atividades.
+
+Elicitação, também chamada de levantamento: descobrir as necessidades.
+Análise e negociação: classificar, encontrar conflitos e priorizar.
+Especificação: registrar de forma clara e verificável.
+Validação: confirmar com as partes interessadas que os requisitos descrevem o sistema certo.
+E gerenciamento: controlar as mudanças e manter a rastreabilidade.
+
+Atenção: essas atividades não formam uma fase única no começo do projeto. Elas se repetem ao longo de todo o trabalho. Se a questão disser que o levantamento acontece uma única vez, no início, está errada.
+
+As técnicas de elicitação.
+
+Entrevista. Serve para entender contexto e motivos. A limitação é que depende do que a pessoa lembra e consegue explicar.
+
+Questionário. Alcança muita gente e gera dados quantitativos, mas tem pouca profundidade.
+
+Observação, também chamada de etnografia. O analista acompanha o trabalho como ele realmente acontece. É a técnica indicada quando o usuário não consegue descrever o que faz. Ela capta o conhecimento tácito, aquele que a pessoa tem, mas não sabe pôr em palavras. A limitação é o tempo que consome.
+
+Oficina, ou workshop. Reúne várias áreas para decidir em conjunto e resolver conflitos. Exige um bom facilitador.
+
+Brainstorming. Gera muitas ideias, mas não valida nem prioriza.
+
+Prototipagem. Ajuda quando os requisitos são vagos, principalmente os de interface. O risco é o usuário achar que o protótipo já é o produto pronto.
+
+Análise de documentos e de sistemas legados. Revela normas, formulários e regras em vigor.
+
+E análise de dados de uso, como registros de acesso, reclamações na ouvidoria e pesquisas de satisfação. Mostra o que acontece, mas não explica o porquê.
+
+Não existe uma técnica melhor que todas. O normal é combinar várias.
+
+Dois instrumentos aparecem bastante. Persona é um perfil fictício, construído a partir de pesquisa, que representa um grupo de usuários. Jornada do usuário é a descrição, passo a passo, da experiência de alguém ao usar o serviço, com as dificuldades de cada etapa.
+
+Para fechar o bloco, as dificuldades típicas do levantamento. São quatro.
+
+Problemas de escopo: os limites do sistema estão mal definidos.
+Problemas de entendimento: o usuário não sabe bem o que precisa, ou omite o que acha óbvio.
+Volatilidade: os requisitos mudam com o tempo. Mudança é esperada e deve ser gerenciada, e não proibida.
+E conflito: partes interessadas querem coisas incompatíveis. Isso se resolve com negociação e priorização, e não por decisão isolada do desenvolvedor.
+
+
+BLOCO DOIS. REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS.
+
+A distinção central é esta. O requisito funcional diz o que o sistema faz. O requisito não funcional diz com que qualidade, ou sob quais condições, ele faz.
+
+Exemplo de requisito funcional: o sistema deve permitir que o auditor anexe evidências a um achado. É uma função, um comportamento.
+
+Exemplo de requisito não funcional: a consulta deve responder em até dois segundos, em noventa e cinco por cento das requisições. É uma propriedade de desempenho.
+
+Dois conceitos vizinhos.
+
+Requisito de domínio é o que vem da área de aplicação, como uma regra de cálculo prevista em norma. Ele pode ser funcional ou não funcional.
+
+Regra de negócio é uma política da organização, que existe mesmo sem sistema nenhum. O sistema a implementa por meio de requisitos.
+
+E há dois níveis de detalhe. Requisitos de usuário são declarações de alto nível, em linguagem natural, para clientes e gestores. Requisitos de sistema são a descrição detalhada do que será implementado, para a equipe técnica.
+
+Agora, a classificação dos não funcionais, segundo o autor Sommerville. São três tipos, pela origem.
+
+De produto: tratam do comportamento do próprio software. Desempenho, confiabilidade, usabilidade e segurança.
+
+Organizacionais: vêm das políticas de quem desenvolve ou de quem usa. Linguagem de programação obrigatória, padrões e processo de desenvolvimento.
+
+Externos: vêm de fora do sistema e da organização. Legislação, interoperabilidade com outros órgãos e exigências éticas.
+
+Exemplo para fixar: a exigência de cumprir a Lei Geral de Proteção de Dados é um requisito não funcional externo.
+
+Outra classificação cobrada é a da norma ISO vinte e cinco mil e dez, que lista as características de qualidade de um produto de software. Na edição de dois mil e onze, são oito.
+
+Adequação funcional: as funções atendem às necessidades?
+Eficiência de desempenho: quanto tempo e quantos recursos consome?
+Compatibilidade: convive e troca informações com outros sistemas?
+Usabilidade: pode ser usado com eficácia, eficiência e satisfação?
+Confiabilidade: funciona sem falhar e se recupera?
+Segurança: protege os dados e controla os acessos?
+Manutenibilidade: é fácil de modificar e de testar?
+Portabilidade: pode ser levado para outro ambiente?
+
+A edição de dois mil e vinte e três mudou alguns nomes e acrescentou uma característica voltada à prevenção de danos. Mas a lista de oito ainda é a mais cobrada.
+
+Vamos treinar a classificação.
+
+O sistema deve gerar relatório de achados por unidade auditada. Funcional: descreve uma função.
+
+O sistema deve estar disponível noventa e nove vírgula cinco por cento do tempo. Não funcional, de produto: é confiabilidade.
+
+O sistema deve ser desenvolvido em Java. Não funcional, organizacional: é uma restrição de implementação.
+
+O tratamento de dados pessoais deve observar a LGPD. Não funcional, externo.
+
+E um caso que confunde. O sistema deve registrar, em trilha de auditoria, cada alteração de parecer. Isso é funcional. A motivação é de segurança, mas o que está descrito é um comportamento do sistema.
+
+Agora, os pontos de atenção. São os que mais aparecem em prova.
+
+Primeiro: requisito não funcional não é menos importante. Uma falha de segurança ou de disponibilidade pode inutilizar o sistema inteiro. Já a falta de uma função costuma ter algum contorno.
+
+Segundo: os não funcionais afetam a arquitetura como um todo, e são difíceis de acrescentar depois.
+
+Terceiro: um requisito não funcional pode gerar requisitos funcionais. O sistema deve ser seguro se desdobra em autenticação, perfis de acesso e registro de operações.
+
+Quarto: os não funcionais conflitam entre si. Mais segurança pode custar desempenho e usabilidade. A saída é negociar e priorizar.
+
+E quinto: não funcional não significa que não funciona, nem que é opcional.
+
+Como é um requisito bem escrito?
+
+Ele é correto, não ambíguo, completo, consistente com os demais, verificável, rastreável, viável e necessário.
+
+A palavra mais importante dessa lista é verificável.
+
+O sistema deve ser rápido. Isso não é verificável. A forma correta seria: noventa e cinco por cento das consultas devem responder em até dois segundos, com quinhentos usuários simultâneos.
+
+O sistema deve ser fácil de usar. Subjetivo. A forma correta: noventa por cento dos usuários de teste devem concluir o cadastro em até três minutos, sem ajuda.
+
+Ou seja, requisito não funcional precisa de métrica. Sem número e sem condição de medição, não há como testar.
+
+Outro defeito comum é o requisito que descreve a solução. Por exemplo: o sistema deve usar uma tabela de usuários com índice no CPF. Isso é decisão de projeto. O requisito seria: o sistema deve localizar o usuário pelo CPF. Requisito diz o quê. Projeto diz como.
+
+Três conceitos para encerrar o bloco.
+
+Rastreabilidade é a ligação de cada requisito com a sua origem, para trás, e com o que o implementa e o testa, para a frente. É ela que permite avaliar o impacto de uma mudança.
+
+Verificação e validação. Verificação pergunta: construímos o produto corretamente, conforme a especificação? Validação pergunta: construímos o produto certo, que atende à necessidade? O examinador adora trocar as duas.
+
+E a técnica de priorização MoSCoW, que classifica os requisitos em quatro grupos: deve ter, deveria ter, poderia ter e não terá agora.
+
+
+BLOCO TRÊS. RESTRIÇÕES E CRITÉRIOS DE ACEITAÇÃO.
+
+Restrição limita as soluções possíveis. Critério de aceitação define quando um requisito foi atendido. A restrição atua antes de construir. O critério atua na hora de aceitar a entrega.
+
+Comecemos pelas restrições.
+
+Restrição é uma condição imposta, que a equipe não escolhe, e que reduz o espaço de soluções.
+
+Os tipos mais comuns.
+
+Legais e normativas: a LGPD, a Lei de Acesso à Informação, as exigências de acessibilidade e a Lei do Governo Digital.
+
+Técnicas: linguagem e plataforma padronizadas, integração obrigatória com um sistema legado, autenticação pela conta do governo federal.
+
+Orçamentárias: o teto de gastos do projeto.
+
+De prazo: uma data fixada em norma ou em determinação de órgão de controle.
+
+Organizacionais: a equipe disponível e a política de segurança do órgão.
+
+E de contexto de uso: conexão lenta em unidades regionais, uso em celular, público com pouca familiaridade digital.
+
+Agora, quatro conceitos que a banca mistura. Preste atenção.
+
+Requisito é o que a solução deve fazer ou ter. Por exemplo: exportar o relatório em PDF.
+
+Restrição é um limite imposto. Por exemplo: usar o banco de dados que o órgão já contratou.
+
+Premissa é algo assumido como verdadeiro, sem comprovação, para poder planejar. Por exemplo: o órgão parceiro vai entregar a interface de integração até março.
+
+Risco é um evento incerto que pode afetar o resultado. Por exemplo: a entrega do parceiro pode atrasar.
+
+Repare na relação entre os dois últimos. Uma premissa que não se confirma vira problema. Por isso, toda premissa gera um risco a acompanhar.
+
+Um detalhe de classificação. Para o Sommerville, as restrições de implementação fazem parte dos requisitos não funcionais. Em outras fontes, restrição é uma categoria separada. As duas leituras existem. Observe como o item da prova define.
+
+Agora, histórias de usuário.
+
+Nos métodos ágeis, o requisito costuma ser registrado como história de usuário: uma descrição curta, do ponto de vista de quem se beneficia.
+
+O formato tem três partes. Como, seguido do papel. Quero, seguido da funcionalidade. Para, seguido do benefício.
+
+Exemplo: como cidadão, quero acompanhar minha manifestação pelo protocolo, para saber a situação sem precisar ligar para a ouvidoria.
+
+A história de usuário se apoia em três elementos, conhecidos como os três cês. Cartão, que é o registro curto. Conversa, que é o detalhamento entre a equipe e o dono do produto. E confirmação, que são os critérios de aceitação.
+
+Uma boa história segue a sigla INVEST. Ela é independente, negociável, valiosa, estimável, pequena e testável.
+
+E um épico é uma história grande demais para caber em uma iteração. Ele precisa ser fatiado.
+
+Importante: história de usuário não é uma especificação completa. É um lembrete para a conversa.
+
+Chegamos aos critérios de aceitação.
+
+São condições objetivas e verificáveis que a entrega precisa satisfazer para ser aceita. Cada critério deve ter resultado binário: passou ou não passou.
+
+Cinco características.
+
+São escritos antes do desenvolvimento.
+Descrevem o resultado esperado, e não a implementação.
+Cobrem o caminho principal, as exceções e os limites.
+Podem incluir aspectos não funcionais, como tempo de resposta e acessibilidade.
+E servem de base para os testes de aceitação.
+
+Um formato muito usado é o de cenário, com três palavras: dado, quando e então. Ele vem do desenvolvimento guiado por comportamento, conhecido pela sigla BDD.
+
+Dado descreve o contexto inicial.
+Quando descreve a ação.
+Então descreve o resultado observável.
+
+Exemplo. Dado que existe uma manifestação com determinado protocolo. Quando informo esse protocolo na consulta. Então vejo a situação atual e a data da última movimentação.
+
+E o cenário de exceção. Dado que não existe manifestação com o protocolo informado. Quando faço a consulta. Então vejo a mensagem protocolo não encontrado, e nenhum dado pessoal é exibido.
+
+Se a questão disser que a cláusula quando descreve o resultado esperado, está errada. Quando é a ação. Então é o resultado.
+
+Para fechar o bloco, a comparação mais cobrada: critério de aceitação e definição de pronto.
+
+Os critérios de aceitação valem para uma história específica. Eles respondem: esta história faz o que deveria?
+
+A definição de pronto vale para todos os itens do produto. Ela responde: o trabalho atingiu o padrão de qualidade da equipe? Exemplos: código revisado, testes automatizados passando e documentação atualizada.
+
+Existe ainda a definição de preparado, que diz se um item está claro o bastante para entrar na iteração.
+
+Uma história só está concluída quando atende aos seus critérios de aceitação e também à definição de pronto. As duas coisas.
+
+
+BLOCO QUATRO. DESENHO CENTRADO NAS PESSOAS.
+
+Desenho centrado nas pessoas é projetar a partir do entendimento de quem usa, do que essa pessoa precisa fazer e de onde ela faz, com avaliação repetida junto a usuários reais.
+
+A referência é a norma ISO nove mil duzentos e quarenta e um, parte duzentos e dez, que usa a expressão projeto centrado no ser humano.
+
+A norma traz seis princípios.
+
+Um: o projeto se baseia no entendimento explícito de usuários, tarefas e ambientes.
+Dois: os usuários são envolvidos ao longo de todo o projeto e do desenvolvimento.
+Três: o projeto é conduzido e refinado por avaliação centrada no usuário.
+Quatro: o processo é iterativo.
+Cinco: o projeto aborda toda a experiência do usuário.
+Seis: a equipe é multidisciplinar.
+
+E quatro atividades, que se repetem em ciclo.
+
+Primeira: compreender e especificar o contexto de uso. Quem são os usuários, que tarefas realizam e em que ambiente.
+Segunda: especificar os requisitos do usuário.
+Terceira: produzir soluções de projeto, de esboços a protótipos.
+Quarta: avaliar as soluções em relação aos requisitos, com usuários.
+
+Se a avaliação reprova a solução, volta-se à atividade necessária. Não é uma cascata.
+
+A pegadinha aqui é a afirmação de que o usuário participa no início, no levantamento, e no fim, na homologação. Errado. O envolvimento é contínuo.
+
+Agora, três conceitos que precisam estar bem separados.
+
+Usabilidade. Pela norma ISO nove mil duzentos e quarenta e um, parte onze, é o grau em que usuários específicos atingem objetivos específicos com eficácia, eficiência e satisfação, em um contexto de uso específico.
+
+Eficácia é conseguir concluir a tarefa, corretamente. Eficiência é com quanto esforço e tempo. Satisfação é com que conforto e aceitação.
+
+E note a expressão contexto específico. Usabilidade não é uma propriedade absoluta do produto. Depende do usuário, da tarefa e do ambiente.
+
+Experiência do usuário. É mais ampla. Abrange as percepções e respostas da pessoa antes, durante e depois do uso, incluindo emoções e expectativas. Um sistema pode ser usável e, mesmo assim, gerar uma experiência ruim.
+
+Acessibilidade. É a possibilidade de uso por pessoas com a mais ampla variedade de capacidades, inclusive pessoas com deficiência. A referência internacional é o conjunto de diretrizes conhecido pela sigla WCAG. No governo brasileiro, existe o modelo eMAG.
+
+As diretrizes WCAG se organizam em quatro princípios. O conteúdo deve ser perceptível, operável, compreensível e robusto. E há três níveis de conformidade: A, duplo A e triplo A.
+
+Lembre também que a acessibilidade beneficia a todos. Legendas, bom contraste e navegação por teclado ajudam em muitas situações.
+
+Passemos ao design thinking e ao duplo diamante.
+
+São abordagens para explorar o problema antes de fixar a solução. As duas alternam momentos de divergência, em que se abrem possibilidades, e de convergência, em que se escolhe.
+
+O design thinking costuma ser apresentado em cinco etapas: empatia, definição, ideação, prototipação e teste.
+
+O duplo diamante tem quatro etapas: descobrir, definir, desenvolver e entregar.
+
+No duplo diamante, o primeiro diamante cuida do problema certo. Descobrir é divergente. Definir é convergente. O segundo diamante cuida da solução certa. Desenvolver é divergente. Entregar é convergente.
+
+E as etapas não são lineares. Um teste pode devolver o trabalho à definição do problema.
+
+As ferramentas mais citadas.
+
+Persona, que representa um grupo de usuários com base em pesquisa.
+
+Mapa de empatia, que registra o que o usuário diz, pensa, faz e sente.
+
+Jornada do usuário, que mostra etapas, pontos de contato e dificuldades.
+
+Protótipo de baixa fidelidade, feito em papel ou em esboço de tela. É barato e serve para testar a ideia e o fluxo logo no começo.
+
+Protótipo de alta fidelidade, próximo do produto final em aparência e interação.
+
+Teste de usabilidade, em que se observam usuários reais executando tarefas reais.
+
+E avaliação heurística, em que especialistas inspecionam a interface com base em princípios, sem a participação de usuários.
+
+Guarde essa diferença, porque o examinador troca. Teste de usabilidade é com usuários. Avaliação heurística é com especialistas.
+
+As heurísticas mais conhecidas são as dez de Nielsen. Vale reconhecer os nomes: visibilidade do estado do sistema. Correspondência entre o sistema e o mundo real. Controle e liberdade do usuário. Consistência e padrões. Prevenção de erros. Reconhecimento em vez de memorização. Flexibilidade e eficiência de uso. Estética e projeto minimalista. Ajuda para reconhecer e corrigir erros. E ajuda e documentação.
+
+Outro dado clássico de Nielsen: testes com cerca de cinco usuários por rodada, repetidos a cada iteração, já revelam a maior parte dos problemas.
+
+Para encerrar o bloco, o serviço público.
+
+O público é universal. Projetar para o usuário médio exclui exatamente quem mais depende do serviço.
+
+Use linguagem simples: textos que o cidadão entende na primeira leitura, sem jargão administrativo.
+
+Considere as barreiras digitais: falta de acesso, de equipamento, de familiaridade com tecnologia ou de acessibilidade. A solução digital deve prever canais alternativos e apoio.
+
+Peça a informação uma vez só. Não exija do cidadão aquilo que a administração já possui.
+
+E uma última ressalva. Envolver usuários não é fazer tudo o que eles pedem. É confrontar as soluções com evidências de uso.
+
+
+BLOCO CINCO. PROBLEMA PÚBLICO, PROCESSO DE TRABALHO E SOLUÇÃO DIGITAL.
+
+A ideia central deste bloco cabe em uma frase. A solução digital é um meio. Ela só gera valor se melhorar um processo de trabalho que, por sua vez, enfrenta um problema público.
+
+Vamos percorrer essa cadeia com um exemplo.
+
+Primeiro elo: o problema público. É a diferença entre a situação atual e a situação desejada, relevante para a coletividade. No nosso exemplo: as prestações de contas de convênios levam, em média, três anos para serem analisadas.
+
+Segundo elo: as causas. Análise manual de documentos, dados repetidos em várias planilhas e falta de critério para priorizar.
+
+Terceiro elo: o processo de trabalho. É o conjunto de atividades que transforma insumos em resultados, com papéis, regras e sistemas. No exemplo: receber, triar, analisar, pedir complementação e concluir a prestação de contas.
+
+Quarto elo: a solução digital. Software, dados e integrações que apoiam ou automatizam partes do processo. No exemplo: triagem automática por risco e cruzamento com bases que já existem.
+
+Quinto elo: o resultado. É a mudança observada no problema. No exemplo: o tempo médio de análise caiu, com a mesma qualidade.
+
+Três observações sobre essa cadeia.
+
+Sintoma não é causa. A queixa o sistema é lento pode ser sintoma de um processo com etapas desnecessárias.
+
+Existe uma ferramenta chamada árvore de problemas. O problema central fica no tronco, as causas ficam nas raízes e os efeitos ficam na copa.
+
+E nem todo problema público pede software. Às vezes, a resposta é mudar a norma, simplificar o processo, capacitar pessoas ou reutilizar uma solução que já existe.
+
+Agora, o processo de trabalho.
+
+Dois termos em inglês aparecem muito. O processo AS IS é o processo como ele funciona hoje. O processo TO BE é o processo redesenhado.
+
+E a regra de ouro: primeiro se simplifica, depois se automatiza. Automatizar um processo ruim só faz o erro acontecer mais rápido.
+
+A notação usual para desenhar processos é o BPMN. Os elementos básicos são estes.
+
+Evento: algo que acontece. Pode ser de início, intermediário ou de fim. É representado por um círculo.
+
+Atividade: o trabalho executado. É um retângulo de cantos arredondados.
+
+Gateway: um ponto de decisão, de divisão ou de junção de caminhos. É um losango.
+
+Fluxo de sequência: a ordem das atividades dentro de um mesmo participante. É uma seta contínua.
+
+Fluxo de mensagem: a comunicação entre participantes diferentes. É uma seta tracejada.
+
+E piscinas e raias. A piscina representa um participante do processo. As raias dividem a piscina por papéis.
+
+Sobre os gateways, três tipos. O exclusivo segue um único caminho. O paralelo segue todos os caminhos. O inclusivo segue um ou mais.
+
+E por que isso interessa a quem levanta requisitos? Porque o desenho do processo revela requisitos. As regras de negócio, os pontos de decisão, os papéis, que viram perfis de acesso, e as trocas de informação, que viram integrações.
+
+Agora, os graus de mudança. São três termos.
+
+Digitização é mudar o suporte: do papel para o arquivo digital. Por exemplo, escanear um formulário.
+
+Digitalização é fazer o processo rodar em meio digital. Por exemplo, um formulário eletrônico que tramita dentro do sistema.
+
+Transformação digital é repensar o serviço a partir das possibilidades digitais. Por exemplo, conceder um benefício automaticamente, sem requerimento, com dados que o Estado já possui.
+
+Portanto, trocar o papel por uma tela, mantendo as mesmas etapas e as mesmas exigências, não é transformação digital.
+
+Como medir se deu certo? Aqui há uma escada de quatro degraus.
+
+Insumo: o que foi consumido. Horas da equipe e orçamento.
+
+Produto, em inglês output: o que foi entregue. O sistema implantado, as funcionalidades em produção.
+
+Resultado, em inglês outcome: o que mudou para o usuário ou para o processo. O tempo de análise caiu de três anos para oito meses.
+
+Impacto: o que mudou no problema público.
+
+A pegadinha é confundir produto com resultado. Entregar o sistema no prazo e no custo é produto. Não prova que o problema foi resolvido. O sucesso se mede pela mudança no problema.
+
+E, para medir, o objetivo precisa ser definido antes, com uma linha de base e uma meta.
+
+Os riscos de uma solução digital. São sete, e vale conhecer os nomes.
+
+Solucionismo tecnológico: começar pela tecnologia e depois procurar um problema para ela.
+
+Automatizar a ineficiência: informatizar etapas que deveriam ser eliminadas.
+
+Exclusão: o canal digital único deixa de fora quem não tem acesso ou habilidade.
+
+Rigidez: o sistema cristaliza uma regra, e o caso atípico fica sem saída.
+
+Decisão automatizada sem revisão: erros e vieses atingem muita gente de uma vez, sem explicação e sem possibilidade de recurso.
+
+Duplicação: construir o que já existe em outro órgão, em vez de reutilizar ou integrar.
+
+E dependência de fornecedor: a solução fica presa a quem a construiu.
+
+Por fim, a ligação com os requisitos, que amarra o item inteiro.
+
+Cada requisito deve responder a uma pergunta simples: que parte do problema ele ajuda a resolver? Requisito sem ligação com nenhum objetivo é candidato a corte. E problema sem nenhum requisito correspondente é uma lacuna.
+
+Diante de qualquer demanda, cinco perguntas organizam a análise.
+
+Qual é o problema, para quem, e qual é a evidência de que ele existe?
+Quais são as causas, e quais delas uma solução digital alcança?
+Como o processo funciona hoje, e o que pode ser eliminado antes de automatizar?
+Que alternativas existem, inclusive as não digitais e as que já estão prontas?
+E como saberemos que deu certo?
+
+
+BLOCO SEIS. REVISÃO NO ESTILO CEBRASPE.
+
+Vamos às afirmações. Depois de cada uma, pense na resposta antes de ouvir o gabarito. Se precisar, pause o áudio.
+
+Afirmação um. No levantamento de requisitos, deve-se registrar fielmente a solução solicitada pelo usuário, pois ele é quem melhor conhece a própria necessidade.
+
+Gabarito: errado. O usuário conhece o problema. A solução que ele pede deve ser investigada até se chegar à necessidade.
+
+Afirmação dois. A observação é técnica adequada quando os usuários têm dificuldade de descrever como executam suas tarefas.
+
+Gabarito: certo. A observação capta o conhecimento tácito e o trabalho real.
+
+Afirmação três. As partes interessadas de um sistema limitam-se aos seus usuários finais.
+
+Gabarito: errado. Incluem também o demandante, o patrocinador, os gestores, as áreas de apoio e os afetados indiretos.
+
+Afirmação quatro. O requisito segundo o qual o sistema deve responder às consultas em até dois segundos é funcional.
+
+Gabarito: errado. É não funcional, de desempenho.
+
+Afirmação cinco. Requisitos não funcionais são menos críticos que os funcionais, pois não afetam o funcionamento do sistema.
+
+Gabarito: errado. Uma falha em requisito não funcional pode inutilizar o sistema inteiro.
+
+Afirmação seis. Validação consiste em verificar se o produto foi construído conforme a especificação.
+
+Gabarito: errado. Isso é verificação. Validação confirma que foi construído o produto certo.
+
+Afirmação sete. Premissa é uma limitação imposta ao projeto, enquanto restrição é uma hipótese assumida como verdadeira.
+
+Gabarito: errado. Os conceitos estão trocados.
+
+Afirmação oito. Critérios de aceitação são específicos de cada história, ao passo que a definição de pronto se aplica a todos os itens.
+
+Gabarito: certo. A diferença está na abrangência.
+
+Afirmação nove. Segundo a norma ISO, usabilidade envolve eficácia, eficiência e satisfação em um contexto de uso específico.
+
+Gabarito: certo. É a definição da norma.
+
+Afirmação dez. A avaliação heurística é realizada por usuários reais executando tarefas no sistema.
+
+Gabarito: errado. A avaliação heurística é feita por especialistas. Com usuários reais, é teste de usabilidade.
+
+Afirmação onze. A implantação do sistema no prazo e no custo previstos demonstra que o problema público foi resolvido.
+
+Gabarito: errado. Isso é produto. Resultado é a mudança no problema.
+
+Afirmação doze. Recomenda-se automatizar o processo tal como ele é executado hoje e simplificá-lo depois, com o sistema em produção.
+
+Gabarito: errado. Primeiro se simplifica, depois se automatiza.
+
+
+BLOCO SETE. ENCERRAMENTO.
+
+Para fechar, as cinco ideias que você deve levar desta aula, uma por subitem.
+
+Um. O usuário pede soluções. O seu trabalho é chegar à necessidade.
+
+Dois. Funcional é o que o sistema faz. Não funcional é com que qualidade. E requisito não funcional precisa de métrica.
+
+Três. Restrição é limite imposto, premissa é hipótese assumida. Critério de aceitação vale para uma história, e definição de pronto vale para todas.
+
+Quatro. Projeto centrado nas pessoas é iterativo, envolve o usuário o tempo todo e se apoia em avaliação com gente real.
+
+Cinco. Software é meio. Simplifique o processo antes de automatizar, e meça o resultado, e não a entrega.
+
+Bons estudos, e até a próxima aula.
