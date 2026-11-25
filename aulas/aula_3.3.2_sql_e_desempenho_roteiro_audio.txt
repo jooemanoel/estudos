@@ -1,0 +1,340 @@
+AUDIOAULA. ITEM TRÊS PONTO TRÊS PONTO DOIS DO EDITAL: ÉSSE QUÊ ÉLE E DESEMPENHO
+
+
+ABERTURA
+
+Este é o item três ponto três ponto dois, ésse quê éle e desempenho. Ele tem quatro subitens, tratados em cinco blocos, porque o terceiro foi dividido em dois: definição e manipulação de dados, controle de acesso e transações; consultas com filtros, junções, agregações, subconsultas e expressões de tabela comuns; índices e planos de execução; valores nulos e duplicações; e diagnóstico de consultas e efeitos sobre o desempenho da aplicação. A banca costuma explorar a classificação dos comandos, a diferença entre excluir, truncar e descartar, a cláusula réving, as junções externas, o nulo nas comparações e nas agregações, a ordem das colunas nos índices compostos e a leitura dos planos de execução.
+
+
+BLOCO UM: DEFINIÇÃO E MANIPULAÇÃO DE DADOS, CONTROLE DE ACESSO E TRANSAÇÕES
+
+A linguagem ésse quê éle é padronizada pela norma ízo í é cê nove mil e setenta e cinco, cuja edição mais recente é de dois mil e vinte e três. Essa edição acrescentou uma parte para consultas a grafos de propriedades, um tipo de dados djêisson e funções como a do maior e a do menor valor de uma lista, todos como recursos opcionais. Cada banco implementa um dialeto, com extensões e omissões.
+
+Os comandos se dividem em grupos. Definição de dados, a dê dê éle: criar, alterar e descartar objetos, como tabelas, índices, visões e sequências, com os comandos crí-eit, ólter e dróp. Manipulação de dados, a dê ême éle: inserir, atualizar e excluir, com insért, âpdeit e dilít, e consultar, com selékt, que alguns autores separam em um grupo próprio de consulta. Controle de dados, a dê cê éle: conceder e revogar privilégios, com grânt e rivôuc. E controle de transações: confirmar, desfazer e marcar pontos de salvamento, com cômit, rólbéc e seivpóint.
+
+Definição de dados.
+
+A tabela nasce com colunas, tipos e as restrições vistas no item três ponto três ponto um. A visão é uma consulta guardada com nome e consultada como se fosse tabela; serve para simplificar consultas e para restringir o que cada usuário enxerga. A visão materializada guarda o resultado, o que acelera consultas caras, mas precisa ser atualizada, e os dados envelhecem entre uma atualização e outra.
+
+Três comandos parecidos são par de troca certa. Excluir, o dilít, remove linhas, com filtro opcional; sem a cláusula uér, remove todas. Ele registra cada linha, dispara os gatilhos de linha e pode ser desfeito. Truncar, o trânkeit, esvazia a tabela inteira de uma vez, sem filtro e muito mais rápido, e costuma ser classificado como definição de dados; no Póstgres, pode ser desfeito dentro da transação, enquanto no Oracle e no Mai ésse quê éle confirma a transação implicitamente. E descartar, o dróp, remove a própria tabela, com estrutura, dados, índices e permissões.
+
+Manipulação de dados.
+
+A inserção aceita várias linhas em um só comando e também o resultado de uma consulta. A atualização e a exclusão sem cláusula uér atingem a tabela inteira, erro clássico que uma transação explícita permite desfazer antes da confirmação. O mêrdj, do padrão, combina inserir, atualizar e excluir conforme a linha exista ou não na tabela de destino. O Póstgres tem também a inserção com tratamento de conflito, que atualiza ou ignora a linha quando a chave já existe; é a base de cargas que podem ser repetidas sem duplicar, ligadas à idempotência vista no item três ponto dois ponto três. E a cláusula ritúrning devolve as linhas afetadas, sem consulta extra.
+
+Controle de acesso.
+
+O menor privilégio e o caso da aplicação conectada como administrador foram vistos no item três ponto dois ponto dois. Aqui entram os comandos. O grânt concede privilégios sobre objetos: consultar, inserir, atualizar e excluir em uma tabela, referenciá-la em chave estrangeira, usar um esquema, executar uma função. O rivôuc retira. A cláusula de opção de concessão, uíth grânt ópchon, permite a quem recebe repassar o privilégio a outros. A revogação com cascata retira também as concessões repassadas, e a revogação com restrição falha se houver concessões dependentes.
+
+Os privilégios vão para papéis, e não para pessoas: cria-se, por exemplo, o papel de leitura de um módulo, concedem-se a ele os privilégios e atribui-se o papel aos usuários. O pseudopapel público representa todos os usuários. Desde a versão quinze, o Póstgres deixou de permitir que qualquer usuário crie objetos no esquema público.
+
+Uma separação prática: o usuário das migrações, que cria e altera tabelas, não é o usuário da aplicação, que só manipula dados. Assim, uma injeção de ésse quê éle na aplicação não consegue descartar tabelas. Como as tabelas criadas depois precisam dos mesmos privilégios, usam-se os privilégios padrão, que valem para os objetos futuros do esquema.
+
+Para restringir linhas, o Póstgres tem a segurança em nível de linha: políticas associadas à tabela filtram, em toda consulta, o que o usuário pode ver ou alterar, como só os processos da própria unidade. Os superusuários nunca se submetem às políticas, e o dono da tabela também não, a menos que a tabela seja configurada para forçá-las. Para restringir colunas, há privilégios por coluna e visões que expõem só as colunas permitidas. São as medidas técnicas contra acessos não autorizados que a Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, exige no artigo quarenta e seis.
+
+Transações.
+
+Por padrão, a maioria dos clientes, inclusive o djêi dê bê cê, trabalha em confirmação automática: cada comando é uma transação. A transação explícita começa com bigín, ou stárt tránsékchon, e termina com cômit ou rólbéc. O ponto de salvamento marca uma posição intermediária, e desfazer até ele descarta só o que veio depois, mantendo a transação. O nível de isolamento é definido no início da transação, com os níveis vistos no item três ponto um ponto três.
+
+No Póstgres, um erro dentro de uma transação explícita a deixa em estado abortado: os comandos seguintes são recusados até o rólbéc, ou até o retorno a um ponto de salvamento anterior ao erro. Ferramentas de carga em lote usam pontos de salvamento para isolar a falha de uma linha sem perder a transação inteira.
+
+Pegadinhas do bloco um.
+
+O trânkeit permite remover apenas as linhas que atendem a uma condição. Errado. Ele esvazia a tabela inteira; a remoção com filtro é o dilít.
+
+O dróp de uma tabela remove os dados, mas preserva a estrutura. Errado. Remove a tabela inteira; o trânkeit e o dilít preservam a estrutura.
+
+A opção de concessão impede que o usuário repasse o privilégio recebido. Errado. É o contrário: ela permite o repasse.
+
+Um dilít sem cláusula uér não altera a tabela, por falta de condição. Errado. Remove todas as linhas.
+
+No Póstgres, depois de um erro em transação explícita, os comandos seguintes executam normalmente até a confirmação. Errado. A transação fica abortada até o rólbéc ou o retorno a um ponto de salvamento.
+
+As políticas de segurança em nível de linha valem, por padrão, também para o dono da tabela. Errado. O dono não se submete a elas, salvo se a tabela as forçar.
+
+
+BLOCO DOIS: CONSULTAS COM FILTROS, JUNÇÕES, AGREGAÇÕES, SUBCONSULTAS E EXPRESSÕES DE TABELA COMUNS
+
+A consulta é escrita em uma ordem e avaliada em outra. A ordem lógica é: frôm, com as junções; uér; grúp bái; réving; selékt; distínct; órder bái; e, por fim, o limite de linhas. Daí várias regras de prova. O uér não enxerga apelidos criados no selékt nem funções de agregação, porque roda antes deles. O órder bái, que vem depois, pode usar os apelidos. E o réving filtra grupos já agregados.
+
+Filtros.
+
+O bituín inclui os dois extremos do intervalo. No láique, o sinal de percentual representa qualquer sequência de caracteres, e o sublinhado, exatamente um caractere. O in compara com uma lista de valores. E, na combinação de condições, o ênd tem precedência sobre o ór. A condição situação aberta ór situação suspensa ênd valor acima de um milhão aplica o limite de valor só aos suspensos; para aplicá-lo aos dois, usam-se parênteses.
+
+Junções.
+
+A junção interna, inêr djóin, devolve só os pares que satisfazem a condição. A externa à esquerda, léft djóin, devolve todas as linhas da tabela da esquerda, com nulos nas colunas da direita quando não há correspondência; a externa à direita faz o inverso; e a completa, fúl djóin, devolve todas as linhas dos dois lados. A junção cruzada, cróss djóin, é o produto cartesiano: cada linha de uma tabela com cada linha da outra. A autojunção liga a tabela a ela mesma, como o servidor ao seu chefe. E a junção natural liga automaticamente todas as colunas de mesmo nome, o que quebra em silêncio quando alguém acrescenta às duas tabelas uma coluna de nome igual, como a data de atualização.
+
+A armadilha das junções externas é o filtro. Em uma junção à esquerda entre órgãos e contratos, pôr na cláusula uér uma condição sobre o contrato, como o ano igual a dois mil e vinte e seis, elimina os órgãos sem contrato, porque, para eles, a coluna é nula e a comparação não é verdadeira. A junção externa vira, na prática, interna. Para manter todos os órgãos, a condição vai na cláusula da junção, o ón.
+
+Duas perguntas aparecem sempre. Quais órgãos têm contrato: é a semijunção, com egzísts ou in. Quais órgãos não têm contrato: é a antijunção, com nót egzísts ou com junção à esquerda filtrando a chave do contrato nula.
+
+Agregações.
+
+As funções de contagem, soma, média, mínimo e máximo resumem grupos de linhas. O grúp bái define os grupos, e cada coluna do selékt que não está dentro de uma agregação precisa estar no grúp bái; o padrão admite também colunas que dependem funcionalmente da chave agrupada. O réving filtra grupos depois da agregação, como os órgãos com mais de dez contratos, enquanto o uér filtra linhas antes dela. Para contar ou somar com condição dentro do mesmo grupo, usa-se a cláusula de filtro da agregação, prevista no padrão, ou uma expressão quêis dentro da soma. Totais e subtotais em uma só consulta vêm dos conjuntos de agrupamento e das opções rôlap e cúb.
+
+As funções de janela, do padrão de dois mil e três, calculam sobre um conjunto de linhas relacionadas sem colapsar o resultado: cada linha continua presente. A cláusula ôuver define a janela, com partição e ordenação. O número da linha numera sem empates. O ránk dá a mesma posição aos empatados e pula as seguintes, como em um, um, três. O dénse ránk não pula: um, um, dois. As funções lég e líd leem a linha anterior e a seguinte, e a soma com janela ordenada dá o acumulado. É assim que se obtém o maior contrato de cada órgão ou a variação de um mês para o outro.
+
+Subconsultas.
+
+A subconsulta escalar devolve um único valor e pode aparecer no selékt ou em comparações; se devolver mais de uma linha, a consulta falha. A de lista alimenta o in. A tabela derivada fica no frôm, com um apelido, como uma tabela temporária. E a correlacionada referencia a consulta externa, como os contratos acima da média do próprio órgão; conceitualmente, é avaliada para cada linha de fora, embora o otimizador muitas vezes a transforme em junção.
+
+O egzísts só verifica se a subconsulta devolve alguma linha; o que ela seleciona não importa. Nos quantificadores, maior que éni é verdadeiro se o valor for maior que pelo menos um elemento, e maior que ól, se for maior que todos. Com subconsulta vazia, o ól é verdadeiro, e o éni, falso.
+
+Expressões de tabela comuns.
+
+A cláusula uíth dá nome a uma consulta, que depois é usada como tabela. Ganha-se legibilidade, com uma etapa por vez, e reuso do mesmo resultado em vários pontos da consulta. No Póstgres, desde a versão doze, a expressão usada uma só vez é incorporada à consulta principal e otimizada junto; antes, era sempre calculada à parte, o que às vezes impedia o uso de índices. A opção de materializar força o cálculo separado.
+
+A expressão recursiva, com uíth ricârsiv, do padrão de mil novecentos e noventa e nove, tem uma parte âncora, que gera as linhas iniciais, e uma parte recursiva, que se junta ao resultado anterior até não gerar linhas novas, as duas ligadas por iúnion. Serve a hierarquias e a grafos.
+
+Exemplo prático. Para somar os contratos de uma unidade e de todas as suas subordinadas, a âncora seleciona a unidade escolhida; a parte recursiva junta as unidades cuja unidade superior já está no resultado; e a consulta final soma os contratos de todas elas. Um ciclo nos dados, como uma unidade registrada como superior de si mesma, impede a recursão de terminar. A cláusula de detecção de ciclos do padrão e um limite de profundidade protegem contra isso.
+
+Pegadinhas do bloco dois.
+
+A cláusula uér pode filtrar o resultado de funções de agregação. Errado. Agregação se filtra no réving, que roda depois do agrupamento.
+
+O operador bituín exclui os valores extremos do intervalo. Errado. Inclui os dois.
+
+Em uma junção à esquerda, a condição sobre a tabela da direita posta na cláusula uér preserva as linhas da esquerda sem correspondência. Errado. Elimina-as; a condição deve ir no ón.
+
+O ránk atribui posições consecutivas, sem saltos, aos empatados e às linhas seguintes. Errado. Isso é o dénse ránk; o ránk pula posições.
+
+Uma subconsulta escalar que devolve várias linhas usa automaticamente o primeiro valor. Errado. A consulta falha.
+
+Maior que ól, aplicado a uma subconsulta vazia, é falso. Errado. É verdadeiro.
+
+
+BLOCO TRÊS: ÍNDICES E PLANOS DE EXECUÇÃO
+
+Índices.
+
+Índice é uma estrutura auxiliar que leva às linhas sem ler a tabela inteira, como o índice remissivo de um livro. O tipo padrão é a árvore bê mais: balanceada, com as folhas ligadas em ordem. Atende igualdade, intervalos, ordenação e prefixos de texto, com custo de busca logarítmico. O índice de dispersão atende só igualdade. Os índices invertidos, como o djín, servem a texto, listas e djêisson. E o brín, que resume faixas de blocos, serve a tabelas enormes cuja ordem física acompanha a coluna, como a data de registro.
+
+No ésse quê éle Sérver e no motor Ínou dê bê do Mai ésse quê éle, a tabela é organizada pelo índice agrupado, em geral a chave primária, e os índices secundários apontam para a chave desse índice. Só pode haver um índice agrupado por tabela, porque os dados só têm uma ordem física. No Póstgres, a tabela não tem ordem, e todos os índices apontam para a posição física da linha.
+
+A ordem das colunas de um índice composto decide quais consultas ele atende. Um índice sobre órgão e data serve a filtros por órgão e a filtros por órgão e intervalo de datas, mas, em regra, não a filtros só por data, assim como uma lista telefônica ordenada por sobrenome e nome não ajuda a achar todos os Joões. A regra prática é pôr primeiro as colunas comparadas por igualdade e depois a de intervalo. Alguns bancos têm a varredura com salto, que usa o índice mesmo sem a primeira coluna quando ela tem poucos valores distintos; o Póstgres a ganhou na versão dezoito, de setembro de dois mil e vinte e cinco.
+
+O índice de cobertura inclui todas as colunas de que a consulta precisa, e o banco responde só com o índice, sem visitar a tabela, na varredura somente no índice. No Póstgres, colunas extras entram com a cláusula de inclusão.
+
+O índice só é aproveitado quando a condição compara a coluna tal como está guardada. Aplicar uma função à coluna impede o uso: filtrar pelo ano extraído da data, ou pelo nome convertido em maiúsculas, obriga a ler tudo. As saídas são reescrever a condição como intervalo, com a data maior ou igual ao primeiro dia do ano e menor que o primeiro dia do ano seguinte, ou criar um índice sobre a expressão. A conversão implícita de tipo tem o mesmo efeito, como comparar uma coluna de texto com um número. E há o curinga no início do láique, visto no item três ponto três ponto um.
+
+Seletividade é a fração das linhas que a condição devolve, e o índice compensa quando ela é pequena. Para uma condição que devolve metade da tabela, como situação ativa em um cadastro quase todo ativo, ler a tabela em sequência sai mais barato, e o otimizador ignora o índice, com razão. O índice parcial, que indexa só as linhas que atendem a uma condição, como os processos em aberto, fica pequeno e atende às consultas que repetem essa condição.
+
+Todo índice tem custo de escrita: cada inserção, cada atualização das colunas indexadas e cada exclusão mantêm também o índice, que ocupa espaço e memória. Índices nunca usados ou duplicados devem ser removidos. E um detalhe que a banca explora: o Póstgres cria índice automaticamente para a chave primária e para as restrições de unicidade, mas não para a coluna de chave estrangeira. Sem esse índice, as junções pela chave e a exclusão do registro pai, que precisa verificar os filhos, leem a tabela filha inteira.
+
+O plano de execução.
+
+O otimizador baseado em custo estima, para cada alternativa, quantas linhas cada etapa produz e quanto ela custa, e escolhe o plano mais barato. As estimativas vêm das estatísticas de cada coluna: número de linhas, valores distintos, valores mais frequentes e histogramas, coletadas pelo comando énalaiz e pela manutenção automática. Estatística velha, depois de uma carga grande, leva a planos ruins. E colunas correlacionadas, como município e unidade da federação, enganam a estimativa, porque o otimizador as supõe independentes; para isso existem as estatísticas estendidas.
+
+O comando ecsplêin mostra o plano escolhido, com custos e linhas estimados, sem executar a consulta. Com a opção de analisar, ele executa de fato e mostra o tempo e as linhas reais de cada etapa; com a opção de bâfers, mostra também quantas páginas vieram da memória e quantas do disco. Como executa, o ecsplêin analisado de uma atualização ou exclusão altera os dados, e por isso é usado dentro de uma transação desfeita em seguida.
+
+Os métodos de acesso. A varredura sequencial lê a tabela inteira. A varredura de índice percorre o índice e busca cada linha na tabela. A varredura somente no índice dispensa a tabela. E a varredura por mapa de bits junta as posições encontradas em um ou mais índices e lê as páginas da tabela em ordem; serve à seletividade intermediária e à combinação de índices.
+
+Os algoritmos de junção. Laços aninhados: para cada linha do lado de fora, procuram-se as correspondentes do lado de dentro, de preferência por índice; é o melhor quando o lado de fora é pequeno. Junção por dispersão: monta-se uma tabela de dispersão com a entrada menor e percorre-se a maior; só serve a igualdade e é boa para volumes grandes sem índice. Junção por intercalação: percorrem-se em paralelo as duas entradas ordenadas pela chave; compensa quando elas já vêm ordenadas.
+
+Na leitura do plano, três sinais pedem atenção. Diferença grande entre linhas estimadas e reais, que indica estatística ruim e leva a escolhas erradas, como laços aninhados sobre milhares de linhas. Muitas linhas lidas e descartadas por filtro depois da varredura, sinal de índice ausente ou inadequado. E ordenações ou tabelas de dispersão que não cabem na memória de trabalho e vão para o disco.
+
+Planos de comandos preparados podem ser reaproveitados. No Póstgres, as cinco primeiras execuções usam planos específicos para os valores recebidos; depois, o banco pode adotar um plano genérico, se ele não parecer pior. Quando a distribuição dos dados é muito desigual, como um órgão que concentra metade dos contratos, o plano bom para um valor é ruim para outro.
+
+Pegadinhas do bloco três.
+
+Um índice composto sobre órgão e data atende de forma eficiente, em qualquer banco, consultas filtradas só pela data. Errado. Em regra, a primeira coluna precisa estar no filtro; a varredura com salto é exceção, que depende do banco e dos dados.
+
+O Póstgres cria automaticamente índice nas colunas de chave estrangeira. Errado. Ele cria só para a chave primária e para as restrições de unicidade.
+
+Aplicar uma função à coluna indexada não interfere no uso do índice comum. Errado. Impede o uso; reescreve-se a condição ou cria-se índice sobre a expressão.
+
+Quanto mais índices a tabela tiver, melhor o desempenho de todas as operações. Errado. Cada índice encarece as gravações e ocupa espaço.
+
+O ecsplêin com a opção de analisar apenas estima o plano, sem executar o comando. Errado. Ele executa; em atualizações, usa-se transação desfeita em seguida.
+
+A junção por dispersão serve a condições de desigualdade, como maior que. Errado. Ela só serve a igualdade.
+
+
+BLOCO QUATRO: VALORES NULOS E DUPLICAÇÕES
+
+Valores nulos.
+
+O nulo representa ausência de valor: desconhecido ou não aplicável. Não é zero nem texto vazio. Comparações com nulo não dão verdadeiro nem falso: dão desconhecido. É a lógica de três valores. O uér só mantém as linhas em que a condição é verdadeira e, por isso, descarta as desconhecidas. Coluna igual a nulo nunca é verdadeiro, nem quando a coluna é nula; o teste é com é nulo e não é nulo, em inglês is nâl e is nót nâl. O padrão tem ainda o operador é distinto de, que trata dois nulos como iguais na comparação.
+
+Na lógica de três valores, verdadeiro ór desconhecido dá verdadeiro, e falso ênd desconhecido dá falso; nas demais combinações com desconhecido, o resultado continua desconhecido, e a negação de desconhecido também.
+
+A armadilha clássica é o nót in com nulo. Se a subconsulta devolve um único nulo, a condição valor nót in lista nunca é verdadeira, e a consulta não devolve nenhuma linha, porque a comparação com o nulo dá desconhecido. O nót egzísts não tem esse problema e é a forma segura de antijunção.
+
+Nas agregações, os nulos são ignorados, com uma exceção: contar asterisco conta linhas, e contar uma coluna conta só os valores não nulos. A média ignora os nulos: é a soma dos valores preenchidos dividida pela quantidade de preenchidos. Trocar nulo por zero com o côalés antes da média muda o resultado, porque os zeros passam a contar. A soma de nenhum valor é nula, e não zero. E, em uma junção à esquerda entre órgãos e contratos, contar asterisco dá um para o órgão sem contrato, por causa da linha com nulos; o certo é contar a chave do contrato.
+
+Em expressões, o nulo se propaga: valor mais nulo é nulo, e concatenar com nulo dá nulo no padrão. O côalés devolve o primeiro argumento não nulo, e o nâl if devolve nulo quando os dois argumentos são iguais, o que evita a divisão por zero. No Oracle, o texto vazio é tratado como nulo, diferença que quebra migrações entre bancos.
+
+Na ordenação, o lugar dos nulos varia: no Póstgres e no Oracle, eles vêm por último na ordem crescente, como se fossem maiores; no Mai ésse quê éle e no ésse quê éle Sérver, vêm primeiro. As cláusulas de nulos primeiro e de nulos por último fixam o comportamento. No agrupamento, todos os nulos formam um único grupo.
+
+Na restrição de unicidade, o padrão considera os nulos distintos entre si, e várias linhas podem ter nulo na coluna única; o ésse quê éle Sérver é exceção e aceita um só. A edição de dois mil e vinte e três do padrão criou a opção de tratar os nulos como iguais na unicidade, que o Póstgres oferece desde a versão quinze.
+
+Duplicações.
+
+Na teoria, a relação não tem linhas repetidas. Na prática, a tabela sem chave aceita repetições, e as consultas também as produzem. As fontes de duplicação são três.
+
+A primeira é a falta de restrição. Sem chave de negócio protegida por unicidade, a corrida entre requisições e o reprocessamento de cargas gravam o mesmo fato duas vezes, como visto no item três ponto três ponto um.
+
+A segunda são as operações de conjunto. O iúnion junta resultados e elimina os repetidos, o que exige ordenar ou montar uma tabela de dispersão; o iúnion ól junta sem eliminar e é mais barato. Usar iúnion com conjuntos que não se sobrepõem paga um custo à toa; usar iúnion ól quando podem se sobrepor duplica. O interséct devolve o que está nos dois resultados, e o ecsépt, chamado máinus no Oracle, o que está no primeiro e não no segundo.
+
+A terceira, a mais traiçoeira, é a multiplicação nas junções. Juntar contratos e pagamentos, em relação um para muitos, e somar o valor do contrato soma o mesmo contrato uma vez para cada pagamento. O total sai inflado, sem nenhum erro aparente. A correção é agregar cada lado no seu nível antes de juntar: somar os pagamentos por contrato em uma subconsulta ou expressão de tabela comum e só então ligar ao contrato.
+
+Acrescentar distínct para sumir com repetições que não deveriam existir é sintoma de junção errada, e não correção. Além de esconder o defeito, custa uma ordenação ou uma tabela de dispersão sobre todo o resultado.
+
+Para encontrar duplicados, agrupa-se pela chave de negócio e filtra-se com réving contagem maior que um. Para remover mantendo um de cada grupo, numera-se cada grupo com o número da linha, ordenado pelo critério de preferência, como o registro mais antigo, e excluem-se os de número maior que um. Antes de comparar, normalizam-se os valores, como espaços, maiúsculas, acentos e pontuação de documentos; senão, o mesmo cê ene pê jota escrito de duas formas escapa do agrupamento.
+
+Exemplo prático. Para identificar pagamentos em duplicidade, a auditoria agrupa os pagamentos por credor, valor e data, com réving contagem maior que um. Três cuidados mudam o resultado. Os pagamentos com credor nulo formam um único grupo, que mistura credores não identificados. Documentos sem normalização escapam. E juntar antes com a tabela de notas fiscais, em relação um para muitos, criaria duplicidades falsas.
+
+Pegadinhas do bloco quatro.
+
+A condição coluna igual a nulo devolve as linhas em que a coluna é nula. Errado. A comparação dá desconhecido; usa-se é nulo.
+
+Se a subconsulta do nót in devolver um nulo, a condição se torna verdadeira para todas as linhas. Errado. Ela nunca é verdadeira, e nada é devolvido.
+
+A contagem aplicada a uma coluna conta também as linhas em que ela é nula. Errado. Só contar asterisco conta todas as linhas.
+
+A soma de uma coluna sem nenhum valor preenchido devolve zero. Errado. Devolve nulo.
+
+O iúnion ól elimina as linhas repetidas entre os resultados combinados. Errado. Quem elimina é o iúnion.
+
+Pelo padrão, a coluna com restrição de unicidade admite um único nulo. Errado. Os nulos são distintos entre si, e vários são admitidos, salvo a opção criada em dois mil e vinte e três.
+
+
+BLOCO CINCO: DIAGNÓSTICO DE CONSULTAS E EFEITOS SOBRE O DESEMPENHO DA APLICAÇÃO
+
+O esgotamento do pool, a lei de Lítol e os rastros foram vistos no item três ponto dois ponto cinco; o problema das ene mais uma consultas e a paginação por deslocamento, no item três ponto três ponto um. Aqui entra o diagnóstico no banco.
+
+Achar o que pesa.
+
+O peso de uma consulta é o tempo médio multiplicado pelo número de execuções. Uma consulta de cinco milissegundos executada um milhão de vezes por dia custa mais que uma de dez segundos executada uma vez. No Póstgres, a extensão pê guê stát stêitments agrega as consultas normalizadas, sem os valores dos parâmetros, com número de execuções, tempo total e médio, linhas e páginas lidas. O registro de consultas lentas grava as que passam de um limite de duração, e o módulo de explicação automática grava também o plano delas. E os rastros mostram qual endpóinti dispara cada consulta.
+
+Depois, analisa-se o plano com dados realistas. Em desenvolvimento, com cem linhas, qualquer plano é rápido, e o otimizador escolhe caminhos diferentes dos de produção. A análise usa volume e distribuição parecidos com os reais, estatísticas atualizadas e a mesma versão do banco.
+
+As causas mais comuns.
+
+Índice ausente, inadequado ou anulado por função ou conversão de tipo, como visto no bloco três. Consultas que trazem demais: todas as colunas, inclusive textos longos e arquivos, quando a tela usa três, ou todas as linhas, sem limite, quando a tela mostra vinte. As ene mais uma consultas. A paginação profunda por deslocamento. As estatísticas velhas. E a espera por bloqueio: a consulta é rápida, mas fica parada atrás de uma transação longa. Nesse caso, o plano está bom e o problema é a concorrência, visível nas visões de atividade do banco, que mostram quem espera por quem.
+
+O processamento linha a linha também pesa. Ler mil registros e enviar mil atualizações individuais, cada uma com ida e volta pela rede, é muito mais lento que um único comando sobre o conjunto ou que o envio em lote, com agrupamento de comandos no djêi dê bê cê. O Ribérneit agrupa com o tamanho de lote configurado, exceto quando o identificador é gerado por identidade, como visto no item três ponto três ponto um. Para cargas grandes, o Póstgres tem o comando de cópia em massa.
+
+Os efeitos na aplicação.
+
+Os efeitos vão além da latência da própria tela. Cada consulta lenta segura uma conexão do pool durante toda a execução. Com o pool cheio, requisições de outras telas, que usariam consultas rápidas, esperam por conexão e esgotam o prazo. É a falha em cascata vista no item três ponto dois ponto cinco, agora com origem no banco. O banco também é compartilhado: um relatório pesado consome processador, memória e leitura de disco de todos os sistemas do mesmo servidor. E resultados enormes carregados de uma vez estouram a memória da máquina virtual Java; para processar muitos registros, usam-se paginação, leitura em fluxo com tamanho de busca definido e limpeza periódica do contexto de persistência.
+
+Prazos limitam o pior caso. No banco, o prazo por comando interrompe as consultas que passam do limite, e o prazo para sessões ociosas dentro de transação encerra quem abriu uma transação e não a fechou, segurando bloqueios e impedindo a limpeza das versões antigas. Na aplicação, o prazo da consulta, configurável no jota pê á por dica de consulta e no arroba transácheonal pelo atributo de prazo, deve ser menor que o prazo de quem chama. E repetir automaticamente uma consulta que esgotou o prazo por sobrecarga só aumenta a carga, como visto no item três ponto dois ponto três.
+
+Quando a consulta já está boa e o volume ainda pesa, entram as alternativas dos itens anteriores: quéchi para dados de referência, réplica de leitura ou base analítica para relatórios, e visões materializadas para agregações caras que toleram alguma defasagem.
+
+Exemplo prático. A tela de consulta de licitações fica lenta nos horários de pico, e o pool chega ao limite. A extensão de estatísticas aponta, pelo tempo total, uma consulta que filtra pelo ano extraído da data de abertura e ordena por essa data. O plano analisado mostra varredura sequencial, com milhões de linhas descartadas pelo filtro. A condição é reescrita como intervalo de datas, e um índice composto por órgão e data de abertura passa a atender o filtro e a ordenação. A consulta cai de segundos para milissegundos, e o pool deixa de se esgotar.
+
+Pegadinhas do bloco cinco.
+
+A consulta mais urgente para otimizar é sempre a de maior tempo médio. Errado. O peso é o tempo médio multiplicado pelo número de execuções.
+
+Consulta rápida em desenvolvimento será rápida em produção, porque o plano não depende do volume. Errado. O otimizador escolhe o plano conforme o volume e as estatísticas.
+
+Consultas lentas afetam apenas a tela que as executa. Errado. Elas seguram conexões do pool e atrasam outras telas, até a falha em cascata.
+
+Quando uma consulta fica parada, a causa está sempre no plano de execução. Errado. Pode ser espera por bloqueio de outra transação.
+
+Enviar atualizações uma a uma, em laço, tem o mesmo desempenho de um comando sobre o conjunto. Errado. Cada envio paga uma ida e volta pela rede.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Definição, manipulação, controle de acesso e transações. Norma ízo í é cê nove mil e setenta e cinco, edição de dois mil e vinte e três, com recursos novos opcionais. Grupos de definição, manipulação, controle de dados e controle de transações. Visão restringe o que se enxerga; visão materializada precisa de atualização. Mêrdj e inserção com tratamento de conflito para cargas repetíveis; ritúrning devolve as linhas afetadas. Privilégios para papéis; usuário de migração separado do usuário da aplicação; privilégios padrão para objetos futuros; segurança em nível de linha. Confirmação automática por padrão; pontos de salvamento.
+
+Consultas. Ordem lógica: frôm, uér, grúp bái, réving, selékt, distínct, órder bái e limite. Ênd antes de ór. Interna, externas, cruzada, autojunção e natural. Semijunção com egzísts e antijunção com nót egzísts. Colunas fora da agregação vão para o grúp bái; filtro na agregação e conjuntos de agrupamento. Funções de janela sem colapsar linhas; lég, líd e acumulado. Subconsulta escalar, de lista, derivada e correlacionada; egzísts ignora o que é selecionado. Expressão de tabela comum para legibilidade e reuso; recursiva com âncora e parte recursiva, protegida contra ciclos.
+
+Índices e planos. Árvore bê mais como padrão; dispersão só para igualdade; djín para texto e djêisson; brín para tabelas enormes ordenadas. Um só índice agrupado por tabela. Igualdade antes de intervalo no índice composto; cobertura com inclusão; índice parcial. Seletividade decide entre índice e varredura. Otimizador por custo apoiado em estatísticas; estatísticas estendidas para colunas correlacionadas. Ecsplêin para ler o plano, com linhas estimadas e reais e páginas lidas. Varreduras sequencial, de índice, somente no índice e por mapa de bits; laços aninhados, dispersão e intercalação. Estimado muito diferente do real indica estatística ruim; plano genérico depois de cinco execuções.
+
+Nulos e duplicações. Lógica de três valores e o operador é distinto de. Média dos preenchidos; contar a chave do lado direito na junção externa. Côalés e nâl if; texto vazio como nulo no Oracle. Ordem dos nulos varia por banco, e no agrupamento eles formam um grupo. Fontes de duplicação: falta de restrição, operações de conjunto e multiplicação nas junções. Agregar antes de juntar; distínct como sintoma. Agrupar com réving para achar e numerar linhas para remover, após normalizar.
+
+Diagnóstico. Extensão de estatísticas, registro de lentas e explicação automática; rastros ligam a consulta ao endpóinti. Causas comuns: índice, excesso de colunas e de linhas, ene mais uma consultas, deslocamento profundo e estatísticas velhas. Leitura em fluxo com tamanho de busca para grandes volumes. Prazo por comando e para sessões ociosas em transação; prazo da aplicação menor que o de quem chama. Quéchi, réplica e visão materializada quando o volume ainda pesa.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Os comandos grânt e rivôuc pertencem à linguagem de controle de dados, enquanto crí-eit, ólter e dróp pertencem à linguagem de definição de dados.
+
+Gabarito: certo. Os comandos de manipulação são insért, âpdeit, dilít e selékt, e os de transação, cômit, rólbéc e seivpóint.
+
+Item dois. O comando trânkeit permite remover apenas as linhas que atendem a uma condição, de forma mais rápida que o dilít.
+
+Gabarito: errado. O trânkeit esvazia a tabela inteira, sem filtro.
+
+Item três. Quando um privilégio é concedido com a opção de concessão, quem o recebe pode repassá-lo, e a revogação em cascata retira também as concessões repassadas.
+
+Gabarito: certo. A revogação com restrição, ao contrário, falha se houver concessões dependentes.
+
+Item quatro. No Póstgres, depois de um erro dentro de uma transação explícita, os comandos seguintes continuam a ser executados normalmente, e a confirmação grava os que tiveram sucesso.
+
+Gabarito: errado. A transação fica abortada até o rólbéc ou o retorno a um ponto de salvamento.
+
+Item cinco. A cláusula uér pode conter funções de agregação, como a contagem, para filtrar os grupos formados pelo grúp bái.
+
+Gabarito: errado. O uér roda antes do agrupamento; grupos se filtram com réving.
+
+Item seis. Em uma junção à esquerda entre órgãos e contratos, uma condição sobre o ano do contrato colocada na cláusula uér elimina do resultado os órgãos sem contratos.
+
+Gabarito: certo. Para eles, a coluna é nula, e a comparação não é verdadeira; a condição deve ir no ón.
+
+Item sete. O ránk atribui posições consecutivas, sem saltos, a linhas empatadas, de modo que, depois de duas linhas empatadas em primeiro, a seguinte recebe a posição dois.
+
+Gabarito: errado. Esse é o dénse ránk; o ránk daria a posição três.
+
+Item oito. Em uma expressão de tabela comum recursiva, a parte âncora gera as linhas iniciais, e a parte recursiva se junta ao resultado anterior até não produzir linhas novas.
+
+Gabarito: certo. As duas partes são ligadas por iúnion.
+
+Item nove. A condição maior que ól aplicada a uma subconsulta que não devolve linhas é avaliada como falsa.
+
+Gabarito: errado. Com subconsulta vazia, o ól é verdadeiro, e o éni é falso.
+
+Item dez. Um índice composto pelas colunas órgão e data de abertura atende a consultas que filtram por órgão e por intervalo de datas e, em regra, não atende de forma eficiente a consultas filtradas apenas pela data.
+
+Gabarito: certo. A primeira coluna precisa estar no filtro, salvo a varredura com salto em alguns bancos.
+
+Item onze. O Póstgres cria automaticamente um índice para cada coluna de chave estrangeira declarada.
+
+Gabarito: errado. Cria só para a chave primária e para as restrições de unicidade.
+
+Item doze. Filtrar pelo ano extraído de uma coluna de data impede o uso de um índice comum dessa coluna, o que pode ser contornado com condição de intervalo ou com índice sobre a expressão.
+
+Gabarito: certo. A função aplicada à coluna impede a busca no índice.
+
+Item treze. O ecsplêin com a opção de analisar apenas estima custos, sem executar o comando, e por isso pode ser usado com segurança em exclusões.
+
+Gabarito: errado. Ele executa o comando; em alterações, usa-se transação desfeita em seguida.
+
+Item catorze. A condição coluna igual a nulo devolve as linhas em que a coluna não tem valor.
+
+Gabarito: errado. A comparação dá desconhecido; o teste correto é é nulo.
+
+Item quinze. Se a subconsulta usada em um nót in devolver ao menos um nulo, a consulta externa não devolverá nenhuma linha.
+
+Gabarito: certo. A comparação com o nulo dá desconhecido, e a condição nunca é verdadeira; usa-se nót egzísts.
+
+Item dezesseis. A função de média considera como zero os valores nulos da coluna.
+
+Gabarito: errado. Ela os ignora e divide a soma pela quantidade de valores preenchidos.
+
+Item dezessete. Somar o valor dos contratos depois de juntá-los aos seus pagamentos, em relação um para muitos, infla o total, porque o valor de cada contrato se repete uma vez por pagamento.
+
+Gabarito: certo. Agrega-se cada lado no seu nível antes de juntar.
+
+Item dezoito. Ao priorizar a otimização, a consulta mais relevante é sempre a de maior tempo médio de execução.
+
+Gabarito: errado. O peso é o tempo médio multiplicado pelo número de execuções.
+
+Item dezenove. Uma consulta lenta pode degradar telas que não a executam, porque mantém conexões do pool ocupadas e faz outras requisições esperarem por conexão.
+
+Gabarito: certo. É a falha em cascata com origem no banco.
+
+Item vinte. Uma consulta com bom plano de execução pode ficar parada por espera de bloqueio mantido por outra transação, situação visível nas visões de atividade do banco.
+
+Gabarito: certo. Nesse caso, o problema é a concorrência, e não o plano.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto três ponto três, fluxos e interoperabilidade.
