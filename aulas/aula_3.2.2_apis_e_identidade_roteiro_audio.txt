@@ -1,0 +1,583 @@
+AUDIOAULA. ITEM TRÊS PONTO DOIS PONTO DOIS DO EDITAL: Á PÊ ÍS E IDENTIDADE
+
+
+ABERTURA
+
+Este é o item três ponto dois ponto dois, á pê ís e identidade. Ele tem oito subitens, tratados aqui em oito blocos: desenho, contratos e versionamento de á pê ís rést; autenticação e autorização; ô áuti dois ponto zero e ôpen ái dí conéct; uso, validação e proteção de tôquens; controle de acesso e segregação de funções; configuração do Sprín Secúriti; proteção de endpóintis e métodos; e identificação e correção de permissões excessivas e falhas de controle de acesso. A banca costuma explorar a diferença entre autenticação e autorização, os papéis e fluxos do ô áuti, a validação de tôquens e as falhas de autorização em nível de objeto.
+
+
+BLOCO UM: DESENHO, CONTRATOS E VERSIONAMENTO DE Á PÊ ÍS RÉST
+
+As restrições do estilo rést, a semântica dos métodos, os códigos de status e o formato padronizado de erros foram vistos no item três ponto dois ponto um. Aqui entram as convenções de desenho, o contrato e o versionamento.
+
+Desenho.
+
+Os endereços identificam recursos, e os recursos são substantivos, normalmente no plural: barra processos, e barra processos barra o identificador, para um processo específico. A ação é dada pelo método, e não pelo endereço. Endereços como barra buscar processo ou barra excluir processo misturam ação e recurso e são considerados má prática.
+
+Recursos subordinados aparecem na hierarquia do endereço: barra processos, o identificador, barra documentos. A hierarquia deve ser rasa; mais de dois ou três níveis costuma indicar que o recurso merece um endereço próprio.
+
+Quando uma operação não se encaixa em criar, ler, alterar e excluir, como arquivar um processo, há duas saídas. Modelar a ação como um recurso, por exemplo, criando um arquivamento com póst em barra processos, o identificador, barra arquivamento. Ou alterar o estado do recurso, com pétch no campo de situação.
+
+Filtros, ordenação e paginação vão nos parâmetros de consulta, depois do ponto de interrogação, e não no caminho.
+
+A paginação tem duas formas principais. Por deslocamento, com número da página e tamanho: simples, mas fica lenta em páginas muito distantes, porque o banco precisa percorrer e descartar todos os registros anteriores, e pode repetir ou pular itens se houver inclusões durante a navegação. Por cursor: a resposta traz uma marca do último item, e a próxima página começa depois dele. É estável e eficiente em grandes volumes, mas não permite saltar para uma página qualquer.
+
+A negociação de conteúdo usa dois cabeçalhos. O cabeçalho écépt diz o formato que o cliente aceita receber. O cabeçalho conténti táip diz o formato do que está sendo enviado. Se o servidor não consegue produzir o formato pedido, responde quatrocentos e seis, não aceitável. Se não aceita o formato enviado, responde quatrocentos e quinze, tipo de mídia não suportado.
+
+E a limitação de taxa protege a á pê í contra abuso e sobrecarga. Quando o cliente passa do limite, a resposta é quatrocentos e vinte e nove, requisições demais, com o cabeçalho rítrai áfter indicando quando tentar de novo.
+
+Contrato.
+
+O contrato de uma á pê í descreve recursos, operações, parâmetros, formatos de entrada e saída, códigos de resposta e regras de segurança. O padrão mais usado é a especificação Ôpen á pê í, antes chamada Suéguer, escrita em djêisson ou iámel. Ela permite gerar documentação navegável, código de clientes e servidores e testes.
+
+Há duas abordagens. Contrato primeiro: o contrato é escrito e acordado antes da implementação, e as equipes de cliente e servidor trabalham em paralelo. Código primeiro: o contrato é gerado a partir do código, como faz a biblioteca sprín dóc no Sprín Búti. A primeira favorece o acordo entre equipes; a segunda, a velocidade, com o risco de o contrato virar consequência acidental da implementação.
+
+E os testes de contrato orientados ao consumidor: cada consumidor registra as expectativas que tem sobre a á pê í, e o fornecedor executa essas expectativas como testes antes de cada entrega. Assim, uma mudança que quebraria um consumidor é descoberta no fornecedor, antes da produção.
+
+Versionamento.
+
+A compatibilidade entre versões e o processo de descontinuação foram vistos no item três ponto um ponto cinco. A regra principal: só se cria uma nova versão quando há mudança incompatível. Mudanças compatíveis entram na versão atual.
+
+As estratégias de versionamento são quatro.
+
+No caminho do endereço, como barra vê um barra processos. É a mais simples e visível, funciona bem com cache e com ferramentas, mas muda o endereço do recurso a cada versão.
+
+Em parâmetro de consulta, como ponto de interrogação versão igual a dois.
+
+Em cabeçalho personalizado da requisição.
+
+E no tipo de mídia, dentro do cabeçalho écépt, em que o cliente pede uma representação específica, numa versão específica. É a mais alinhada ao rést, porque o recurso mantém o mesmo endereço e só a representação muda, mas é a menos visível e a mais difícil de testar no navegador.
+
+Nenhuma é obrigatória. O importante é escolher uma e aplicá-la de forma consistente. A versão quatro do Sprín Búti, sobre o Sprín freimuórqui sete, passou a oferecer suporte nativo a versionamento de á pê ís nos mapeamentos dos controladores, com qualquer uma dessas estratégias.
+
+Para avisar a descontinuação, o cabeçalho sânset, da érre éfe cê oito mil quinhentos e noventa e quatro, informa a data em que o recurso deixará de responder.
+
+Pegadinhas do bloco um.
+
+Em á pê ís rést, a ação deve constar do endereço, como em barra excluir processo, para deixar clara a operação. Errado. A ação é dada pelo método; o endereço identifica o recurso.
+
+Toda mudança em uma á pê í exige nova versão. Errado. Só a mudança incompatível exige nova versão.
+
+O versionamento pelo caminho do endereço é a única estratégia admitida em á pê ís rést. Errado. Há também parâmetro, cabeçalho e tipo de mídia; nenhuma é obrigatória.
+
+A paginação por deslocamento é a mais eficiente para percorrer grandes volumes de dados. Errado. Ela degrada em páginas distantes; a paginação por cursor é a mais eficiente nesse caso.
+
+
+BLOCO DOIS: AUTENTICAÇÃO E AUTORIZAÇÃO
+
+Três conceitos em sequência.
+
+Identificação é declarar quem se é: informar o nome de usuário ou o cê pê efe.
+
+Autenticação é comprovar essa identidade: apresentar a senha, o código do aplicativo, o certificado digital.
+
+Autorização é decidir o que a identidade autenticada pode fazer: ler este processo, aprovar aquele pagamento.
+
+A autorização pressupõe a autenticação, mas são decisões diferentes, feitas em momentos diferentes. Autenticar uma vez não autoriza tudo.
+
+Fatores de autenticação.
+
+Os fatores são agrupados em categorias. Algo que se sabe, como senha ou resposta a uma pergunta. Algo que se tem, como o celular com aplicativo gerador de códigos, uma chave física ou um certificado digital em dispositivo. E algo que se é, como impressão digital ou reconhecimento facial.
+
+Autenticação multifator exige fatores de categorias diferentes. Senha e pergunta secreta são dois fatores da mesma categoria: não é multifator. Senha e código do aplicativo no celular, sim.
+
+E código enviado por mensagem de texto é um segundo fator mais fraco que o aplicativo gerador ou a chave física, por causa de ataques de troca fraudulenta do chip do celular.
+
+Senhas.
+
+Senhas nunca são guardadas em texto puro nem com criptografia reversível. Guarda-se o resultado de uma função de dispersão, o réch, calculado com um sal, que é um valor aleatório diferente para cada usuário. O sal impede que senhas iguais gerem o mesmo resultado e inviabiliza tabelas pré-calculadas.
+
+E a função precisa ser lenta de propósito, com custo ajustável: bí cripti, éss cripti, árgon dois ou pê bê cá dê éfe dois. Funções de dispersão rápidas, como ême dê cinco e chá um, ou mesmo chá dois, servem para verificar integridade de arquivos, não para senhas, porque permitem testar bilhões de tentativas por segundo.
+
+O guia de identidade digital do instituto norte-americano de padrões, o Níst, recomenda priorizar o comprimento da senha; permitir todos os caracteres, inclusive espaços; não impor regras arbitrárias de composição, como exigir símbolo e maiúscula; não forçar troca periódica sem indício de comprometimento; e verificar a senha nova contra listas de senhas vazadas ou óbvias. A revisão concluída em dois mil e vinte e cinco elevou o mínimo para quinze caracteres quando a senha é o único fator.
+
+Contra tentativas repetidas, limita-se a taxa de tentativas por conta e por origem. E a mensagem de erro deve ser genérica, como usuário ou senha inválidos, para não revelar quais usuários existem.
+
+Mecanismos de autenticação em á pê ís.
+
+A autenticação básica do agá tê tê pê envia usuário e senha codificados em base sessenta e quatro em cada requisição. Base sessenta e quatro é codificação, não criptografia: qualquer um decodifica. Só é aceitável sobre conexão cifrada, e mesmo assim expõe a senha a cada chamada.
+
+A chave de á pê í identifica a aplicação cliente, não o usuário. Serve para controle de uso e cotas, não para autenticação de pessoas.
+
+A sessão com cúqui: depois do login, o servidor guarda a sessão e entrega ao navegador um identificador. É com estado no servidor.
+
+O tôquen de portador, em inglês bérer: o cliente envia um tôquen no cabeçalho de autorização, e quem o porta é atendido. É o modelo mais comum em á pê ís, tratado nos blocos três e quatro.
+
+E a autenticação mútua com certificados, em que cliente e servidor apresentam certificados um ao outro, comum entre sistemas.
+
+No governo federal.
+
+A conta gov ponto bê erre tem níveis de confiabilidade, bronze, prata e ouro, conforme a forma de validação da identidade, como cadastro básico, validação bancária ou biometria, e certificado digital. Cada serviço exige o nível compatível com seu risco.
+
+E a Lei catorze mil e sessenta e três, de dois mil e vinte, classifica as assinaturas eletrônicas em três tipos: simples, que identifica o signatário; avançada, que usa meios que vinculam a assinatura ao signatário de modo único e detectam alterações posteriores; e qualificada, que usa certificado digital da Infraestrutura de Chaves Públicas Brasileira. A qualificada é a de maior nível de confiança.
+
+Pegadinhas do bloco dois.
+
+Autenticação e autorização são sinônimos, porque ambas controlam o acesso ao sistema. Errado. Autenticação comprova a identidade; autorização decide o que ela pode fazer.
+
+O uso de senha combinada com pergunta secreta caracteriza autenticação multifator. Errado. Ambos são algo que se sabe; o multifator exige categorias diferentes.
+
+O armazenamento de senhas com o algoritmo chá dois cinquenta e seis sem sal é adequado, por ser algoritmo seguro. Errado. Senhas exigem função lenta, com sal e custo ajustável, como bí cripti ou árgon dois.
+
+A codificação base sessenta e quatro da autenticação básica protege a senha durante o tráfego. Errado. É codificação reversível; a proteção vem da conexão cifrada.
+
+Chave de á pê í é meio adequado de autenticar o usuário final. Errado. Ela identifica a aplicação cliente.
+
+
+BLOCO TRÊS: Ô ÁUTI DOIS PONTO ZERO E ÔPEN ÁI DÍ CONÉCT
+
+O ô áuti dois ponto zero, definido na érre éfe cê seis mil setecentos e quarenta e nove, é um protocolo de autorização delegada. Ele permite que um usuário autorize uma aplicação a acessar recursos em seu nome, sem entregar a ela a sua senha.
+
+Os papéis são quatro.
+
+O dono do recurso: normalmente o usuário, que concede o acesso.
+
+O cliente: a aplicação que quer acessar o recurso em nome do usuário.
+
+O servidor de autorização: autentica o usuário, obtém o consentimento e emite os tôquens.
+
+E o servidor de recursos: a á pê í que guarda os recursos e aceita os tôquens de acesso.
+
+O tôquen de acesso é a credencial que o cliente apresenta ao servidor de recursos. O tôquen de atualização, em inglês rifréch tôquen, serve para obter um novo tôquen de acesso quando o atual expira, sem pedir login de novo. O tôquen de atualização vai só ao servidor de autorização, nunca ao servidor de recursos.
+
+Os escopos indicam o que o cliente pode fazer em nome do usuário, como ler processos. Escopo é limite da delegação ao cliente, e não o conjunto de papéis do usuário. O acesso efetivo é a interseção: o que o usuário pode fazer e o que ele delegou ao cliente.
+
+Clientes podem ser confidenciais, capazes de guardar um segredo com segurança, como uma aplicação no servidor, ou públicos, incapazes de guardá-lo, como uma aplicação no navegador ou no celular, cujo código o usuário pode inspecionar.
+
+Os fluxos, chamados de concessões.
+
+Código de autorização: o usuário é redirecionado ao servidor de autorização, faz login e consente; volta ao cliente com um código de uso único e curta duração; o cliente troca o código por tôquens em uma chamada direta ao servidor de autorização. O tôquen não passa pelo navegador na troca. É o fluxo recomendado para aplicações com usuário.
+
+Esse fluxo é usado com a extensão píxi, da érre éfe cê sete mil seiscentos e trinta e seis. O cliente gera um segredo aleatório, envia no início apenas um resumo dele e, na troca do código, apresenta o segredo original. Quem interceptar o código não consegue trocá-lo, porque não tem o segredo. Foi criada para clientes públicos, e hoje é recomendada para todos os clientes.
+
+Credenciais do cliente: o próprio cliente se autentica com suas credenciais e recebe um tôquen. Não há usuário envolvido. É o fluxo para comunicação entre sistemas, como um processamento em lote que consulta outra á pê í.
+
+Código de dispositivo: para aparelhos sem navegador ou com teclado limitado. O aparelho mostra um código, e o usuário o confirma em outro dispositivo.
+
+Dois fluxos antigos estão desaconselhados. O implícito, que devolvia o tôquen de acesso direto no endereço de retorno, expondo-o no navegador e no histórico. E o de credenciais de senha do dono do recurso, em que o usuário entregava a senha ao cliente, o que contraria o propósito do protocolo. A érre éfe cê nove mil e setecentos, de janeiro de dois mil e vinte e cinco, com as melhores práticas atuais de segurança do ô áuti, recomenda não usá-los.
+
+A mesma referência exige comparação exata do endereço de retorno registrado, para que um atacante não desvie o código para um endereço seu. E o parâmetro estêit, um valor aleatório que o cliente envia e confere na volta, protege contra falsificação de requisição no retorno, papel que o píxi também cumpre.
+
+Ô áuti não é autenticação.
+
+O tôquen de acesso diz que o cliente pode acessar um recurso. Ele não diz ao cliente quem é o usuário, nem quando ele fez login. Usar o ô áuti puro como login gera falhas: um tôquen emitido para outra aplicação pode ser aceito como prova de identidade.
+
+Para isso existe o ôpen ái dí conéct, uma camada de identidade construída sobre o ô áuti dois ponto zero. O cliente pede o escopo ôpen ái dí, e o servidor, chamado aqui de provedor de identidade, devolve, além do tôquen de acesso, um tôquen de identidade.
+
+O tôquen de identidade é um djóti, formato visto no próximo bloco, com informações chamadas de reivindicações, como o emissor, o identificador do usuário, a audiência, que é o cliente a que o tôquen se destina, o momento da emissão, a expiração e o nônce, valor que o cliente enviou para ligar o tôquen àquela tentativa de login e impedir sua reutilização.
+
+O provedor oferece ainda um endpóinti de informações do usuário e um documento de descoberta, em um endereço padronizado, com os endereços e as chaves públicas do provedor.
+
+O tôquen de identidade é para o cliente saber quem fez login. Ele não deve ser enviado a á pê ís como tôquen de acesso.
+
+O ôpen ái dí conéct viabiliza o login único e a identidade federada: o usuário se autentica uma vez em um provedor confiável, e várias aplicações aceitam essa autenticação. O login do gov ponto bê erre funciona dessa forma para os serviços públicos.
+
+E para aplicações de página única, a recomendação atual é o padrão de servidor dedicado à interface, o béquend for frôntend: os tôquens ficam no servidor, e o navegador recebe apenas um cúqui de sessão protegido, inacessível a scrípts, o que se liga ao que foi visto no item três ponto um ponto quatro.
+
+Pegadinhas do bloco três.
+
+O ô áuti dois ponto zero é um protocolo de autenticação de usuários. Errado. É de autorização delegada; a autenticação federada vem do ôpen ái dí conéct.
+
+No fluxo de código de autorização, o tôquen de acesso é entregue diretamente no endereço de retorno do navegador. Errado. O navegador recebe um código, trocado por tôquens em chamada direta do cliente ao servidor de autorização.
+
+O fluxo de credenciais do cliente é indicado quando o usuário precisa autorizar o acesso a seus dados. Errado. Ele não envolve usuário; serve para comunicação entre sistemas.
+
+O píxi é necessário apenas para clientes confidenciais. Errado. Foi criado para clientes públicos e hoje é recomendado para todos.
+
+O tôquen de identidade do ôpen ái dí conéct deve ser usado como credencial de acesso às á pê ís. Errado. Ele informa ao cliente quem fez login; o acesso às á pê ís usa o tôquen de acesso.
+
+Escopos do ô áuti correspondem aos papéis do usuário no sistema. Errado. Escopos limitam o que o cliente pode fazer em nome do usuário.
+
+
+BLOCO QUATRO: USO, VALIDAÇÃO E PROTEÇÃO DE TÔQUENS
+
+O formato mais comum de tôquen é o djóti, o tôquen web em djêisson, da érre éfe cê sete mil quinhentos e dezenove.
+
+Ele tem três partes separadas por pontos: o cabeçalho, que indica o tipo e o algoritmo; o conteúdo, com as reivindicações; e a assinatura. Cabeçalho e conteúdo são apenas codificados em base sessenta e quatro, numa variante própria para endereços.
+
+O ponto mais cobrado: o djóti assinado não é cifrado. Qualquer pessoa que tenha o tôquen lê o seu conteúdo. A assinatura garante integridade e origem, não sigilo. Por isso não se coloca no djóti informação sigilosa, como dados pessoais desnecessários. Quando o sigilo é necessário, usa-se a variante cifrada.
+
+A assinatura pode ser simétrica, com uma chave secreta compartilhada, como no algoritmo agá ésse duzentos e cinquenta e seis, ou assimétrica, com chave privada para assinar e chave pública para verificar, como no érre ésse duzentos e cinquenta e seis ou no é ésse duzentos e cinquenta e seis. Na assimétrica, só o emissor assina, e qualquer servidor de recursos pode verificar com a chave pública, publicada pelo emissor em um endereço com o conjunto de chaves. Cada chave tem um identificador, o que permite trocar as chaves periodicamente sem interromper a validação.
+
+Validação.
+
+O servidor de recursos deve validar, no mínimo:
+
+A assinatura, com a chave do emissor confiável e com o algoritmo esperado, definido pelo servidor, e não pelo que o tôquen diz. Duas falhas conhecidas vêm daí: aceitar o algoritmo nenhum, que dispensa assinatura, e a confusão de algoritmos, em que o atacante troca o algoritmo assimétrico pelo simétrico e assina o tôquen usando a chave pública, que é conhecida, como se fosse segredo.
+
+O emissor: o tôquen foi emitido pelo servidor de autorização em que se confia.
+
+A audiência: o tôquen foi emitido para esta á pê í. Um tôquen válido emitido para outra á pê í não deve ser aceito aqui.
+
+E a validade no tempo: expiração e, se houver, o momento a partir do qual o tôquen vale, com pequena tolerância para diferenças de relógio.
+
+Só depois vêm os escopos e as permissões.
+
+Autocontido ou opaco.
+
+O djóti é autocontido: o servidor de recursos valida localmente, sem consultar ninguém. É rápido, mas tem uma limitação: não pode ser revogado antes de expirar, porque ninguém é consultado. Se o usuário for desligado, o tôquen continua valendo até a expiração.
+
+O tôquen opaco é só uma referência sem significado para quem o lê. O servidor de recursos consulta o servidor de autorização a cada uso, pelo endpóinti de introspecção, da érre éfe cê sete mil seiscentos e sessenta e dois. Permite revogação imediata, ao custo de uma chamada a mais.
+
+A combinação usual é tôquen de acesso de vida curta, de minutos, com tôquen de atualização de vida mais longa. Limita-se a janela de uso de um tôquen roubado sem obrigar o usuário a fazer login a toda hora. E o tôquen de atualização deve ser rotacionado: a cada uso, um novo é emitido e o antigo é invalidado. Se um tôquen antigo for apresentado de novo, é sinal de roubo, e toda a cadeia é revogada.
+
+Proteção.
+
+O tôquen de portador vale para quem o tiver. Por isso:
+
+Trafega só em conexão cifrada.
+
+Nunca vai no endereço, como parâmetro de consulta, porque endereços ficam em históricos, registros de servidores e no cabeçalho que informa a página de origem.
+
+Nunca aparece em registros de aplicação. Registrar o cabeçalho de autorização inteiro é vazamento de credencial.
+
+E não é repassado adiante sem critério. Uma á pê í que recebe o tôquen do usuário e o reenvia a outra á pê í amplia o alcance de um eventual vazamento. A troca de tôquens, da érre éfe cê oito mil seiscentos e noventa e três, permite obter um tôquen novo, com audiência e escopo restritos, para a chamada seguinte.
+
+Há também tôquens vinculados ao remetente, que só funcionam para quem prova possuir uma chave: por certificado de cliente, na autenticação mútua, ou pelo mecanismo dê pópi, da érre éfe cê nove mil quatrocentos e quarenta e nove, em que o cliente assina cada requisição. Um tôquen roubado, sozinho, não serve.
+
+Pegadinhas do bloco quatro.
+
+O conteúdo de um djóti assinado é protegido contra leitura por terceiros. Errado. A assinatura garante integridade; o conteúdo é só codificado e pode ser lido.
+
+O servidor de recursos deve usar o algoritmo indicado no cabeçalho do tôquen para validar a assinatura. Errado. O algoritmo esperado é definido pelo servidor; confiar no cabeçalho abre espaço ao algoritmo nenhum e à confusão de algoritmos.
+
+Um djóti com assinatura válida pode ser aceito por qualquer á pê í da organização. Errado. É preciso conferir a audiência, além de emissor e validade.
+
+Um djóti autocontido pode ser revogado imediatamente pelo servidor de autorização. Errado. Sem consulta, ele vale até expirar; daí a vida curta e a introspecção para tôquens opacos.
+
+Enviar o tôquen de acesso como parâmetro do endereço é tão seguro quanto enviá-lo no cabeçalho, desde que a conexão seja cifrada. Errado. Endereços ficam em históricos, registros e no cabeçalho de origem.
+
+
+BLOCO CINCO: CONTROLE DE ACESSO E SEGREGAÇÃO DE FUNÇÕES NAS APLICAÇÕES
+
+Modelos de controle de acesso.
+
+Controle discricionário: o dono do recurso decide quem tem acesso a ele, como no compartilhamento de uma pasta.
+
+Controle obrigatório: uma política central, baseada em rótulos de classificação do recurso e de habilitação do usuário, decide. Nem o dono pode conceder acesso fora da política. É o modelo de ambientes com informação classificada.
+
+Controle baseado em papéis, pela sigla érre bê á cê: as permissões são atribuídas a papéis, como auditor e supervisor, e os usuários recebem papéis. Simplifica a gestão, porque se muda o papel, e não cada usuário. O modelo de referência do Níst prevê três níveis: o básico; o hierárquico, em que um papel herda as permissões de outro; e o com restrições, que inclui a segregação de funções.
+
+Controle baseado em atributos, pela sigla á bê á cê: a decisão considera atributos do usuário, como lotação e cargo, do recurso, como unidade responsável e grau de sigilo, da ação e do ambiente, como horário e rede de origem. Permite regras finas, como o auditor só acessa processos da sua coordenação, em horário de expediente, que o controle por papéis sozinho não expressa sem multiplicar papéis.
+
+E controle baseado em relacionamentos: a decisão depende da relação entre o usuário e o recurso, como ser o responsável designado para aquele processo.
+
+Os modelos se combinam. O mais comum é usar papéis para a permissão funcional e atributos ou relacionamentos para restringir os objetos alcançados.
+
+Princípios.
+
+Os princípios clássicos de Saltzer e Schroeder, de mil novecentos e setenta e cinco, continuam a base. Os mais cobrados são estes.
+
+Menor privilégio: cada usuário, serviço e processo tem só as permissões necessárias à sua função, e só pelo tempo necessário.
+
+Padrões seguros, ou negação por padrão: na ausência de regra que permita, o acesso é negado.
+
+Mediação completa: todo acesso a todo recurso é verificado, a cada vez. Não basta verificar na entrada e confiar depois.
+
+E separação de privilégios: operações críticas exigem mais de uma condição ou mais de uma pessoa.
+
+Segregação de funções.
+
+Segregação de funções é distribuir as etapas de uma operação crítica entre pessoas diferentes, para que ninguém controle sozinho todo o ciclo e possa cometer e ocultar um erro ou uma fraude. Cadastrar um fornecedor, atestar a entrega e autorizar o pagamento não devem estar nas mãos da mesma pessoa.
+
+Na legislação, a Lei catorze mil cento e trinta e três, de dois mil e vinte e um, a Lei de Licitações e Contratos, lista a segregação de funções entre os princípios do artigo quinto. E o artigo sétimo, parágrafo primeiro, veda a designação do mesmo agente público para atuação simultânea em funções mais suscetíveis a riscos, de modo a reduzir a possibilidade de ocultação de erros e de ocorrência de fraudes na respectiva contratação.
+
+Nas aplicações, a segregação é implementada de duas formas.
+
+Estática: os papéis conflitantes não podem ser atribuídos ao mesmo usuário. Quem tem o papel de cadastrador não pode receber o de aprovador.
+
+Dinâmica: o usuário pode ter os dois papéis, mas não pode exercê-los sobre a mesma operação. Quem cadastrou aquele pagamento não pode aprová-lo, ainda que aprove outros. É mais flexível, e exige que a aplicação registre quem fez cada etapa e confira na etapa seguinte.
+
+Uma regra de segregação só no manual não protege nada. Se o sistema permite, ela será violada, por erro ou por intenção.
+
+Gestão do ciclo de acesso.
+
+Os acessos acompanham o ciclo do servidor: entrada, movimentação e saída. O problema típico é a movimentação. O servidor muda de unidade, recebe os acessos novos e mantém os antigos. Com o tempo, acumula privilégios incompatíveis. Por isso há a revisão periódica de acessos, também chamada de recertificação, em que os gestores confirmam ou retiram os acessos da sua equipe, e a revogação imediata na saída.
+
+Contas de emergência, com privilégios amplos para situações excepcionais, devem ter uso registrado, justificado e revisado depois.
+
+Pegadinhas do bloco cinco.
+
+No controle discricionário, a política central prevalece sobre a vontade do dono do recurso. Errado. Isso é o controle obrigatório; no discricionário, o dono decide.
+
+O controle baseado em papéis não permite implementar segregação de funções. Errado. O modelo do Níst prevê restrições de segregação estática e dinâmica.
+
+Pela mediação completa, basta verificar a permissão no login. Errado. Todo acesso a todo recurso é verificado, a cada vez.
+
+Na segregação dinâmica de funções, o mesmo usuário nunca pode ter os dois papéis conflitantes. Errado. Isso é a estática; na dinâmica, ele não pode exercê-los na mesma operação.
+
+A Lei de Licitações trata a segregação de funções apenas como recomendação de boa prática. Errado. É princípio do artigo quinto, com vedação expressa no artigo sétimo, parágrafo primeiro.
+
+
+BLOCO SEIS: SPRÍN SECÚRITI: CONFIGURAÇÃO E AVALIAÇÃO DE MECANISMOS DE AUTENTICAÇÃO E AUTORIZAÇÃO
+
+A variável local de thread que guarda o usuário autenticado foi citada no item três ponto um ponto três. Aqui entra a arquitetura do Sprín Secúriti.
+
+O Sprín Secúriti atua por filtros, antes de a requisição chegar aos controladores. Um filtro do contêiner web, o delegating filter próxi, entrega a requisição ao filter chêin próxi, do Sprín, que escolhe a cadeia de filtros de segurança, a secúriti filter chêin, adequada ao endereço. Pode haver mais de uma cadeia, por exemplo, uma para a á pê í e outra para as telas, cada uma com suas regras.
+
+Dentro da cadeia, cada filtro tem uma função: tratar o login, ler o tôquen, proteger contra falsificação de requisição, decidir a autorização. A ordem importa.
+
+O resultado da autenticação é um objeto de autenticação, que contém a identidade e as autoridades, ou seja, as permissões concedidas. Ele fica no contexto de segurança, acessado pelo secúriti cóntext rôulder.
+
+A autenticação por usuário e senha passa pelo autentiquêichon mênedjer, cuja implementação padrão delega a uma lista de provedores de autenticação. O provedor mais comum busca o usuário por meio de um iúzer ditêils sérvis e compara a senha usando um péssuord encôuder.
+
+O codificador de senhas padrão é delegante: grava, antes do resultado da dispersão, um prefixo entre chaves com o nome do algoritmo, como bí cripti. Assim, a aplicação pode trocar de algoritmo e continuar validando as senhas antigas, gravadas com o algoritmo anterior.
+
+Configuração.
+
+Desde a versão seis do Sprín Secúriti, a configuração é feita declarando um bín do tipo secúriti filter chêin, montado com o objeto agá tê tê pê secúriti e a sintaxe de expressões lambda. A antiga classe base de configuração, a uéb secúriti configurer adápter, foi descontinuada na versão cinco ponto sete e removida na seis. Também na seis, o método ótoraize ricuésts foi substituído por ótoraize agá tê tê pê ricuésts, e os antigos métodos de correspondência de endereços deram lugar ao ricuést métchers.
+
+O comportamento padrão do Sprín Búti: basta incluir o stárter de segurança para que todos os endpóintis passem a exigir autenticação. Sem configuração, ele cria um usuário chamado iúzer, com senha aleatória exibida no registro da inicialização, e habilita login por formulário e autenticação básica. É seguro por padrão, e cabe ao desenvolvedor liberar o que for público.
+
+A proteção contra falsificação de requisição entre sítios vem habilitada por padrão. Esse ataque explora o fato de o navegador enviar cúquis automaticamente: uma página maliciosa faz o navegador do usuário autenticado enviar uma requisição ao sistema. Em á pê ís sem estado, que autenticam por tôquen no cabeçalho, sem cúquis, a proteção pode ser desabilitada. Se a autenticação usa cúqui de sessão, ela deve permanecer.
+
+Para á pê ís com tôquen, configura-se a política de criação de sessão como sem estado, para que o servidor não crie sessão, e a aplicação como servidor de recursos do ô áuti dois, com o stárter correspondente. Basta informar o endereço do emissor: o Sprín busca o documento de descoberta, obtém as chaves públicas e valida assinatura, emissor e validade de cada djóti. A audiência deve ser configurada para ser validada também.
+
+Autoridades e papéis.
+
+Na conversão padrão do djóti, cada escopo vira uma autoridade com o prefixo scôup sublinhado. Já os papéis usam o prefixo rôul sublinhado. A expressão rés rôul, com o papel auditor, verifica a autoridade rôul sublinhado auditor; o prefixo é acrescentado automaticamente. A expressão rés ótóriti verifica o nome exato. Usar rés rôul com o prefixo já incluído, ou rés ótóriti sem ele, é erro comum que faz a regra nunca ser satisfeita.
+
+Avaliação dos mecanismos.
+
+Dois tratadores definem as respostas de falha. O ponto de entrada de autenticação responde quando falta autenticação, normalmente com quatrocentos e um. O tratador de acesso negado responde quando o usuário autenticado não tem permissão, com quatrocentos e três.
+
+Para testar, o módulo de testes do Sprín Secúriti permite simular um usuário com papéis definidos, com a anotação arroba uíth móc iúzer, e simular requisições com tôquen nos testes de controladores. Os testes de segurança devem incluir os casos negativos: usuário sem papel recebe quatrocentos e três; requisição sem tôquen recebe quatrocentos e um; tôquen expirado ou de outra audiência é rejeitado.
+
+Pegadinhas do bloco seis.
+
+No Sprín Secúriti seis, a configuração é feita estendendo a classe uéb secúriti configurer adápter. Errado. Ela foi removida; a configuração declara um bín secúriti filter chêin.
+
+Incluir o stárter de segurança no Sprín Búti não altera o acesso aos endpóintis até que se configurem regras. Errado. Todos passam a exigir autenticação por padrão.
+
+A proteção contra falsificação de requisição entre sítios deve ser mantida em qualquer á pê í, inclusive nas sem estado autenticadas só por tôquen no cabeçalho. Errado. Sem cúquis, o ataque não se aplica, e ela pode ser desabilitada.
+
+A expressão rés rôul com o valor auditor verifica a autoridade auditor, sem prefixo. Errado. Ela verifica rôul sublinhado auditor.
+
+
+BLOCO SETE: PROTEÇÃO DE ENDPÓINTIS E MÉTODOS
+
+Regras por endereço.
+
+As regras de autorização por endereço são avaliadas na ordem em que são declaradas, e a primeira que corresponder à requisição é aplicada. Por isso as regras específicas vêm antes das gerais. Se a primeira regra liberar tudo que começa com barra á pê í, uma regra posterior que restrinja barra á pê í barra administração nunca será alcançada.
+
+A última regra deve cobrir o resto: êni ricuést autenticado, ou, melhor ainda, dinái ól, que nega o que não foi previsto. É a negação por padrão do bloco cinco.
+
+As regras podem considerar o método agá tê tê pê. Liberar a leitura com guét e esquecer que o mesmo endereço aceita delit é uma falha frequente.
+
+Para endereços públicos, usa-se pérmit ól dentro da cadeia. Existe também a opção de fazer a cadeia ignorar completamente alguns endereços; ela desliga todos os filtros, inclusive os cabeçalhos de segurança, e é desaconselhada para qualquer coisa além de arquivos estáticos.
+
+E os endpóintis do áctuêitor, vistos no item três ponto dois ponto um, entram nas mesmas regras: só a saúde pode ser pública; os demais exigem um papel administrativo.
+
+Segurança em métodos.
+
+A proteção por endereço é grossa: sabe qual endereço foi chamado, mas não sabe de qual objeto se trata. A segurança em métodos complementa, na camada de serviço.
+
+Ela é habilitada com arroba enêibou méthod secúriti, que substituiu a antiga anotação de segurança global de métodos. As anotações principais são estas.
+
+Arroba pri ótoraize: avalia uma expressão antes de executar o método. Pode verificar papéis e também usar os parâmetros do método e o usuário autenticado, como permitir a alteração só se o usuário for o responsável pelo processo informado.
+
+Arroba pôust ótoraize: avalia depois da execução, com acesso ao objeto retornado. Útil quando a decisão depende do conteúdo, como só devolver o processo se a unidade dele for a do usuário. O método é executado de qualquer jeito, então não deve ter efeitos colaterais que não possam acontecer para quem será negado.
+
+Arroba pri filter e arroba pôust filter filtram coleções de entrada ou de saída, retirando os itens que o usuário não pode ver. Para grandes volumes, filtrar na consulta ao banco é muito mais eficiente que trazer tudo e filtrar depois.
+
+E as anotações arroba sikiúrd e arroba rôuls alaud, mais simples, verificam só papéis e precisam ser habilitadas explicitamente.
+
+Como a segurança em métodos funciona por proxy, valem as limitações vistas no item três ponto um ponto três: a chamada de um método da própria classe não passa pelo proxy e não é verificada, e métodos privados não são interceptados.
+
+Camadas de proteção.
+
+A combinação recomendada é a defesa em profundidade: regras por endereço, como primeira barreira; segurança em métodos nos serviços, para regras de papel e de objeto; e filtros nas consultas, para que o usuário só receba os registros que pode ver. Esconder um botão na interface não é proteção: a interface melhora a experiência, mas a decisão é sempre do servidor.
+
+Pegadinhas do bloco sete.
+
+Nas regras por endereço do Sprín Secúriti, a regra mais específica prevalece, qualquer que seja a ordem de declaração. Errado. A primeira regra correspondente é aplicada; as específicas devem vir antes.
+
+Arroba pôust ótoraize impede a execução do método quando o usuário não tem permissão. Errado. O método é executado, e a verificação ocorre sobre o retorno.
+
+A anotação arroba pri ótoraize em um método é verificada mesmo quando ele é chamado por outro método da mesma classe. Errado. A chamada interna não passa pelo proxy.
+
+Ocultar na interface o botão de exclusão para usuários sem permissão protege o endpóinti correspondente. Errado. O servidor deve autorizar cada requisição.
+
+
+BLOCO OITO: IDENTIFICAÇÃO E CORREÇÃO DE PERMISSÕES EXCESSIVAS E FALHAS DE CONTROLE DE ACESSO
+
+Quebra de controle de acesso é a primeira categoria da lista dos dez riscos mais críticos de aplicações web do projeto aberto de segurança de aplicações, o ôuásp, na edição de dois mil e vinte e um, e se manteve em primeiro lugar na revisão de dois mil e vinte e cinco.
+
+A lista específica para á pê ís, de dois mil e vinte e três, traz três categorias de autorização entre as cinco primeiras.
+
+Autorização quebrada em nível de objeto, a primeira: o usuário acessa objetos que não são seus trocando o identificador na requisição. Também é chamada de referência direta e insegura a objeto, pela sigla ái dór. O usuário consulta barra processos barra cento e vinte e três, que é seu, troca para cento e vinte e quatro e recebe o processo de outra unidade. O endpóinti exige autenticação, mas não verifica se aquele objeto pertence ao usuário.
+
+Autorização quebrada em nível de propriedade de objeto, a terceira: o usuário lê ou altera campos que não deveria. Junta a exposição excessiva de dados, quando a resposta traz campos internos, e a atribuição em massa, vista no item três ponto dois ponto um, quando o cliente altera campos como o perfil de acesso.
+
+Autorização quebrada em nível de função, a quinta: o usuário comum chama funções administrativas, como um endpóinti de exclusão ou de gestão de usuários, porque a verificação de papel não foi feita ali.
+
+Duas direções de escalada. Escalada horizontal: acessar dados de outro usuário do mesmo nível, como no exemplo do processo. Escalada vertical: obter funções de um nível superior, como um usuário comum executando ações de administrador.
+
+Causas recorrentes.
+
+Verificar só a autenticação e esquecer a autorização do objeto.
+
+Confiar em dados enviados pelo cliente para decidir permissão: um parâmetro perfil igual a administrador, um campo escondido no formulário ou o papel lido de um cúqui não assinado.
+
+Proteger a interface e esquecer o endpóinti.
+
+Proteger o guét e esquecer o put e o delit do mesmo recurso.
+
+Regras por endereço em ordem errada, ou sem a negação final.
+
+E acreditar que identificadores difíceis de adivinhar, como os iú iú ái dís, resolvem. Eles dificultam a enumeração, mas não substituem a verificação: identificadores vazam em registros, em links compartilhados e em outras respostas.
+
+Permissões excessivas.
+
+Permissão excessiva é qualquer permissão além do necessário, mesmo que nunca tenha sido usada de forma indevida. Exemplos típicos: a aplicação conecta ao banco com um usuário administrador, que pode apagar tabelas, quando só precisaria ler e gravar algumas; uma conta de serviço na nuvem com permissão total sobre todos os recursos; um cliente ô áuti com escopos amplos que não usa; papéis genéricos, como acesso total, distribuídos por conveniência; e servidores que mudaram de unidade e mantêm os acessos antigos.
+
+O efeito é aumentar o raio de impacto. Se a aplicação for comprometida por injeção de consulta, o estrago é limitado ao que o usuário do banco pode fazer.
+
+Como identificar.
+
+Matriz de acesso: uma tabela com papéis em uma dimensão e funções e objetos na outra, revisada pelos gestores do negócio, e não só pela equipe técnica. A matriz é o requisito, e o código é conferido contra ela.
+
+Testes automatizados de autorização, para cada papel e cada endpóinti, incluindo os casos negativos: o usuário da unidade A tenta acessar o processo da unidade B e deve ser recusado.
+
+Revisão de código focada em autorização: todo endpóinti que recebe um identificador verifica a propriedade ou a permissão sobre aquele objeto?
+
+Testes de invasão e ferramentas de análise dinâmica, que trocam identificadores e repetem requisições com usuários de menor privilégio.
+
+Análise dos registros de acesso: picos de acesso negado, um mesmo usuário percorrendo identificadores em sequência e acessos fora do padrão da função.
+
+E revisão das permissões efetivas de contas de banco, contas de serviço e escopos dos clientes, comparando o concedido com o usado.
+
+Como corrigir.
+
+Negar por padrão e liberar explicitamente.
+
+Centralizar a decisão de autorização em um componente ou serviço único, em vez de espalhar verificações pelo código, e aplicá-lo em todos os pontos de entrada.
+
+Verificar a autorização sobre o objeto na camada de serviço ou na própria consulta, filtrando pelo usuário ou pela unidade, e não só pelo identificador recebido.
+
+Usar dê tê ôs de entrada com apenas os campos que o cliente pode alterar, e de saída com apenas os campos que ele pode ver.
+
+Reduzir privilégios das contas técnicas ao mínimo e revisar periodicamente os acessos das pessoas.
+
+E registrar as negações de acesso, com alertas para padrões suspeitos. Se a falha já expôs dados pessoais, há o dever de comunicar o incidente, visto no item três ponto um ponto cinco.
+
+Quanto à resposta ao acesso negado a um objeto, há uma escolha. Responder quatrocentos e três confirma que o objeto existe. Responder quatrocentos e quatro não revela nem a existência. Para recursos sensíveis, o quatrocentos e quatro é preferível.
+
+Um exemplo na CGU. Um sistema de acompanhamento de auditorias tem o endpóinti barra auditorias, o identificador, barra relatório. A rota exige o papel auditor, e por isso a equipe considerou o endpóinti protegido. Mas qualquer auditor de qualquer coordenação baixa o relatório de qualquer auditoria, trocando o identificador. A correção é verificar, no serviço, se o auditor está designado para aquela auditoria ou pertence à unidade responsável, com um teste automatizado para cada combinação.
+
+Pegadinhas do bloco oito.
+
+Um endpóinti que exige autenticação está protegido contra acesso indevido a objetos de outros usuários. Errado. Falta a autorização em nível de objeto; é a falha mais comum em á pê ís.
+
+O uso de identificadores aleatórios, como iú iú ái dís, elimina a necessidade de verificar a permissão sobre o objeto. Errado. Dificulta a enumeração, mas os identificadores vazam; a verificação continua obrigatória.
+
+Escalada horizontal de privilégios é o acesso de um usuário comum a funções de administrador. Errado. Isso é a vertical; a horizontal é o acesso a dados de outro usuário do mesmo nível.
+
+Permissão nunca usada de forma indevida não é permissão excessiva. Errado. É excessiva tudo o que vai além do necessário, porque amplia o raio de impacto.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Recursos são substantivos; ação é o método. Paginação por cursor para grandes volumes. Quatrocentos e seis, quatrocentos e quinze e quatrocentos e vinte e nove. Contrato em Ôpen á pê í, primeiro o contrato ou primeiro o código; testes orientados ao consumidor. Nova versão só com mudança incompatível; caminho, parâmetro, cabeçalho ou tipo de mídia.
+
+Identificação declara, autenticação comprova, autorização decide. Multifator exige categorias diferentes. Senhas com função lenta, sal e custo ajustável. Base sessenta e quatro não é criptografia; chave de á pê í identifica a aplicação. Níveis bronze, prata e ouro do gov ponto bê erre; assinaturas simples, avançada e qualificada da Lei catorze mil e sessenta e três.
+
+Ô áuti é autorização delegada: dono do recurso, cliente, servidor de autorização e servidor de recursos. Código de autorização com píxi para usuários; credenciais do cliente entre sistemas; implícito e senha desaconselhados pela érre éfe cê nove mil e setecentos. Escopo limita o cliente. Ôpen ái dí conéct acrescenta o tôquen de identidade, que não vai às á pê ís.
+
+Djóti assinado é legível. Validar assinatura com algoritmo definido pelo servidor, emissor, audiência e validade. Autocontido não se revoga; opaco usa introspecção. Acesso curto e atualização rotacionada. Tôquen fora do endereço e dos registros; troca de tôquens e vinculação ao remetente.
+
+Discricionário, obrigatório, papéis, atributos e relacionamentos. Menor privilégio, negação por padrão, mediação completa e separação de privilégios. Segregação estática impede ter os dois papéis; dinâmica impede exercê-los na mesma operação. Lei catorze mil cento e trinta e três: princípio no artigo quinto e vedação no artigo sétimo, parágrafo primeiro. Recertificação contra o acúmulo de acessos.
+
+Sprín Secúriti age por filtros; secúriti filter chêin como bín desde a versão seis. Stárter protege tudo por padrão. Codificador delegante com prefixo do algoritmo. Proteção contra falsificação desabilitável só sem cúquis. Servidor de recursos valida djóti pelo emissor; escopo vira scôup sublinhado; rés rôul acrescenta rôul sublinhado. Quatrocentos e um no ponto de entrada; quatrocentos e três no acesso negado.
+
+Regras por endereço: a primeira que corresponde vence; terminar negando. Pri ótoraize antes, pôust ótoraize depois da execução; proxy não intercepta chamada interna. Endereço, método e consulta em camadas; interface não protege.
+
+Quebra de controle de acesso lidera o ôuásp. Objeto, propriedade e função; horizontal e vertical. Iú iú ái dí não substitui verificação. Matriz de acesso, testes negativos, revisão e registros. Negar por padrão, centralizar, verificar o objeto no serviço e responder quatrocentos e quatro para recursos sensíveis.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em uma á pê í rést, a operação de arquivamento de um processo pode ser modelada como a criação de um recurso subordinado de arquivamento, por meio do método póst.
+
+Gabarito: certo. Ações que não se encaixam nas operações básicas podem ser modeladas como recursos.
+
+Item dois. A inclusão de um novo campo opcional na resposta de uma á pê í exige a publicação de uma nova versão no caminho do endereço.
+
+Gabarito: errado. Mudança compatível entra na versão atual; nova versão só com mudança incompatível.
+
+Item três. A exigência de senha e de código gerado por aplicativo instalado no celular do usuário caracteriza autenticação multifator.
+
+Gabarito: certo. Combina algo que se sabe e algo que se tem.
+
+Item quatro. As funções de dispersão ême dê cinco e chá um, por serem rápidas, são as mais indicadas para o armazenamento de senhas.
+
+Gabarito: errado. A rapidez favorece ataques de força bruta; senhas exigem funções lentas, com sal, como bí cripti ou árgon dois.
+
+Item cinco. No ô áuti dois ponto zero, o servidor de recursos é o componente que autentica o usuário e emite os tôquens de acesso.
+
+Gabarito: errado. Quem autentica e emite é o servidor de autorização; o servidor de recursos aceita os tôquens.
+
+Item seis. O fluxo de credenciais do cliente é adequado para que um processamento em lote obtenha tôquen de acesso a outra á pê í, sem participação de usuário.
+
+Gabarito: certo. É o fluxo para comunicação entre sistemas.
+
+Item sete. O ôpen ái dí conéct é uma camada de identidade sobre o ô áuti dois ponto zero, que acrescenta o tôquen de identidade, solicitado pelo escopo ôpen ái dí.
+
+Gabarito: certo. O tôquen de identidade informa ao cliente quem fez login.
+
+Item oito. O conteúdo de um djóti assinado com o algoritmo érre ésse duzentos e cinquenta e seis só pode ser lido por quem possui a chave privada do emissor.
+
+Gabarito: errado. A assinatura garante integridade e origem; o conteúdo é só codificado e pode ser lido por qualquer um.
+
+Item nove. Um servidor de recursos que valida apenas a assinatura e a expiração de um djóti pode aceitar tôquens emitidos legitimamente para outra á pê í.
+
+Gabarito: certo. Sem a verificação de audiência, um tôquen destinado a outra á pê í é aceito.
+
+Item dez. Na rotação do tôquen de atualização, o tôquen antigo continua válido após o uso, para que o cliente possa repetir a renovação em caso de falha de rede.
+
+Gabarito: errado. O tôquen antigo é invalidado a cada uso; sua reapresentação indica roubo, e a cadeia é revogada.
+
+Item onze. No controle de acesso baseado em atributos, a decisão pode considerar características do usuário, do recurso, da ação e do ambiente, como horário e rede de origem.
+
+Gabarito: certo. Permite regras mais finas que as baseadas apenas em papéis.
+
+Item doze. Pela Lei catorze mil cento e trinta e três, de dois mil e vinte e um, é vedada a designação do mesmo agente público para atuação simultânea em funções mais suscetíveis a riscos.
+
+Gabarito: certo. É a vedação do artigo sétimo, parágrafo primeiro, que concretiza o princípio da segregação de funções.
+
+Item treze. Na segregação dinâmica de funções, o usuário que detém os papéis de cadastrador e de aprovador pode aprovar pagamentos, desde que não sejam os que ele mesmo cadastrou.
+
+Gabarito: certo. A restrição dinâmica impede o exercício dos dois papéis sobre a mesma operação.
+
+Item catorze. No Sprín Búti, a inclusão da dependência do Sprín Secúriti, sem nenhuma configuração adicional, mantém todos os endpóintis públicos até que o desenvolvedor declare regras de acesso.
+
+Gabarito: errado. O comportamento padrão é seguro: todos os endpóintis passam a exigir autenticação.
+
+Item quinze. Em uma á pê í sem estado, autenticada exclusivamente por tôquen no cabeçalho de autorização, a proteção contra falsificação de requisição entre sítios é indispensável.
+
+Gabarito: errado. O ataque explora cúquis enviados automaticamente; sem eles, a proteção pode ser desabilitada.
+
+Item dezesseis. Nas regras de autorização por endereço do Sprín Secúriti, uma regra que libere todo o caminho barra á pê í, declarada antes de outra que restrinja barra á pê í barra administração, torna a restrição ineficaz.
+
+Gabarito: certo. A primeira regra correspondente é aplicada.
+
+Item dezessete. A anotação arroba pôust ótoraize avalia a expressão de autorização antes da execução do método, com base em seus parâmetros.
+
+Gabarito: errado. Ela avalia depois da execução, com acesso ao retorno; antes da execução é o arroba pri ótoraize.
+
+Item dezoito. Um endpóinti que exige o papel de auditor e devolve qualquer relatório pelo identificador informado, sem verificar a designação do auditor, apresenta falha de autorização em nível de objeto.
+
+Gabarito: certo. A verificação de papel não substitui a verificação sobre o objeto.
+
+Item dezenove. O usuário comum que consegue excluir registros por meio de um endpóinti administrativo não protegido realiza escalada horizontal de privilégios.
+
+Gabarito: errado. Obter funções de nível superior é escalada vertical.
+
+Item vinte. A conexão de uma aplicação ao banco de dados com usuário administrador, quando ela só precisa ler e gravar algumas tabelas, configura permissão excessiva, ainda que nunca tenha havido uso indevido.
+
+Gabarito: certo. Permissão além do necessário amplia o raio de impacto de um comprometimento.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto dois ponto três, comunicação e consistência.
