@@ -1,0 +1,206 @@
+AUDIOAULA. ITEM TRÊS PONTO TRÊS PONTO TRÊS DO EDITAL: FLUXOS E INTEROPERABILIDADE. PARTE UM DE DUAS
+
+
+ABERTURA
+
+Este é o item três ponto três ponto três, fluxos e interoperabilidade. Ele tem nove subitens, divididos em duas partes, e esta parte um tem cinco blocos: ingestão, transformação e carga; é tê éle e é éle tê; processamento em lote e em fluxo, completo e incremental; á pê ís, contratos e os formatos cê ésse vê, djêisson, xis ême éle e parquê; e qualidade, rastreabilidade, conciliação e repetição segura de processamento. A parte dois trata do Sprín Bétch: organização de trabalhos e etapas, leitura, processamento e escrita de registros, controle transacional e reinício após falhas, e prevenção de perdas e duplicações no reprocessamento. A banca costuma explorar a diferença entre é tê éle e é éle tê, o tempo do evento e as janelas no processamento em fluxo, as falhas da carga incremental, as regras de cada formato e os totais de controle da conciliação.
+
+
+BLOCO UM: INGESTÃO, TRANSFORMAÇÃO E CARGA
+
+As formas de entregar dados, por á pê í, por arquivo e por fluxo de mudanças, e a quarentena de registros inválidos foram vistas no item três ponto dois ponto quatro. Aqui entram as etapas do fluxo de dados e as decisões de cada uma.
+
+Um fluxo de dados leva dados de uma ou mais origens a um destino, em três etapas: ingestão, transformação e carga.
+
+A ingestão coleta os dados nas origens: bancos de sistemas transacionais, arquivos, á pê ís e eventos. Pode funcionar por extração, quando o fluxo vai buscar os dados, ou por envio, quando a origem os entrega, como no depósito de arquivos em local combinado ou na publicação de eventos.
+
+Na extração de sistemas transacionais, há dois cuidados. O primeiro é não prejudicar a origem: consultas pesadas no banco de produção, em horário de uso, disputam recursos com os usuários. As saídas usuais são extrair de uma réplica de leitura, extrair em janela de baixa demanda ou consumir um fluxo de mudanças. O segundo é a consistência da extração. Se os contratos são extraídos às dez horas e os pagamentos às dez e meia, podem aparecer pagamentos de contratos que não vieram. As tabelas relacionadas devem ser extraídas na mesma transação, com isolamento de instantâneo, para que todas reflitam o mesmo momento.
+
+Os dados extraídos chegam primeiro a uma área de preparação, em inglês stêidjin, separada do destino final. Ela desacopla as etapas: a extração termina rápido, e a validação e a transformação acontecem depois, sem depender da origem. Guardar o dado bruto, exatamente como chegou, permite reprocessar sem extrair de novo e provar o que foi recebido.
+
+A transformação converte o dado recebido em dado útil. Inclui limpeza, como remover espaços, corrigir a codificação de caracteres e tratar valores ausentes; padronização de datas, unidades, moedas e códigos, como converter os códigos de município de tabelas diferentes para o código do í bê gê é; conversão de tipos; eliminação de duplicados; integração de origens diferentes por uma chave comum, como o cê ene pê jota; enriquecimento por consulta a tabelas de referência; criação de campos calculados; agregação; e aplicação das regras de negócio.
+
+A carga grava no destino, em um de três modos. O acréscimo só insere e serve a fatos que não mudam, como pagamentos realizados. A substituição apaga e recarrega o conjunto. E a mesclagem insere os registros novos e atualiza os existentes pela chave, com o mêrdj visto no item três ponto três ponto dois. Cargas grandes usam os comandos de carga em massa do banco e às vezes desligam índices e restrições durante a carga, recriando-os no fim. Isso acelera, mas exige validar antes, porque restrição desligada não barra nada. E, para o usuário não ver a carga pela metade, carrega-se uma tabela de trabalho e, no fim, troca-se a tabela publicada pela nova de uma só vez, por renomeação ou por troca de partição.
+
+O destino analítico clássico é o armazém de dados, em inglês déita uérrauz. Bill Inmon o definiu como uma coleção de dados orientada por assunto, integrada, variável no tempo e não volátil, de apoio à decisão. Variável no tempo quer dizer que guarda a história, e não só a situação atual. Não volátil quer dizer que os dados carregados não são alterados pelas transações do dia a dia: o armazém recebe cargas periódicas e é consultado.
+
+No armazém, cada registro recebe uma chave substituta, um número gerado pelo próprio destino, sem significado de negócio. Ela isola o destino das mudanças de código na origem e permite guardar várias versões do mesmo registro.
+
+Isso importa para os cadastros descritivos, chamados dimensões, que mudam com o tempo. Ralph Kimball classificou em tipos o tratamento dessas dimensões que mudam lentamente. No tipo um, o valor novo sobrescreve o antigo, e a história se perde. No tipo dois, cada mudança cria uma nova linha, com nova chave substituta, datas de início e de fim de vigência e um indicador de versão atual. No tipo três, uma coluna extra guarda o valor anterior, o que preserva só a última mudança.
+
+Exemplo prático. Um painel da Controladoria soma os pagamentos por órgão superior. Em julho, uma unidade gestora passou de um ministério para outro. Com a dimensão de unidades do tipo um, todos os pagamentos antigos da unidade passam a aparecer no ministério novo, e o total do ministério antigo no primeiro semestre muda depois de fechado. Com o tipo dois, cada pagamento aponta para a versão da unidade vigente na data do pagamento, e os totais de cada período ficam estáveis.
+
+Pegadinhas do bloco um.
+
+Na dimensão que muda lentamente do tipo um, a história das alterações é preservada em novas linhas. Errado. O tipo um sobrescreve; novas linhas com vigência são o tipo dois.
+
+Extrair tabelas relacionadas em momentos diferentes não afeta a consistência, desde que cada extração seja completa. Errado. Podem surgir registros filhos sem o pai; extrai-se na mesma transação, com isolamento de instantâneo.
+
+Por ser não volátil, o armazém de dados não recebe novas cargas. Errado. Não volátil significa que os dados carregados não são alterados pelas transações operacionais; as cargas acrescentam dados.
+
+A chave substituta deve ser o código de negócio da origem, para facilitar a integração. Errado. Ela é gerada no destino, sem significado de negócio, justamente para isolar o destino das mudanças na origem e permitir versões.
+
+
+BLOCO DOIS: É TÊ ÉLE E É ÉLE TÊ
+
+No é tê éle, sigla de extrair, transformar e carregar, a transformação acontece antes da carga, em um servidor ou ferramenta de integração separada do destino. O destino recebe só dados limpos e já no modelo final. É a arquitetura clássica dos armazéns de dados, do tempo em que processar no destino era caro e limitado.
+
+No é éle tê, extrair, carregar e transformar, os dados brutos são carregados primeiro no destino, e a transformação roda dentro dele, em geral em ésse quê éle, com a capacidade de processamento do próprio destino. É o modelo dos armazéns de dados em nuvem e das plataformas que separam armazenamento e processamento.
+
+As vantagens do é éle tê decorrem de guardar o bruto. Uma regra corrigida é reaplicada sem nova extração, e perguntas novas podem ser feitas sobre dados que ninguém tinha modelado. A ingestão fica mais rápida, e a transformação escala com o destino. As transformações viram código ésse quê éle versionado e testado; ferramentas como o dí bí tí organizam esse código em modelos com dependências, testes e documentação.
+
+As desvantagens também decorrem do bruto. Dados pessoais e sigilosos chegam ao destino antes de qualquer tratamento, e o controle de acesso e a minimização, temas do item três ponto três ponto quatro, precisam valer desde a primeira camada. O processamento no destino tem custo. E, sem governança, o repositório vira um depósito de arquivos que ninguém entende.
+
+O é tê éle continua adequado quando o dado sensível não deve chegar ao destino, quando o destino tem pouca capacidade de processamento ou quando a conversão é pesada e específica, como interpretar arquivos de leiaute antigo. Seu custo é o inverso: o servidor de transformação vira gargalo, e mudar uma regra exige extrair de novo, se o bruto não foi guardado. Na prática, as abordagens se combinam: uma transformação leve antes da carga, como descartar colunas desnecessárias, seguida das transformações pesadas no destino.
+
+A diferença tem paralelo no momento de aplicar o esquema. No armazém tradicional, vale o esquema na escrita: o dado só entra depois de se ajustar ao modelo. No lago de dados, que guarda arquivos brutos em formatos variados, vale o esquema na leitura: o dado entra como veio, e a estrutura é aplicada na consulta. A arquitetura chamada lêik ráus junta os dois mundos: arquivos abertos, como o parquê, em armazenamento barato, sob uma camada de tabela que acrescenta transações, versões e evolução de esquema, como o Apache Áisberg e o Délta Lêik.
+
+O é éle tê costuma ser organizado em camadas, na chamada arquitetura em medalhão. A camada bronze guarda o dado bruto, como chegou. A prata guarda o dado limpo, padronizado e integrado. A ouro guarda os dados agregados e modelados para o uso, como painéis e indicadores. Cada camada deriva da anterior e pode ser reconstruída a partir dela.
+
+Nos dois modelos, a execução é coordenada por um orquestrador, como o Apache Érflou, que organiza as tarefas em um grafo acíclico dirigido, com dependências, agendamento, repetição de tarefas que falharam e reprocessamento de períodos passados.
+
+Exemplo prático. A Controladoria recebe mensalmente a folha de pagamento de vários órgãos para cruzá-la com cadastros de sanções. Carregar tudo bruto no destino, no modelo é éle tê puro, guarda nomes, endereços e contas bancárias de todos os servidores, quando o cruzamento só precisa do cê pê éfe, do órgão e do valor. Descartar as colunas desnecessárias antes da carga reduz o risco e mantém a possibilidade de reprocessar o que importa.
+
+Pegadinhas do bloco dois.
+
+No é éle tê, os dados são transformados antes de chegar ao destino. Errado. No é éle tê, a transformação ocorre no próprio destino, depois da carga; transformar antes é o é tê éle.
+
+O lago de dados adota o esquema na escrita. Errado. Adota o esquema na leitura; o esquema na escrita é o do armazém tradicional.
+
+Como a transformação posterior pode remover dados pessoais, o é éle tê dispensa cuidados especiais na carga. Errado. O dado bruto já fica armazenado no destino, e a proteção precisa valer desde a primeira camada.
+
+Na arquitetura em medalhão, a camada bronze reúne os dados agregados prontos para os painéis. Errado. A bronze guarda o dado bruto; os agregados ficam na ouro.
+
+
+BLOCO TRÊS: PROCESSAMENTO EM LOTE E EM FLUXO, COMPLETO E INCREMENTAL
+
+As semânticas de entrega, o Cáfca e a captura de mudanças pelo registro de transações foram vistos no item três ponto dois ponto três, e a extração incremental pela data de atualização, com o problema das exclusões, no item três ponto dois ponto quatro. Aqui entram a diferença entre lote e fluxo, o tratamento do tempo e as armadilhas da carga incremental.
+
+O processamento em lote trata um conjunto limitado de dados, com começo e fim, em execuções agendadas, como a carga noturna. Prioriza a vazão, o volume processado por unidade de tempo, e aceita latência de horas. É mais simples de testar, de reprocessar e de conferir, porque a entrada é conhecida e fixa.
+
+O processamento em fluxo trata dados sem fim, que chegam continuamente, e produz resultados em segundos. Prioriza a latência. Serve, por exemplo, para apontar transações atípicas enquanto acontecem. Motores típicos são o Cáfca Strims, o Apache Flínk e o Spárk, que no modelo clássico processa o fluxo em microlotes, um meio-termo entre lote e fluxo.
+
+No fluxo, há dois relógios. O tempo do evento é quando o fato aconteceu, registrado na origem. O tempo de processamento é quando o sistema o processa. Eles divergem por atrasos de rede, por dispositivos que ficam sem conexão e reenviam depois e por filas acumuladas, e por isso os eventos chegam fora de ordem. Agregar pelo tempo de processamento é simples, mas o resultado depende de quando os dados chegaram, e não de quando os fatos ocorreram.
+
+Agregações em fluxo usam janelas. A janela fixa, em inglês tâmblin, divide o tempo em intervalos iguais e sem sobreposição, como a cada cinco minutos, e cada evento cai em exatamente uma janela. A janela deslizante tem tamanho fixo e avança em passos menores que o tamanho, como dez minutos recalculados a cada minuto; as janelas se sobrepõem, e um evento pertence a várias. A janela de sessão agrupa os eventos de uma mesma chave enquanto não houver um intervalo de inatividade maior que o configurado, e por isso tem tamanho variável.
+
+Para fechar uma janela pelo tempo do evento, o sistema precisa decidir quando já recebeu os eventos daquele período. A marca d'água, em inglês uóter márk, é a estimativa de que os eventos com tempo anterior a ela já chegaram. Quando a marca d'água passa do fim da janela, o resultado é emitido. O evento que chega com tempo anterior à marca d'água é um atrasado e pode ser descartado, aceito dentro de uma tolerância configurada, com atualização do resultado, ou desviado para tratamento à parte. A marca d'água troca latência por completude: esperar mais dá resultado mais completo e mais tardio.
+
+Agregações em fluxo guardam estado, como as somas parciais de cada janela. Para não perder esse estado numa falha, os motores gravam pontos de verificação periódicos, junto com a posição de leitura na origem, e na recuperação voltam ao último ponto e releem dali. Isso dá o efeito de exatamente uma vez sobre o estado interno do motor. No destino externo, o mesmo efeito ainda depende de escrita idempotente ou transacional.
+
+Duas arquiteturas clássicas combinam os modelos. A arquitetura lambda, proposta por Nathan Marz, mantém duas vias: uma camada de lote, que recalcula tudo periodicamente com exatidão, e uma camada de velocidade, que entrega resultados recentes e aproximados; uma camada de serviço junta as duas. O custo é manter a mesma lógica em dois códigos. A arquitetura capa, proposta por Djêi Kréps em dois mil e catorze, usa só o fluxo: o reprocessamento é feito relendo o registro de eventos desde o início com o código novo.
+
+Completo e incremental. Na carga completa, cada execução reprocessa a origem inteira. É simples, corrige sozinha qualquer erro anterior e capta exclusões sem esforço, porque o que sumiu da origem some do resultado. Serve a tabelas pequenas e a origens sem marcador confiável de mudança. A incremental processa só o que mudou e é a única viável em grandes volumes.
+
+A forma comum de carga incremental guarda a marca de nível máximo, em inglês rái uóter márk: o maior valor já carregado de uma coluna que só cresce, como a data de atualização ou um identificador sequencial. A execução seguinte busca os registros acima dela. Além das exclusões, há três armadilhas.
+
+A primeira são as transações longas. A data de atualização é atribuída quando a linha é alterada, mas a linha só fica visível na confirmação. Uma transação que alterou um registro às nove horas e cinquenta e nove minutos e só confirmou às dez horas e um minuto escapa da extração das dez, porque ainda não era visível, e da seguinte, porque a data dela ficou abaixo da marca. No Póstgres, a função de data e hora atual devolve o início da transação, o que alarga essa janela. A defesa é a sobreposição: reler um intervalo anterior à marca, com carga idempotente, que tolera a releitura.
+
+A segunda são os empates. Se a marca tem precisão de segundos e vários registros têm o mesmo valor, buscar estritamente acima da marca perde os que forem gravados no mesmo segundo depois da extração. Buscar a partir da marca, inclusive, relê os do limite e exige carga idempotente; outra saída é a marca composta pela data e pelo identificador.
+
+A terceira é a disciplina da origem. A coluna precisa ser atualizada em toda alteração. Uma correção feita direto no banco, por scrípt que não atualiza a data, nunca chega ao destino.
+
+A captura de mudanças pelo registro de transações resolve as três armadilhas e as exclusões: lê as alterações confirmadas, na ordem da confirmação, com pouco impacto na origem. Começa por uma carga inicial completa, o instantâneo, e depois aplica as mudanças. A ferramenta aberta mais conhecida é o Debézium.
+
+Quando a origem só entrega o arquivo completo de cada dia, o incremental se obtém por comparação com o arquivo anterior, pela chave e por um resumo do conteúdo de cada linha: chave nova é inclusão, chave ausente é exclusão, e resumo diferente é alteração. E, mesmo com carga incremental, convém uma carga ou uma conciliação completa periódica, para corrigir desvios acumulados.
+
+Pegadinhas do bloco três.
+
+Na janela fixa, um mesmo evento pode pertencer a mais de uma janela. Errado. As janelas fixas não se sobrepõem; a sobreposição é da janela deslizante.
+
+Agregar pelo tempo de processamento garante que cada evento seja contado no período em que o fato ocorreu. Errado. Isso exige o tempo do evento; o tempo de processamento reflete quando o dado chegou.
+
+A arquitetura capa mantém uma camada de lote e uma camada de velocidade. Errado. Essa é a lambda; a capa usa só o fluxo e reprocessa relendo o registro de eventos.
+
+Na carga incremental pela data de atualização, transações longas não causam perda, porque a data registrada é a da confirmação. Errado. A data é a da alteração; o registro confirmado depois da extração pode ficar abaixo da marca seguinte.
+
+A captura de mudanças pelo registro de transações dispensa a carga inicial. Errado. Ela começa por um instantâneo completo e depois aplica as mudanças.
+
+
+BLOCO QUATRO: Á PÊ ÍS, CONTRATOS E FORMATOS CÊ ÉSSE VÊ, DJÊISSON, XIS ÊME ÉLE E PARQUÊ
+
+O contrato em Ôpen á pê í, o versionamento e a paginação foram vistos no item três ponto dois ponto dois; os modos de compatibilidade de esquemas, no três ponto dois ponto três; e as características gerais do cê ésse vê, do djêisson e do parquê, no três ponto dois ponto quatro. Aqui entram as á pê ís de dados, o contrato de dados e as regras de cada formato.
+
+Para exportações grandes por á pê í, o padrão é assíncrono. O cliente pede a exportação; o servidor responde com o código duzentos e dois, aceito, e o endereço de acompanhamento; o cliente consulta esse endereço até a exportação ficar pronta e então baixa o arquivo. Isso evita conexões abertas por minutos, que esgotam prazos. Para carga incremental, a á pê í aceita um parâmetro de alterados desde e devolve também as exclusões; sem elas, quem consome não tem como saber o que sumiu. A versão três ponto dois da especificação Ôpen á pê í, de setembro de dois mil e vinte e cinco, passou a descrever respostas em sequência, como o djêisson em linhas e os eventos enviados pelo servidor, com um esquema para cada item da sequência.
+
+O contrato de dados é o acordo entre quem produz e quem consome um conjunto de dados. Vai além do esquema: inclui o significado de cada campo, as chaves, as regras de qualidade esperadas, a periodicidade, o prazo de atualização, o responsável e a política de mudança, com aviso e versão. O que o distingue de uma documentação é ser verificável: as regras são testadas automaticamente a cada entrega, e uma mudança incompatível é barrada antes de publicada.
+
+Para o poder público, o artigo vinte e cinco da Lei Geral de Proteção de Dados determina que os dados sejam mantidos em formato interoperável e estruturado para o uso compartilhado, com vistas à execução de políticas públicas, à prestação de serviços públicos, à descentralização da atividade pública e à disseminação e ao acesso das informações pelo público em geral.
+
+Cê ésse vê. A referência é a érre éfe cê quatro mil cento e oitenta, de dois mil e cinco, que é informativa, e não uma norma obrigatória. As regras são estas: cada registro termina com uma quebra de linha; o cabeçalho na primeira linha é opcional; os campos são separados por vírgula, com o mesmo número de campos em todas as linhas; os espaços fazem parte do campo; o campo que contém vírgula, aspas duplas ou quebra de linha vai entre aspas duplas; e as aspas dentro de um campo se escrevem duplicadas. Como um campo entre aspas pode conter quebra de linha, um registro pode ocupar várias linhas físicas, e ler o arquivo linha a linha, quebrando nas vírgulas, está errado: é preciso um leitor que respeite as aspas. No Brasil, como a vírgula é o separador decimal, as planilhas configuradas em português gravam com ponto e vírgula.
+
+Um risco próprio do cê ésse vê aberto em planilha é a injeção de fórmulas: um campo que começa com sinal de igual, de mais, de menos ou com arroba pode ser interpretado como fórmula. Quem exporta dados vindos de usuários neutraliza esses campos, por exemplo com um apóstrofo no início.
+
+Djêisson. É definido pela érre éfe cê oito mil duzentos e cinquenta e nove, de dois mil e dezessete, alinhada à norma Écma quatrocentos e quatro. Quatro regras caem em prova. Entre sistemas que não formam um ecossistema fechado, a codificação deve ser u tê éfe oito, e quem gera não deve incluir a marca de ordem de bytes no início. Os nomes dentro de um objeto deveriam ser únicos; com nomes repetidos, o comportamento de quem lê é imprevisível. Não há valores especiais como infinito ou não número. E a norma não limita os números, mas a interoperabilidade só é garantida dentro da precisão do ponto flutuante de dupla precisão, o que, para inteiros, vai até dois elevado a cinquenta e três, cerca de nove quatrilhões. Identificadores maiores, como a chave de acesso da nota fiscal eletrônica, de quarenta e quatro dígitos, circulam como texto; valores monetários que exigem exatidão decimal também, ou então em centavos.
+
+Um único vetor djêisson com milhões de objetos exige leitor em fluxo; sem ele, o arquivo inteiro vai para a memória antes do processamento. O djêisson em linhas, um objeto por linha, permite processar, dividir e retomar o arquivo linha a linha. A validação estrutural usa o esquema djêisson, que descreve tipos, campos obrigatórios, formatos e limites, e que a Ôpen á pê í adota integralmente a partir da versão três ponto um.
+
+Xis ême éle. É recomendação do dábliu três cê, hoje na quinta edição da versão um ponto zero, de dois mil e oito. Duas noções se distinguem. Bem formado é o documento que respeita a sintaxe: um único elemento raiz, toda marca aberta é fechada, aninhamento correto, atributos entre aspas e diferença entre maiúsculas e minúsculas. Válido é o documento bem formado que, além disso, obedece a um esquema, como o xis ésse dê, que define elementos, ordem, cardinalidade e tipos, como data e decimal. Os espaços de nomes evitam colisão quando um documento combina vocabulários diferentes, associando cada elemento a um identificador.
+
+Para ler, o modelo de documento, o dóm, carrega a árvore inteira na memória e não serve a arquivos grandes. Os leitores em fluxo leem em partes, com memória constante: no séks, o analisador empurra eventos para o programa; no stéks, o programa puxa o próximo evento. Na segurança, o risco clássico é a entidade externa: um documento com definição de tipo de documento, a dê tê dê, pode mandar o analisador ler arquivos locais ou endereços internos, e entidades aninhadas podem se expandir até esgotar a memória. Muitos analisadores do Java vêm com esses recursos habilitados, e a recomendação é desabilitar a dê tê dê, ou ao menos as entidades externas.
+
+Exemplo prático. A nota fiscal eletrônica, instituída pelo Ajuste Siniéf sete, de dois mil e cinco, é um documento xis ême éle cujo leiaute segue o Manual de Orientação do Contribuinte e é validado contra os esquemas publicados. Sua validade jurídica decorre da assinatura digital do emitente e da autorização de uso pela administração tributária. Um auditor que analisa as notas de compras de um hospital deve separar três coisas: a validade no esquema prova a estrutura; a assinatura prova a autoria e a integridade; e nenhuma das duas prova que o preço ou a quantidade estejam corretos.
+
+Parquê. É um formato binário e colunar, projeto da fundação Apache. O arquivo é dividido em grupos de linhas. Dentro de cada grupo, os valores de cada coluna ficam juntos, em páginas comprimidas, e o rodapé, no fim do arquivo, guarda o esquema e as estatísticas de cada coluna em cada grupo, como mínimo, máximo e quantidade de nulos.
+
+Isso permite duas otimizações. A projeção lê só as colunas pedidas. E o descarte por estatísticas salta grupos inteiros cujos mínimo e máximo não atendem ao filtro: buscar pagamentos acima de um milhão de reais pula os grupos cujo máximo é menor que isso. Valores parecidos lado a lado comprimem bem, com codificação por dicionário e por repetição. Os tipos lógicos incluem data, instante e decimal com precisão e escala, que preserva valores monetários exatos, ao contrário do ponto flutuante.
+
+Os limites são três. O arquivo é imutável: para mudar uma linha, reescreve-se o arquivo, e é a camada de tabela vista no bloco dois que oferece atualização e exclusão sobre ele. Gravar registro a registro, em fluxo, gera muitos arquivos pequenos, que degradam a leitura e exigem compactação periódica. E o formato não é legível por pessoas. Por isso o parquê serve à análise, com escrita em lote e muitas leituras, e não à troca de registros individuais, em que o djêisson ou o Ávro, formato binário orientado a linhas, se saem melhor.
+
+Duas observações completam o tema. Em lagos de dados, os arquivos costumam ser organizados em pastas pelo valor de uma coluna, como ano e mês, e a consulta que filtra por mês lê só a pasta correspondente. E, no processamento paralelo, importa se o arquivo pode ser dividido entre vários leitores: um cê ésse vê comprimido com djí zíp não pode, porque só se descomprime a partir do início; o parquê pode, por grupo de linhas.
+
+Pegadinhas do bloco quatro.
+
+Pela érre éfe cê quatro mil cento e oitenta, um campo de cê ésse vê não pode conter quebra de linha. Errado. Pode, desde que esteja entre aspas duplas.
+
+No cê ésse vê, as aspas dentro de um campo se representam com barra invertida antes delas. Errado. Escrevem-se duplicadas, em campo entre aspas.
+
+Todo documento xis ême éle bem formado é válido. Errado. Válido é o bem formado que também obedece a um esquema; todo válido é bem formado, mas não o contrário.
+
+A érre éfe cê oito mil duzentos e cinquenta e nove proíbe nomes repetidos em um objeto djêisson, que sempre geram erro na leitura. Errado. A norma diz que os nomes deveriam ser únicos; com repetição, o comportamento é imprevisível.
+
+Inteiros de qualquer tamanho trafegam com segurança como números em djêisson. Errado. A interoperabilidade só é garantida até dois elevado a cinquenta e três; valores maiores vão como texto.
+
+A assinatura digital da nota fiscal eletrônica garante que os valores declarados estão corretos. Errado. Garante autoria e integridade, não a correção do conteúdo.
+
+
+BLOCO CINCO: QUALIDADE, RASTREABILIDADE, CONCILIAÇÃO E REPETIÇÃO SEGURA DE PROCESSAMENTO
+
+As dimensões de qualidade, como completude, exatidão e unicidade, e a quarentena foram vistas no item três ponto dois ponto quatro; a idempotência de operações e de consumidores, no três ponto dois ponto três. Aqui entram os controles de qualidade no fluxo, a rastreabilidade, a conciliação e a repetição segura.
+
+A norma ízo í é cê vinte e cinco mil e doze, de dois mil e oito, é o modelo de qualidade de dados da família de normas de qualidade de sistemas e software. Ela define quinze características em dois pontos de vista. As inerentes dependem só do próprio dado: exatidão, completude, consistência, credibilidade e atualidade. As dependentes do sistema dependem de onde o dado está: disponibilidade, portabilidade e recuperabilidade. E sete pertencem aos dois pontos de vista: acessibilidade, conformidade, confidencialidade, eficiência, precisão, rastreabilidade e compreensibilidade. Rastreabilidade, ali, é o grau em que o dado tem atributos que fornecem trilha de auditoria do acesso a ele e das alterações feitas nele.
+
+No fluxo, a qualidade é verificada em pontos de controle entre as etapas. Na entrada, o esquema e o volume. Depois da transformação, as regras de negócio e a integridade entre tabelas. Antes da publicação, os totais e a comparação com a carga anterior. O teste de volume e de atualidade pega o que a validação linha a linha não vê: uma carga diária que chega com metade das linhas de costume, ou que não chega, indica problema na origem, mesmo que cada linha seja válida.
+
+Cada controle tem uma ação definida: registrar e seguir, mandar o registro para a quarentena ou interromper a carga. O comum é tolerar rejeições isoladas até um limite e interromper acima dele. Dez rejeições em um milhão vão para a quarentena. Trinta por cento de rejeições costumam indicar mudança de formato na origem, e publicar o restante produziria um resultado enganoso.
+
+A rastreabilidade no fluxo se apoia em três práticas. A linhagem registra de onde veio cada conjunto e por quais transformações passou, até o nível da coluna quando possível, o que permite medir o impacto de um erro na origem. Cada registro carregado leva colunas de controle, como a origem, o identificador da execução e a data da carga. E cada execução registra o arquivo recebido, com seu resumo criptográfico, a versão do código de transformação e os parâmetros. Com o bruto guardado, a mesma versão do código e os mesmos parâmetros, o resultado pode ser reproduzido, exigência quando ele sustenta um achado de auditoria.
+
+Conciliação é a conferência entre o que saiu da origem e o que chegou ao destino. A auditoria de sistemas usa três totais de controle. A contagem de registros. O total financeiro, a soma de um campo de valor. E o total de verificação, a soma de um campo sem significado aritmético, como os números dos documentos, que serve para detectar troca ou alteração de registros que a contagem e o valor não revelariam.
+
+A equação básica é esta: registros lidos são iguais aos gravados, mais os rejeitados, mais os descartados por regra. Se não fecha, algo se perdeu sem registro. Arquivos de troca costumam trazer os totais no próprio arquivo, em registros de cabeçalho e de rodapé, como os arquivos bancários padronizados pela Febrában, com a quantidade de registros e a soma dos valores. Conferir o rodapé antes de aceitar o arquivo detecta arquivo truncado, e o resumo criptográfico detecta corrupção na transferência.
+
+A conciliação agregada confere totais. A conciliação por registro compara chave a chave e separa as diferenças em três grupos: presentes só na origem, presentes só no destino e presentes nos dois com valores diferentes. A agregada é barata e diz que há problema; a por registro diz qual é.
+
+Repetição segura. Todo fluxo será executado de novo um dia, por falha ou para corrigir uma regra. A repetição é segura quando executar duas vezes produz o mesmo resultado que executar uma, ou seja, quando a carga é idempotente. Há quatro técnicas. A mesclagem pela chave de negócio, com restrição de unicidade no destino, em vez da inserção simples. A substituição por partição: a carga de um dia apaga e regrava os dados daquele dia na mesma transação, e rodar de novo substitui em vez de acumular. A publicação atômica, vista no bloco um. E o registro de entradas processadas: cada arquivo recebido é registrado pelo resumo criptográfico, em tabela com restrição de unicidade, e o mesmo conteúdo não é carregado duas vezes, mesmo com outro nome.
+
+A transformação também precisa ser determinística. Uma regra que usa a data atual do servidor, como calcular o atraso até hoje, dá resultados diferentes a cada execução; a data de referência deve ser parâmetro da execução. E a marca de nível máximo da carga incremental só avança depois que os dados foram confirmados no destino, de preferência na mesma transação. Avançar a marca antes e falhar depois faz o intervalo ser pulado para sempre.
+
+Exemplo prático. Um fluxo diário importa o arquivo de ordens bancárias de um órgão. O rodapé informa cento e vinte mil registros e soma de trezentos e quarenta milhões de reais. A carga lê cento e vinte mil registros, grava cento e dezenove mil novecentos e noventa e cinco e manda cinco para a quarentena, por cê ene pê jota inválido. A equação fecha, e a soma dos gravados com a dos rejeitados bate com o rodapé. No dia seguinte, o mesmo arquivo é reenviado por engano, com outro nome; o resumo criptográfico já registrado barra a segunda carga.
+
+Pegadinhas do bloco cinco.
+
+Na norma ízo í é cê vinte e cinco mil e doze, a rastreabilidade é característica inerente, que independe do sistema. Errado. Pertence aos dois pontos de vista, inerente e dependente do sistema.
+
+Se a contagem e a soma dos valores batem entre origem e destino, a carga está correta. Errado. Erros podem se compensar, como um registro duplicado e outro perdido de mesmo valor; a conciliação por registro aponta as diferenças.
+
+O total de verificação não tem utilidade, porque a soma dos números dos documentos não tem significado. Errado. Serve justamente para detectar trocas e alterações que a contagem e o valor não revelam.
+
+Uma carga com inserção simples é segura para repetição, desde que a origem não mude. Errado. A segunda execução duplica; é preciso mesclagem pela chave, substituição por partição ou registro de entradas processadas.
+
+Uma taxa alta de rejeição deve ser tratada como as rejeições isoladas: quarentena dos inválidos e publicação do restante. Errado. Acima do limite, a carga é interrompida, porque o problema está na origem e o resultado seria enganoso.
+
+
+ENCERRAMENTO
+
+A parte dois trata do Sprín Bétch: organização de trabalhos e etapas, leitura, processamento e escrita de registros, controle transacional, registro do estado de execução e reinício após falhas, e prevenção de perdas e duplicações no reprocessamento.

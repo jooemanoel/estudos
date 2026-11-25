@@ -1,0 +1,279 @@
+AUDIOAULA. ITEM TRÊS PONTO TRÊS PONTO TRÊS DO EDITAL: FLUXOS E INTEROPERABILIDADE. PARTE DOIS DE DUAS
+
+
+ABERTURA
+
+Esta é a parte dois do item três ponto três ponto três, fluxos e interoperabilidade, dedicada ao Sprín Bétch, com quatro blocos: organização de trabalhos e etapas; leitura, processamento e escrita de registros; controle transacional, registro do estado de execução e reinício após falhas; e prevenção de perdas e duplicações no reprocessamento. A banca costuma explorar a diferença entre instância e execução do trabalho, os parâmetros identificadores, o filtro no processador, a transação por bloco, as regras de reinício e a diferença entre reiniciar e executar de novo.
+
+
+BLOCO SEIS: SPRÍN BÉTCH: ORGANIZAÇÃO DE TRABALHOS E ETAPAS
+
+O Sprín Bétch é o freimuórqui de processamento em lote do ecossistema Sprín, feito para grandes volumes, com controle de transações, registro do estado de execução e reinício. A versão seis, de novembro de dois mil e vinte e cinco, acompanha o Sprín freimuórqui sete e o Sprín Búti quatro e mantém o Java dezessete como versão mínima.
+
+A documentação é explícita: o Sprín Bétch não é um freimuórqui de agendamento. Ele foi feito para trabalhar junto com um agendador, como o crón, o Quórts, um agendador corporativo ou uma tarefa agendada do Cubernétis, e não para substituí-lo.
+
+O trabalho, em inglês djób, é o processo em lote completo, composto de uma ou mais etapas, em inglês stéps. Em torno dele, há três conceitos que não se confundem.
+
+A instância do trabalho é a execução lógica, definida pelo trabalho mais os parâmetros identificadores. O fechamento diário com data de referência vinte e quatro de novembro é uma instância; o do dia vinte e cinco é outra.
+
+A execução do trabalho é uma tentativa de executar uma instância. A instância só é considerada concluída quando uma de suas execuções termina com sucesso.
+
+E os parâmetros do trabalho são, por padrão, identificadores: entram na identidade da instância. Um parâmetro pode ser marcado como não identificador, como o tamanho do bloco ou o endereço de um servidor; ele muda a execução, mas não cria instância nova.
+
+Para rodar o mesmo trabalho repetidamente sem parâmetro natural, usa-se um incrementador, que gera a cada lançamento um parâmetro novo, como um número sequencial de execução, e com ele uma instância nova.
+
+A etapa é uma fase independente do trabalho. Cada execução de etapa registra situação, horários e contadores: itens lidos, gravados, filtrados e saltados, além do número de confirmações e de reversões.
+
+O contexto de execução é um mapa de chave e valor que o freimuórqui grava no repositório, em dois níveis. O da etapa é gravado a cada confirmação; o do trabalho, entre uma etapa e outra. É nele que o leitor guarda a posição para o reinício e que uma etapa deixa informação para a seguinte.
+
+Tudo isso fica no repositório de trabalhos. Na versão com banco, são as tabelas de metadados com prefixo bétch: instância, execução, parâmetros e contexto do trabalho, e execução e contexto da etapa.
+
+Há dois tipos de etapa. A tásklet executa uma tarefa única, como apagar arquivos temporários, chamar um procedimento do banco ou mover o arquivo de entrada, e informa ao fim se terminou ou se deve ser chamada de novo. A etapa orientada a blocos lê, processa e grava itens, e é o tema do bloco sete.
+
+O fluxo do trabalho define a ordem das etapas. No fluxo sequencial, cada etapa começa quando a anterior conclui, e uma falha interrompe o trabalho. No fluxo condicional, a transição depende do resultado da etapa, com padrões que aceitam curingas: se falhou, vai para a etapa de notificação; nos demais casos, segue. Um decisor programático pode escolher o caminho com base nos dados. As divisões executam fluxos em paralelo. E o fluxo pode encerrar o trabalho como concluído, como falho ou como parado, para que um operador analise e reinicie a partir daquele ponto.
+
+Duas situações não se confundem. A situação do lote, em inglês bétch stêitus, é uma enumeração controlada pelo freimuórqui: iniciando, iniciado, parando, parado, falhou, concluído, abandonado e desconhecido. O código de saída, em inglês éksit stêitus, é um texto que pode ser personalizado, como concluído com saltos, e é ele que as transições condicionais avaliam.
+
+No Sprín Búti, se há um único trabalho no contexto, ele é executado na inicialização da aplicação. Havendo vários, uma propriedade indica qual executar, e outra desliga a execução na inicialização. Anotar a configuração com arroba inêibol bétch prócessin, ou estender a configuração padrão do lote, faz a autoconfiguração do Sprín Búti recuar, inclusive a criação do esquema de metadados.
+
+A versão seis trouxe mudanças de configuração. O operador de trabalhos, djób óperêitor, passou a incorporar o antigo lançador, djób lóntcher, que foi descontinuado, e o repositório incorporou as consultas do antigo explorador. A configuração padrão passou a usar um repositório sem recursos, que não grava metadados; o repositório em banco é ativado por anotação própria, arroba inêibol djêi dê bê cê djób repózitori, e há outra equivalente para o Mongo dê bê. No Sprín Búti quatro, o iniciador de lote foi dividido em dois: o comum, sem banco, mantém os metadados em memória, e o iniciador com djêi dê bê cê os grava no banco. A documentação indica o repositório sem recursos para os casos em que o reinício não é necessário.
+
+Exemplo prático. O trabalho de consolidação mensal de pagamentos recebe a competência como parâmetro identificador e o caminho do arquivo como não identificador. Em outubro, a primeira execução falha por queda do banco. O operador lança de novo com a competência outubro, e a nova execução pertence à mesma instância, que passa a ter duas execuções. Depois que ela conclui, um novo lançamento de outubro é recusado. Se for preciso reprocessar outubro com uma regra corrigida, o caminho deliberado é uma instância nova, com um parâmetro identificador a mais, e uma escrita que substitua, e não acumule, os dados do mês, tema do bloco nove.
+
+Pegadinhas do bloco seis.
+
+A instância do trabalho corresponde a cada tentativa de execução. Errado. Cada tentativa é uma execução; a instância é o trabalho mais os parâmetros identificadores e pode ter várias execuções.
+
+O Sprín Bétch inclui um agendador para disparar os trabalhos nos horários definidos. Errado. Ele não é freimuórqui de agendamento e trabalha junto com um agendador externo.
+
+Por padrão, os parâmetros do trabalho não contribuem para identificar a instância. Errado. Por padrão, são identificadores.
+
+As transições condicionais entre etapas avaliam a situação do lote. Errado. Avaliam o código de saída, que pode ser personalizado.
+
+No Sprín Búti, anotar a configuração com arroba inêibol bétch prócessin complementa a autoconfiguração do lote. Errado. A autoconfiguração recua.
+
+Uma instância concluída pode ser lançada de novo com os mesmos parâmetros identificadores, gerando nova execução. Errado. O lançamento é recusado; nova execução da mesma instância só existe quando a anterior não concluiu.
+
+
+BLOCO SETE: LEITURA, PROCESSAMENTO E ESCRITA DE REGISTROS
+
+Na etapa orientada a blocos, em inglês tchânk, o leitor, áitem ríder, devolve um item por chamada e devolve nulo quando a entrada acaba. Cada item lido passa pelo processador, áitem prócessor, que transforma, valida ou enriquece. Quando o bloco atinge o tamanho configurado, o escritor, áitem ráiter, recebe o bloco inteiro de uma vez e grava. Leitura e processamento são item a item; a escrita é por bloco, o que permite gravar em lote no banco. Cada bloco é uma transação, tema do bloco oito.
+
+O tamanho do bloco, também chamado intervalo de confirmação, equilibra custo e risco. Blocos grandes reduzem o número de confirmações e aceleram, mas ocupam mais memória, seguram travas por mais tempo e, na falha, desfazem e refazem mais itens. Blocos pequenos fazem o contrário. O valor se ajusta medindo.
+
+O processador tem três saídas. Devolver o item, transformado ou não, encaminha para a escrita. Devolver nulo filtra o item: ele não é gravado e é contado como filtrado, o que é diferente de ser saltado. Lançar exceção é erro, tratado pelas regras de tolerância a falhas do bloco oito. O filtro serve a descartes previstos na regra, como ignorar registros fora do escopo; registro inválido não deve sumir como filtrado, e sim ir para a quarentena com o motivo. Processadores podem ser encadeados, e há um processador pronto que aplica a validação de bín, com a opção de filtrar o item inválido em vez de falhar.
+
+Há leitores prontos para as fontes comuns.
+
+Arquivo plano: lê cê ésse vê e arquivos posicionais, de largura fixa, com um separador de campos ou com as posições de cada campo, mais um mapeador que transforma a linha em objeto. Permite pular linhas de cabeçalho e configurar a codificação de caracteres.
+
+Djêisson: lê um vetor de objetos em fluxo, um objeto por vez. Na versão seis, usa por padrão o Djékson três.
+
+Xis ême éle: lê fragmentos, como cada elemento nota, com o leitor em fluxo stéks, sem carregar o documento inteiro.
+
+Banco de dados: o leitor por cursor abre uma consulta e avança uma linha por leitura, mantendo a conexão aberta durante a etapa. O leitor paginado de djêi dê bê cê faz uma consulta nova por página, a partir da última chave lida, e a documentação adverte que a chave de ordenação precisa ser única para garantir que nenhum dado se perca entre execuções. Há também leitores paginados para jota pê á e para repositórios do Sprín Data, que usam deslocamento.
+
+Do lado da escrita, há o escritor de arquivo plano, que monta cada linha e aceita cabeçalho e rodapé gerados por funções de retorno, úteis para gravar no rodapé a quantidade e a soma; o escritor djêi dê bê cê em lote, que envia o bloco inteiro como um lote de comandos; os de jota pê á e de repositório; os de djêisson e de xis ême éle; o composto, que grava o mesmo bloco em vários destinos; e o classificador, que manda cada item para um escritor conforme uma regra, como válidos para a tabela final e inválidos para a quarentena.
+
+O escopo de etapa, arroba stép scóup, cria o leitor ou o escritor só quando a etapa começa, o que permite injetar neles os parâmetros do trabalho, como o caminho do arquivo do dia. E leitores e escritores com estado seguem o contrato de fluxo de itens, áitem strím, com três operações: abrir, atualizar e fechar. Na abertura, leem do contexto de execução a posição salva; a cada bloco, atualizam essa posição. É isso que permite o reinício.
+
+Para escalar, há quatro opções. A etapa com várias threads processa itens em paralelo. Na implementação tradicional, descontinuada na versão seis, cada thread executava blocos inteiros, e por isso o leitor precisava ser seguro para threads e o reinício ficava comprometido. Na implementação nova, a leitura e a escrita continuam em série na thread principal, só o processamento é paralelo, e é o processador que precisa ser seguro para threads. As etapas paralelas executam fluxos independentes ao mesmo tempo. O particionamento divide os dados em faixas, como por unidade gestora ou por intervalo de identificadores, e cada partição roda como uma execução de etapa própria, com seu contexto. E a execução remota distribui blocos ou etapas inteiras entre processos, por mensageria.
+
+Pegadinhas do bloco sete.
+
+Na etapa orientada a blocos, o escritor é chamado uma vez para cada item lido. Errado. O escritor recebe o bloco inteiro; leitura e processamento é que são item a item.
+
+Quando o processador devolve nulo, o item é contado como saltado. Errado. É filtrado e contado à parte; o salto decorre de exceção tolerada.
+
+O leitor paginado de djêi dê bê cê aceita qualquer coluna como chave de ordenação. Errado. A chave precisa ser única, para não perder dados entre execuções.
+
+O leitor sinaliza o fim dos dados lançando exceção. Errado. Devolve nulo.
+
+O escritor composto grava cada item em apenas um dos escritores, escolhido por uma regra. Errado. Esse é o classificador; o composto grava o bloco em todos os destinos.
+
+
+BLOCO OITO: CONTROLE TRANSACIONAL, REGISTRO DO ESTADO DE EXECUÇÃO E REINÍCIO APÓS FALHAS
+
+As regras gerais de repetição de chamadas foram vistas nos itens três ponto dois ponto três e três ponto dois ponto cinco. Aqui entram a transação do bloco, a tolerância a falhas da etapa e o reinício.
+
+Cada bloco roda em uma transação do gerenciador de transações da etapa. Dentro dela, o leitor lê os itens do bloco, o processador os processa, o escritor grava, e o freimuórqui atualiza a execução da etapa e o contexto de execução, com a nova posição do leitor. A confirmação vale para tudo junto. Se algo falha, a reversão desfaz a gravação do bloco, e a posição salva continua sendo a do último bloco confirmado.
+
+Essa garantia é plena quando os dados e os metadados estão no mesmo banco, sob o mesmo gerenciador de transações. Em bancos separados, sem transação distribuída, uma falha entre as duas confirmações deixa dados e estado divergentes, e o reinício pode repetir ou pular um bloco.
+
+Recursos fora do banco não participam da transação. O escritor de arquivo plano contorna isso: por padrão, guarda a saída em memória e só a grava no arquivo depois da confirmação, e registra no contexto a posição já escrita; no reinício, volta a escrever a partir da última posição confirmada. Já um e-mail enviado ou uma chamada a uma á pê í externa não se desfazem com a reversão, problema do bloco nove.
+
+A etapa pode ser configurada como tolerante a falhas, com duas políticas. A repetição tenta de novo diante de falhas transitórias, como uma trava do banco ou um prazo esgotado, até um limite. O salto, em inglês skíp, descarta o item que falha por erro permanente, como um registro malformado, até um limite de saltos; passado o limite, a etapa falha. O limite vale para a soma dos saltos na leitura, no processamento e na escrita. Na versão seis, a repetição passou a usar o suporte nativo do Sprín freimuórqui sete, no lugar da biblioteca Sprín Ritrái, e o salto passou a se basear só na política de salto.
+
+Quando a escrita falha com exceção que admite salto, o freimuórqui não sabe qual item do bloco causou a falha. Ele desfaz o bloco e entra no modo de varredura: regrava os itens um a um, cada um em sua própria transação, para isolar e saltar só o culpado. Por padrão, o processador é chamado de novo para cada item regravado, o que importa para os efeitos externos, tema do bloco nove.
+
+Um ouvinte de saltos recebe cada item descartado, na leitura, no processamento ou na escrita, e o grava na quarentena com o motivo. Salto sem esse registro é perda silenciosa.
+
+O registro do estado serve ao acompanhamento e à auditoria. Cada execução guarda os parâmetros, os horários, a situação, o código de saída com a descrição do erro e, por etapa, os contadores. Os contadores fecham a conciliação do bloco cinco: os itens lidos são iguais aos gravados, mais os filtrados, mais os saltados no processamento e na escrita; os saltados na leitura têm contador próprio.
+
+Reiniciar é lançar de novo uma instância que não concluiu, com os mesmos parâmetros identificadores. O freimuórqui cria uma nova execução, pula as etapas já concluídas e retoma a etapa que falhou a partir do último bloco confirmado, com a posição salva no contexto. O leitor de arquivo pula as linhas já lidas; o leitor paginado recomeça da última chave; o leitor por cursor executa a consulta de novo e avança até a contagem salva, o que exige ordenação determinística, porque o reinício pela contagem pressupõe a mesma ordem dos itens entre as execuções.
+
+Três controles ajustam o reinício. Marcar o trabalho como não reiniciável faz o reinício ser recusado com exceção. O limite de inícios de uma etapa, que por padrão é o maior inteiro, recusa a etapa depois do número configurado de tentativas. E a etapa marcada para iniciar mesmo se concluída é executada de novo em todo reinício, o que serve a tarefas de preparação; por padrão, a etapa concluída é pulada.
+
+Se o processo morre abruptamente, por falta de memória ou por desligamento da máquina, ninguém atualiza o repositório, e a execução fica como iniciada. Nesse estado, ela não é reiniciável, e um novo lançamento da instância é recusado, porque há uma execução supostamente em andamento. Até a versão cinco, a saída era corrigir a situação direto no banco, para falhou ou para abandonado. A versão seis acrescentou ao operador de trabalhos o método de recuperação, ricâver, que trata a execução interrompida de forma consistente em qualquer tipo de repositório e permite reiniciá-la em seguida. A documentação adverte que só se deve marcar como falha a execução cujos dados de reinício sejam válidos. Abandonado é situação definitiva: a execução abandonada não é reiniciada pelo freimuórqui.
+
+Parar é diferente de cair. O operador pede a parada, que não é imediata: o freimuórqui só age quando o controle volta a ele, depois do código do desenvolvedor em curso, e então marca a etapa e a execução como paradas, e a instância pode ser reiniciada depois. A versão seis acrescentou o desligamento gracioso: um gancho intercepta o sinal de término do processo, como o enviado pelo Cubernétis ao encerrar um pód, e para o trabalho de forma controlada, deixando o repositório consistente para o reinício.
+
+Tudo isso pressupõe repositório persistente. Com o repositório sem recursos, ou com metadados só em memória, nada sobrevive ao fim do processo, e o trabalho que falha recomeça do zero.
+
+Exemplo prático. Um trabalho importa um arquivo de duzentos mil pagamentos em blocos de mil. No bloco cento e trinta e sete, o banco fica indisponível, as repetições se esgotam e a etapa falha. Cento e trinta e seis blocos estão confirmados, e o contexto guarda cento e trinta e seis mil linhas lidas. O operador lança de novo a mesma instância, e a nova execução começa na linha cento e trinta e seis mil e um. Se, em vez disso, o pód tivesse sido derrubado no meio do bloco, a execução ficaria como iniciada e precisaria ser recuperada antes do reinício.
+
+Pegadinhas do bloco oito.
+
+Na etapa orientada a blocos, uma única transação abrange a etapa inteira. Errado. Cada bloco é uma transação, e a confirmação inclui a gravação e a atualização do estado.
+
+Com limite de dez saltos, a etapa falha no décimo item descartado. Errado. Falha no décimo primeiro.
+
+No reinício, todas as etapas do trabalho são executadas de novo. Errado. As concluídas são puladas, salvo as marcadas para iniciar mesmo se concluídas.
+
+Depois de uma queda abrupta do processo, basta lançar de novo a instância para reiniciá-la. Errado. A execução fica como iniciada e precisa ser recuperada, ou ter a situação corrigida, antes do reinício.
+
+Uma execução abandonada pode ser reiniciada do ponto de falha. Errado. Abandonada não é reiniciada pelo freimuórqui.
+
+A parada pedida pelo operador interrompe imediatamente o código em execução. Errado. Ela só se efetiva quando o controle volta ao freimuórqui.
+
+
+BLOCO NOVE: PREVENÇÃO DE PERDAS E DUPLICAÇÕES NO REPROCESSAMENTO
+
+As técnicas gerais de carga idempotente, vistas no bloco cinco, aplicam-se aqui ao escritor. Este bloco trata das situações próprias do Sprín Bétch.
+
+O reinício do bloco oito protege contra perda e duplicação sob três condições: o estado é salvo junto com os dados; a entrada não muda entre as execuções; e a escrita só tem efeitos que a reversão desfaz. Quando uma delas falha, ou quando se executa de novo em vez de reiniciar, o reprocessamento perde ou duplica.
+
+Reiniciar não é executar de novo. Reiniciar continua a instância do ponto de falha. Executar de novo, com parâmetros novos ou pelo incrementador, cria instância nova, que processa tudo desde o início. Se o escritor só insere, tudo o que a execução anterior gravou é gravado outra vez. Por isso o escritor de um trabalho que pode ser executado de novo deve ser idempotente, com as técnicas do bloco cinco.
+
+A entrada precisa ser a mesma. A posição salva se refere ao arquivo original: se ele é substituído por uma versão corrigida antes do reinício, o leitor pula ou repete registros. A defesa é tratar a entrada como imutável. O resumo criptográfico do arquivo entra como parâmetro identificador: o mesmo conteúdo lançado de novo depois de concluído é recusado como instância já concluída, e um arquivo diferente nunca é tratado como reinício do anterior. E o arquivo só é movido ou apagado por uma etapa final, depois que as etapas de dados concluem. No banco, a ordem de leitura precisa ser determinística, por uma chave única.
+
+Um caso clássico de perda envolve paginação por deslocamento. No padrão do indicador de processamento, a tabela de origem tem uma coluna que marca o registro como processado, a consulta lê só os não processados, e o escritor marca os registros na mesma transação em que grava o resultado. O leitor não precisa guardar posição, porque o próprio dado diz o que falta, e a documentação recomenda desligar a gravação do estado nesse caso. Mas, se a leitura pagina por deslocamento, cada bloco confirmado tira registros do resultado, e a página seguinte, contada a partir do deslocamento, pula registros que ainda não foram lidos. A saída é paginar pela chave, como faz o leitor paginado de djêi dê bê cê, ou usar cursor.
+
+Efeitos externos se repetem. Um e-mail, uma notificação ou a chamada a um sistema de pagamento feitos dentro do escritor ou do processador não se desfazem na reversão, e o bloco refeito, por repetição, por varredura ou por reinício, os executa de novo. A saída é tirar o efeito da etapa de dados: a etapa grava, na mesma transação dos dados, os registros de envio pendente, e uma etapa seguinte os envia e os marca como enviados, com chave de idempotência em cada chamada, como visto no item três ponto dois ponto três.
+
+Há ainda as perdas silenciosas. Salto sem ouvinte, que descarta sem registrar. Filtro usado para esconder inválidos. E atualização que não encontra o registro: por padrão, o escritor djêi dê bê cê em lote confere se cada item alterou ao menos uma linha e falha se algum não alterou, o que denuncia chaves que não batem.
+
+Por fim, o particionamento por faixas de chave confina o reprocessamento: no reinício, só as partições que falharam são executadas de novo, e cada uma retoma da própria posição.
+
+Exemplo prático. Um trabalho tem duas etapas: a primeira apaga do destino os pagamentos da competência, e a segunda importa o arquivo da competência, de duzentos mil pagamentos, em blocos de mil. A segunda falha no bloco cento e trinta e sete. No reinício, a primeira etapa, concluída, é pulada, e a segunda retoma do bloco cento e trinta e sete: o resultado fica completo e sem duplicados. Se a etapa de limpeza estivesse marcada para iniciar mesmo se concluída, ela apagaria os cento e trinta e seis mil registros já gravados, a importação retomaria do bloco cento e trinta e sete, e o resultado perderia mais da metade dos pagamentos, sem nenhum erro registrado.
+
+Pegadinhas do bloco nove.
+
+Lançar o trabalho com o incrementador depois de uma falha retoma a execução do ponto em que parou. Errado. O incrementador cria instância nova, que processa desde o início; retomar é reiniciar a mesma instância.
+
+A reversão do bloco desfaz o e-mail ou a chamada externa feitos pelo escritor. Errado. Efeitos externos não participam da transação e se repetem quando o bloco é refeito.
+
+No padrão do indicador de processamento, a leitura paginada por deslocamento é segura, porque a consulta filtra os não processados. Errado. Os processados saem do resultado, e o deslocamento pula registros; pagina-se pela chave ou usa-se cursor.
+
+Por padrão, o escritor djêi dê bê cê em lote ignora atualizações que não alteram nenhuma linha. Errado. Por padrão, ele falha se algum item não alterou ao menos uma linha.
+
+Substituir o arquivo de entrada por uma versão corrigida antes do reinício é seguro, porque o leitor retoma pela posição salva. Errado. A posição se refere ao arquivo original; com outro conteúdo, o reinício pula ou repete registros.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Ingestão, transformação e carga. Extrair sem prejudicar a origem: réplica de leitura, janela de baixa demanda ou fluxo de mudanças. Área de preparação com o bruto, para validar, reprocessar e provar o recebido. Carga por acréscimo, substituição ou mesclagem; publicação atômica por troca de tabela; restrição desligada na carga em massa exige validação prévia. Armazém de dados orientado por assunto, integrado e variável no tempo. Dimensão do tipo três guarda só o valor anterior.
+
+É tê éle e é éle tê. É éle tê reaplica regras sem nova extração e escala com o destino; é tê éle evita que o dado sensível chegue ao destino. Lêik ráus: arquivos abertos sob camada de tabela com transações e versões. As camadas do medalhão derivam umas das outras e podem ser reconstruídas. Orquestrador: grafo acíclico dirigido, com dependências, agendamento e reprocessamento de períodos.
+
+Lote e fluxo, completo e incremental. Lote prioriza vazão; fluxo, latência; microlotes ficam no meio. Janela de sessão tem tamanho variável, definido pela inatividade. Marca d'água troca latência por completude; atrasados são descartados, aceitos com tolerância ou desviados. Pontos de verificação dão exatamente uma vez no estado interno; no destino, escrita idempotente ou transacional. Lambda custa manter a lógica em dois códigos. Incremental: janela de sobreposição com carga idempotente, marca composta contra empates, comparação de arquivos completos pela chave e pelo resumo da linha e conciliação completa periódica.
+
+Á pê ís, contratos e formatos. Exportação grande assíncrona, com duzentos e dois e endereço de acompanhamento; incremental com alterados desde e com as exclusões. Ôpen á pê í três ponto dois descreve respostas em sequência. Contrato de dados testado a cada entrega. Lei Geral de Proteção de Dados, artigo vinte e cinco: formato interoperável e estruturado para o uso compartilhado. Cê ésse vê pede leitor que respeite as aspas; injeção de fórmulas ao abrir em planilha. Djêisson entre sistemas abertos em u tê éfe oito, sem marca de ordem de bytes; djêisson em linhas para arquivos grandes. Xis ême éle grande se lê em fluxo, com a dê tê dê desabilitada. Parquê: projeção e descarte de grupos pelas estatísticas do rodapé; decimal exato; muitos arquivos pequenos degradam a leitura; djí zíp não se divide.
+
+Qualidade, rastreabilidade, conciliação e repetição segura. Norma vinte e cinco mil e doze: quinze características, nos pontos de vista inerente e dependente do sistema. Pontos de controle entre as etapas, com teste de volume e de atualidade. Linhagem, colunas de controle, resumo do arquivo, versão do código e parâmetros tornam o resultado reproduzível. Lidos são iguais a gravados, mais rejeitados, mais descartados; o rodapé revela truncamento. Conciliação por registro separa três grupos de diferenças. Data de referência como parâmetro; marca incremental só avança depois da confirmação.
+
+Organização de trabalhos e etapas. Contexto de execução: o da etapa gravado a cada confirmação, o do trabalho entre as etapas. Tásklet para tarefa única; divisões executam fluxos em paralelo; decisor escolhe o caminho pelos dados. Situação do lote é enumeração do freimuórqui. Versão seis: operador de trabalhos incorpora o lançador; repositório sem recursos na configuração padrão; anotação própria para o repositório em banco. Sprín Búti quatro: iniciador com djêi dê bê cê para gravar os metadados no banco.
+
+Leitura, processamento e escrita. Tamanho do bloco equilibra confirmações, memória, travas e retrabalho. Leitor por cursor mantém a conexão aberta; os paginados de jota pê á e de repositório usam deslocamento. Escopo de etapa injeta os parâmetros do trabalho. Rodapé do arquivo com quantidade e soma, por função de retorno. Na implementação nova, só o processamento é paralelo. Particionamento por faixas, cada partição com execução e contexto próprios.
+
+Controle transacional, estado e reinício. Estado e dados confirmados juntos quando estão no mesmo banco e sob o mesmo gerenciador de transações. Escritor de arquivo grava depois da confirmação e retoma da última posição confirmada. Modo de varredura regrava item a item, cada um em sua transação. Repetição pelo suporte do Sprín freimuórqui sete. Limite de inícios padrão é o maior inteiro; trabalho não reiniciável recusa o reinício. Ouvinte de saltos grava a quarentena. Desligamento gracioso intercepta o sinal de término.
+
+Prevenção de perdas e duplicações. Reinício seguro exige estado salvo com os dados, entrada imutável e efeitos desfeitos pela reversão. Resumo do arquivo como parâmetro identificador; arquivo movido só ao fim. Efeitos externos em etapa própria, a partir de registros de envio pendente, com chave de idempotência. Partições que falharam retomam da própria posição. Etapa de limpeza não deve rodar de novo no reinício.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na dimensão que muda lentamente do tipo dois, cada alteração relevante gera uma nova linha, com nova chave substituta e datas de vigência, o que permite associar cada fato à versão da dimensão vigente na data em que ocorreu.
+
+Gabarito: certo. É o tipo dois da classificação de Kimball; o tipo um sobrescreve.
+
+Item dois. Na extração de um sistema transacional, obter os contratos e, meia hora depois, os pagamentos garante resultado consistente, desde que cada extração seja completa.
+
+Gabarito: errado. Podem surgir pagamentos sem contrato; as tabelas relacionadas são extraídas na mesma transação, com isolamento de instantâneo.
+
+Item três. No é éle tê, os dados brutos são carregados no destino e transformados nele, o que permite reaplicar uma regra corrigida sem nova extração da origem.
+
+Gabarito: certo. A transformação ocorre no destino, sobre o bruto guardado.
+
+Item quatro. O lago de dados caracteriza-se pelo esquema na escrita, em que o dado só é armazenado depois de ajustado ao modelo de destino.
+
+Gabarito: errado. O lago adota o esquema na leitura.
+
+Item cinco. Em janelas fixas de cinco minutos, um evento ocorrido perto da fronteira entre duas janelas é contado em ambas.
+
+Gabarito: errado. Janelas fixas não se sobrepõem; cada evento cai em exatamente uma.
+
+Item seis. Em carga incremental pela data de atualização, um registro alterado por transação longa, confirmada depois da extração, pode não ser carregado nem nessa execução nem na seguinte.
+
+Gabarito: certo. A data fica abaixo da marca seguinte; a defesa é a janela de sobreposição com carga idempotente.
+
+Item sete. Conforme a érre éfe cê quatro mil cento e oitenta, o campo de cê ésse vê que contém vírgula, aspas duplas ou quebra de linha deve estar entre aspas duplas, e as aspas internas são representadas duplicadas.
+
+Gabarito: certo. São as regras de delimitação e de escape do formato.
+
+Item oito. Todo documento xis ême éle bem formado é válido, pois a validade decorre do respeito às regras sintáticas da linguagem.
+
+Gabarito: errado. A sintaxe define o documento bem formado; válido é o que também obedece a um esquema.
+
+Item nove. Para assegurar a interoperabilidade, a chave de acesso da nota fiscal eletrônica, com quarenta e quatro dígitos, deve ser transmitida em djêisson como número, e não como texto.
+
+Gabarito: errado. A interoperabilidade de números só é garantida até dois elevado a cinquenta e três; valores maiores vão como texto.
+
+Item dez. Segundo a Lei Geral de Proteção de Dados, os dados devem ser mantidos em formato interoperável e estruturado para o uso compartilhado, com vistas, entre outras finalidades, à execução de políticas públicas e à prestação de serviços públicos.
+
+Gabarito: certo. Artigo vinte e cinco da Lei treze mil setecentos e nove, de dois mil e dezoito.
+
+Item onze. Na norma ízo í é cê vinte e cinco mil e doze, rastreabilidade é o grau em que o dado tem atributos que fornecem trilha de auditoria do acesso a ele e das alterações feitas nele.
+
+Gabarito: certo. É a definição da norma.
+
+Item doze. Se a quantidade de registros e a soma dos valores da origem coincidem com as do destino, fica comprovado que a carga não teve perdas nem duplicações.
+
+Gabarito: errado. Erros podem se compensar; a conciliação por registro aponta as diferenças.
+
+Item treze. No Sprín Bétch, uma instância do trabalho pode ter várias execuções e só é considerada concluída quando uma delas termina com sucesso.
+
+Gabarito: certo. Cada tentativa é uma execução da mesma instância.
+
+Item catorze. Por padrão, os parâmetros do trabalho no Sprín Bétch não contribuem para identificar a instância, salvo se marcados como identificadores.
+
+Gabarito: errado. Por padrão, são identificadores.
+
+Item quinze. Na etapa orientada a blocos, o processador que devolve nulo filtra o item, que não segue para a escrita e é contado separadamente dos itens saltados.
+
+Gabarito: certo. Filtro e salto têm contadores próprios.
+
+Item dezesseis. Na etapa orientada a blocos, o escritor é invocado uma vez para cada item processado, e a transação é confirmada a cada item.
+
+Gabarito: errado. O escritor recebe o bloco inteiro, e a confirmação é por bloco.
+
+Item dezessete. Configurado um limite de dez saltos, a etapa falha quando ocorre o décimo item descartado.
+
+Gabarito: errado. Falha no décimo primeiro.
+
+Item dezoito. Encerrado abruptamente o processo durante a execução, a execução permanece como iniciada no repositório e não pode ser reiniciada até ser recuperada ou ter a situação corrigida.
+
+Gabarito: certo. Na versão seis, o operador de trabalhos oferece o método de recuperação.
+
+Item dezenove. Depois de uma falha, lançar o trabalho com um incrementador de parâmetros retoma a mesma instância, sem reprocessar os itens já confirmados.
+
+Gabarito: errado. O incrementador cria instância nova, que processa desde o início.
+
+Item vinte. Na leitura paginada por deslocamento de registros filtrados por um indicador que a própria etapa atualiza, registros podem ser pulados, porque os já processados deixam o resultado da consulta.
+
+Gabarito: certo. A saída é paginar pela chave ou usar cursor.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto três ponto quatro, privacidade e segurança de dados.
