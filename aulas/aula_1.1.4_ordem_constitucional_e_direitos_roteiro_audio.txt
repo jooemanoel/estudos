@@ -1,0 +1,463 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.1.4 DO EDITAL: ORDEM CONSTITUCIONAL E DIREITOS.
+SUBITEM 1.1.4.1: Fundamentos e objetivos da República. Direitos fundamentais, sociais e políticos. Igualdade, devido processo e limites ao exercício do poder. Princípios da administração pública.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto um ponto quatro do edital da CGU, chamado ordem constitucional e direitos. Ele tem um único subitem, o um ponto um ponto quatro ponto um, com quatro grupos de temas.
+
+Primeiro grupo: fundamentos e objetivos da República.
+Segundo grupo: direitos fundamentais, sociais e políticos.
+Terceiro grupo: igualdade, devido processo e limites ao exercício do poder.
+Quarto grupo: princípios da administração pública.
+
+Vamos seguir essa ordem, em quatro blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
+
+Este é o item mais jurídico de toda a parte de Estado e democracia. Nas três aulas anteriores, a Constituição apareceu como apoio. Aqui, ela é o centro. Isso muda a forma de estudar. Neste item, a letra da Constituição importa muito, e a banca constrói pegadinhas trocando uma palavra, um verbo ou um item de uma lista. Por isso, vou citar muitos dispositivos e sugerir recursos de memorização. Depois da aula, vale ler no texto oficial do Planalto os artigos primeiro a quinto, sexto, quatorze a dezesseis e trinta e sete.
+
+Ao mesmo tempo, o edital não pediu um curso completo de direito constitucional. Repare na redação: igualdade, devido processo e limites ao exercício do poder. O foco é a Constituição como limite e como direção para quem exerce poder público. Para o auditor, isso é o dia a dia: todo ato de controle afeta alguém e precisa respeitar garantias. Guarde essa ideia, porque ela ajuda nas questões interpretativas.
+
+Um aviso sobre o comando das questões. Em direito constitucional, preste atenção em como o item começa. Se disser nos termos da Constituição ou segundo o texto constitucional, vale a letra do dispositivo. Se disser segundo o entendimento do Supremo Tribunal Federal, vale a jurisprudência, que às vezes amplia ou restringe a letra. Vou sinalizar os pontos em que isso faz diferença.
+
+
+BLOCO UM. FUNDAMENTOS E OBJETIVOS DA REPÚBLICA.
+
+O Título Um da Constituição, chamado dos princípios fundamentais, tem quatro artigos. O artigo primeiro traz os fundamentos. O artigo segundo, a separação dos Poderes. O artigo terceiro, os objetivos fundamentais. O artigo quarto, os princípios que regem as relações internacionais.
+
+O edital cita fundamentos e objetivos. Mas você precisa conhecer também o artigo quarto, porque a forma mais comum de construir um item errado é misturar as três listas.
+
+Comecemos pelo artigo primeiro.
+
+A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado democrático de direito e tem como fundamentos: a soberania; a cidadania; a dignidade da pessoa humana; os valores sociais do trabalho e da livre iniciativa; e o pluralismo político.
+
+São cinco fundamentos. Um recurso clássico de memorização é a palavra formada pelas sílabas iniciais: so, ci, di, va, plu. Soberania, cidadania, dignidade, valores, pluralismo.
+
+Os fundamentos são as bases, aquilo sobre o que o Estado brasileiro se assenta. Gramaticalmente, são substantivos.
+
+Detalhes que a banca explora.
+
+Primeiro: valores sociais do trabalho e da livre iniciativa. A expressão valores sociais se refere às duas coisas. Não é o valor social do trabalho de um lado e a livre iniciativa, pura e simples, de outro. A livre iniciativa também é protegida pelo seu valor social.
+
+Segundo: a dignidade da pessoa humana é fundamento da República. Ela é o valor central do sistema e orienta a interpretação de todos os direitos.
+
+Terceiro: pluralismo político não é pluripartidarismo, como vimos na primeira aula.
+
+Quarto: o caput do artigo primeiro condensa várias decisões de uma vez. República, que é a forma de governo. Federativa, que é a forma de Estado. União indissolúvel, que afasta a secessão. E Estado democrático de direito, que reúne duas ideias: o poder submetido à lei e a lei produzida democraticamente.
+
+Agora, o artigo terceiro.
+
+Constituem objetivos fundamentais da República Federativa do Brasil: construir uma sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; e promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação.
+
+São quatro objetivos. Todos começam com verbo no infinitivo: construir, garantir, erradicar e reduzir, promover. Um recurso de memorização é juntar as sílabas: con, ga, erra, pro.
+
+Os objetivos são metas, aquilo que o Estado brasileiro deve perseguir. Eles reconhecem que a realidade ainda não é a desejada e apontam uma direção.
+
+Então, a regra prática: fundamento é substantivo, objetivo é verbo. Mas cuidado. A banca conhece essa regra e às vezes transforma o verbo em substantivo. Escreve, por exemplo, que é fundamento da República a erradicação da pobreza. Virou substantivo, mas continua sendo objetivo. O que vale é o conteúdo, não a forma gramatical.
+
+Detalhes do artigo terceiro que rendem pegadinhas.
+
+Sociedade livre, justa e solidária. Três adjetivos. A banca troca por igualitária, fraterna ou pluralista.
+
+Garantir o desenvolvimento nacional. Não é desenvolvimento econômico, nem regional. É nacional.
+
+Erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais. Repare nos verbos. Erradicar vale para a pobreza e a marginalização. Para as desigualdades, o verbo é reduzir. A Constituição não fala em erradicar as desigualdades. Essa troca é uma das mais cobradas.
+
+Promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação. A lista termina com uma cláusula aberta. Portanto, ela é exemplificativa. Outras formas de discriminação, mesmo não mencionadas, estão vedadas.
+
+Qual é a força jurídica dos objetivos? Eles são normas de caráter programático, isto é, traçam programas a serem realizados. Mas isso não significa que sejam meros conselhos. Eles vinculam o legislador e o administrador, orientam a interpretação das leis e servem de fundamento para políticas públicas. O objetivo de reduzir desigualdades e o de promover o bem de todos sem discriminação são, por exemplo, bases constitucionais das ações afirmativas. Item que afirme que os objetivos fundamentais não têm força normativa está errado.
+
+Por fim, o artigo quarto, para você não ser enganado.
+
+A República rege-se nas suas relações internacionais pelos seguintes princípios: independência nacional; prevalência dos direitos humanos; autodeterminação dos povos; não intervenção; igualdade entre os Estados; defesa da paz; solução pacífica dos conflitos; repúdio ao terrorismo e ao racismo; cooperação entre os povos para o progresso da humanidade; e concessão de asilo político. O parágrafo único acrescenta que o Brasil buscará a integração econômica, política, social e cultural dos povos da América Latina.
+
+A troca mais perigosa é entre soberania e independência nacional. As ideias são parecidas, mas soberania é fundamento, do artigo primeiro, e independência nacional é princípio das relações internacionais, do artigo quarto. Outra troca comum: colocar a prevalência dos direitos humanos ou a defesa da paz na lista de fundamentos ou de objetivos.
+
+Resumo do bloco um. Fundamentos, artigo primeiro: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político. Objetivos, artigo terceiro: construir, garantir, erradicar e reduzir, promover. Princípios das relações internacionais, artigo quarto, em lista separada. A banca mistura as três.
+
+
+BLOCO DOIS. DIREITOS FUNDAMENTAIS, SOCIAIS E POLÍTICOS.
+
+Comecemos pela organização. O Título Dois da Constituição chama-se dos direitos e garantias fundamentais e tem cinco capítulos: direitos e deveres individuais e coletivos, no artigo quinto; direitos sociais, dos artigos sexto ao onze; nacionalidade; direitos políticos, dos artigos quatorze a dezesseis; e partidos políticos.
+
+Primeira conclusão: direitos fundamentais é o gênero. Direitos individuais, sociais e políticos são espécies. Quando o edital fala em direitos fundamentais, sociais e políticos, está destacando partes de um mesmo conjunto. Item que diga que os direitos sociais não são direitos fundamentais está errado.
+
+Segunda conclusão: direitos e garantias não são a mesma coisa. Os direitos declaram um bem protegido, como a liberdade de locomoção. As garantias são os instrumentos que asseguram os direitos, como o habeas corpus.
+
+Agora, a classificação em gerações ou dimensões, que cai com frequência.
+
+Primeira dimensão: direitos de liberdade. São os direitos civis e políticos, como vida, liberdade, propriedade, e o direito de votar. Surgem com as revoluções liberais. Em regra, exigem do Estado uma abstenção, um não fazer.
+
+Segunda dimensão: direitos de igualdade. São os direitos sociais, econômicos e culturais, como saúde, educação, trabalho e previdência. Surgem com o Estado social. Em regra, exigem do Estado uma prestação, um fazer.
+
+Terceira dimensão: direitos de fraternidade ou solidariedade. São direitos de titularidade difusa ou coletiva, como o meio ambiente equilibrado, a paz e o desenvolvimento.
+
+Para fixar, o lema da Revolução Francesa na ordem: liberdade, igualdade, fraternidade. Primeira, segunda, terceira.
+
+Pegadinhas. Primeira: os direitos políticos são de primeira dimensão, junto com os civis, e não de segunda. Segunda: as dimensões se acumulam, não se substituem. É por isso que boa parte da doutrina prefere a palavra dimensões à palavra gerações, que poderia sugerir que uma geração supera a anterior. Item que diga que os direitos de segunda dimensão substituíram os de primeira está errado.
+
+Uma observação fina, coerente com o espírito do edital. A divisão entre direitos que exigem abstenção e direitos que exigem prestação é uma simplificação útil, mas não absoluta. Todos os direitos têm custos e dependem de estrutura estatal. O direito de propriedade depende de polícia, de cartórios e de Judiciário. O direito de votar depende de uma Justiça Eleitoral. Isso se liga ao que vimos na aula passada: direitos dependem de capacidades estatais para sair do papel.
+
+Características dos direitos fundamentais que a banca lista: historicidade, porque resultam de conquistas históricas; universalidade; inalienabilidade; imprescritibilidade; irrenunciabilidade; e relatividade.
+
+A relatividade é a mais cobrada. Os direitos fundamentais não são absolutos. Eles podem entrar em conflito entre si, como a liberdade de expressão e a honra, e encontram limites em outros direitos e em interesses constitucionalmente protegidos. Nesses casos, faz-se uma ponderação à luz do caso concreto. Item que afirme que determinado direito fundamental é absoluto e não admite nenhuma restrição merece desconfiança. Mas restrição não é supressão: a limitação precisa ter base na Constituição, ser proporcional e preservar o núcleo essencial do direito.
+
+Agora, o artigo quinto.
+
+O caput diz que todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade.
+
+São cinco direitos básicos: vida, liberdade, igualdade, segurança e propriedade.
+
+Sobre a titularidade, aqui está um caso em que a letra e a jurisprudência se separam. O texto fala em brasileiros e estrangeiros residentes no País. Mas o entendimento do Supremo Tribunal Federal é mais amplo: os direitos fundamentais alcançam também os estrangeiros não residentes, como um turista, e, no que for compatível, as pessoas jurídicas. Se o item pedir a literalidade, vale o texto. Se pedir o entendimento do Supremo, vale a interpretação ampla.
+
+Os quatro parágrafos finais do artigo quinto são muito cobrados.
+
+Parágrafo primeiro: as normas definidoras dos direitos e garantias fundamentais têm aplicação imediata.
+
+Parágrafo segundo: os direitos e garantias expressos na Constituição não excluem outros decorrentes do regime e dos princípios por ela adotados, ou dos tratados internacionais de que o Brasil seja parte. É a cláusula de abertura. O rol do artigo quinto é exemplificativo, e há direitos fundamentais fora dele.
+
+Parágrafo terceiro: os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.
+
+Guarde os números: cada Casa, dois turnos, três quintos. É o mesmo rito das emendas. O exemplo mais conhecido é a Convenção sobre os Direitos das Pessoas com Deficiência. E os tratados de direitos humanos que não passaram por esse rito? Segundo o Supremo, têm posição supralegal: abaixo da Constituição, acima das leis.
+
+Pegadinhas do parágrafo terceiro. Dizer que todo tratado internacional equivale a emenda. Não: só os de direitos humanos, e só se aprovados pelo rito especial. Trocar três quintos por maioria absoluta ou por dois terços. Ou dizer que basta um turno.
+
+Parágrafo quarto: o Brasil se submete à jurisdição de Tribunal Penal Internacional a cuja criação tenha manifestado adesão.
+
+E lembre que os direitos e garantias individuais são cláusula pétrea. Não podem ser abolidos nem por emenda constitucional.
+
+Um conceito rápido: eficácia vertical e eficácia horizontal. Os direitos fundamentais nasceram para proteger o indivíduo contra o Estado. Essa é a eficácia vertical. Mas eles também se aplicam às relações entre particulares, como entre uma associação e os seus associados. Essa é a eficácia horizontal.
+
+Dentre as garantias, convém conhecer, em uma frase cada, os remédios constitucionais, porque vários são instrumentos de controle.
+
+Habeas corpus protege a liberdade de locomoção.
+
+Habeas data assegura o conhecimento e a retificação de informações relativas à pessoa do impetrante, constantes de registros de entidades governamentais ou de caráter público.
+
+Mandado de segurança protege direito líquido e certo não amparado por habeas corpus ou habeas data, contra ilegalidade ou abuso de poder de autoridade.
+
+Mandado de injunção cabe quando a falta de norma regulamentadora torna inviável o exercício de direitos e liberdades constitucionais.
+
+Ação popular pode ser proposta por qualquer cidadão para anular ato lesivo ao patrimônio público, à moralidade administrativa, ao meio ambiente e ao patrimônio histórico e cultural.
+
+Pegadinha da ação popular: o legitimado é o cidadão, isto é, quem está no gozo dos direitos políticos, o eleitor. Não é qualquer pessoa, nem pessoa jurídica. A ação popular é um instrumento de controle social, e por isso interessa ao seu concurso.
+
+Ainda no artigo quinto, dois direitos centrais para a transparência, que o edital retoma adiante. O direito de receber dos órgãos públicos informações de interesse particular, coletivo ou geral, ressalvadas aquelas cujo sigilo seja imprescindível à segurança da sociedade e do Estado. E o direito de petição aos poderes públicos, em defesa de direitos ou contra ilegalidade ou abuso de poder, independentemente do pagamento de taxas.
+
+Passemos aos direitos sociais.
+
+O artigo sexto diz: são direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o transporte, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância e a assistência aos desamparados.
+
+Três deles não estavam no texto original e foram incluídos por emendas: a moradia, no ano dois mil; a alimentação, em dois mil e dez; e o transporte, em dois mil e quinze. A banca gosta de perguntar exatamente por esses três.
+
+Há ainda um parágrafo único, incluído em dois mil e vinte e um: todo brasileiro em situação de vulnerabilidade social terá direito a uma renda básica familiar, garantida pelo poder público em programa permanente de transferência de renda, conforme a lei.
+
+Pegadinhas da lista. Incluir itens que não estão no artigo sexto, como propriedade, que é direito individual, ou meio ambiente, que tem artigo próprio em outra parte da Constituição. E a segurança, que aparece duas vezes: no caput do artigo quinto, como direito individual, e no artigo sexto, como direito social.
+
+Sobre a efetivação dos direitos sociais, três conceitos aparecem juntos.
+
+Reserva do possível: a ideia de que a realização de direitos que dependem de prestações está condicionada à disponibilidade de recursos.
+
+Mínimo existencial: o núcleo de condições materiais indispensáveis a uma vida digna, que o Estado não pode deixar de assegurar.
+
+Vedação do retrocesso: a ideia de que o nível de proteção social já alcançado não deve ser simplesmente suprimido sem medidas compensatórias.
+
+A relação que a banca espera: a reserva do possível é um argumento legítimo, mas não pode ser invocada de forma genérica para negar o mínimo existencial. Item que diga que a escassez de recursos autoriza o Estado a descumprir qualquer direito social, sem necessidade de justificativa, está errado. E item que diga que os direitos sociais são promessas sem exigibilidade também está errado.
+
+Agora, os direitos políticos.
+
+São os direitos de participar da formação da vontade do Estado. A capacidade eleitoral ativa é o direito de votar. A capacidade eleitoral passiva é o direito de ser votado.
+
+Da aula sobre democracia, você já sabe: voto direto, secreto, com valor igual para todos; plebiscito, referendo e iniciativa popular.
+
+Alistamento e voto. São obrigatórios para os maiores de dezoito anos. São facultativos para os analfabetos, para os maiores de setenta anos e para os maiores de dezesseis e menores de dezoito. E não podem se alistar os estrangeiros e, durante o serviço militar obrigatório, os conscritos. Esses são os inalistáveis.
+
+Condições de elegibilidade: nacionalidade brasileira, pleno exercício dos direitos políticos, alistamento eleitoral, domicílio eleitoral na circunscrição, filiação partidária e idade mínima.
+
+As idades mínimas: trinta e cinco anos para Presidente, Vice-Presidente e senador. Trinta anos para governador e vice-governador. Vinte e um anos para deputado federal, deputado estadual ou distrital, prefeito, vice-prefeito e juiz de paz. Dezoito anos para vereador.
+
+Para fixar a sequência: trinta e cinco, trinta, vinte e um, dezoito. Pegadinhas: prefeito com trinta anos, por analogia com governador. Errado, prefeito é vinte e um. E senador com trinta. Errado, senador é trinta e cinco, como o Presidente.
+
+Inelegibilidade. São inelegíveis os inalistáveis e os analfabetos.
+
+Aqui está uma das pegadinhas mais clássicas do tema. O analfabeto pode votar, pois o seu alistamento é facultativo. Mas não pode ser votado, pois é inelegível. Tem capacidade eleitoral ativa, mas não passiva.
+
+Outras regras úteis. O Presidente, os governadores e os prefeitos podem ser reeleitos para um único período subsequente. Para concorrerem a outros cargos, devem renunciar aos respectivos mandatos até seis meses antes do pleito. E lei complementar pode estabelecer outros casos de inelegibilidade, a fim de proteger a probidade administrativa e a moralidade para o exercício do mandato. É a base constitucional da chamada Lei da Ficha Limpa. Note a ligação com o tema da integridade.
+
+O artigo quinze é muito cobrado. Ele diz que é vedada a cassação de direitos políticos, cuja perda ou suspensão só se dará em cinco casos: cancelamento da naturalização por sentença transitada em julgado; incapacidade civil absoluta; condenação criminal transitada em julgado, enquanto durarem os seus efeitos; recusa de cumprir obrigação a todos imposta ou prestação alternativa; e improbidade administrativa.
+
+Três palavras, três situações. Cassação é a retirada arbitrária, por ato político, e é vedada. Perda e suspensão são admitidas, apenas nas hipóteses previstas na Constituição. Item que fale em cassação de direitos políticos como sanção possível está errado, qualquer que seja o motivo indicado.
+
+E o artigo dezesseis, o princípio da anualidade eleitoral: a lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência. A pegadinha está na diferença entre vigência e aplicação. A lei entra em vigor imediatamente. O que fica adiado é a sua aplicação. A finalidade é impedir mudanças casuísticas das regras do jogo às vésperas da eleição.
+
+Resumo do bloco dois. Direitos fundamentais são o gênero. As dimensões são liberdade, igualdade e fraternidade, e se acumulam. Nenhum direito é absoluto. As normas de direitos fundamentais têm aplicação imediata, o rol é aberto, e tratados de direitos humanos aprovados por três quintos, em dois turnos, em cada Casa, equivalem a emendas. Direitos sociais estão no artigo sexto. Direitos políticos: o analfabeto vota, mas não é elegível, e a cassação é vedada.
+
+
+BLOCO TRÊS. IGUALDADE, DEVIDO PROCESSO E LIMITES AO EXERCÍCIO DO PODER.
+
+Este bloco é o coração do item para quem vai trabalhar com controle.
+
+Comecemos pela igualdade.
+
+O caput do artigo quinto diz que todos são iguais perante a lei, sem distinção de qualquer natureza. E o inciso um acrescenta que homens e mulheres são iguais em direitos e obrigações, nos termos da Constituição.
+
+A doutrina distingue duas dimensões.
+
+Igualdade formal é a igualdade perante a lei. A lei se aplica a todos da mesma forma, sem privilégios nem perseguições.
+
+Igualdade material, ou substancial, é a igualdade de fato, nas condições reais de vida. Ela parte da constatação de que tratar igualmente pessoas em situações muito desiguais pode perpetuar a desigualdade. Daí a fórmula clássica: tratar igualmente os iguais e desigualmente os desiguais, na medida da sua desigualdade.
+
+A Constituição adota as duas. A formal está no caput do artigo quinto. A material aparece nos objetivos do artigo terceiro e em vários dispositivos que determinam tratamento diferenciado, como a proteção do mercado de trabalho da mulher e a reserva de vagas em concursos para pessoas com deficiência.
+
+Consequência importante: nem todo tratamento diferenciado viola a igualdade. O que a Constituição proíbe é a discriminação arbitrária, sem justificativa razoável. Uma diferenciação é legítima quando existe uma relação lógica entre o critério adotado e a finalidade buscada, e quando essa finalidade é compatível com a Constituição.
+
+O exemplo que mais cai são as ações afirmativas: medidas temporárias que dão tratamento favorecido a grupos historicamente discriminados, para corrigir desigualdades. O Supremo Tribunal Federal já considerou constitucionais as cotas raciais em universidades públicas e em concursos públicos. Elas realizam a igualdade material e os objetivos do artigo terceiro.
+
+Pegadinhas sobre a igualdade. Dizer que a Constituição adota apenas a igualdade formal. Dizer que qualquer distinção feita pela lei é inconstitucional. Ou dizer que as ações afirmativas violam o princípio da igualdade. As três estão erradas.
+
+Outro exemplo de concursos: o limite de idade para inscrição em concurso público só é legítimo quando puder ser justificado pela natureza das atribuições do cargo. É a mesma lógica: a diferenciação precisa de uma razão ligada à finalidade.
+
+Mais um conceito útil para o edital, que fala adiante em discriminação e em barreiras: a discriminação pode ser direta, quando a regra trata abertamente um grupo de modo pior, ou indireta, quando uma regra aparentemente neutra produz, na prática, efeito desproporcional sobre um grupo. Um serviço público acessível apenas por um aplicativo, por exemplo, não menciona ninguém, mas pode excluir desproporcionalmente pessoas idosas ou sem acesso à internet.
+
+Na administração pública, a igualdade se projeta no princípio da impessoalidade, no concurso público e na licitação, que veremos no próximo bloco.
+
+Agora, o devido processo legal.
+
+O inciso cinquenta e quatro do artigo quinto diz que ninguém será privado da liberdade ou de seus bens sem o devido processo legal.
+
+Esse princípio tem dois sentidos.
+
+No sentido formal ou procedimental, significa que qualquer restrição a direitos deve seguir um procedimento regular, previsto em lei, com as garantias próprias: ser informado da acusação, poder se defender, ser julgado por autoridade competente e imparcial, receber uma decisão fundamentada.
+
+No sentido material ou substantivo, significa que o próprio conteúdo das leis e dos atos do poder público deve ser razoável e proporcional. Não basta seguir o rito. A medida não pode ser arbitrária ou excessiva. É daí que a doutrina e o Supremo extraem os princípios da razoabilidade e da proporcionalidade.
+
+Do devido processo decorrem outras garantias, que você deve reconhecer.
+
+Contraditório e ampla defesa. O inciso cinquenta e cinco diz que aos litigantes, em processo judicial ou administrativo, e aos acusados em geral são assegurados o contraditório e a ampla defesa, com os meios e recursos a ela inerentes. Contraditório é o direito de ser informado e de reagir, de influenciar a decisão. Ampla defesa é o direito de usar todos os meios lícitos para se defender.
+
+O destaque para a prova e para a sua carreira: em processo judicial ou administrativo. As garantias valem também na esfera administrativa. Um processo disciplinar contra um servidor, um processo de responsabilização de uma empresa, a aplicação de uma multa, todos exigem contraditório e ampla defesa. Item que restrinja essas garantias ao processo judicial está errado.
+
+Provas ilícitas. São inadmissíveis, no processo, as provas obtidas por meios ilícitos.
+
+Presunção de inocência. Ninguém será considerado culpado até o trânsito em julgado de sentença penal condenatória.
+
+Juiz natural. Ninguém será processado nem sentenciado senão pela autoridade competente, e não haverá juízo ou tribunal de exceção.
+
+Inafastabilidade da jurisdição. A lei não excluirá da apreciação do Poder Judiciário lesão ou ameaça a direito.
+
+Razoável duração do processo. A todos, no âmbito judicial e administrativo, são assegurados a razoável duração do processo e os meios que garantam a celeridade de sua tramitação. De novo: judicial e administrativo.
+
+Alguns entendimentos do Supremo sobre o processo administrativo são cobrados com frequência. A falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição. Ou seja, o servidor pode se defender pessoalmente. E é inconstitucional exigir depósito ou arrolamento prévio de dinheiro ou bens como condição para admitir recurso administrativo.
+
+Uma distinção que o edital valoriza em vários itens, e que nasce aqui: investigar não é o mesmo que punir. Em um procedimento apenas investigativo, que serve para apurar se há indícios, ainda não há acusado nem sanção, e o contraditório não se aplica com a mesma intensidade. Já no processo sancionador, em que alguém pode sofrer uma penalidade, o contraditório e a ampla defesa são obrigatórios. Um relatório de auditoria aponta achados e recomendações. Ele não é, por si, uma condenação. A eventual punição depende de processo próprio, com defesa.
+
+Agora, os limites ao exercício do poder.
+
+Esta expressão do edital amarra tudo o que vimos nas quatro aulas. No Estado democrático de direito, quem exerce poder público só pode fazê-lo dentro de limites. Vamos organizá-los.
+
+Primeiro limite: a legalidade. O inciso dois do artigo quinto diz que ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei.
+
+Esse princípio tem dois lados, e a diferença é uma das pegadinhas mais cobradas do direito público. Para o particular, vigora a liberdade: ele pode fazer tudo o que a lei não proíbe. Para a administração pública, vigora a legalidade em sentido estrito: ela só pode fazer o que a lei autoriza ou determina. Item que diga que o administrador público pode fazer tudo o que a lei não proíbe está errado. Essa é a regra do particular.
+
+Segundo limite: os direitos fundamentais. Eles funcionam como barreiras ao Estado. Algumas dessas barreiras exigem ordem judicial, o que a doutrina chama de reserva de jurisdição. A casa é asilo inviolável do indivíduo: ninguém pode nela penetrar sem consentimento do morador, salvo em caso de flagrante delito ou desastre, ou para prestar socorro, ou, durante o dia, por determinação judicial. E a interceptação de comunicações telefônicas depende de ordem judicial, para fins de investigação criminal ou instrução processual penal. Nem autoridade administrativa, nem comissão parlamentar de inquérito pode determinar essas medidas.
+
+Terceiro limite: a separação dos Poderes e os controles recíprocos, que estudamos na aula de democracia.
+
+Quarto limite: a proporcionalidade. Uma medida restritiva de direitos precisa passar por três testes. Adequação: a medida é apta a atingir o fim? Necessidade: não há meio menos gravoso igualmente eficaz? Proporcionalidade em sentido estrito: o benefício compensa o sacrifício imposto?
+
+Quinto limite: a segurança jurídica. A lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada. O poder público não pode mudar as regras retroativamente para atingir situações consolidadas.
+
+Sexto limite: a motivação e o controle. As decisões devem ser fundamentadas, e podem ser revistas. E o Estado responde pelos danos que os seus agentes causarem.
+
+Sétimo limite: as cláusulas pétreas, que limitam até o poder de emendar a Constituição. Não será objeto de deliberação a proposta de emenda tendente a abolir a forma federativa de Estado; o voto direto, secreto, universal e periódico; a separação dos Poderes; e os direitos e garantias individuais.
+
+Por fim, o conceito que nomeia a violação desses limites: o abuso de poder. Ele tem duas formas. No excesso de poder, o agente atua fora dos limites da sua competência. No desvio de poder, ou desvio de finalidade, o agente atua dentro da sua competência, mas para alcançar um fim diferente do previsto em lei, por exemplo, remover um servidor para puni-lo, quando a remoção serve para atender à necessidade do serviço. Pegadinha: inverter as duas definições.
+
+Resumo do bloco três. A Constituição consagra a igualdade formal e a material, e admite tratamento diferenciado justificado, como as ações afirmativas. O devido processo legal tem sentido formal e material, e o contraditório e a ampla defesa valem no processo judicial e no administrativo. E o poder público é limitado pela legalidade, pelos direitos fundamentais, pela proporcionalidade, pela segurança jurídica e pelos controles.
+
+
+BLOCO QUATRO. PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA.
+
+O ponto de partida é o caput do artigo trinta e sete: a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência.
+
+São cinco princípios expressos. O recurso de memorização é a palavra formada pelas iniciais: ele, i, eme, pê, e. Legalidade, impessoalidade, moralidade, publicidade, eficiência.
+
+Repare no alcance: administração direta e indireta, de qualquer dos Poderes, de todos os entes. Os princípios valem para um ministério, para uma autarquia, para uma empresa estatal, para o setor administrativo de um tribunal e para uma prefeitura.
+
+Vamos a cada um.
+
+Legalidade. Como acabamos de ver, a administração só pode agir conforme a lei. A doutrina mais recente fala em juridicidade: a administração se submete não só à lei em sentido estrito, mas ao direito como um todo, incluindo a Constituição e os seus princípios. A lei do processo administrativo federal traduz isso ao falar em atuação conforme a lei e o direito.
+
+Impessoalidade. Tem pelo menos três sentidos, e a banca cobra todos.
+
+No primeiro sentido, impessoalidade é finalidade pública: o administrador deve buscar o interesse público, e não o próprio ou o de terceiros.
+
+No segundo sentido, é isonomia: a administração deve tratar todos os administrados sem favoritismos nem perseguições. O concurso público e a licitação são aplicações diretas.
+
+No terceiro sentido, é a vedação de promoção pessoal. Os atos são da administração, e não do agente que os pratica. O parágrafo primeiro do artigo trinta e sete determina que a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, dela não podendo constar nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores públicos.
+
+Pegadinha: esse parágrafo primeiro fala em publicidade, mas o princípio que ele protege é o da impessoalidade. Uma placa de obra com o nome e a foto do prefeito viola a impessoalidade.
+
+Moralidade. Exige que a administração atue segundo padrões éticos de probidade, honestidade, lealdade e boa-fé. O ponto central para a prova: a moralidade é um princípio autônomo em relação à legalidade. Um ato pode obedecer formalmente à lei e, ainda assim, ser inválido por ofender a moralidade.
+
+O exemplo clássico é o nepotismo. O Supremo editou súmula vinculante proibindo a nomeação de cônjuge, companheiro ou parente até o terceiro grau, inclusive, da autoridade nomeante ou de servidor investido em cargo de direção, chefia ou assessoramento, para cargo em comissão ou função de confiança, incluindo as designações recíprocas, o chamado nepotismo cruzado. E entendeu que essa vedação decorre diretamente dos princípios constitucionais, sem necessidade de lei específica. Pegadinhas: trocar terceiro grau por segundo grau, ou dizer que a vedação depende de lei formal.
+
+A face mais grave da violação da moralidade é a improbidade administrativa. O parágrafo quarto do artigo trinta e sete diz que os atos de improbidade administrativa importarão a suspensão dos direitos políticos, a perda da função pública, a indisponibilidade dos bens e o ressarcimento ao erário, na forma e gradação previstas em lei, sem prejuízo da ação penal cabível.
+
+São quatro consequências. Memorize com cuidado os substantivos, porque a banca os troca. Suspensão dos direitos políticos, e não perda nem cassação. Perda da função pública, e não suspensão. Indisponibilidade dos bens, e não perda nem confisco. Ressarcimento ao erário. E a parte final: sem prejuízo da ação penal. Isso mostra que a improbidade não tem natureza penal, e que as esferas de responsabilização são independentes.
+
+Publicidade. É o dever de transparência. Os atos da administração devem ser divulgados, para que produzam efeitos e para que possam ser controlados. A publicidade é a regra, e o sigilo é a exceção. As exceções têm base na própria Constituição: as informações cujo sigilo seja imprescindível à segurança da sociedade e do Estado, e a proteção da intimidade e da vida privada.
+
+Dois detalhes. Publicidade não é sinônimo de publicação em diário oficial. Publicação é uma das formas de dar publicidade. E a publicidade, em regra, é condição de eficácia do ato, isto é, de produção de efeitos, e não um elemento da sua formação.
+
+Pegadinha: afirmar que a publicidade é absoluta e não admite exceções. Errado. Ou o contrário: afirmar que a administração pode manter sigilo sempre que julgar conveniente. Também errado. O sigilo precisa de fundamento.
+
+Eficiência. Exige que a administração atue com presteza, qualidade e rendimento, buscando os melhores resultados com os recursos disponíveis.
+
+O detalhe histórico é dos mais cobrados: a eficiência não estava no texto original de mil novecentos e oitenta e oito. Foi incluída no caput do artigo trinta e sete pela Emenda Constitucional dezenove, de mil novecentos e noventa e oito, a emenda da reforma administrativa. Os outros quatro são originais.
+
+E o limite: a eficiência não se sobrepõe à legalidade. O administrador não pode descumprir a lei a pretexto de ser mais eficiente. Os princípios se harmonizam.
+
+Além dos cinco expressos no caput, há os princípios implícitos, ou reconhecidos, que não estão nessa lista, mas decorrem do sistema constitucional. Os principais: supremacia do interesse público sobre o privado; indisponibilidade do interesse público; razoabilidade; proporcionalidade; motivação; segurança jurídica; continuidade do serviço público; e autotutela.
+
+A autotutela merece uma frase. É o poder-dever que a administração tem de rever os seus próprios atos: anular os ilegais e revogar os inconvenientes ou inoportunos, respeitados os direitos adquiridos e ressalvada a apreciação judicial. Anula-se por ilegalidade. Revoga-se por conveniência e oportunidade. A banca inverte.
+
+A pegadinha geral dos implícitos: a banca pergunta se determinado princípio está expresso no caput do artigo trinta e sete. Razoabilidade, proporcionalidade, motivação e segurança jurídica não estão. Mas atenção ao que vimos na primeira aula: vários deles estão expressos na lei do processo administrativo federal. Então, a resposta depende de onde. No caput do artigo trinta e sete, só os cinco.
+
+Mais três regras do artigo trinta e sete que funcionam como limites ao poder e conversam com o controle.
+
+O concurso público. A investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração. É a impessoalidade e a igualdade aplicadas ao acesso aos cargos, e é o oposto do patrimonialismo.
+
+A licitação. Ressalvados os casos especificados na legislação, as obras, serviços, compras e alienações serão contratados mediante processo de licitação pública que assegure igualdade de condições a todos os concorrentes.
+
+A responsabilidade civil do Estado. O parágrafo sexto diz que as pessoas jurídicas de direito público e as de direito privado prestadoras de serviços públicos responderão pelos danos que seus agentes, nessa qualidade, causarem a terceiros, assegurado o direito de regresso contra o responsável nos casos de dolo ou culpa. A responsabilidade do Estado perante a vítima é objetiva, isto é, não depende de prova de culpa. Já a responsabilidade do agente, na ação de regresso, é subjetiva, depende de dolo ou culpa. Pegadinha: dizer que o agente responde objetivamente, ou que a regra não alcança as empresas privadas que prestam serviço público.
+
+Para fechar, a ideia que o edital desenvolve no item seguinte, sobre valor público e controle. Os princípios podem entrar em tensão. Eficiência com legalidade, quando o caminho mais rápido não é o previsto. Publicidade com proteção da intimidade, quando divulgar expõe dados pessoais. A solução não é escolher um princípio e eliminar o outro, mas ponderá-los no caso concreto. Item que afirme hierarquia rígida entre os princípios do artigo trinta e sete tende a estar errado.
+
+Resumo do bloco quatro. Princípios expressos no caput do artigo trinta e sete: legalidade, impessoalidade, moralidade, publicidade e eficiência, esta última incluída pela Emenda dezenove. A moralidade é autônoma em relação à legalidade. A improbidade gera suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário. A publicidade é regra, com exceções. E há princípios implícitos, como razoabilidade, proporcionalidade, motivação e autotutela.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Primeira estratégia: mistura de listas. Fundamentos com objetivos e com princípios das relações internacionais. Direitos sociais com direitos individuais. Princípios expressos do artigo trinta e sete com princípios implícitos.
+
+Segunda estratégia: troca de uma palavra. Erradicar no lugar de reduzir as desigualdades. Desenvolvimento econômico no lugar de nacional. Cassação ou perda no lugar de suspensão dos direitos políticos. Suspensão no lugar de perda da função pública. Revogar no lugar de anular.
+
+Terceira estratégia: troca de números. Três quintos em dois turnos. Idades mínimas de trinta e cinco, trinta, vinte e um e dezoito. Parentesco até o terceiro grau. Um ano na anualidade eleitoral.
+
+Quarta estratégia: letra da Constituição contra jurisprudência. Leia o comando. Segundo o texto constitucional, ou segundo o Supremo.
+
+Quinta estratégia: restrição indevida de garantias. Contraditório só no processo judicial. Direitos fundamentais só para brasileiros. Princípios do artigo trinta e sete só para o Executivo ou só para a administração direta.
+
+Sexta estratégia: afirmações absolutas. Direito absoluto. Publicidade sem exceções. Igualdade que proíbe qualquer diferenciação. Eficiência acima da legalidade.
+
+Sétima estratégia: situação hipotética que pede o princípio violado. Nome de autoridade em propaganda oficial: impessoalidade. Nomeação de parente para cargo em comissão: moralidade e impessoalidade. Punição sem oportunidade de defesa: devido processo, contraditório e ampla defesa. Ato praticado com finalidade diversa da prevista em lei: desvio de finalidade.
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+Constituem fundamentos da República Federativa do Brasil, nos termos da Constituição Federal, a soberania, a cidadania, a dignidade da pessoa humana, a independência nacional e o pluralismo político.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: independência nacional é princípio das relações internacionais, do artigo quarto. O fundamento que falta na lista é o dos valores sociais do trabalho e da livre iniciativa. É a típica mistura de listas.
+
+Questão dois.
+O objetivo fundamental de erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais, embora tenha caráter programático, possui força normativa, orienta a atuação do legislador e do administrador e pode servir de fundamento a políticas de ação afirmativa.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: os objetivos do artigo terceiro são normas que vinculam os poderes públicos e orientam a interpretação. Repare também na redação correta dos verbos: erradicar a pobreza e a marginalização, reduzir as desigualdades.
+
+Questão três.
+Os direitos sociais, classificados como direitos de segunda dimensão, caracterizam-se por exigir prestações do Estado e, por corresponderem a estágio mais avançado de proteção, substituíram os direitos de primeira dimensão no constitucionalismo contemporâneo.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a primeira parte está correta. O erro está no final: as dimensões de direitos se acumulam e se complementam, não se substituem. É o item longo com o erro na conclusão.
+
+Questão quatro.
+Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o parágrafo terceiro do artigo quinto. Guarde os três elementos: cada Casa, dois turnos, três quintos. Os tratados de direitos humanos aprovados sem esse rito têm posição supralegal, segundo o Supremo Tribunal Federal.
+
+Questão cinco.
+A moradia, a alimentação e o transporte integram o rol de direitos sociais previsto na Constituição Federal, tendo sido nele incluídos por emendas constitucionais.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: os três estão no artigo sexto e foram acrescentados por emendas, nos anos dois mil, dois mil e dez e dois mil e quinze, respectivamente.
+
+Questão seis.
+De acordo com a Constituição Federal, o alistamento eleitoral e o voto são facultativos para os analfabetos, os quais, contudo, são inelegíveis.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: o analfabeto pode votar, se quiser, mas não pode ser votado. Tem capacidade eleitoral ativa, mas não passiva. São inelegíveis os inalistáveis e os analfabetos.
+
+Questão sete.
+A condenação por ato de improbidade administrativa pode acarretar, entre outras consequências previstas na Constituição Federal, a cassação dos direitos políticos do agente público.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a Constituição veda a cassação de direitos políticos. A improbidade administrativa importa a suspensão dos direitos políticos, além da perda da função pública, da indisponibilidade dos bens e do ressarcimento ao erário.
+
+Questão oito.
+Por estabelecerem tratamento diferenciado entre candidatos, as políticas de reserva de vagas em concursos públicos para grupos historicamente discriminados são incompatíveis com o princípio da igualdade, que veda distinções de qualquer natureza.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a Constituição consagra também a igualdade material, que admite tratamento diferenciado quando há justificativa razoável e finalidade constitucional. O Supremo Tribunal Federal considerou constitucionais as cotas em concursos públicos.
+
+Questão nove.
+As garantias do contraditório e da ampla defesa aplicam-se aos processos administrativos, de modo que a imposição de penalidade a servidor público sem que lhe tenha sido dada oportunidade de se manifestar sobre os fatos que lhe são imputados viola o devido processo legal.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a Constituição assegura contraditório e ampla defesa aos litigantes em processo judicial ou administrativo e aos acusados em geral. Sanção administrativa exige processo com defesa.
+
+Questão dez.
+Em decorrência do princípio da legalidade, ao administrador público é permitido fazer tudo aquilo que a lei não proíbe.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: essa é a regra do particular. A administração pública só pode fazer o que a lei autoriza ou determina. É a diferença entre a legalidade para o indivíduo e a legalidade para a administração.
+
+Questão onze.
+São princípios expressos no caput do artigo trinta e sete da Constituição Federal a legalidade, a impessoalidade, a moralidade, a publicidade, a eficiência e a razoabilidade.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o caput traz apenas cinco princípios: legalidade, impessoalidade, moralidade, publicidade e eficiência. A razoabilidade é princípio implícito na Constituição, embora esteja expressa na lei do processo administrativo federal.
+
+Questão doze.
+A veiculação, em campanha publicitária de órgão público sobre obra recém-inaugurada, do nome e da imagem do chefe do Poder Executivo, de modo a caracterizar sua promoção pessoal, viola o princípio da impessoalidade.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: o parágrafo primeiro do artigo trinta e sete exige que a publicidade oficial tenha caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal. O dispositivo fala em publicidade, mas o princípio protegido é a impessoalidade.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Fundamentos: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.
+
+Objetivos: construir uma sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e a marginalização e reduzir as desigualdades; promover o bem de todos, sem discriminação.
+
+Independência nacional é princípio das relações internacionais.
+
+Direitos fundamentais são o gênero. Dimensões: liberdade, igualdade, fraternidade, e elas se acumulam. Nenhum direito é absoluto.
+
+Aplicação imediata. Rol aberto. Tratados de direitos humanos por três quintos, em dois turnos, em cada Casa, equivalem a emendas.
+
+Direitos sociais no artigo sexto. Moradia, alimentação e transporte vieram por emendas.
+
+Direitos políticos: o analfabeto vota, mas é inelegível. Idades: trinta e cinco, trinta, vinte e um, dezoito. Cassação é vedada. Lei eleitoral vigora na publicação, mas não se aplica à eleição que ocorra em até um ano.
+
+Igualdade formal e material. Tratamento diferenciado justificado é legítimo.
+
+Devido processo formal e material. Contraditório e ampla defesa no processo judicial e no administrativo. Investigar não é punir.
+
+O particular pode fazer o que a lei não proíbe. A administração só pode fazer o que a lei autoriza.
+
+Abuso de poder: excesso é fora da competência; desvio é fora da finalidade.
+
+Artigo trinta e sete: legalidade, impessoalidade, moralidade, publicidade e eficiência, esta pela Emenda dezenove. Improbidade: suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário.
+
+Anula-se o ato ilegal. Revoga-se o ato inconveniente.
+
+Fim da aula do item um ponto um ponto quatro. Na sequência do edital, o próximo é o item um ponto um ponto cinco, valor público e controle. Bons estudos.

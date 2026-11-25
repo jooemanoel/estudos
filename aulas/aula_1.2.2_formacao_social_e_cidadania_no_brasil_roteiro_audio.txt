@@ -1,0 +1,350 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.2.2 DO EDITAL: FORMAÇÃO SOCIAL E CIDADANIA NO BRASIL.
+SUBITEM 1.2.2.1: Heranças da escravidão, hierarquias sociais e construção da cidadania; transformações nas relações entre Estado e sociedade; mecanismos de inclusão e exclusão institucional.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto dois ponto dois do edital da CGU, chamado formação social e cidadania no Brasil. Ele tem um único subitem, o um ponto dois ponto dois ponto um, com três grupos de temas.
+
+Primeiro grupo: heranças da escravidão, hierarquias sociais e construção da cidadania.
+Segundo grupo: transformações nas relações entre Estado e sociedade.
+Terceiro grupo: mecanismos de inclusão e exclusão institucional.
+
+Para fins didáticos, vamos dividir o primeiro grupo em dois blocos, porque ele é muito denso. Ficam, então, quatro blocos. Bloco um: as heranças da escravidão. Bloco dois: hierarquias sociais e as grandes interpretações do Brasil. Bloco três: a construção da cidadania e as transformações nas relações entre Estado e sociedade. Bloco quatro: mecanismos de inclusão e exclusão institucional. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
+
+Na aula anterior, você aprendeu as ferramentas gerais da sociologia: instituições, socialização, estratificação, mobilidade, discriminação e reprodução das desigualdades. Agora vamos aplicá-las à história brasileira. A pergunta central desta aula é: por que, em um país que proclama a igualdade de todos perante a lei, o acesso efetivo aos direitos continua tão desigual? A resposta passa pela forma como a sociedade brasileira se formou, pela maneira como os direitos foram conquistados ou concedidos, e pelos mecanismos institucionais que incluem uns e excluem outros.
+
+Para o auditor, este item tem uma utilidade prática direta. Quando a CGU avalia uma política pública, ela precisa perguntar quem está sendo alcançado e quem está ficando de fora. E muitos dos mecanismos de exclusão que vamos estudar hoje continuam operando nos serviços públicos: exigências documentais, barreiras de acesso, critérios de elegibilidade e desenho de sistemas.
+
+Os autores de referência são os grandes intérpretes do Brasil, como Gilberto Freyre, Sérgio Buarque de Holanda, Raymundo Faoro, Victor Nunes Leal e Florestan Fernandes; e os estudiosos da cidadania, como o britânico Thomas Humphrey Marshall, José Murilo de Carvalho, Wanderley Guilherme dos Santos e Roberto DaMatta. Na parte histórica, as leis do processo abolicionista e as constituições brasileiras. Como sempre, confira os dispositivos legais no texto oficial do Planalto.
+
+Uma orientação de estratégia. Este item mistura história, sociologia e ciência política. A Cebraspe tende a cobrar três tipos de coisa: a cronologia correta, com datas e leis; a atribuição correta das teses aos autores; e a interpretação, por exemplo, reconhecendo que a abolição formal não significou integração, ou que a existência de um direito na lei não garante o seu acesso. Desconfie de itens que apresentem a história brasileira como uma linha reta de progresso, ou que neguem qualquer avanço.
+
+
+BLOCO UM. AS HERANÇAS DA ESCRAVIDÃO.
+
+Comecemos pelos fatos, porque a dimensão da escravidão no Brasil é parte essencial da explicação.
+
+A escravidão de africanos e de seus descendentes vigorou no território brasileiro por mais de três séculos, desde o período colonial até mil oitocentos e oitenta e oito. O Brasil foi o destino de cerca de quarenta por cento, ou um pouco mais, de todos os africanos escravizados trazidos para as Américas, o que corresponde a mais de quatro milhões de pessoas. Foi o maior destino individual do tráfico atlântico. E foi o último país das Américas a abolir a escravidão.
+
+A escravidão não se restringia a uma região ou atividade. Estava presente na lavoura de açúcar, na mineração, na cafeicultura, nos serviços urbanos e domésticos. E era amplamente disseminada: não apenas os grandes senhores, mas também pequenos proprietários possuíam escravizados. Isso significa que a escravidão moldou o conjunto das relações sociais, e não apenas a economia.
+
+Agora, o processo de abolição, que foi lento e gradual. As leis que você deve conhecer, em ordem.
+
+Mil oitocentos e cinquenta: a Lei Eusébio de Queirós proibiu o tráfico de escravizados para o Brasil. Já havia uma lei de mil oitocentos e trinta e um que proibia o tráfico, mas ela não foi cumprida, e daí vem a expressão para inglês ver. A lei de mil oitocentos e cinquenta foi efetivamente aplicada, em grande parte sob pressão da Inglaterra.
+
+Mil oitocentos e setenta e um: a Lei do Ventre Livre, também chamada de Lei Rio Branco, declarou livres os filhos de mulheres escravizadas nascidos a partir daquela data. Mas a liberdade não era imediata na prática: as crianças permaneciam sob a autoridade dos senhores, que podiam utilizar os seus serviços até certa idade ou entregá-las ao Estado mediante indenização.
+
+Mil oitocentos e oitenta e cinco: a Lei dos Sexagenários, também chamada de Lei Saraiva-Cotegipe, libertou os escravizados idosos, mas com condições que reduziam muito o seu alcance, como a obrigação de continuar prestando serviços por um período, a título de indenização ao senhor. Como poucos escravizados chegavam a essa idade, o efeito foi limitado.
+
+Mil oitocentos e oitenta e oito: a Lei Áurea, de treze de maio, extinguiu a escravidão no Brasil. É uma lei de apenas dois artigos: declara extinta a escravidão e revoga as disposições em contrário.
+
+Um alerta que os historiadores fazem e que pode aparecer em itens interpretativos: a abolição não foi apenas um ato concedido de cima para baixo. Ela resultou também da luta dos próprios escravizados, com fugas em massa, formação de quilombos, compra de alforrias e ações na Justiça, e da atuação do movimento abolicionista, que reunia figuras como Luís Gama, André Rebouças, José do Patrocínio e Joaquim Nabuco. Item que atribua a abolição exclusivamente à iniciativa da Coroa tende a estar incompleto ou errado.
+
+Agora, um dado essencial que se liga às leis de mil oitocentos e cinquenta: a Lei de Terras, do mesmo ano. Ela estabeleceu que as terras devolutas, isto é, as terras públicas sem destinação, só poderiam ser adquiridas por meio de compra. Ou seja, a terra passou a ser uma mercadoria com preço, e não algo que se obtinha pela simples ocupação e cultivo. A coincidência de datas não é acaso: no momento em que o fim do tráfico anunciava o fim futuro da escravidão, a lei dificultava que os futuros libertos, os imigrantes pobres e os trabalhadores livres se tornassem proprietários. Isso favoreceu a concentração fundiária e a formação de uma massa de trabalhadores sem terra, disponíveis para trabalhar nas grandes propriedades.
+
+E aqui chegamos à herança mais importante: a abolição sem integração.
+
+A Lei Áurea acabou com a escravidão, mas não foi acompanhada de nenhuma política de integração dos libertos. Não houve distribuição de terras, não houve política de educação, não houve indenização aos libertos, não houve acesso a crédito. Ao mesmo tempo, o Estado brasileiro e os fazendeiros paulistas estimulavam e subsidiavam a imigração europeia, para substituir a mão de obra escrava. Essa política estava associada, em parte, à ideologia do branqueamento, que pretendia embranquecer a população brasileira por meio da imigração e da miscigenação, e que se apoiava em teorias raciais então em voga, hoje desacreditadas.
+
+O resultado é que os libertos e os seus descendentes foram, em grande medida, empurrados para as ocupações mais precárias, para as periferias das cidades e para a informalidade, enquanto os imigrantes ocupavam boa parte dos postos de trabalho que surgiam nas cidades industriais em formação.
+
+Quem analisou isso de forma clássica foi o sociólogo Florestan Fernandes, na obra A Integração do Negro na Sociedade de Classes, publicada em meados dos anos sessenta, a partir de pesquisas em São Paulo. A tese central: com a abolição, o negro foi abandonado à própria sorte, sem preparo e sem apoio para competir na nova ordem social competitiva, a sociedade de classes que se formava. Os antigos senhores se livraram das obrigações em relação aos ex-escravizados, e o Estado não assumiu nenhuma responsabilidade por eles. A desigualdade racial, assim, não desapareceu com a abolição: foi transferida para a nova sociedade.
+
+Florestan Fernandes também foi um dos principais críticos do chamado mito da democracia racial. Que mito é esse? É a ideia de que, no Brasil, ao contrário de países como os Estados Unidos e a África do Sul, as relações entre as raças seriam harmoniosas, sem preconceito ou discriminação significativos, graças à miscigenação. Essa visão foi associada, em grande parte, à leitura da obra de Gilberto Freyre, Casa-Grande e Senzala, de mil novecentos e trinta e três, que valorizou a contribuição africana e a mistura na formação brasileira, mas descreveu as relações entre senhores e escravizados de forma que muitos críticos consideram suavizada.
+
+Florestan Fernandes, e depois Carlos Hasenbalg e Nelson do Valle Silva, que você viu na aula anterior, mostraram que o preconceito e a discriminação raciais eram reais e produziam desigualdades persistentes. O mito da democracia racial teria funcionado como uma ideologia que ocultava essas desigualdades e dificultava o seu enfrentamento: se não há racismo, não há o que corrigir.
+
+Pegadinhas sobre esse ponto. Dizer que Florestan Fernandes confirmou a existência de uma democracia racial no Brasil. É o contrário: ele a criticou como mito. E cuidado com uma pegadinha mais fina: dizer que Gilberto Freyre negava a importância da contribuição africana para a formação brasileira. Também está errado: Freyre a valorizava. A crítica a ele é outra: a de ter construído uma imagem harmoniosa que encobria a violência e a desigualdade.
+
+Por fim, quais são as heranças da escravidão que permanecem, segundo a literatura?
+
+A desigualdade racial na renda, na educação, na saúde, na moradia e na exposição à violência, que os dados oficiais continuam registrando.
+
+A concentração da terra, ligada à Lei de Terras e ao latifúndio.
+
+A desvalorização do trabalho manual e do trabalho doméstico, historicamente associados à escravidão. Repare que os trabalhadores domésticos só tiveram a maior parte dos direitos trabalhistas equiparados aos dos demais trabalhadores por uma emenda constitucional de dois mil e treze.
+
+A naturalização de hierarquias e da violência contra determinados corpos.
+
+E o racismo institucional e estrutural, que você estudou na aula anterior.
+
+Atenção à pegadinha de interpretação. Falar em herança da escravidão não significa que toda a desigualdade racial atual seja apenas um resíduo do passado, que desapareceria sozinho com o tempo. Como mostraram Hasenbalg e Valle Silva, a discriminação renova as desvantagens no presente. A herança explica a origem; a discriminação atual explica a persistência.
+
+Resumo do bloco um. A escravidão durou mais de três séculos, o Brasil recebeu a maior parcela dos africanos escravizados para as Américas e foi o último país do continente a abolir. A abolição foi gradual: Eusébio de Queirós em mil oitocentos e cinquenta, Ventre Livre em mil oitocentos e setenta e um, Sexagenários em mil oitocentos e oitenta e cinco e Áurea em mil oitocentos e oitenta e oito, com protagonismo também dos escravizados e dos abolicionistas. A Lei de Terras, de mil oitocentos e cinquenta, tornou a compra a forma de acesso à terra. A abolição não foi acompanhada de integração, e Florestan Fernandes mostrou o abandono do negro na sociedade de classes e criticou o mito da democracia racial.
+
+
+BLOCO DOIS. HIERARQUIAS SOCIAIS E AS GRANDES INTERPRETAÇÕES DO BRASIL.
+
+O edital fala em hierarquias sociais. Para entendê-las, a banca costuma recorrer aos autores conhecidos como intérpretes do Brasil, que, sobretudo nas décadas de mil novecentos e trinta a sessenta, tentaram explicar as características da sociedade brasileira. Você não precisa ler essas obras, mas precisa conhecer as teses centrais e não confundi-las.
+
+Gilberto Freyre, Casa-Grande e Senzala, de mil novecentos e trinta e três. Já vimos: a formação brasileira a partir da família patriarcal do engenho, da mistura entre portugueses, africanos e indígenas, e da intimidade, marcada também pela violência, entre a casa-grande e a senzala.
+
+Sérgio Buarque de Holanda, Raízes do Brasil, de mil novecentos e trinta e seis. É de onde vem o conceito de homem cordial, uma das pegadinhas mais famosas dos concursos. Cordial, aqui, vem da palavra latina para coração. O homem cordial não é o homem gentil, educado ou bondoso. É o homem que age movido pelo coração, isto é, pelas emoções, pelos afetos e pelas relações pessoais, tanto para o bem quanto para o mal. O próprio autor deixou claro que a cordialidade pode se expressar tanto em amizade quanto em inimizade.
+
+Qual é a consequência disso para a vida pública? O homem cordial tem dificuldade em separar o público do privado. Ele transporta para o Estado a lógica da família e da amizade: trata o servidor como conhecido, busca o atalho pessoal, prefere a relação direta à regra impessoal. Sérgio Buarque ligava essa característica à herança ibérica e à formação rural, e via nela um obstáculo à construção de um Estado moderno, burocrático e impessoal, no sentido de Weber. Repare a ligação com o patrimonialismo, que você conhece desde a primeira aula.
+
+Pegadinha: afirmar que, para Sérgio Buarque de Holanda, a cordialidade expressa polidez, boas maneiras e bondade natural do brasileiro. Errado. Cordialidade é emotividade e pessoalidade, que dificultam a impessoalidade do Estado.
+
+Raymundo Faoro, Os Donos do Poder, de mil novecentos e cinquenta e oito. Faoro interpretou o Estado brasileiro, herdeiro do Estado português, como patrimonialista, controlado por um estamento burocrático: um grupo que domina o aparelho do Estado e o utiliza em benefício próprio, acima da sociedade e das classes. Para Faoro, o problema central do Brasil seria esse Estado forte e apropriado por uma elite, e não apenas a dominação de uma classe econômica.
+
+Victor Nunes Leal, Coronelismo, Enxada e Voto, de mil novecentos e quarenta e nove. Leal analisou o coronelismo da Primeira República, isto é, do período entre mil oitocentos e oitenta e nove e mil novecentos e trinta. A definição precisa, que a banca cobra, é a seguinte: o coronelismo era um sistema de compromisso, uma troca de proveitos, entre o poder privado decadente dos chefes locais, os coronéis, geralmente grandes proprietários de terra, e o poder público progressivamente fortalecido, especialmente dos governos estaduais. O coronel controlava os votos da sua região, o chamado voto de cabresto, e os entregava aos candidatos do governo; em troca, recebia o controle dos cargos e dos recursos públicos locais.
+
+O detalhe mais cobrado: para Leal, o coronelismo não é sinal da força do poder privado, mas da sua decadência. O coronel precisava do apoio do governo porque o seu poder isolado já não bastava. E outra pegadinha: coronelismo não é sinônimo de clientelismo. O coronelismo é um fenômeno histórico datado, típico da Primeira República, com uma estrutura específica de compromisso entre os poderes local, estadual e federal. O clientelismo, que você estudou na aula sobre corrupção, é um conceito mais geral, que atravessa os períodos históricos e continua existindo.
+
+Roberto DaMatta, antropólogo, em obras como Carnavais, Malandros e Heróis, de mil novecentos e setenta e nove. DaMatta analisou o ritual expresso na pergunta: você sabe com quem está falando? A pergunta é usada para escapar de uma regra que vale para todos, invocando a própria posição social, o cargo ou as relações. Ela revela uma sociedade em que convivem duas lógicas: a do indivíduo, sujeito às leis universais e impessoais, e a da pessoa, inserida em uma rede de relações e hierarquias que lhe dá tratamento especial. A frase atribuída a essa lógica resume: aos amigos, tudo; aos inimigos, a lei.
+
+DaMatta também falou da casa e da rua: a casa como espaço das relações pessoais, da proteção e da hierarquia familiar; a rua como espaço do anonimato, da impessoalidade e da lei, vivida muitas vezes como hostil. E do jeitinho, que você viu na aula sobre normas sociais, como forma intermediária de negociar com a regra.
+
+Pegadinha: dizer que a expressão você sabe com quem está falando manifesta o princípio da igualdade perante a lei. É o oposto. Ela manifesta a hierarquia e a recusa de ser tratado como qualquer um.
+
+Agora, qual é a ideia comum a todos esses autores, que o edital chama de hierarquias sociais? A sociedade brasileira combinou, ao longo da sua formação, uma ordem legal formalmente igualitária com práticas sociais profundamente hierárquicas, em que a posição, a cor, a família, o cargo e as relações pessoais determinam o tratamento recebido. Essa combinação tem consequências diretas sobre a cidadania, como veremos no próximo bloco: o direito existe para todos, mas o acesso a ele depende de quem se é.
+
+O antropólogo norte-americano James Holston, estudando o Brasil, usou a expressão cidadania diferenciada para descrever essa situação: uma cidadania universal quanto à pertença, porque todos são cidadãos, mas desigual quanto à distribuição de direitos, porque os direitos efetivamente acessíveis variam conforme a posição social. E descreveu como, especialmente nas periferias urbanas, surgiram formas de cidadania insurgente, por meio das quais os moradores reivindicaram direitos e se afirmaram como cidadãos.
+
+Pegadinhas do bloco dois. Dizer que o homem cordial é o homem polido e bondoso. Atribuir a Faoro a tese do coronelismo, ou a Leal a do estamento burocrático. Dizer que o coronelismo expressava a força crescente do poder privado. Tratar coronelismo e clientelismo como sinônimos. Dizer que a pergunta você sabe com quem está falando expressa o igualitarismo. E dizer que a interpretação da democracia racial é consenso atual nas ciências sociais.
+
+Resumo do bloco dois. Freyre valorizou a mistura, mas a sua obra foi associada ao mito da democracia racial. Para Sérgio Buarque, o homem cordial age pelo coração e confunde o público com o privado. Para Faoro, o Estado brasileiro é patrimonialista e dominado por um estamento burocrático. Para Victor Nunes Leal, o coronelismo foi um compromisso entre o poder privado decadente dos coronéis e o poder público fortalecido. Para DaMatta, você sabe com quem está falando revela a convivência entre a lógica da pessoa e a do indivíduo. E a combinação de igualdade formal com hierarquia prática produz uma cidadania diferenciada.
+
+
+BLOCO TRÊS. A CONSTRUÇÃO DA CIDADANIA E AS TRANSFORMAÇÕES NAS RELAÇÕES ENTRE ESTADO E SOCIEDADE.
+
+Comecemos pelo conceito de cidadania que serve de referência para toda a literatura: o do sociólogo britânico Thomas Humphrey Marshall, em uma conferência de mil novecentos e quarenta e nove, publicada em mil novecentos e cinquenta com o título Cidadania, Classe Social e Status.
+
+Para Marshall, a cidadania é um status concedido aos membros integrais de uma comunidade, e se compõe de três elementos.
+
+Direitos civis: os necessários à liberdade individual, como liberdade de ir e vir, de expressão, de pensamento e de religião, direito à propriedade, a celebrar contratos e o direito à justiça. A instituição associada é o sistema judicial.
+
+Direitos políticos: o direito de participar do exercício do poder político, como eleitor ou como eleito. As instituições associadas são o parlamento e os governos locais.
+
+Direitos sociais: o direito a um mínimo de bem-estar econômico e segurança, e o de participar plenamente da herança social e viver segundo os padrões da sociedade. As instituições associadas são o sistema educacional e os serviços sociais.
+
+Marshall descreveu a sequência histórica desses direitos na Inglaterra: primeiro, os direitos civis, no século dezoito; depois, os direitos políticos, no século dezenove; e, por fim, os direitos sociais, no século vinte. Essa sequência tinha uma lógica: com as liberdades civis, as pessoas puderam se organizar e reivindicar o voto; com o voto, puderam eleger representantes que aprovaram os direitos sociais.
+
+Guarde a ordem e os séculos: civis, dezoito; políticos, dezenove; sociais, vinte. E guarde que a sequência descrita por Marshall se refere à Inglaterra, e não a uma lei universal. Item que afirme que essa sequência ocorreu da mesma forma em todos os países está errado.
+
+Agora, a tese mais cobrada sobre a cidadania no Brasil, do historiador José Murilo de Carvalho, na obra Cidadania no Brasil: o longo caminho, de dois mil e um. A tese central é que, no Brasil, a sequência de Marshall foi invertida. Primeiro vieram os direitos sociais, implantados nos anos trinta e quarenta, durante o governo de Getúlio Vargas, em um período de supressão dos direitos políticos e de redução dos direitos civis. Depois vieram os direitos políticos, de forma instável e com interrupções. E os direitos civis, base da cidadania para Marshall, continuam sendo os mais frágeis para grande parte da população.
+
+Que consequências José Murilo de Carvalho atribui a essa inversão? Ao receber os direitos sociais das mãos de um governo forte, e não como resultado da sua própria organização e mobilização, a população desenvolveu uma relação de dependência com o Estado, especialmente com o Poder Executivo, visto como o grande provedor. O autor chamou essa cultura de estadania, em contraste com a cidadania: uma orientação mais voltada para o Estado do que para a ação autônoma e organizada dos cidadãos. Isso teria favorecido a busca de benefícios para grupos específicos, em vez da consolidação de direitos universais, e uma valorização maior do Executivo do que do Legislativo.
+
+Pegadinhas sobre José Murilo de Carvalho. Dizer que, no Brasil, a sequência seguiu a ordem descrita por Marshall. Dizer que os direitos sociais foram implantados em período de plena democracia. E trocar os direitos: dizer que os direitos civis vieram primeiro.
+
+Ao lado dele, outra tese clássica, do cientista político Wanderley Guilherme dos Santos, na obra Cidadania e Justiça, de mil novecentos e setenta e nove: a cidadania regulada. A ideia é que, a partir dos anos trinta, a cidadania no Brasil não foi definida por um código de valores políticos universal, mas por um sistema de estratificação ocupacional definido por norma legal. Em termos simples: era cidadão, com acesso a direitos sociais e trabalhistas, quem tinha uma ocupação reconhecida e regulamentada por lei. O instrumento que comprovava essa condição era a carteira de trabalho, e o sindicato reconhecido pelo Estado era o canal de representação.
+
+E quem ficava de fora? Todos os que não tinham uma ocupação regulamentada: os trabalhadores rurais, que eram a maioria da população na época, os trabalhadores domésticos, os autônomos, os informais e os desempregados. Ou seja, a cidadania social nasceu restrita e segmentada, ligada ao mercado de trabalho formal urbano. A Consolidação das Leis do Trabalho, de mil novecentos e quarenta e três, é o grande símbolo desse período.
+
+Pegadinha: dizer que a cidadania regulada estendia os direitos sociais a todos os brasileiros, independentemente da ocupação. Errado. Ela os vinculava à ocupação regulamentada.
+
+Agora, as transformações nas relações entre Estado e sociedade. Vamos percorrer os períodos, destacando o que mudou na relação entre o Estado e os cidadãos. Você não precisa decorar todas as datas, mas precisa entender a lógica de cada fase.
+
+Império, de mil oitocentos e vinte e dois a mil oitocentos e oitenta e nove. A Constituição de mil oitocentos e vinte e quatro instituiu o voto censitário, isto é, condicionado à renda. A escravidão excluía uma parte enorme da população de qualquer direito. E, em mil oitocentos e oitenta e um, a chamada Lei Saraiva introduziu a eleição direta, mas passou a exigir a alfabetização dos novos eleitores, o que reduziu drasticamente o eleitorado.
+
+Primeira República, de mil oitocentos e oitenta e nove a mil novecentos e trinta. A Constituição de mil oitocentos e noventa e um eliminou o critério de renda, mas manteve a exclusão dos analfabetos, dos mendigos e de outros grupos, e as mulheres não votavam. O poder era dominado pelas oligarquias estaduais, por meio do coronelismo e da chamada política dos governadores. A questão social era frequentemente tratada como caso de polícia, isto é, as reivindicações dos trabalhadores eram reprimidas.
+
+Era Vargas, de mil novecentos e trinta a mil novecentos e quarenta e cinco. É o período da construção do Estado nacional moderno e da cidadania regulada. Criaram-se o Ministério do Trabalho, a legislação trabalhista e previdenciária, consolidada na CLT, e um sistema sindical corporativo, vinculado e controlado pelo Estado. Criou-se também uma burocracia profissional, com concursos e um departamento central de administração, o DASP, de mil novecentos e trinta e oito. O Código Eleitoral de mil novecentos e trinta e dois instituiu o voto secreto, o voto feminino e a Justiça Eleitoral. Mas, a partir de mil novecentos e trinta e sete, com o Estado Novo, os direitos políticos foram suprimidos. É exatamente o cenário da inversão descrita por José Murilo de Carvalho.
+
+República de mil novecentos e quarenta e cinco a mil novecentos e sessenta e quatro. Um período de democracia representativa, com ampliação da participação eleitoral, embora os analfabetos continuassem sem direito a voto, o que excluía grande parte da população, sobretudo rural. Houve crescente mobilização social, de sindicatos, das ligas camponesas e de movimentos estudantis.
+
+Ditadura militar, de mil novecentos e sessenta e quatro a mil novecentos e oitenta e cinco. Os direitos civis e políticos foram restringidos de forma severa, com cassações, censura, eleições indiretas para os cargos principais e violações graves de direitos. Ao mesmo tempo, houve expansão de alguns direitos sociais, como a unificação da previdência e a sua extensão, ainda limitada, aos trabalhadores rurais, aos domésticos e aos autônomos. É novamente a lógica de direitos sociais concedidos em período de restrição dos direitos políticos. Fala-se, para esse período, em modernização conservadora: modernização econômica com manutenção de estruturas autoritárias e desigualdades.
+
+Redemocratização e Constituição de mil novecentos e oitenta e oito. Este é o marco mais importante para a prova. Durante a transição, os movimentos sociais tiveram papel central: sindicatos, movimentos de bairro, comunidades eclesiais, movimento negro, movimento de mulheres, movimento sanitarista e a campanha das Diretas Já. Uma emenda constitucional de mil novecentos e oitenta e cinco concedeu o direito de voto aos analfabetos, quase um século depois da Constituição de mil oitocentos e noventa e um.
+
+A Constituição de mil novecentos e oitenta e oito, chamada de Constituição Cidadã, mudou a lógica da cidadania em vários sentidos.
+
+Ampliou e fortaleceu os direitos civis e políticos, com um extenso rol de direitos fundamentais.
+
+Rompeu, em parte, com a cidadania regulada, ao instituir a seguridade social e ao tornar a saúde um direito de todos e dever do Estado, com o Sistema Único de Saúde, de acesso universal, independentemente de contribuição ou de vínculo de trabalho. A assistência social também passou a ser prestada a quem dela necessitar, independentemente de contribuição. E os direitos dos trabalhadores rurais foram equiparados aos dos urbanos.
+
+Criou instrumentos de participação, como os conselhos de políticas públicas, a iniciativa popular, o plebiscito e o referendo.
+
+E reconheceu direitos de grupos específicos, como os povos indígenas, as comunidades remanescentes de quilombos, as crianças e adolescentes, as pessoas idosas e as pessoas com deficiência.
+
+Período posterior a mil novecentos e oitenta e oito. As décadas seguintes foram marcadas pela tentativa de efetivar os direitos previstos na Constituição: leis orgânicas da saúde e da assistência social, o benefício de prestação continuada para idosos e pessoas com deficiência de baixa renda, a ampliação do acesso à educação básica, programas de transferência de renda, como o Bolsa Família, criado em dois mil e três, a política de cotas no ensino superior e nos concursos públicos, a Lei de Acesso à Informação, de dois mil e onze, e a ampliação dos direitos dos trabalhadores domésticos, em dois mil e treze. Ao mesmo tempo, permaneceram problemas graves, como a violência, a desigualdade de acesso à justiça e a fragilidade dos direitos civis para as populações mais pobres, o que confirma a avaliação de José Murilo de Carvalho de que o caminho ainda é longo.
+
+Agora, uma síntese das transformações nas relações entre Estado e sociedade, que é o que o edital realmente pede.
+
+De uma sociedade em que o Estado era apropriado por oligarquias e a questão social era caso de polícia, passou-se a um Estado que incorporou os trabalhadores por meio da tutela, da legislação e do corporativismo. Depois, a um Estado autoritário que combinava repressão e algumas concessões sociais. E, com a Constituição de mil novecentos e oitenta e oito, a um Estado democrático que reconhece direitos universais, a participação da sociedade e o controle social.
+
+Ou seja, houve uma passagem, ainda incompleta, de uma relação de tutela, em que o Estado concede direitos a quem considera merecedor, para uma relação de cidadania, em que os direitos são universais e os cidadãos participam e controlam. Repare a ligação com o seu concurso: a transparência, a ouvidoria e o controle social, que são funções da CGU, são expressões dessa nova relação.
+
+Pegadinhas do bloco três. Trocar a ordem e os séculos da sequência de Marshall. Dizer que a sequência de Marshall é universal. Dizer que, no Brasil, os direitos civis vieram primeiro. Dizer que a cidadania regulada era universal. Dizer que os analfabetos votavam desde a Primeira República; eles só obtiveram esse direito em mil novecentos e oitenta e cinco. Dizer que o voto feminino surgiu com a Constituição de mil novecentos e oitenta e oito; ele veio com o Código Eleitoral de mil novecentos e trinta e dois. E dizer que, após mil novecentos e oitenta e oito, o acesso à saúde pública continuou condicionado à contribuição previdenciária.
+
+Resumo do bloco três. Para Marshall, a cidadania inglesa avançou dos direitos civis, no século dezoito, aos políticos, no dezenove, e aos sociais, no vinte. Para José Murilo de Carvalho, no Brasil a sequência foi invertida: os direitos sociais vieram primeiro, em período de supressão dos direitos políticos, gerando a estadania. Para Wanderley Guilherme dos Santos, a cidadania regulada vinculava os direitos à ocupação reconhecida em lei, excluindo rurais, domésticos e informais. A relação entre Estado e sociedade passou das oligarquias à tutela trabalhista de Vargas, ao autoritarismo militar e à Constituição Cidadã, que universalizou direitos e criou canais de participação.
+
+
+BLOCO QUATRO. MECANISMOS DE INCLUSÃO E EXCLUSÃO INSTITUCIONAL.
+
+Este bloco junta tudo o que vimos. A história brasileira mostra que as instituições, isto é, as regras, os critérios e os procedimentos do Estado, foram e continuam sendo mecanismos poderosos tanto de exclusão quanto de inclusão.
+
+Vamos organizar os mecanismos de exclusão em três tipos.
+
+Exclusão formal ou legal: a própria lei nega direitos a determinados grupos. É o caso mais explícito. Exemplos históricos: a escravidão, que negava a condição de pessoa de direitos; o voto censitário do Império; a exclusão dos analfabetos do voto, de mil oitocentos e oitenta e um até mil novecentos e oitenta e cinco; a ausência do voto feminino até mil novecentos e trinta e dois; e a legislação que, por décadas, deixou os trabalhadores domésticos com menos direitos.
+
+Exclusão por critério de elegibilidade: a lei não exclui ninguém explicitamente, mas define critérios de acesso que, na prática, deixam grupos de fora. A cidadania regulada é o exemplo clássico: os direitos dependiam da carteira de trabalho, que a maioria da população não tinha. Hoje, critérios de elegibilidade de programas sociais, se mal desenhados, podem deixar de fora justamente quem mais precisa.
+
+Exclusão de fato ou administrativa: o direito existe e é universal na lei, mas o acesso efetivo é bloqueado por barreiras práticas. Você conheceu essas barreiras na aula sobre burocracia e discricionariedade. Os exemplos são muitos.
+
+A falta de documentos. O sub-registro civil de nascimento, que já foi elevado no Brasil, deixa pessoas sem certidão e, portanto, sem acesso a outros documentos e direitos. Por isso a gratuidade do registro civil de nascimento para todos e as ações de documentação são políticas de inclusão.
+
+A distância e o território: serviços concentrados nos centros urbanos, inacessíveis para populações rurais, ribeirinhas ou das periferias.
+
+A complexidade dos procedimentos e a linguagem burocrática.
+
+O custo indireto do acesso: transporte, tempo, perda de dia de trabalho.
+
+As barreiras digitais: serviços disponíveis apenas por meios digitais, que excluem quem não tem acesso à internet, equipamento ou habilidade.
+
+A discricionariedade na ponta, que pode reproduzir preconceitos, como vimos com Lipsky.
+
+E o acesso desigual à justiça: ter um direito violado e não ter como reclamá-lo.
+
+Ligado a isso está um conceito importante: a diferença entre o direito formal e o direito efetivo. Um direito pode estar na Constituição e na lei e não ser acessível na prática para parte da população. O edital chama atenção para esse ponto em vários itens. Item que afirme que a previsão de direitos universais na Constituição eliminou a exclusão institucional está errado.
+
+Agora, os mecanismos de inclusão institucional.
+
+Universalização: tornar o direito acessível a todos, independentemente de contribuição, ocupação ou renda. O Sistema Único de Saúde e a educação básica pública são os exemplos centrais. A universalização rompe com a lógica da cidadania regulada.
+
+Focalização: dirigir recursos e ações a grupos específicos em situação de maior necessidade, como nos programas de transferência de renda condicionada e no benefício de prestação continuada. Universalização e focalização não são opostas: costumam ser combinadas. A focalização bem feita pode ser uma forma de alcançar quem a política universal não está alcançando.
+
+Ações afirmativas: medidas específicas para grupos historicamente discriminados, como as cotas raciais e sociais nas universidades e nos concursos. Você viu, nas aulas anteriores, que elas realizam a igualdade material.
+
+Busca ativa: em vez de esperar que o cidadão procure o serviço, o Estado vai até ele. É o princípio de instrumentos como o cadastro único para programas sociais e de equipes que percorrem territórios para identificar famílias fora da rede de proteção. É uma resposta direta à exclusão de fato: quem mais precisa é, frequentemente, quem menos consegue chegar ao Estado.
+
+Simplificação e acessibilidade: reduzir exigências documentais, usar linguagem simples, oferecer múltiplos canais de atendimento, incluindo o presencial, e garantir acessibilidade para pessoas com deficiência. O edital volta a isso no item sobre serviços e transformação digital.
+
+Participação e controle social: conselhos, conferências, ouvidorias e transparência dão voz a grupos antes excluídos das decisões.
+
+E reconhecimento de direitos coletivos e territoriais, como os dos povos indígenas e das comunidades quilombolas.
+
+Para fechar, três ideias de prova que resumem o espírito do item.
+
+Primeira: a exclusão institucional nem sempre é intencional. Muitas vezes resulta de regras aparentemente neutras, como uma exigência documental ou um canal exclusivamente digital. É a discriminação indireta e institucional da aula anterior, aplicada ao Estado.
+
+Segunda: a inclusão exige mais do que a lei. Exige capacidades estatais, recursos, desenho adequado das políticas e atenção à ponta, onde o cidadão encontra o Estado.
+
+Terceira: o Estado pode tanto reproduzir quanto reduzir desigualdades. A mesma instituição que excluiu, como a legislação trabalhista restrita da cidadania regulada, pode ser reformada para incluir, como na universalização de mil novecentos e oitenta e oito. Por isso a avaliação das políticas, que é função da CGU, deve sempre perguntar: quem está sendo alcançado e quem está ficando de fora?
+
+E um alerta para quem vai trabalhar com sistemas. Quando um serviço é digitalizado, as regras de elegibilidade e as exigências documentais passam a estar no código. Um campo obrigatório, uma validação de documento ou um critério automático de recusa podem reproduzir mecanismos de exclusão em escala, sem que ninguém perceba. Desenhar sistemas com atenção à inclusão é parte da responsabilidade técnica.
+
+Pegadinhas do bloco quatro. Dizer que a exclusão institucional só ocorre por meio de leis explícitas. Dizer que a previsão constitucional de direitos universais eliminou a exclusão. Dizer que universalização e focalização são incompatíveis. Dizer que a exclusão administrativa pressupõe intenção de discriminar. E dizer que a digitalização de serviços é sempre inclusiva.
+
+Resumo do bloco quatro. A exclusão institucional pode ser formal, por lei explícita; por critério de elegibilidade, como na cidadania regulada; ou de fato, por barreiras administrativas, documentais, territoriais, digitais e de acesso à justiça. O direito formal não garante o direito efetivo. A inclusão se faz por universalização, focalização, ações afirmativas, busca ativa, simplificação, acessibilidade, participação e reconhecimento de direitos coletivos. E o Estado pode reproduzir ou reduzir desigualdades, conforme o desenho das suas regras e sistemas.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Primeira estratégia: cronologia. Mil oitocentos e cinquenta, fim do tráfico e Lei de Terras. Mil oitocentos e setenta e um, Ventre Livre. Mil oitocentos e oitenta e cinco, Sexagenários. Mil oitocentos e oitenta e oito, Áurea. Mil novecentos e trinta e dois, voto feminino e voto secreto. Mil novecentos e quarenta e três, CLT. Mil novecentos e oitenta e cinco, voto dos analfabetos. Mil novecentos e oitenta e oito, Constituição Cidadã.
+
+Segunda estratégia: troca de autores. Freyre, Casa-Grande e Senzala. Sérgio Buarque, homem cordial. Faoro, estamento burocrático. Victor Nunes Leal, coronelismo. Florestan Fernandes, integração do negro e crítica ao mito da democracia racial. DaMatta, você sabe com quem está falando. Marshall, sequência dos direitos. José Murilo de Carvalho, inversão e estadania. Wanderley Guilherme dos Santos, cidadania regulada.
+
+Terceira estratégia: sentido falso de palavras. Cordial como gentil. Democracia racial como fato. Coronelismo como força do poder privado.
+
+Quarta estratégia: história linear. A abolição como integração. A Constituição como fim da exclusão. A sequência inglesa como universal.
+
+Quinta estratégia: protagonismo único. A abolição como dádiva da Coroa. Os direitos como concessão exclusiva do Estado, sem papel dos movimentos sociais.
+
+Sexta estratégia: formal versus efetivo. Direito na lei tratado como direito acessível.
+
+Sétima estratégia: situação hipotética. Pergunte. A exclusão é por lei, por critério ou de fato? O direito está sendo concedido como tutela ou garantido como cidadania? Quem está ficando de fora?
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+O Brasil foi o último país das Américas a abolir a escravidão, o que ocorreu em mil oitocentos e oitenta e oito, após um processo gradual que incluiu a proibição efetiva do tráfico de africanos escravizados, em mil oitocentos e cinquenta, pela Lei Eusébio de Queirós.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a abolição foi lenta: fim do tráfico em mil oitocentos e cinquenta, Ventre Livre em mil oitocentos e setenta e um, Sexagenários em mil oitocentos e oitenta e cinco e Lei Áurea em mil oitocentos e oitenta e oito.
+
+Questão dois.
+A Lei Áurea foi acompanhada de políticas públicas de integração dos libertos, como a distribuição de terras e o acesso à educação, o que permitiu a rápida inserção da população negra no mercado de trabalho formal em condições de igualdade com os imigrantes europeus.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a abolição não foi acompanhada de políticas de integração. Ao mesmo tempo, o Estado estimulou a imigração europeia. Florestan Fernandes descreveu o abandono do negro na formação da sociedade de classes.
+
+Questão três.
+A Lei de Terras, de mil oitocentos e cinquenta, estabeleceu a compra como forma de acesso às terras devolutas, o que contribuiu para dificultar o acesso à propriedade da terra por libertos, imigrantes pobres e trabalhadores livres e favoreceu a concentração fundiária.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a coincidência com o fim do tráfico não é acaso. A terra passou a ter preço justamente quando o fim da escravidão se anunciava.
+
+Questão quatro.
+Em sua obra sobre a integração do negro na sociedade de classes, Florestan Fernandes confirmou a tese de que o Brasil constituía uma democracia racial, sem preconceito ou discriminação significativos, graças à miscigenação.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: Florestan Fernandes foi um dos principais críticos do mito da democracia racial, mostrando que o preconceito e a discriminação eram reais e produziam desigualdades persistentes.
+
+Questão cinco.
+Na obra Raízes do Brasil, Sérgio Buarque de Holanda caracteriza o brasileiro como homem cordial, expressão que designa a polidez, as boas maneiras e a bondade natural que favorecem a construção de um Estado impessoal e burocrático.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: cordial vem de coração. O homem cordial age movido por afetos e relações pessoais, o que dificulta a separação entre o público e o privado e a construção de um Estado impessoal.
+
+Questão seis.
+Segundo José Murilo de Carvalho, a sequência de expansão dos direitos descrita por Marshall para a Inglaterra, com os direitos civis no século dezoito, os políticos no dezenove e os sociais no vinte, foi invertida no Brasil, onde os direitos sociais foram implantados primeiro, em período de supressão dos direitos políticos e de redução dos direitos civis.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a tese central de Cidadania no Brasil: o longo caminho. Os direitos sociais vieram com Vargas, e o autor associa essa inversão à cultura que chamou de estadania.
+
+Questão sete.
+Na concepção de cidadania regulada, formulada por Wanderley Guilherme dos Santos, o acesso aos direitos sociais esteve vinculado ao exercício de ocupações reconhecidas e regulamentadas por lei, o que excluiu, por longo período, trabalhadores rurais, domésticos e informais.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a carteira de trabalho e o sindicato reconhecido pelo Estado eram as marcas dessa cidadania. Quem não tinha ocupação regulamentada ficava de fora.
+
+Questão oito.
+Os analfabetos tiveram o direito de voto assegurado desde a Constituição republicana de mil oitocentos e noventa e um, que eliminou todas as restrições ao sufrágio existentes no Império.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a Constituição de mil oitocentos e noventa e um eliminou o critério de renda, mas manteve a exclusão dos analfabetos, que só obtiveram o direito de voto por emenda constitucional de mil novecentos e oitenta e cinco.
+
+Questão nove.
+Na interpretação de Victor Nunes Leal, o coronelismo da Primeira República consistia em um sistema de compromisso entre o poder privado decadente dos chefes locais e o poder público progressivamente fortalecido, no qual o controle dos votos era trocado por apoio governamental e acesso a cargos e recursos públicos.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: o detalhe essencial é a decadência do poder privado: o coronel dependia do governo. E o coronelismo é um fenômeno histórico específico, que não se confunde com o conceito geral de clientelismo.
+
+Questão dez.
+A Constituição Federal de mil novecentos e oitenta e oito rompeu, em parte, com a lógica da cidadania regulada ao estabelecer a saúde como direito de todos e dever do Estado, com acesso universal, independentemente de contribuição previdenciária ou de vínculo formal de trabalho.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a criação da seguridade social e do Sistema Único de Saúde universal desvinculou o acesso à saúde da condição de trabalhador formal contribuinte. A assistência social também passou a ser prestada a quem dela necessitar.
+
+Questão onze.
+A exclusão institucional ocorre apenas quando a lei nega expressamente direitos a determinados grupos, razão pela qual a previsão de direitos universais na Constituição de mil novecentos e oitenta e oito foi suficiente para eliminá-la.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: além da exclusão formal, há a exclusão por critérios de elegibilidade e a exclusão de fato, por barreiras documentais, territoriais, administrativas e digitais. O direito formal não garante o direito efetivo.
+
+Questão doze.
+O ritual expresso na pergunta você sabe com quem está falando, analisado por Roberto DaMatta, manifesta a adesão da sociedade brasileira ao princípio da igualdade de todos perante a lei.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a pergunta é usada para escapar da regra que vale para todos, invocando posição ou relações pessoais. Revela a convivência entre a lógica da pessoa, hierárquica, e a do indivíduo, sujeito à lei universal.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Escravidão por mais de três séculos. O Brasil recebeu a maior parcela dos africanos escravizados para as Américas e foi o último país do continente a abolir.
+
+Mil oitocentos e cinquenta, Eusébio de Queirós e Lei de Terras. Mil oitocentos e setenta e um, Ventre Livre. Mil oitocentos e oitenta e cinco, Sexagenários. Mil oitocentos e oitenta e oito, Áurea. Abolição também pela luta dos escravizados e dos abolicionistas.
+
+Abolição sem integração. Imigração europeia e ideologia do branqueamento. Florestan Fernandes: abandono do negro e crítica ao mito da democracia racial.
+
+Freyre: mistura e casa-grande. Sérgio Buarque: homem cordial, do coração, que confunde público e privado. Faoro: estamento burocrático e patrimonialismo. Victor Nunes Leal: coronelismo como compromisso do poder privado decadente com o poder público fortalecido. DaMatta: você sabe com quem está falando, pessoa contra indivíduo.
+
+Cidadania diferenciada: universal na pertença, desigual nos direitos.
+
+Marshall, na Inglaterra: civis no dezoito, políticos no dezenove, sociais no vinte. José Murilo de Carvalho: no Brasil, inversão, com direitos sociais primeiro, e estadania. Wanderley Guilherme dos Santos: cidadania regulada pela ocupação.
+
+Império com voto censitário. Lei Saraiva exclui analfabetos. Primeira República oligárquica. Vargas: CLT, corporativismo, DASP, voto feminino em mil novecentos e trinta e dois. Ditadura: restrição de direitos civis e políticos e expansão social limitada. Analfabetos votam a partir de mil novecentos e oitenta e cinco. Constituição Cidadã: direitos universais, SUS, seguridade e participação.
+
+Exclusão formal, por critério de elegibilidade e de fato. Direito formal não é direito efetivo.
+
+Inclusão por universalização, focalização, ações afirmativas, busca ativa, simplificação, acessibilidade, participação e direitos coletivos.
+
+Fim da aula do item um ponto dois ponto dois. Na sequência do edital, o próximo é o item um ponto dois ponto três, população, território e trabalho. Bons estudos.

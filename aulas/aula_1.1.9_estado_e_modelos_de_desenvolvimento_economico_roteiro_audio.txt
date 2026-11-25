@@ -1,0 +1,435 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.1.9 DO EDITAL: ESTADO E MODELOS DE DESENVOLVIMENTO ECONÔMICO.
+SUBITEM 1.1.9.1: Arranjos de desenvolvimento com diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado; industrialização, inovação e transformação produtiva.
+SUBITEM 1.1.9.2: Papel das empresas estatais no investimento de longo prazo, na infraestrutura, no financiamento e na prestação de serviços públicos.
+SUBITEM 1.1.9.3: Relações entre finalidade pública, concorrência, universalização, sustentabilidade fiscal e socioambiental; capacidades estatais, riscos de captura e efeitos distributivos.
+SUBITEM 1.1.9.4: Fundamentos constitucionais da atuação econômica do Estado e comparação de alternativas institucionais à luz de objetivos, evidências e resultados.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto um ponto nove do edital da CGU, chamado Estado e modelos de desenvolvimento econômico. É o último item do bloco sobre Estado, democracia, direitos e ciência política, e é também o mais extenso, com quatro subitens.
+
+O primeiro, um ponto um ponto nove ponto um, trata dos arranjos de desenvolvimento: as diferentes combinações de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado, e os temas de industrialização, inovação e transformação produtiva.
+
+O segundo, um ponto um ponto nove ponto dois, trata do papel das empresas estatais: no investimento de longo prazo, na infraestrutura, no financiamento e na prestação de serviços públicos.
+
+O terceiro, um ponto um ponto nove ponto três, trata das relações e tensões entre finalidade pública, concorrência, universalização e sustentabilidade fiscal e socioambiental, e também de capacidades estatais, riscos de captura e efeitos distributivos.
+
+O quarto, um ponto um ponto nove ponto quatro, trata dos fundamentos constitucionais da atuação econômica do Estado e da comparação de alternativas institucionais à luz de objetivos, evidências e resultados.
+
+Vamos organizar a aula em quatro blocos, um para cada subitem. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
+
+Um alerta de postura, antes de começar. Este é um tema em que o debate público costuma ser muito ideológico: mais Estado ou mais mercado, estatizar ou privatizar. O edital adota outra perspectiva. Repare na redação: diferentes combinações, comparação de alternativas, à luz de objetivos, evidências e resultados. A banca não vai perguntar qual modelo é o certo. Vai perguntar se você sabe distinguir os instrumentos, conhece os fundamentos constitucionais e consegue avaliar, de forma equilibrada, vantagens, riscos e efeitos de cada alternativa. Desconfie de itens que afirmem que um modelo é sempre superior ao outro.
+
+E por que esse tema interessa à CGU? Porque a CGU audita empresas estatais, bancos públicos, programas de financiamento, concessões, incentivos e políticas de desenvolvimento. O auditor precisa saber o que cada instrumento pretende alcançar, quais são os seus riscos típicos e como avaliar se ele funcionou.
+
+As bases deste item são de dois tipos. Normativas: os artigos cento e setenta a cento e setenta e sete da Constituição, que tratam da ordem econômica, o artigo trinta e sete, sobre a criação de estatais, e a Lei das Estatais, de dois mil e dezesseis. E conceituais, com autores de economia política do desenvolvimento, como Chalmers Johnson, Peter Evans, Mariana Mazzucato, Raúl Prebisch e Celso Furtado. Como sempre, confira os dispositivos no texto oficial do Planalto.
+
+
+BLOCO UM. ARRANJOS DE DESENVOLVIMENTO, INDUSTRIALIZAÇÃO, INOVAÇÃO E TRANSFORMAÇÃO PRODUTIVA.
+
+Comecemos pelos cinco instrumentos que o edital lista. Eles são as peças com que cada país monta o seu arranjo de desenvolvimento.
+
+Mercado: a coordenação descentralizada das decisões econômicas por meio de preços, contratos e concorrência entre agentes privados.
+
+Planejamento: a definição, pelo Estado, de objetivos, prioridades e metas de médio e longo prazo, e a coordenação de ações para alcançá-los.
+
+Regulação: a definição de regras para a atuação dos agentes privados, e a fiscalização do seu cumprimento, sobretudo em setores com falhas de mercado, como os monopólios naturais.
+
+Provisão pública: a oferta, pelo Estado, de bens e serviços, financiados por tributos, como saúde, educação, segurança e infraestrutura básica. A provisão pode ser feita diretamente pela administração ou por meio de terceiros contratados, e o que a define é a responsabilidade estatal pelo financiamento e pela garantia do acesso.
+
+Atuação empresarial do Estado: a produção de bens e serviços pelo Estado por meio de empresas próprias, as estatais, que atuam com lógica empresarial, seja em mercados concorrenciais, seja em monopólio.
+
+A ideia central do subitem está na expressão diferentes combinações. Nenhum país desenvolvido ou em desenvolvimento usa apenas um desses instrumentos. As economias reais são todas mistas, e o que varia é a dosagem e a forma de combinar as peças. Item que afirme que as economias contemporâneas adotam modelos puros, de mercado ou de Estado, está errado.
+
+Por que o Estado atua na economia? A economia oferece duas justificativas clássicas, e uma contrapartida importante.
+
+A primeira justificativa são as falhas de mercado: situações em que o mercado, sozinho, não produz um resultado eficiente. São quatro as mais citadas. Bens públicos, como a defesa ou a iluminação de ruas, que ninguém pode ser impedido de usar e que, por isso, o mercado não oferta adequadamente. Externalidades, como a poluição, em que os custos ou benefícios de uma atividade recaem sobre terceiros. Assimetria de informação, como entre o banco e o tomador de crédito. E poder de mercado, como nos monopólios naturais, em que um único fornecedor é mais eficiente, mas tende a abusar da sua posição.
+
+A segunda justificativa são os objetivos de equidade e de desenvolvimento: mesmo quando o mercado é eficiente, o resultado pode ser socialmente inaceitável, por concentrar renda, excluir regiões ou não gerar a transformação produtiva desejada.
+
+E a contrapartida: as falhas de governo. A intervenção estatal também falha. Pode haver captura por grupos de interesse, uso político, falta de informação, falta de capacidade, custos excessivos e efeitos não pretendidos. Você conhece bem esses riscos das aulas sobre corrupção e captura.
+
+A conclusão equilibrada, que é a do edital: a existência de uma falha de mercado é condição para considerar a intervenção, mas não basta para justificá-la. É preciso verificar se a intervenção proposta tende a produzir um resultado melhor do que o mercado, considerando as falhas de governo possíveis. Item que afirme que toda falha de mercado justifica automaticamente a intervenção estatal está errado. E item que afirme que a intervenção estatal só se justifica quando não há nenhum risco de falha de governo também está errado, porque esse risco sempre existe.
+
+Agora, os grandes modelos, ou tipos ideais, de relação entre Estado e economia. Lembre que tipos ideais são instrumentos de análise, não retratos puros da realidade.
+
+Estado liberal clássico: o Estado se concentra em garantir a ordem, a propriedade e os contratos, deixando a coordenação econômica ao mercado.
+
+Estado de bem-estar social e intervenção keynesiana: a partir da crise de mil novecentos e vinte e nove e do pós-guerra, o Estado passa a usar a política fiscal e monetária para estabilizar a economia e garantir o emprego, e a prover amplamente serviços sociais.
+
+Estado desenvolvimentista: o Estado lidera deliberadamente a transformação da estrutura produtiva, usando planejamento, crédito dirigido, proteção seletiva, empresas estatais e coordenação com o setor privado. O cientista político Chalmers Johnson usou o termo ao estudar o Japão do pós-guerra, em que uma burocracia econômica de elite orientava a industrialização. E Peter Evans, que você conheceu na aula de capacidades estatais, mostrou que os Estados desenvolvimentistas bem-sucedidos combinavam uma burocracia profissional e coesa com laços densos com o setor privado: a autonomia inserida.
+
+Atenção à pegadinha mais provável aqui: Estado desenvolvimentista não é sinônimo de estatização da economia, nem de economia planificada. No modelo desenvolvimentista, o setor privado continua sendo central; o Estado orienta, coordena, financia e induz. Uma economia de planejamento central, em que o Estado controla praticamente todos os meios de produção, é outra coisa.
+
+Estado regulador: a partir dos anos mil novecentos e oitenta e noventa, muitos países, inclusive o Brasil, reduziram a produção direta de bens pelo Estado, transferiram atividades ao setor privado por privatizações e concessões, e fortaleceram a função de regular, em geral por meio de agências reguladoras com autonomia.
+
+Estado empreendedor: a economista Mariana Mazzucato chamou a atenção para o papel do Estado na inovação, mostrando que muitas tecnologias fundamentais, como as que estão na base da internet e de diversos medicamentos, nasceram de investimentos públicos de alto risco, que o setor privado não faria sozinho. Ela defende políticas orientadas por missões, isto é, voltadas a grandes desafios, como a transição energética.
+
+Agora, os três temas que o edital destaca: industrialização, inovação e transformação produtiva.
+
+Industrialização. No Brasil e na América Latina, a reflexão clássica vem da Comissão Econômica para a América Latina e o Caribe, a CEPAL, com Raúl Prebisch e Celso Furtado. A tese central era a de que a especialização em produtos primários colocava os países da periferia em desvantagem no comércio com os países centrais, industrializados. A resposta proposta foi a industrialização por substituição de importações: proteger e incentivar a produção interna de bens antes importados. O Brasil seguiu esse caminho de forma intensa entre os anos mil novecentos e trinta e setenta, com forte participação do Estado, inclusive pela criação de grandes empresas estatais em setores como siderurgia, mineração, petróleo e energia, e de um banco nacional de desenvolvimento.
+
+O modelo produziu uma rápida industrialização, mas também enfrentou problemas: proteção prolongada que reduziu a competitividade, endividamento externo, inflação e, nos anos oitenta, uma crise fiscal profunda. A partir dos anos noventa, houve abertura comercial, privatizações, concessões e criação de agências reguladoras. Não é preciso decorar datas e nomes para a prova; o importante é perceber que o Brasil já experimentou várias combinações, com resultados e problemas diferentes.
+
+Inovação. Hoje, o debate sobre desenvolvimento dá grande peso à inovação, isto é, à criação e difusão de novos produtos, processos e formas de organização. A inovação envolve riscos altos, retornos incertos e de longo prazo, e benefícios que transbordam para outras empresas. Por isso, há um papel reconhecido para o Estado: financiar a pesquisa básica, apoiar a pesquisa aplicada, usar o poder de compra do governo para estimular soluções novas, fomentar a cooperação entre universidades e empresas, e construir um ambiente regulatório favorável. A literatura fala em sistema nacional de inovação: o conjunto de instituições públicas e privadas que, em interação, produzem e difundem conhecimento.
+
+Transformação produtiva. É a mudança da estrutura da economia em direção a atividades de maior produtividade, maior conteúdo tecnológico e maior valor agregado. Desenvolvimento, nessa perspectiva, não é só crescimento do produto. É mudança na forma de produzir, com mais tecnologia, mais qualificação e, idealmente, maior inclusão social e sustentabilidade ambiental.
+
+A política industrial é o conjunto de instrumentos usados para induzir essa transformação: crédito, incentivos fiscais, compras públicas, investimento em infraestrutura e em ciência, regulação, comércio exterior. O debate atual sobre política industrial costuma destacar algumas boas práticas, que funcionam como critérios de avaliação: objetivos claros e mensuráveis; contrapartidas exigidas dos beneficiários, como metas de investimento, de exportação ou de inovação; prazos definidos, com previsão de saída; transparência sobre quem recebe e quanto custa; e avaliação periódica dos resultados. Sem esses elementos, o incentivo tende a virar privilégio permanente e porta de entrada para a captura.
+
+Pegadinhas do bloco um. Dizer que existem economias com modelos puros. Dizer que o Estado desenvolvimentista elimina o mercado. Dizer que a regulação significa ausência do Estado na economia. Dizer que planejamento e mercado são incompatíveis. Dizer que toda falha de mercado justifica automaticamente a intervenção. Dizer que desenvolvimento é sinônimo de crescimento do produto. E atribuir a tese da CEPAL ou a autonomia inserida a outros autores.
+
+Resumo do bloco um. Mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado são instrumentos combinados em diferentes proporções, e as economias reais são mistas. A intervenção se justifica por falhas de mercado e por objetivos de equidade e desenvolvimento, mas está sujeita a falhas de governo. Os modelos vão do liberal ao regulador, passando pelo de bem-estar e pelo desenvolvimentista, que não é estatização. A industrialização brasileira seguiu a substituição de importações, com forte papel estatal. E inovação e transformação produtiva exigem políticas com objetivos, contrapartidas, prazos, transparência e avaliação.
+
+
+BLOCO DOIS. O PAPEL DAS EMPRESAS ESTATAIS.
+
+Primeiro, os conceitos jurídicos básicos, que caem com frequência.
+
+Empresas estatais são pessoas jurídicas de direito privado, integrantes da administração indireta, controladas pelo Estado. Há duas espécies principais.
+
+Empresa pública: tem o capital social integralmente detido pelo poder público, isto é, pela União, Estados, Distrito Federal ou Municípios, ou por entidades da administração indireta. Pode adotar qualquer forma societária admitida em direito.
+
+Sociedade de economia mista: tem a forma obrigatória de sociedade anônima, com capital público e privado, mas a maioria das ações com direito a voto pertence ao ente público ou a entidade da administração indireta.
+
+Guarde a diferença, porque a troca é clássica. Empresa pública: capital cem por cento público, qualquer forma societária. Sociedade de economia mista: capital misto, controle público, sempre sociedade anônima.
+
+A criação de ambas depende de autorização por lei específica, conforme o inciso dezenove do artigo trinta e sete da Constituição. Repare no verbo: a lei autoriza a instituição; não é a lei que cria diretamente, como acontece com as autarquias. E a Lei das Estatais exige que essa lei autorizadora indique, de forma clara, o relevante interesse coletivo ou o imperativo de segurança nacional que justifica a empresa.
+
+Outra distinção importante, construída pela doutrina e pelo Supremo: há estatais que exploram atividade econômica em sentido estrito, em concorrência com o setor privado ou em monopólio, e há estatais que prestam serviços públicos. As primeiras estão mais próximas do regime das empresas privadas. As segundas podem ter algumas prerrogativas próprias do regime público, conforme o caso, especialmente quando prestam serviço público em regime não concorrencial. A banca pode explorar essa diferença.
+
+Agora, os quatro papéis que o edital destaca.
+
+Primeiro papel: o investimento de longo prazo.
+
+Há investimentos que o setor privado tende a não fazer, ou a fazer em escala insuficiente, porque têm retorno muito demorado, risco elevado, montantes muito grandes, ou porque os benefícios são amplos para a sociedade, mas difíceis de capturar por uma empresa. Em países com mercados de capitais pouco desenvolvidos, esse problema é ainda maior. As estatais podem assumir esses investimentos, como historicamente ocorreu em siderurgia, exploração de petróleo em águas profundas e geração de energia. Também podem atuar de forma anticíclica, mantendo investimentos quando o setor privado se retrai em uma crise.
+
+Segundo papel: a infraestrutura.
+
+Energia, transporte, saneamento e telecomunicações são setores com características especiais: exigem investimentos altíssimos, têm longos prazos de maturação, muitas vezes configuram monopólios naturais e geram benefícios que se espalham por toda a economia. Esses setores podem ser explorados por estatais, por empresas privadas sob concessão e regulação, ou por combinações das duas, como nas parcerias público-privadas. A escolha entre essas alternativas é exatamente o tipo de comparação que o quarto subitem pede.
+
+Terceiro papel: o financiamento.
+
+Os bancos públicos são um tipo particular de estatal. No Brasil, há bancos federais com funções distintas: um banco nacional de desenvolvimento, voltado a investimentos de longo prazo em infraestrutura e indústria; bancos comerciais federais com forte atuação no crédito rural, no habitacional e na operação de programas sociais; e bancos regionais de desenvolvimento.
+
+Os papéis típicos dos bancos públicos são: oferecer crédito de longo prazo onde o setor privado não oferece; financiar setores prioritários, como habitação popular, agricultura familiar, micro e pequenas empresas, infraestrutura e inovação; operar programas sociais e fundos públicos; reduzir desigualdades regionais; e atuar de forma anticíclica, mantendo o crédito em momentos de crise.
+
+Os riscos típicos também são conhecidos: crédito subsidiado concedido sem critérios transparentes; concentração dos benefícios em grandes empresas que teriam acesso ao mercado privado; custo fiscal implícito, porque o subsídio sai do orçamento, mas nem sempre aparece de forma clara; e uso político na concessão de empréstimos.
+
+Quarto papel: a prestação de serviços públicos.
+
+Algumas estatais prestam diretamente serviços públicos, como o serviço postal, o abastecimento de água e o esgotamento sanitário em muitos estados, o transporte urbano em algumas cidades. Aqui, a finalidade não é o lucro, mas a oferta contínua e acessível do serviço, ainda que a empresa deva buscar eficiência e sustentabilidade financeira.
+
+Agora, a Lei das Estatais, de dois mil e dezesseis, que estabelece o estatuto jurídico previsto no artigo cento e setenta e três da Constituição. Ela é muito cobrada em concursos de controle. Os pontos centrais.
+
+Função social. A lei diz que a empresa pública e a sociedade de economia mista terão a função social de realização do interesse coletivo ou de atendimento a imperativo da segurança nacional expressa no instrumento de autorização legal para a sua criação. E que a realização do interesse coletivo deve ser orientada para o alcance do bem-estar econômico e para a alocação socialmente eficiente dos recursos geridos pela empresa. Repare: a função social está amarrada à razão que justificou a criação, e não pode ser ampliada livremente para abranger qualquer objetivo.
+
+Carta anual de políticas públicas. A lei exige que o conselho de administração subscreva uma carta anual, explicitando os compromissos de consecução de objetivos de políticas públicas pela empresa, com definição clara dos recursos a serem empregados e dos impactos econômico-financeiros. E diz que o interesse público da estatal se manifesta pelo alinhamento entre os seus objetivos e os de políticas públicas, na forma explicitada nessa carta.
+
+A lógica é de transparência: se o governo usa uma estatal para executar uma política pública que não seria adotada por uma empresa privada, isso deve estar explícito, com os custos discriminados. A lei também estabelece que obrigações assumidas pela estatal em condições distintas das de qualquer empresa privada do mesmo mercado devem ter base normativa e ter os seus custos e receitas discriminados e divulgados. É uma proteção contra o uso oculto da empresa, que pode gerar prejuízos aos acionistas minoritários e ao próprio Estado.
+
+Governança. A lei exige regras de governança corporativa, transparência, gestão de riscos e controle interno, requisitos técnicos e vedações para a indicação de dirigentes e conselheiros, comitê de auditoria estatutário e divulgação de relatório integrado ou de sustentabilidade, entre outras medidas. A intenção é reduzir o uso político e a captura, e profissionalizar a gestão.
+
+Sustentabilidade. A lei determina que as estatais adotem práticas de sustentabilidade ambiental e de responsabilidade social corporativa compatíveis com o mercado em que atuam.
+
+Pegadinhas do bloco dois. Trocar as definições de empresa pública e sociedade de economia mista. Dizer que a empresa pública deve ser sociedade anônima. Dizer que as estatais são pessoas jurídicas de direito público. Dizer que a lei cria diretamente a estatal, quando ela autoriza. Dizer que a função social permite à estatal perseguir qualquer objetivo de interesse público, mesmo alheio à sua lei autorizadora. E dizer que as estatais existem para maximizar o lucro, ou, ao contrário, que podem ignorar a sustentabilidade financeira.
+
+Resumo do bloco dois. Empresa pública tem capital integralmente público e qualquer forma societária; sociedade de economia mista é sociedade anônima com controle público; ambas dependem de lei específica autorizadora que indique o interesse coletivo ou a segurança nacional. As estatais podem atuar no investimento de longo prazo, na infraestrutura, no financiamento, por meio de bancos públicos, e na prestação de serviços públicos. A Lei das Estatais vincula a função social à razão da criação, exige carta anual de políticas públicas com custos explícitos e impõe regras de governança e sustentabilidade.
+
+
+BLOCO TRÊS. TENSÕES: FINALIDADE PÚBLICA, CONCORRÊNCIA, UNIVERSALIZAÇÃO, SUSTENTABILIDADE, CAPACIDADES, CAPTURA E EFEITOS DISTRIBUTIVOS.
+
+Este subitem lista vários valores e riscos ao mesmo tempo. O verbo implícito é equilibrar. Vamos às relações, duas a duas.
+
+Finalidade pública e lucro.
+
+Uma estatal existe para cumprir uma finalidade pública. Mas ela também é uma empresa e precisa de sustentabilidade financeira, sob pena de se tornar um peso para o orçamento. A tensão é permanente. Se a estatal persegue apenas o lucro, perde a razão de existir: bastaria uma empresa privada. Se ignora completamente os resultados financeiros, acumula prejuízos que serão pagos pelos contribuintes. Na sociedade de economia mista, a tensão tem um ingrediente a mais: há acionistas privados que esperam retorno. Por isso a Lei das Estatais exige que as políticas públicas atribuídas à empresa sejam explícitas, com custos discriminados.
+
+Finalidade pública e concorrência.
+
+Quando uma estatal atua em um mercado concorrencial, há um risco de que ela tenha vantagens indevidas sobre os concorrentes privados, por exemplo, crédito mais barato garantido pelo Tesouro, privilégios tributários ou tratamento regulatório favorecido. Isso distorce a concorrência. A literatura internacional fala em neutralidade competitiva: estatais e empresas privadas devem competir em condições equivalentes.
+
+A Constituição trata disso diretamente. O artigo cento e setenta e três sujeita as estatais exploradoras de atividade econômica ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários. E determina que as empresas públicas e as sociedades de economia mista não poderão gozar de privilégios fiscais não extensivos às do setor privado. Item que diga que a estatal exploradora de atividade econômica pode ter benefícios fiscais exclusivos para cumprir a sua função social está errado.
+
+Mas há também o outro lado: em monopólios naturais, como redes de distribuição de água ou de energia, a concorrência no mercado não é possível ou não é eficiente. Nesses casos, a alternativa é a concorrência pelo mercado, por meio de licitação das concessões, combinada com regulação.
+
+Universalização e sustentabilidade fiscal.
+
+Universalizar é garantir o acesso de todos a um serviço, inclusive em áreas remotas, de baixa renda ou de baixa densidade populacional, onde o atendimento dá prejuízo. Uma empresa orientada apenas ao lucro tenderia a atender só as áreas rentáveis.
+
+Há instrumentos para conciliar universalização com sustentabilidade: o subsídio cruzado, em que os usuários de áreas rentáveis ajudam a financiar o atendimento das demais; as tarifas sociais, mais baratas para famílias de baixa renda; os subsídios orçamentários explícitos; e as metas de universalização impostas em contratos de concessão. O setor de saneamento, por exemplo, teve o seu marco legal revisto em dois mil e vinte, com a fixação de metas nacionais de universalização a serem cumpridas por prestadores públicos e privados.
+
+O ponto de prova: universalização e sustentabilidade fiscal não são incompatíveis por natureza. Podem entrar em tensão, mas há instrumentos para conciliá-las. O que é preciso é que o custo da universalização seja reconhecido, financiado e transparente. Item que afirme que uma deve sempre prevalecer sobre a outra está errado.
+
+Sustentabilidade fiscal das estatais e das políticas.
+
+As estatais podem gerar riscos fiscais: prejuízos que exigem aportes do Tesouro, dívidas com garantia pública, passivos ocultos. A legislação fiscal distingue as estatais dependentes, que recebem do ente controlador recursos para pagar despesas de pessoal, de custeio em geral ou de capital, e as não dependentes. As dependentes integram o orçamento fiscal e se submetem a limites mais rígidos.
+
+E há os subsídios implícitos, que são o ponto mais sensível para o auditor. Quando um banco público concede crédito a juros abaixo do custo de captação do Tesouro, há um custo fiscal real, ainda que ele não apareça como despesa direta no orçamento. A falta de transparência sobre esses custos dificulta o controle e o debate democrático sobre quem se beneficia.
+
+Sustentabilidade socioambiental.
+
+A Constituição inclui a defesa do meio ambiente entre os princípios da ordem econômica, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e dos seus processos. E, como vimos, a Lei das Estatais exige práticas de sustentabilidade ambiental e de responsabilidade social corporativa. A transformação produtiva contemporânea, além disso, está fortemente associada à transição energética e à economia de baixo carbono, em que o Estado tem papel relevante, por planejamento, regulação, financiamento e compras públicas.
+
+Capacidades estatais.
+
+Lembre a aula sobre federalismo e capacidades estatais. Qualquer arranjo de desenvolvimento depende de capacidade técnico-administrativa, como burocracias qualificadas, dados e sistemas, e de capacidade política, como coordenação, negociação e legitimidade. Uma política industrial sofisticada, executada por um Estado sem capacidade para monitorar contrapartidas, tende a fracassar. Uma regulação complexa, sem agência capaz de fiscalizá-la, fica no papel. E uma estatal sem governança profissional fica vulnerável ao uso político. A escolha do instrumento deve considerar as capacidades reais, e não as ideais.
+
+Riscos de captura.
+
+A atuação econômica do Estado é terreno fértil para a captura, que você estudou nas aulas anteriores. Alguns riscos típicos.
+
+Captura por grupos empresariais: incentivos, crédito subsidiado ou proteção concedidos a setores ou empresas específicas, sem contrapartidas e sem prazo, que se tornam permanentes. A literatura chama de busca de renda, ou rent-seeking, o esforço de grupos para obter vantagens do Estado, em vez de gerar valor no mercado.
+
+Captura política: uso das estatais para nomeações por patronagem, para financiar aliados ou para objetivos eleitorais.
+
+Captura regulatória: agências que passam a defender os interesses do setor regulado.
+
+Captura corporativa: grupos internos que se apropriam da empresa ou do órgão em benefício próprio.
+
+Os antídotos são os que você já conhece: transparência, governança, contrapartidas, prazos, avaliação, controle e participação.
+
+Efeitos distributivos.
+
+Toda escolha de política econômica tem ganhadores e perdedores, como vimos na aula sobre conflitos distributivos e na tipologia de Lowi. O auditor deve perguntar: quem se beneficia e quem paga?
+
+Alguns exemplos. Um crédito subsidiado concentrado em grandes empresas, financiado pelo conjunto dos contribuintes, pode ter efeito regressivo, isto é, transferir recursos de quem tem menos para quem tem mais. Uma tarifa social para famílias de baixa renda tem efeito progressivo. Um incentivo fiscal regional pode reduzir desigualdades entre regiões, ou apenas transferir empresas de um lugar para outro sem gerar desenvolvimento novo. A proteção a um setor pode preservar empregos, mas encarecer produtos para todos os consumidores.
+
+Esses efeitos raramente são visíveis à primeira vista. Por isso, a avaliação das políticas de desenvolvimento precisa olhar para a distribuição dos custos e benefícios, e não apenas para o volume de recursos aplicados.
+
+Pegadinhas do bloco três. Dizer que as estatais devem buscar exclusivamente o lucro, ou que podem ignorar a sustentabilidade. Dizer que as estatais exploradoras de atividade econômica podem ter privilégios fiscais. Dizer que universalização e sustentabilidade fiscal são incompatíveis. Dizer que subsídio que não aparece como despesa não tem custo fiscal. Dizer que a captura só ocorre por empresas privadas. E dizer que toda política de desenvolvimento reduz desigualdades.
+
+Resumo do bloco três. Finalidade pública e sustentabilidade financeira devem ser equilibradas, com as políticas públicas explícitas e custeadas. As estatais devem competir sem privilégios fiscais, segundo o princípio da neutralidade competitiva e o artigo cento e setenta e três. Universalização e sustentabilidade fiscal podem ser conciliadas por subsídios cruzados, tarifas sociais, subsídios explícitos e metas contratuais. Subsídios implícitos têm custo fiscal real. A escolha dos instrumentos deve considerar capacidades estatais, riscos de captura e efeitos distributivos.
+
+
+BLOCO QUATRO. FUNDAMENTOS CONSTITUCIONAIS E COMPARAÇÃO DE ALTERNATIVAS INSTITUCIONAIS.
+
+Comecemos pela Constituição, que organiza a ordem econômica nos artigos cento e setenta a cento e oitenta e um.
+
+Artigo cento e setenta: fundamentos, finalidade e princípios.
+
+O caput diz que a ordem econômica, fundada na valorização do trabalho humano e na livre iniciativa, tem por fim assegurar a todos existência digna, conforme os ditames da justiça social.
+
+Três partes, três pegadinhas.
+
+Os fundamentos são dois: valorização do trabalho humano e livre iniciativa. Repare que o trabalho vem primeiro e que a expressão é valorização do trabalho humano. Lembre também que, no artigo primeiro, os valores sociais do trabalho e da livre iniciativa são fundamentos da República.
+
+A finalidade é assegurar a todos existência digna, conforme os ditames da justiça social. Não é o crescimento econômico, nem o lucro, nem a eficiência.
+
+Os princípios estão em nove incisos: soberania nacional; propriedade privada; função social da propriedade; livre concorrência; defesa do consumidor; defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e dos seus processos de elaboração e prestação; redução das desigualdades regionais e sociais; busca do pleno emprego; e tratamento favorecido para as empresas de pequeno porte constituídas sob as leis brasileiras e que tenham sua sede e administração no País.
+
+A troca mais cobrada, assim como no artigo terceiro, é entre redução e erradicação das desigualdades. No artigo cento e setenta, o verbo é reduzir. Outras trocas: pleno emprego por geração de empregos; e tratamento favorecido para empresas de pequeno porte por tratamento favorecido para empresas de capital nacional, que era a redação original, já alterada.
+
+Repare que a lista combina princípios de natureza liberal, como propriedade privada e livre concorrência, com princípios de natureza social, como função social, redução das desigualdades e pleno emprego. A Constituição não adota um modelo puro. Ela exige a harmonização desses princípios. Item que diga que a ordem econômica constitucional é de natureza exclusivamente liberal, ou exclusivamente intervencionista, está errado.
+
+E o parágrafo único: é assegurado a todos o livre exercício de qualquer atividade econômica, independentemente de autorização de órgãos públicos, salvo nos casos previstos em lei. A livre iniciativa é a regra, mas pode ser limitada por lei.
+
+Artigo cento e setenta e três: a exploração direta de atividade econômica pelo Estado.
+
+O caput diz: ressalvados os casos previstos nesta Constituição, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei.
+
+Os pontos de prova são quatro.
+
+Primeiro: a palavra só. A exploração direta de atividade econômica em sentido estrito é excepcional. A regra, na ordem econômica brasileira, é que a atividade econômica seja exercida pela iniciativa privada. O Estado empresário é exceção, condicionada.
+
+Segundo: as duas hipóteses: imperativos da segurança nacional ou relevante interesse coletivo.
+
+Terceiro: conforme definidos em lei. Não é o administrador que decide, por conta própria, o que é relevante interesse coletivo. É a lei. E, como vimos, a lei autorizadora da estatal deve indicar isso de forma clara.
+
+Quarto: ressalvados os casos previstos nesta Constituição. Há atividades que a própria Constituição reserva ao Estado, como os monopólios da União, previstos no artigo cento e setenta e sete.
+
+Os parágrafos do artigo cento e setenta e três também são cobrados. O parágrafo primeiro manda a lei estabelecer o estatuto jurídico das estatais exploradoras de atividade econômica, dispondo sobre a sua função social e formas de fiscalização pelo Estado e pela sociedade; a sujeição ao regime jurídico próprio das empresas privadas, inclusive quanto aos direitos e obrigações civis, comerciais, trabalhistas e tributários; licitação e contratação, observados os princípios da administração pública; a constituição e o funcionamento dos conselhos de administração e fiscal, com a participação de acionistas minoritários; e os mandatos, a avaliação de desempenho e a responsabilidade dos administradores. Esse estatuto é a Lei das Estatais. O parágrafo segundo veda privilégios fiscais não extensivos ao setor privado. E o parágrafo quarto determina que a lei reprimirá o abuso do poder econômico que vise à dominação dos mercados, à eliminação da concorrência e ao aumento arbitrário dos lucros.
+
+Artigo cento e setenta e quatro: o Estado como agente normativo e regulador.
+
+O caput diz que, como agente normativo e regulador da atividade econômica, o Estado exercerá, na forma da lei, as funções de fiscalização, incentivo e planejamento, sendo este determinante para o setor público e indicativo para o setor privado.
+
+Esta é, provavelmente, a pegadinha mais cobrada de todo o item. O planejamento é determinante para o setor público, isto é, obriga a administração. E é apenas indicativo para o setor privado, isto é, orienta, sinaliza, mas não obriga. Item que afirme que o planejamento econômico estatal é determinante para os agentes privados está errado.
+
+E guarde as três funções: fiscalização, incentivo e planejamento. O parágrafo primeiro acrescenta que a lei estabelecerá as diretrizes e bases do planejamento do desenvolvimento nacional equilibrado, o qual incorporará e compatibilizará os planos nacionais e regionais de desenvolvimento.
+
+Agora, uma síntese útil. A doutrina costuma organizar a atuação do Estado na economia em duas grandes formas. A atuação direta, em que o Estado é agente econômico, produzindo bens ou serviços por meio de estatais, em concorrência ou em monopólio; é o campo do artigo cento e setenta e três. E a atuação indireta, em que o Estado é agente normativo e regulador, por meio de fiscalização, incentivo e planejamento; é o campo do artigo cento e setenta e quatro.
+
+Artigo cento e setenta e cinco: os serviços públicos.
+
+Diz que incumbe ao poder público, na forma da lei, diretamente ou sob regime de concessão ou permissão, sempre através de licitação, a prestação de serviços públicos.
+
+Os pontos de prova: o titular do serviço público é o poder público; ele pode prestar diretamente ou delegar a particulares por concessão ou permissão; e a delegação exige sempre licitação. Item que admita a concessão de serviço público sem licitação, como regra, está errado.
+
+E uma distinção conceitual importante, que o Supremo adota: a atividade econômica em sentido amplo é um gênero, que se divide em duas espécies. O serviço público, de titularidade do Estado, regido pelo artigo cento e setenta e cinco. E a atividade econômica em sentido estrito, de titularidade, em regra, da iniciativa privada, em que o Estado só atua nas hipóteses do artigo cento e setenta e três. Essa distinção explica por que uma estatal que presta serviço público pode ter um regime diferente de uma estatal que compete no mercado.
+
+Artigo cento e setenta e sete: os monopólios da União.
+
+A Constituição reserva à União o monopólio de certas atividades, como a pesquisa e a lavra das jazidas de petróleo e gás natural, a refinação do petróleo, a importação e exportação desses produtos, o transporte de petróleo e derivados por meio de dutos, e atividades ligadas a minérios nucleares. Desde uma emenda de mil novecentos e noventa e cinco, a União pode contratar com empresas estatais ou privadas a realização de várias dessas atividades. Ou seja, o monopólio é da União, mas a execução pode ser contratada.
+
+Por fim, o capítulo sobre ciência, tecnologia e inovação estabelece que o Estado promoverá e incentivará o desenvolvimento científico, a pesquisa, a capacitação científica e tecnológica e a inovação, e que o mercado interno integra o patrimônio nacional e será incentivado de modo a viabilizar o desenvolvimento. Isso dá base constitucional às políticas de inovação vistas no bloco um.
+
+Agora, a segunda parte do subitem: a comparação de alternativas institucionais.
+
+Diante de um objetivo de desenvolvimento, o Estado tem várias alternativas. Vamos listá-las, porque a banca pode descrever uma situação e pedir a mais adequada, ou pedir os critérios de escolha.
+
+Provisão direta pela administração, com servidores e recursos do orçamento.
+
+Atuação por meio de empresa estatal.
+
+Delegação a particulares, por concessão ou permissão, ou parceria público-privada, com regulação.
+
+Regulação da atividade privada, sem provisão estatal.
+
+Incentivos: tributários, creditícios ou por meio de compras públicas.
+
+Financiamento por bancos públicos.
+
+Parcerias com organizações da sociedade civil.
+
+E a alternativa de não intervir, deixando ao mercado, eventualmente com ajustes regulatórios mínimos.
+
+O edital diz como comparar: à luz de objetivos, evidências e resultados. Vamos transformar isso em perguntas.
+
+Qual é o objetivo? Qual problema se quer resolver? Há uma falha de mercado identificada? Um objetivo de equidade? Uma meta de transformação produtiva? Sem objetivo claro, não há como escolher nem avaliar.
+
+Quais são as evidências? O que se sabe sobre o desempenho de cada alternativa em situações semelhantes, no Brasil e em outros países? Que dados estão disponíveis? Lembre do decreto de governança, que inclui instrumentos de promoção do processo decisório fundamentado em evidências.
+
+Quais são os resultados esperados e como serão medidos? Quais indicadores mostrarão se a política funcionou? Quando e como será avaliada?
+
+E, além desses três, os elementos do bloco três: quais são as capacidades estatais disponíveis para executar e controlar a alternativa? Quais são os riscos de captura e como serão mitigados? Qual é o custo fiscal total, inclusive implícito? Quais são os efeitos distributivos? Quais são os efeitos sobre a concorrência? A alternativa é reversível, ou tem previsão de saída? E como será garantida a transparência e a prestação de contas?
+
+Para a avaliação antes da decisão, o Brasil tem instrumentos como a análise de impacto regulatório, exigida para propostas de atos normativos de interesse geral editados por órgãos e entidades da administração federal, e a avaliação prévia de políticas públicas. Para a avaliação depois da implementação, há a avaliação de políticas, em que órgãos como a CGU e o Tribunal de Contas da União têm atuação relevante. O edital volta a esses temas em políticas públicas e em auditoria.
+
+A mensagem final do item: nenhuma alternativa é superior em abstrato. Estatais podem ser eficientes ou ineficientes, privadas podem ser eficientes ou ineficientes, a regulação pode funcionar bem ou ser capturada. O desempenho depende do desenho institucional, da governança, das capacidades e do contexto. Item que afirme que a privatização é sempre mais eficiente do que a provisão estatal, ou que a provisão estatal é sempre mais adequada para garantir direitos, está errado. A escolha deve ser fundamentada no caso concreto.
+
+Pegadinhas do bloco quatro. Trocar redução por erradicação das desigualdades no artigo cento e setenta. Dizer que a finalidade da ordem econômica é o crescimento econômico. Dizer que a ordem econômica é exclusivamente liberal ou exclusivamente intervencionista. Dizer que a exploração direta de atividade econômica pelo Estado é a regra. Dizer que o administrador define o relevante interesse coletivo sem lei. Dizer que o planejamento é determinante para o setor privado. Dizer que a concessão de serviço público dispensa licitação. Dizer que o monopólio da União impede a contratação de empresas privadas. E dizer que uma alternativa institucional é superior em qualquer caso.
+
+Resumo do bloco quatro. O artigo cento e setenta funda a ordem econômica na valorização do trabalho humano e na livre iniciativa, com a finalidade de assegurar existência digna conforme a justiça social, e combina princípios liberais e sociais. O artigo cento e setenta e três torna excepcional a exploração direta de atividade econômica pelo Estado, só por imperativo de segurança nacional ou relevante interesse coletivo definidos em lei, com estatais sob regime privado e sem privilégios fiscais. O artigo cento e setenta e quatro faz do Estado agente normativo e regulador, com fiscalização, incentivo e planejamento, determinante para o setor público e indicativo para o privado. O artigo cento e setenta e cinco atribui ao poder público os serviços públicos, prestados diretamente ou por concessão ou permissão, sempre com licitação. E a comparação de alternativas deve partir de objetivos, evidências e resultados, considerando capacidades, captura, custos, distribuição e reversibilidade.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Primeira estratégia: troca de palavras na Constituição. Redução e erradicação. Determinante e indicativo. Só será permitida, transformado em será permitida. Sempre através de licitação, transformado em preferencialmente. Valorização do trabalho humano trocada por outra expressão.
+
+Segunda estratégia: troca de conceitos jurídicos. Empresa pública e sociedade de economia mista. Atuação direta e atuação indireta. Serviço público e atividade econômica em sentido estrito. Lei que autoriza e lei que cria.
+
+Terceira estratégia: modelos puros. Economia exclusivamente de mercado ou exclusivamente estatal. Constituição exclusivamente liberal ou exclusivamente social. Estado desenvolvimentista como estatização total.
+
+Quarta estratégia: superioridade em abstrato. Privatizar é sempre melhor. Estatal é sempre mais social. Toda falha de mercado justifica intervenção.
+
+Quinta estratégia: incompatibilidade necessária. Universalização contra sustentabilidade fiscal. Finalidade pública contra eficiência. Planejamento contra mercado.
+
+Sexta estratégia: custo invisível tratado como inexistente. Subsídio implícito sem custo fiscal. Política executada por estatal sem necessidade de explicitar custos.
+
+Sétima estratégia: situação hipotética. Pergunte. Qual é o objetivo? Qual instrumento está sendo usado? Há base constitucional e legal? Quem ganha e quem paga? Há contrapartidas, prazos e avaliação? Quais são os riscos de captura?
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+Os arranjos de desenvolvimento adotados pelos países combinam, em diferentes proporções, mecanismos de mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado, razão pela qual as economias contemporâneas não correspondem a modelos puros de mercado ou de Estado.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: as economias reais são mistas, e o que varia é a dosagem e a forma de combinar os instrumentos. Os modelos teóricos são tipos ideais.
+
+Questão dois.
+Nos termos da Constituição Federal, o Estado, como agente normativo e regulador da atividade econômica, exercerá as funções de fiscalização, incentivo e planejamento, sendo este determinante tanto para o setor público quanto para o setor privado.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o planejamento é determinante para o setor público e indicativo para o setor privado, conforme o artigo cento e setenta e quatro. Essa é uma das pegadinhas mais cobradas do tema.
+
+Questão três.
+Ressalvados os casos previstos na Constituição Federal, a exploração direta de atividade econômica pelo Estado só será permitida quando necessária aos imperativos da segurança nacional ou a relevante interesse coletivo, conforme definidos em lei.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o caput do artigo cento e setenta e três. Repare na palavra só, que indica o caráter excepcional da atuação empresarial do Estado em atividade econômica em sentido estrito, e na exigência de definição em lei.
+
+Questão quatro.
+Para o cumprimento de sua função social, as empresas públicas e as sociedades de economia mista que exploram atividade econômica podem gozar de privilégios fiscais não extensivos às empresas do setor privado.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o parágrafo segundo do artigo cento e setenta e três veda expressamente esses privilégios. É uma expressão do princípio da livre concorrência e da neutralidade competitiva.
+
+Questão cinco.
+Incumbe ao poder público, na forma da lei, diretamente ou sob regime de concessão ou permissão, sempre através de licitação, a prestação de serviços públicos.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o artigo cento e setenta e cinco. O titular do serviço público é o Estado, que pode prestá-lo diretamente ou delegá-lo, sempre por licitação.
+
+Questão seis.
+Entre os princípios da ordem econômica previstos na Constituição Federal, inclui-se a erradicação das desigualdades regionais e sociais.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o princípio do artigo cento e setenta é a redução das desigualdades regionais e sociais. A troca de reduzir por erradicar é uma pegadinha recorrente, tanto no artigo cento e setenta quanto no artigo terceiro.
+
+Questão sete.
+De acordo com a Lei das Estatais, a empresa pública e a sociedade de economia mista têm a função social de realização do interesse coletivo ou de atendimento a imperativo da segurança nacional expressa no instrumento de autorização legal para a sua criação.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o artigo vinte e sete da Lei treze mil trezentos e três. A função social está vinculada à razão que justificou a criação da empresa, e deve ser orientada ao bem-estar econômico e à alocação socialmente eficiente dos recursos.
+
+Questão oito.
+Um banco público concede, por vários anos, crédito a juros inferiores ao custo de captação do Tesouro a grandes empresas que teriam acesso ao mercado privado de crédito, sem estabelecer metas ou contrapartidas. Nessa situação, há custo fiscal implícito, risco de captura e possibilidade de efeitos distributivos regressivos.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: o subsídio tem custo real, ainda que não apareça como despesa direta. A ausência de contrapartidas e de prazo favorece a busca de renda, e a concentração em grandes empresas, financiada pelo conjunto dos contribuintes, pode transferir recursos de quem tem menos para quem tem mais.
+
+Questão nove.
+Universalização do acesso a serviços públicos e sustentabilidade fiscal são objetivos incompatíveis, devendo o gestor optar, em qualquer caso, por um deles em detrimento do outro.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: os objetivos podem entrar em tensão, mas há instrumentos de conciliação, como subsídios cruzados, tarifas sociais, subsídios orçamentários explícitos e metas de universalização em contratos. O essencial é reconhecer, financiar e dar transparência aos custos.
+
+Questão dez.
+O modelo de Estado desenvolvimentista caracteriza-se pela estatização integral dos meios de produção e pela eliminação dos mecanismos de mercado na coordenação da economia.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: no modelo desenvolvimentista, o Estado orienta, coordena, financia e induz a transformação produtiva, mas o setor privado continua central. Estatização integral e planejamento central caracterizam outro modelo.
+
+Questão onze.
+A escolha entre alternativas institucionais para a atuação econômica do Estado, como a provisão direta, a atuação por empresa estatal, a concessão com regulação ou a concessão de incentivos, deve basear-se nos objetivos pretendidos, nas evidências disponíveis e nos resultados esperados, considerando as capacidades estatais e os riscos envolvidos, e não em preferência estabelecida a priori por um dos modelos.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a perspectiva do subitem um ponto um ponto nove ponto quatro. Nenhuma alternativa é superior em abstrato: o desempenho depende do desenho institucional, da governança, das capacidades e do contexto.
+
+Questão doze.
+A empresa pública tem capital social integralmente detido pelo poder público e deve adotar, obrigatoriamente, a forma de sociedade anônima, ao passo que a sociedade de economia mista pode adotar qualquer forma societária admitida em direito.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: as formas estão trocadas. A empresa pública, de capital integralmente público, pode adotar qualquer forma societária. A sociedade de economia mista é que deve ser, obrigatoriamente, sociedade anônima, com a maioria das ações com direito a voto pertencente ao ente público.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Mercado, planejamento, regulação, provisão pública e atuação empresarial do Estado se combinam. Economias reais são mistas.
+
+Falha de mercado é condição para considerar a intervenção, mas não a justifica sozinha: há falhas de governo.
+
+Modelos: liberal, bem-estar e keynesiano, desenvolvimentista, regulador, empreendedor. Desenvolvimentista não é estatização. Johnson e Evans. CEPAL, Prebisch e Furtado, substituição de importações. Mazzucato e o Estado empreendedor.
+
+Política industrial com objetivos, contrapartidas, prazos, transparência e avaliação.
+
+Empresa pública: capital integralmente público, qualquer forma. Sociedade de economia mista: sociedade anônima, controle público. Lei específica autoriza.
+
+Estatais: investimento de longo prazo, infraestrutura, financiamento e serviços públicos.
+
+Lei das Estatais: função social ligada à razão da criação; carta anual com políticas públicas e custos explícitos; governança; sustentabilidade.
+
+Neutralidade competitiva: regime privado e sem privilégios fiscais.
+
+Universalização e sustentabilidade fiscal se conciliam com subsídio cruzado, tarifa social, subsídio explícito e metas. Subsídio implícito tem custo.
+
+Capacidades, captura e efeitos distributivos sempre na análise.
+
+Artigo cento e setenta: valorização do trabalho humano e livre iniciativa; existência digna e justiça social; nove princípios, com redução, e não erradicação, das desigualdades.
+
+Artigo cento e setenta e três: Estado empresário só por segurança nacional ou relevante interesse coletivo definidos em lei.
+
+Artigo cento e setenta e quatro: fiscalização, incentivo e planejamento; determinante para o setor público, indicativo para o privado.
+
+Artigo cento e setenta e cinco: serviço público direto ou por concessão ou permissão, sempre com licitação.
+
+Comparar alternativas por objetivos, evidências e resultados. Nenhuma é superior em abstrato.
+
+Fim da aula do item um ponto um ponto nove, que encerra o bloco sobre Estado, democracia, direitos e ciência política. Na sequência do edital, vem o bloco um ponto dois, sociedade brasileira, desigualdades, diversidade e desenvolvimento, começando pelo item um ponto dois ponto um, fundamentos sociológicos. Bons estudos.

@@ -1,0 +1,310 @@
+ROTEIRO DE AUDIOAULA
+Concurso da Controladoria-Geral da União. Cargo de Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
+Item um ponto três ponto um do edital: Fundamentos da ética pública.
+Subitem um ponto três ponto um ponto um: Interesse público, dignidade, justiça e responsabilidade; relações entre deveres, consequências e virtudes profissionais; conflitos entre valores em decisões públicas.
+
+
+ABERTURA
+
+Olá! Seja bem-vindo e bem-vinda a mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
+
+Hoje começamos um novo eixo do edital, o item um ponto três, Ética pública e responsabilidade profissional. E começamos pelos fundamentos. Este é um tema em que muita gente acha que vai acertar "no bom senso" e acaba errando, porque a Cebraspe cobra conceitos precisos de filosofia moral e textos normativos que têm palavras muito específicas.
+
+O edital pede três coisas. Primeira, os valores básicos da ética pública: interesse público, dignidade, justiça e responsabilidade. Segunda, as relações entre deveres, consequências e virtudes profissionais, ou seja, as três grandes tradições da ética: a deontologia, o consequencialismo e a ética das virtudes. Terceira, os conflitos entre valores nas decisões públicas, os chamados dilemas.
+
+Por isso a aula terá três blocos. No primeiro, os valores. No segundo, as três teorias e como elas aparecem nos códigos de ética do serviço público federal. No terceiro, os conflitos entre valores e as ferramentas para decidir. Depois, as estratégias da banca, doze questões de fixação no formato certo ou errado e a revisão final.
+
+Uma nota de estratégia: neste item, a Cebraspe adora três movimentos. Atribuir a um autor a ideia de outro, por exemplo, dar a Kant uma frase de utilitarista. Transformar uma relação de complementaridade em exclusão, como dizer que Weber manda abandonar a ética da convicção. E trocar palavras de normas, como dizer que a comissão de ética pode demitir.
+
+Uma nota sobre fontes: os trechos de normas vêm do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, aprovado pelo Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, e do Decreto seis mil e vinte e nove, de dois mil e sete, que instituiu o Sistema de Gestão da Ética do Poder Executivo Federal. Os autores clássicos são citados pelas ideias, não por frases literais.
+
+Vamos lá.
+
+
+BLOCO UM: INTERESSE PÚBLICO, DIGNIDADE, JUSTIÇA E RESPONSABILIDADE
+
+Antes de tudo, três palavras que a banca gosta de embaralhar: ética, moral e direito.
+
+Moral é o conjunto de valores e regras de conduta que uma sociedade ou um grupo efetivamente pratica. Ética, no sentido filosófico, é a reflexão crítica sobre a moral: é perguntar por que certas condutas são boas ou más e como justificar isso. No uso cotidiano, e também em muitos textos normativos, as duas palavras aparecem quase como sinônimas, e a banca costuma aceitar isso. Mas, se a questão pedir a distinção, guarde: moral é a prática, ética é a reflexão.
+
+E o direito? O direito é obrigatório e coercitivo: o Estado impõe sanções por meio de procedimentos formais. A moral depende muito mais da adesão da consciência. Há uma imagem clássica: a moral é um círculo maior e o direito um círculo menor dentro dele. Nem tudo o que é imoral é ilegal, e há normas jurídicas moralmente neutras, como as regras de trânsito sobre de que lado dirigir.
+
+Primeira pegadinha: "todo comportamento legal é, por definição, ético". Errado. Legalidade e ética se sobrepõem, mas não coincidem. O próprio Código de Ética do servidor federal deixa isso claro, como veremos no bloco dois.
+
+Agora, os quatro valores do edital.
+
+Primeiro valor: interesse público. Na doutrina administrativista brasileira, muito associada a Celso Antônio Bandeira de Mello, que se inspira no italiano Renato Alessi, há uma distinção importante. O interesse público primário é o interesse da coletividade, o interesse do povo, aquilo que o Estado existe para realizar. O interesse público secundário é o interesse do Estado enquanto pessoa jurídica, como arrecadar mais ou pagar menos em um processo. O secundário só é legítimo quando coincide com o primário.
+
+Exemplo: o Estado pode ter interesse secundário em não pagar uma indenização devida a um cidadão. Mas o interesse público primário, que inclui a justiça e o respeito aos direitos, exige o pagamento. Prevalece o primário.
+
+Daí vêm dois princípios clássicos do regime jurídico-administrativo. A supremacia do interesse público sobre o privado e a indisponibilidade do interesse público. Indisponibilidade quer dizer que o agente público não é dono do interesse público: ele o administra em nome da coletividade e não pode abrir mão dele por vontade própria.
+
+Pegadinha: "o interesse público confunde-se com o interesse do governo ou da administração enquanto pessoa jurídica". Errado. Esse é o interesse secundário, e ele não se confunde com o primário. E outra: "a supremacia do interesse público autoriza o sacrifício de direitos fundamentais sem limites". Errado. A doutrina atual insiste que a supremacia não é carta branca: ela se submete à Constituição, aos direitos fundamentais e à proporcionalidade.
+
+Segundo valor: dignidade. A dignidade da pessoa humana é fundamento da República, no artigo primeiro, inciso terceiro, da Constituição. Atenção: fundamento, no artigo primeiro, e não objetivo, que são os do artigo terceiro. Essa troca já apareceu em aula anterior e volta aqui.
+
+A raiz filosófica mais citada é Immanuel Kant. Para Kant, as coisas têm preço e podem ser trocadas por equivalentes, enquanto a pessoa tem dignidade, um valor que não tem equivalente. Daí uma das formulações do seu imperativo categórico: agir de modo a tratar a humanidade, na sua pessoa e na de qualquer outro, sempre como um fim e nunca apenas como um meio.
+
+Na ética pública, a dignidade aparece em coisas muito concretas: tratar o cidadão com cortesia, não deixá-lo em filas intermináveis, não humilhá-lo, respeitar sua privacidade, usar linguagem acessível. O Código de Ética federal diz expressamente que deixar o usuário esperando, com filas e atrasos, não é só atitude contra a ética, mas causa grave dano moral aos usuários dos serviços públicos.
+
+Terceiro valor: justiça. Aqui há duas referências que a banca cobra.
+
+A primeira é Aristóteles. Ele distingue a justiça distributiva, que reparte bens e encargos entre os membros da comunidade de acordo com algum critério de mérito ou necessidade, ou seja, uma igualdade proporcional, e a justiça corretiva, também chamada comutativa, que corrige trocas e danos entre particulares segundo uma igualdade aritmética. Repare: tratar igualmente os iguais e desigualmente os desiguais, na medida da sua desigualdade, é uma ideia de justiça distributiva.
+
+A segunda é o filósofo norte-americano John Rawls, em Uma Teoria da Justiça, de mil novecentos e setenta e um. Rawls imagina uma posição original em que as pessoas escolhem os princípios da sociedade sob um véu da ignorância: não sabem que lugar vão ocupar, se serão ricas ou pobres, saudáveis ou doentes. Nessa situação, escolheriam dois princípios. Primeiro, iguais liberdades básicas para todos. Segundo, as desigualdades sociais e econômicas só são aceitáveis se estiverem ligadas a posições abertas a todos em igualdade equitativa de oportunidades e se beneficiarem os menos favorecidos. Essa última parte é o famoso princípio da diferença.
+
+Pegadinha: "para Rawls, qualquer desigualdade econômica é injusta". Errado. Desigualdades são aceitáveis se beneficiarem os menos favorecidos e respeitarem a igualdade equitativa de oportunidades. Outra pegadinha: atribuir o véu da ignorância a Aristóteles ou a Kant. É de Rawls.
+
+Quarto valor: responsabilidade. Responsabilidade tem dois sentidos. Um olha para trás: responder pelos próprios atos, prestar contas, arcar com as consequências. É a ideia de accountability, que vimos nas aulas sobre democracia e controle. O outro olha para frente: cuidar daquilo que nos foi confiado, prever efeitos, agir com zelo.
+
+Aqui entra o sociólogo alemão Max Weber, na conferência A política como vocação, de mil novecentos e dezenove. Weber distingue a ética da convicção e a ética da responsabilidade. Quem age pela ética da convicção faz o que considera certo segundo seus princípios e entrega o resultado, como diz a imagem religiosa, nas mãos de Deus. Quem age pela ética da responsabilidade responde pelas consequências previsíveis de seus atos.
+
+Agora, atenção máxima, porque esta é talvez a pegadinha mais repetida do tema. Weber não diz que a ética da convicção não tem responsabilidade, nem que a ética da responsabilidade não tem convicção. E ele não manda abandonar uma delas. No final da conferência, ele afirma que as duas não são opostas de modo absoluto, mas se completam, e que só quem reúne as duas tem verdadeira vocação para a política. O político maduro age com responsabilidade pelas consequências, mas, em algum momento, diz: "aqui eu paro, não posso agir de outro modo".
+
+Uma referência complementar: o filósofo Hans Jonas, em O princípio responsabilidade, de mil novecentos e setenta e nove, defende uma ética voltada para o futuro, diante do poder da tecnologia. Ele propõe agir de modo que os efeitos da ação sejam compatíveis com a permanência de uma vida humana autêntica na Terra. Isso conversa com a aula passada, sobre sustentabilidade e gerações futuras, e também com o desenvolvimento de sistemas: quem constrói tecnologia tem responsabilidade pelos efeitos que ela pode produzir.
+
+Resumo do bloco. Moral é prática, ética é reflexão, e direito é coercitivo; legal não é sinônimo de ético. Interesse público primário é o da coletividade; secundário, o do Estado como pessoa jurídica; prevalece o primário. A dignidade é fundamento da República e, em Kant, significa tratar a pessoa sempre como fim, nunca apenas como meio. Justiça: em Aristóteles, distributiva e corretiva; em Rawls, véu da ignorância e princípio da diferença. Responsabilidade: prestar contas e cuidar do futuro; em Weber, ética da convicção e ética da responsabilidade se completam.
+
+
+BLOCO DOIS: DEVERES, CONSEQUÊNCIAS E VIRTUDES PROFISSIONAIS
+
+O edital fala em deveres, consequências e virtudes. Essas três palavras correspondem às três grandes famílias da teoria ética. Vamos a cada uma.
+
+Primeira família: a ética dos deveres, chamada deontologia, do grego "déon", dever. Para a deontologia, uma ação é correta ou incorreta por si mesma, conforme respeite ou viole um dever, independentemente das consequências.
+
+O grande nome é Kant. Para ele, o que dá valor moral a uma ação é agir por dever, a partir de uma boa vontade, e não pelo resultado. O critério é o imperativo categórico. Na primeira formulação: age apenas segundo uma máxima tal que possas, ao mesmo tempo, querer que ela se torne lei universal. Na segunda, aquela que já vimos: trata a humanidade sempre como fim e nunca apenas como meio.
+
+"Categórico" quer dizer incondicional. É diferente de um imperativo hipotético, que é condicional: "se você quer ser promovido, trabalhe bem". O imperativo categórico vale sem "se".
+
+Exemplo clássico: mentir. Para Kant, não posso universalizar a regra "minta quando for conveniente", porque, se todos mentissem, a própria confiança que torna a mentira possível desapareceria. Logo, mentir é errado, mesmo que, num caso, a mentira produzisse um bom resultado.
+
+Pegadinha: "para a ética kantiana, a correção de uma ação depende de suas consequências". Errado. Isso é consequencialismo. Para Kant, vale a intenção, o agir por dever.
+
+Segunda família: o consequencialismo. Para ele, o que torna uma ação certa ou errada são as suas consequências. A versão mais conhecida é o utilitarismo, de Jeremy Bentham e John Stuart Mill. A ação correta é a que produz a maior felicidade, ou o maior bem-estar, para o maior número de pessoas.
+
+O utilitarismo tem uma grande vantagem para as políticas públicas: ele obriga a olhar para os resultados, para o custo e o benefício, para quem ganha e quem perde. Avaliação de impacto, análise de custo-benefício e análise de impacto regulatório têm raiz consequencialista.
+
+Mas tem uma crítica clássica: se só importa o saldo total, a felicidade da maioria poderia justificar sacrificar os direitos de uma minoria. É justamente aí que Rawls critica o utilitarismo: ele diz que o utilitarismo não leva a sério a distinção entre as pessoas. E é por isso que, no Estado constitucional, os direitos fundamentais funcionam como limites ao cálculo de consequências.
+
+Pegadinha: "o utilitarismo de Bentham e Mill avalia as ações exclusivamente pela intenção do agente". Errado. Avalia pelas consequências.
+
+Terceira família: a ética das virtudes. Aqui a pergunta muda. Não é "qual regra devo seguir?" nem "qual resultado devo buscar?", mas "que tipo de pessoa, ou de profissional, devo ser?".
+
+O grande nome é Aristóteles, na Ética a Nicômaco. Para ele, a virtude é uma disposição de caráter adquirida pelo hábito: nos tornamos justos praticando atos justos e corajosos praticando atos corajosos. A virtude moral é um meio-termo entre dois vícios, um por excesso e outro por falta. A coragem fica entre a covardia e a temeridade. A generosidade, entre a avareza e a prodigalidade.
+
+E há uma virtude central, a prudência, em grego "phrónesis", também chamada sabedoria prática. É a capacidade de deliberar bem sobre o que fazer em situações concretas. A prudência não se aprende só em livro: vem da experiência. O objetivo da vida virtuosa é a "eudaimonia", que se traduz por felicidade ou florescimento humano.
+
+Pegadinha: "para Aristóteles, a virtude é inata e não depende do hábito". Errado. A virtude moral se adquire pelo hábito. Outra pegadinha: "a virtude é o extremo oposto do vício". Errado. É o meio-termo entre dois vícios, e esse meio-termo não é uma média matemática, mas o que é adequado à situação, definido pela prudência.
+
+Agora, como as três famílias se relacionam com a ética profissional? A ideia mais moderna, e a mais aceita na banca, é que elas não se excluem: se complementam. Um bom profissional cumpre deveres, como sigilo e imparcialidade; avalia consequências, como o efeito de um parecer sobre os cidadãos; e cultiva virtudes, como integridade, coragem e prudência.
+
+Um auditor, por exemplo. O dever de independência e de sigilo é deontológico. A preocupação com o impacto de uma recomendação, com a relação entre o custo do controle e o benefício esperado, é consequencialista. E a integridade, a objetividade e o ceticismo profissional, que fazem o auditor resistir à pressão e não aceitar a primeira explicação, são virtudes.
+
+Pegadinha: "as teorias deontológica, consequencialista e das virtudes são mutuamente excludentes, de modo que a adoção de uma impede o uso das demais na ética profissional". Errado. Na ética aplicada, elas costumam ser usadas de forma complementar.
+
+Agora, vejamos como isso aparece na norma. O Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal foi aprovado pelo Decreto mil cento e setenta e um, de vinte e dois de junho de mil novecentos e noventa e quatro. Ele tem um capítulo primeiro com três seções: as regras deontológicas, os principais deveres do servidor público e as vedações ao servidor público. Repare que a própria norma usa a palavra "deontológicas".
+
+A primeira regra deontológica é um clássico de prova. Ela diz que a dignidade, o decoro, o zelo, a eficácia e a consciência dos princípios morais são primados maiores que devem nortear o servidor público, seja no exercício do cargo ou função, ou fora dele.
+
+Guarde os cinco: dignidade, decoro, zelo, eficácia e consciência dos princípios morais. E guarde a parte final: no cargo ou fora dele. A banca troca "eficácia" por "eficiência", ou diz que os primados valem só no expediente. As duas versões estão erradas.
+
+No mesmo sentido, o Código afirma que a função pública deve ser tida como exercício profissional e, portanto, se integra na vida particular de cada servidor público.
+
+Outra regra deontológica muito cobrada: o servidor não terá que decidir somente entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, o oportuno e o inoportuno, mas principalmente entre o honesto e o desonesto, consoante as regras do artigo trinta e sete, caput e parágrafo quarto, da Constituição.
+
+Aqui está a confirmação do que vimos no início: a ética vai além da legalidade. A palavra-chave é "principalmente entre o honesto e o desonesto".
+
+Pegadinha: "segundo o Código de Ética, o servidor deve decidir somente entre o legal e o ilegal". Errado. A palavra "somente" é a armadilha.
+
+O Código traz ainda outras ideias muito cobradas. Que a remuneração do servidor é custeada pelos tributos pagos por todos, inclusive por ele próprio, e que isso exige que a moralidade se integre ao direito. Que toda pessoa tem direito à verdade, e o servidor não pode omiti-la ou falseá-la, ainda que contrária aos interesses da própria pessoa interessada ou da administração. E que a publicidade dos atos administrativos é requisito de eficácia e moralidade, salvo os casos de sigilo previstos em lei.
+
+Entre os deveres fundamentais, há um muito citado: ser probo, reto, leal e justo, demonstrando toda a integridade do seu caráter, escolhendo sempre, quando estiver diante de duas opções, a melhor e a mais vantajosa para o bem comum. E outro: resistir a todas as pressões de superiores hierárquicos, de contratantes, interessados e outros que visem obter quaisquer favores, benesses ou vantagens indevidas em decorrência de ações imorais, ilegais ou aéticas, e denunciá-las.
+
+Repare como esses deveres misturam as três famílias: "probo, reto, leal e justo" é linguagem de virtude; "escolher a melhor opção para o bem comum" é linguagem de consequência; "resistir às pressões e denunciar" é dever.
+
+E a sanção. A penalidade aplicável pela Comissão de Ética ao servidor é a censura. A comissão, no Decreto mil cento e setenta e um, é integrada por três servidores ou empregados titulares de cargo efetivo ou emprego permanente.
+
+Pegadinha muito comum: "a Comissão de Ética pode aplicar ao servidor as penalidades de advertência, suspensão e demissão". Errado. Essas são penalidades disciplinares da Lei oito mil cento e doze, aplicadas no processo disciplinar. A comissão de ética aplica censura ética.
+
+Isso não quer dizer que a comissão fique de braços cruzados diante de um fato grave. O Decreto seis mil e vinte e nove, de dois mil e sete, que instituiu o Sistema de Gestão da Ética do Poder Executivo Federal, prevê que, concluindo pela existência de falta ética, a comissão pode, conforme o caso, encaminhar o caso à Controladoria-Geral da União ou à unidade do Sistema de Correição, para exame de eventuais transgressões disciplinares. Ou seja: ética e disciplina são esferas diferentes, mas que se comunicam.
+
+O Sistema de Gestão da Ética é integrado por três tipos de instâncias: a Comissão de Ética Pública, a CEP, instituída por decreto de vinte e seis de maio de mil novecentos e noventa e nove; as Comissões de Ética de que trata o Decreto mil cento e setenta e um; e as demais Comissões de Ética e equivalentes nos órgãos e entidades do Poder Executivo Federal.
+
+A Comissão de Ética Pública cuida da cúpula. Ela administra a aplicação do Código de Conduta da Alta Administração Federal, que vale para ministros, secretários e outras altas autoridades. Esse código foi instituído pela Exposição de Motivos número trinta e sete, de dezoito de agosto de dois mil, aprovada pelo Presidente da República. Sua finalidade inicial é tornar claras as regras de conduta das autoridades, para que a sociedade possa aferir a integridade e a lisura do processo decisório governamental.
+
+Pegadinha: "o Código de Conduta da Alta Administração Federal foi aprovado por lei". Errado. Foi por Exposição de Motivos aprovada pelo Presidente.
+
+Por fim, o processo ético é instaurado de ofício ou por denúncia fundamentada, sempre respeitando o contraditório e a ampla defesa. E as comissões podem propor o Acordo de Conduta Pessoal e Profissional, conhecido pela sigla A C P P, como medida para evitar ou sanar desvios éticos.
+
+Resumo do bloco. Deontologia, de Kant: a ação vale pelo dever e pela intenção, com o imperativo categórico. Consequencialismo, de Bentham e Mill: a ação vale pelos resultados, pela maior felicidade do maior número. Ética das virtudes, de Aristóteles: o caráter, a virtude como meio-termo adquirido pelo hábito e a prudência como sabedoria prática. As três se complementam na ética profissional. No Decreto mil cento e setenta e um: dignidade, decoro, zelo, eficácia e consciência dos princípios morais, no cargo ou fora dele; decidir principalmente entre o honesto e o desonesto; pena de censura. O Decreto seis mil e vinte e nove criou o Sistema de Gestão da Ética, com a Comissão de Ética Pública, as comissões setoriais e as demais.
+
+
+BLOCO TRÊS: CONFLITOS ENTRE VALORES EM DECISÕES PÚBLICAS
+
+Agora a parte mais difícil, e a mais interessante. Na vida real, o problema raramente é escolher entre o certo e o errado. Esse caso se chama tentação: você sabe o que é certo, e a questão é ter força para fazê-lo. O problema difícil é escolher entre dois valores que são ambos legítimos. Isso é um dilema ético. A literatura de ética aplicada resume essa diferença na fórmula "certo contra errado" versus "certo contra certo".
+
+Pegadinha: "todo dilema ético consiste em escolher entre uma conduta correta e uma conduta incorreta". Errado. Isso é tentação. O dilema é o conflito entre valores legítimos.
+
+Por que há conflitos? Porque vivemos num pluralismo de valores. O filósofo Isaiah Berlin defendeu que valores humanos genuínos, como liberdade e igualdade, ou justiça e misericórdia, podem entrar em conflito e não podem ser todos maximizados ao mesmo tempo. Ganhar em um, às vezes, significa perder em outro.
+
+Vamos aos conflitos típicos da administração pública, que podem aparecer em questão de caso.
+
+Primeiro: transparência versus privacidade. A Lei de Acesso à Informação faz da publicidade a regra e do sigilo a exceção. Mas a Lei Geral de Proteção de Dados Pessoais protege dados pessoais. Divulgar a remuneração de servidores com o nome é transparência; divulgar o diagnóstico de saúde de um servidor é violação de privacidade. Para quem trabalha com sistemas, esse conflito aparece o tempo todo, por exemplo, ao decidir que campos de uma base de dados vão para um portal de dados abertos.
+
+Segundo: eficiência versus equidade. Concentrar o atendimento em grandes centros pode ser mais barato por pessoa atendida, mas deixa de fora quem mora longe. Um serviço só digital é eficiente, mas exclui quem não tem acesso ou habilidade digital, como vimos na aula sobre barreiras.
+
+Terceiro: legalidade versus resultado. O gestor que, para entregar um hospital mais rápido, pula etapas da licitação. Ou o contrário: o gestor que, por medo de ser responsabilizado, não decide nada, o chamado apagão das canetas.
+
+Quarto: lealdade versus interesse público. O servidor que descobre uma irregularidade cometida pelo chefe. A lealdade à instituição não se confunde com lealdade a pessoas. O Código de Ética, como vimos, manda resistir a pressões, inclusive de superiores, e denunciar. Daí a importância dos canais de denúncia e da proteção ao denunciante, que estudamos nas aulas sobre corrupção.
+
+Quinto: interesse privado versus dever público, ou seja, o conflito de interesses. Não é exatamente um dilema entre dois valores públicos, mas um conflito entre um interesse pessoal e o dever. A ética pública manda que o servidor evite até a aparência de conflito.
+
+E há um problema clássico da filosofia política, o das mãos sujas, discutido por Michael Walzer a partir de Maquiavel e de Weber: às vezes, para alcançar um bem público importante, o governante teria de praticar um ato moralmente reprovável. A discussão não é para justificar tudo em nome do resultado, mas para reconhecer que o agente público responsável pode enfrentar escolhas trágicas, em que qualquer opção deixa um resíduo moral.
+
+Agora, as ferramentas para decidir.
+
+Primeira ferramenta: a ponderação e a proporcionalidade. Na teoria do jurista alemão Robert Alexy, as regras se aplicam pelo modo do tudo ou nada: ou valem e se aplicam ao caso, ou não. Os princípios são mandamentos de otimização: devem ser realizados na maior medida possível, dentro das possibilidades fáticas e jurídicas. Quando dois princípios colidem, nenhum deles é invalidado: faz-se uma ponderação no caso concreto, e um prevalece sobre o outro naquelas circunstâncias.
+
+A ponderação usa a proporcionalidade, com três testes. Adequação: a medida serve para alcançar o fim? Necessidade: existe meio menos gravoso que alcance o mesmo fim? E proporcionalidade em sentido estrito: o benefício compensa o sacrifício imposto ao outro valor?
+
+Pegadinha: "na colisão entre princípios, um deles é declarado inválido e retirado do ordenamento". Errado. Isso acontece no conflito entre regras. Na colisão entre princípios, há ponderação no caso concreto e ambos permanecem válidos.
+
+Segunda ferramenta, já no direito positivo brasileiro: a Lei de Introdução às Normas do Direito Brasileiro, alterada pela Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito. O artigo vinte diz que, nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão. E a motivação deve demonstrar a necessidade e a adequação da medida, inclusive diante das alternativas possíveis.
+
+Repare: aqui o direito incorpora uma dose de consequencialismo e de proporcionalidade. Isso é muito importante para a Controladoria-Geral da União, porque a palavra "controladora" está no texto. O auditor também precisa considerar as consequências práticas do que recomenda.
+
+Pegadinha: "a Lei de Introdução às Normas do Direito Brasileiro proíbe a utilização de valores jurídicos abstratos nas decisões". Errado. Ela não proíbe valores abstratos: proíbe decidir com base neles sem considerar as consequências práticas.
+
+Terceira ferramenta: testes práticos de decisão ética, muito usados em programas de integridade. O teste da publicidade: eu ficaria à vontade se essa decisão saísse na primeira página do jornal? O teste da universalização, de inspiração kantiana: e se todos fizessem o mesmo? O teste da reciprocidade: eu aceitaria ser tratado assim? E o teste da justificativa: consigo explicar essa decisão com razões públicas, e não com razões pessoais?
+
+Quarta ferramenta, e talvez a mais importante na administração: o processo. Decisões difíceis ficam melhores quando são tomadas com transparência, motivação escrita, participação dos afetados, consulta às instâncias de ética e de integridade e registro do raciocínio. Um bom processo não garante a decisão perfeita, mas permite controle e aprendizado.
+
+Por fim, um ponto ligado ao seu cargo. Sistemas de informação também carregam escolhas éticas. Um algoritmo que prioriza fiscalizações, concede benefícios ou seleciona auditorias pode reproduzir vieses dos dados históricos, discriminar grupos e ser opaco para o cidadão. Aí os mesmos valores voltam: dignidade, para não tratar a pessoa como mero número; justiça, para não distribuir encargos de forma desigual; e responsabilidade, para que alguém responda pelas decisões automatizadas e para que elas possam ser explicadas e revistas.
+
+Resumo do bloco. Tentação é certo contra errado; dilema é certo contra certo. O pluralismo de valores, de Isaiah Berlin, explica por que os conflitos são inevitáveis. Conflitos típicos: transparência e privacidade, eficiência e equidade, legalidade e resultado, lealdade e interesse público. O problema das mãos sujas mostra escolhas trágicas. Para decidir: ponderação e proporcionalidade, em Alexy, com adequação, necessidade e proporcionalidade estrita; o artigo vinte da Lei de Introdução, que exige considerar as consequências práticas; testes práticos; e bom processo decisório.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Estratégia um: trocar autores e conceitos. Dar a Kant a ideia de que importam as consequências, dar a Bentham a ideia de dever incondicional, dar a Aristóteles o véu da ignorância ou a Rawls o meio-termo.
+
+Estratégia dois: transformar complementaridade em exclusão. Dizer que, para Weber, o político deve abandonar a ética da convicção, ou que as três teorias éticas não podem ser usadas em conjunto.
+
+Estratégia três: confundir ética com legalidade. Afirmar que basta cumprir a lei para agir eticamente, ou que o Código de Ética manda decidir somente entre o legal e o ilegal.
+
+Estratégia quatro: trocar palavras do Código de Ética. Trocar eficácia por eficiência, dizer que os primados valem só no exercício do cargo, ou que a comissão de ética aplica advertência, suspensão ou demissão.
+
+Estratégia cinco: trocar a natureza dos atos normativos. Dizer que o Código de Conduta da Alta Administração foi aprovado por lei, ou confundir a Comissão de Ética Pública, que cuida da alta administração, com as comissões setoriais.
+
+Estratégia seis: confundir interesse público primário com secundário, ou tratar a supremacia do interesse público como autorização ilimitada para sacrificar direitos.
+
+Estratégia sete: confundir dilema com tentação, regra com princípio, e exagerar o conteúdo do artigo vinte da Lei de Introdução, dizendo que ele proíbe valores abstratos.
+
+Dica geral: desconfie das palavras "somente", "exclusivamente", "nunca" e "sempre" nas questões de ética. Quase toda teoria ética séria tem nuances, e a banca explora isso.
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze questões no formato certo ou errado. Ouça, pause se quiser, decida e só depois ouça o gabarito.
+
+Questão um.
+Na doutrina administrativista, o interesse público primário corresponde ao interesse da coletividade, enquanto o interesse público secundário corresponde ao interesse do Estado como pessoa jurídica, sendo este último legítimo apenas quando coincidente com o primário.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a distinção atribuída a Renato Alessi e difundida no Brasil por Celso Antônio Bandeira de Mello. O interesse secundário só se legitima quando serve ao primário.
+
+Questão dois.
+Na conferência A política como vocação, Max Weber sustenta que a ética da convicção e a ética da responsabilidade são inconciliáveis, devendo o político abandonar a primeira para adotar exclusivamente a segunda.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: Weber distingue as duas, mas conclui que elas se completam e que só quem as reúne tem verdadeira vocação para a política.
+
+Questão três.
+Na ética deontológica de Immanuel Kant, a correção moral de uma ação é determinada exclusivamente pelas consequências que ela produz para o bem-estar do maior número de pessoas.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: essa é a lógica do utilitarismo de Bentham e Mill. Para Kant, a ação tem valor moral quando é praticada por dever, segundo o imperativo categórico, independentemente das consequências.
+
+Questão quatro.
+Para Aristóteles, a virtude moral é uma disposição de caráter adquirida pelo hábito, que consiste em um meio-termo entre dois vícios, sendo a prudência a sabedoria prática que permite deliberar bem em situações concretas.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o núcleo da ética das virtudes na Ética a Nicômaco: hábito, meio-termo e prudência, ou "phrónesis".
+
+Questão cinco.
+Conforme o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, a dignidade, o decoro, o zelo, a eficácia e a consciência dos princípios morais são primados maiores que devem nortear o servidor público, seja no exercício do cargo ou função, ou fora dele.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a primeira regra deontológica do Código aprovado pelo Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro. Atenção a "eficácia", e não "eficiência", e a "ou fora dele".
+
+Questão seis.
+De acordo com o Código de Ética Profissional do servidor federal, o servidor deve decidir somente entre o legal e o ilegal, pois a observância estrita da legalidade é suficiente para assegurar a moralidade de sua conduta.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o Código diz que o servidor não terá de decidir somente entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, o oportuno e o inoportuno, mas principalmente entre o honesto e o desonesto.
+
+Questão sete.
+Constatada falta ética, a Comissão de Ética instituída nos termos do Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, é competente para aplicar ao servidor as penalidades de suspensão e de demissão.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a penalidade aplicável pela comissão de ética é a censura. Suspensão e demissão são penalidades disciplinares, aplicadas em processo disciplinar. A comissão pode encaminhar o caso à Controladoria-Geral da União ou à unidade de correição competente.
+
+Questão oito.
+Integram o Sistema de Gestão da Ética do Poder Executivo Federal a Comissão de Ética Pública, as Comissões de Ética de que trata o Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, e as demais Comissões de Ética e equivalentes nos órgãos e entidades do Poder Executivo Federal.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a composição prevista no artigo segundo do Decreto seis mil e vinte e nove, de dois mil e sete.
+
+Questão nove.
+Na teoria da justiça de John Rawls, as desigualdades sociais e econômicas podem ser admitidas desde que beneficiem os menos favorecidos e estejam vinculadas a posições abertas a todos em condições de igualdade equitativa de oportunidades.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o segundo princípio de justiça de Rawls, que inclui o princípio da diferença, escolhido sob o véu da ignorância.
+
+Questão dez.
+Um dilema ético, no âmbito da administração pública, caracteriza-se necessariamente pela escolha entre uma conduta correta e outra incorreta, cabendo ao agente apenas resistir à tentação de agir mal.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: escolher entre certo e errado é tentação. O dilema ético envolve o conflito entre valores igualmente legítimos, como transparência e privacidade, ou eficiência e equidade.
+
+Questão onze.
+Nos termos da Lei de Introdução às Normas do Direito Brasileiro, nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o artigo vinte, incluído pela Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito. Ele não proíbe valores abstratos; exige que as consequências práticas sejam consideradas.
+
+Questão doze.
+A dignidade da pessoa humana figura, na Constituição Federal de mil novecentos e oitenta e oito, entre os objetivos fundamentais da República Federativa do Brasil, ao lado da construção de uma sociedade livre, justa e solidária.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a dignidade da pessoa humana é fundamento da República, no artigo primeiro, inciso terceiro. A construção de uma sociedade livre, justa e solidária é objetivo, no artigo terceiro.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Moral é prática, ética é reflexão; legal não é sinônimo de ético.
+
+Interesse público primário é o da coletividade; secundário é o do Estado como pessoa jurídica; prevalece o primário.
+
+Dignidade é fundamento da República; em Kant, a pessoa é sempre fim, nunca apenas meio.
+
+Justiça: Aristóteles, distributiva e corretiva; Rawls, véu da ignorância e princípio da diferença.
+
+Weber: ética da convicção e ética da responsabilidade se completam.
+
+Deveres, Kant; consequências, Bentham e Mill; virtudes, Aristóteles, com hábito, meio-termo e prudência. Na ética profissional, as três se complementam.
+
+Decreto mil cento e setenta e um: dignidade, decoro, zelo, eficácia e consciência dos princípios morais, no cargo ou fora dele; decidir principalmente entre o honesto e o desonesto; a comissão aplica censura.
+
+Decreto seis mil e vinte e nove: Sistema de Gestão da Ética, com a Comissão de Ética Pública, as comissões do Decreto mil cento e setenta e um e as demais.
+
+Dilema é certo contra certo; tentação é certo contra errado. Princípios se ponderam; regras se aplicam no tudo ou nada. Proporcionalidade: adequação, necessidade e proporcionalidade estrita. Lei de Introdução, artigo vinte: considerar as consequências práticas.
+
+
+ENCERRAMENTO
+
+Na próxima audioaula, seguimos no item um ponto três com o subitem um ponto três ponto dois, conforme o conteúdo do edital.
+
+Até lá, revise os autores e as frases-chave dos códigos, porque é aí que a banca costuma armar as pegadinhas.
+
+Bons estudos.

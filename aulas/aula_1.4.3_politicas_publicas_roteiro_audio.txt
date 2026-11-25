@@ -1,0 +1,303 @@
+AUDIOAULA. ITEM UM PONTO QUATRO PONTO TRÊS DO EDITAL: POLÍTICAS PÚBLICAS
+Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
+
+
+ABERTURA
+
+Este é o item um ponto quatro ponto três, políticas públicas. São quatro blocos: problema público, agenda e formulação; instrumentos de ação estatal; implementação, monitoramento e avaliação; e intersetorialidade e atores governamentais e sociais. A banca costuma cobrar as fases do ciclo de políticas, o modelo de múltiplos fluxos de Kingdon, os modelos de decisão, as abordagens de implementação de cima para baixo e de baixo para cima, os tipos de avaliação e a classificação dos atores.
+
+
+BLOCO UM: PROBLEMA PÚBLICO, AGENDA E FORMULAÇÃO
+
+O item anterior tratou dos modelos de gestão; este trata do objeto que a gestão produz: a política pública.
+
+Não há definição única. Thomas Dye a define como tudo aquilo que o governo escolhe fazer ou não fazer. Harold Lasswell resume a análise de políticas na pergunta: quem ganha o quê, por quê e que diferença faz. Leonardo Secchi, autor muito usado pela banca, define política pública como uma diretriz elaborada para enfrentar um problema público, com dois elementos essenciais: intencionalidade pública e resposta a um problema público.
+
+Secchi distingue duas abordagens. A abordagem estatista, ou estadocêntrica, considera política pública apenas o que é emanado de atores estatais; o que define a política é a personalidade jurídica do protagonista. A abordagem multicêntrica admite que organizações privadas, organizações não governamentais, organismos multilaterais e redes também estabeleçam políticas públicas; o que define a política é a natureza pública do problema enfrentado. Secchi adota a multicêntrica.
+
+A omissão também conta. Bachrach e Baratz mostraram que a não decisão, isto é, impedir que um tema chegue à agenda, é uma forma de exercício de poder. Para Dye, não fazer é uma escolha. Mas há divergência: Secchi entende que a simples omissão, sem diretriz, não configura política pública. Um item que afirme que toda omissão é política pública, segundo todos os autores, está errado.
+
+Política pública também não se confunde com decisão isolada, nem com programa. A política é a diretriz mais ampla; programas, projetos e ações são seus desdobramentos operacionais.
+
+Agora, problema público. Para Secchi, problema é a discrepância entre o status quo e uma situação ideal possível. Torna-se público quando tem implicação para uma quantidade ou qualidade notável de pessoas. Problemas públicos são construções sociais: a mesma situação pode ser vista como natural, como problema privado ou como problema público, conforme valores, dados disponíveis e mobilização. A forma como o problema é definido condiciona as soluções que parecerão adequadas. Se o atraso no pagamento de um benefício é definido como problema de falta de servidores, a solução será contratação; se é definido como problema de processo, será automação e redesenho do fluxo.
+
+Para organizar o estudo, usa-se o ciclo de políticas públicas. Na versão de Secchi, são sete fases: identificação do problema, formação da agenda, formulação de alternativas, tomada de decisão, implementação, avaliação e extinção. Há versões com cinco ou seis fases, em que identificação e agenda, ou formulação e decisão, aparecem juntas. O ciclo é um modelo heurístico, uma ferramenta de análise. Na prática, as fases se sobrepõem, se invertem e se repetem: há soluções que surgem antes do problema, e a implementação muitas vezes reformula a política.
+
+A fase de identificação envolve a percepção do problema, a sua delimitação, com causas e consequências, e a avaliação da possibilidade de resolução.
+
+A agenda é o conjunto de problemas ou temas considerados relevantes. Cobb e Elder distinguem a agenda sistêmica, ou não governamental, que reúne temas que preocupam a sociedade sem merecer ainda atenção do governo, e a agenda institucional, ou governamental, formada pelos temas que o poder público decidiu enfrentar. Kingdon acrescenta a agenda de decisão, um subconjunto da governamental, com os temas prontos para decisão ativa. Secchi cita três condições para um problema entrar na agenda: atenção, isto é, os atores entendem que a situação merece intervenção; resolubilidade, isto é, as ações são consideradas possíveis; e competência, isto é, o problema toca responsabilidades públicas.
+
+O modelo mais cobrado de formação de agenda é o de múltiplos fluxos, de John Kingdon, de mil novecentos e oitenta e quatro. Há três fluxos relativamente independentes.
+
+O fluxo dos problemas: um tema ganha atenção por indicadores, como uma taxa de mortalidade em alta; por eventos focalizadores, como desastres e crises; ou por retorno de programas existentes.
+
+O fluxo das soluções, ou das alternativas: ideias circulam nas comunidades de política, formadas por especialistas, pesquisadores, burocratas e assessores. Kingdon usa a imagem de uma sopa primitiva de ideias, em que propostas se combinam e sobrevivem se forem tecnicamente viáveis, compatíveis com valores dominantes e com custos toleráveis. Uma solução pode existir há anos à espera de um problema.
+
+O fluxo da política, no sentido de disputa política: clima ou humor nacional, forças políticas organizadas, como grupos de pressão, e mudanças no governo, como eleições e trocas de ministros. Nesse fluxo, o consenso se constrói por barganha e negociação, e não por persuasão técnica.
+
+Quando os três fluxos convergem, abre-se uma janela de oportunidade, que é transitória. Os empreendedores de políticas são atores dispostos a investir tempo, reputação e recursos para acoplar uma solução a um problema no momento político favorável. Podem estar dentro ou fora do governo.
+
+Kingdon também separa participantes visíveis e invisíveis. Os visíveis, como o Presidente, ministros, parlamentares, partidos e mídia, influenciam principalmente a agenda. Os invisíveis, como acadêmicos, consultores, servidores de carreira e assessores legislativos, influenciam principalmente a geração de alternativas.
+
+Dois outros modelos aparecem em prova. O equilíbrio pontuado, de Baumgartner e Jones, sustenta que as políticas passam por longos períodos de estabilidade, com mudanças incrementais, interrompidos por mudanças rápidas e profundas. A estabilidade é mantida por monopólios de política, sustentados por uma imagem da política e por arenas institucionais favoráveis; a mudança ocorre quando a imagem se altera e o tema migra para outras arenas. O modelo de coalizões de defesa, de Sabatier e Jenkins-Smith, analisa subsistemas de política em que coalizões de atores compartilham sistemas de crenças. As crenças do núcleo profundo são muito resistentes; as do núcleo da política, menos; e os aspectos secundários mudam com mais facilidade, por aprendizado. Mudanças grandes tendem a vir de choques externos. Os mediadores entre coalizões são chamados de intermediários de políticas.
+
+A formulação de alternativas consiste em definir objetivos, desenhar estratégias e estimar consequências de cada alternativa. A tomada de decisão escolhe entre elas. Os modelos de decisão são cobrados em comparação.
+
+Modelo racional, ou da racionalidade absoluta: o decisor conhece todas as alternativas e consequências e escolhe a ótima. É um ideal normativo.
+
+Racionalidade limitada, de Herbert Simon: limitações de informação, tempo e capacidade cognitiva fazem o decisor buscar uma solução satisfatória, e não a ótima.
+
+Incrementalismo, de Charles Lindblom: as decisões partem das políticas existentes e fazem ajustes marginais, por comparações sucessivas limitadas. Objetivos e meios são definidos juntos, e uma boa decisão é aquela em que os atores concordam, ainda que não concordem sobre os fins. A coordenação ocorre por ajuste mútuo entre os atores. Lindblom chamou isso de ciência de ir se virando.
+
+Sondagem mista, de Amitai Etzioni: combina uma varredura ampla das alternativas fundamentais com exame detalhado e incremental de algumas delas.
+
+Lata de lixo, de Cohen, March e Olsen, de mil novecentos e setenta e dois: em anarquias organizadas, com preferências problemáticas, tecnologia pouco clara e participação fluida, problemas, soluções, participantes e oportunidades de escolha se misturam. As soluções procuram problemas, e a decisão depende do encontro casual desses elementos. O modelo de Kingdon é uma adaptação dessa ideia.
+
+Há ainda a tipologia de Theodore Lowi, que inverte a lógica comum: para ele, a política pública determina a política, isto é, o tipo de política define o tipo de conflito. São quatro arenas. Distributiva: benefícios concentrados em grupos e custos difusos na coletividade, com baixo conflito, como emendas para obras locais. Redistributiva: transfere recursos de um grupo a outro, com alto conflito e lógica de soma zero, como tributação progressiva e transferência de renda. Regulatória: estabelece normas de conduta e padrões, com conflito variável conforme a distribuição de custos e benefícios. Constitutiva, ou estruturadora: define as regras do jogo e as competências, como a criação de órgãos e as regras eleitorais.
+
+Na formulação, há exigências legais que a banca cobra.
+
+A Lei Complementar cento e um, de dois mil, a Lei de Responsabilidade Fiscal, no artigo dezesseis, exige que a criação, expansão ou aperfeiçoamento de ação governamental que acarrete aumento de despesa seja acompanhada de estimativa do impacto orçamentário-financeiro no exercício em que deva entrar em vigor e nos dois subsequentes, e de declaração do ordenador da despesa de adequação com a lei orçamentária anual e compatibilidade com o plano plurianual e a lei de diretrizes orçamentárias. O artigo dezessete trata da despesa obrigatória de caráter continuado. O artigo cento e treze do Ato das Disposições Constitucionais Transitórias, incluído pela Emenda Constitucional noventa e cinco, de dois mil e dezesseis, exige que a proposição legislativa que crie ou altere despesa obrigatória ou renúncia de receita seja acompanhada da estimativa do seu impacto orçamentário e financeiro. Os limites fiscais em si são tema do item um ponto quatro ponto quatro.
+
+Para a política regulatória, a ferramenta de formulação é a análise de impacto regulatório, a á í érre. A Lei treze mil oitocentos e setenta e quatro, de dois mil e dezenove, a Lei de Liberdade Econômica, no artigo quinto, exige que as propostas de edição e alteração de atos normativos de interesse geral de agentes econômicos ou de usuários dos serviços prestados, editadas por órgão ou entidade da administração pública federal, incluídas as autarquias e fundações públicas, sejam precedidas de análise de impacto regulatório, com informações sobre os possíveis efeitos do ato para verificar a razoabilidade do seu impacto econômico. Para as agências reguladoras, a exigência está no artigo sexto da Lei treze mil oitocentos e quarenta e oito, de dois mil e dezenove. A regulamentação está no Decreto dez mil quatrocentos e onze, de dois mil e vinte. O decreto exclui do seu alcance atos como os de natureza administrativa com efeitos apenas internos, os de efeitos concretos, os de execução orçamentária e financeira, os de política cambial e monetária e os de segurança nacional. Admite dispensa da análise em hipóteses como urgência e baixo impacto, e, na dispensa por urgência, exige posterior avaliação de resultado regulatório.
+
+Para políticas em geral, a referência federal é o guia de análise ex ante, publicado em dois mil e dezoito pela Casa Civil com o Instituto de Pesquisa Econômica Aplicada, o Ipea. O roteiro inclui diagnóstico do problema e de suas causas, objetivos, público-alvo, desenho e estratégia de implementação, impacto orçamentário e financeiro, e estratégias de monitoramento, avaliação e controle. A ferramenta usual de diagnóstico é a árvore de problemas, que separa causas, problema central e consequências; a ação deve atacar causas, e não apenas sintomas.
+
+Pegadinhas do bloco um.
+
+"Na abordagem estatista, é a natureza pública do problema que define a política pública." Errado. Na estatista, o critério é o protagonista ser ator estatal; o critério do problema público é da abordagem multicêntrica.
+
+"O ciclo de políticas descreve com fidelidade a sequência real das fases, que ocorrem sempre na mesma ordem." Errado. É modelo analítico; as fases se sobrepõem e se invertem.
+
+"Para Kingdon, os participantes invisíveis, como acadêmicos e servidores de carreira, são os principais responsáveis pela definição da agenda." Errado. Eles influenciam sobretudo a geração de alternativas; os visíveis influenciam a agenda.
+
+"No modelo de múltiplos fluxos, as soluções são formuladas depois que o problema entra na agenda." Errado. Os fluxos são independentes; soluções podem existir antes e esperar um problema e uma janela.
+
+"No fluxo político de Kingdon, o consenso é obtido principalmente por persuasão técnica." Errado. No fluxo político predomina a barganha; a persuasão é típica do fluxo das soluções.
+
+"No incrementalismo, a análise de todas as alternativas possíveis precede a escolha da solução ótima." Errado. Isso é o modelo racional; o incrementalismo faz comparações sucessivas limitadas e ajustes marginais.
+
+"Na tipologia de Lowi, as políticas redistributivas são marcadas por baixo grau de conflito." Errado. Baixo conflito caracteriza as distributivas; as redistributivas têm alto conflito.
+
+"A análise de impacto regulatório da Lei de Liberdade Econômica é exigida apenas das agências reguladoras." Errado. O artigo quinto alcança órgãos e entidades da administração federal, incluídas autarquias e fundações.
+
+
+BLOCO DOIS: INSTRUMENTOS DE AÇÃO ESTATAL
+
+Instrumentos são os meios pelos quais o governo transforma a intenção da política em ação concreta. A escolha do instrumento faz parte da formulação, mas condiciona a implementação.
+
+A tipologia mais cobrada é a de Christopher Hood, conhecida pelo acrônimo Nato, que reúne quatro recursos governamentais. Nodalidade: a posição central do governo nas redes de informação, que lhe permite informar, aconselhar e persuadir, como campanhas de vacinação e painéis de dados. Autoridade: o poder legal de ordenar, proibir, permitir e licenciar, como regulação e fiscalização. Tesouro: os recursos financeiros, usados para pagar, subsidiar, contratar e tributar, como transferências de renda e incentivos fiscais. Organização: a capacidade de agir diretamente por meio de pessoal, instalações e equipamentos, como hospitais públicos e sistemas mantidos pelo próprio governo.
+
+Outra classificação simples é a de Evert Vedung: incentivos econômicos, regulação e informação, apelidados de cenouras, porretes e sermões.
+
+Lester Salamon, na obra sobre ferramentas de governo, destaca a passagem do governo que executa diretamente para o governo que atua por terceiros: contratos, subvenções, empréstimos garantidos, renúncias fiscais e parcerias. Ele compara instrumentos por dimensões como grau de coerção, grau de execução direta, automaticidade, isto é, se o instrumento usa estruturas já existentes, como o sistema tributário, e visibilidade no orçamento. Instrumentos indiretos e pouco visíveis, como renúncias fiscais, tendem a escapar do debate orçamentário e do controle.
+
+Secchi lista instrumentos concretos: regulamentação, desregulamentação e legalização; aplicação da lei; impostos e taxas; subsídios e incentivos fiscais; prestação direta de serviço público; terceirização de serviços; prestação pública de informação; campanhas e mobilização; seguros governamentais; transferência de renda; discriminação positiva, como cotas; estabelecimento de mercado, como a criação de mercados de créditos de carbono; e premiação.
+
+Lascoumes e Le Galès lembram que os instrumentos não são neutros. Cada um carrega uma concepção da relação entre governo e governados e produz efeitos próprios, independentes dos objetivos declarados. Escolher entre proibir, tributar ou informar é também uma escolha política.
+
+Alguns instrumentos brasileiros ilustram as categorias. O Programa Bolsa Família, regido pela Lei catorze mil seiscentos e um, de dois mil e vinte e três, é transferência condicionada de renda, instrumento do tipo tesouro com componentes de autoridade, pelas condicionalidades. O gasto tributário, isto é, a renúncia de receita para fins de política, é instrumento do tipo tesouro de baixa visibilidade; a Lei de Responsabilidade Fiscal, no artigo catorze, condiciona a concessão ou ampliação de incentivo ou benefício de natureza tributária que gere renúncia de receita à estimativa do impacto orçamentário-financeiro e a medidas de compensação ou à demonstração de que a renúncia foi considerada na estimativa de receita. O poder de compra do Estado também é instrumento: a Lei catorze mil cento e trinta e três, de dois mil e vinte e um, admite margem de preferência no artigo vinte e seis, por exemplo para bens manufaturados nacionais que atendam a normas técnicas brasileiras. As parcerias com organizações da sociedade civil e os consórcios foram vistos no item um ponto quatro ponto um.
+
+Por fim, os chamados empurrões, termo de Thaler e Sunstein, baseados em economia comportamental. Um empurrão altera a arquitetura de escolha para induzir um comportamento, sem proibir opções e sem alterar significativamente os incentivos econômicos. Exemplos: inscrição automática com possibilidade de saída, lembretes por mensagem sobre o prazo de um tributo, ordem de apresentação das opções em um formulário digital. Para um desenvolvedor, a escolha do valor padrão de um campo no portal de um serviço público pode funcionar como empurrão. A transformação digital dos serviços é tema do item um ponto quatro ponto cinco.
+
+Pegadinhas do bloco dois.
+
+"Na tipologia de Hood, nodalidade refere-se à capacidade do governo de agir diretamente por meio de pessoal e estrutura própria." Errado. Nodalidade é o recurso informacional; ação direta com pessoal e estrutura é organização.
+
+"Os instrumentos de política pública são escolhas técnicas neutras, sem efeitos próprios além dos objetivos declarados." Errado. Segundo Lascoumes e Le Galès, os instrumentos carregam concepções políticas e produzem efeitos próprios.
+
+"A renúncia de receita, por não envolver desembolso, dispensa estimativa de impacto orçamentário-financeiro." Errado. O artigo catorze da Lei de Responsabilidade Fiscal exige a estimativa e medidas de compensação ou demonstração de que a renúncia foi considerada na receita.
+
+"O empurrão comportamental atua pela proibição das escolhas indesejadas." Errado. Ele preserva a liberdade de escolha e não altera significativamente os incentivos econômicos.
+
+
+BLOCO TRÊS: IMPLEMENTAÇÃO, MONITORAMENTO E AVALIAÇÃO
+
+Implementação é a fase em que as regras, rotinas e processos convertem intenções em ações. É onde aparece a distância entre o planejado e o executado, chamada de déficit de implementação.
+
+O estudo pioneiro é o de Pressman e Wildavsky, de mil novecentos e setenta e três, sobre um programa federal de emprego em Oakland, nos Estados Unidos. A conclusão: a complexidade da ação conjunta, com muitos atores e muitos pontos de decisão, reduz drasticamente a probabilidade de sucesso, mesmo quando todos concordam com os objetivos.
+
+Há duas abordagens clássicas.
+
+O modelo de cima para baixo, o tópi dáun, separa formulação e implementação. Os formuladores, no topo, definem objetivos claros; a implementação é execução técnica e administrativa. O sucesso se mede pela conformidade com o planejado, e as falhas são atribuídas a problemas de execução, como recursos insuficientes, objetivos ambíguos ou falta de controle. Sabatier e Mazmanian listaram condições para uma implementação eficaz, como objetivos claros e consistentes, teoria causal adequada, estrutura legal que favoreça o cumprimento, implementadores comprometidos e apoio de grupos e autoridades. O modelo enfatiza o controle hierárquico. É criticado por ignorar a discricionariedade de quem executa e as interações entre os atores.
+
+O modelo de baixo para cima, o bótom ápi, parte dos atores que efetivamente entregam a política. Michael Lipsky, em mil novecentos e oitenta, cunhou a expressão burocracia de nível de rua para os servidores que interagem diretamente com os cidadãos, como professores, policiais, agentes de saúde e assistentes sociais. Eles têm discricionariedade, trabalham com recursos escassos e demanda crescente e criam rotinas de simplificação. Por isso, na prática, eles também fazem a política. Richard Elmore contrapõe o mapeamento progressivo, de cima para baixo, ao mapeamento regressivo, que parte do comportamento a ser alterado na ponta e sobe na estrutura para definir o que cada nível deve fazer. Nessa abordagem, a implementação é processo de aprendizagem, e a formulação continua durante a execução.
+
+Há modelos híbridos. O de Richard Matland cruza ambiguidade dos objetivos e dos meios com grau de conflito, gerando quatro tipos de implementação. Baixa ambiguidade e baixo conflito: implementação administrativa, em que os recursos decidem o resultado. Baixa ambiguidade e alto conflito: implementação política, em que o poder decide. Alta ambiguidade e baixo conflito: implementação experimental, em que as condições locais decidem. Alta ambiguidade e alto conflito: implementação simbólica, em que a força das coalizões locais decide.
+
+No Brasil, o tema aparece em estudos sobre arranjos institucionais de implementação e capacidades estatais técnico-administrativas e político-relacionais, já vistas no item um ponto um ponto três.
+
+Agora, monitoramento e avaliação, que são distintos.
+
+Monitoramento é o acompanhamento contínuo, sistemático e rotineiro da execução, feito em geral pelos próprios gestores, com base em indicadores de processo e de produto. Ele responde se o programa está sendo executado como planejado e permite correções de rumo. É função gerencial.
+
+Avaliação é o exame pontual, com maior profundidade, que emite juízo sobre o mérito, o valor ou os efeitos da política. Ela responde se a política funciona, por que funciona ou não, e se vale o que custa. O monitoramento alimenta a avaliação com dados, mas não a substitui.
+
+As tipologias de avaliação são muito cobradas.
+
+Quanto ao momento: avaliação ex ante, antes da implementação, para apoiar a decisão sobre criar, expandir ou desenhar a política; avaliação intermediária, ou in itinere, durante a execução; e avaliação ex post, depois de um período de execução, sobre resultados e impactos.
+
+Quanto à finalidade: avaliação formativa, voltada a melhorar o programa durante a execução; e somativa, voltada a julgar o programa para decidir sobre sua continuidade, expansão ou extinção. A distinção é de Michael Scriven.
+
+Quanto a quem avalia: externa, feita por pessoas de fora da organização, com maior isenção e menor conhecimento interno; interna, feita pela própria organização, com mais conhecimento e menos distanciamento; mista, que combina as duas; e participativa, que envolve os beneficiários e outros interessados no planejamento e na execução da avaliação. A autoavaliação é feita pelos próprios executores.
+
+Quanto ao objeto: avaliação de desenho, que verifica a coerência lógica entre problema, objetivos, ações e resultados esperados; avaliação de processo ou de implementação, que verifica se a política está sendo executada como desenhada e onde estão os gargalos; avaliação de resultados; avaliação de impacto; e avaliação econômica, como análise de custo-benefício, que compara custos e benefícios em valores monetários, e de custo-efetividade, que compara custos por unidade de resultado não monetário, como custo por criança vacinada.
+
+A avaliação de impacto exige atenção. Impacto é o efeito causal atribuível à política. Para medi-lo, é preciso estimar o contrafactual: o que teria acontecido com os beneficiários sem a política. Isso exige um grupo de comparação. Os métodos incluem experimentos com sorteio aleatório entre grupo de tratamento e grupo de controle, considerados o padrão mais robusto; e métodos quase experimentais, como diferenças em diferenças, pareamento por escore de propensão e regressão descontínua. A simples comparação antes e depois, sem grupo de controle, não isola o efeito da política de outros fatores.
+
+Um exemplo esclarece. Depois de um programa de qualificação em tecnologia, a renda dos participantes subiu vinte por cento. Se, no mesmo período, a renda de pessoas semelhantes que não participaram também subiu dezoito por cento, o impacto atribuível ao programa é bem menor que vinte por cento. Um relatório que atribua todo o aumento ao programa confunde resultado observado com impacto.
+
+As ferramentas de apoio são o modelo lógico, que representa a cadeia de insumos, atividades, produtos, resultados e impactos, já vista no item anterior, com os fatores de contexto e as hipóteses; e a teoria do programa, ou teoria da mudança, que explicita as relações de causa e efeito esperadas. Indicadores devem ter propriedades como validade, isto é, medir o que se pretende; confiabilidade; sensibilidade às mudanças; desagregabilidade, por território e grupo; disponibilidade e economicidade da coleta; e comparabilidade ao longo do tempo.
+
+A base normativa da avaliação é esta.
+
+O dever de avaliar políticas e o uso dos resultados no plano plurianual, na lei de diretrizes e no orçamento estão no artigo trinta e sete, parágrafo dezesseis, e no artigo cento e sessenta e cinco, parágrafo dezesseis, da Constituição, ambos da Emenda Constitucional cento e nove, de dois mil e vinte e um, vistos no item anterior.
+
+O artigo setenta e quatro da Constituição dá ao sistema de controle interno, entre outras, as finalidades de avaliar o cumprimento das metas previstas no plano plurianual, a execução dos programas de governo e dos orçamentos da União, no inciso um; e de comprovar a legalidade e avaliar os resultados, quanto à eficácia e eficiência, da gestão orçamentária, financeira e patrimonial, no inciso dois. A Lei dez mil cento e oitenta, de dois mil e um, organiza o Sistema de Controle Interno do Poder Executivo Federal, do qual a Controladoria-Geral da União, a cê gê u, é o órgão central, e lhe atribui, no artigo vinte e quatro, avaliar o cumprimento das metas do plano plurianual e fiscalizar e avaliar a execução dos programas de governo. É por isso que a avaliação de políticas é atividade típica do auditor da cê gê u.
+
+No Executivo federal, há o Conselho de Monitoramento e Avaliação de Políticas Públicas, o Cmap. Foi instituído pelo Decreto nove mil oitocentos e trinta e quatro, de dois mil e dezenove, com Casa Civil, Ministério da Economia e cê gê u, e reestruturado pelo Decreto onze mil quinhentos e cinquenta e oito, de dois mil e vinte e três, que passou a incluir os Ministérios da Fazenda, do Planejamento e Orçamento e da Gestão e da Inovação em Serviços Públicos, além da Casa Civil e da cê gê u; não tenho certeza sobre qual órgão exerce hoje a coordenação. O Cmap seleciona políticas financiadas por gastos diretos e por subsídios da União para avaliação e encaminha recomendações aos gestores.
+
+Complementa o guia ex ante o guia de avaliação ex post, também de dois mil e dezoito, da Casa Civil com o Ipea, a cê gê u e outros órgãos. Ele organiza a avaliação em tipos como avaliação executiva, que é uma visão geral rápida da política, e análises de diagnóstico do problema, de desenho, de implementação, de governança, de resultados, de impacto, econômica e de eficiência.
+
+O ciclo termina, na versão de Secchi, com a extinção. As causas típicas são três: o problema foi resolvido; a política se mostrou ineficaz; ou o problema perdeu importância e saiu da agenda. A extinção é difícil, porque beneficiários e burocracias resistem. Por isso se recomendam cláusulas de término, que fixam prazo de vigência e exigem reavaliação para a renovação.
+
+Pegadinhas do bloco três.
+
+"No modelo de cima para baixo, a discricionariedade dos burocratas de nível de rua é reconhecida como parte da formulação da política." Errado. Isso é próprio da abordagem de baixo para cima, de Lipsky; o modelo de cima para baixo separa formulação e execução e enfatiza o controle hierárquico.
+
+"Monitoramento e avaliação são sinônimos, pois ambos acompanham continuamente a execução." Errado. O monitoramento é contínuo e gerencial; a avaliação é pontual e emite juízo sobre mérito e efeitos.
+
+"A avaliação formativa destina-se a decidir sobre a continuidade ou a extinção do programa." Errado. Essa é a somativa; a formativa visa a aprimorar o programa durante a execução.
+
+"A comparação dos indicadores dos beneficiários antes e depois da política é suficiente para medir seu impacto." Errado. Impacto exige contrafactual, com grupo de comparação.
+
+"A análise de custo-efetividade exige que os benefícios sejam expressos em valores monetários." Errado. Essa exigência é da análise de custo-benefício; a custo-efetividade usa unidades físicas de resultado.
+
+"O artigo setenta e quatro, inciso dois, da Constituição atribui ao controle interno avaliar a efetividade da gestão." Errado. O texto fala em eficácia e eficiência.
+
+"Na matriz de Matland, a implementação com baixa ambiguidade e alto conflito é chamada de simbólica." Errado. É a implementação política; a simbólica combina alta ambiguidade e alto conflito.
+
+
+BLOCO QUATRO: INTERSETORIALIDADE E ATORES GOVERNAMENTAIS E SOCIAIS
+
+A administração se organiza em setores, como saúde, educação e assistência, cada um com órgão, orçamento e cultura profissional próprios. Mas muitos problemas públicos não respeitam essa divisão. Rittel e Webber chamaram de problemas perversos, ou mal estruturados, aqueles que não têm formulação definitiva, não têm regra clara de encerramento, cujas soluções não são certas ou erradas, mas melhores ou piores, e em que cada problema pode ser sintoma de outro. Pobreza, violência e mudança do clima são exemplos.
+
+Intersetorialidade é a articulação de saberes, estruturas e recursos de diferentes setores para enfrentar problemas complexos de forma integrada, no planejamento, na execução e na avaliação. Não é mera soma de ações setoriais paralelas; exige objetivos comuns e coordenação. Convém distinguir conceitos próximos. A coordenação horizontal articula setores do mesmo nível de governo; a coordenação vertical articula entes federativos, tema do federalismo, visto no item um ponto um ponto três. A transversalidade incorpora uma perspectiva, como gênero, raça ou juventude, em todas as políticas setoriais.
+
+As barreiras são conhecidas: estruturas e orçamentos organizados por órgão, disputa por recursos e protagonismo, culturas profissionais diferentes, sistemas de informação que não conversam e ausência de responsável claro pelo resultado comum. Os instrumentos de coordenação incluem comitês e câmaras interministeriais, planos integrados com metas compartilhadas, programas multissetoriais no plano plurianual, cadastros e sistemas de informação compartilhados e pactuações federativas.
+
+O exemplo brasileiro clássico é o Bolsa Família. Pela Lei catorze mil seiscentos e um, de dois mil e vinte e três, as condicionalidades articulam assistência, saúde e educação: realização de pré-natal; cumprimento do calendário nacional de vacinação; acompanhamento do estado nutricional das crianças de até sete anos incompletos; e frequência escolar mínima de sessenta por cento para crianças de quatro a seis anos incompletos e de setenta e cinco por cento para beneficiários de seis a dezoito anos incompletos que não tenham concluído a educação básica. O instrumento integrador é o Cadastro Único para Programas Sociais, regulamentado pelo Decreto onze mil e dezesseis, de dois mil e vinte e dois, usado como base de seleção por dezenas de programas federais. Para quem desenvolve sistemas, a intersetorialidade depende de interoperabilidade: o acompanhamento das condicionalidades só funciona se os sistemas de saúde, de educação e do cadastro trocarem dados de forma confiável.
+
+Agora, os atores. Secchi os classifica em governamentais e não governamentais.
+
+Atores governamentais: políticos, com mandato eletivo e legitimidade para escolher prioridades; designados politicamente, ocupantes de cargos de confiança; burocratas, servidores de carreira, com estabilidade, conhecimento técnico e controle da informação, o que lhes dá poder sobre a formulação e a implementação; e juízes, que atuam pelo controle de legalidade e de constitucionalidade e, cada vez mais, pela judicialização de políticas, como no fornecimento de medicamentos.
+
+Atores não governamentais: grupos de interesse, que buscam influenciar decisões em favor dos seus membros; partidos políticos, que, na classificação de Secchi, figuram entre os não governamentais, embora os políticos eleitos sejam governamentais; meios de comunicação, que influenciam a agenda e o enquadramento dos problemas; destinatários das políticas; organizações do terceiro setor; e outros interessados, como centros de pesquisa e formulação, os chamados fínqui tênques, comunidades de especialistas, organismos internacionais, fornecedores e financiadores.
+
+A interação entre esses atores é analisada pelo conceito de redes de políticas públicas: estruturas de relações relativamente estáveis entre atores interdependentes que trocam recursos em torno de um setor. Há gradações. Nos triângulos de ferro, um arranjo fechado e estável reúne a agência governamental, a comissão parlamentar e o grupo de interesse do setor. As comunidades de política são também relativamente fechadas, com participantes estáveis e valores compartilhados. As redes temáticas, conceito de Hugh Heclo, são abertas, instáveis e com muitos participantes de entrada e saída fácil. A crítica de Heclo é que os triângulos de ferro não explicavam mais a política americana, cada vez mais aberta.
+
+Os órgãos de controle são atores do ciclo. A cê gê u atua na avaliação, no monitoramento de recomendações e na transparência; o Tribunal de Contas da União, o tê cê u, pelo controle externo; o Ministério Público, pela via judicial e extrajudicial. Uma recomendação de auditoria que altera o desenho de um programa é, ela mesma, retorno que alimenta o fluxo de problemas, nos termos de Kingdon. Os mecanismos institucionais de participação social foram vistos no item anterior.
+
+Pegadinhas do bloco quatro.
+
+"A intersetorialidade se realiza quando cada ministério executa, de forma independente, ações voltadas ao mesmo público." Errado. Ações paralelas sem objetivos comuns e coordenação são justaposição, e não intersetorialidade.
+
+"Transversalidade e coordenação vertical são sinônimos." Errado. A transversalidade incorpora uma perspectiva temática a todas as políticas; a coordenação vertical articula níveis de governo.
+
+"Na classificação de Secchi, os partidos políticos são atores governamentais." Errado. Os partidos são não governamentais; os políticos eleitos, que ocupam cargos, é que são governamentais.
+
+"Os burocratas, por não terem mandato eletivo, não exercem influência relevante sobre a formulação das políticas." Errado. Seu conhecimento técnico, a estabilidade e o controle da informação lhes dão influência sobre formulação e implementação.
+
+"As redes temáticas, segundo Heclo, são arranjos fechados e estáveis entre agência, comissão parlamentar e grupo de interesse." Errado. Isso descreve o triângulo de ferro; as redes temáticas são abertas e instáveis.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Secchi: política pública é diretriz para enfrentar problema público; abordagem estatista define pelo ator, multicêntrica pelo problema. Problema é a distância entre o status quo e a situação ideal possível, e é construção social.
+
+Ciclo de Secchi: identificação, agenda, formulação, decisão, implementação, avaliação e extinção; é modelo analítico.
+
+Agenda sistêmica, governamental e de decisão. Kingdon: problemas, soluções e política; janela de oportunidade e empreendedores; visíveis na agenda, invisíveis nas alternativas.
+
+Equilíbrio pontuado: estabilidade longa com rupturas. Coalizões de defesa: crenças em três níveis e aprendizado.
+
+Decisão: racional, racionalidade limitada de Simon, incrementalismo de Lindblom, sondagem mista de Etzioni e lata de lixo. Lowi: distributiva, redistributiva, regulatória e constitutiva.
+
+Formulação com exigências legais: artigos dezesseis e dezessete da Lei de Responsabilidade Fiscal, artigo cento e treze do Ato das Disposições Constitucionais Transitórias e análise de impacto regulatório, no artigo quinto da Lei de Liberdade Econômica e no Decreto dez mil quatrocentos e onze.
+
+Instrumentos: Hood, com nodalidade, autoridade, tesouro e organização; Vedung, com cenouras, porretes e sermões; instrumentos não são neutros; renúncia de receita segue o artigo catorze da Lei de Responsabilidade Fiscal.
+
+Implementação: Pressman e Wildavsky; de cima para baixo, com controle hierárquico; de baixo para cima, com Lipsky e Elmore; matriz de Matland.
+
+Monitoramento é contínuo e gerencial; avaliação é pontual e valorativa. Tipos por momento, finalidade, agente e objeto; impacto exige contrafactual.
+
+Controle interno no artigo setenta e quatro da Constituição e na Lei dez mil cento e oitenta; Cmap no Decreto onze mil quinhentos e cinquenta e oito; guias ex ante e ex post de dois mil e dezoito.
+
+Intersetorialidade exige objetivos comuns e coordenação; Bolsa Família e Cadastro Único. Atores de Secchi: governamentais e não governamentais; triângulos de ferro, comunidades e redes temáticas.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Segundo a abordagem multicêntrica, uma política pública só pode ser assim qualificada quando formulada e executada por atores estatais, sendo irrelevante a natureza do problema enfrentado.
+
+Gabarito: errado. Essa é a abordagem estatista; a multicêntrica define a política pela natureza pública do problema e admite protagonistas não estatais.
+
+
+Item dois. No modelo de múltiplos fluxos de Kingdon, a janela de oportunidade se abre quando convergem os fluxos dos problemas, das soluções e da política, momento em que empreendedores de políticas podem acoplar uma proposta a um problema reconhecido.
+
+Gabarito: certo. É a descrição central do modelo de Kingdon.
+
+
+Item três. Após uma enchente de grandes proporções, o Congresso aprovou rapidamente um sistema de alertas que vinha sendo discutido havia anos por técnicos de órgãos ambientais. Na perspectiva de Kingdon, a enchente funcionou como evento focalizador no fluxo dos problemas, e a proposta já existia no fluxo das soluções.
+
+Gabarito: certo. Eventos focalizadores dão visibilidade ao problema, e as soluções podem preexistir à entrada do tema na agenda.
+
+
+Item quatro. Para Lindblom, as decisões governamentais tendem a ser tomadas por comparações sucessivas limitadas, a partir das políticas existentes, com ajustes marginais.
+
+Gabarito: certo. É o modelo incremental de Lindblom.
+
+
+Item cinco. Na tipologia de Lowi, as políticas distributivas caracterizam-se por custos concentrados em poucos grupos e benefícios difusos para a coletividade, o que gera elevado grau de conflito.
+
+Gabarito: errado. Nas distributivas, os benefícios são concentrados e os custos difusos, com baixo conflito.
+
+
+Item seis. A edição de ato normativo de interesse geral de agentes econômicos por fundação pública federal deve ser precedida de análise de impacto regulatório, ainda que a entidade não seja agência reguladora.
+
+Gabarito: certo. O artigo quinto da Lei treze mil oitocentos e setenta e quatro, de dois mil e dezenove, alcança órgãos e entidades da administração federal, incluídas autarquias e fundações públicas.
+
+
+Item sete. Na tipologia de Hood, campanhas públicas de informação e a divulgação de painéis de dados exemplificam o uso do recurso governamental da autoridade.
+
+Gabarito: errado. Informação e persuasão correspondem à nodalidade; autoridade é o poder legal de ordenar, proibir e licenciar.
+
+
+Item oito. Para Lipsky, os burocratas de nível de rua, ao exercerem discricionariedade no atendimento direto aos cidadãos, acabam por contribuir para a definição concreta da política pública.
+
+Gabarito: certo. Essa é a tese central da abordagem de baixo para cima.
+
+
+Item nove. Um auditor da Controladoria-Geral da União verificou que a taxa de emprego dos egressos de um programa de qualificação aumentou após a sua conclusão e concluiu, apenas com base nessa comparação antes e depois, que o programa teve impacto positivo. Essa conclusão é metodologicamente adequada para uma avaliação de impacto.
+
+Gabarito: errado. A avaliação de impacto exige estimativa do contrafactual, com grupo de comparação, para isolar o efeito do programa de outros fatores.
+
+
+Item dez. A avaliação somativa tem por finalidade principal fornecer informações para o aperfeiçoamento do programa durante a sua execução.
+
+Gabarito: errado. Essa é a avaliação formativa; a somativa julga o programa para decisões sobre continuidade, expansão ou extinção.
+
+
+Item onze. Entre as finalidades do sistema de controle interno previstas na Constituição está a de avaliar o cumprimento das metas previstas no plano plurianual e a execução dos programas de governo e dos orçamentos da União.
+
+Gabarito: certo. Artigo setenta e quatro, inciso um, da Constituição.
+
+
+Item doze. Na classificação de atores de Secchi, os partidos políticos e os meios de comunicação são atores governamentais, pois influenciam diretamente a agenda formal do governo.
+
+Gabarito: errado. Partidos e meios de comunicação são atores não governamentais na classificação de Secchi.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto quatro ponto quatro, planejamento e recursos.

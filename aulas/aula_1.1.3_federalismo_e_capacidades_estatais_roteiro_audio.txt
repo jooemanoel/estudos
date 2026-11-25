@@ -1,0 +1,397 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.1.3 DO EDITAL: FEDERALISMO E CAPACIDADES ESTATAIS.
+SUBITEM 1.1.3.1: Autonomia, coordenação e cooperação federativa. Capacidades administrativas e políticas. Burocracia, discricionariedade e implementação de direitos.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto um ponto três do edital da CGU, chamado federalismo e capacidades estatais. Ele tem um único subitem, o um ponto um ponto três ponto um, com três grupos de conceitos.
+
+Primeiro grupo: autonomia, coordenação e cooperação federativa.
+Segundo grupo: capacidades administrativas e políticas.
+Terceiro grupo: burocracia, discricionariedade e implementação de direitos.
+
+Vamos seguir essa ordem, em três blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
+
+Repare no fio que liga os três grupos. A Constituição promete direitos. Para que um direito saia do papel, alguém precisa entregá-lo. No Brasil, quem entrega é, quase sempre, um conjunto de governos: a União financia e regula, o Estado organiza uma parte, o Município atende. Esse é o tema do federalismo. Para entregar, esses governos precisam ter condições de fazer. Esse é o tema das capacidades estatais. E, na ponta, quem decide o caso concreto é um servidor, diante de um cidadão, com alguma margem de escolha. Esse é o tema da burocracia e da discricionariedade. O item inteiro responde a uma pergunta: como um direito previsto na Constituição chega, ou não chega, à vida das pessoas.
+
+Este item tem uma metade de direito constitucional e uma metade de ciência política e administração pública. Na primeira metade, as bases são os artigos da Constituição sobre a organização do Estado, e você deve conferi-los no texto oficial do Planalto. Na segunda metade, os autores de referência são Marta Arretche, Fernando Abrucio, Peter Evans, Michael Mann, Alexandre Gomide e Roberto Pires, Max Weber, Robert Merton e Michael Lipsky.
+
+
+BLOCO UM. AUTONOMIA, COORDENAÇÃO E COOPERAÇÃO FEDERATIVA.
+
+Comecemos pelo conceito de federação.
+
+Federação é a forma de Estado em que o poder político é distribuído no território entre um governo central e governos regionais ou locais, todos dotados de autonomia, sob uma mesma Constituição. Ela se opõe ao Estado unitário, em que há um único centro de poder político, ainda que possa haver descentralização administrativa. E se distingue da confederação, que é uma união de Estados soberanos, formada por tratado, da qual cada um pode se retirar.
+
+Guarde o contraste. Na federação: entes autônomos, Constituição, sem direito de secessão. Na confederação: Estados soberanos, tratado, com direito de retirada.
+
+As características da federação que a banca costuma listar são estas. Descentralização política, com mais de uma esfera de governo sobre o mesmo território. Autonomia dos entes. Repartição de competências feita pela própria Constituição. Participação dos Estados na formação da vontade nacional, que no Brasil se dá pelo Senado. Indissolubilidade do vínculo. E um órgão encarregado de guardar a Constituição e arbitrar os conflitos federativos, que no Brasil é o Supremo Tribunal Federal.
+
+Sobre a indissolubilidade: o artigo primeiro da Constituição fala em união indissolúvel dos Estados e Municípios e do Distrito Federal. Não existe direito de secessão. E a forma federativa de Estado é cláusula pétrea.
+
+Sobre a formação histórica. A federação dos Estados Unidos formou-se por agregação: Estados antes independentes se uniram. A federação brasileira formou-se por desagregação: um Estado unitário, o Império, descentralizou-se com a República. Parte da doutrina chama o primeiro movimento de centrípeto e o segundo de centrífugo. Pegadinha: afirmar que a federação brasileira nasceu da união de Estados soberanos preexistentes. Errado.
+
+Agora, as peculiaridades da federação brasileira.
+
+A primeira e mais importante: o Brasil tem três níveis de entes federativos. O artigo dezoito diz que a organização político-administrativa da República compreende a União, os Estados, o Distrito Federal e os Municípios, todos autônomos. O Município é ente federativo, o que é incomum no mundo.
+
+O Distrito Federal é ente autônomo e acumula as competências legislativas reservadas aos Estados e aos Municípios. Ele não pode ser dividido em Municípios. E rege-se por lei orgânica, e não por constituição estadual.
+
+Os Territórios Federais, que hoje não existem, não são entes federativos. Eles integram a União. Pegadinha clássica: incluir os Territórios entre os entes autônomos da federação. Errado.
+
+E a capital federal é Brasília, e não o Distrito Federal. É o que diz o parágrafo primeiro do artigo dezoito.
+
+Passemos à autonomia, primeira palavra do edital.
+
+Você já sabe, da primeira aula, que soberana é a República e que os entes são autônomos. Agora vamos ver do que é feita essa autonomia. A doutrina a decompõe em quatro capacidades.
+
+Auto-organização: o ente elabora a sua norma fundamental. Os Estados têm constituições estaduais. Os Municípios e o Distrito Federal têm leis orgânicas.
+
+Autolegislação: o ente edita as suas próprias leis, nas matérias da sua competência.
+
+Autogoverno: o ente escolhe os seus próprios governantes, sem interferência dos demais.
+
+Autoadministração: o ente gere os seus serviços, o seu pessoal e os seus recursos, o que pressupõe competências próprias e receitas próprias.
+
+Essa última parte é decisiva: não há autonomia real sem recursos. Por isso a Constituição reparte também as receitas, por meio dos tributos próprios de cada ente e das transferências constitucionais, como os fundos de participação dos Estados e dos Municípios.
+
+Pegadinhas sobre a autonomia municipal. O Município tem Poder Executivo e Poder Legislativo, mas não tem Poder Judiciário próprio. Não tem representação no Senado. E organiza-se por lei orgânica, não por constituição. Item que atribua ao Município um Judiciário próprio, ou senadores, está errado. Apesar dessas diferenças, o Município é ente federativo e é autônomo.
+
+Uma consequência central da autonomia: não há hierarquia entre os entes federativos. A União não é superior aos Estados, nem os Estados aos Municípios. E, por isso, não há hierarquia entre lei federal, lei estadual e lei municipal. O que existe é repartição de competências. Se uma lei federal e uma lei estadual entram em conflito, a pergunta correta não é qual é a superior. A pergunta é: de quem é a competência para tratar daquele assunto? Se a matéria é de competência do Município, a lei municipal prevalece sobre a federal que a invadiu.
+
+Pegadinha muito frequente: afirmar que a lei federal prevalece sobre a estadual e a municipal em razão da hierarquia entre os entes. Errado.
+
+Vamos, então, à repartição de competências. O critério geral é o da predominância do interesse. Assuntos de interesse nacional ficam com a União. De interesse regional, com os Estados. De interesse local, com os Municípios.
+
+A técnica adotada pela Constituição é a seguinte.
+
+A União tem competências enumeradas. O artigo vinte e um traz as competências materiais exclusivas, aquelas de fazer, como emitir moeda e manter relações com Estados estrangeiros. O artigo vinte e dois traz as competências legislativas privativas, como legislar sobre direito civil, penal e do trabalho.
+
+Os Municípios também têm competências enumeradas, no artigo trinta: legislar sobre assuntos de interesse local e suplementar a legislação federal e a estadual no que couber, entre outras.
+
+Os Estados ficam com a competência remanescente, também chamada de residual ou reservada. O parágrafo primeiro do artigo vinte e cinco diz que são reservadas aos Estados as competências que não lhes sejam vedadas pela Constituição. Ou seja: o que não é da União nem do Município, é do Estado.
+
+Diferença fina entre exclusiva e privativa. A competência exclusiva do artigo vinte e um não pode ser delegada. A competência privativa do artigo vinte e dois pode: o parágrafo único diz que lei complementar poderá autorizar os Estados a legislar sobre questões específicas daquelas matérias. Pegadinhas: dizer que a delegação se faz por lei ordinária; dizer que ela pode abranger a matéria inteira, e não apenas questões específicas; ou dizer que pode ser feita aos Municípios.
+
+Uma armadilha de vocabulário: a competência residual é dos Estados, como regra geral. Mas, em matéria tributária, a competência para criar impostos não previstos é da União. Se o item falar em competência residual tributária, pense na União.
+
+Agora chegamos às duas competências que mais interessam a este item do edital, porque são a porta de entrada da cooperação: a comum e a concorrente.
+
+Competência comum, artigo vinte e três. É uma competência material, administrativa, de fazer. Pertence aos quatro entes: União, Estados, Distrito Federal e Municípios. Os temas são exatamente os das grandes políticas públicas: cuidar da saúde e da assistência pública, proporcionar acesso à educação, à cultura e à ciência, proteger o meio ambiente, combater as causas da pobreza, promover programas de moradia e saneamento, zelar pela guarda da Constituição e conservar o patrimônio público.
+
+E o parágrafo único do artigo vinte e três diz que leis complementares fixarão normas para a cooperação entre a União e os Estados, o Distrito Federal e os Municípios, tendo em vista o equilíbrio do desenvolvimento e do bem-estar em âmbito nacional.
+
+Competência concorrente, artigo vinte e quatro. É uma competência legislativa, de fazer leis. O caput menciona a União, os Estados e o Distrito Federal. Os temas incluem direito tributário, financeiro, econômico e urbanístico, orçamento, educação, proteção ao meio ambiente e defesa da saúde.
+
+O funcionamento está em quatro parágrafos, e a banca cobra todos.
+
+Parágrafo primeiro: no âmbito da legislação concorrente, a competência da União limita-se a estabelecer normas gerais.
+
+Parágrafo segundo: a competência da União para legislar sobre normas gerais não exclui a competência suplementar dos Estados.
+
+Parágrafo terceiro: inexistindo lei federal sobre normas gerais, os Estados exercerão a competência legislativa plena, para atender a suas peculiaridades.
+
+Parágrafo quarto: a superveniência de lei federal sobre normas gerais suspende a eficácia da lei estadual, no que lhe for contrário.
+
+A pegadinha do parágrafo quarto é das mais repetidas em concursos. A lei federal posterior suspende a eficácia da lei estadual. Ela não revoga. E só no que lhe for contrário. Por que não revoga? Porque não há hierarquia entre os entes, como acabamos de ver. Um ente não revoga a lei do outro. Se o item usar o verbo revogar, está errado.
+
+Para não confundir as duas. Comum: artigo vinte e três, administrativa, quatro entes, inclui os Municípios. Concorrente: artigo vinte e quatro, legislativa, o caput cita União, Estados e Distrito Federal. Os Municípios não estão no caput do artigo vinte e quatro, mas podem suplementar a legislação federal e a estadual no que couber, com base no artigo trinta.
+
+Ainda no campo da autonomia, um instituto que é a sua exceção: a intervenção.
+
+A regra é a não intervenção. A União não intervirá nos Estados nem no Distrito Federal, exceto nas hipóteses do artigo trinta e quatro, como manter a integridade nacional. E o Estado não intervirá em seus Municípios, nem a União nos Municípios localizados em Território Federal, exceto nas hipóteses do artigo trinta e cinco.
+
+A intervenção é excepcional, temporária e só cabe nas hipóteses previstas na Constituição.
+
+Pegadinha clássica: afirmar que a União pode intervir em Município situado em um Estado. Não pode. Nos Municípios dos Estados, quem intervém é o próprio Estado. A União só intervém em Municípios de Territórios Federais.
+
+Agora, as duas outras palavras do edital: coordenação e cooperação.
+
+Existem dois modelos teóricos de federalismo. No federalismo dual, cada esfera tem as suas competências, separadas e estanques, e atua sozinha no seu campo. No federalismo cooperativo, as esferas compartilham responsabilidades e atuam em conjunto. A Constituição de mil novecentos e oitenta e oito combina competências próprias de cada ente com competências compartilhadas, mas o desenho das políticas sociais é marcadamente cooperativo, como mostra o artigo vinte e três.
+
+Cooperação é a atuação conjunta dos entes para alcançar objetivos comuns, preservada a autonomia de cada um. Ela pode ser vertical, entre níveis diferentes, como União e Municípios, ou horizontal, entre entes do mesmo nível, como Municípios vizinhos.
+
+O principal instrumento jurídico está no artigo duzentos e quarenta e um da Constituição: os entes disciplinarão por meio de lei os consórcios públicos e os convênios de cooperação entre os entes federados, autorizando a gestão associada de serviços públicos. Os consórcios públicos são muito usados por Municípios pequenos, que sozinhos não teriam escala para manter, por exemplo, um hospital regional ou um aterro sanitário. Outro instrumento são as regiões metropolitanas, instituídas pelos Estados, por lei complementar, para integrar funções públicas de interesse comum de Municípios limítrofes.
+
+Coordenação é outra coisa. É o conjunto de mecanismos pelos quais as ações dos diferentes governos são alinhadas a objetivos nacionais, reduzindo sobreposições, lacunas e desigualdades. Em uma federação, a coordenação costuma ser exercida pelo governo central, mas sem relação de subordinação.
+
+Como a União coordena sem mandar? Por quatro vias principais. Pela edição de normas gerais. Pelo financiamento, com transferências de recursos vinculadas à adesão a programas e ao cumprimento de regras. Pela organização de sistemas nacionais de políticas, como o Sistema Único de Saúde, que a Constituição define como uma rede regionalizada e hierarquizada, descentralizada, com direção única em cada esfera de governo. E por instâncias de pactuação, em que representantes dos três níveis negociam as regras de operação das políticas.
+
+Guarde a diferença. Cooperar é agir junto. Coordenar é alinhar as ações de todos a um rumo comum. A cooperação pode ser horizontal e voluntária. A coordenação supõe alguém com capacidade de induzir.
+
+Pegadinha: tratar coordenação como sinônimo de hierarquia ou de subordinação dos entes à União. Errado. A coordenação federativa opera por normas gerais, incentivos e pactuação, e convive com a autonomia. O ente que adere a um programa federal aceita as suas regras, mas não deixa de ser autônomo.
+
+Aqui entra uma contribuição importante da cientista política Marta Arretche, muito citada em provas da área. Ela distingue duas coisas que costumam ser confundidas: a responsabilidade por executar uma política e a autoridade para decidir sobre ela. No Brasil pós mil novecentos e oitenta e oito, a execução das políticas sociais foi fortemente descentralizada para Estados e, sobretudo, para Municípios. Mas a autoridade para regular e para definir as regras permaneceu, em grande medida, concentrada na União.
+
+Conclusão para a prova: descentralizar a execução não é o mesmo que descentralizar a decisão. Item que afirme que a descentralização das políticas sociais deu aos Municípios plena autonomia para definir o seu desenho, sem regulação federal, está errado.
+
+E quais são os problemas típicos de uma federação quando a coordenação e a cooperação falham? Vale conhecer quatro.
+
+O jogo de empurra. Como a competência é de todos, cada ente espera que o outro atue, e ninguém se responsabiliza. Isso dificulta, inclusive, a responsabilização democrática que estudamos na aula passada: o cidadão não sabe de quem cobrar.
+
+A sobreposição e a fragmentação. Mais de um ente faz a mesma coisa, sem articulação, com desperdício.
+
+A competição predatória. O exemplo clássico é a guerra fiscal, em que Estados disputam empresas concedendo benefícios tributários, com perda de arrecadação para o conjunto.
+
+E a desigualdade. Os entes têm condições muito diferentes de arrecadar e de gerir. Sem mecanismos de redistribuição e de apoio, o mesmo direito é atendido de formas muito desiguais conforme o lugar onde a pessoa mora.
+
+Esse último ponto mostra a tensão que o edital quer que você perceba. Autonomia permite adaptar as políticas às realidades locais, experimentar e aproximar o governo do cidadão. Mas autonomia sem coordenação tende a produzir desigualdade territorial no acesso a direitos. E coordenação em excesso sufoca a autonomia e ignora as diferenças locais. O federalismo é a busca permanente desse equilíbrio. Item que apresente autonomia e coordenação como dimensões em tensão, a serem equilibradas, tende a estar certo. Item que diga que uma exclui a outra tende a estar errado.
+
+Uma palavra sobre o controle. A CGU é um órgão federal. Quando fiscaliza a aplicação, por Estados e Municípios, de recursos federais repassados por meio de programas e convênios, ela não viola a autonomia desses entes, porque o que atrai a sua atuação é a origem federal do recurso. Ao mesmo tempo, a CGU não é órgão de controle dos Estados e dos Municípios em geral, que têm os seus próprios sistemas de controle interno e os seus tribunais de contas.
+
+Resumo do bloco um. Na federação brasileira, União, Estados, Distrito Federal e Municípios são autônomos e não há hierarquia entre eles. A autonomia se traduz em auto-organização, autolegislação, autogoverno e autoadministração. As competências são repartidas pela Constituição, com destaque para a competência comum, administrativa, e a concorrente, legislativa. Cooperação é agir em conjunto. Coordenação é alinhar as ações a objetivos nacionais, sem subordinação.
+
+
+BLOCO DOIS. CAPACIDADES ADMINISTRATIVAS E POLÍTICAS.
+
+Capacidade estatal é a aptidão do Estado para definir os seus objetivos e, principalmente, para realizá-los. Em termos de políticas públicas, é a capacidade de formular e de implementar: transformar uma decisão em entrega efetiva.
+
+O conceito nasceu de estudos sobre o papel do Estado no desenvolvimento. Dois autores ajudam a entender a sua lógica.
+
+O sociólogo Michael Mann distingue dois tipos de poder do Estado. O poder despótico é a capacidade da elite estatal de tomar decisões sem negociar com a sociedade. O poder infraestrutural é a capacidade do Estado de penetrar no território e na sociedade e de fazer as suas decisões valerem na prática, em todo lugar. Um Estado pode ser muito forte no primeiro sentido e fraco no segundo: decide tudo sozinho, mas não consegue entregar. A noção de capacidade estatal está ligada ao poder infraestrutural.
+
+Peter Evans, estudando países que se desenvolveram, formulou a ideia de autonomia inserida. Os Estados bem-sucedidos combinavam duas coisas. De um lado, uma burocracia profissional, coesa e recrutada por mérito, capaz de resistir a pressões particulares. Isso é a autonomia. De outro lado, laços densos com a sociedade, que fornecem informação e permitem negociar e ajustar as políticas. Isso é a inserção. Só autonomia leva ao isolamento. Só inserção leva à captura. O ponto está na combinação.
+
+Essa dupla exigência aparece exatamente na formulação que o edital adota: capacidades administrativas e capacidades políticas. No Brasil, ela foi sistematizada por Alexandre Gomide e Roberto Pires, pesquisadores do Ipea, em duas dimensões.
+
+A primeira é a capacidade técnico-administrativa. Ela diz respeito à existência de burocracias profissionais e competentes, com recursos organizacionais, financeiros e tecnológicos, e com instrumentos de coordenação e de monitoramento. É a dimensão ligada à eficiência e à eficácia, à entrega dos resultados.
+
+A segunda é a capacidade política, que esses autores também chamam de político-relacional. Ela diz respeito à habilidade de incluir os diversos atores, negociar, processar conflitos e construir consensos em torno da política, por meio de canais de interlocução com o parlamento, com outros níveis de governo, com a sociedade e com os órgãos de controle. É a dimensão ligada à legitimidade.
+
+Guarde assim. Capacidade administrativa: saber fazer e ter com o que fazer. Burocracia, recursos, sistemas, coordenação. Capacidade política: conseguir que os outros aceitem e colaborem. Negociação, participação, articulação.
+
+Os estudos desses autores sobre programas federais indicaram que as duas capacidades produzem efeitos diferentes. Altas capacidades técnico-administrativas estiveram associadas à entrega dos produtos previstos. Altas capacidades políticas estiveram associadas à inovação, isto é, à revisão e ao aperfeiçoamento dos programas ao longo do caminho. A mensagem é que as duas são necessárias e se complementam.
+
+Note a ligação com as aulas anteriores. A capacidade administrativa conversa com a governança, a capacidade de implementar. A capacidade política conversa com a governabilidade e com a legitimidade. E a participação e os controles, que poderiam parecer obstáculos, aparecem aqui como fontes de capacidade, porque trazem informação, corrigem erros e dão sustentação às decisões.
+
+Agora, as pegadinhas deste bloco, que tendem a ser conceituais.
+
+Primeira: capacidade estatal não é tamanho do Estado. Um Estado grande, com muitos órgãos e servidores, pode ter baixa capacidade de entregar. E um aparato enxuto pode ser muito capaz. Item que identifique capacidade com número de servidores ou volume de gasto está errado.
+
+Segunda: capacidade não é atributo uniforme. Ela varia entre países, entre níveis de governo, entre áreas de política dentro do mesmo governo e ao longo do tempo. O Estado brasileiro tem áreas de excelência convivendo com áreas frágeis. Item que trate a capacidade como característica homogênea de todo o Estado está errado.
+
+Terceira: capacidade é potencial, não resultado. Ter capacidade não garante o sucesso da política, e o fracasso de uma política pode ter outras causas, como um desenho ruim.
+
+Quarta: a troca das duas dimensões. O item descreve negociação e articulação com atores e chama de capacidade técnico-administrativa. Ou descreve recursos e burocracia profissional e chama de capacidade política.
+
+Quinta: valorizar só uma dimensão. Capacidade técnica sem capacidade política leva ao chamado insulamento burocrático: órgãos tecnicamente bons, mas fechados, que formulam políticas sem diálogo, com pouca legitimidade e dificuldade de implementação. Capacidade política sem capacidade técnica leva a acordos e promessas que não se convertem em entrega.
+
+E a conexão com o federalismo, que é a razão de os dois temas estarem no mesmo item. As capacidades são muito desiguais entre os entes. A maior parte dos Municípios brasileiros é pequena, tem pouca arrecadação própria e quadros técnicos reduzidos. Mas é justamente o Município que executa boa parte das políticas de saúde, educação e assistência. Descentralizar responsabilidades sem construir capacidades gera um problema: o direito é o mesmo no país inteiro, mas a condição de entregá-lo não é. Por isso, a coordenação federativa inclui apoio técnico, financiamento e instrumentos como os consórcios.
+
+Para o controle, isso tem uma consequência prática, que o próprio edital registra mais adiante, quando fala em diferenças de capacidade entre organizações e em medidas proporcionais. Exigir de um Município muito pequeno exatamente o mesmo aparato de uma grande capital pode ser inviável. E uma falha decorrente de baixa capacidade não é o mesmo que fraude. A distinção entre falha de gestão e corrupção, que o edital cobra em outro item, começa aqui.
+
+Resumo do bloco dois. Capacidade estatal é a aptidão para transformar decisões em resultados. Tem uma dimensão administrativa, ligada a burocracia, recursos e coordenação, e uma dimensão política, ligada a negociação, participação e legitimidade. Não se confunde com tamanho do Estado, varia entre áreas e entes, e as duas dimensões se complementam.
+
+
+BLOCO TRÊS. BUROCRACIA, DISCRICIONARIEDADE E IMPLEMENTAÇÃO DE DIREITOS.
+
+Comecemos pela burocracia.
+
+A palavra tem dois sentidos. No sentido popular, burocracia é sinônimo de papelada, lentidão e exigência inútil. No sentido técnico, que é o da prova, burocracia é uma forma de organização e é também o corpo de funcionários profissionais do Estado.
+
+Você já viu, na primeira aula, que a burocracia é, para Max Weber, a expressão mais pura da dominação racional-legal. Agora vamos às suas características, no tipo ideal weberiano.
+
+Caráter legal das normas: a organização funciona com base em regras escritas e previamente estabelecidas.
+
+Impessoalidade: as relações se dão entre cargos, e não entre pessoas. O tratamento é igual para casos iguais.
+
+Hierarquia: os cargos são organizados em níveis, com supervisão dos inferiores pelos superiores.
+
+Divisão do trabalho e competências definidas: cada cargo tem atribuições delimitadas.
+
+Profissionalização: os funcionários são especialistas, selecionados por mérito e competência técnica, remunerados por salário, com carreira.
+
+Separação entre o cargo e a pessoa: o funcionário não é dono do cargo nem dos meios da administração. O que é público não se confunde com o que é particular.
+
+Formalismo: os atos e as decisões são registrados por escrito.
+
+Para Weber, essa forma de organização era tecnicamente superior às anteriores em precisão, continuidade e previsibilidade. E ela se contrapõe ao patrimonialismo, em que o governante trata o Estado como coisa sua e distribui cargos por lealdade pessoal.
+
+A pegadinha mais comum de todo este tema: atribuir a Weber, como características da burocracia, aquilo que são as suas disfunções. Lentidão, excesso de papelada, apego exagerado às regras, resistência a mudanças, tratamento frio do público. Nada disso faz parte do modelo. Quem estudou esses efeitos indesejados foi, principalmente, Robert Merton, que os chamou de disfunções da burocracia. A mais citada é o deslocamento de objetivos: a regra, que era um meio, vira um fim em si mesma, e o funcionário passa a se preocupar em cumprir o procedimento, e não em resolver o problema do cidadão.
+
+Então, na prova: características da burocracia, Weber, modelo ideal, racionalidade e impessoalidade. Disfunções da burocracia, Merton, efeitos não previstos, excesso de formalismo e deslocamento de objetivos.
+
+Outra pegadinha: tratar a burocracia como algo oposto à democracia e aos direitos. A relação é mais sutil. A burocracia profissional e impessoal é condição do Estado de direito, porque garante que a lei seja aplicada a todos da mesma forma e que a administração continue funcionando quando os governos mudam. Ao mesmo tempo, há tensões reais: a burocracia pode se fechar, resistir ao controle político e social e agir por interesses próprios. Daí a importância dos controles e da transparência.
+
+A burocracia pública não é um bloco único. A literatura costuma distinguir três níveis. O alto escalão, que participa da formulação e dirige os órgãos. O médio escalão, formado por gerentes e coordenadores, que traduz as diretrizes em operação. E a burocracia de nível de rua, que atende diretamente o cidadão.
+
+É sobre esse terceiro nível que recai o conceito mais importante do bloco.
+
+A expressão burocracia de nível de rua é do cientista político Michael Lipsky, em obra de mil novecentos e oitenta. Burocratas de nível de rua são os servidores que interagem diretamente com os cidadãos na execução das políticas e que têm margem substancial de decisão no seu trabalho. Professores, policiais, médicos e enfermeiros de unidades de saúde, assistentes sociais, agentes comunitários, atendentes de agências da previdência, fiscais.
+
+Lipsky observa que esses profissionais trabalham em condições típicas: demanda maior que a oferta, recursos escassos, pouco tempo, metas vagas ou conflitantes, e casos concretos que as regras não previram por inteiro. Para dar conta, eles desenvolvem rotinas e estratégias: fazem triagem, priorizam uns casos sobre outros, classificam os usuários em categorias, simplificam procedimentos.
+
+E a tese central de Lipsky, que você deve reconhecer em qualquer redação, é a seguinte. As decisões desses servidores, as rotinas que criam e os expedientes que inventam para lidar com as pressões do trabalho tornam-se, na prática, a própria política pública. Para o cidadão, o Estado não é a lei nem o ministério. É a pessoa que o atende no balcão.
+
+Pegadinhas sobre Lipsky. Dizer que burocratas de nível de rua são meros executores, sem influência sobre o conteúdo das políticas. É o oposto da tese. Dizer que a expressão se refere a dirigentes ou formuladores. Errado: são os servidores da linha de frente. Ou dizer que o termo se aplica apenas a quem trabalha fisicamente na rua. Errado: o professor em sala de aula e o atendente no guichê são exemplos típicos.
+
+Isso nos leva à discricionariedade.
+
+A palavra aparece em dois campos, e convém dominar os dois.
+
+No direito administrativo, discricionariedade é a margem de liberdade que a lei confere ao administrador para, diante do caso concreto, escolher a solução mais adequada segundo critérios de conveniência e oportunidade, dentro dos limites legais. Ela se opõe à vinculação: no ato vinculado, a lei define todos os elementos e não deixa escolha.
+
+Discricionariedade não é arbitrariedade. O ato discricionário é praticado dentro da lei. O ato arbitrário é praticado fora dela ou contra ela. E a discricionariedade tem limites: a competência, a finalidade pública, a motivação, a razoabilidade e a proporcionalidade. O Judiciário pode controlar a legalidade do ato discricionário e o respeito a esses limites, mas, em regra, não substitui a escolha de mérito feita pelo administrador.
+
+Nos estudos de implementação de políticas, discricionariedade tem um sentido mais amplo e mais factual: é o espaço de decisão que o servidor efetivamente tem ao aplicar regras gerais a situações concretas. Esse espaço existe mesmo quando a norma parece detalhada, porque nenhuma regra antecipa todos os casos, porque o tempo e os recursos são limitados e porque a supervisão nunca é total.
+
+A mensagem central, coerente com o edital: a discricionariedade na ponta é inevitável e é ambivalente.
+
+Ela tem um lado positivo. Permite adaptar a regra geral à situação particular, tratar com sensibilidade os casos que a norma não previu e resolver problemas reais. Uma aplicação cega da regra pode produzir injustiça.
+
+E tem um lado de risco. Dois cidadãos em situação idêntica podem receber tratamentos diferentes conforme quem os atende. Julgamentos pessoais, estereótipos e preconceitos podem influenciar quem é considerado merecedor do serviço. A discricionariedade pode reproduzir desigualdades e abrir espaço para favorecimentos.
+
+Por isso, a resposta adequada não é eliminar a discricionariedade, o que seria impossível e indesejável, nem deixá-la sem limites. É orientá-la e torná-la controlável: capacitação, protocolos e critérios claros, exigência de motivação das decisões, transparência, supervisão, canais de reclamação e de ouvidoria.
+
+Pegadinhas. Tratar discricionariedade como sinônimo de arbitrariedade. Afirmar que a implementação é tanto melhor quanto menor a discricionariedade dos implementadores, de forma absoluta. Ou afirmar que a discricionariedade dos servidores da ponta é uma falha que o bom desenho da política elimina por completo. As três estão erradas.
+
+Agora, a implementação.
+
+Implementação é a fase em que a política decidida é colocada em prática. Existem duas grandes perspectivas para analisá-la.
+
+A perspectiva de cima para baixo, conhecida pela expressão em inglês top-down, parte da decisão tomada no topo e pergunta em que medida ela foi cumprida. A implementação é vista como execução. Os problemas são desvios em relação ao plano, e a solução está em objetivos claros, comando e controle. Os autores pioneiros são Pressman e Wildavsky, que mostraram como programas bem-intencionados se perdem em longas cadeias de decisão.
+
+A perspectiva de baixo para cima, bottom-up, parte dos implementadores e do que acontece na ponta. A implementação é vista como um processo em que a política continua sendo decidida, interpretada e adaptada. Lipsky é a referência principal.
+
+A ideia que une as duas, e que a banca pode cobrar, é esta: a implementação não é uma etapa meramente técnica, automática e neutra, que apenas executa o que foi decidido. Nela são tomadas decisões que mudam o resultado. A distância entre o que a política previa e o que de fato acontece é chamada de lacuna de implementação.
+
+Item que descreva a implementação como simples execução mecânica de decisões já tomadas, sem influência dos implementadores, está errado.
+
+Por fim, a expressão que fecha o subitem: implementação de direitos.
+
+O ponto de partida é a diferença entre o direito previsto e o direito efetivo. Estar na Constituição ou na lei não basta. Um direito social depende de orçamento, de serviços organizados, de servidores e de procedimentos de acesso. Ou seja, depende de capacidades estatais e do trabalho da burocracia. É por isso que esses temas estão juntos no edital.
+
+E o acesso tem custos para o cidadão. A literatura fala em barreiras administrativas, ou ônus administrativos. São de três tipos. Custos de aprendizagem: descobrir que o direito existe, se a pessoa se enquadra e como pedir. Custos de conformidade: reunir documentos, preencher formulários, deslocar-se, comparecer a perícias. E custos psicológicos: a espera, o constrangimento, o estigma.
+
+Esses custos não pesam igualmente sobre todos. Recaem mais sobre quem tem menos escolaridade, menos tempo, menos acesso à internet e menos familiaridade com o Estado. O resultado é que um direito formalmente universal pode ser, na prática, acessado de forma muito desigual. Há pessoas que têm direito a um benefício e não o recebem, simplesmente porque não conseguem atravessar o procedimento.
+
+Guarde esta frase, porque ela resume o espírito do item: a forma como um direito é administrado faz parte do próprio direito. Uma exigência documental, um sistema que só funciona em um tipo de aparelho, uma fila, um formulário incompreensível, tudo isso decide quem acessa e quem fica de fora. O edital retoma esse ponto ao falar em barreiras administrativas e digitais e, mais adiante, em simplificação e acessibilidade dos serviços.
+
+Para você, candidato da área de desenvolvimento de sistemas, há uma ligação direta. Quando um serviço é digitalizado, muitas decisões que antes eram tomadas pelo atendente passam a estar embutidas nas regras do sistema. Quem define os campos obrigatórios, as validações e os critérios automáticos de concessão ou de recusa está exercendo, na prática, uma parte da discricionariedade que antes estava no balcão. A discricionariedade não desaparece com a automação. Ela muda de lugar. E, com ela, deve ir a responsabilidade de justificar as regras, de prever exceções e de garantir um canal humano para os casos que o sistema não previu. O edital volta a esse ponto nos itens sobre transformação digital e uso responsável de inteligência artificial.
+
+E a ponte com o federalismo fecha o círculo. Boa parte dos direitos sociais é entregue por servidores municipais. A qualidade do atendimento depende da capacidade daquele Município. Federalismo, capacidades e burocracia são três ângulos do mesmo problema.
+
+Resumo do bloco três. Burocracia, em sentido técnico, é a organização profissional, impessoal e baseada em regras, e não se confunde com as suas disfunções. Os burocratas de nível de rua têm discricionariedade, e as suas decisões acabam sendo, na prática, a política pública. A discricionariedade é inevitável e ambivalente, e deve ser orientada e controlada. A implementação não é execução mecânica. E um direito só é efetivo quando as pessoas conseguem atravessar o caminho administrativo para acessá-lo.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Primeira estratégia: a falsa hierarquia. Qualquer afirmação de que a União é superior aos demais entes, ou de que a lei federal prevalece por ser hierarquicamente superior. Lembre: autonomia e repartição de competências.
+
+Segunda estratégia: troca de verbos e de titulares na Constituição. Revoga no lugar de suspende a eficácia. Lei ordinária no lugar de lei complementar. Municípios no caput do artigo vinte e quatro. União intervindo em Município de Estado. Territórios como entes federativos. Município com Judiciário próprio.
+
+Terceira estratégia: troca de competências. Comum por concorrente. Exclusiva por privativa. Residual dos Estados por residual tributária da União.
+
+Quarta estratégia: troca de conceitos vizinhos. Cooperação por coordenação. Coordenação por subordinação. Descentralização da execução por descentralização da decisão. Capacidade administrativa por capacidade política. Discricionariedade por arbitrariedade. Características da burocracia por disfunções.
+
+Quinta estratégia: troca de autores. Disfunções atribuídas a Weber. Burocracia de nível de rua atribuída a Weber ou a Merton. Autonomia inserida atribuída a Lipsky.
+
+Sexta estratégia: afirmações absolutas. Autonomia plena dos Municípios para definir as políticas. Discricionariedade como defeito a ser eliminado. Implementação como etapa puramente técnica. Capacidade estatal como atributo homogêneo.
+
+Sétima estratégia: situação hipotética. Use as perguntas desta aula. De quem é a competência? O que falta a esse governo: recursos e quadros técnicos, ou apoio e articulação? Quem, na prática, está decidindo o acesso do cidadão?
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+Na federação brasileira, não há hierarquia entre a União, os Estados, o Distrito Federal e os Municípios, de modo que eventual conflito entre lei federal e lei municipal deve ser resolvido com base na repartição constitucional de competências, e não na suposta superioridade da norma federal.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: os entes são todos autônomos, conforme o artigo dezoito. O critério para resolver conflitos entre leis de entes diferentes é a competência. Se a matéria é de interesse local, prevalece a lei municipal.
+
+Questão dois.
+Constatado que determinado Município, situado em um Estado da federação, deixou de aplicar o mínimo exigido da receita municipal em ações e serviços públicos de saúde, a União poderá nele intervir diretamente, a fim de assegurar a observância da Constituição Federal.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a União intervém nos Estados e no Distrito Federal e, quanto a Municípios, apenas nos localizados em Território Federal. Em Município situado em Estado, a intervenção cabe ao próprio Estado, nas hipóteses do artigo trinta e cinco.
+
+Questão três.
+No âmbito da legislação concorrente, a superveniência de lei federal sobre normas gerais revoga a lei estadual anteriormente editada sobre a mesma matéria, no que lhe for contrário.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a lei federal superveniente suspende a eficácia da lei estadual, no que lhe for contrário. Não revoga, justamente porque não há hierarquia entre os entes. Um verbo trocado invalida o item.
+
+Questão quatro.
+A competência comum prevista na Constituição Federal tem natureza administrativa, alcança a União, os Estados, o Distrito Federal e os Municípios e abrange matérias como saúde, educação e proteção do meio ambiente, cabendo a leis complementares fixar normas para a cooperação entre esses entes.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o artigo vinte e três e o seu parágrafo único. Compare com a competência concorrente, do artigo vinte e quatro, que é legislativa e cujo caput menciona União, Estados e Distrito Federal.
+
+Questão cinco.
+Por serem entes federativos dotados de autonomia, os Municípios organizam-se por constituição própria, dispõem de Poder Judiciário e elegem representantes para o Senado Federal.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: os Municípios são entes federativos autônomos, mas regem-se por lei orgânica, não têm Poder Judiciário próprio e não têm representação no Senado, que representa os Estados e o Distrito Federal. A premissa é verdadeira e as três conclusões são falsas.
+
+Questão seis.
+A descentralização da execução de políticas sociais para os Municípios não implica, necessariamente, a transferência da autoridade para definir as regras dessas políticas, sendo compatível com a autonomia federativa a coordenação exercida pela União por meio de normas gerais e de transferências de recursos vinculadas à adesão a programas.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a distinção, associada a Marta Arretche, entre quem executa e quem decide. E coordenação não é subordinação: ela opera por normas gerais, incentivos e pactuação, preservada a autonomia.
+
+Questão sete.
+Um Município conta com equipe técnica qualificada, sistemas de informação adequados e recursos suficientes para implantar um programa de urbanização, mas o projeto é paralisado porque a prefeitura não estabeleceu diálogo com os moradores afetados nem com a câmara municipal. Nessa situação, a deficiência identificada refere-se à dimensão política das capacidades estatais.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: quadros técnicos, sistemas e recursos indicam capacidade técnico-administrativa. O que faltou foi a habilidade de negociar, incluir atores e construir apoio, que é a capacidade política ou político-relacional.
+
+Questão oito.
+A capacidade estatal constitui atributo homogêneo de cada Estado nacional e pode ser adequadamente aferida pelo número de servidores públicos e pelo volume de gastos do governo.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a capacidade varia entre áreas de política, entre níveis de governo e ao longo do tempo. E não se confunde com o tamanho do Estado: um aparato grande pode ter baixa capacidade de entregar resultados.
+
+Questão nove.
+No modelo burocrático descrito por Max Weber, são características essenciais da burocracia o apego excessivo às normas, a lentidão dos procedimentos e a resistência a mudanças.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: esses são efeitos indesejados, as chamadas disfunções da burocracia, estudadas principalmente por Robert Merton. No tipo ideal de Weber, a burocracia caracteriza-se por legalidade, impessoalidade, hierarquia, profissionalização e mérito.
+
+Questão dez.
+Segundo Michael Lipsky, os servidores que atendem diretamente os cidadãos dispõem de margem de decisão no exercício de suas funções, de modo que as rotinas que estabelecem e as decisões que tomam acabam por definir, na prática, a política pública efetivamente implementada.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a tese central da burocracia de nível de rua. Esses servidores não são meros executores: ao aplicar regras gerais a casos concretos, sob pressão e com recursos limitados, eles moldam a política.
+
+Questão onze.
+A discricionariedade de que dispõem os agentes públicos responsáveis pela implementação de políticas equivale à atuação arbitrária, razão pela qual a efetivação de direitos será tanto maior quanto mais se eliminar qualquer margem de decisão desses agentes.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: discricionariedade é escolha dentro dos limites da lei, e arbitrariedade é atuação fora deles. Além disso, a discricionariedade na ponta é inevitável e ambivalente: pode adaptar a regra ao caso concreto ou gerar tratamento desigual. A resposta é orientá-la e controlá-la, e não eliminá-la.
+
+Questão doze.
+Exigências documentais, etapas presenciais e procedimentos disponíveis apenas em meio digital podem restringir o acesso efetivo a um direito previsto em lei, afetando de modo desproporcional as pessoas com menos recursos e informação.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: são as barreiras ou ônus administrativos, com os seus custos de aprendizagem, de conformidade e psicológicos. A forma como um direito é administrado influencia quem consegue exercê-lo, e esses custos pesam mais sobre os mais vulneráveis.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Federação: entes autônomos, uma Constituição, sem secessão. No Brasil, União, Estados, Distrito Federal e Municípios. Territórios integram a União.
+
+Autonomia: auto-organização, autolegislação, autogoverno e autoadministração. Não há hierarquia entre os entes nem entre as suas leis. O que há é repartição de competências.
+
+União e Municípios têm competências enumeradas. Estados têm a remanescente.
+
+Competência comum: artigo vinte e três, administrativa, dos quatro entes, com leis complementares para a cooperação. Competência concorrente: artigo vinte e quatro, legislativa, União com normas gerais, Estados com a suplementar. Lei federal posterior suspende a eficácia da estadual, não revoga.
+
+Intervenção é exceção. A União não intervém em Município de Estado.
+
+Cooperação é agir em conjunto, com consórcios e convênios. Coordenação é alinhar as ações a objetivos nacionais, por normas gerais, financiamento e pactuação, sem subordinação. Descentralizar a execução não é descentralizar a decisão.
+
+Capacidade estatal é a aptidão para transformar decisão em resultado. Dimensão administrativa: burocracia profissional, recursos, coordenação. Dimensão política: negociação, participação, legitimidade. Não é tamanho do Estado e não é uniforme.
+
+Burocracia em Weber: legal, impessoal, hierárquica, profissional. As disfunções são de Merton.
+
+Lipsky: os burocratas de nível de rua têm discricionariedade, e as suas decisões se tornam a política na prática.
+
+Discricionariedade não é arbitrariedade. É inevitável e ambivalente. Deve ser orientada e controlada.
+
+Implementação não é execução mecânica. E um direito só é efetivo quando o cidadão consegue vencer as barreiras administrativas e digitais para acessá-lo.
+
+Fim da aula do item um ponto um ponto três. Na sequência do edital, o próximo é o item um ponto um ponto quatro, ordem constitucional e direitos. Bons estudos.

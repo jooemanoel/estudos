@@ -1,0 +1,411 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.2.1 DO EDITAL: FUNDAMENTOS SOCIOLÓGICOS.
+SUBITEM 1.2.1.1: Instituições, socialização e ação coletiva; estratificação e mobilidade social; redes, poder, discriminação e reprodução das desigualdades.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto dois ponto um do edital da CGU, chamado fundamentos sociológicos. Com ele começa um novo bloco do edital, o um ponto dois, sociedade brasileira, desigualdades, diversidade e desenvolvimento.
+
+O item tem um único subitem, o um ponto dois ponto um ponto um, com três grupos de conceitos.
+
+Primeiro grupo: instituições, socialização e ação coletiva.
+Segundo grupo: estratificação e mobilidade social.
+Terceiro grupo: redes, poder, discriminação e reprodução das desigualdades.
+
+Vamos seguir essa ordem, em três blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
+
+Uma palavra sobre o lugar deste item. Ele é a base conceitual de todo o bloco um ponto dois. Os itens seguintes tratam da formação social brasileira, de população e trabalho, de diversidade e acesso a direitos, e de desenvolvimento. Para entendê-los, você precisa das ferramentas desta aula: o que são instituições, como as pessoas aprendem a viver em sociedade, como as desigualdades se organizam e, principalmente, por que elas tendem a se reproduzir de uma geração para outra.
+
+E por que isso importa para um auditor de tecnologia da informação? Por três razões. Primeiro, porque as políticas públicas que a CGU avalia atuam justamente sobre desigualdades. Segundo, porque o próprio Estado é uma instituição que pode reduzir ou reproduzir desigualdades, por exemplo, por meio de barreiras de acesso a serviços. E terceiro, porque sistemas de informação e modelos de inteligência artificial podem incorporar e ampliar discriminações presentes nos dados. O edital volta a esses pontos mais adiante.
+
+Os autores de referência são os clássicos da sociologia, Émile Durkheim, Max Weber e Karl Marx, e autores contemporâneos como Peter Berger e Thomas Luckmann, Douglass North, Mancur Olson, Pierre Bourdieu, Mark Granovetter e Charles Tilly. No Brasil, destacam-se José Pastore, Carlos Hasenbalg e Nelson do Valle Silva. Na parte normativa, o Estatuto da Igualdade Racial e a legislação sobre crimes de discriminação. Como sempre, confira os dispositivos no texto oficial do Planalto.
+
+Uma orientação de estratégia. Em sociologia, a Cebraspe costuma cobrar três coisas: a definição precisa dos conceitos, a atribuição correta aos autores e a capacidade de reconhecer o conceito em uma situação concreta. Preste atenção especial aos pares que a banca troca: socialização primária e secundária, mobilidade intergeracional e intrageracional, mobilidade estrutural e de circulação, preconceito e discriminação, laços fortes e fracos.
+
+
+BLOCO UM. INSTITUIÇÕES, SOCIALIZAÇÃO E AÇÃO COLETIVA.
+
+Comecemos pelos fundadores, porque os conceitos do edital nascem deles.
+
+Émile Durkheim, sociólogo francês do final do século dezenove, definiu o objeto da sociologia como o fato social. Fatos sociais são maneiras de agir, de pensar e de sentir que existem fora das consciências individuais e que se impõem a elas. Durkheim apontou três características dos fatos sociais, que caem com frequência.
+
+Exterioridade: o fato social existe antes do indivíduo e independentemente dele. Quando você nasce, a língua, as leis, os costumes e a moeda já estão lá.
+
+Coercitividade: o fato social exerce pressão sobre o indivíduo, que é levado a se conformar a ele. Essa coerção pode ser formal, como uma sanção legal, ou informal, como a reprovação dos outros.
+
+Generalidade: o fato social é coletivo, repete-se no grupo, e não é uma simples soma de comportamentos individuais.
+
+Durkheim também propôs tratar os fatos sociais como coisas, isto é, estudá-los de forma objetiva, de fora, como se estudam os fenômenos da natureza.
+
+Dois outros conceitos de Durkheim são úteis. Primeiro, a distinção entre solidariedade mecânica, típica de sociedades simples, em que a coesão vem da semelhança entre as pessoas, e solidariedade orgânica, típica das sociedades modernas, em que a coesão vem da interdependência criada pela divisão do trabalho, como os órgãos de um corpo. Segundo, a anomia: um estado de enfraquecimento das normas, em que as regras deixam de orientar o comportamento, típico de períodos de mudança rápida.
+
+Max Weber, sociólogo alemão da mesma época, adotou uma perspectiva diferente, chamada de sociologia compreensiva. Para ele, o ponto de partida é a ação social: a ação dotada de sentido para quem a pratica e orientada pelo comportamento de outras pessoas. A tarefa do sociólogo é compreender o sentido que os atores atribuem às suas ações.
+
+Weber classificou a ação social em quatro tipos ideais, e esta lista é cobrada com muita frequência.
+
+Ação racional com relação a fins: o agente escolhe os meios mais adequados para alcançar um objetivo, calculando consequências. Por exemplo, um empresário que escolhe o fornecedor mais barato para maximizar o lucro.
+
+Ação racional com relação a valores: o agente age de acordo com uma convicção ética, religiosa ou política, independentemente das consequências. Por exemplo, alguém que se recusa a mentir mesmo que isso lhe traga prejuízo.
+
+Ação afetiva: determinada por emoções e sentimentos do momento.
+
+Ação tradicional: determinada por costumes arraigados, pelo hábito. Faz-se assim porque sempre se fez.
+
+A pegadinha clássica é trocar a ação racional com relação a valores pela ação tradicional. A primeira é guiada por convicções conscientes; a segunda, pelo hábito. Repare a semelhança com os tipos de dominação, que você viu na primeira aula: a dominação tradicional se apoia no costume, e a racional-legal, na regra.
+
+E guarde o contraste metodológico, que também cai: Durkheim parte da sociedade, dos fatos sociais exteriores e coercitivos, e propõe tratá-los como coisas. Weber parte do indivíduo e do sentido da ação, e propõe compreendê-lo. Karl Marx, que veremos no bloco dois, parte das relações de produção e dos conflitos entre classes.
+
+Agora, as instituições.
+
+Na sociologia, instituições são padrões de comportamento relativamente estáveis, organizados em torno de normas, valores e papéis sociais, que regulam aspectos importantes da vida coletiva. A família, a escola, a religião, o mercado, o Estado, o direito são instituições.
+
+Peter Berger e Thomas Luckmann, na obra A Construção Social da Realidade, explicaram como as instituições surgem. Ações repetidas se tornam hábitos. Quando os hábitos são compartilhados e reconhecidos pelos membros do grupo, eles se tipificam, isto é, passam a ser vistos como a forma normal de fazer as coisas. Com o tempo, e especialmente quando são transmitidos às novas gerações, esses padrões parecem naturais e objetivos, como se sempre tivessem existido. A ideia central é que as instituições são produtos humanos, construídos socialmente, mas que se apresentam às pessoas como uma realidade objetiva.
+
+Na economia e na ciência política, a definição mais citada é a de Douglass North, ganhador do Nobel de economia. Para ele, instituições são as regras do jogo em uma sociedade, isto é, as restrições criadas pelos seres humanos que estruturam a interação política, econômica e social. North destaca dois pontos que a banca pode explorar.
+
+Primeiro: as instituições podem ser formais, como constituições, leis e contratos, ou informais, como costumes, tradições, normas sociais e códigos de conduta. As informais são tão importantes quanto as formais e, muitas vezes, mudam mais devagar. Lembre da aula sobre normas sociais e tolerância organizacional: a regra escrita pode dizer uma coisa e a regra informal, outra.
+
+Segundo: instituições não se confundem com organizações. As instituições são as regras do jogo. As organizações, como empresas, partidos, sindicatos e órgãos públicos, são os jogadores. Item que trate instituição e organização como sinônimos, na perspectiva de North, está errado.
+
+Um conceito ligado a isso é a dependência de trajetória: escolhas institucionais feitas no passado condicionam as possibilidades do presente, porque criam interesses, rotinas e custos de mudança. É uma das razões pelas quais as desigualdades e os padrões institucionais tendem a persistir.
+
+E a ideia que conecta com o resto da aula: instituições não são neutras. Elas distribuem recursos, oportunidades e reconhecimento. Uma regra de acesso a um serviço público, por exemplo, pode incluir ou excluir grupos inteiros.
+
+Agora, a socialização.
+
+Socialização é o processo pelo qual os indivíduos aprendem e internalizam as normas, os valores, os papéis e os comportamentos esperados pela sociedade em que vivem. É por meio dela que as instituições se reproduzem: cada nova geração aprende as regras do jogo.
+
+Berger e Luckmann distinguem duas fases.
+
+Socialização primária: ocorre na infância, principalmente na família. É a mais profunda, porque é nela que a criança constrói a sua primeira visão do mundo e da sua própria identidade. O que se aprende ali tende a parecer natural e inquestionável.
+
+Socialização secundária: ocorre ao longo da vida, à medida que o indivíduo ingressa em novos espaços, como a escola, o trabalho, as organizações profissionais, grupos religiosos ou políticos. Nela, aprendem-se papéis e conhecimentos específicos.
+
+Os principais agentes de socialização são a família, a escola, os grupos de pares, os meios de comunicação, as instituições religiosas e o ambiente de trabalho. Hoje, a literatura dá crescente atenção ao papel das redes sociais digitais.
+
+Fala-se também em ressocialização, quando o indivíduo precisa abandonar padrões anteriores e adotar outros, como ao ingressar em instituições muito diferentes do seu ambiente original.
+
+Três pontos de prova sobre socialização.
+
+Primeiro: a socialização não termina na infância. Ela acompanha toda a vida. Item que diga que, após a infância, o indivíduo deixa de incorporar normas e valores está errado.
+
+Segundo: a socialização não é um processo totalmente determinista. As pessoas internalizam normas, mas também as interpretam, negociam e transformam. Os sociólogos discutem essa tensão como a relação entre estrutura e agência: a sociedade molda os indivíduos, e os indivíduos, com as suas ações, reproduzem e transformam a sociedade.
+
+Terceiro: a socialização também reproduz desigualdades. Crianças de grupos sociais diferentes são socializadas com expectativas, linguagens e referências diferentes, o que influencia as suas trajetórias. E as organizações também socializam: lembre de Ashforth e Anand, que mostraram como a corrupção pode ser transmitida aos novos membros de uma organização justamente pela socialização.
+
+Agora, a ação coletiva.
+
+Ação coletiva é a ação conjunta de um grupo de pessoas em busca de um objetivo comum. Inclui desde a organização de uma associação de moradores até os grandes movimentos sociais.
+
+Você já conhece o principal problema teórico, de Mancur Olson, que vimos em várias aulas. Quando o objetivo é um bem coletivo, cujos benefícios alcançam todos os membros do grupo, independentemente de terem contribuído, cada indivíduo tem um incentivo para não participar e aproveitar o esforço dos outros. É o problema do carona. Por isso, segundo Olson, grupos grandes têm dificuldade de se mobilizar, a menos que existam incentivos seletivos, isto é, benefícios ou sanções que atinjam apenas quem participa ou quem não participa, ou que o grupo seja pequeno o suficiente para que cada contribuição faça diferença.
+
+A sociologia acrescentou outros fatores que explicam quando a ação coletiva acontece: a existência de redes e organizações prévias, que facilitam a mobilização; a identidade compartilhada, isto é, o sentimento de pertencer a um grupo com problemas em comum; os recursos disponíveis, como tempo, dinheiro e conhecimento; e as oportunidades políticas, isto é, momentos em que o sistema político está mais aberto às reivindicações.
+
+E a conexão com as desigualdades: grupos com mais recursos, mais redes e mais organização conseguem agir coletivamente com mais facilidade. Isso ajuda a explicar por que certos interesses são mais bem representados perante o Estado do que outros.
+
+Pegadinhas do bloco um. Dizer que o fato social é a soma de comportamentos individuais. Trocar os tipos de ação social de Weber. Atribuir a Weber a ideia de tratar os fatos sociais como coisas, ou a Durkheim a sociologia compreensiva. Dizer que instituições são apenas as regras formais escritas. Dizer que instituições e organizações são sinônimos. Dizer que a socialização se encerra na infância. E dizer que a socialização determina completamente o comportamento.
+
+Resumo do bloco um. Para Durkheim, o fato social é exterior, coercitivo e geral. Para Weber, a ação social tem sentido e se divide em racional com relação a fins, racional com relação a valores, afetiva e tradicional. Instituições são padrões estáveis de comportamento e, para North, regras do jogo, formais e informais, distintas das organizações. A socialização é primária, na infância, e secundária, ao longo da vida, e reproduz instituições e desigualdades sem ser totalmente determinista. E a ação coletiva enfrenta o problema do carona, sendo mais fácil para grupos com recursos, redes e identidade.
+
+
+BLOCO DOIS. ESTRATIFICAÇÃO E MOBILIDADE SOCIAL.
+
+Estratificação social é a divisão da sociedade em camadas, ou estratos, hierarquicamente organizados, com acesso desigual a recursos socialmente valorizados, como renda, riqueza, poder, prestígio e educação. A palavra vem da geologia: como as camadas de uma rocha, os grupos sociais se sobrepõem em níveis.
+
+O ponto importante é que a estratificação é persistente e estruturada. Não se trata de diferenças individuais aleatórias, mas de padrões que se repetem e se transmitem.
+
+A sociologia distingue três grandes sistemas de estratificação.
+
+Castas: sistema fechado, em que a posição é determinada pelo nascimento e praticamente não pode ser mudada. Há regras rígidas de casamento dentro do grupo, a chamada endogamia, e frequentemente uma justificativa religiosa. O exemplo clássico é o sistema tradicional da Índia.
+
+Estamentos: sistema típico da sociedade feudal europeia, em que a posição também depende principalmente do nascimento e está associada a direitos e deveres definidos pela lei e pelo costume, como a nobreza, o clero e o povo. A mobilidade é muito limitada, mas não inexistente.
+
+Classes: sistema típico das sociedades capitalistas modernas, em que a posição está ligada principalmente a fatores econômicos e, em tese, é aberta: não há impedimento legal à mudança de posição. Na prática, como veremos, a origem continua pesando muito.
+
+Pegadinha: dizer que a sociedade de classes é completamente aberta e que a posição depende apenas do esforço individual. Formalmente aberta não significa igualdade de oportunidades.
+
+Agora, as duas grandes teorias clássicas da estratificação.
+
+Karl Marx definiu as classes pela posição em relação aos meios de produção. No capitalismo, as duas classes fundamentais são a burguesia, proprietária dos meios de produção, e o proletariado, que possui apenas a sua força de trabalho e a vende em troca de salário. A relação entre elas é de exploração: o trabalhador produz um valor maior do que o salário que recebe, e a diferença, que Marx chamou de mais-valia, é apropriada pelo capitalista. A história, para Marx, é a história da luta de classes. Ele distinguia ainda a classe em si, definida objetivamente pela posição econômica, e a classe para si, que tem consciência dos seus interesses comuns e age coletivamente.
+
+Max Weber propôs uma visão multidimensional, que é a mais cobrada em provas. Para ele, a distribuição do poder na sociedade tem três dimensões, cada uma ligada a uma ordem.
+
+Classe, na ordem econômica: grupos de pessoas que compartilham a mesma situação de mercado, isto é, as mesmas chances de obter renda e bens, em função da propriedade ou das qualificações que possuem.
+
+Estamento, ou grupo de status, na ordem social: grupos definidos pela honra social, pelo prestígio e por um estilo de vida comum. Uma família tradicional empobrecida pode manter alto prestígio, e um novo rico pode ter baixo prestígio entre as elites tradicionais.
+
+Partido, na ordem política: grupos organizados para conquistar ou influenciar o poder, como partidos políticos, associações e grupos de pressão.
+
+A grande contribuição de Weber é mostrar que essas três dimensões são relacionadas, mas não idênticas. Uma pessoa pode estar alta em uma e baixa em outra. Item que diga que, para Weber, a estratificação se reduz à dimensão econômica está errado. E item que atribua a Marx a teoria das três dimensões também está errado.
+
+Um autor contemporâneo indispensável é o sociólogo francês Pierre Bourdieu. Ele ampliou a noção de recursos que posicionam as pessoas na sociedade, falando em diferentes tipos de capital.
+
+Capital econômico: renda, patrimônio, bens.
+
+Capital cultural: conhecimentos, gostos, linguagem, hábitos culturais e diplomas. Bourdieu distingue o capital cultural incorporado, que está no próprio corpo e na mente da pessoa, como o modo de falar e a familiaridade com a cultura erudita; o objetivado, em bens culturais, como livros e obras de arte; e o institucionalizado, em títulos escolares e diplomas.
+
+Capital social: a rede de relações duráveis que uma pessoa pode mobilizar.
+
+Capital simbólico: o prestígio e o reconhecimento que tornam os outros capitais legítimos.
+
+Bourdieu também propôs o conceito de habitus: um conjunto de disposições duradouras, de maneiras de perceber, pensar e agir, incorporadas ao longo da socialização, sobretudo na origem social. O habitus faz com que as pessoas tendam a agir de acordo com a posição de onde vieram, muitas vezes sem perceber.
+
+Agora, a mobilidade social.
+
+Mobilidade social é o deslocamento de indivíduos ou grupos entre posições do sistema de estratificação. Os tipos de mobilidade são um dos pontos mais cobrados de todo o item. Vamos a eles com atenção.
+
+Quanto à direção: a mobilidade vertical é a mudança para uma posição superior, chamada de ascendente, ou inferior, chamada de descendente. A mobilidade horizontal é a mudança entre posições de nível semelhante, como trocar de profissão sem mudar de estrato.
+
+Quanto ao tempo: a mobilidade intergeracional compara a posição dos filhos com a dos pais. A mobilidade intrageracional compara posições de uma mesma pessoa ao longo da sua vida, por exemplo, do primeiro emprego ao emprego atual.
+
+Para fixar: inter, entre gerações; intra, dentro de uma mesma geração, na trajetória da mesma pessoa. Se o filho de um trabalhador rural se torna engenheiro, há mobilidade intergeracional ascendente. Se uma pessoa começa como auxiliar administrativo e chega a gerente, há mobilidade intrageracional ascendente.
+
+Quanto à causa: a mobilidade estrutural é aquela provocada por mudanças na própria estrutura de posições da sociedade. Quando um país se industrializa e se urbaniza, surgem muitas vagas em ocupações urbanas e industriais e diminuem as ocupações rurais. Muitas pessoas sobem, não porque outras desceram, mas porque o número de posições melhores aumentou. Já a mobilidade de circulação, também chamada de mobilidade de troca, é aquela que ocorre independentemente das mudanças na estrutura: para que alguém suba, alguém precisa descer.
+
+Daí outra distinção importante. A mobilidade absoluta é o total de pessoas que mudaram de posição. A mobilidade relativa, ou fluidez social, mede as chances relativas de pessoas de origens diferentes chegarem a determinadas posições. Uma sociedade pode ter muita mobilidade absoluta, por causa da mudança estrutural, e ao mesmo tempo pouca fluidez, se as chances do filho do rico continuarem muito maiores do que as do filho do pobre.
+
+Essa distinção é a chave para a pegadinha mais sofisticada do bloco: muita mobilidade ascendente não significa, necessariamente, uma sociedade mais igualitária ou com maior igualdade de oportunidades.
+
+E o Brasil é justamente o exemplo. Os estudos clássicos de José Pastore, a partir de dados dos anos mil novecentos e setenta, mostraram que o Brasil teve muita mobilidade social ascendente ao longo do século vinte, mas que ela foi, em grande parte, estrutural, impulsionada pela industrialização, pela urbanização e pela migração do campo para as cidades. Muitas pessoas subiram, mas frequentemente por distâncias curtas, e a desigualdade de oportunidades entre origens sociais permaneceu elevada.
+
+Carlos Hasenbalg e Nelson do Valle Silva trouxeram a dimensão racial para esses estudos, a partir do final dos anos setenta, e os seus trabalhos são considerados um marco na sociologia das relações raciais no Brasil. Até então, era comum a interpretação de que as desigualdades entre brancos e negros eram apenas uma herança da escravidão, que tenderia a desaparecer com a modernização, ou apenas um reflexo da desigualdade de classe. Hasenbalg e Valle Silva mostraram, com dados, que pretos e pardos tinham menores chances de mobilidade ascendente e maiores riscos de mobilidade descendente do que brancos de mesma origem social. Ou seja, a desigualdade racial não se explica apenas pela origem de classe nem pelo passado: ela é renovada no presente, por mecanismos de discriminação.
+
+Eles descreveram um ciclo de desvantagens cumulativas: as desvantagens se acumulam ao longo da vida e entre gerações, na origem familiar, na educação, na entrada no mercado de trabalho e na remuneração, e cada etapa reforça a seguinte.
+
+Por fim, a educação. Nas sociedades modernas, a educação é considerado o principal canal de mobilidade social. Mas Bourdieu, na obra A Reprodução, escrita com Jean-Claude Passeron, mostrou que a escola também pode reproduzir desigualdades. Ao valorizar e cobrar, como se fossem dons naturais, o capital cultural e a linguagem típicos das classes dominantes, a escola tende a favorecer os alunos que já trazem esse capital de casa e a apresentar o sucesso deles como resultado do mérito individual. Bourdieu chamou de violência simbólica essa imposição de critérios particulares como se fossem universais e legítimos.
+
+Isso conecta com o debate sobre meritocracia. O mérito, como critério de seleção, é um ideal importante, ligado à impessoalidade e ao concurso público, que vimos em outras aulas. Mas a sociologia alerta: quando as condições de partida são muito desiguais, os resultados que parecem fruto apenas do mérito refletem também as vantagens acumuladas. Por isso a igualdade material e as ações afirmativas, que vimos na aula sobre ordem constitucional, não contradizem o mérito; buscam aproximar as condições de competição.
+
+Pegadinhas do bloco dois. Dizer que a sociedade de classes garante igualdade de oportunidades. Dizer que, para Weber, a estratificação é apenas econômica. Trocar mobilidade intergeracional e intrageracional. Dizer que mobilidade estrutural é a que ocorre independentemente de mudanças na estrutura ocupacional. Dizer que alta mobilidade ascendente prova igualdade de oportunidades. Dizer que a desigualdade racial no Brasil se explica apenas pela origem de classe ou apenas pela herança da escravidão. E dizer que a escola é sempre um mecanismo neutro de mobilidade.
+
+Resumo do bloco dois. Estratificação é a hierarquização persistente de grupos com acesso desigual a recursos. Os sistemas são castas, estamentos e classes. Marx define classes pela posição nos meios de produção. Weber distingue classe, estamento e partido. Bourdieu fala em capitais econômico, cultural, social e simbólico, e em habitus. A mobilidade pode ser vertical ou horizontal, intergeracional ou intrageracional, estrutural ou de circulação, e é preciso distinguir mobilidade absoluta de fluidez. No Brasil, Pastore mostrou mobilidade sobretudo estrutural, e Hasenbalg e Valle Silva demonstraram desvantagens raciais que se renovam no presente. E a escola pode tanto promover mobilidade quanto reproduzir desigualdades.
+
+
+BLOCO TRÊS. REDES, PODER, DISCRIMINAÇÃO E REPRODUÇÃO DAS DESIGUALDADES.
+
+Redes.
+
+Redes sociais, em sentido sociológico, são os conjuntos de relações entre pessoas, grupos e organizações. Não se trata apenas das plataformas digitais, mas de qualquer teia de vínculos: família, amigos, colegas, vizinhos, conhecidos.
+
+O estudo mais citado sobre redes é o do sociólogo Mark Granovetter, de mil novecentos e setenta e três, intitulado A Força dos Laços Fracos. Granovetter distinguiu laços fortes, com pessoas próximas, com quem se tem contato frequente e intimidade, como familiares e amigos íntimos, e laços fracos, com conhecidos, colegas distantes, contatos ocasionais.
+
+O achado surpreendente: para conseguir emprego e informações novas, os laços fracos costumam ser mais úteis do que os fortes. A razão é que as pessoas próximas tendem a circular nos mesmos ambientes e a saber as mesmas coisas que você. Já os conhecidos estão em outros círculos e trazem informações que você não teria de outro modo. Os laços fracos funcionam como pontes entre grupos diferentes.
+
+Pegadinha: inverter a tese, dizendo que, segundo Granovetter, os laços fortes são os mais importantes para o acesso a informações sobre emprego.
+
+Ligado às redes está o conceito de capital social, usado de formas um pouco diferentes por autores diferentes. Para Bourdieu, como vimos, é um recurso individual: o conjunto de relações que uma pessoa pode mobilizar, distribuído de forma desigual. Para Robert Putnam, é um atributo coletivo: as redes, as normas de reciprocidade e a confiança que facilitam a cooperação em uma comunidade. Putnam distingue o capital social de ligação, entre pessoas semelhantes, que fortalece os grupos por dentro, e o capital social de ponte, entre grupos diferentes, que amplia horizontes.
+
+Agora, a ponte com as desigualdades. As redes não são neutras. As pessoas tendem a se relacionar com quem é parecido com elas, fenômeno chamado de homofilia. Assim, quem nasce em um meio com contatos influentes tem acesso a informações, indicações e oportunidades que outros não têm. Se boa parte das vagas de emprego é preenchida por indicação, as redes reproduzem as desigualdades de origem. E lembre da aula sobre corrupção: redes de confiança e reciprocidade podem ser usadas para favorecimento indevido.
+
+Poder.
+
+Você já conhece as definições centrais de poder das primeiras aulas: para Weber, a probabilidade de impor a própria vontade mesmo contra resistência; e a ideia, de autores como Steven Lukes, de que o poder também se manifesta no controle da agenda e na capacidade de moldar o que os outros desejam e consideram natural.
+
+Bourdieu acrescenta o conceito de poder simbólico: o poder de impor significados, classificações e visões de mundo como se fossem legítimos e naturais, com a cumplicidade, muitas vezes inconsciente, de quem é dominado. A violência simbólica, que vimos na escola, é a sua expressão. Por exemplo, quando um determinado sotaque, uma determinada aparência ou um determinado modo de falar é tratado como sinal de competência, e outros como sinal de incompetência, e todos passam a aceitar essa classificação como natural.
+
+A mensagem do edital ao juntar redes e poder: as desigualdades não são só de renda. São também de acesso a redes, de capacidade de influenciar decisões e de poder de definir o que é considerado normal, legítimo ou competente.
+
+Discriminação.
+
+Comecemos pela distinção entre três conceitos que a banca troca com frequência.
+
+Estereótipo é uma crença generalizada e simplificada sobre as características de um grupo. Por exemplo, a ideia de que pessoas de determinada região são preguiçosas. É um elemento cognitivo, uma ideia.
+
+Preconceito é uma atitude, um julgamento prévio, geralmente negativo, sobre pessoas por pertencerem a um grupo, antes de qualquer conhecimento real sobre elas. Envolve sentimento e avaliação.
+
+Discriminação é o comportamento, o ato, que produz tratamento desigual e prejudicial a pessoas em razão do grupo a que pertencem. Negar um emprego, um atendimento ou um aluguel é discriminação.
+
+Para fixar: estereótipo é ideia, preconceito é atitude, discriminação é ação. Item que trate preconceito e discriminação como sinônimos está errado. E repare: pode haver discriminação sem preconceito consciente, como veremos agora.
+
+A discriminação pode assumir várias formas.
+
+Discriminação direta: o tratamento desigual é explícito e baseado na característica do grupo. Por exemplo, uma regra que exclui mulheres de determinado cargo.
+
+Discriminação indireta: uma regra ou prática aparentemente neutra, que não menciona nenhum grupo, produz efeitos desproporcionalmente negativos sobre determinado grupo. Você viu esse exemplo na aula sobre ordem constitucional: um serviço acessível apenas por aplicativo pode excluir pessoas idosas ou sem acesso à internet.
+
+Discriminação institucional: o tratamento desigual decorre do funcionamento normal das instituições, de suas regras, rotinas e critérios, e não necessariamente da intenção de alguém. A expressão racismo institucional foi difundida no final dos anos sessenta, nos Estados Unidos, por Stokely Carmichael e Charles Hamilton, para mostrar que o racismo não se limita a atos individuais de pessoas preconceituosas, mas está presente no modo de operar de escolas, polícias, empresas e órgãos públicos.
+
+Discriminação estrutural: um passo além. A ideia é que as desigualdades estão de tal forma inscritas na organização da sociedade, na economia, na distribuição territorial, nas instituições e na cultura, que se reproduzem mesmo sem intenção discriminatória de ninguém. No Brasil, o conceito de racismo estrutural foi difundido, entre outros, pelo jurista Silvio Almeida.
+
+Dois pontos de prova importantes.
+
+Primeiro: a discriminação não exige intenção. A discriminação indireta, a institucional e a estrutural podem existir sem que ninguém tenha a intenção de discriminar. O que importa é o efeito. Item que diga que só há discriminação quando há intenção deliberada está errado.
+
+Segundo: reconhecer o caráter institucional ou estrutural da discriminação não elimina a responsabilidade individual por atos discriminatórios. As duas dimensões coexistem. É o mesmo raciocínio que vimos na aula sobre corrupção sistêmica: explicar as causas estruturais não afasta a responsabilidade de quem pratica o ato.
+
+Agora, a base normativa, que dá precisão ao tema e é cobrada em provas.
+
+O Estatuto da Igualdade Racial, de dois mil e dez, traz definições legais. Discriminação racial ou étnico-racial é toda distinção, exclusão, restrição ou preferência baseada em raça, cor, descendência ou origem nacional ou étnica que tenha por objeto anular ou restringir o reconhecimento, gozo ou exercício, em igualdade de condições, de direitos humanos e liberdades fundamentais nos campos político, econômico, social, cultural ou em qualquer outro campo da vida pública ou privada.
+
+Repare na expressão por objeto anular ou restringir. A definição alcança tanto a intenção quanto o efeito.
+
+Desigualdade racial é toda situação injustificada de diferenciação de acesso e fruição de bens, serviços e oportunidades, nas esferas pública e privada, em virtude de raça, cor, descendência ou origem nacional ou étnica.
+
+O Estatuto define ainda a desigualdade de gênero e raça, como a assimetria que acentua a distância social entre mulheres negras e os demais segmentos da sociedade. É uma referência à interseccionalidade, que o edital trata no item um ponto dois ponto quatro.
+
+População negra, para o Estatuto, é o conjunto de pessoas que se autodeclaram pretas e pardas, conforme o quesito cor ou raça usado pelo IBGE, ou que adotam autodefinição análoga. Pegadinha: dizer que a população negra corresponde apenas às pessoas que se declaram pretas. Pretos e pardos, juntos.
+
+E ações afirmativas são os programas e medidas especiais adotados pelo Estado e pela iniciativa privada para a correção das desigualdades raciais e para a promoção da igualdade de oportunidades. Repare: Estado e iniciativa privada.
+
+No campo penal, a Constituição determina que a prática do racismo constitui crime inafiançável e imprescritível, sujeito à pena de reclusão. A Lei sete mil setecentos e dezesseis, de mil novecentos e oitenta e nove, conhecida como Lei do Crime Racial, define esses crimes. Em dois mil e vinte e três, uma nova lei alterou essa legislação para tipificar como crime de racismo a injúria racial, isto é, a ofensa dirigida a uma pessoa em razão de raça, cor, etnia ou procedência nacional, que antes estava no Código Penal como crime contra a honra. E o Supremo Tribunal Federal, em dois mil e dezenove, ao julgar uma ação direta de inconstitucionalidade por omissão e um mandado de injunção, determinou o enquadramento da homofobia e da transfobia nos tipos penais da Lei do Crime Racial, até que o Congresso edite lei específica; em dois mil e vinte e três, o Tribunal estendeu esse entendimento à injúria racial.
+
+Pegadinhas: dizer que a injúria racial continua sendo crime contra a honra distinto do racismo, após a lei de dois mil e vinte e três. Dizer que o racismo é crime afiançável ou prescritível. Dizer que a criminalização da homotransfobia foi feita por lei aprovada pelo Congresso.
+
+Por fim, a reprodução das desigualdades.
+
+Este é o conceito que amarra toda a aula. Por que as desigualdades persistem de uma geração para outra, mesmo em sociedades que proclamam a igualdade de direitos? Porque vários mecanismos, que você conheceu ao longo da aula, se combinam e se reforçam.
+
+A herança de capitais: as famílias transmitem capital econômico, cultural e social.
+
+A socialização: as crianças aprendem expectativas, linguagens e disposições diferentes conforme a origem.
+
+A escola: pode reproduzir desigualdades ao valorizar o capital cultural das classes dominantes.
+
+As redes: dão acesso desigual a informações e oportunidades.
+
+A discriminação: direta, indireta, institucional e estrutural, que renova as desvantagens no presente.
+
+O território: a segregação residencial concentra populações vulneráveis em áreas com piores escolas, transporte e serviços, e piores redes.
+
+E as próprias instituições do Estado: regras, critérios e barreiras de acesso que podem excluir quem mais precisa.
+
+O sociólogo norte-americano Charles Tilly propôs o conceito de desigualdades categoriais ou duráveis: as desigualdades mais persistentes se organizam em torno de pares de categorias, como homem e mulher, branco e negro, nacional e estrangeiro, e são sustentadas por mecanismos como a exploração e o açambarcamento de oportunidades, em que um grupo reserva para si o acesso a recursos valiosos. Essas categorias são incorporadas às organizações e passam a parecer naturais.
+
+Dois conceitos complementares ajudam a entender a dimensão simbólica. O estigma, estudado por Erving Goffman, é um atributo que desqualifica a pessoa aos olhos dos outros e reduz as suas oportunidades. E a profecia que se autorrealiza, conceito de Robert Merton, é uma expectativa inicialmente falsa que, por orientar o comportamento das pessoas, acaba produzindo a sua própria confirmação. Se um professor espera menos de um aluno por causa da sua origem, pode investir menos nele, e o aluno acaba rendendo menos, confirmando a expectativa.
+
+O ponto de prova final: reprodução não é destino. As desigualdades tendem a persistir, mas podem ser enfrentadas. Políticas universais de qualidade, como educação e saúde, políticas focalizadas, como as de transferência de renda, e ações afirmativas, como as cotas, são instrumentos para romper esses mecanismos. Item que afirme que a reprodução das desigualdades é inevitável e que as políticas públicas são incapazes de alterá-la está errado.
+
+E, para você que vai atuar com tecnologia, um alerta que o edital retoma adiante. Sistemas automatizados e modelos de inteligência artificial aprendem com dados históricos. Se esses dados refletem discriminações passadas, os sistemas podem reproduzi-las e até ampliá-las, por exemplo, ao classificar riscos, selecionar candidatos ou priorizar atendimentos. É uma forma moderna de discriminação indireta e institucional, que exige avaliação, supervisão humana e possibilidade de contestação.
+
+Pegadinhas do bloco três. Inverter a tese de Granovetter. Tratar estereótipo, preconceito e discriminação como sinônimos. Dizer que discriminação exige intenção. Dizer que o caráter estrutural da discriminação afasta a responsabilidade individual. Dizer que a população negra abrange só os que se declaram pretos. Dizer que a injúria racial deixou de ser crime ou continua fora da Lei do Crime Racial. E dizer que a reprodução das desigualdades é um destino inevitável.
+
+Resumo do bloco três. Para Granovetter, os laços fracos dão acesso a informações novas e a empregos. O capital social é recurso individual, para Bourdieu, e atributo coletivo, para Putnam, e as redes, por homofilia, tendem a reproduzir desigualdades. O poder inclui o poder simbólico de definir o que é legítimo. Estereótipo é ideia, preconceito é atitude, discriminação é ação; e a discriminação pode ser direta, indireta, institucional ou estrutural, sem exigir intenção. O Estatuto da Igualdade Racial define discriminação e desigualdade racial, população negra e ações afirmativas. O racismo é crime inafiançável e imprescritível, a injúria racial passou à Lei do Crime Racial e a homotransfobia foi enquadrada pelo Supremo. E as desigualdades se reproduzem por mecanismos combinados, que podem ser enfrentados por políticas públicas.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Primeira estratégia: troca de autores. Fato social e coisas, Durkheim. Ação social e sociologia compreensiva, Weber. Classes pelos meios de produção, Marx. Classe, estamento e partido, Weber. Capitais e habitus, Bourdieu. Laços fracos, Granovetter. Regras do jogo, North. Construção social da realidade, Berger e Luckmann. Mobilidade estrutural no Brasil, Pastore. Desvantagens raciais cumulativas, Hasenbalg e Valle Silva.
+
+Segunda estratégia: troca de pares conceituais. Ação racional com relação a valores e ação tradicional. Socialização primária e secundária. Instituição e organização. Mobilidade intergeracional e intrageracional. Estrutural e de circulação. Absoluta e relativa. Laços fortes e fracos. Preconceito e discriminação.
+
+Terceira estratégia: reducionismo. Estratificação só econômica. Desigualdade racial só de classe ou só herança do passado. Instituições só formais. Discriminação só intencional.
+
+Quarta estratégia: determinismo. Socialização que determina tudo. Reprodução inevitável. Herança cultural imutável.
+
+Quinta estratégia: falsa equivalência entre mobilidade e igualdade. Muita mobilidade ascendente apresentada como prova de igualdade de oportunidades.
+
+Sexta estratégia: detalhes normativos. Pretos e pardos. Estado e iniciativa privada nas ações afirmativas. Racismo inafiançável e imprescritível. Injúria racial na Lei do Crime Racial desde dois mil e vinte e três.
+
+Sétima estratégia: situação hipotética. Pergunte. É uma comparação entre pais e filhos, ou na vida da mesma pessoa? A mudança decorre da estrutura ou da troca de posições? O tratamento desigual é explícito, ou resulta de regra aparentemente neutra? Há intenção, ou há efeito?
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+Para Émile Durkheim, os fatos sociais caracterizam-se pela exterioridade em relação às consciências individuais, pela coercitividade que exercem sobre os indivíduos e pela generalidade no âmbito do grupo.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: são as três características clássicas do fato social. Durkheim propôs, ainda, que os fatos sociais fossem tratados como coisas, isto é, estudados de forma objetiva.
+
+Questão dois.
+Na tipologia de Max Weber, a ação racional com relação a valores é aquela determinada por costumes arraigados e pelo hábito, sem reflexão sobre os seus fundamentos.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o item descreve a ação tradicional. A ação racional com relação a valores é orientada por convicções éticas, religiosas ou políticas conscientes, independentemente das consequências.
+
+Questão três.
+O processo de socialização encerra-se com o fim da infância, de modo que, após esse período, o indivíduo deixa de incorporar novas normas, valores e papéis sociais.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: além da socialização primária, que ocorre na infância, há a socialização secundária, que acompanha toda a vida, na escola, no trabalho e em outras organizações.
+
+Questão quatro.
+Max Weber concebeu a estratificação social de forma multidimensional, distinguindo a classe, ligada à ordem econômica e à situação de mercado, o estamento, ligado à honra social e ao estilo de vida, e o partido, ligado à disputa pelo poder.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a visão multidimensional de Weber. As três dimensões se relacionam, mas não coincidem, ao contrário da visão de Marx, que define as classes pela posição em relação aos meios de produção.
+
+Questão cinco.
+O filho de um trabalhador rural sem escolaridade que se torna engenheiro em uma grande empresa exemplifica um caso de mobilidade social intrageracional ascendente.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a comparação entre a posição do filho e a do pai caracteriza mobilidade intergeracional. A mobilidade intrageracional compara posições da mesma pessoa ao longo da sua vida.
+
+Questão seis.
+A mobilidade estrutural decorre de mudanças na distribuição das posições sociais, como as provocadas pela industrialização e pela urbanização, razão pela qual uma sociedade pode apresentar elevada mobilidade ascendente sem que se reduza, necessariamente, a desigualdade de oportunidades entre pessoas de origens sociais distintas.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: muita mobilidade absoluta, de natureza estrutural, pode conviver com baixa fluidez social. Foi o que os estudos de Pastore identificaram no Brasil do século vinte.
+
+Questão sete.
+Segundo os estudos de Carlos Hasenbalg e Nelson do Valle Silva, as desigualdades entre brancos e negros no Brasil explicam-se exclusivamente pela origem de classe e pela herança da escravidão, tendendo a desaparecer com a modernização da sociedade.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: esses autores mostraram que pretos e pardos têm menores chances de mobilidade ascendente mesmo quando comparados a brancos de mesma origem social, o que indica que a desigualdade racial é renovada no presente por mecanismos de discriminação, em um ciclo de desvantagens cumulativas.
+
+Questão oito.
+De acordo com Mark Granovetter, os laços fracos, mantidos com conhecidos e contatos menos próximos, tendem a ser especialmente úteis para o acesso a informações novas, como oportunidades de emprego, por conectarem o indivíduo a círculos sociais distintos do seu.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a tese da força dos laços fracos. Os laços fortes tendem a circular nos mesmos ambientes e a trazer informações redundantes.
+
+Questão nove.
+Para Pierre Bourdieu, o sistema escolar pode contribuir para a reprodução das desigualdades sociais ao valorizar, como se fossem qualidades naturais e méritos individuais, o capital cultural de que dispõem os estudantes oriundos das classes dominantes.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a tese de A Reprodução, de Bourdieu e Passeron. A escola, ao tratar como universais critérios particulares, exerce o que Bourdieu chamou de violência simbólica.
+
+Questão dez.
+Preconceito e discriminação são conceitos equivalentes, uma vez que ambos se referem a atos que produzem tratamento desigual, e somente se configuram quando há intenção deliberada de prejudicar o grupo discriminado.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: preconceito é uma atitude, um julgamento prévio; discriminação é o ato que produz tratamento desigual. E a discriminação não exige intenção: as formas indireta, institucional e estrutural se caracterizam pelo efeito.
+
+Questão onze.
+Configura discriminação indireta a adoção de regra ou prática aparentemente neutra que, embora não faça menção a nenhum grupo específico, produza efeitos desproporcionalmente negativos sobre determinado grupo social.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: na discriminação indireta, o problema não está no texto da regra, mas nos seus efeitos. Um serviço disponível apenas por meio digital, por exemplo, pode excluir desproporcionalmente pessoas idosas ou sem acesso à internet.
+
+Questão doze.
+Mesmo após as alterações legislativas de dois mil e vinte e três, a injúria racial permanece tipificada exclusivamente no Código Penal como crime contra a honra, distinto dos crimes de racismo previstos na Lei do Crime Racial.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a lei de dois mil e vinte e três alterou a Lei do Crime Racial e o Código Penal para tipificar a injúria racial como crime de racismo. Lembre que, pela Constituição, a prática do racismo é crime inafiançável e imprescritível.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Durkheim: fato social exterior, coercitivo e geral; tratar como coisas; solidariedade mecânica e orgânica; anomia.
+
+Weber: ação social com sentido; racional com relação a fins, racional com relação a valores, afetiva e tradicional.
+
+Instituições: padrões estáveis de comportamento; para North, regras do jogo, formais e informais; organizações são os jogadores. Berger e Luckmann: construção social da realidade.
+
+Socialização primária na infância, secundária ao longo da vida. Não é totalmente determinista.
+
+Ação coletiva: problema do carona, de Olson; mais fácil para grupos com recursos, redes e identidade.
+
+Estratificação: castas, estamentos e classes. Marx: meios de produção. Weber: classe, estamento e partido. Bourdieu: capitais e habitus.
+
+Mobilidade: vertical ou horizontal; intergeracional, entre pais e filhos, ou intrageracional, na mesma vida; estrutural ou de circulação; absoluta ou fluidez. Muita mobilidade não é igualdade.
+
+Pastore: mobilidade brasileira sobretudo estrutural. Hasenbalg e Valle Silva: desvantagens raciais cumulativas, renovadas no presente.
+
+Escola pode reproduzir desigualdades: Bourdieu e a violência simbólica.
+
+Granovetter: força dos laços fracos. Capital social em Bourdieu e Putnam. Homofilia.
+
+Estereótipo é ideia, preconceito é atitude, discriminação é ação. Direta, indireta, institucional e estrutural. Não exige intenção, nem afasta a responsabilidade individual.
+
+Estatuto da Igualdade Racial: população negra é pretos e pardos; ações afirmativas pelo Estado e pela iniciativa privada.
+
+Racismo: crime inafiançável e imprescritível. Injúria racial é racismo desde dois mil e vinte e três. Homotransfobia enquadrada pelo Supremo.
+
+Reprodução das desigualdades por capitais, socialização, escola, redes, discriminação, território e instituições. Tilly: desigualdades categoriais. Reprodução não é destino.
+
+Fim da aula do item um ponto dois ponto um. Na sequência do edital, o próximo é o item um ponto dois ponto dois, formação social e cidadania no Brasil. Bons estudos.

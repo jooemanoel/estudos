@@ -1,0 +1,391 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.1.1 DO EDITAL: ESTADO E LEGITIMIDADE.
+SUBITEM 1.1.1.1: Estado, governo e administração. Autoridade, legitimidade e poder. Interesse público, pluralismo e conflitos distributivos.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto um ponto um do edital da CGU, chamado Estado e legitimidade. Ele tem um único subitem, o um ponto um ponto um ponto um, que reúne nove conceitos em três trios.
+
+Primeiro trio: Estado, governo e administração.
+Segundo trio: autoridade, legitimidade e poder.
+Terceiro trio: interesse público, pluralismo e conflitos distributivos.
+
+Vamos seguir exatamente essa ordem, em três blocos. Em cada bloco eu explico os conceitos, aponto onde a Cebraspe costuma montar as pegadinhas e, no final da aula, resolvemos doze questões de fixação no formato certo ou errado, cada uma com gabarito comentado.
+
+Um aviso antes de começar. Este item é de ciência política e teoria do Estado. Ele não tem uma lei única para decorar. As bases seguras são duas: o texto da Constituição Federal de mil novecentos e oitenta e oito, e os autores clássicos, principalmente Max Weber, Norberto Bobbio, Robert Dahl, Theodore Lowi, Hely Lopes Meirelles, Maria Sylvia Di Pietro e Celso Antônio Bandeira de Mello. Sempre que eu citar um dispositivo da Constituição ou uma lei, vale a pena conferir depois no texto oficial do Planalto. Quando eu citar um autor, vou dizer o nome, porque a banca gosta de trocar a ideia de um autor pela de outro.
+
+Outro ponto de estratégia. Este edital tem uma redação nova, muito voltada a distinguir conceitos e aplicar a situações. Repare nos verbos e expressões que aparecem ao longo do programa: distinção entre, relação entre, tensões entre. Isso indica que a prova tende a cobrar menos definição decorada e mais a capacidade de separar um conceito do seu vizinho. Então, nesta aula, a palavra de ordem é: pares de conceitos. Estado e governo. Governo e administração. Poder e autoridade. Legalidade e legitimidade. Interesse público primário e secundário. Guarde os pares.
+
+
+BLOCO UM. ESTADO, GOVERNO E ADMINISTRAÇÃO.
+
+Comecemos pelo Estado.
+
+Na definição mais tradicional, o Estado é uma organização política e jurídica, dotada de soberania, que exerce poder sobre um povo em um território determinado. Daí vêm os três elementos clássicos do Estado: povo, território e governo soberano. Parte da doutrina, como Dalmo Dallari, acrescenta um quarto elemento, a finalidade, que é o bem comum. Se a questão falar em três elementos, está certa. Se falar em quatro, incluindo a finalidade, também é uma posição doutrinária aceita. O que estaria errado é trocar os elementos, por exemplo, colocando nação no lugar de povo.
+
+E aqui já aparece a primeira distinção fina. Povo, população e nação não são sinônimos.
+
+Povo é o conceito jurídico e político: é o conjunto de pessoas ligadas ao Estado pelo vínculo da nacionalidade. É o povo que é titular do poder, como diz o parágrafo único do artigo primeiro da Constituição.
+
+População é o conceito demográfico, numérico: todos os que habitam o território em certo momento, incluindo estrangeiros e apátridas.
+
+Nação é o conceito sociológico e cultural: um grupo unido por laços de história, língua, cultura e sentimento de pertencimento.
+
+Pegadinha possível: afirmar que a população é elemento constitutivo do Estado e titular da soberania. Errado. O titular do poder é o povo.
+
+Agora, a soberania. Soberania é o poder supremo na ordem interna e independente na ordem externa. Dentro do território, não há poder acima do poder do Estado. Fora dele, o Estado se relaciona com os outros em pé de igualdade jurídica.
+
+E aqui está uma das pegadinhas mais cobradas de todo o direito público brasileiro: soberania não é o mesmo que autonomia.
+
+Quem é soberano é o Estado brasileiro como um todo, a República Federativa do Brasil. A soberania é, inclusive, o primeiro fundamento da República, no inciso um do artigo primeiro da Constituição.
+
+Já os entes da federação, isto é, a União, os Estados, o Distrito Federal e os Municípios, são todos autônomos. É o que diz o artigo dezoito da Constituição: a organização político-administrativa da República compreende esses quatro entes, todos autônomos.
+
+Portanto, atenção: a União não é soberana. A União é autônoma, como os demais entes. O que acontece é que a União representa a República Federativa do Brasil nas relações internacionais, conforme o artigo vinte e um, inciso um. Ela exerce a soberania em nome do Estado brasileiro, mas não é titular dela. Se o item disser que, na federação brasileira, a União é soberana e os demais entes são autônomos, marque errado.
+
+Dentro desse mesmo tema, vale memorizar quatro classificações que a banca adora embaralhar.
+
+Forma de Estado: é como o poder se distribui no território. No Brasil, federação. O oposto é o Estado unitário.
+
+Forma de governo: é como se dá a relação entre governantes e governados e o acesso ao poder. No Brasil, república. O oposto é a monarquia. As marcas da república são a eletividade, a temporariedade dos mandatos e a responsabilidade dos governantes, ou seja, o dever de prestar contas.
+
+Sistema de governo: é como se relacionam o Executivo e o Legislativo. No Brasil, presidencialismo. O oposto é o parlamentarismo.
+
+Regime político: no Brasil, democracia.
+
+Para não confundir: forma de Estado, federação. Forma de governo, república. Sistema de governo, presidencialismo. Regime, democrático.
+
+Um detalhe que cai muito: das quatro, apenas a forma federativa de Estado está expressamente protegida como cláusula pétrea, no artigo sessenta, parágrafo quarto, da Constituição. A república e o presidencialismo não estão nessa lista expressa. Tanto que a própria Constituição previu um plebiscito, realizado em mil novecentos e noventa e três, para o povo escolher entre república e monarquia e entre presidencialismo e parlamentarismo.
+
+Repare também que a prestação de contas, que é a razão de existir da CGU, nasce do princípio republicano. Em uma república, quem administra coisa pública administra o que é de todos e, por isso, responde por isso. Essa é uma ponte que a banca pode fazer entre este item e os itens de controle.
+
+Mais um ponto sobre o Estado: o poder do Estado é uno e indivisível. O que a Constituição divide são as funções. O artigo segundo diz que são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário. A doutrina explica que se trata, a rigor, de uma divisão de funções: legislar, administrar e julgar. Cada Poder exerce a sua função típica e, de forma atípica, as outras. O Legislativo também administra e julga. O Judiciário também administra e edita normas internas. Isso é importante para a parte de administração, como veremos em instantes.
+
+Passemos ao governo.
+
+Se o Estado é a estrutura permanente, o governo é o comando político dessa estrutura em determinado momento. O governo define os objetivos e as diretrizes, faz as escolhas políticas, decide para onde o Estado vai.
+
+Hely Lopes Meirelles, autor muito usado pela Cebraspe, descreve o governo como atividade política e discricionária, com conduta independente. E descreve a administração como atividade neutra, normalmente vinculada à lei ou à norma técnica, com conduta hierarquizada.
+
+Memorize esse contraste, porque ele aparece em prova quase com essas palavras.
+
+Governo: político, discricionário, independente. Decide o quê e o para quê.
+
+Administração: neutra, vinculada à lei ou à técnica, hierarquizada. Executa. Cuida do como.
+
+Ainda segundo essa linha, o governo tem responsabilidade constitucional e política pelos seus atos. A administração tem responsabilidade técnica e legal pela execução. A administração não pratica atos de governo; pratica atos de execução, com maior ou menor autonomia conforme a competência de cada órgão e agente. Ela tem poder de decisão, sim, mas apenas na sua área de atribuição, em assuntos jurídicos, técnicos, financeiros ou de conveniência e oportunidade administrativas. Não tem a opção política.
+
+Pegadinha clássica: a banca inverte os atributos. Diz que a administração é atividade política e discricionária e que o governo é atividade neutra e hierarquizada. Basta inverter para errar. Outra versão: afirmar que a administração não tem nenhum poder de decisão. Também errado, porque ela decide dentro da sua competência.
+
+Agora, a relação entre Estado e governo. O Estado é permanente. O governo é transitório. Governos mudam com as eleições. O Estado permanece. Dessa diferença nasce a distinção entre políticas de Estado e políticas de governo. Políticas de Estado são aquelas que atravessam mandatos, costumam estar ancoradas na Constituição ou em leis e contam com estruturas estáveis. Políticas de governo expressam as prioridades de uma gestão específica.
+
+Para o seu concurso, pense assim: o controle interno, a auditoria governamental, a transparência e a correição são funções de Estado. Elas não pertencem ao governo do momento. É justamente a existência de uma burocracia profissional e estável que garante a continuidade do Estado quando o governo muda.
+
+Pegadinha: afirmar que a mudança de governo altera a personalidade jurídica do Estado, ou que os compromissos assumidos por um governo não vinculam o seguinte porque são governos diferentes. Errado. Quem assume obrigações é o Estado, que continua o mesmo.
+
+Chegamos à administração pública.
+
+A expressão administração pública tem dois sentidos principais, e essa distinção é presença constante em provas.
+
+Sentido subjetivo, também chamado de formal ou orgânico. Responde à pergunta: quem? É o conjunto de órgãos, entidades e agentes que exercem a função administrativa. Aqui estão a administração direta e a indireta. Nesse sentido, é comum a grafia com iniciais maiúsculas.
+
+Sentido objetivo, também chamado de material ou funcional. Responde à pergunta: o quê? É a própria atividade administrativa, a função de administrar. Segundo Maria Sylvia Di Pietro, essa atividade abrange o fomento, a polícia administrativa, o serviço público e a intervenção. Nesse sentido, é comum a grafia com iniciais minúsculas.
+
+Dica para fixar: subjetivo vem de sujeito. Sujeito é quem faz. Então, subjetivo, formal e orgânico andam juntos e indicam quem. Objetivo, material e funcional andam juntos e indicam a atividade.
+
+A pegadinha aqui é o cruzamento dos sinônimos. A banca escreve, por exemplo, que em sentido objetivo, formal ou orgânico, a administração é o conjunto de órgãos e entidades. Misturou objetivo com formal e orgânico. Errado.
+
+Existe ainda a distinção entre sentido amplo e sentido estrito. Em sentido amplo, administração pública abrange tanto os órgãos de governo, que traçam os planos e as diretrizes, quanto os órgãos administrativos, que executam. Em sentido estrito, abrange apenas os órgãos e a atividade de execução, a função administrativa propriamente dita.
+
+E lembre do que vimos sobre os Poderes. A função administrativa é típica do Executivo, mas existe administração pública nos três Poderes. Quando um tribunal realiza uma licitação ou quando a Câmara dos Deputados nomeia servidores, há função administrativa. O artigo trinta e sete da Constituição confirma isso ao se dirigir à administração pública direta e indireta de qualquer dos Poderes, em todos os entes da federação. Pegadinha: dizer que a administração pública se restringe ao Poder Executivo. Errado.
+
+Resumo do bloco um, em três frases. O Estado é a organização política permanente, soberana, formada por povo, território e governo. O governo é a direção política transitória, que faz escolhas com independência e responde politicamente por elas. A administração é o aparelho e a atividade que executam essas escolhas de forma neutra, hierarquizada e vinculada à lei e à técnica.
+
+
+BLOCO DOIS. PODER, AUTORIDADE E LEGITIMIDADE.
+
+O edital escreve autoridade, legitimidade e poder. Para ficar mais didático, vou começar pelo poder, que é o conceito mais amplo, e depois chegar à autoridade e à legitimidade.
+
+O autor central aqui é Max Weber.
+
+Para Weber, poder é a probabilidade de alguém impor a própria vontade dentro de uma relação social, mesmo contra resistência, seja qual for o fundamento dessa probabilidade. Repare em dois detalhes. Primeiro: poder é uma relação, não uma coisa que se guarda no bolso. Segundo: no conceito de poder, não importa o fundamento. Pode ser a força, o dinheiro, a persuasão, o medo. Poder não exige aceitação.
+
+Já dominação, para Weber, é a probabilidade de encontrar obediência a uma ordem de determinado conteúdo, entre determinadas pessoas. A dominação é uma forma mais específica e mais estável de poder. E a dominação estável depende de um ingrediente a mais: a crença na legitimidade de quem manda. As pessoas obedecem não apenas porque são obrigadas, mas porque consideram, em alguma medida, que aquela ordem é válida.
+
+É aí que entra a autoridade. Em muitas traduções e manuais, a dominação legítima de Weber é chamada simplesmente de autoridade. Então, em termos de prova: autoridade é o poder legítimo, o poder reconhecido como válido por quem obedece.
+
+Guarde a escada. Poder é a capacidade de impor a vontade, com ou sem aceitação. Autoridade é o poder aceito como legítimo. Todo exercício de autoridade envolve poder, mas nem todo poder é autoridade. Um assaltante armado tem poder sobre a vítima, mas não tem autoridade.
+
+Pegadinha: tratar poder e autoridade como sinônimos, ou dizer que, para Weber, o conceito de poder pressupõe o consentimento dos dominados. Errado. Quem pressupõe crença na legitimidade é a dominação legítima, a autoridade.
+
+Agora, a famosa definição weberiana de Estado. Weber define o Estado moderno como a comunidade humana que, dentro de um determinado território, reivindica com êxito o monopólio do uso legítimo da força física.
+
+Cada palavra importa, e a banca brinca com cada uma delas.
+
+Primeiro, território. O monopólio vale dentro de limites territoriais.
+
+Segundo, legítimo. Não é monopólio da força, pura e simplesmente. É monopólio do uso legítimo da força. Outras pessoas e grupos podem usar a força de fato, como o crime faz, mas apenas o Estado pode fazê-lo legitimamente, ou autorizar que outros o façam. A legítima defesa, por exemplo, é um uso da força por particular que só é legítimo porque o próprio Estado, por meio da lei, o admite. Isso confirma a tese de Weber, não a contraria.
+
+Terceiro, Weber define o Estado pelo meio que lhe é próprio, e não pelos seus fins. Ele não diz que a força é o único meio do Estado, nem o meio normal ou o mais usado. Diz que é o meio específico, aquele que só ele detém de forma legítima.
+
+Pegadinhas possíveis: suprimir a palavra legítimo; afirmar que o Estado se sustenta apenas na coerção; ou afirmar que, para Weber, o Estado se define por suas finalidades. As três estão erradas.
+
+Vamos, então, aos três tipos puros de dominação legítima. A pergunta que Weber faz é: por que as pessoas obedecem? E ele encontra três fundamentos típicos.
+
+Primeiro tipo: dominação tradicional. A obediência se funda na crença na santidade das tradições que sempre existiram e na legitimidade de quem é chamado por elas a mandar. Obedece-se à pessoa do senhor, por fidelidade e costume. Exemplos: o patriarca, o rei em uma monarquia hereditária, o senhor feudal. O patrimonialismo, em que o governante trata o que é público como extensão do seu patrimônio pessoal, é uma forma de dominação tradicional. Guarde essa ligação, porque patrimonialismo volta a aparecer nos itens sobre modelos de administração e sobre corrupção.
+
+Segundo tipo: dominação carismática. A obediência se funda na devoção afetiva a uma pessoa, por suas qualidades vistas como extraordinárias: heroísmo, santidade, poder de oratória, exemplaridade. Exemplos: o profeta, o herói guerreiro, o grande líder revolucionário. É uma dominação de caráter extraordinário e instável, porque depende da pessoa do líder e da confirmação constante do seu carisma. Quando o líder morre ou falha, surge o problema da sucessão. Weber chama de rotinização do carisma o processo pelo qual essa dominação se transforma, com o tempo, em tradicional ou em racional-legal.
+
+Terceiro tipo: dominação racional-legal, também chamada apenas de legal ou burocrática. A obediência se funda na crença na legalidade de normas estabelecidas racionalmente e no direito de mando de quem foi investido segundo essas normas. Aqui está o ponto decisivo: obedece-se à regra impessoal, e não à pessoa. Quem manda também está submetido à norma e só manda dentro da competência que a norma lhe dá. A burocracia é, para Weber, o tipo mais puro de dominação legal. É a base do Estado moderno.
+
+Um jeito rápido de identificar o tipo em uma situação de prova é perguntar: obedece-se por quê? Porque sempre foi assim: tradicional. Porque o líder é extraordinário: carismática. Porque a regra, criada pelo procedimento correto, assim determina: racional-legal.
+
+Agora, as pegadinhas desse trecho, que são várias.
+
+Primeira. Esses tipos são tipos ideais, ou tipos puros. Tipo ideal é um instrumento de análise, um modelo conceitual. Não significa que seja o tipo desejável, o melhor. E não significa que exista em estado puro na realidade. O próprio Weber afirma que, nos casos concretos, os tipos aparecem combinados. Um presidente eleito segundo as regras, portanto com autoridade legal, pode também ter traços carismáticos. Item que diga que os três tipos são mutuamente excludentes na prática está errado.
+
+Segunda. Carisma, em Weber, não é sinônimo de popularidade nem de vitória eleitoral. Um governante eleito com muitos votos exerce o cargo com base na legalidade das regras eleitorais e constitucionais. O fundamento é racional-legal, ainda que ele seja popular.
+
+Terceira. A banca associa burocracia à dominação tradicional, talvez contando que você pense em algo antigo e engessado. Errado. Burocracia é dominação racional-legal.
+
+Quarta. Dizer que, na dominação legal, a obediência é devida à pessoa do superior. Errado. É devida à norma impessoal, e ao superior apenas enquanto ele atua dentro dela. Isso se conecta, mais adiante no edital, com o tema dos limites da obediência hierárquica.
+
+Quinta. Dizer que a dominação carismática é a mais estável. Errado. É a mais instável.
+
+Passemos à legitimidade, e ao par mais importante deste bloco: legalidade e legitimidade.
+
+Legalidade é a conformidade com o direito posto. O ato é legal quando segue a lei.
+
+Legitimidade é a qualidade do poder que é reconhecido como justificado, digno de obediência. Tem a ver com consentimento, aceitação e adequação a valores compartilhados.
+
+Norberto Bobbio oferece uma fórmula útil para a prova. A legitimidade diz respeito ao título do poder, isto é, a quem tem o direito de exercê-lo. A legalidade diz respeito ao exercício do poder, isto é, a se ele é exercido conforme as regras. O contrário do poder legítimo é o poder de fato, usurpado. O contrário do poder legal é o poder arbitrário.
+
+As duas coisas podem se separar. Pode haver algo legal e pouco legítimo: uma norma formalmente válida, mas amplamente percebida como injusta. E pode haver algo legítimo aos olhos da sociedade e ainda não reconhecido pela lei. No Estado democrático de direito, a ideia é que as duas caminhem juntas, porque a lei é produzida por representantes eleitos, por meio de um procedimento aceito, e está limitada pelos direitos fundamentais. Mas caminhar juntas não quer dizer ser a mesma coisa.
+
+A própria Constituição trata os dois conceitos como parâmetros distintos, e este ponto é ouro para quem vai trabalhar com controle. O artigo setenta estabelece que a fiscalização contábil, financeira, orçamentária, operacional e patrimonial da União será feita quanto à legalidade, à legitimidade e à economicidade, entre outros aspectos, pelo Congresso Nacional, mediante controle externo, e pelo sistema de controle interno de cada Poder. Ou seja, o controle não pergunta só se a despesa seguiu a lei. Pergunta também se ela é legítima, se atende ao interesse público e aos valores que justificam o gasto. Uma despesa pode cumprir todas as formalidades e, ainda assim, ser ilegítima.
+
+Pegadinha: afirmar que, no Estado de direito, tudo o que é legal é necessariamente legítimo, ou que legitimidade e legalidade se confundem. Errado.
+
+De onde vem a legitimidade em uma democracia? O ponto de partida é o parágrafo único do artigo primeiro da Constituição: todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente. A fonte da legitimidade é a soberania popular. Repare na pegadinha embutida nesse dispositivo: o povo exerce o poder por representantes ou diretamente. As duas vias. A nossa democracia é semidireta ou participativa. Item que diga que o poder é exercido exclusivamente por meio de representantes está errado.
+
+A ciência política costuma distinguir ainda duas dimensões da legitimidade, e essa distinção combina muito com o espírito deste edital.
+
+A legitimidade de origem, ou de entrada, decorre de como se chega ao poder e de como se decide: eleições livres, participação, respeito ao procedimento.
+
+A legitimidade de exercício, ou de resultado, decorre do que o poder entrega: políticas que funcionam, serviços de qualidade, problemas resolvidos, respeito a direitos.
+
+Um governo eleito tem legitimidade de origem, mas pode desgastar a sua legitimidade se governa mal ou viola direitos. E bons resultados, sozinhos, não substituem a origem democrática nem o respeito ao devido processo. Guarde essa ideia, porque ela reaparece no item um ponto um ponto cinco do edital, que fala de valor público, legitimidade e confiança. Controle, transparência e prestação de contas são, em boa medida, mecanismos de manutenção da legitimidade ao longo do exercício do poder.
+
+Para fechar o bloco, duas observações rápidas sobre o conceito de poder.
+
+A primeira: Bobbio classifica o poder em três formas, conforme o meio utilizado. Poder econômico, baseado na posse de bens. Poder ideológico, baseado na influência das ideias. E poder político, baseado, em última instância, na possibilidade do uso da força. O poder político é o poder supremo em uma sociedade justamente porque dispõe desse recurso final. Note como isso conversa com Weber.
+
+A segunda: o poder não aparece só quando alguém vence uma disputa aberta. Ele também aparece quando alguém consegue impedir que um assunto entre na pauta de decisões, e quando alguém consegue moldar o que os outros desejam. Autores como Bachrach, Baratz e Steven Lukes chamaram a atenção para essas faces menos visíveis do poder. Para a prova, basta a ideia geral: controlar a agenda também é exercer poder. Isso volta no edital quando se fala de agenda de políticas públicas e de captura.
+
+Resumo do bloco dois. Poder é impor a vontade, mesmo contra resistência. Autoridade é poder legítimo. Legitimidade é a crença na validade do mando, e Weber aponta três fundamentos típicos: tradição, carisma e legalidade racional. Legalidade e legitimidade se relacionam, mas não se confundem, e a Constituição manda controlar as duas.
+
+
+BLOCO TRÊS. INTERESSE PÚBLICO, PLURALISMO E CONFLITOS DISTRIBUTIVOS.
+
+Este é o trio mais moderno do item e, provavelmente, o que mais rende questões interpretativas.
+
+Comecemos pelo interesse público.
+
+Interesse público é o interesse da coletividade, aquilo que as pessoas têm em comum enquanto membros da sociedade. É a finalidade que justifica a existência do Estado e os poderes especiais da administração.
+
+A distinção essencial é entre interesse público primário e secundário. Ela vem do jurista italiano Renato Alessi e foi difundida no Brasil por Celso Antônio Bandeira de Mello.
+
+Interesse público primário é o interesse da coletividade, da sociedade: justiça, segurança, saúde, bem-estar.
+
+Interesse público secundário é o interesse do Estado enquanto pessoa jurídica, o interesse do aparelho estatal, normalmente de natureza patrimonial: arrecadar mais, gastar menos, pagar o mínimo possível em indenizações.
+
+A regra de ouro: o interesse secundário só pode ser legitimamente perseguido quando coincide com o primário. O Estado não pode, por exemplo, atrasar deliberadamente pagamentos devidos ou negar direitos evidentes apenas para preservar o caixa.
+
+Pegadinhas sobre esse ponto. Uma: inverter os conceitos, chamando de primário o interesse patrimonial do Estado. Outra: dizer que o secundário prevalece sobre o primário. Outra: dizer que o interesse secundário é sempre ilegítimo. Também errado: ele é legítimo quando caminha no mesmo sentido do primário. Arrecadar tributos devidos, por exemplo, serve ao erário e, por meio dele, à coletividade.
+
+Do interesse público decorrem os dois pilares do regime jurídico-administrativo, na lição de Celso Antônio Bandeira de Mello: a supremacia do interesse público sobre o privado e a indisponibilidade do interesse público.
+
+A supremacia explica as prerrogativas da administração, como desapropriar, impor limitações e alterar unilateralmente contratos.
+
+A indisponibilidade explica as sujeições da administração. O administrador não é dono do interesse público, é apenas gestor de algo que pertence à coletividade. Por isso, precisa licitar, fazer concurso, prestar contas e motivar os seus atos. Mais uma vez: é da indisponibilidade que nasce o dever de prestar contas e, portanto, o controle.
+
+Atenção às pegadinhas da supremacia. Ela é um princípio implícito na Constituição. Não está na lista expressa do caput do artigo trinta e sete, que traz legalidade, impessoalidade, moralidade, publicidade e eficiência. Já na Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, que regula o processo administrativo federal, o interesse público aparece expressamente entre os princípios do artigo segundo. Então, cuidado com a formulação: implícito na Constituição, expresso na lei do processo administrativo federal.
+
+Além disso, a supremacia não é absoluta. Ela encontra limites nos direitos fundamentais, na legalidade e na proporcionalidade. A própria Lei nove mil setecentos e oitenta e quatro exige adequação entre meios e fins e veda restrições em medida superior à estritamente necessária ao atendimento do interesse público. E a supremacia só se justifica para o interesse público primário. Item com as palavras sempre, em qualquer caso ou de forma absoluta merece desconfiança.
+
+Agora, as pegadinhas conceituais, que combinam bem com o estilo deste edital.
+
+Interesse público não é o interesse do governo, nem do governante, nem do partido que está no poder. A lei do processo administrativo fala em objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades.
+
+Interesse público também não é, necessariamente, o interesse da maioria. A proteção de minorias e de direitos fundamentais faz parte do interesse público, mesmo contra a vontade majoritária do momento.
+
+Interesse público não é o oposto do interesse privado. Muitas vezes, proteger um direito individual é exatamente o que o interesse público exige.
+
+E, por fim, interesse público é um conceito jurídico indeterminado. Ele não vem pronto. Em uma sociedade plural, o seu conteúdo é definido caso a caso, por meio de procedimentos democráticos, dentro dos limites da Constituição e da lei. E é essa constatação que nos leva ao pluralismo.
+
+Pluralismo.
+
+Há dois planos para estudar: o constitucional e o da teoria política.
+
+No plano constitucional, o pluralismo político é um dos cinco fundamentos da República, no inciso cinco do artigo primeiro. Os fundamentos são: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, e pluralismo político. O preâmbulo da Constituição também fala em uma sociedade pluralista.
+
+A pegadinha número um desse tema: pluralismo político não é sinônimo de pluripartidarismo. O pluripartidarismo, que é a existência de vários partidos, está previsto no artigo dezessete e é apenas uma das manifestações do pluralismo. O pluralismo político é muito mais amplo: significa o reconhecimento e a proteção da diversidade de ideias, opiniões, crenças, modos de vida e formas de organização da sociedade, como sindicatos, associações, igrejas, movimentos sociais, imprensa e universidades. Se o item restringir o pluralismo político à multiplicidade de partidos, marque errado.
+
+Pegadinha número dois: trocar fundamento por objetivo. O pluralismo político é fundamento, do artigo primeiro. Os objetivos fundamentais estão no artigo terceiro e são verbos: construir uma sociedade livre, justa e solidária; garantir o desenvolvimento nacional; erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; e promover o bem de todos, sem preconceitos. Esse tema será aprofundado no item um ponto um ponto quatro, mas a troca pode aparecer já aqui.
+
+No plano da teoria política, o pluralismo é uma corrente que descreve como o poder se distribui nas democracias. O nome principal é Robert Dahl. A ideia central: em sociedades democráticas, o poder não está concentrado em um único grupo. Ele está disperso entre muitos grupos, como empresários, trabalhadores, igrejas, associações profissionais e movimentos, que competem entre si para influenciar as decisões. Nenhum grupo vence sempre. As decisões resultam de negociação, barganha e compromisso. O Estado funciona como arena e como árbitro desses interesses.
+
+Dahl usa o termo poliarquia para designar as democracias reais, que se aproximam do ideal democrático sem atingi-lo por completo. A poliarquia tem duas dimensões: a contestação pública, isto é, a liberdade de fazer oposição e competir pelo poder, e a inclusão, isto é, a amplitude do direito de participar.
+
+O pluralismo costuma ser contraposto ao elitismo. Os autores elitistas, como Mosca, Pareto e Michels, e mais tarde Wright Mills, sustentam que, em qualquer sociedade, uma minoria organizada concentra o poder. Michels formulou a chamada lei de ferro da oligarquia: toda organização, mesmo democrática, tende a ser dirigida por uma pequena elite.
+
+Pegadinha de autores: atribuir a Dahl a tese de que uma elite coesa governa, ou atribuir aos elitistas a tese da dispersão do poder. Troca simples, erro certo.
+
+E há uma crítica importante ao pluralismo ingênuo, que este edital valoriza muito. Os grupos não competem em igualdade de condições. Alguns têm mais dinheiro, mais informação, mais acesso e mais organização. Mancur Olson, na obra A Lógica da Ação Coletiva, mostrou que grupos pequenos, com interesses concentrados, se organizam com muito mais facilidade do que grupos grandes, com interesses difusos. Pense em um pequeno setor que ganha muito com um benefício fiscal, contra milhões de contribuintes que pagam, cada um, um pouquinho a mais. O pequeno grupo se mobiliza. A multidão, não.
+
+Consequência: o pluralismo de grupos, deixado a si mesmo, pode produzir decisões que favorecem interesses concentrados em prejuízo do interesse geral. É a porta de entrada para o tema da captura, que o edital trata nos itens um ponto um ponto seis e um ponto um ponto sete. E é por isso que o edital fala, mais à frente, em distinguir a representação legítima de interesses do favorecimento indevido.
+
+Então, as mensagens para a prova são as seguintes. Defender interesses perante o Estado é legítimo em uma sociedade plural. Pluralismo não pressupõe que os grupos tenham poder igual. Pluralismo não elimina o conflito; ele o reconhece e o canaliza por instituições e regras. E o interesse público, em uma sociedade plural, não é a simples soma das pressões dos grupos mais fortes. Transparência, participação e controle servem justamente para equilibrar esse jogo.
+
+Chegamos ao último conceito: conflitos distributivos.
+
+Conflito distributivo é a disputa entre grupos, setores, regiões ou gerações sobre quem recebe os benefícios e quem arca com os custos das decisões públicas. Ele existe porque os recursos são escassos e as demandas são muitas. Toda decisão sobre tributos, orçamento, previdência, subsídios, salários, tarifas ou localização de investimentos define ganhadores e perdedores.
+
+Exemplos concretos. Quem paga mais imposto: renda, consumo ou patrimônio? O orçamento vai para a saúde, para a educação ou para a infraestrutura? Como dividir receitas entre União, estados e municípios? Reajustar aposentadorias ou ampliar investimento para os mais jovens?
+
+Três ideias centrais que a banca pode explorar.
+
+Primeira ideia: o conflito distributivo é inerente à vida política e é legítimo em uma democracia. Ele não é uma anomalia, nem um defeito a ser eliminado. O papel das instituições, como o parlamento, o processo orçamentário, os conselhos e as regras do federalismo, é processar esse conflito de forma pacífica e transparente. Item que trate o conflito distributivo como patologia a ser suprimida está errado. O que é patológico é resolver o conflito de forma oculta, por favorecimento ou captura.
+
+Segunda ideia: decisões alocativas não são puramente técnicas. A técnica informa, mede custos, estima impactos, mostra quem ganha e quem perde. Mas a escolha final envolve valores e prioridades, e por isso é política. Isso se liga diretamente ao bloco um: a opção política é do governo, com legitimidade democrática; a administração subsidia e executa. E se liga ao papel do controle: avaliar políticas e dar transparência aos seus efeitos distributivos qualifica o debate, mas o órgão de controle não substitui a escolha política legítima do gestor e do legislador.
+
+Terceira ideia: a tipologia de Theodore Lowi, que você reencontrará no estudo de políticas públicas. Lowi classificou as políticas em distributivas, redistributivas, regulatórias e constitutivas. E disse que cada tipo de política gera um tipo de arena política.
+
+Políticas distributivas entregam benefícios a grupos ou regiões específicas, com custos diluídos por toda a sociedade. Como quem paga quase não percebe, o conflito é baixo. São exemplos obras locais e certos incentivos. O ambiente é de troca de apoios.
+
+Políticas redistributivas transferem recursos de um grupo para outro de forma visível. Há ganhadores e perdedores claros. O conflito é alto. São exemplos a tributação progressiva, a reforma agrária e programas de transferência de renda financiados por determinados grupos.
+
+Políticas regulatórias estabelecem regras de comportamento, com ganhadores e perdedores conforme a regra. Políticas constitutivas definem as regras do jogo, como competências e procedimentos.
+
+E aqui mora uma pegadinha de vocabulário. A expressão conflitos distributivos, usada no edital, é ampla e se refere a qualquer disputa sobre a repartição de custos e benefícios. Já política distributiva, na tipologia de Lowi, é justamente o tipo de política com baixo nível de conflito. O conflito mais intenso é típico das políticas redistributivas. Se o item afirmar que, segundo Lowi, as políticas distributivas são as de maior conflito por terem perdedores claramente identificados, estará errado. Trocou distributiva por redistributiva.
+
+Para fechar, o ponto de encontro dos três conceitos do bloco. Em uma sociedade plural, há muitos interesses legítimos e eles disputam recursos escassos. Esses são os conflitos distributivos. O interesse público não está dado de antemão: ele é construído pela forma como as instituições democráticas arbitram esses conflitos, dentro dos limites da Constituição. Quando esse processo é aberto, motivado e controlável, a decisão ganha legitimidade, mesmo para quem perdeu. Quando é opaco e favorece quem tem mais acesso, perde legitimidade. Perceba como o bloco três volta ao título do item: Estado e legitimidade.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Antes das questões, um resumo das estratégias da banca, para você treinar o olhar.
+
+Primeira estratégia: troca de conceitos vizinhos. Estado por governo. Soberania por autonomia. Sentido subjetivo por objetivo. Poder por autoridade. Legalidade por legitimidade. Primário por secundário. Pluralismo por pluripartidarismo. Distributiva por redistributiva. Fundamento por objetivo.
+
+Segunda estratégia: inversão de atributos. O item descreve corretamente dois conceitos, mas troca as características de um pelas do outro. É o caso de governo e administração.
+
+Terceira estratégia: troca de autores. A ideia está correta, mas é atribuída ao autor errado.
+
+Quarta estratégia: generalização indevida. Palavras como sempre, nunca, apenas, exclusivamente, necessariamente e absoluto. Em ciência política, quase nada é absoluto. Não marque errado automaticamente, mas releia com atenção redobrada.
+
+Quinta estratégia: item longo, correto até a metade, com um trecho final errado, muitas vezes introduzido por expressões como razão pela qual, de modo que ou portanto. Leia até o último ponto. Verifique se a conclusão realmente decorre da premissa.
+
+Sexta estratégia: situação hipotética. O item descreve um caso e pede o enquadramento. Use as perguntas-chave desta aula. Obedece-se por quê? Quem é o sujeito e qual é a atividade? O interesse em jogo é da coletividade ou do caixa do Estado? Quem ganha e quem paga?
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+Após as eleições, um novo grupo político assume a chefia do Poder Executivo federal e altera prioridades e diretrizes de diversas políticas. Nessa situação, a mudança de governo implica a substituição do Estado anterior por outro, razão pela qual os compromissos assumidos pela gestão anterior deixam de vincular a nova gestão.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o Estado é permanente e o governo é transitório. A mudança de governo altera a direção política, mas não a pessoa jurídica do Estado, que continua responsável pelas obrigações assumidas. Repare na estrutura do item: uma situação verdadeira seguida de uma conclusão falsa introduzida por razão pela qual.
+
+Questão dois.
+Na federação brasileira, a União é dotada de soberania, ao passo que os Estados, o Distrito Federal e os Municípios são dotados apenas de autonomia.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: soberana é a República Federativa do Brasil. A União, os Estados, o Distrito Federal e os Municípios são todos autônomos, conforme o artigo dezoito da Constituição. A União apenas representa a República nas relações internacionais.
+
+Questão três.
+Em sentido subjetivo, formal ou orgânico, a expressão administração pública designa o conjunto de órgãos, entidades e agentes aos quais a lei atribui o exercício da função administrativa.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: subjetivo, formal e orgânico são sinônimos e respondem à pergunta quem. O sentido objetivo, material ou funcional designa a atividade administrativa em si.
+
+Questão quatro.
+Segundo a doutrina clássica do direito administrativo, o governo caracteriza-se como atividade política e discricionária, de conduta independente, enquanto a administração caracteriza-se como atividade neutra, normalmente vinculada à lei ou à norma técnica, de conduta hierarquizada.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é a distinção de Hely Lopes Meirelles. Se a banca inverter os atributos, o item fica errado. Lembre também que a administração tem poder de decisão apenas na sua área de competência, sem a opção política, que é do governo.
+
+Questão cinco.
+Para Max Weber, poder e dominação legítima são conceitos equivalentes, pois ambos pressupõem que aqueles que obedecem reconheçam como válida a ordem recebida.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: para Weber, poder é a probabilidade de impor a própria vontade mesmo contra resistência, seja qual for o fundamento. Não exige reconhecimento. É a dominação legítima, ou autoridade, que se apoia na crença na validade do mando.
+
+Questão seis.
+A concepção weberiana de que o Estado detém o monopólio do uso legítimo da força física é incompatível com a previsão legal da legítima defesa, uma vez que esta autoriza o uso da força por particulares.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o monopólio é do uso legítimo da força. O Estado é a fonte do direito de usá-la e pode admitir que particulares o façam em hipóteses definidas em lei. A legítima defesa só é legítima porque o ordenamento estatal a reconhece. Não há incompatibilidade.
+
+Questão sete.
+Um servidor discorda do conteúdo de uma instrução normativa editada pela autoridade competente do seu órgão, mas a cumpre por reconhecer que ela foi produzida segundo as regras e dentro da competência de quem a editou. Nessa situação, a obediência do servidor exemplifica o tipo de dominação que Weber denomina racional-legal.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: obedece-se à norma impessoal, criada segundo o procedimento previsto e dentro da competência, e não à pessoa de quem manda. É a dominação racional-legal, cuja expressão mais pura é a burocracia.
+
+Questão oito.
+Os tipos de dominação legítima formulados por Weber são tipos ideais, de modo que, nas situações concretas, é comum que elementos de mais de um deles apareçam combinados.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: tipo ideal é um instrumento de análise, não um retrato da realidade nem um modelo desejável. Nos casos reais, os tipos se misturam. Um governante investido segundo as regras legais pode ter também apelo carismático.
+
+Questão nove.
+Ao determinar que a fiscalização da aplicação dos recursos públicos seja exercida quanto à legalidade, à legitimidade e à economicidade, a Constituição Federal trata legalidade e legitimidade como parâmetros distintos, o que permite questionar um ato formalmente conforme à lei quanto ao atendimento do interesse público.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o artigo setenta da Constituição. Legalidade é conformidade com a lei. Legitimidade vai além e alcança a adequação do ato aos valores e finalidades públicas. Um ato pode ser legal e ter a sua legitimidade questionada.
+
+Questão dez.
+O interesse público secundário, entendido como o interesse patrimonial do Estado enquanto pessoa jurídica, deve prevalecer sobre o interesse público primário sempre que estiver em jogo a preservação do erário.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o interesse público primário é o da coletividade, e é ele que justifica a supremacia. O interesse secundário só pode ser validamente perseguido quando coincide com o primário. Observe ainda a palavra sempre, sinal de generalização indevida.
+
+Questão onze.
+O pluralismo político, fundamento da República Federativa do Brasil, corresponde à garantia do pluripartidarismo, não abrangendo a diversidade de opiniões e de formas de organização da sociedade que não tenham natureza partidária.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o pluralismo político, do inciso cinco do artigo primeiro, é mais amplo do que o pluripartidarismo, previsto no artigo dezessete. Abrange a diversidade de ideias, crenças e organizações sociais, como sindicatos, associações e movimentos. O pluripartidarismo é apenas uma de suas manifestações.
+
+Questão doze.
+Na tipologia de Theodore Lowi, as políticas redistributivas tendem a gerar nível de conflito mais elevado do que as políticas distributivas, uma vez que, naquelas, os grupos que arcam com os custos são mais facilmente identificáveis.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: nas políticas distributivas, os benefícios são concentrados e os custos, diluídos por toda a sociedade, o que reduz o conflito. Nas redistributivas, há ganhadores e perdedores visíveis, e o conflito é alto. Não confunda a expressão ampla conflitos distributivos, do edital, com a categoria política distributiva de Lowi.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Estado é permanente e soberano. Governo é transitório e político. Administração executa, de forma neutra, hierarquizada e vinculada à lei e à técnica.
+
+Soberania é da República. Autonomia é dos entes, inclusive da União.
+
+Administração em sentido subjetivo, formal ou orgânico: quem. Em sentido objetivo, material ou funcional: a atividade.
+
+Poder é impor a vontade, mesmo contra resistência. Autoridade é poder legítimo.
+
+Weber: o Estado reivindica o monopólio do uso legítimo da força em um território. Três tipos puros de dominação: tradicional, carismática e racional-legal. Burocracia é racional-legal. Tipos ideais se misturam na prática.
+
+Legalidade é conformidade com a lei. Legitimidade é reconhecimento e justificação. A Constituição manda fiscalizar as duas.
+
+Interesse público primário é o da coletividade. O secundário é o do Estado como pessoa jurídica, e só vale quando coincide com o primário. A supremacia é implícita na Constituição e não é absoluta.
+
+Pluralismo político é fundamento da República e é mais amplo do que pluripartidarismo. Na teoria, Dahl fala em poder disperso e em poliarquia; os elitistas, em poder concentrado; e Olson lembra que grupos pequenos e concentrados se organizam melhor do que grupos grandes e difusos.
+
+Conflitos distributivos são disputas sobre quem ganha e quem paga. São inerentes à democracia e legítimos. As instituições existem para processá-los com transparência. Em Lowi, a política distributiva tem baixo conflito, e a redistributiva, alto.
+
+Fim da aula do item um ponto um ponto um. Na sequência do edital, o próximo é o item um ponto um ponto dois, democracia e representação. Bons estudos.

@@ -1,0 +1,398 @@
+AUDIOAULA. ITEM UM PONTO TRÊS PONTO CINCO DO EDITAL: INTEGRIDADE COMO RESPONSABILIDADE INSTITUCIONAL
+Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
+
+
+GLOSSÁRIO DE PRONÚNCIA
+(Grafia correta dos termos usados na aula e a forma fonética com que aparecem no texto.)
+
+Fala.BR (plataforma de ouvidoria do governo federal) = Fála Bê Érre
+Sitai (Sistema de Integridade, Transparência e Acesso à Informação) = Sitái
+USI (Unidade Setorial de Integridade) = u ésse í
+UGI (antiga Unidade de Gestão da Integridade) = u gê í
+AECI (Assessoria Especial de Controle Interno) = a é cê í
+SeCI (Sistema Eletrônico de Prevenção de Conflito de Interesses) = Séci
+Sipef (antigo Sistema de Integridade Pública do Poder Executivo Federal) = Sipéf
+OCDE (Organização para a Cooperação e Desenvolvimento Econômico) = ó cê dê é
+compliance = complâiens
+deploy (implantação de sistema) = diplói
+software = sóftuér
+Donald Cressey (criminologista, triângulo da fraude) = Dónald Créssi
+Goodhart (economista, lei de Goodhart) = Gúdrart
+Amy Edmondson (pesquisadora, segurança psicológica) = Êimi Édmondsson
+
+
+ABERTURA
+
+Olá! Vamos para mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
+
+Esta é a última aula do bloco um ponto três, de ética e integridade. Até aqui, olhamos principalmente para o indivíduo. No item um ponto três ponto um, vimos os fundamentos da ética pública. No um ponto três ponto dois, os deveres do servidor. No um ponto três ponto três, conflitos de interesses, impedimento e suspeição. E na aula passada, item um ponto três ponto quatro, vimos assédio, discriminação, acolhimento e não retaliação, terminando com a ideia de separar os papéis: acolher, verificar e responsabilizar.
+
+Agora o foco muda. A pergunta deixa de ser "o que o servidor deve fazer?" e passa a ser "o que a organização deve fazer para que o servidor consiga agir com integridade?". É isso que o edital chama de integridade como responsabilidade institucional.
+
+O item tem um único subitem, o um ponto três ponto cinco ponto um, mas ele reúne quatro temas. Primeiro: coerência entre regras e práticas. Segundo: ambiente organizacional e incentivos. Terceiro: canais de orientação e relato. Quarto: o papel do exemplo, da confiança e da prestação de contas.
+
+Por que isso cai na prova? Por três motivos.
+
+Primeiro, porque a base normativa mudou bastante nos últimos anos, e a banca adora mudança. Em dois mil e vinte e três, o Decreto onze mil quinhentos e vinte e nove criou o Sistema de Integridade, Transparência e Acesso à Informação da Administração Pública Federal, o Sitái, e revogou o sistema anterior. E, em novembro de dois mil e vinte e cinco, a CGU publicou a Portaria Normativa duzentos e trinta e quatro, que aprovou o Referencial Técnico da Atividade de Gestão da Integridade e revogou as portarias antigas sobre programas de integridade. Quem estudou por material de dois mil e vinte e dois pode cair em armadilha.
+
+Segundo, porque a CGU é o órgão central desse sistema. Concurso da CGU cobra o que a CGU faz.
+
+Terceiro, porque o tema se presta a questões situacionais e conceituais: "a integridade é responsabilidade exclusiva da unidade de integridade?"; "um programa bem escrito garante integridade?"; "poucas denúncias significam um órgão íntegro?". São perguntas em que o senso comum leva ao erro.
+
+Um aviso sobre o escopo. Programas de integridade, gestão de riscos para a integridade e avaliação de efetividade serão aprofundados no bloco dois ponto um, de governança, riscos e integridade pública e privada. E a ouvidoria, a proteção do denunciante e o acesso à informação voltarão no bloco dois ponto dois. Aqui, vamos ver esses temas pela lente do edital neste ponto: a integridade como algo que a instituição constrói, ou destrói, com suas regras, sua cultura, seus canais e seu exemplo.
+
+A aula terá cinco blocos. Um: a ideia de integridade institucional e a sua base normativa. Dois: coerência entre regras e práticas. Três: ambiente organizacional e incentivos. Quatro: canais de orientação e relato. Cinco: exemplo, confiança e prestação de contas. Depois, pegadinhas, resumo, doze itens de certo ou errado e gabarito comentado.
+
+Vamos lá.
+
+
+BLOCO UM: O QUE É INTEGRIDADE INSTITUCIONAL E ONDE ELA ESTÁ NA NORMA
+
+Comece por uma ideia simples. A ética individual é necessária, mas não é suficiente. Pessoas honestas, colocadas num ambiente com regras confusas, metas distorcidas, chefes que dão mau exemplo e nenhum canal seguro para tirar dúvidas ou relatar problemas, tendem a ceder, a se calar ou a ir embora. E pessoas com pouca convicção ética, colocadas num ambiente coerente, com controles razoáveis e boas referências, tendem a se comportar bem. Por isso se diz que integridade não é só atributo de pessoas. É também atributo de organizações.
+
+Essa visão aparece com clareza na Recomendação do Conselho da ó cê dê é sobre Integridade Pública, de dois mil e dezessete. Ela organiza a integridade pública em três pilares: sistema, cultura e prestação de contas. Sistema é a estrutura: responsabilidades definidas, estratégia, padrões de conduta. Cultura é o comportamento compartilhado: liderança, mérito, capacitação, abertura para discutir dilemas. E prestação de contas é a capacidade de responder pelo que se faz: gestão de riscos, sanções efetivas, supervisão e participação social. Repare como isso conversa com o nosso edital. Coerência entre regras e práticas é sistema funcionando de verdade. Ambiente e incentivos é cultura. Canais, exemplo, confiança e prestação de contas fecham o desenho.
+
+Agora, a base normativa brasileira. São três peças principais.
+
+Primeira peça: o Decreto nove mil duzentos e três, de vinte e dois de novembro de dois mil e dezessete, que trata da política de governança da administração pública federal direta, autárquica e fundacional.
+
+O artigo terceiro lista seis princípios da governança pública: capacidade de resposta; integridade; confiabilidade; melhoria regulatória; prestação de contas e responsabilidade; e transparência. Repare que integridade, confiabilidade e prestação de contas são princípios expressos. Guarde isso, porque vamos voltar a eles no bloco cinco.
+
+O artigo quinto diz que são mecanismos para o exercício da governança a liderança, a estratégia e o controle. E define liderança como o conjunto de práticas de natureza humana ou comportamental exercidas nos principais cargos das organizações, para assegurar as condições mínimas para a boa governança, quais sejam: integridade, competência, responsabilidade e motivação. Ou seja, o próprio decreto coloca a integridade dentro da liderança. Não é tema só de quem está na base.
+
+O artigo sexto atribui à alta administração dos órgãos e entidades a tarefa de implementar e manter mecanismos, instâncias e práticas de governança.
+
+E o artigo dezenove determinou que os órgãos e entidades da administração direta, autárquica e fundacional instituíssem programa de integridade, estruturado em quatro eixos: comprometimento e apoio da alta administração; existência de unidade responsável pela implementação; análise, avaliação e gestão dos riscos associados ao tema da integridade; e monitoramento contínuo dos atributos do programa. Até onde verifiquei, o artigo dezenove continua no texto do decreto. O artigo vinte, que dava competência à CGU para regulamentar o tema, foi revogado em dois mil e dezenove. E a regulamentação atual vem das duas peças seguintes.
+
+Segunda peça, e a mais importante para a prova: o Decreto onze mil quinhentos e vinte e nove, de dezesseis de maio de dois mil e vinte e três. Ele institui o Sitái e a Política de Transparência e Acesso à Informação da Administração Pública Federal. A parte do sistema entrou em vigor em dezessete de julho de dois mil e vinte e três.
+
+Quatro pontos desse decreto são muito cobráveis.
+
+Ponto um: alcance. O Sitái vale para a administração pública federal direta, autárquica e fundacional. Empresas estatais não integram o sistema.
+
+Ponto dois: o conceito de programa de integridade, no artigo terceiro, inciso um. Programa de integridade é o conjunto de princípios, normas, procedimentos e mecanismos de prevenção, detecção e remediação de práticas de corrupção e fraude, de irregularidades, ilícitos e outros desvios éticos e de conduta, de violação ou desrespeito a direitos, valores e princípios que impactem a confiança, a credibilidade e a reputação institucional. Repare na amplitude. O conceito antigo, do Decreto nove mil duzentos e três, falava em fraudes e atos de corrupção. O conceito atual inclui desvios éticos e violação de direitos. É por isso que assédio e discriminação, que vimos na aula passada, entram hoje no campo da integridade. E o parágrafo único do mesmo artigo diz que o programa tem por objetivo promover a conformidade de condutas, a transparência, a priorização do interesse público e uma cultura organizacional voltada à entrega de valor público à sociedade. Note a palavra cultura dentro da norma.
+
+Ainda no artigo terceiro, o inciso dois define plano de integridade como o plano que organiza as medidas de integridade a serem adotadas em determinado período, elaborado por unidade setorial do Sitái e aprovado pela autoridade máxima do órgão ou da entidade. E o inciso três define funções de integridade como as funções constantes nos sistemas de corregedoria, ouvidoria, controle interno, gestão da ética, transparência e outras essenciais ao funcionamento do programa. Ou seja: integridade não é uma caixinha; é a articulação de várias áreas que já existem.
+
+Ponto três: a composição, no artigo quinto. A CGU é o órgão central. As unidades nos órgãos e entidades responsáveis pela gestão da integridade, da transparência e do acesso à informação são as unidades setoriais. E atenção ao parágrafo primeiro: na administração federal direta, isto é, nos ministérios, as unidades setoriais são as assessorias especiais de controle interno, as a é cê ís. Nas autarquias e fundações, o dirigente máximo designa uma ou mais unidades responsáveis.
+
+Ponto quatro: a relação entre a CGU e as unidades setoriais, no artigo sexto. As unidades setoriais ficam sujeitas à orientação normativa e à supervisão técnica do órgão central, sem prejuízo da subordinação administrativa ao órgão ou entidade a que pertençam. Isso é clássico de sistema estruturador. A CGU orienta e supervisiona tecnicamente; quem manda administrativamente na unidade é o próprio ministério ou autarquia.
+
+E quais são as competências das unidades setoriais? O artigo oitavo lista várias. Destaco: assessorar a autoridade máxima em integridade, transparência e acesso à informação; articular-se com as demais unidades que desempenham funções de integridade; coordenar a estruturação, a execução e o monitoramento do programa; promover orientação e treinamento; elaborar e revisar periodicamente o plano de integridade; coordenar a gestão dos riscos para a integridade; monitorar a implementação do plano; reportar à autoridade máxima o desempenho do programa e quaisquer fatos que possam comprometer a integridade institucional; e reportar ao órgão central as situações que comprometam o programa.
+
+O decreto também revogou o Decreto dez mil setecentos e cinquenta e seis, de dois mil e vinte e um, que tinha criado o Sipéf, o Sistema de Integridade Pública do Poder Executivo Federal. Então, se a banca disser que o Sipéf é o sistema vigente, está desatualizada. O Sitái ampliou o antigo sistema, incorporando transparência e acesso à informação.
+
+Até onde verifiquei, o Decreto onze mil quinhentos e vinte e nove não sofreu alterações de conteúdo nesses dispositivos desde a publicação. Ainda assim, vale conferir a redação no Planalto perto da prova.
+
+Terceira peça: a Portaria Normativa da CGU número duzentos e trinta e quatro, de seis de novembro de dois mil e vinte e cinco, que aprova o Referencial Técnico da Atividade de Gestão da Integridade do Poder Executivo Federal. Ela entrou em vigor quarenta e cinco dias após a publicação, ou seja, no fim de dezembro de dois mil e vinte e cinco. E revogou a Portaria da CGU mil e oitenta e nove, de dois mil e dezoito, e a Portaria cinquenta e sete, de dois mil e dezenove, que eram as referências antigas sobre programas de integridade. Com isso, a antiga Unidade de Gestão da Integridade, a u gê í, dá lugar, no vocabulário atual, à Unidade Setorial de Integridade, a u ésse í.
+
+Do referencial, guarde estas ideias, com a ressalva de que conferi um resumo do texto, e não cada item na versão certificada do Diário Oficial.
+
+Uma: integridade pública é apresentada como o valor que norteia a administração e cada um de seus agentes; e integridade pública organizacional, como a atuação consistente de cada órgão para buscar o seu propósito legítimo. A palavra consistente é a chave do nosso próximo bloco.
+
+Duas: a gestão da integridade cabe a toda a organização, e não apenas à unidade setorial. Os riscos para a integridade são geridos pelos gestores de cada processo, com orientação da unidade setorial.
+
+Três: o referencial traz princípios de transversalidade, especificidade e integração. Especificidade quer dizer que cada órgão tem riscos e contexto próprios; não existe programa de prateleira.
+
+Quatro: o programa de integridade deve ser formalizado, aprovado pela autoridade máxima e publicado; e o plano de integridade nasce de um diagnóstico, traz medidas baseadas em riscos com responsáveis, metas e prazos, e é publicado em transparência ativa.
+
+Cinco: a unidade setorial produz um relatório anual de gestão da integridade, com resultados e autoavaliação de maturidade, enviado à CGU. É prestação de contas da própria integridade.
+
+Por fim, no plano de governo, vale saber que existe o Plano de Integridade e Combate à Corrupção, de dois mil e vinte e cinco a dois mil e vinte e sete, coordenado pela CGU, com mais de duzentas e sessenta ações de mais de cinquenta órgãos, organizadas em cinco eixos: controle da qualidade do uso dos recursos públicos; integridade nas relações entre Estado e setor privado; transparência e governo aberto; combate à corrupção; e fortalecimento institucional para a integridade. Não se preocupe em decorar as ações; guarde a existência do plano e o fato de que ele é monitorado com participação do Conselho de Transparência, Integridade e Combate à Corrupção, que é consultivo e tem representantes da sociedade civil.
+
+Recapitulando o bloco um. Integridade é atributo também das organizações; a ó cê dê é organiza o tema em sistema, cultura e prestação de contas. Decreto nove mil duzentos e três: integridade, confiabilidade e prestação de contas são princípios da governança; liderança inclui integridade, competência, responsabilidade e motivação; o artigo dezenove trouxe os quatro eixos do programa. Decreto onze mil quinhentos e vinte e nove: Sitái, só para a administração direta, autárquica e fundacional; programa de integridade em sentido amplo, incluindo desvios éticos e violação de direitos; plano aprovado pela autoridade máxima; funções de integridade espalhadas por corregedoria, ouvidoria, controle interno, ética e transparência; CGU como órgão central, com supervisão técnica, sem subordinação administrativa; a é cê ís como unidades setoriais nos ministérios; Sipéf revogado. Portaria duzentos e trinta e quatro de dois mil e vinte e cinco: novo referencial, revogou as portarias de dois mil e dezoito e dois mil e dezenove; a integridade é responsabilidade de toda a organização.
+
+
+BLOCO DOIS: COERÊNCIA ENTRE REGRAS E PRÁTICAS
+
+O primeiro tema do edital é a coerência entre regras e práticas. A ideia parece óbvia, mas é a que mais derruba organizações.
+
+Toda organização tem duas camadas. A camada formal: leis, decretos, códigos de ética, portarias, fluxogramas, políticas de segurança da informação, o próprio programa de integridade. E a camada real: o que as pessoas efetivamente fazem no dia a dia, o que é tolerado, o que é premiado, o que é ignorado. Integridade institucional é, em boa parte, a distância entre essas duas camadas. Quanto menor a distância, mais íntegra a organização.
+
+A literatura de teoria organizacional dá nome a esse fenômeno: desacoplamento. A organização adota estruturas formais para parecer legítima aos olhos de fora, mas a prática interna segue outro caminho. No campo da integridade, isso costuma ser chamado de programa de fachada, ou programa de papel. Existe o documento, existe o código, existe a portaria, mas nada muda na prática.
+
+Quais são os sinais de incoerência? Vou citar cinco.
+
+Primeiro sinal: regras que todos sabem que ninguém cumpre. Quando uma norma é sistematicamente descumprida e ninguém reage, a mensagem real da organização é: "as regras daqui são decorativas". Isso contamina as outras regras.
+
+Segundo sinal: regras impossíveis de cumprir. Às vezes a incoerência nasce da própria regra: prazos irreais, exigências contraditórias, controles que travam o trabalho. Quando a regra é inexequível, as pessoas criam atalhos, e o atalho vira prática. A integridade, então, exige também revisar regras ruins, e não só cobrar o seu cumprimento. O próprio Decreto nove mil duzentos e três traz a melhoria regulatória como princípio de governança.
+
+Terceiro sinal: aplicação seletiva. A regra vale para uns e não para outros. O estagiário é advertido por um atraso; o diretor descumpre a mesma norma e nada acontece. Aqui a incoerência é dupla: entre a regra e a prática, e entre as pessoas. Isso conversa com a impessoalidade, do artigo trinta e sete da Constituição.
+
+Quarto sinal: discurso diferente da decisão. A organização diz que valoriza a qualidade, mas só cobra quantidade; diz que valoriza a transparência, mas pune quem aponta problemas. As pessoas aprendem com a decisão, não com o discurso.
+
+Quinto sinal: a normalização do desvio. Esse é um conceito da socióloga que estudou o acidente do ônibus espacial Challenger. Um pequeno desvio da regra é tolerado uma vez, nada de grave acontece, e ele passa a ser tratado como normal. Depois vem outro desvio, um pouco maior, que também vira normal. Até que o desvio acumulado gera um desastre. Nas organizações públicas, o mecanismo é o mesmo: o "sempre fizemos assim" esconde uma sequência de pequenas tolerâncias.
+
+Agora um exemplo do seu futuro trabalho. A política de segurança da informação de um órgão auditado diz que toda alteração no sistema de pagamentos exige revisão de código por uma segunda pessoa e aprovação formal antes do diplói. No papel, há segregação de funções. Mas, ao analisar os registros do repositório e do servidor de produção, você, como auditor de tecnologia da CGU, descobre que três desenvolvedores compartilham uma mesma conta de administrador, que a revisão é marcada como feita sem nenhum comentário, e que a maioria das implantações acontece de madrugada, fora da janela aprovada. Ninguém escondeu a regra. A regra existe. O problema é que a prática a esvaziou. Esse é o tipo de achado que mostra incoerência entre regra e prática, e é exatamente por isso que auditoria não se limita a ler normas internas: ela testa se os controles funcionam.
+
+Repare numa distinção importante, que o edital vai explorar de novo no item dois ponto um ponto quatro, para empresas: existência documental, implementação e efetividade são coisas diferentes. Existir é ter o documento. Estar implementado é ter as rotinas funcionando. Ser efetivo é produzir o resultado esperado. Um código de conduta publicado no portal existe. Um código usado em capacitações e aplicado pela comissão de ética está implementado. Um código que de fato orienta decisões e reduz desvios é efetivo. A banca adora o item que confunde existência com efetividade.
+
+E como a organização constrói coerência? Algumas práticas.
+
+Regras claras, acessíveis e em linguagem simples. Não se cumpre o que não se entende.
+
+Regras proporcionais aos riscos. O referencial da CGU fala em especificidade: cada órgão deve olhar seus próprios riscos, e não copiar o programa de outro.
+
+Monitoramento do cumprimento. O quarto eixo do artigo dezenove do Decreto nove mil duzentos e três é justamente o monitoramento contínuo. E o artigo oitavo do Decreto onze mil quinhentos e vinte e nove dá à unidade setorial a tarefa de monitorar e avaliar a implementação das medidas do plano.
+
+Consequências consistentes. Quando a regra é violada, a resposta precisa vir, de forma proporcional e para todos. A responsabilização é parte da coerência.
+
+E revisão periódica. A norma que não funciona deve ser corrigida, e não apenas ignorada.
+
+Recapitulando o bloco dois. Integridade institucional é diminuir a distância entre a camada formal e a camada real. Sinais de incoerência: regra descumprida sem reação, regra inexequível, aplicação seletiva, discurso diferente da decisão e normalização do desvio. Existência documental, implementação e efetividade não se confundem. Coerência se constrói com regras claras e proporcionais, monitoramento, consequências consistentes e revisão.
+
+
+BLOCO TRÊS: AMBIENTE ORGANIZACIONAL E INCENTIVOS
+
+O segundo tema é o ambiente organizacional e os incentivos. Aqui a pergunta é: o que, na organização, empurra as pessoas para o comportamento íntegro, e o que as empurra para o desvio?
+
+Um modelo clássico ajuda a pensar. É o triângulo da fraude, formulado pelo criminologista Dónald Créssi a partir de entrevistas com pessoas condenadas por desvio de recursos. Segundo ele, a fraude costuma reunir três elementos. Pressão: uma necessidade ou um incentivo, que pode ser financeiro, mas também pode ser pressão por metas ou por resultados. Oportunidade: a percepção de que é possível agir sem ser descoberto, normalmente por controles fracos. E racionalização: a justificativa interna, como "todo mundo faz", "é só desta vez", "a regra é burra" ou "eu mereço".
+
+Repare que a organização influencia os três vértices. Ela cria ou alivia pressões, com suas metas. Ela abre ou fecha oportunidades, com seus controles. E ela alimenta ou desmonta racionalizações, com sua cultura. Quando todo mundo vê a regra sendo ignorada, a racionalização "todo mundo faz" fica muito fácil. É assim que o bloco dois se conecta com o bloco três.
+
+Vamos aos incentivos.
+
+Incentivo é tudo aquilo que torna um comportamento mais ou menos vantajoso para quem o pratica. Pode ser formal, como metas, gratificações, avaliação de desempenho, promoção, nomeação para cargos. Ou pode ser informal, como reconhecimento, prestígio, aceitação no grupo, medo de ser isolado.
+
+O problema surge quando os incentivos premiam o resultado aparente e não o resultado real. Existe uma formulação famosa, conhecida como lei de Gúdrart: quando uma medida se torna uma meta, ela deixa de ser uma boa medida. As pessoas passam a otimizar o número, e não aquilo que o número deveria representar.
+
+Exemplos na administração pública são fáceis de imaginar. Uma unidade de auditoria avaliada apenas pelo número de recomendações emitidas tende a emitir muitas recomendações pequenas e pouco úteis. Uma central de atendimento avaliada apenas pelo tempo médio de ligação tende a encerrar chamadas sem resolver o problema. E, no seu mundo de desenvolvimento, uma equipe cobrada apenas pela quantidade de funcionalidades entregues por ciclo tende a pular testes de segurança, a dispensar a revisão de código e a empurrar correções para depois. Ninguém precisou agir de má-fé. O incentivo fez o trabalho.
+
+Pense numa situação. A chefia de uma coordenação de sistemas anuncia que a equipe que entregar mais funcionalidades no semestre terá prioridade na escolha de capacitações no exterior. Nas semanas seguintes, as revisões de código caem pela metade, os testes automatizados são desligados "temporariamente" para acelerar a esteira, e um desenvolvedor que reclama é chamado de "pessimista". Ninguém aqui pratica corrupção. Mas o desenho de incentivos degradou a integridade técnica, aumentou o risco de falhas e criou um ambiente em que levantar um problema é malvisto. Esse é um problema institucional, e não apenas individual.
+
+Então, o que é um bom desenho de incentivos do ponto de vista da integridade?
+
+Metas equilibradas, que combinem quantidade, qualidade e conformidade.
+
+Reconhecimento de quem aponta problemas e de quem diz "não" a um atalho indevido, e não apenas de quem entrega rápido.
+
+Critérios transparentes e impessoais para promoção e nomeação. No governo federal, as nomeações para cargos em comissão e funções de confiança seguem critérios de idoneidade e perfil profissional fixados em decreto regulamentar da Lei catorze mil duzentos e quatro, de dois mil e vinte e um. Não vou citar o número do artigo porque não tenho certeza da redação vigente; para a prova, basta saber que existem critérios mínimos de idoneidade e de compatibilidade profissional. E há a vedação ao nepotismo, pela Súmula Vinculante treze do Supremo Tribunal Federal e, no Executivo federal, pelo Decreto sete mil duzentos e três, de dois mil e dez. Nomear por mérito é um incentivo à integridade; nomear por proximidade é o oposto.
+
+E prevenção antes da punição. O Decreto nove mil duzentos e três, no artigo quarto, inciso seis, tem uma diretriz que vale ouro: implementar controles internos fundamentados na gestão de risco, que privilegiará ações estratégicas de prevenção antes de processos sancionadores. Atenção: privilegiar prevenção não significa abrir mão da punição. Significa que a organização não deve esperar o desvio acontecer para agir.
+
+Agora, o ambiente organizacional, num sentido mais amplo.
+
+Ambiente é o clima em que as pessoas trabalham: o quanto se sentem respeitadas, ouvidas e seguras. Na aula passada vimos que assédio e discriminação degradam o ambiente. Aqui quero acrescentar um conceito que a pesquisadora Êimi Édmondsson chamou de segurança psicológica: a crença compartilhada de que é seguro, naquela equipe, admitir um erro, fazer uma pergunta ou discordar, sem ser punido ou humilhado.
+
+Por que isso é integridade? Porque, onde não há segurança psicológica, os erros são escondidos em vez de corrigidos, as dúvidas éticas não são levantadas, e os desvios só aparecem quando já são grandes. Uma equipe de desenvolvimento em que ninguém admite ter subido um defeito para produção é uma equipe em que os defeitos ficam mais tempo em produção. O mesmo vale para desvios de conduta.
+
+O ambiente também é moldado por medidas concretas que já estudamos: o Programa Federal de Prevenção e Enfrentamento do Assédio e da Discriminação, do Decreto doze mil cento e vinte e dois, e as capacitações regulares. O referencial da CGU, inclusive, trata a prevenção do assédio como questão emergente que exige resposta tempestiva da gestão da integridade, e recomenda capacitações periódicas para todos, com capacitações diferenciadas para grupos expostos a riscos específicos, como pregoeiros, fiscais de contratos ou quem administra acessos privilegiados a sistemas.
+
+Recapitulando o bloco três. Triângulo da fraude: pressão, oportunidade e racionalização; a organização influencia os três. Incentivos formais e informais moldam comportamento; métricas viram alvo e perdem sentido, como diz a lei de Gúdrart. Bons incentivos: metas equilibradas, reconhecimento de quem aponta problemas, critérios impessoais de nomeação, vedação ao nepotismo. Decreto nove mil duzentos e três, artigo quarto, inciso seis: prevenção antes de processos sancionadores, sem abrir mão da sanção. Segurança psicológica permite que erros e dúvidas apareçam cedo.
+
+
+BLOCO QUATRO: CANAIS DE ORIENTAÇÃO E RELATO
+
+O terceiro tema é o dos canais. E o edital faz questão de usar duas palavras: orientação e relato. Elas não são sinônimas, e isso é ouro para a banca.
+
+Canal de orientação serve para antes. É onde o servidor leva uma dúvida sobre como agir: "posso aceitar este convite?", "posso dar aula para uma empresa que é fiscalizada pelo meu órgão?", "devo me declarar impedido neste processo?", "posso compartilhar esses dados com outro órgão?". A orientação é preventiva. Ela evita que a pessoa cometa um erro por desconhecimento ou por insegurança.
+
+Canal de relato serve para depois, ou para o que está acontecendo. É onde alguém comunica um fato possivelmente irregular: uma fraude, um assédio, um conflito de interesses não declarado, um acesso indevido a dados. O relato alimenta a detecção e a responsabilização.
+
+Uma organização íntegra precisa dos dois. Só ter canal de denúncia, sem canal de orientação, cria um ambiente em que o servidor só descobre que errou quando já é investigado. E só ter orientação, sem canal seguro de relato, deixa os desvios invisíveis.
+
+Quais são os canais de orientação no Executivo federal?
+
+Primeiro, as comissões de ética. O Código de Ética do Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, no item dezesseis da sua seção três, prevê que cada órgão tenha uma comissão de ética encarregada de orientar e aconselhar sobre a ética profissional do servidor, no tratamento com as pessoas e com o patrimônio público. Repare: a primeira função citada é orientar e aconselhar. A comissão não é só tribunal de censura. E o Decreto seis mil e vinte e nove, de dois mil e sete, organiza o Sistema de Gestão da Ética do Poder Executivo Federal, com a Comissão de Ética Pública no topo, que, entre outras atribuições, responde consultas das autoridades da alta administração.
+
+Segundo, as consultas sobre conflito de interesses, que vimos no item um ponto três ponto três: o servidor pode consultar formalmente, pelo sistema eletrônico Séci, se uma situação configura conflito de interesses, e pode pedir autorização para atividade privada. Não vou repetir o procedimento; só lembre que a consulta é um típico canal de orientação, institucionalizado em lei.
+
+Terceiro, a própria unidade setorial de integridade, que, pelo artigo oitavo do Decreto onze mil quinhentos e vinte e nove, promove orientação e treinamento em assuntos do programa de integridade.
+
+Quarto, as áreas técnicas e jurídicas, como a consultoria jurídica e o encarregado de dados pessoais, para dúvidas que envolvam interpretação de normas e proteção de dados.
+
+E quais são os canais de relato?
+
+O principal é a ouvidoria. A Lei treze mil seiscentos e oito, de dois mil e dezoito, no artigo quarto A, incluído em dois mil e dezenove, determina que a União, os estados, o Distrito Federal, os municípios, suas autarquias e fundações, empresas públicas e sociedades de economia mista mantenham unidade de ouvidoria ou correição, para assegurar a qualquer pessoa o direito de relatar informações sobre crimes contra a administração pública, ilícitos administrativos ou quaisquer ações ou omissões lesivas ao interesse público. Guarde: qualquer pessoa tem esse direito, e a obrigação de manter o canal alcança inclusive as estatais.
+
+No Executivo federal, as ouvidorias formam o Sistema de Ouvidoria do Poder Executivo Federal, organizado pelo Decreto nove mil quatrocentos e noventa e dois, de dois mil e dezoito, que regulamenta a Lei treze mil quatrocentos e sessenta. O órgão central desse sistema é a CGU, por meio da Ouvidoria-Geral da União. E a plataforma de registro é o Fála Bê Érre.
+
+Além da ouvidoria, há outros caminhos legítimos: a comunicação à chefia imediata ou, se ela estiver envolvida, à autoridade superior; a corregedoria; a comissão de ética; e, em casos de crime, os órgãos de persecução penal. Lembre que, para o servidor, levar ao conhecimento da autoridade as irregularidades de que tiver ciência em razão do cargo é dever funcional, pelo artigo cento e dezesseis, inciso seis, da Lei oito mil cento e doze.
+
+Agora, o ponto que realmente interessa a este item: não basta o canal existir. O canal precisa ser confiável. O que faz um canal confiável? Vou resumir em seis atributos.
+
+Um: acessível. Conhecido por todos, inclusive terceirizados e cidadãos, fácil de usar, disponível por meios digitais e presenciais.
+
+Dois: seguro para quem relata. Isso inclui a preservação da identidade, as salvaguardas do Decreto dez mil cento e cinquenta e três, de dois mil e dezenove, e a proteção contra retaliação, da Lei treze mil seiscentos e oito. Detalhamos isso na aula passada e o tema volta no bloco dois ponto dois. Aqui basta fixar: sem proteção, o canal não é usado.
+
+Três: independente o suficiente. Quem recebe o relato não pode estar subordinado à pessoa denunciada nem ter interesse no caso. Por isso existe a possibilidade de levar o fato a outra autoridade quando a chefia estiver envolvida.
+
+Quatro: com tratamento e resposta. Quem relata precisa receber retorno sobre o andamento, dentro dos limites do sigilo. Um canal que vira "buraco negro" perde credibilidade rapidamente.
+
+Cinco: integrado. O relato precisa chegar a quem pode agir: corregedoria, comissão de ética, gestão de riscos, auditoria. É aqui que entra o conceito de funções de integridade do Decreto onze mil quinhentos e vinte e nove: ouvidoria, corregedoria, ética e controle interno trabalhando juntos.
+
+Seis: usado para aprendizado. Além de resolver o caso individual, os relatos revelam padrões e falhas de processo. O edital volta a isso no item dois ponto um ponto cinco, quando fala de denúncias como insumos de melhoria.
+
+Um alerta conceitual muito cobrado, e que será aprofundado no item dois ponto um ponto cinco ponto três: poucas denúncias não significam, necessariamente, poucos problemas. Podem significar canal desconhecido, medo de retaliação ou descrença de que algo vá acontecer. Baixa ocorrência e baixa detecção são coisas diferentes. Muitas vezes, um aumento de relatos depois de uma campanha de divulgação é sinal de que a confiança no canal cresceu, e não de que a organização piorou.
+
+Agora, dois exemplos.
+
+Exemplo de orientação. Uma desenvolvedora da CGU recebe de um fornecedor de serviços de nuvem, que tem contrato com o órgão, um convite para palestrar num evento do próprio fornecedor, com passagens e hospedagem pagas. Ela não sabe se pode aceitar. O caminho íntegro não é aceitar e torcer para dar certo, nem recusar por medo sem entender as regras. É consultar: a comissão de ética e, se houver possível conflito de interesses, o Séci. A organização íntegra torna essa consulta simples e rápida.
+
+Exemplo de relato. Um analista percebe que um colega, que administra o banco de dados de um sistema de benefícios, reduziu a retenção dos registros de acesso de noventa para sete dias, sem nenhuma solicitação formal, logo depois de uma série de consultas a dados de pessoas conhecidas. Ele não sabe se é irregularidade, mas há indícios. O caminho é relatar, pela ouvidoria ou à autoridade competente, preservando as evidências e sem tentar investigar por conta própria, como vimos na distinção entre acolher, verificar e responsabilizar.
+
+Recapitulando o bloco quatro. Orientação é preventiva, antes de agir; relato comunica um fato possivelmente irregular. Canais de orientação: comissões de ética, cuja função começa por orientar e aconselhar, pelo Decreto mil cento e setenta e um; Sistema de Gestão da Ética do Decreto seis mil e vinte e nove; consultas sobre conflito de interesses; unidade setorial de integridade. Canais de relato: ouvidoria e correição, garantidas pelo artigo quarto A da Lei treze mil seiscentos e oito a qualquer pessoa; sistema de ouvidoria do Decreto nove mil quatrocentos e noventa e dois, com a CGU como órgão central e o Fála Bê Érre; chefia, autoridade superior, corregedoria. Canal confiável é acessível, seguro, independente, responde, é integrado e gera aprendizado. Poucas denúncias não provam integridade.
+
+
+BLOCO CINCO: EXEMPLO, CONFIANÇA E PRESTAÇÃO DE CONTAS
+
+O último tema junta três ideias que se reforçam.
+
+Começo pelo exemplo.
+
+Na literatura de integridade, fala-se muito em "tom que vem do topo". O comportamento da liderança comunica mais do que qualquer código. Se o dirigente cumpre as regras que exige, declara seus conflitos, aceita ser contrariado tecnicamente e trata as pessoas com respeito, a organização entende que a integridade é para valer. Se ele faz o contrário, nenhuma capacitação compensa.
+
+E isso está na norma. Lembre que o Decreto nove mil duzentos e três inclui a integridade entre as condições da liderança e que o primeiro eixo do programa de integridade é o comprometimento e apoio da alta administração. Há ainda o Código de Conduta da Alta Administração Federal, de dois mil, que no artigo primeiro, inciso dois, aponta como uma das suas finalidades contribuir para o aperfeiçoamento dos padrões éticos da administração pública federal a partir do exemplo dado pelas autoridades de nível hierárquico superior. O exemplo, portanto, não é recomendação simpática; é finalidade expressa de uma norma de conduta.
+
+O referencial técnico da CGU, de dois mil e vinte e cinco, também detalha o papel da alta administração: sinalizar que a integridade é parte da sua identidade profissional, dotar a unidade setorial de recursos e autonomia, reunir-se periodicamente com ela, usar os seus relatos para priorizar melhorias e participar de capacitações.
+
+Mas atenção: exemplo não é só da cúpula. O tom vem do topo, mas a cultura se forma também no meio, com as chefias imediatas, que são quem o servidor vê todos os dias, e entre os pares. Um líder técnico que se recusa a pular a revisão de código mesmo sob pressão dá exemplo para a equipe inteira.
+
+Um exemplo negativo. Num órgão, o diretor de tecnologia pede, por mensagem informal, que um sistema de interesse de uma secretaria aliada seja implantado sem passar pela homologação e sem registro de mudança, "porque o ministro quer para amanhã". A equipe obedece. Na semana seguinte, quando um servidor da ponta pede para pular a homologação por um motivo trivial, como ele pode ser repreendido? A regra já foi desmoralizada pelo exemplo. Note como os temas se conectam: o exemplo da liderança destruiu a coerência entre regra e prática.
+
+Agora, a confiança.
+
+Confiança aparece em dois sentidos neste item.
+
+O primeiro é a confiança da sociedade nas instituições. O Decreto onze mil quinhentos e vinte e nove define o programa de integridade como voltado a prevenir e remediar condutas que impactem a confiança, a credibilidade e a reputação institucional. E a confiabilidade é princípio da governança no Decreto nove mil duzentos e três. Instituições confiáveis reduzem custos para todos: o cidadão colabora mais, cumpre mais as regras, contesta menos as decisões. Quando a confiança cai, tudo fica mais caro e mais lento.
+
+O segundo sentido é a confiança interna: a confiança dos servidores de que a organização é justa, de que os canais funcionam e de que quem age corretamente não será prejudicado. Essa confiança é o que faz alguém usar o canal de orientação em vez de improvisar, ou relatar uma irregularidade em vez de se calar. Ela é construída com coerência, com resposta e com proteção.
+
+E há um terceiro aspecto, que liga confiança e controle. Confiar não significa dispensar controles. A Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, traz a presunção de boa-fé do usuário de serviços públicos, e a legislação de desburocratização caminha no mesmo sentido. Isso significa que o Estado não deve tratar todos como suspeitos. Mas a presunção de boa-fé convive com controles proporcionais e com a responsabilização de quem abusa. Confiança sem controle vira ingenuidade; controle sem confiança vira paralisia. O equilíbrio entre os dois é uma marca de maturidade institucional.
+
+Por fim, a prestação de contas.
+
+A base constitucional está no artigo setenta, parágrafo único, da Constituição: prestará contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos ou pelos quais a União responda, ou que, em nome desta, assuma obrigações de natureza pecuniária. Repare na amplitude: não é só o agente público; é qualquer pessoa, inclusive privada, que lide com recursos públicos.
+
+No Decreto nove mil duzentos e três, o princípio aparece como prestação de contas e responsabilidade, sempre juntos. Prestar contas não é só entregar um relatório. É explicar o que se fez, por que se fez, com quais resultados, e aceitar as consequências. Por isso a prestação de contas depende de duas condições que dialogam com a sua área.
+
+A primeira condição é a motivação das decisões. A Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, no artigo cinquenta, exige que os atos administrativos sejam motivados, com indicação dos fatos e dos fundamentos jurídicos, em várias hipóteses, como quando neguem, limitem ou afetem direitos. Decisão sem motivação não pode ser avaliada nem contestada.
+
+A segunda condição é o registro. Não se presta contas do que não foi registrado. Para quem desenvolve sistemas, isso tem consequências diretas: trilhas de auditoria, registros de acesso, histórico de alterações, versionamento de regras de negócio e documentação das decisões automatizadas. Se um sistema da CGU usa um modelo para priorizar quais municípios serão auditados, a instituição precisa ser capaz de explicar quais critérios foram usados, quem os aprovou e quando mudaram. Um sistema que decide sem deixar rastro é um sistema que impede a prestação de contas.
+
+A prestação de contas também se volta para a própria integridade. Pelo referencial da CGU, a unidade setorial elabora o relatório anual de gestão da integridade, com resultados e autoavaliação de maturidade, e o plano de integridade deve ser publicado em transparência ativa. Ou seja, o órgão presta contas, inclusive, sobre o seu esforço de integridade. E o Plano de Integridade e Combate à Corrupção tem relatórios de monitoramento públicos, acompanhados por um conselho com participação da sociedade.
+
+Os tipos de accountability, horizontal, vertical e social, já vimos no item um ponto um ponto cinco, de valor público e controle, e não vou repetir. Aqui, fixe a ideia de que prestação de contas fecha o ciclo da integridade institucional: as regras dizem o que fazer, a cultura e os incentivos influenciam o que se faz, os canais trazem à tona o que deu errado, e a prestação de contas mostra, para dentro e para fora, o que foi feito e com quais consequências.
+
+E com isso fechamos o bloco de ética e integridade. No próximo item, um ponto quatro ponto um, começamos o bloco de administração pública, com a organização administrativa: administração direta e indireta, descentralização, desconcentração e agentes públicos. Vai ser útil, inclusive, para entender por que o Sitái alcança autarquias e fundações, mas não as estatais.
+
+Recapitulando o bloco cinco. Exemplo: o tom vem do topo; o Decreto nove mil duzentos e três põe a integridade na liderança; o primeiro eixo do programa é o comprometimento da alta administração; o Código de Conduta da Alta Administração Federal tem como finalidade aperfeiçoar padrões éticos a partir do exemplo das autoridades superiores; mas chefias imediatas e pares também formam a cultura. Confiança: da sociedade, protegida pelo programa de integridade e pelo princípio da confiabilidade; interna, que faz os canais funcionarem; presunção de boa-fé convive com controles proporcionais. Prestação de contas: artigo setenta, parágrafo único, da Constituição, para qualquer pessoa que lide com recursos públicos; anda junto com responsabilidade; depende de motivação e de registro; inclui prestar contas da própria integridade.
+
+
+PEGADINHAS CEBRASPE
+
+Vamos reunir as armadilhas deste item.
+
+Pegadinha um: "a gestão da integridade é responsabilidade exclusiva da unidade setorial de integridade". Errado. A unidade coordena, orienta e monitora, mas a integridade é responsabilidade de toda a organização, e os riscos são geridos pelos gestores de cada processo. Desconfie de "exclusiva".
+
+Pegadinha dois: conceito restrito de programa de integridade. "O programa de integridade destina-se exclusivamente à prevenção de fraudes e atos de corrupção." Errado à luz do Decreto onze mil quinhentos e vinte e nove, que inclui irregularidades, desvios éticos e de conduta e violação de direitos. O conceito restrito era o do Decreto nove mil duzentos e três.
+
+Pegadinha três: alcance do Sitái. "O Sitái abrange toda a administração pública federal, inclusive empresas públicas e sociedades de economia mista." Errado. Abrange a administração direta, autárquica e fundacional. Mas cuidado com a troca inversa: a obrigação de manter unidade de ouvidoria ou correição para relatos, do artigo quarto A da Lei treze mil seiscentos e oito, alcança as estatais e todos os entes.
+
+Pegadinha quatro: relação entre a CGU e as unidades setoriais. "As unidades setoriais do Sitái são subordinadas administrativamente à CGU." Errado. A CGU exerce orientação normativa e supervisão técnica, sem prejuízo da subordinação administrativa ao órgão ou entidade de origem.
+
+Pegadinha cinco: quem aprova o plano. "O plano de integridade é aprovado pela própria unidade setorial que o elabora" ou "pela CGU". Errado. A unidade setorial elabora; a autoridade máxima do órgão ou entidade aprova.
+
+Pegadinha seis: quem é a unidade setorial nos ministérios. Na administração direta, são as assessorias especiais de controle interno. Se a banca disser que é a corregedoria ou a ouvidoria, está errado. Corregedoria e ouvidoria exercem funções de integridade, mas não são, por definição do decreto, a unidade setorial na administração direta.
+
+Pegadinha sete: normas revogadas. "O Sistema de Integridade Pública do Poder Executivo Federal, instituído pelo Decreto dez mil setecentos e cinquenta e seis, coordena a gestão da integridade." Desatualizado: revogado pelo Decreto onze mil quinhentos e vinte e nove. E "a Portaria cinquenta e sete, de dois mil e dezenove, disciplina os programas de integridade": revogada pela Portaria Normativa duzentos e trinta e quatro, de dois mil e vinte e cinco.
+
+Pegadinha oito: existência versus efetividade. "A publicação de código de conduta e de plano de integridade assegura a integridade institucional do órgão." Errado. Existência documental não é implementação, e implementação não é efetividade.
+
+Pegadinha nove: orientação versus relato. "Os canais de orientação e de relato se confundem, pois ambos se destinam à apuração de irregularidades." Errado. Orientação é preventiva, para dúvidas sobre como agir; relato comunica fatos possivelmente irregulares. E nenhum dos dois, por si, apura.
+
+Pegadinha dez: comissão de ética só pune. "A comissão de ética tem função exclusivamente punitiva." Errado. Pelo Decreto mil cento e setenta e um, ela é encarregada de orientar e aconselhar sobre a ética profissional, além de conhecer de imputações passíveis de censura.
+
+Pegadinha onze: poucas denúncias. "A redução do número de denúncias recebidas pela ouvidoria demonstra, por si só, o fortalecimento da integridade do órgão." Errado. Pode ser baixa detecção: canal desconhecido, medo ou descrença.
+
+Pegadinha doze: prevenção e punição. "Ao privilegiar ações preventivas, o Decreto nove mil duzentos e três afastou a aplicação de sanções." Errado. O decreto privilegia a prevenção antes de processos sancionadores; não elimina a responsabilização.
+
+Pegadinha treze: prestação de contas só de agentes públicos. Errado. Pelo artigo setenta, parágrafo único, da Constituição, presta contas qualquer pessoa física ou jurídica, pública ou privada, que lide com dinheiros, bens e valores públicos.
+
+Pegadinha catorze: os princípios do Decreto nove mil duzentos e três. São seis: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência. A banca pode incluir um intruso, como eficiência ou economicidade, que são caros à administração, mas não estão nessa lista.
+
+Pegadinha quinze: metas. "Quanto mais metas quantitativas, mais íntegra a organização." Errado. Métricas mal desenhadas geram incentivos perversos; quando a medida vira meta, deixa de ser boa medida.
+
+Dica geral: neste item, a banca troca três coisas. Troca o sujeito, dizendo que a integridade é de uma unidade só. Troca a norma, citando a revogada no lugar da vigente. E troca a forma pela substância, dizendo que ter o documento basta. Pergunte sempre: quem é responsável, qual norma está em vigor, e isso funciona na prática?
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Um. Integridade é atributo também da organização. A ó cê dê é organiza o tema em sistema, cultura e prestação de contas.
+
+Dois. Decreto nove mil duzentos e três: seis princípios, entre eles integridade, confiabilidade e prestação de contas e responsabilidade; liderança com integridade, competência, responsabilidade e motivação; prevenção antes de processos sancionadores; artigo dezenove com os quatro eixos do programa.
+
+Três. Decreto onze mil quinhentos e vinte e nove, de dois mil e vinte e três: Sitái na administração direta, autárquica e fundacional; programa de integridade em sentido amplo; plano elaborado pela unidade setorial e aprovado pela autoridade máxima; CGU órgão central, com supervisão técnica; a é cê ís como unidades setoriais nos ministérios; Sipéf revogado.
+
+Quatro. Portaria Normativa CGU duzentos e trinta e quatro, de dois mil e vinte e cinco: referencial técnico vigente; revogou as portarias de dois mil e dezoito e de dois mil e dezenove; integridade é responsabilidade de toda a organização; relatório anual de gestão da integridade.
+
+Cinco. Coerência: diminuir a distância entre regra e prática; cuidado com regra ignorada, regra inexequível, aplicação seletiva e normalização do desvio; existir, estar implementado e ser efetivo são coisas diferentes.
+
+Seis. Incentivos: pressão, oportunidade e racionalização; métricas viram alvo; segurança psicológica faz os erros aparecerem cedo.
+
+Sete. Canais: orientação é preventiva; relato comunica fatos. Comissão de ética orienta e aconselha. Lei treze mil seiscentos e oito, artigo quarto A: ouvidoria ou correição para relatos de qualquer pessoa. Canal confiável é acessível, seguro, independente, responde, é integrado e gera aprendizado. Poucas denúncias não provam integridade.
+
+Oito. Exemplo, confiança e prestação de contas: tom do topo e exemplo das chefias; confiança externa e interna; presunção de boa-fé com controles proporcionais; prestação de contas para qualquer pessoa que lide com recursos públicos, com motivação e registro.
+
+
+ITENS DE FIXAÇÃO, ESTILO CEBRASPE
+
+Julgue os itens a seguir como certo ou errado. Ouça todos, anote suas respostas, e só depois ouça o gabarito.
+
+Item um. Conforme o Decreto onze mil quinhentos e vinte e nove, de dois mil e vinte e três, o programa de integridade compreende mecanismos de prevenção, detecção e remediação não apenas de práticas de corrupção e fraude, mas também de desvios éticos e de conduta e de violação ou desrespeito a direitos que impactem a confiança, a credibilidade e a reputação institucional.
+
+Item dois. O Sistema de Integridade, Transparência e Acesso à Informação da Administração Pública Federal abrange os órgãos e as entidades da administração pública federal direta e indireta, incluídas as empresas públicas e as sociedades de economia mista.
+
+Item três. As unidades setoriais do Sitái ficam sujeitas à orientação normativa e à supervisão técnica da Controladoria-Geral da União, órgão central do sistema, à qual passam a se subordinar administrativamente.
+
+Item quatro. O plano de integridade é elaborado pela unidade setorial do Sitái e aprovado pela autoridade máxima do órgão ou da entidade.
+
+Item cinco. Um órgão federal publicou código de conduta, aprovou plano de integridade e realizou capacitação inaugural sobre o tema. Nessa situação, a existência desses documentos é suficiente para atestar a efetividade do seu programa de integridade.
+
+Item seis. Em uma coordenação de sistemas, a chefia passou a premiar exclusivamente a quantidade de funcionalidades entregues, o que levou a equipe a dispensar revisões de código e testes de segurança. Essa situação ilustra como um desenho inadequado de incentivos pode fragilizar a integridade institucional, mesmo sem que haja má-fé dos servidores.
+
+Item sete. Segundo o Decreto nove mil duzentos e três, de dois mil e dezessete, a gestão da integridade, por privilegiar ações preventivas, afasta a instauração de processos sancionadores contra os agentes públicos que cometerem desvios.
+
+Item oito. A comissão de ética prevista no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal tem função exclusivamente sancionatória, cabendo a outros órgãos a orientação dos servidores sobre dilemas éticos.
+
+Item nove. Nos termos da Lei treze mil seiscentos e oito, de dois mil e dezoito, as empresas públicas e as sociedades de economia mista também devem manter unidade de ouvidoria ou correição, para assegurar a qualquer pessoa o direito de relatar informações sobre ilícitos administrativos ou ações e omissões lesivas ao interesse público.
+
+Item dez. A redução expressiva do número de denúncias recebidas pela ouvidoria de um órgão, após a reestruturação de sua área de gestão, demonstra, por si só, o fortalecimento da cultura de integridade nesse órgão.
+
+Item onze. São princípios da governança pública previstos no Decreto nove mil duzentos e três, de dois mil e dezessete, entre outros, a integridade, a confiabilidade e a prestação de contas e responsabilidade.
+
+Item doze. O dever de prestar contas, previsto na Constituição Federal, restringe-se aos agentes públicos e às entidades da administração pública, não alcançando pessoas jurídicas de direito privado que administrem recursos públicos.
+
+
+GABARITO COMENTADO
+
+Item um: certo. É o conceito do artigo terceiro, inciso um, do Decreto onze mil quinhentos e vinte e nove, mais amplo que o do antigo artigo dezenove do Decreto nove mil duzentos e três.
+
+Item dois: errado. O Sitái alcança a administração pública federal direta, autárquica e fundacional. As empresas estatais não o integram.
+
+Item três: errado. A primeira parte está correta, mas a supervisão técnica da CGU ocorre sem prejuízo da subordinação administrativa das unidades setoriais ao órgão ou à entidade a que pertencem, conforme o artigo sexto do decreto.
+
+Item quatro: certo. É a definição do artigo terceiro, inciso dois, do Decreto onze mil quinhentos e vinte e nove.
+
+Item cinco: errado. Existência documental não se confunde com implementação nem com efetividade. A efetividade depende de as medidas funcionarem na prática e produzirem resultados, o que exige monitoramento e avaliação.
+
+Item seis: certo. Incentivos mal desenhados geram pressão e racionalizações que levam a atalhos, sem necessidade de má-fé. É um problema institucional, ligado ao ambiente e aos incentivos.
+
+Item sete: errado. O artigo quarto, inciso seis, do decreto manda privilegiar ações estratégicas de prevenção antes de processos sancionadores. Prevenção vem primeiro, mas a responsabilização continua cabível.
+
+Item oito: errado. Pelo item dezesseis da seção três do Decreto mil cento e setenta e um, a comissão de ética é encarregada de orientar e aconselhar sobre a ética profissional do servidor, além de conhecer de imputações passíveis de censura.
+
+Item nove: certo. É o artigo quarto A da Lei treze mil seiscentos e oito, que alcança todos os entes, suas autarquias e fundações, empresas públicas e sociedades de economia mista.
+
+Item dez: errado. A queda de denúncias pode indicar baixa detecção, como desconhecimento do canal, medo de retaliação ou descrença, e não necessariamente menos irregularidades. A expressão "por si só" torna o item errado.
+
+Item onze: certo. O artigo terceiro do decreto lista capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência.
+
+Item doze: errado. Pelo artigo setenta, parágrafo único, da Constituição, presta contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos.
+
+
+ENCERRAMENTO
+
+Chegamos ao fim da aula e do bloco de ética e integridade. Se você guardar uma única ideia, que seja esta: a integridade de uma instituição se mede pelo que ela faz quando a regra incomoda. Regras coerentes com a prática, incentivos que não premiam o atalho, canais em que as pessoas confiam e lideranças que dão o exemplo e prestam contas.
+
+Na próxima aula, item um ponto quatro ponto um, começamos o bloco de administração pública, com a organização administrativa. Até lá, e bons estudos!

@@ -1,0 +1,408 @@
+ROTEIRO DE AUDIOAULA
+CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
+CONHECIMENTOS BÁSICOS. ITEM 1.2.4 DO EDITAL: DIVERSIDADE E ACESSO A DIREITOS.
+SUBITEM 1.2.4.1: Relações étnico-raciais, gênero e sexualidade; pessoas com deficiência; idade; povos indígenas e comunidades tradicionais. Interseccionalidade, acessibilidade e barreiras administrativas e digitais.
+
+
+ABERTURA
+
+Olá. Esta é a audioaula do item um ponto dois ponto quatro do edital da CGU, chamado diversidade e acesso a direitos. Ele tem um único subitem, o um ponto dois ponto quatro ponto um, que se divide em duas frases.
+
+A primeira frase lista grupos e dimensões da diversidade: relações étnico-raciais; gênero e sexualidade; pessoas com deficiência; idade; e povos indígenas e comunidades tradicionais.
+
+A segunda frase lista três conceitos transversais: interseccionalidade, acessibilidade e barreiras administrativas e digitais.
+
+Vamos organizar a aula em quatro blocos. Bloco um: relações étnico-raciais, gênero e sexualidade. Bloco dois: pessoas com deficiência e idade. Bloco três: povos indígenas e comunidades tradicionais. Bloco quatro: interseccionalidade, acessibilidade e barreiras administrativas e digitais. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
+
+Repare no título do item: diversidade e acesso a direitos. O foco não é apenas descrever grupos, mas entender por que pessoas desses grupos, que têm formalmente os mesmos direitos de todos, encontram mais dificuldade para exercê-los, e quais instrumentos jurídicos e institucionais existem para enfrentar essa dificuldade. É uma continuação direta das duas aulas anteriores: a de fundamentos sociológicos, com os conceitos de discriminação e reprodução das desigualdades, e a de formação social, com a distinção entre direito formal e direito efetivo.
+
+Este item tem uma carga normativa grande e atualizada. Há leis recentes, como a nova lei de cotas raciais em concursos públicos, de dois mil e vinte e cinco, e decisões recentes do Supremo Tribunal Federal, como a de dezembro de dois mil e vinte e cinco sobre o marco temporal das terras indígenas. Também há dados novos do Censo de dois mil e vinte e dois sobre cor ou raça, povos indígenas e pessoas com deficiência. Como sempre, confira os dispositivos no texto oficial do Planalto e os dados no site do IBGE.
+
+E, para quem vai trabalhar com tecnologia, este é um dos itens mais diretamente aplicáveis. A segunda frase do subitem, sobre acessibilidade e barreiras digitais, conversa com os conhecimentos específicos do seu cargo, que tratam de acessibilidade, desenho centrado nas pessoas e prevenção de erros no uso dos serviços.
+
+Uma orientação de estratégia. A Cebraspe tende a cobrar, neste item, três coisas: os conceitos legais, como os de pessoa com deficiência, população negra e comunidades tradicionais; os números e regras das leis, como percentuais de cotas e idades; e a interpretação, especialmente sobre o modelo social da deficiência, a autodeclaração e a interseccionalidade. Desconfie de itens que tratem a diferença como problema do indivíduo, e não da relação entre o indivíduo e as barreiras da sociedade.
+
+
+BLOCO UM. RELAÇÕES ÉTNICO-RACIAIS, GÊNERO E SEXUALIDADE.
+
+Relações étnico-raciais.
+
+Comecemos pelos dados do Censo de dois mil e vinte e dois, que trouxe uma mudança histórica. O IBGE pesquisa a cor ou raça com base na autodeclaração, em cinco categorias: branca, preta, parda, amarela e indígena. Pela primeira vez desde mil novecentos e noventa e um, quando o censo passou a usar essas cinco categorias, a maior parte da população se declarou parda.
+
+Os números: pardos, quarenta e cinco vírgula três por cento, cerca de noventa e dois milhões de pessoas; brancos, quarenta e três vírgula cinco por cento; pretos, dez vírgula dois por cento; indígenas, zero vírgula oito por cento, cerca de um milhão e setecentas mil pessoas; e amarelos, zero vírgula quatro por cento. Somando pretos e pardos, que formam a população negra segundo o Estatuto da Igualdade Racial, chega-se a cinquenta e cinco vírgula cinco por cento da população. Em dois mil e dez, essa soma era de cinquenta vírgula sete por cento.
+
+Por que esses números mudaram tanto? O IBGE aponta tanto fatores demográficos quanto mudanças na percepção das pessoas, que têm se reconhecido cada vez mais como pretas e pardas. Isso mostra uma característica importante da classificação racial no Brasil: ela é social e relacional, e não biológica. A raça, nas ciências sociais e no direito, é entendida como uma construção social, isto é, uma categoria criada pela sociedade e que produz efeitos reais, como discriminação e desigualdade, mesmo sem ter fundamento biológico. Item que afirme que a classificação racial usada pelo IBGE se baseia em critérios genéticos está errado.
+
+Da aula de fundamentos sociológicos, você já conhece as definições do Estatuto da Igualdade Racial, de discriminação racial, desigualdade racial, população negra e ações afirmativas, e a legislação penal sobre racismo. Agora vamos às ações afirmativas mais cobradas.
+
+Cotas no ensino superior. A lei de cotas de dois mil e doze reserva vagas nas universidades e institutos federais para estudantes de escolas públicas, com subcotas para pretos, pardos, indígenas, pessoas com deficiência e, após a atualização de dois mil e vinte e três, também quilombolas.
+
+Cotas em concursos públicos. Este é o ponto mais atualizado e mais cobrado para o seu concurso. A Lei quinze mil cento e quarenta e dois, de junho de dois mil e vinte e cinco, reserva às pessoas pretas e pardas, indígenas e quilombolas o percentual de trinta por cento das vagas oferecidas nos concursos públicos para cargos efetivos e empregos públicos na administração pública federal direta, nas autarquias, nas fundações públicas, nas empresas públicas e nas sociedades de economia mista controladas pela União, e também nos processos seletivos simplificados para contratação temporária. Pontos de prova:
+
+A nova lei substituiu e revogou a lei de dois mil e catorze, que reservava vinte por cento das vagas apenas para pretos e pardos. Ou seja, aumentou o percentual de vinte para trinta por cento e incluiu indígenas e quilombolas.
+
+A regulamentação dividiu os trinta por cento em vinte e cinco por cento para pessoas pretas e pardas, três por cento para indígenas e dois por cento para quilombolas.
+
+A reserva se aplica sempre que o número de vagas for igual ou superior a duas.
+
+Os candidatos cotistas concorrem ao mesmo tempo às vagas reservadas e às de ampla concorrência.
+
+O programa deve ser revisado em dez anos.
+
+E os concursos com edital publicado antes da nova lei continuam regidos pela lei anterior.
+
+Pegadinhas: manter o percentual de vinte por cento; dizer que a nova lei se aplica apenas a pretos e pardos; dizer que ela alcança concursos estaduais e municipais. A lei trata da administração pública federal.
+
+E a heteroidentificação. A autodeclaração é o critério de partida, mas o Supremo Tribunal Federal considerou legítima a utilização, de forma complementar, de procedimentos de heteroidentificação, isto é, a verificação da autodeclaração por uma comissão, desde que respeitados a dignidade da pessoa, o contraditório e a ampla defesa. O critério usado nessas comissões é o fenótipo, isto é, as características físicas que fazem a pessoa ser socialmente identificada como negra, e não a ascendência.
+
+Por fim, a educação. Leis de dois mil e três e de dois mil e oito tornaram obrigatório o ensino da história e cultura afro-brasileira e indígena na educação básica. É um exemplo de política de reconhecimento: além de redistribuir oportunidades, busca-se valorizar a contribuição desses grupos na formação do país.
+
+Gênero e sexualidade.
+
+Primeiro, os conceitos, porque é aqui que a banca mais troca palavras.
+
+Sexo, ou sexo atribuído ao nascer: refere-se a características biológicas, como as anatômicas e cromossômicas.
+
+Gênero: refere-se aos papéis, comportamentos, expectativas e significados que a sociedade atribui ao masculino e ao feminino. É uma construção social. A divisão sexual do trabalho, que vimos na aula anterior, é um exemplo de desigualdade de gênero.
+
+Identidade de gênero: a percepção que cada pessoa tem de si como homem, mulher, ambos ou nenhum. Pessoas cisgênero se identificam com o gênero atribuído ao nascer; pessoas transgênero não se identificam com ele.
+
+Orientação sexual: refere-se a por quem a pessoa sente atração afetiva e sexual, como heterossexual, homossexual ou bissexual.
+
+Expressão de gênero: a forma como a pessoa manifesta o gênero, por meio de roupas, comportamentos e aparência.
+
+A pegadinha clássica: tratar identidade de gênero e orientação sexual como sinônimos. São dimensões diferentes. Uma mulher transgênero, por exemplo, pode ser heterossexual, homossexual ou bissexual. Identidade de gênero diz respeito a quem a pessoa é; orientação sexual, a por quem ela sente atração.
+
+Agora, o quadro normativo.
+
+A Constituição estabelece que homens e mulheres são iguais em direitos e obrigações. E, como você viu, admite diferenciações para realizar a igualdade material, como a proteção do mercado de trabalho da mulher.
+
+A Lei Maria da Penha, de dois mil e seis, cria mecanismos para coibir a violência doméstica e familiar contra a mulher, entendida como a violência baseada no gênero. Ela prevê cinco formas de violência, que são muito cobradas: física, psicológica, sexual, patrimonial e moral. Pegadinha: dizer que a lei só alcança a violência física. E outra: dizer que ela só se aplica quando o agressor é marido ou companheiro. A lei alcança a violência praticada no âmbito da unidade doméstica, da família ou de qualquer relação íntima de afeto, independentemente de coabitação.
+
+Mais recentemente, uma lei de dois mil e vinte e três tratou da igualdade salarial e de critérios remuneratórios entre mulheres e homens, com obrigações de transparência salarial para empresas, e uma lei de dois mil e vinte e quatro transformou o feminicídio em crime autônomo, com penas mais altas.
+
+No campo da diversidade sexual e de gênero, grande parte dos avanços veio do Judiciário.
+
+Em dois mil e onze, o Supremo Tribunal Federal reconheceu a união estável entre pessoas do mesmo sexo como entidade familiar.
+
+Em dois mil e treze, o Conselho Nacional de Justiça proibiu os cartórios de se recusarem a celebrar o casamento civil entre pessoas do mesmo sexo.
+
+Em dois mil e dezoito, o Supremo reconheceu o direito das pessoas transgênero de alterar o prenome e o gênero no registro civil diretamente em cartório, sem necessidade de cirurgia, de laudo médico ou de autorização judicial, com base na autodeclaração.
+
+Em dois mil e dezenove, como você viu, o Supremo enquadrou a homofobia e a transfobia nos crimes da Lei do Crime Racial.
+
+E, na administração pública federal, um decreto de dois mil e dezesseis assegura o uso do nome social pelas pessoas travestis e transexuais, isto é, o nome pelo qual a pessoa se identifica e é socialmente reconhecida.
+
+Pegadinhas: dizer que o casamento entre pessoas do mesmo sexo foi instituído por lei aprovada pelo Congresso. Foi reconhecido por decisões do Judiciário e por resolução do CNJ. Dizer que a alteração de nome de pessoa trans exige cirurgia ou decisão judicial. Desde dois mil e dezoito, não exige.
+
+Para o setor público, a conexão prática: sistemas e formulários que exigem apenas sexo biológico, que não permitem nome social ou que tratam campos como fixos podem constituir barreiras e gerar situações de constrangimento no acesso a serviços. É um exemplo de barreira administrativa e digital, que veremos no bloco quatro.
+
+Resumo do bloco um. Pelo Censo de dois mil e vinte e dois, pardos são o maior grupo, com quarenta e cinco vírgula três por cento, e pretos e pardos somam cinquenta e cinco vírgula cinco por cento. A classificação é por autodeclaração e a raça é uma construção social. A Lei quinze mil cento e quarenta e dois reserva trinta por cento das vagas dos concursos federais para pretos, pardos, indígenas e quilombolas, revogando a lei de dois mil e catorze. Sexo, gênero, identidade de gênero e orientação sexual são conceitos distintos. A Lei Maria da Penha prevê cinco formas de violência. E os direitos da população LGBTQIA+ avançaram sobretudo por decisões judiciais.
+
+
+BLOCO DOIS. PESSOAS COM DEFICIÊNCIA E IDADE.
+
+Pessoas com deficiência.
+
+O marco normativo central é a Convenção sobre os Direitos das Pessoas com Deficiência, da ONU, e a Lei Brasileira de Inclusão, também chamada de Estatuto da Pessoa com Deficiência, de dois mil e quinze.
+
+Sobre a Convenção, um ponto que você já conhece: ela foi aprovada pelo Congresso pelo rito especial do parágrafo terceiro do artigo quinto da Constituição, em dois turnos, por três quintos dos votos, em cada Casa, e por isso tem status equivalente ao de emenda constitucional. Foi o primeiro tratado de direitos humanos a obter esse status.
+
+Agora, o conceito mais importante de todo o bloco. A Lei Brasileira de Inclusão define pessoa com deficiência como aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.
+
+Repare na estrutura da definição. Ela tem dois elementos: o impedimento, que está na pessoa, e as barreiras, que estão na sociedade. A deficiência resulta da interação entre os dois. Isso é o que se chama de modelo social, ou biopsicossocial, da deficiência.
+
+O modelo social se opõe ao modelo médico, que via a deficiência como uma doença ou um defeito do indivíduo, a ser tratado, corrigido ou compensado. No modelo médico, o problema está na pessoa. No modelo social, o problema está, em grande parte, na sociedade, que não oferece as condições para a participação de todos. Uma pessoa que usa cadeira de rodas não está impedida de entrar em um prédio por causa da cadeira, mas por causa da escada sem rampa.
+
+Esta é a pegadinha central do bloco: dizer que, para a Lei Brasileira de Inclusão, a deficiência é um atributo exclusivamente médico do indivíduo, independentemente das barreiras sociais. Errado. A lei adota o modelo social.
+
+E a avaliação da deficiência, quando necessária, deve ser biopsicossocial, realizada por equipe multiprofissional e interdisciplinar, considerando os impedimentos, os fatores socioambientais, psicológicos e pessoais, a limitação no desempenho de atividades e a restrição de participação.
+
+A lei também define vários conceitos que você deve dominar.
+
+Barreiras: qualquer entrave, obstáculo, atitude ou comportamento que limite ou impeça a participação social da pessoa, o exercício de seus direitos, o acesso à informação, à comunicação e à circulação com segurança. A lei classifica as barreiras em seis tipos: urbanísticas, nas vias e espaços públicos; arquitetônicas, nos edifícios; nos transportes; nas comunicações e na informação; atitudinais, que são atitudes ou comportamentos que impedem ou prejudicam a participação; e tecnológicas, que dificultam ou impedem o acesso às tecnologias. Repare que as barreiras atitudinais e as tecnológicas estão na lista: o preconceito e a tecnologia inacessível também deficientam.
+
+Acessibilidade: a possibilidade e a condição de alcance para utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos, transportes, informação e comunicação, inclusive sistemas e tecnologias, e serviços, por pessoa com deficiência ou com mobilidade reduzida.
+
+Desenho universal: a concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico. É a ideia de projetar, desde o início, para todos. Uma rampa bem projetada serve à pessoa em cadeira de rodas, ao idoso, a quem empurra um carrinho de bebê e a quem carrega uma mala.
+
+Tecnologia assistiva, ou ajuda técnica: produtos, equipamentos, dispositivos, recursos, metodologias, estratégias, práticas e serviços que promovam a funcionalidade e a autonomia da pessoa com deficiência. Um leitor de tela é um exemplo.
+
+Adaptação razoável: adaptações, modificações e ajustes necessários e adequados que não acarretem ônus desproporcional e indevido, quando requeridos em cada caso, para assegurar que a pessoa com deficiência possa exercer os seus direitos em igualdade de condições. A diferença em relação ao desenho universal: o desenho universal é geral e prévio; a adaptação razoável é individual e responde a um caso concreto.
+
+E um ponto de prova importante: a lei considera discriminação em razão da deficiência toda forma de distinção, restrição ou exclusão que tenha o propósito ou o efeito de prejudicar o exercício de direitos, incluindo a recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas. Ou seja, deixar de fazer uma adaptação razoável é discriminar.
+
+Outro ponto muito cobrado: a Lei Brasileira de Inclusão afirma que a deficiência não afeta a plena capacidade civil da pessoa, inclusive para casar, constituir união estável, exercer direitos sexuais e reprodutivos, exercer o direito à família e à guarda dos filhos. Isso alterou o Código Civil, que antes tratava certas deficiências como causa de incapacidade.
+
+Agora, os dados. O Censo de dois mil e vinte e dois identificou cerca de catorze milhões e quatrocentas mil pessoas com deficiência, o que corresponde a sete vírgula três por cento da população com dois anos ou mais de idade. As mulheres eram a maioria: oito milhões e trezentas mil. A dificuldade mais comum era a de enxergar. E a desigualdade aparece claramente: a taxa de analfabetismo das pessoas com deficiência de quinze anos ou mais era de vinte e um vírgula três por cento, contra cerca de cinco por cento entre as pessoas sem deficiência. A proporção de pessoas com deficiência cresce muito com a idade: entre as pessoas de setenta anos ou mais, mais de um quarto tinha deficiência.
+
+Atenção a uma pegadinha de leitura de dados. O Censo de dois mil e dez tinha registrado um número muito maior de pessoas com deficiência, mais de quarenta e cinco milhões. Isso não significa que o número de pessoas com deficiência caiu pela metade. O IBGE mudou a metodologia, adotando o padrão internacional do chamado Grupo de Washington, que considera com deficiência apenas quem não consegue de modo algum ou tem muita dificuldade em realizar determinadas atividades. Por isso, o próprio IBGE afirma que os números não são comparáveis. Lembre do bloco de evidências do edital: comparações exigem a mesma definição.
+
+E a reserva de vagas em concursos: a lei dos servidores federais assegura às pessoas com deficiência a reserva de até vinte por cento das vagas, e a regulamentação fixa um mínimo de cinco por cento.
+
+Idade.
+
+A idade é uma dimensão da diversidade que afeta o acesso a direitos nas duas pontas da vida.
+
+Crianças e adolescentes. A Constituição estabelece que é dever da família, da sociedade e do Estado assegurar à criança, ao adolescente e ao jovem, com absoluta prioridade, os seus direitos. O Estatuto da Criança e do Adolescente, de mil novecentos e noventa, considera criança a pessoa até doze anos de idade incompletos, e adolescente a pessoa entre doze e dezoito anos. E adota a doutrina da proteção integral: crianças e adolescentes são sujeitos de direitos, e não objetos de tutela.
+
+Jovens. O Estatuto da Juventude, de dois mil e treze, considera jovens as pessoas com idade entre quinze e vinte e nove anos. Repare que há uma sobreposição: uma pessoa de dezesseis anos é, ao mesmo tempo, adolescente, pelo Estatuto da Criança e do Adolescente, e jovem, pelo Estatuto da Juventude.
+
+Pessoas idosas. Como você viu na aula anterior, o Estatuto da Pessoa Idosa considera pessoa idosa quem tem idade igual ou superior a sessenta anos. O Estatuto assegura prioridade no atendimento e nas políticas públicas, e, dentre as pessoas idosas, uma prioridade especial às maiores de oitenta anos. A Constituição também estabelece que a família, a sociedade e o Estado têm o dever de amparar as pessoas idosas.
+
+Pegadinhas sobre idade: dizer que a pessoa idosa é a de sessenta e cinco anos para o Estatuto; dizer que criança é a pessoa até catorze anos; e dizer que a prioridade especial vale a partir dos setenta anos. Guarde: criança até doze incompletos; adolescente de doze a dezoito; jovem de quinze a vinte e nove; pessoa idosa a partir de sessenta; prioridade especial acima de oitenta.
+
+E um conceito cada vez mais discutido: o etarismo, ou idadismo, que é o preconceito e a discriminação com base na idade. Ele aparece, por exemplo, na dificuldade de pessoas mais velhas conseguirem emprego, na desvalorização de sua opinião, e na exclusão digital, quando serviços são desenhados apenas para quem tem familiaridade com tecnologia.
+
+Resumo do bloco dois. A Lei Brasileira de Inclusão adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras. As barreiras são urbanísticas, arquitetônicas, nos transportes, nas comunicações e na informação, atitudinais e tecnológicas. Acessibilidade, desenho universal, tecnologia assistiva e adaptação razoável são conceitos distintos, e a recusa de adaptação razoável é discriminação. A deficiência não afeta a capacidade civil. O Censo de dois mil e vinte e dois registrou catorze vírgula quatro milhões de pessoas com deficiência, números não comparáveis com dois mil e dez. E, quanto à idade: criança até doze anos incompletos, adolescente de doze a dezoito, jovem de quinze a vinte e nove, pessoa idosa a partir de sessenta, com prioridade especial acima de oitenta.
+
+
+BLOCO TRÊS. POVOS INDÍGENAS E COMUNIDADES TRADICIONAIS.
+
+Povos indígenas.
+
+Comecemos pelos dados. O Censo de dois mil e vinte e dois contou cerca de um milhão e setecentas mil pessoas indígenas, zero vírgula oito por cento da população. Um detalhe metodológico importante: esse número inclui as pessoas que se declararam indígenas no quesito de cor ou raça e também as que, morando em terras indígenas e em outras localidades indígenas, se declararam de outra cor ou raça, mas se consideram indígenas, respondendo a uma pergunta adicional. Só pelo quesito de cor ou raça, os indígenas seriam cerca de zero vírgula seis por cento. Roraima é o estado com a maior proporção de indígenas. O Brasil tem centenas de povos indígenas e um grande número de línguas indígenas.
+
+Agora, o quadro constitucional. A Constituição de mil novecentos e oitenta e oito tem um capítulo dedicado aos índios, como diz o texto, nos artigos duzentos e trinta e um e duzentos e trinta e dois. Ela representou uma ruptura com o modelo anterior, que tinha como objetivo integrar os indígenas à comunhão nacional, o que, na prática, significava a sua assimilação e o desaparecimento das suas culturas. A Constituição passou a reconhecer o direito à diferença.
+
+O artigo duzentos e trinta e um estabelece que são reconhecidos aos índios a sua organização social, costumes, línguas, crenças e tradições, e os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar todos os seus bens.
+
+Os pontos de prova:
+
+Direitos originários: a palavra originários indica que o direito dos indígenas às terras é anterior ao próprio Estado e não depende de um título concedido por ele. A demarcação não cria o direito; apenas o reconhece e o declara. É a chamada teoria do indigenato.
+
+Quem demarca: a União.
+
+De quem são as terras: as terras tradicionalmente ocupadas pelos índios são bens da União. Mas os indígenas têm a posse permanente e o usufruto exclusivo das riquezas do solo, dos rios e dos lagos nelas existentes.
+
+Proteção: essas terras são inalienáveis e indisponíveis, e os direitos sobre elas são imprescritíveis.
+
+Pegadinhas: dizer que as terras indígenas são de propriedade dos próprios indígenas. São bens da União, com posse permanente e usufruto exclusivo dos indígenas. Dizer que a demarcação compete aos Estados. Compete à União. E dizer que o direito à terra surge com a demarcação. O direito é originário; a demarcação é declaratória.
+
+O artigo duzentos e trinta e dois acrescenta que os índios, suas comunidades e organizações são partes legítimas para ingressar em juízo em defesa de seus direitos e interesses, com a intervenção do Ministério Público.
+
+Agora, o tema mais atual e mais disputado: o marco temporal.
+
+A tese do marco temporal sustenta que os povos indígenas só teriam direito às terras que estivessem ocupando na data da promulgação da Constituição, cinco de outubro de mil novecentos e oitenta e oito, salvo se comprovado que tinham sido expulsos e mantinham a disputa pela terra naquela data, o chamado renitente esbulho.
+
+A linha do tempo, que você deve conhecer:
+
+Em setembro de dois mil e vinte e três, o Supremo Tribunal Federal, em julgamento com repercussão geral, afastou a tese do marco temporal, considerando-a incompatível com a Constituição.
+
+Logo depois, ainda em dois mil e vinte e três, o Congresso Nacional aprovou a Lei quatorze mil setecentos e um, que restabeleceu o marco temporal, limitando a ocupação tradicional à presença nas terras em cinco de outubro de mil novecentos e oitenta e oito.
+
+Em dezembro de dois mil e vinte e cinco, o Supremo julgou em conjunto uma ação declaratória de constitucionalidade e três ações diretas de inconstitucionalidade sobre essa lei e, por dez votos a um, declarou novamente inconstitucional o marco temporal, assim como as exigências ligadas ao renitente esbulho previstas na lei. Outros dispositivos da lei foram mantidos. O acórdão foi publicado em dois mil e vinte e seis.
+
+Paralelamente, o Senado aprovou uma proposta de emenda à Constituição para inserir o marco temporal no texto constitucional. O debate, portanto, continua no plano político.
+
+Pegadinha: dizer que o Supremo validou o marco temporal ao julgar a lei de dois mil e vinte e três. Errado: declarou-o inconstitucional. E cuidado com a pegadinha de abrangência: o Supremo não declarou inconstitucional a lei inteira, mas os dispositivos ligados ao marco temporal e a alguns outros pontos.
+
+Agora, a norma internacional mais importante para os povos indígenas e tribais: a Convenção cento e sessenta e nove da Organização Internacional do Trabalho, a OIT, incorporada ao direito brasileiro. Dois pontos são essenciais.
+
+Primeiro: a autoidentificação. A Convenção estabelece que a consciência da própria identidade indígena ou tribal deve ser considerada como critério fundamental para determinar os grupos aos quais ela se aplica. Ou seja, não é o Estado quem decide, de fora, quem é indígena; o critério fundamental é a autoidentificação. É a mesma lógica que o IBGE usa no Censo.
+
+Segundo: a consulta prévia, livre e informada. Os governos devem consultar os povos interessados, por meio de procedimentos apropriados e de suas instituições representativas, sempre que forem previstas medidas legislativas ou administrativas que possam afetá-los diretamente. A consulta deve ser prévia, isto é, antes da decisão; livre, sem coerção; e informada, com acesso a todas as informações relevantes. E deve ser feita de boa-fé, com o objetivo de chegar a um acordo.
+
+Pegadinha: dizer que a consulta pode ser feita depois de tomada a decisão, ou que ela se confunde com uma simples audiência pública aberta a todos. A consulta é prévia e dirigida aos povos afetados, por meio de suas instituições representativas.
+
+Comunidades tradicionais.
+
+O conceito de povos e comunidades tradicionais está definido em um decreto de dois mil e sete, que instituiu a política nacional sobre o tema. Eles são grupos culturalmente diferenciados e que se reconhecem como tais, que possuem formas próprias de organização social, que ocupam e usam territórios e recursos naturais como condição para a sua reprodução cultural, social, religiosa, ancestral e econômica, utilizando conhecimentos, inovações e práticas gerados e transmitidos pela tradição.
+
+Repare nos três elementos: diferença cultural e autorreconhecimento; organização social própria; e relação com o território e os recursos naturais como condição de reprodução. Exemplos: comunidades quilombolas, povos de terreiro e de matriz africana, ribeirinhos, extrativistas, como os seringueiros e as quebradeiras de coco babaçu, caiçaras, pescadores artesanais, ciganos, entre outros.
+
+Os quilombolas merecem destaque. O Ato das Disposições Constitucionais Transitórias, no artigo sessenta e oito, estabelece que aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, devendo o Estado emitir-lhes os títulos respectivos. Repare na diferença em relação aos indígenas: para os quilombolas, a Constituição fala em propriedade definitiva, e não em bem da União com posse permanente. O Censo de dois mil e vinte e dois foi o primeiro a contar especificamente a população quilombola.
+
+Por que o território é tão central para esses grupos? Porque, para eles, a terra não é apenas um bem econômico, mas a base da sua identidade, da sua cultura, da sua religiosidade e do seu modo de vida. Por isso, a violação do direito ao território é também uma violação do direito à diferença e à existência como grupo.
+
+E o acesso a direitos? Povos indígenas e comunidades tradicionais enfrentam barreiras específicas: distância e isolamento geográfico; barreiras linguísticas, quando os serviços só são oferecidos em português; exigências documentais incompatíveis com seus modos de vida; desconhecimento de suas especificidades culturais pelos servidores; e conflitos territoriais e violência. Políticas públicas adequadas exigem atenção diferenciada, como a existência de um subsistema de saúde indígena, a educação escolar indígena bilíngue e intercultural e a participação desses povos nas decisões que os afetam.
+
+Resumo do bloco três. O Censo de dois mil e vinte e dois contou cerca de um milhão e setecentos mil indígenas. A Constituição reconhece aos índios organização social, costumes, línguas, crenças, tradições e direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las; as terras são bens da União, com posse permanente e usufruto exclusivo indígena. O Supremo afastou o marco temporal em dois mil e vinte e três e, em dezembro de dois mil e vinte e cinco, declarou inconstitucional o marco temporal da Lei quatorze mil setecentos e um. A Convenção cento e sessenta e nove da OIT estabelece a autoidentificação como critério fundamental e a consulta prévia, livre e informada. Comunidades tradicionais são grupos culturalmente diferenciados que se reconhecem como tais e dependem do território; aos quilombolas, a Constituição reconhece a propriedade definitiva.
+
+
+BLOCO QUATRO. INTERSECCIONALIDADE, ACESSIBILIDADE E BARREIRAS ADMINISTRATIVAS E DIGITAIS.
+
+Interseccionalidade.
+
+O termo foi formulado pela jurista norte-americana Kimberlé Crenshaw, no final dos anos mil novecentos e oitenta. Ela analisou casos em que mulheres negras eram discriminadas no mercado de trabalho, mas os tribunais não reconheciam a discriminação: as empresas mostravam que contratavam negros, que eram homens, e que contratavam mulheres, que eram brancas. A discriminação específica contra mulheres negras ficava invisível, porque não era só racial nem só de gênero, mas resultava da combinação das duas.
+
+Daí o conceito: interseccionalidade é a forma como diferentes eixos de desigualdade e discriminação, como raça, gênero, classe, deficiência, idade, orientação sexual e território, se cruzam e interagem, produzindo experiências e situações de desvantagem específicas, que não podem ser compreendidas olhando cada eixo isoladamente.
+
+No Brasil, pensadoras como Lélia Gonzalez e Sueli Carneiro já discutiam, antes e paralelamente, a situação específica das mulheres negras. E você viu que o Estatuto da Igualdade Racial define a desigualdade de gênero e raça como a assimetria que acentua a distância social entre mulheres negras e os demais segmentos da sociedade.
+
+A pegadinha central: dizer que a interseccionalidade é a simples soma aritmética de discriminações independentes. Não é. A ideia é que os eixos interagem e produzem algo novo. A experiência de uma mulher negra não é a experiência de uma mulher branca mais a experiência de um homem negro; é uma experiência própria, com formas específicas de discriminação.
+
+Para as políticas públicas e para o controle, a interseccionalidade tem consequências práticas. Dados desagregados apenas por sexo ou apenas por raça podem esconder as situações mais graves. Uma política pode melhorar os indicadores das mulheres em geral e dos negros em geral, e ainda assim deixar as mulheres negras para trás. Por isso, avaliar políticas exige cruzar as variáveis. Lembre também que a Política Nacional de Cuidados, que você viu na aula anterior, manda considerar as múltiplas desigualdades para definir o seu público prioritário.
+
+Acessibilidade.
+
+Você já conhece a definição da Lei Brasileira de Inclusão. Agora, vamos ampliar o olhar. Acessibilidade não diz respeito apenas a pessoas com deficiência e a rampas. É um princípio que alcança espaços físicos, transportes, informação, comunicação, sistemas e tecnologias, e serviços. E a lei deixa claro que os sistemas e tecnologias estão incluídos.
+
+No campo da comunicação, a Língua Brasileira de Sinais, a Libras, foi reconhecida por lei como meio legal de comunicação e expressão. E, nos serviços públicos, cresce a importância da linguagem simples, isto é, a comunicação clara, direta e compreensível para o público em geral.
+
+No campo digital, a Lei Brasileira de Inclusão determina que é obrigatória a acessibilidade nos sítios da internet mantidos por empresas com sede ou representação comercial no país ou por órgãos de governo, para uso da pessoa com deficiência, garantindo o acesso às informações disponíveis, conforme as melhores práticas e diretrizes de acessibilidade adotadas internacionalmente. No governo federal, há um modelo de acessibilidade em governo eletrônico, o eMAG, alinhado às diretrizes internacionais, como as WCAG, as diretrizes de acessibilidade para conteúdo da web.
+
+O que isso significa na prática, para quem desenvolve sistemas? Alguns exemplos: imagens com texto alternativo, para leitores de tela; possibilidade de navegação por teclado; contraste adequado de cores; textos que possam ser ampliados sem perda de conteúdo; formulários com rótulos claros e mensagens de erro compreensíveis; vídeos com legendas e, quando cabível, janela de Libras; e não depender apenas de cor para transmitir informação. E, de modo mais amplo, o desenho centrado nas pessoas e a validação com usuários reais, incluindo pessoas com deficiência e pessoas idosas, que o edital cobra nos conhecimentos específicos.
+
+Barreiras administrativas e digitais.
+
+Você conheceu as barreiras administrativas nas aulas sobre burocracia e sobre formação social: os custos de aprendizagem, de conformidade e psicológicos que as pessoas enfrentam para acessar direitos, e a diferença entre direito formal e direito efetivo. Agora, vamos olhar para essas barreiras sob a ótica da diversidade.
+
+O ponto central é que as barreiras não pesam igualmente sobre todos. Uma mesma exigência pode ser trivial para uma pessoa e intransponível para outra. Alguns exemplos, ligados a cada grupo desta aula:
+
+Para pessoas com deficiência: atendimento em prédio sem acessibilidade; formulários e sites incompatíveis com leitores de tela; ausência de intérprete de Libras.
+
+Para pessoas idosas: serviços exclusivamente digitais; filas longas; linguagem técnica.
+
+Para pessoas trans: sistemas que não aceitam o nome social; exigência de documentos que não correspondem à identidade de gênero.
+
+Para povos indígenas e comunidades tradicionais: serviços apenas em português; distâncias enormes; exigências documentais incompatíveis com seus modos de vida.
+
+Para mulheres vítimas de violência: atendimento que não garante privacidade ou que expõe a vítima.
+
+Para a população pobre e negra das periferias: custo de deslocamento, falta de documentos, e discricionariedade que pode reproduzir preconceitos.
+
+Agora, especificamente, as barreiras digitais. A digitalização dos serviços públicos traz ganhos enormes: reduz custos, filas e deslocamentos, e aproxima o Estado de quem tem acesso. Mas também pode criar uma nova forma de exclusão. A exclusão digital tem várias dimensões, e não apenas a falta de conexão:
+
+Acesso: ter ou não ter conexão à internet de qualidade.
+
+Equipamento: ter apenas um celular simples, compartilhado com a família, em vez de um computador.
+
+Habilidade: saber ou não navegar, preencher formulários, lidar com senhas e autenticação.
+
+Acessibilidade: o sistema ser ou não utilizável por pessoas com deficiência.
+
+Linguagem: o sistema ser ou não compreensível para quem tem baixa escolaridade ou fala outra língua.
+
+E custo: o pacote de dados limitado, que acaba no meio do mês.
+
+Essas dimensões se combinam com as desigualdades que você estudou: as pessoas mais idosas, as mais pobres, as que vivem em áreas rurais, as com menor escolaridade e as com deficiência tendem a enfrentar mais barreiras digitais. É um exemplo claro de interseccionalidade e de discriminação indireta: uma regra aparentemente neutra, como fazer o pedido pelo aplicativo, produz efeitos desproporcionais sobre determinados grupos.
+
+A resposta adequada não é abandonar a digitalização, mas desenhá-la com inclusão: sistemas acessíveis e simples; linguagem clara; manutenção de canais alternativos, como o atendimento presencial e telefônico, para quem precisa; possibilidade de atendimento assistido; e avaliação com usuários diversos. A legislação sobre os direitos dos usuários de serviços públicos e sobre governo digital vai nessa direção, e o edital retoma o tema no item sobre serviços e transformação digital.
+
+E, por fim, uma barreira mais nova: a dos sistemas automatizados e da inteligência artificial. Quando decisões ou triagens são automatizadas, critérios aparentemente neutros podem reproduzir desigualdades presentes nos dados históricos, como você viu na aula de sociologia. Um sistema que nega automaticamente um pedido por um dado inconsistente pode afetar desproporcionalmente quem tem registros mais irregulares, como trabalhadores informais, pessoas trans ou comunidades tradicionais. Por isso, a supervisão humana, a transparência dos critérios e a possibilidade de contestação são garantias importantes, que o edital volta a tratar no bloco de evidências e inteligência artificial.
+
+Resumo do bloco quatro. A interseccionalidade, formulada por Kimberlé Crenshaw, mostra que os eixos de desigualdade se cruzam e interagem, produzindo situações específicas, e não uma simples soma; por isso, a análise de dados e de políticas deve cruzar variáveis. A acessibilidade alcança espaços, transportes, informação, comunicação, sistemas, tecnologias e serviços, e a acessibilidade dos sites de órgãos de governo é obrigatória. As barreiras administrativas pesam de forma desigual sobre os diferentes grupos. A exclusão digital tem dimensões de acesso, equipamento, habilidade, acessibilidade, linguagem e custo. E a digitalização inclusiva exige sistemas acessíveis, linguagem simples, canais alternativos e supervisão humana sobre decisões automatizadas.
+
+
+COMO A CEBRASPE PODE COBRAR ESTE ITEM
+
+Primeira estratégia: troca de conceitos vizinhos. Sexo, gênero, identidade de gênero e orientação sexual. Modelo médico e modelo social. Desenho universal e adaptação razoável. Acessibilidade e tecnologia assistiva. Interseccionalidade e soma de discriminações.
+
+Segunda estratégia: números e idades. Trinta por cento nas cotas de concursos federais, com vinte e cinco, três e dois. Vinte por cento até e cinco por cento no mínimo para pessoas com deficiência. Criança até doze anos incompletos. Jovem de quinze a vinte e nove. Pessoa idosa a partir de sessenta. Prioridade especial acima de oitenta. Censo: pardos quarenta e cinco vírgula três por cento; pretos e pardos cinquenta e cinco vírgula cinco por cento; pessoas com deficiência sete vírgula três por cento.
+
+Terceira estratégia: competências e titularidades. Terras indígenas como bens da União, demarcadas pela União, com posse permanente e usufruto exclusivo dos indígenas. Quilombolas com propriedade definitiva.
+
+Quarta estratégia: atualidade. A lei de cotas de dois mil e catorze revogada. O marco temporal declarado inconstitucional duas vezes pelo Supremo. Alteração de nome de pessoa trans sem cirurgia nem decisão judicial.
+
+Quinta estratégia: critério de identificação. Autodeclaração e autoidentificação como critérios fundamentais, com heteroidentificação complementar nas cotas, pelo fenótipo.
+
+Sexta estratégia: leitura de dados. Números de pessoas com deficiência de dois mil e dez e dois mil e vinte e dois não são comparáveis. Indígenas pelo quesito de cor ou raça versus total.
+
+Sétima estratégia: situação hipotética. Pergunte. A barreira está na pessoa ou no ambiente? A regra é neutra no texto, mas desproporcional nos efeitos? A consulta foi prévia? Há canal alternativo para quem não usa o digital? Os dados cruzam as variáveis?
+
+
+QUESTÕES DE FIXAÇÃO
+
+Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
+
+Questão um.
+Segundo o Censo Demográfico de dois mil e vinte e dois, a população que se autodeclarou parda passou a constituir o maior grupo de cor ou raça do país, e a soma das pessoas autodeclaradas pretas e pardas ultrapassou a metade da população.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: pardos são quarenta e cinco vírgula três por cento, o maior grupo pela primeira vez desde mil novecentos e noventa e um, e pretos e pardos somam cinquenta e cinco vírgula cinco por cento.
+
+Questão dois.
+A lei de dois mil e vinte e cinco que trata da reserva de vagas em concursos públicos federais reserva às pessoas pretas e pardas, indígenas e quilombolas o percentual de trinta por cento das vagas, tendo revogado a lei anterior, que reservava vinte por cento das vagas apenas para pessoas pretas e pardas.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a Lei quinze mil cento e quarenta e dois ampliou o percentual e incluiu indígenas e quilombolas. A regulamentação dividiu a reserva em vinte e cinco, três e dois por cento.
+
+Questão três.
+Identidade de gênero e orientação sexual são expressões sinônimas, ambas referentes à atração afetiva e sexual que uma pessoa sente por outras.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: identidade de gênero diz respeito a como a pessoa se percebe, como homem, mulher, ambos ou nenhum; orientação sexual diz respeito a por quem ela sente atração. São dimensões independentes.
+
+Questão quatro.
+De acordo com a Lei Brasileira de Inclusão, a deficiência constitui atributo exclusivamente médico do indivíduo, devendo ser aferida apenas a partir do diagnóstico clínico, independentemente das barreiras presentes no ambiente.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a lei adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras, e a avaliação, quando necessária, é biopsicossocial e multiprofissional.
+
+Questão cinco.
+Nos termos da Lei Brasileira de Inclusão, a recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas configura discriminação em razão da deficiência.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: a discriminação inclui não só a exclusão ativa, mas também a recusa das adaptações e tecnologias necessárias, desde que não impliquem ônus desproporcional e indevido.
+
+Questão seis.
+A comparação entre o número de pessoas com deficiência registrado no Censo de dois mil e dez, superior a quarenta e cinco milhões, e o registrado no Censo de dois mil e vinte e dois, de cerca de catorze milhões, demonstra que a população com deficiência no país diminuiu significativamente no período.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o IBGE mudou a metodologia, adotando o padrão internacional que considera apenas quem não consegue de modo algum ou tem muita dificuldade em realizar certas atividades. Os números não são comparáveis.
+
+Questão sete.
+Para os fins do Estatuto da Pessoa Idosa, considera-se pessoa idosa aquela com idade igual ou superior a sessenta e cinco anos, assegurando-se prioridade especial às pessoas com mais de setenta anos.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: o Estatuto considera pessoa idosa quem tem sessenta anos ou mais, e a prioridade especial é assegurada às maiores de oitenta anos. A idade de sessenta e cinco anos é referência de alguns indicadores do IBGE.
+
+Questão oito.
+A Constituição Federal reconhece aos índios os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar todos os seus bens.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é o artigo duzentos e trinta e um. O direito é originário, anterior ao Estado, e a demarcação é declaratória. As terras são bens da União, com posse permanente e usufruto exclusivo dos indígenas.
+
+Questão nove.
+Ao julgar, em dezembro de dois mil e vinte e cinco, as ações relativas à lei de dois mil e vinte e três que tratou da demarcação de terras indígenas, o Supremo Tribunal Federal declarou constitucional a tese do marco temporal, superando o entendimento que havia adotado em dois mil e vinte e três.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: por dez votos a um, o Supremo declarou novamente inconstitucional o marco temporal, reafirmando o entendimento de dois mil e vinte e três. Outros dispositivos da lei foram mantidos.
+
+Questão dez.
+A Convenção cento e sessenta e nove da Organização Internacional do Trabalho estabelece a consciência da própria identidade indígena ou tribal como critério fundamental para identificar os povos a que se aplica e prevê o dever de consulta prévia, livre e informada a esses povos sobre medidas legislativas ou administrativas que possam afetá-los diretamente.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: autoidentificação e consulta prévia, livre e informada são os dois pilares mais cobrados da Convenção. A consulta deve ocorrer antes da decisão, por meio das instituições representativas dos povos.
+
+Questão onze.
+O conceito de interseccionalidade designa a soma aritmética das discriminações sofridas por uma pessoa em razão de cada uma de suas características, analisadas de forma independente umas das outras.
+Pense. Certo ou errado?
+Gabarito: errado.
+Comentário: a interseccionalidade, formulada por Kimberlé Crenshaw, enfatiza que os eixos de desigualdade interagem e produzem situações específicas de desvantagem, que não se reduzem à soma de discriminações isoladas.
+
+Questão doze.
+A oferta de um serviço público exclusivamente por meio de aplicativo, sem canais alternativos de atendimento e sem observância de requisitos de acessibilidade, pode constituir barreira de acesso a direitos que afeta de forma desproporcional pessoas idosas, pessoas com deficiência e pessoas com menor acesso à internet.
+Pense. Certo ou errado?
+Gabarito: certo.
+Comentário: é um exemplo de barreira digital e de discriminação indireta. A exclusão digital envolve acesso, equipamento, habilidade, acessibilidade, linguagem e custo, e a digitalização inclusiva exige acessibilidade e canais alternativos.
+
+
+REVISÃO FINAL EM UM MINUTO
+
+Censo de dois mil e vinte e dois: pardos quarenta e cinco vírgula três por cento, maior grupo; pretos e pardos cinquenta e cinco vírgula cinco por cento; indígenas cerca de um milhão e setecentos mil. Autodeclaração. Raça como construção social.
+
+Lei quinze mil cento e quarenta e dois: trinta por cento nos concursos federais para pretos, pardos, indígenas e quilombolas; vinte e cinco, três e dois; revogou a lei de dois mil e catorze. Heteroidentificação complementar, pelo fenótipo.
+
+Sexo, gênero, identidade de gênero e orientação sexual são distintos. Maria da Penha: física, psicológica, sexual, patrimonial e moral. União homoafetiva, casamento, nome e gênero sem cirurgia, homotransfobia como racismo: avanços pelo Judiciário. Nome social.
+
+Lei Brasileira de Inclusão: modelo social; impedimento mais barreiras. Barreiras urbanísticas, arquitetônicas, nos transportes, nas comunicações e na informação, atitudinais e tecnológicas. Desenho universal é geral; adaptação razoável é individual; recusa de adaptação é discriminação. Capacidade civil plena.
+
+Censo: catorze vírgula quatro milhões de pessoas com deficiência, sete vírgula três por cento; não comparável com dois mil e dez.
+
+Criança até doze incompletos; adolescente de doze a dezoito; jovem de quinze a vinte e nove; pessoa idosa a partir de sessenta; prioridade especial acima de oitenta. Etarismo.
+
+Artigo duzentos e trinta e um: direitos originários; União demarca; terras bens da União com posse permanente e usufruto exclusivo indígena. Marco temporal inconstitucional em dois mil e vinte e três e em dezembro de dois mil e vinte e cinco.
+
+Convenção cento e sessenta e nove: autoidentificação e consulta prévia, livre e informada.
+
+Comunidades tradicionais: diferença cultural, autorreconhecimento, território. Quilombolas: propriedade definitiva.
+
+Interseccionalidade: Crenshaw; interação, não soma. Cruzar variáveis.
+
+Acessibilidade alcança sistemas e tecnologias; sites de governo devem ser acessíveis.
+
+Barreiras administrativas e digitais pesam de forma desigual. Exclusão digital: acesso, equipamento, habilidade, acessibilidade, linguagem e custo. Digitalização inclusiva com canais alternativos e supervisão humana.
+
+Fim da aula do item um ponto dois ponto quatro. Na sequência do edital, o próximo é o item um ponto dois ponto cinco, desenvolvimento e realidade brasileira. Bons estudos.

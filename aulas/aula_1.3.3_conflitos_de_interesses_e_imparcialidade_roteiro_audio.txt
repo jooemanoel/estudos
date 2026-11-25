@@ -1,0 +1,312 @@
+AUDIOAULA. ITEM UM PONTO TRÊS PONTO TRÊS DO EDITAL: CONFLITOS DE INTERESSES E IMPARCIALIDADE
+Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
+
+
+GLOSSÁRIO DE PRONÚNCIA
+(Grafia correta dos termos usados na aula e a forma fonética com que aparecem no texto.)
+
+SeCI (Sistema Eletrônico de Prevenção de Conflito de Interesses) = Séci
+e-Agendas = é-Agêndas
+Spring Boot = Sprín Búti
+software = sóftuér
+cloud (nuvem) = usado sempre como "nuvem"
+
+
+ABERTURA
+
+Olá! Vamos para mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
+
+Na aula passada, item um ponto três ponto dois, estudamos os deveres profissionais. Vimos que a imparcialidade é o dever de agir por critérios objetivos, ligados ao interesse público. E eu disse que a lei usa instrumentos próprios para proteger esse dever. Hoje é o dia desses instrumentos.
+
+O item um ponto três ponto três tem dois subitens, e o edital, desta vez, é muito específico.
+
+O subitem um ponto três ponto três ponto um trata da identificação de interesses privados em conflito com a função pública e das medidas de prevenção, consulta e encaminhamento, nos termos dos artigos terceiro a quinto, oitavo e décimo da Lei doze mil oitocentos e treze, de dois mil e treze, a Lei de Conflito de Interesses.
+
+O subitem um ponto três ponto três ponto dois trata de impedimento e suspeição no processo administrativo federal, nos termos dos artigos dezoito a vinte e um da Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, e da comunicação e abstenção quando exigidas.
+
+Por que isso cai na prova? Porque o edital apontou os artigos. Quando a banca lista dispositivos específicos, ela está avisando que vai cobrar a letra deles. São poucos artigos, cheios de detalhes: graus de parentesco, quem é competente, o que é obrigatório e o que é facultativo, o que exige dano e o que não exige. Cada um desses detalhes vira um item de certo ou errado.
+
+E há um motivo a mais. A Controladoria-Geral da União não é só destinatária dessas regras. Ela é uma das autoridades que aplicam a Lei de Conflito de Interesses. Então a banca tende a valorizar o papel da própria CGU no tema.
+
+A aula terá três blocos. Um: o conceito de conflito de interesses e as situações típicas, artigos terceiro a quinto e décimo. Dois: prevenção, consulta e encaminhamento, com o artigo oitavo e a regulamentação de presentes. Três: impedimento e suspeição na Lei nove mil setecentos e oitenta e quatro. Depois, pegadinhas, resumo, itens de certo ou errado e gabarito.
+
+Vamos lá.
+
+
+BLOCO UM: O QUE É CONFLITO DE INTERESSES E QUANDO ELE SE CONFIGURA
+
+Começamos pelas definições do artigo terceiro da Lei doze mil oitocentos e treze.
+
+Conflito de interesses é a situação gerada pelo confronto entre interesses públicos e privados que possa comprometer o interesse coletivo ou influenciar, de maneira imprópria, o desempenho da função pública.
+
+Repare em três palavras. Primeiro, "situação". O conflito é uma situação, não necessariamente um ato desonesto. Segundo, "confronto entre interesses públicos e privados". Terceiro, "possa comprometer". A lei trabalha com o potencial. Não é preciso que o interesse coletivo tenha efetivamente sido prejudicado.
+
+A segunda definição é a de informação privilegiada. É a que diz respeito a assuntos sigilosos, ou aquela relevante ao processo de decisão no âmbito do Poder Executivo federal que tenha repercussão econômica ou financeira e que não seja de amplo conhecimento público.
+
+Note que há duas hipóteses ligadas pela palavra "ou". A primeira: informação sobre assunto sigiloso. A segunda: informação relevante para decisão, com repercussão econômica ou financeira, ainda não amplamente conhecida. Uma informação pode ser privilegiada sem ser formalmente classificada como sigilosa.
+
+Agora o artigo quarto, que é o coração da prevenção. O ocupante de cargo ou emprego no Poder Executivo federal deve agir de modo a prevenir ou a impedir possível conflito de interesses e a resguardar informação privilegiada.
+
+O parágrafo primeiro diz o que fazer na dúvida: consultar a Comissão de Ética Pública ou a Controladoria-Geral da União, conforme a divisão de competências que veremos no bloco dois.
+
+E o parágrafo segundo é o dispositivo mais cobrado da lei inteira. A ocorrência de conflito de interesses independe da existência de lesão ao patrimônio público, bem como do recebimento de qualquer vantagem ou ganho pelo agente público ou por terceiro.
+
+Grave isso: conflito de interesses não exige dano e não exige vantagem. Se a banca disser que só há conflito quando houver prejuízo ao erário, ou quando o agente receber vantagem, o item está errado.
+
+Agora, a quem a lei se aplica? Aqui está um ponto sutil, e é por isso que o edital incluiu o artigo décimo.
+
+O artigo segundo da lei, que não está na lista do edital, mas que você precisa conhecer para entender o décimo, lista um grupo de agentes: ministros de Estado; ocupantes de cargos de natureza especial ou equivalentes; presidentes, vice-presidentes e diretores de autarquias, fundações, empresas públicas e sociedades de economia mista; e ocupantes de cargos em comissão do grupo Direção e Assessoramento Superiores, nos níveis seis e cinco, ou equivalentes. O parágrafo único inclui ainda os ocupantes de cargos ou empregos cujo exercício proporcione acesso a informação privilegiada capaz de trazer vantagem econômica ou financeira, conforme regulamento.
+
+Um parêntese: a nomenclatura de cargos em comissão Direção e Assessoramento Superiores foi substituída, no Executivo federal, pelos cargos comissionados executivos, pela Lei catorze mil duzentos e quatro, de dois mil e vinte e um. A Lei de Conflito de Interesses, porém, mantém o texto original. Para a prova, use a letra da lei.
+
+E o artigo décimo? Ele diz que as disposições dos artigos quarto e quinto, e do inciso primeiro do artigo sexto, estendem-se a todos os agentes públicos no âmbito do Poder Executivo federal.
+
+Ou seja: o dever de prevenir conflitos, o artigo quarto, e a lista de situações de conflito durante o exercício, o artigo quinto, valem para todo agente público do Executivo federal, inclusive para você, futuro auditor. E o inciso primeiro do artigo sexto, que proíbe, a qualquer tempo depois do desligamento, divulgar ou fazer uso de informação privilegiada obtida em razão das atividades exercidas, também vale para todos.
+
+O que não se estende a todos? O restante do artigo sexto, que é a chamada quarentena: o período de seis meses após o desligamento em que a alta administração fica impedida de certas atividades privadas. E o artigo nono, com os deveres de declaração anual e de comunicação de propostas de trabalho. Esses ficam restritos aos agentes do artigo segundo. Nenhum dos dois está no seu edital, então basta saber que existem.
+
+Agora, o artigo quinto: as situações que configuram conflito de interesses no exercício do cargo ou emprego. São sete incisos. Vou passar por todos, com exemplos.
+
+Inciso um. Divulgar ou fazer uso de informação privilegiada, em proveito próprio ou de terceiro, obtida em razão das atividades exercidas. Exemplo: um desenvolvedor da CGU que trabalha no sistema de cadastro de empresas punidas fica sabendo, antes da publicação, que uma empresa listada em bolsa será declarada inidônea. Ele vende ações dessa empresa, ou avisa um amigo para vender. Conflito clássico.
+
+Inciso dois. Exercer atividade que implique a prestação de serviços ou a manutenção de relação de negócio com pessoa física ou jurídica que tenha interesse em decisão do agente público ou de colegiado do qual este participe.
+
+Inciso três. Exercer, direta ou indiretamente, atividade que, em razão da sua natureza, seja incompatível com as atribuições do cargo ou emprego, considerando-se como tal, inclusive, a atividade desenvolvida em áreas ou matérias correlatas.
+
+Inciso quatro. Atuar, ainda que informalmente, como procurador, consultor, assessor ou intermediário de interesses privados nos órgãos ou entidades da administração pública direta ou indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. Repare na amplitude: "ainda que informalmente" e "qualquer dos Poderes" de "qualquer ente". Não é só no seu órgão, e não precisa de procuração formal.
+
+Inciso cinco. Praticar ato em benefício de interesse de pessoa jurídica de que participe o agente público, seu cônjuge, companheiro ou parentes, consanguíneos ou afins, em linha reta ou colateral, até o terceiro grau, e que possa ser por ele beneficiada ou influir em seus atos de gestão.
+
+Para fixar o terceiro grau. Linha reta: pais e filhos, primeiro grau; avós e netos, segundo grau; bisavós e bisnetos, terceiro grau. Linha colateral: irmãos, segundo grau; tios e sobrinhos, terceiro grau. Primos são quarto grau, portanto ficam fora. E os afins seguem a mesma contagem pelo lado do cônjuge: sogros são afins em primeiro grau, cunhados em segundo grau.
+
+Inciso seis. Receber presente de quem tenha interesse em decisão do agente público ou de colegiado do qual este participe fora dos limites e condições estabelecidos em regulamento. Veremos o regulamento no bloco dois.
+
+Inciso sete. Prestar serviços, ainda que eventuais, a empresa cuja atividade seja controlada, fiscalizada ou regulada pelo ente ao qual o agente público está vinculado. Repare no "ainda que eventuais". Um único serviço já basta.
+
+E o parágrafo único do artigo quinto: essas situações aplicam-se aos agentes ainda que em gozo de licença ou em período de afastamento. Estar de licença não libera o servidor dessas regras.
+
+Vamos a exemplos do mundo da tecnologia, porque é assim que a banca monta as questões situacionais.
+
+Exemplo um. Um desenvolvedor da CGU dá, nas horas vagas, consultoria paga em Sprín Búti para uma empresa que é fornecedora de sóftuér do próprio órgão e que tem contratos em execução fiscalizados por uma equipe da qual ele faz parte. Há relação de negócio com quem tem interesse em decisão do colegiado de que ele participa. Inciso dois.
+
+Exemplo dois. O mesmo desenvolvedor, agora sem nenhuma relação com fornecedores, dá aulas de programação em um curso livre aos sábados. Em princípio, não há conflito. Mas atenção: se houver dúvida, especialmente quanto à compatibilidade ou a matérias correlatas, o caminho é consultar a CGU. E a consulta tem uma vantagem prática: dá segurança ao servidor.
+
+Exemplo três. Uma servidora da CGU ajuda informalmente, sem cobrar nada, a empresa de um amigo a destravar um processo de habilitação numa prefeitura, ligando para conhecidos e orientando a defesa. Atuação como intermediária de interesses privados, ainda que informalmente, em órgão de qualquer ente. Inciso quatro. Note que a gratuidade não afasta o conflito.
+
+Exemplo quatro. Um auditor participa da comissão que avalia uma solução de computação em nuvem. Uma das empresas concorrentes tem como sócio o cunhado dele. Cunhado é parente afim em segundo grau. Praticar ato em benefício dessa empresa configura o inciso cinco. E, como veremos no bloco três, ele também está impedido de atuar no processo.
+
+Recapitulando o bloco um. Conflito de interesses: confronto entre interesses públicos e privados que possa comprometer o interesse coletivo ou influenciar impropriamente a função pública. Informação privilegiada: sigilosa, ou relevante para decisão com repercussão econômica ou financeira e não amplamente conhecida. O conflito independe de lesão ao patrimônio e de vantagem. O artigo décimo estende os artigos quarto e quinto, e o inciso primeiro do sexto, a todos os agentes do Executivo federal. O artigo quinto tem sete situações, aplicáveis mesmo durante licença ou afastamento.
+
+
+BLOCO DOIS: PREVENÇÃO, CONSULTA E ENCAMINHAMENTO
+
+Identificado o risco de conflito, o que fazer? O edital fala em prevenção, consulta e encaminhamento. Vamos montar esse fluxo.
+
+A prevenção começa no próprio agente, pelo dever do artigo quarto: agir de modo a prevenir ou impedir o conflito e resguardar a informação privilegiada. Na prática, isso significa afastar-se da situação, recusar a atividade, abster-se de atuar no assunto, ou desfazer o vínculo que gera o conflito.
+
+A consulta é o caminho para a dúvida. O parágrafo primeiro do artigo quarto manda consultar a Comissão de Ética Pública ou a Controladoria-Geral da União.
+
+E quem é competente para quê? Aqui entra o artigo oitavo. Ele diz que, sem prejuízo de suas competências institucionais, compete à Comissão de Ética Pública e à Controladoria-Geral da União, conforme o regulamento, as seguintes atribuições. Vou listar as oito.
+
+Um: estabelecer normas, procedimentos e mecanismos que objetivem prevenir ou impedir eventual conflito de interesses.
+
+Dois: avaliar e fiscalizar a ocorrência de situações que configuram conflito de interesses e determinar medidas para a prevenção ou eliminação do conflito.
+
+Três: orientar e dirimir dúvidas e controvérsias acerca da interpretação das normas que regulam o conflito de interesses.
+
+Quatro: manifestar-se sobre a existência ou não de conflito de interesses nas consultas a elas submetidas.
+
+Cinco: autorizar o ocupante de cargo ou emprego no Executivo federal a exercer atividade privada, quando verificada a inexistência de conflito de interesses ou a sua irrelevância.
+
+Seis: dispensar quem haja ocupado cargo ou emprego de cumprir o período de impedimento da quarentena, quando verificada a inexistência de conflito ou sua irrelevância.
+
+Sete: dispor, em conjunto com o órgão central de gestão de pessoas, que a lei chamou de Ministério do Planejamento, sobre a comunicação de alterações patrimoniais relevantes, exercício de atividade privada ou recebimento de propostas de trabalho, contrato ou negócio no setor privado.
+
+Oito: fiscalizar a divulgação da agenda de compromissos públicos.
+
+Repare nos incisos cinco e seis: a autorização e a dispensa dependem de se verificar a inexistência de conflito ou a sua irrelevância. Não basta a inexistência; a irrelevância também autoriza.
+
+E agora o parágrafo único do artigo oitavo, que define a divisão de trabalho. A Comissão de Ética Pública atua nos casos que envolvam os agentes públicos dos incisos primeiro a quarto do artigo segundo, ou seja, a alta administração: ministros, cargos de natureza especial, dirigentes de entidades da administração indireta e cargos em comissão de níveis seis e cinco. E a Controladoria-Geral da União atua nos casos que envolvam os demais agentes, observado o regulamento.
+
+Portanto, para um servidor como você, a consulta sobre conflito de interesses vai para a CGU. É uma inversão de papéis curiosa: no dia a dia da carreira, seu próprio órgão é a autoridade que responde às consultas dos servidores de todo o Executivo federal.
+
+Como a consulta é feita na prática? Por meio do Sistema Eletrônico de Prevenção de Conflito de Interesses, o Séci, mantido pela CGU. O fluxo foi disciplinado pela Portaria Interministerial do então Ministério do Planejamento e da CGU número trezentos e trinta e três, de dois mil e treze. Em linhas gerais: o servidor apresenta a consulta ou o pedido de autorização de atividade privada no sistema; a unidade de gestão de pessoas ou de integridade do órgão faz uma análise preliminar; e o caso segue para a CGU, que se manifesta. Os prazos e etapas detalhados estão na portaria, e eu não vou citá-los de memória. Para a prova, fixe a lógica: consulta e pedido de autorização são caminhos formais, eletrônicos, e a manifestação cabe à CGU nos casos dos servidores em geral.
+
+E o encaminhamento? Quando o servidor percebe uma situação de conflito, própria ou de terceiros, ele tem caminhos. Se é própria: abster-se, comunicar a chefia e, havendo dúvida, consultar. Se é de outro agente: comunicar à autoridade competente, que é um dever que já vimos na aula passada, no artigo cento e dezesseis da Lei oito mil cento e doze. As instâncias que recebem são a chefia, a unidade de integridade, a comissão de ética e, conforme o caso, a corregedoria.
+
+Agora, a regulamentação de presentes, que está ligada ao inciso seis do artigo quinto. O regulamento é o Decreto dez mil oitocentos e oitenta e nove, de nove de dezembro de dois mil e vinte e um. Ele regulamenta o inciso seis do artigo quinto e o artigo onze da Lei de Conflito de Interesses, que trata da divulgação da agenda de compromissos públicos, e institui o Sistema Eletrônico de Agendas do Poder Executivo federal, o é-Agêndas. É uma norma relativamente recente e muito explorada.
+
+Os três conceitos centrais do decreto são presente, brinde e hospitalidade.
+
+A regra sobre presentes: o agente público do Executivo federal não pode receber presente de quem tenha interesse em decisão sua ou de colegiado do qual participe. E atenção: a relação pessoal não muda isso. Mesmo que o presente venha de um amigo, se esse amigo tem interesse em decisão do agente, o recebimento configura conflito.
+
+Brinde não é presente. Brinde é o item de baixo valor econômico e distribuído de forma generalizada, como cortesia, propaganda ou divulgação habitual. E baixo valor econômico é aquele menor do que um por cento do teto remuneratório do inciso onze do artigo trinta e sete da Constituição, que é o subsídio dos ministros do Supremo Tribunal Federal. Como o teto muda, o valor em reais muda junto. Em dois mil e vinte e cinco ficava na casa de quatrocentos e sessenta reais. Para a prova, guarde a regra, não o número: menos de um por cento do teto, e distribuição generalizada. Os dois requisitos são cumulativos. Um item barato, mas dado só a você, não é brinde.
+
+Hospitalidade é, em linhas gerais, o custeio por agente privado de despesas como transporte, alimentação e hospedagem do agente público, no interesse institucional do órgão. O decreto admite hospitalidades em certas condições, ligadas ao interesse institucional, e exige registro e transparência, inclusive no é-Agêndas para os agentes obrigados.
+
+Um exemplo de tecnologia. Uma grande fornecedora de serviços de nuvem convida um desenvolvedor da CGU para um congresso técnico internacional, com passagem e hotel pagos. Ao mesmo tempo, o desenvolvedor integra a equipe que está planejando uma contratação de serviços de nuvem. Sinal vermelho. Há interesse da empresa em decisão de colegiado do qual o servidor participa. O caminho correto não é decidir sozinho: é levar o convite à chefia e à área de integridade, e consultar formalmente antes de aceitar. Agora, a caneta com o logotipo da mesma empresa, distribuída a todos os participantes de um evento aberto, é brinde e pode ser recebida.
+
+Recapitulando o bloco dois. Prevenção: o próprio agente evita ou desfaz o conflito. Consulta: na dúvida, à Comissão de Ética Pública ou à CGU. Competências do artigo oitavo: normatizar, avaliar e fiscalizar, orientar, manifestar-se em consultas, autorizar atividade privada, dispensar quarentena, dispor sobre comunicações e fiscalizar agendas. Comissão de Ética Pública: alta administração, incisos primeiro a quarto do artigo segundo. CGU: demais agentes. Consultas pelo Séci. Presentes: vedados de quem tem interesse em decisão do agente. Brinde: menos de um por cento do teto e distribuição generalizada, pelo Decreto dez mil oitocentos e oitenta e nove, de dois mil e vinte e um.
+
+
+BLOCO TRÊS: IMPEDIMENTO E SUSPEIÇÃO NO PROCESSO ADMINISTRATIVO FEDERAL
+
+Agora mudamos de lei. A Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, regula o processo administrativo no âmbito da administração pública federal. Os artigos dezoito a vinte e um tratam dos impedimentos e da suspeição.
+
+A diferença central entre os dois institutos é esta. Impedimento é uma situação objetiva, descrita na lei, que proíbe o servidor de atuar. A doutrina costuma dizer que gera presunção absoluta de parcialidade. Suspeição é uma situação de natureza mais subjetiva, ligada a relações pessoais, que pode ser arguida. A doutrina fala em presunção relativa.
+
+Vamos ao artigo dezoito. É impedido de atuar em processo administrativo o servidor ou autoridade que:
+
+Inciso um: tenha interesse direto ou indireto na matéria.
+
+Inciso dois: tenha participado ou venha a participar como perito, testemunha ou representante, ou se tais situações ocorrem quanto ao cônjuge, companheiro ou parente e afins até o terceiro grau.
+
+Inciso três: esteja litigando judicial ou administrativamente com o interessado ou respectivo cônjuge ou companheiro.
+
+Três detalhes de prova. Primeiro: no inciso dois, o tempo verbal inclui o futuro, "tenha participado ou venha a participar". Segundo: no inciso dois, a extensão vai ao cônjuge, companheiro e parentes e afins até o terceiro grau. Terceiro: no inciso três, o litígio com o interessado se estende só ao cônjuge ou companheiro do interessado. A lei não fala em parentes no inciso três. Essa diferença é uma pegadinha pronta.
+
+Agora o artigo dezenove, que trata da comunicação e da abstenção, exatamente as palavras do edital. A autoridade ou servidor que incorrer em impedimento deve comunicar o fato à autoridade competente, abstendo-se de atuar. E o parágrafo único: a omissão do dever de comunicar o impedimento constitui falta grave, para efeitos disciplinares.
+
+Perceba a força dessas regras. No impedimento, comunicar é dever, e abster-se é dever. Não depende de provocação de ninguém. E deixar de comunicar é falta grave.
+
+Agora a suspeição, no artigo vinte. Pode ser arguida a suspeição de autoridade ou servidor que tenha amizade íntima ou inimizade notória com algum dos interessados ou com os respectivos cônjuges, companheiros, parentes e afins até o terceiro grau.
+
+Mais três detalhes. Primeiro: o verbo é "pode ser arguida". A suspeição é alegada, normalmente pelo interessado. Segundo: a amizade precisa ser íntima, e a inimizade precisa ser notória. Simples coleguismo ou mera antipatia não bastam. Terceiro: aqui a extensão vai a cônjuges, companheiros, parentes e afins até o terceiro grau dos interessados.
+
+E se o próprio servidor perceber que é suspeito? A lei não traz, para a suspeição, o mesmo dever expresso de comunicar sob pena de falta grave que o artigo dezenove traz para o impedimento. Mas o dever geral de imparcialidade e a ética profissional recomendam que ele declare a situação e se afaste. Em prova, cuidado: a sanção expressa de falta grave pela omissão está no artigo dezenove, ligada ao impedimento.
+
+Por fim, o artigo vinte e um. O indeferimento de alegação de suspeição poderá ser objeto de recurso, sem efeito suspensivo. Ou seja: se a administração rejeitar a alegação de suspeição, o interessado pode recorrer, mas o processo segue enquanto o recurso é analisado.
+
+Vamos a exemplos da CGU.
+
+Exemplo um. Um auditor é designado para analisar a prestação de contas de um convênio. Ele descobre que o irmão dele foi testemunha em um processo relacionado a esse convênio. Irmão é parente colateral de segundo grau. Impedimento pelo inciso dois do artigo dezoito. O auditor deve comunicar à autoridade competente e abster-se de atuar. Se omitir, comete falta grave.
+
+Exemplo dois. Um desenvolvedor da CGU é designado para compor a equipe técnica que vai avaliar, em processo administrativo, se um sistema entregue por uma empresa atende ao contrato. O dono da empresa é seu amigo de infância, com quem passa as férias todos os anos. É amizade íntima: hipótese de suspeição do artigo vinte. A empresa ou outro interessado pode arguir. E, pela ética, o melhor caminho é ele mesmo declarar a situação à chefia e pedir para não atuar.
+
+Exemplo três. Um servidor processa judicialmente o sócio de uma empresa interessada em um processo que ele vai instruir. Litígio judicial com o interessado. Impedimento pelo inciso três do artigo dezoito.
+
+Exemplo quatro. Um servidor descobre que é processado judicialmente pelo primo do interessado. Primo é quarto grau, e, de todo modo, o inciso três do artigo dezoito só alcança o interessado e seu cônjuge ou companheiro. Não há impedimento por esse inciso. Mas, se houver inimizade notória com o próprio interessado, aí se discute suspeição.
+
+E como isso se relaciona com a Lei de Conflito de Interesses? As duas leis se complementam. A Lei doze mil oitocentos e treze olha para a relação entre o agente e interesses privados de forma ampla, inclusive fora de processos, com prevenção e consulta. A Lei nove mil setecentos e oitenta e quatro olha para um processo administrativo específico e diz quem não pode atuar nele. Uma mesma situação pode acionar as duas, como no exemplo do cunhado sócio da empresa licitante.
+
+Recapitulando o bloco três. Impedimento, artigo dezoito: interesse direto ou indireto; participação como perito, testemunha ou representante, inclusive de cônjuge, companheiro, parentes e afins até o terceiro grau; litígio com o interessado ou seu cônjuge ou companheiro. Artigo dezenove: comunicar e abster-se; a omissão de comunicar é falta grave. Suspeição, artigo vinte: pode ser arguida; amizade íntima ou inimizade notória com interessados, cônjuges, companheiros, parentes e afins até o terceiro grau. Artigo vinte e um: recurso contra o indeferimento da suspeição, sem efeito suspensivo.
+
+
+PEGADINHAS CEBRASPE
+
+Vamos reunir as armadilhas deste item.
+
+Pegadinha um: exigir dano ou vantagem. "Configura-se conflito de interesses apenas quando houver lesão ao patrimônio público." Errado. O artigo quarto, parágrafo segundo, diz que o conflito independe de lesão e de vantagem.
+
+Pegadinha dois: restringir a lei à alta administração. "A Lei de Conflito de Interesses aplica-se exclusivamente a ministros de Estado e ocupantes de cargos de direção." Errado. O artigo décimo estende os artigos quarto e quinto, e o inciso primeiro do sexto, a todos os agentes públicos do Executivo federal.
+
+Pegadinha três: estender demais o artigo décimo. "Por força do artigo décimo, a quarentena de seis meses aplica-se a todos os servidores do Executivo federal." Errado. Do artigo sexto, só o inciso primeiro, que trata da informação privilegiada, foi estendido a todos.
+
+Pegadinha quatro: trocar a competência. "Cabe à Comissão de Ética Pública responder às consultas sobre conflito de interesses formuladas por qualquer servidor do Executivo federal." Errado. A Comissão de Ética Pública cuida da alta administração; a CGU, dos demais agentes.
+
+Pegadinha cinco: a palavra "formalmente" ou "mediante remuneração". "Configura conflito atuar como procurador de interesses privados em órgão público, desde que mediante procuração formal." Errado. A lei diz "ainda que informalmente". E a gratuidade também não afasta o conflito.
+
+Pegadinha seis: limitar o órgão. "A vedação de atuar como intermediário de interesses privados restringe-se ao órgão em que o servidor está lotado." Errado. Alcança órgãos e entidades da administração direta ou indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios.
+
+Pegadinha sete: a licença. "As situações de conflito do artigo quinto não se aplicam ao servidor em gozo de licença." Errado. O parágrafo único diz que se aplicam ainda que em licença ou afastamento.
+
+Pegadinha oito: o grau de parentesco. Trocar terceiro por segundo ou quarto grau, ou incluir primos. Primos são quarto grau, fora das hipóteses. Tios, sobrinhos e bisavós estão dentro, no terceiro grau.
+
+Pegadinha nove: os dois requisitos do brinde. "Considera-se brinde, podendo ser recebido, qualquer item de valor inferior a um por cento do teto remuneratório." Errado: falta a distribuição generalizada, como cortesia, propaganda ou divulgação habitual. Os requisitos são cumulativos.
+
+Pegadinha dez: impedimento facultativo. "O servidor impedido poderá comunicar o fato à autoridade competente." Errado. Ele deve comunicar e deve abster-se. A omissão é falta grave.
+
+Pegadinha onze: inverter impedimento e suspeição. "Amizade íntima com o interessado é causa de impedimento." Errado, é suspeição. "Ter interesse indireto na matéria é causa de suspeição." Errado, é impedimento.
+
+Pegadinha doze: os qualificadores da suspeição. "Qualquer amizade ou inimizade com o interessado gera suspeição." Errado. A amizade deve ser íntima e a inimizade deve ser notória.
+
+Pegadinha treze: efeito do recurso. "Contra o indeferimento da alegação de suspeição cabe recurso com efeito suspensivo." Errado. O recurso é sem efeito suspensivo.
+
+Pegadinha catorze: o alcance do litígio. "É impedido o servidor que esteja litigando com parente até o terceiro grau do interessado." Errado. O inciso três do artigo dezoito alcança o interessado e seu cônjuge ou companheiro, não os parentes.
+
+Dica geral para este item: como o edital indicou os artigos, a banca vai trabalhar nos detalhes. Confira sempre quem, até que grau, se é dever ou faculdade, se exige dano, e qual é o efeito. E desconfie de "apenas", "exclusivamente" e "desde que", porque eles costumam fechar o que a lei deixou aberto.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Um. Conflito de interesses é o confronto entre interesses públicos e privados que possa comprometer o interesse coletivo ou influenciar impropriamente a função pública.
+
+Dois. Informação privilegiada é a sigilosa, ou a relevante para decisão, com repercussão econômica ou financeira e não amplamente conhecida.
+
+Três. O conflito independe de lesão ao patrimônio público e de recebimento de vantagem.
+
+Quatro. Os artigos quarto e quinto, e o inciso primeiro do artigo sexto, valem para todos os agentes públicos do Executivo federal, por força do artigo décimo.
+
+Cinco. O artigo quinto tem sete situações: informação privilegiada; relação de negócio com interessado; atividade incompatível, inclusive em matéria correlata; intermediação de interesses privados, ainda que informal, em qualquer ente; benefício a empresa própria ou de parentes até o terceiro grau; presentes fora do regulamento; serviços, ainda que eventuais, a empresa regulada ou fiscalizada. Valem mesmo em licença ou afastamento.
+
+Seis. Na dúvida, consulta. Comissão de Ética Pública para a alta administração; CGU para os demais agentes, pelo sistema Séci.
+
+Sete. Autorização de atividade privada e dispensa de quarentena exigem inexistência de conflito ou sua irrelevância.
+
+Oito. Presentes de quem tem interesse em decisão do agente são vedados. Brinde: valor menor que um por cento do teto e distribuição generalizada. Regulamento: Decreto dez mil oitocentos e oitenta e nove, de dois mil e vinte e um, que também criou o é-Agêndas.
+
+Nove. Impedimento, artigo dezoito: interesse direto ou indireto; perito, testemunha ou representante, inclusive cônjuge, companheiro, parentes e afins até o terceiro grau; litígio com o interessado ou seu cônjuge ou companheiro.
+
+Dez. Impedido deve comunicar e abster-se; omitir a comunicação é falta grave.
+
+Onze. Suspeição, artigo vinte: pode ser arguida; amizade íntima ou inimizade notória com interessados, cônjuges, companheiros, parentes e afins até o terceiro grau.
+
+Doze. Indeferida a suspeição, cabe recurso sem efeito suspensivo.
+
+
+ITENS DE FIXAÇÃO, ESTILO CEBRASPE
+
+Julgue os itens a seguir como certo ou errado. Ouça todos, anote suas respostas, e só depois ouça o gabarito.
+
+Item um. Nos termos da Lei doze mil oitocentos e treze, de dois mil e treze, a ocorrência de conflito de interesses independe da existência de lesão ao patrimônio público, bem como do recebimento de qualquer vantagem ou ganho pelo agente público ou por terceiro.
+
+Item dois. As situações que configuram conflito de interesses durante o exercício do cargo, previstas na Lei de Conflito de Interesses, aplicam-se exclusivamente aos ocupantes de cargos da alta administração federal, como ministros de Estado e dirigentes de autarquias.
+
+Item três. Informação privilegiada, para os fins da Lei de Conflito de Interesses, é somente aquela formalmente classificada como sigilosa nos termos da Lei de Acesso à Informação.
+
+Item quatro. Uma servidora da CGU, sem receber qualquer remuneração, auxiliou informalmente a empresa de um amigo a obter a liberação de um alvará em uma prefeitura, contatando servidores municipais e orientando os documentos a apresentar. Nessa situação, como a atuação foi gratuita, informal e em órgão de outro ente federativo, não se configura conflito de interesses.
+
+Item cinco. As hipóteses de conflito de interesses no exercício do cargo aplicam-se ao agente público ainda que ele esteja em gozo de licença ou em período de afastamento.
+
+Item seis. Compete à Comissão de Ética Pública manifestar-se sobre as consultas relativas a conflito de interesses formuladas por qualquer servidor do Poder Executivo federal, independentemente do cargo ocupado.
+
+Item sete. Um auditor da CGU integra comissão que avalia propostas para contratação de solução de tecnologia. Uma das empresas participantes tem como sócio o cunhado do auditor. Nessa situação, praticar ato em benefício dessa empresa configura conflito de interesses, pois o cunhado é parente afim dentro do limite de grau previsto na lei.
+
+Item oito. De acordo com o Decreto dez mil oitocentos e oitenta e nove, de dois mil e vinte e um, qualquer item com valor inferior a um por cento do teto remuneratório constitucional é considerado brinde e pode ser recebido pelo agente público.
+
+Item nove. Conforme a Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, a autoridade ou servidor que incorrer em impedimento deve comunicar o fato à autoridade competente, abstendo-se de atuar, e a omissão do dever de comunicar constitui falta grave, para efeitos disciplinares.
+
+Item dez. É causa de impedimento, no processo administrativo federal, a amizade íntima do servidor com algum dos interessados.
+
+Item onze. É impedido de atuar em processo administrativo o servidor que esteja litigando judicialmente com parente até o terceiro grau do interessado.
+
+Item doze. O indeferimento de alegação de suspeição poderá ser objeto de recurso, sem efeito suspensivo.
+
+
+GABARITO COMENTADO
+
+Item um: certo. É a literalidade do artigo quarto, parágrafo segundo, da Lei doze mil oitocentos e treze.
+
+Item dois: errado. O artigo décimo estende os artigos quarto e quinto, e o inciso primeiro do artigo sexto, a todos os agentes públicos do Poder Executivo federal. A palavra "exclusivamente" torna o item errado.
+
+Item três: errado. Informação privilegiada abrange, além dos assuntos sigilosos, a informação relevante ao processo de decisão, com repercussão econômica ou financeira, que não seja de amplo conhecimento público. Não depende de classificação formal.
+
+Item quatro: errado. O artigo quinto, inciso quatro, veda atuar, ainda que informalmente, como intermediário de interesses privados em órgãos ou entidades de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios. E o conflito independe de vantagem.
+
+Item cinco: certo. É o parágrafo único do artigo quinto.
+
+Item seis: errado. Pelo parágrafo único do artigo oitavo, a Comissão de Ética Pública atua nos casos da alta administração, os incisos primeiro a quarto do artigo segundo, e a CGU nos casos dos demais agentes.
+
+Item sete: certo. O inciso cinco do artigo quinto alcança pessoa jurídica de que participem cônjuge, companheiro ou parentes, consanguíneos ou afins, até o terceiro grau. O cunhado é afim em segundo grau.
+
+Item oito: errado. Brinde exige dois requisitos cumulativos: baixo valor econômico, menor que um por cento do teto, e distribuição generalizada, como cortesia, propaganda ou divulgação habitual.
+
+Item nove: certo. É o artigo dezenove e seu parágrafo único.
+
+Item dez: errado. Amizade íntima é hipótese de suspeição, do artigo vinte, e não de impedimento.
+
+Item onze: errado. O inciso três do artigo dezoito trata do litígio com o interessado ou com seu cônjuge ou companheiro. Não há menção a parentes nesse inciso.
+
+Item doze: certo. É a literalidade do artigo vinte e um.
+
+Chegamos ao fim da aula. Na próxima, item um ponto três ponto quatro, vamos estudar relações de trabalho e atendimento: dignidade, diversidade e relações de poder, prevenção de assédio e discriminação, e a distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade. Até lá, e bons estudos!

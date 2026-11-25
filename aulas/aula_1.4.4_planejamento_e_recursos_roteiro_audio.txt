@@ -1,0 +1,345 @@
+AUDIOAULA. ITEM UM PONTO QUATRO PONTO QUATRO DO EDITAL: PLANEJAMENTO E RECURSOS
+Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
+
+
+ABERTURA
+
+Este é o item um ponto quatro ponto quatro, planejamento e recursos. Ele tem um único subitem, organizado aqui em quatro blocos: funções do planejamento e do orçamento; relação entre plano plurianual, lei de diretrizes orçamentárias e lei orçamentária anual; receita e despesa em nível conceitual; e restrições fiscais, escolhas alocativas e sustentabilidade das ações. A banca costuma cobrar a letra dos artigos cento e sessenta e cinco a cento e sessenta e nove da Constituição, os prazos do Ato das Disposições Constitucionais Transitórias, as classificações da Lei quatro mil trezentos e vinte, de mil novecentos e sessenta e quatro, a limitação de empenho da Lei de Responsabilidade Fiscal e o regime fiscal sustentável da Lei Complementar duzentos, de dois mil e vinte e três.
+
+
+BLOCO UM: FUNÇÕES DO PLANEJAMENTO E DO ORÇAMENTO
+
+O item anterior tratou da política pública como resposta a um problema; este trata dos instrumentos que dão a ela prazo, meta e recursos.
+
+A base constitucional do planejamento é o artigo cento e setenta e quatro da Constituição. Como agente normativo e regulador da atividade econômica, o Estado exerce, na forma da lei, as funções de fiscalização, incentivo e planejamento, sendo este determinante para o setor público e indicativo para o setor privado. O parágrafo primeiro do mesmo artigo prevê lei com as diretrizes e bases do planejamento do desenvolvimento nacional equilibrado, que incorporará e compatibilizará os planos nacionais e regionais de desenvolvimento. O artigo cento e sessenta e cinco, parágrafo quarto, exige que os planos e programas nacionais, regionais e setoriais sejam elaborados em consonância com o plano plurianual e apreciados pelo Congresso Nacional.
+
+No plano legal, o Decreto-Lei duzentos, de mil novecentos e sessenta e sete, coloca o planejamento como o primeiro dos cinco princípios fundamentais da administração federal, no artigo sexto, ao lado de coordenação, descentralização, delegação de competência e controle. O artigo sétimo determina que a ação governamental obedeça a planejamento e lista seus instrumentos básicos: plano geral de governo; programas gerais, setoriais e regionais, de duração plurianual; orçamento-programa anual; e programação financeira de desembolso.
+
+O planejamento cumpre funções que a banca cobra de forma conceitual: definir objetivos e prioridades; coordenar ações de órgãos diferentes em torno de resultados comuns; reduzir a incerteza ao antecipar necessidades e riscos; e criar a referência sem a qual não há controle, porque só se avalia desempenho contra uma meta previamente fixada. Na estrutura brasileira, o plano plurianual corresponde ao nível estratégico e de médio prazo, a lei de diretrizes orçamentárias faz a ligação entre o plano e o orçamento, e a lei orçamentária anual é o nível operacional, de curto prazo.
+
+O orçamento tem quatro dimensões. A política: é o instrumento pelo qual o Legislativo autoriza a cobrança de receitas e a realização de despesas, controlando o Executivo; sua origem histórica está na exigência de consentimento dos representantes para a tributação. A jurídica: é lei. A administrativa ou gerencial: é instrumento de programação e gestão. E a econômica: é instrumento de política fiscal.
+
+Na dimensão econômica, a classificação mais cobrada é a de Richard Musgrave, com três funções.
+
+Função alocativa: o governo provê bens e serviços que o mercado não oferece ou oferece de forma insuficiente, como os bens públicos, caracterizados pela não rivalidade e pela não exclusão, e os bens meritórios. Defesa nacional, segurança e iluminação pública são exemplos.
+
+Função distributiva: o governo ajusta a distribuição de renda e riqueza, por meio de tributação progressiva e transferências. Programas de transferência de renda são o exemplo típico.
+
+Função estabilizadora: o governo usa a política fiscal para buscar alto nível de emprego, estabilidade de preços, crescimento e equilíbrio externo. Ampliar gastos ou reduzir tributos em uma recessão, e o inverso em um período de inflação alta, são medidas estabilizadoras de caráter anticíclico.
+
+As técnicas orçamentárias evoluíram em etapas.
+
+O orçamento tradicional, ou clássico, tem foco no controle político e no objeto do gasto. Ele mostra o que o governo compra, como pessoal e material, e não o que pretende alcançar. Não se vincula ao planejamento.
+
+O orçamento de desempenho, ou de realizações, passa a mostrar o que o governo faz, com medição de produtos e custos. Seu limite clássico é continuar desvinculado de um sistema de planejamento.
+
+O orçamento-programa integra planejamento e orçamento. Os recursos são organizados em programas, com objetivos, metas, indicadores e custos, e a pergunta passa a ser para que se gasta. No Brasil, a Lei quatro mil trezentos e vinte já menciona o programa de trabalho do governo, o Decreto-Lei duzentos adota expressamente o orçamento-programa, e a Portaria quarenta e dois, de mil novecentos e noventa e nove, do então Ministério do Orçamento e Gestão, consolida a classificação funcional e a estrutura programática usadas hoje.
+
+O orçamento base zero, associado a Peter Pyhrr, exige que cada despesa seja justificada a cada ciclo, como se fosse nova, sem tomar o valor do ano anterior como ponto de partida. Opõe-se ao orçamento incremental, que parte da dotação anterior e faz ajustes marginais, na lógica de Lindblom vista no item anterior.
+
+O orçamento participativo abre a definição de parte das prioridades à população, como na experiência de Porto Alegre a partir de mil novecentos e oitenta e nove. É prática adotada por diversos entes, e não exigência constitucional para a União.
+
+Os princípios orçamentários aparecem com frequência. O artigo segundo da Lei quatro mil trezentos e vinte determina que a lei de orçamento evidencie a política econômico-financeira e o programa de trabalho do governo, obedecidos os princípios de unidade, universalidade e anualidade.
+
+Unidade: um único orçamento por ente e por exercício. A Constituição divide a lei orçamentária da União em três orçamentos, mas eles integram uma só lei, o que a doutrina chama de princípio da totalidade.
+
+Universalidade: todas as receitas e despesas constam do orçamento, conforme os artigos terceiro e quarto da Lei quatro mil trezentos e vinte.
+
+Anualidade, ou periodicidade: o orçamento vale por um exercício financeiro, que, pelo artigo trinta e quatro da mesma lei, coincide com o ano civil.
+
+Exclusividade: pelo artigo cento e sessenta e cinco, parágrafo oitavo, da Constituição, a lei orçamentária anual não conterá dispositivo estranho à previsão da receita e à fixação da despesa, não se incluindo na proibição a autorização para abertura de créditos suplementares e para contratação de operações de crédito, ainda que por antecipação de receita.
+
+Orçamento bruto: pelo artigo sexto da Lei quatro mil trezentos e vinte, receitas e despesas constam pelos totais, vedadas quaisquer deduções.
+
+Não afetação: o artigo cento e sessenta e sete, inciso quatro, da Constituição veda a vinculação de receita de impostos a órgão, fundo ou despesa, ressalvadas, entre outras, a repartição constitucional de receitas, os recursos mínimos para saúde e educação, a administração tributária e a prestação de garantias às operações de crédito por antecipação de receita. A vedação alcança impostos, e não taxas ou contribuições, que são naturalmente vinculadas.
+
+Especificação, ou discriminação: o artigo quinto da Lei quatro mil trezentos e vinte veda dotações globais, e o artigo quinze exige discriminação da despesa, no mínimo, por elementos.
+
+Legalidade: o artigo cento e sessenta e sete veda, no inciso um, o início de programas ou projetos não incluídos na lei orçamentária anual e, no inciso dois, a realização de despesas ou a assunção de obrigações diretas que excedam os créditos orçamentários ou adicionais.
+
+Por fim, a natureza jurídica. Tradicionalmente, o orçamento brasileiro foi descrito como lei formal e autorizativa: a despesa fixada seria um teto, e não uma obrigação de gastar. Esse quadro mudou. A Emenda Constitucional cem, de dois mil e dezenove, incluiu o parágrafo dez no artigo cento e sessenta e cinco: a administração tem o dever de executar as programações orçamentárias, adotando os meios e as medidas necessários, com o propósito de garantir a efetiva entrega de bens e serviços à sociedade. A Emenda Constitucional cento e dois, do mesmo ano, incluiu o parágrafo onze, que limita esse dever: ele se aplica exclusivamente às despesas primárias discricionárias, subordina-se ao cumprimento das metas fiscais e dos limites de despesa, não impede o cancelamento necessário à abertura de créditos adicionais e não se aplica aos impedimentos de ordem técnica devidamente justificados. Somam-se a isso as emendas parlamentares de execução obrigatória, tratadas no próximo bloco. Ainda sobre a natureza, desde o julgamento da Ação Direta de Inconstitucionalidade quatro mil e quarenta e oito, em dois mil e oito, o Supremo Tribunal Federal admite controle concentrado de constitucionalidade de leis orçamentárias, mesmo que de efeito concreto.
+
+Pegadinhas do bloco um.
+
+"O planejamento estatal é determinante tanto para o setor público quanto para o setor privado." Errado. Pelo artigo cento e setenta e quatro, é determinante para o setor público e indicativo para o setor privado.
+
+"A concessão de benefício de transferência de renda a famílias pobres exemplifica a função alocativa do orçamento." Errado. É função distributiva; a alocativa refere-se à provisão de bens e serviços públicos.
+
+"O orçamento de desempenho caracteriza-se pela plena integração entre planejamento e orçamento." Errado. A integração é a marca do orçamento-programa; o de desempenho mede realizações, mas sem vínculo com planejamento.
+
+"No orçamento base zero, a dotação do exercício anterior é o ponto de partida da nova proposta." Errado. Essa é a lógica incremental; no base zero, toda despesa é rejustificada.
+
+"Pelo princípio da exclusividade, a lei orçamentária não pode autorizar a contratação de operações de crédito." Errado. O artigo cento e sessenta e cinco, parágrafo oitavo, ressalva expressamente essa autorização e a de créditos suplementares.
+
+"A Constituição veda a vinculação de receitas tributárias a órgão, fundo ou despesa." Errado. A vedação do artigo cento e sessenta e sete, inciso quatro, refere-se a impostos, e não a todos os tributos.
+
+"Após a Emenda Constitucional cem, de dois mil e dezenove, toda a despesa fixada na lei orçamentária passou a ser de execução obrigatória." Errado. O dever de execução alcança apenas despesas primárias discricionárias e cede diante de metas fiscais, limites de despesa e impedimentos técnicos, conforme o parágrafo onze do artigo cento e sessenta e cinco.
+
+
+BLOCO DOIS: RELAÇÃO ENTRE PLANO PLURIANUAL, LEI DE DIRETRIZES ORÇAMENTÁRIAS E LEI ORÇAMENTÁRIA ANUAL
+
+O artigo cento e sessenta e cinco da Constituição determina que leis de iniciativa do Poder Executivo estabelecerão o plano plurianual, o pê pê á; as diretrizes orçamentárias, por meio da lei de diretrizes orçamentárias, a éle dê ó; e os orçamentos anuais, por meio da lei orçamentária anual, a éle ó á. As três são leis ordinárias, de iniciativa privativa do chefe do Executivo, conforme também o artigo oitenta e quatro, inciso vinte e três.
+
+O plano plurianual está no parágrafo primeiro: estabelecerá, de forma regionalizada, as diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada. Três palavras resumem a regra: diretrizes, objetivos e metas, sempre de forma regionalizada. O plano dura quatro anos, mas não coincide com o mandato: começa no segundo ano de um mandato e termina no primeiro ano do mandato seguinte, o que dá continuidade às ações na troca de governo. O plano vigente na União é o de dois mil e vinte e quatro a dois mil e vinte e sete, instituído pela Lei catorze mil oitocentos e dois, de dois mil e vinte e quatro, elaborado com consulta pública e organizado em programas com objetivos, indicadores e metas.
+
+O plano plurianual tem força especial sobre investimentos. Pelo artigo cento e sessenta e sete, parágrafo primeiro, nenhum investimento cuja execução ultrapasse um exercício financeiro poderá ser iniciado sem prévia inclusão no plano plurianual, ou sem lei que autorize a inclusão, sob pena de crime de responsabilidade. A Lei de Responsabilidade Fiscal, a Lei Complementar cento e um, de dois mil, repete a lógica no artigo quinto, parágrafo quinto: a lei orçamentária não consignará dotação para investimento com duração superior a um exercício que não esteja previsto no plano plurianual ou em lei que autorize sua inclusão.
+
+Um exemplo. Um auditor da cê gê u examina um projeto de modernização da infraestrutura tecnológica de um ministério, com aquisição de equipamentos prevista para três exercícios. Se a primeira etapa foi iniciada com dotação da lei orçamentária, mas o investimento não consta do plano plurianual nem de lei que autorize sua inclusão, há violação do artigo cento e sessenta e sete, parágrafo primeiro, ainda que exista crédito no orçamento.
+
+A lei de diretrizes orçamentárias está no parágrafo segundo, com a redação da Emenda Constitucional cento e nove, de dois mil e vinte e um. Ela compreende as metas e prioridades da administração pública federal; estabelece as diretrizes de política fiscal e respectivas metas, em consonância com trajetória sustentável da dívida pública; orienta a elaboração da lei orçamentária anual; dispõe sobre as alterações na legislação tributária; e estabelece a política de aplicação das agências financeiras oficiais de fomento. A menção à trajetória sustentável da dívida é a novidade de dois mil e vinte e um. A lei de diretrizes é anual e funciona como elo: seleciona, entre os programas do plano, o que terá prioridade no ano seguinte e fixa as regras para montar e executar o orçamento.
+
+A Emenda Constitucional cento e dois, de dois mil e dezenove, incluiu o parágrafo doze: integrará a lei de diretrizes, para o exercício a que se refere e, pelo menos, para os dois exercícios subsequentes, anexo com a previsão de agregados fiscais e a proporção dos recursos para investimentos que serão alocados na lei orçamentária anual para a continuidade daqueles em andamento.
+
+A Lei de Responsabilidade Fiscal amplia o conteúdo da lei de diretrizes no artigo quarto. Ela deve dispor sobre o equilíbrio entre receitas e despesas, os critérios e a forma de limitação de empenho, o controle de custos e a avaliação de resultados dos programas e as condições para transferências a entidades públicas e privadas. Deve conter dois anexos. O Anexo de Metas Fiscais, previsto no parágrafo primeiro, traz metas anuais, em valores correntes e constantes, de receitas, despesas, resultados nominal e primário e montante da dívida pública, para o exercício a que se refere e para os dois seguintes; inclui também, entre outros, a avaliação do cumprimento das metas do ano anterior, a estimativa e a compensação da renúncia de receita e a margem de expansão das despesas obrigatórias de caráter continuado. O Anexo de Riscos Fiscais, previsto no parágrafo terceiro, avalia os passivos contingentes e outros riscos capazes de afetar as contas públicas, informando as providências a tomar caso se concretizem.
+
+A lei orçamentária anual está no parágrafo quinto e compreende três orçamentos. O orçamento fiscal, referente aos Poderes da União, seus fundos, órgãos e entidades da administração direta e indireta, inclusive fundações instituídas e mantidas pelo poder público. O orçamento de investimento das empresas em que a União, direta ou indiretamente, detenha a maioria do capital social com direito a voto. E o orçamento da seguridade social, abrangendo todas as entidades e órgãos a ela vinculados, da administração direta ou indireta, bem como os fundos e fundações instituídos e mantidos pelo poder público. Note que, para as estatais, entra no orçamento de investimento apenas o investimento; o custeio das empresas estatais independentes não passa pela lei orçamentária.
+
+O parágrafo sexto exige que o projeto venha acompanhado de demonstrativo regionalizado do efeito, sobre receitas e despesas, de isenções, anistias, remissões, subsídios e benefícios de natureza financeira, tributária e creditícia. O parágrafo sétimo atribui aos orçamentos fiscal e de investimento, compatibilizados com o plano plurianual, a função de reduzir desigualdades inter-regionais, segundo critério populacional. O parágrafo catorze, também da Emenda Constitucional cento e dois, permite que a lei orçamentária contenha previsões de despesas para exercícios seguintes, com especificação dos investimentos plurianuais e daqueles em andamento.
+
+A Lei de Responsabilidade Fiscal, no artigo quinto, exige que a lei orçamentária seja compatível com o plano plurianual, com a lei de diretrizes e com a própria lei complementar; que traga demonstrativo da compatibilidade com as metas do Anexo de Metas Fiscais; e que contenha reserva de contingência, com forma e montante definidos na lei de diretrizes com base na receita corrente líquida, destinada a passivos contingentes e outros riscos e eventos fiscais imprevistos.
+
+A hierarquia entre as três leis é de compatibilidade. A lei orçamentária deve ser compatível com o plano plurianual e com a lei de diretrizes. A lei de diretrizes deve ser compatível com o plano plurianual. Isso se reflete nas emendas parlamentares. Pelo artigo cento e sessenta e seis, parágrafo terceiro, emendas ao projeto de lei orçamentária ou aos que o modifiquem só podem ser aprovadas se forem compatíveis com o plano plurianual e com a lei de diretrizes e se indicarem os recursos necessários, admitidos apenas os provenientes de anulação de despesa, excluídas as dotações para pessoal e seus encargos, serviço da dívida e transferências tributárias constitucionais para estados, municípios e Distrito Federal; ou se forem relacionadas com a correção de erros ou omissões, ou com os dispositivos do texto do projeto. Pelo parágrafo quarto, emendas ao projeto de lei de diretrizes não podem ser aprovadas quando incompatíveis com o plano plurianual.
+
+Os prazos estão no artigo trinta e cinco, parágrafo segundo, do Ato das Disposições Constitucionais Transitórias, enquanto não editada a lei complementar prevista no artigo cento e sessenta e cinco, parágrafo nono. O projeto do plano plurianual é encaminhado até quatro meses antes do encerramento do primeiro exercício financeiro do mandato, isto é, até trinta e um de agosto, e devolvido para sanção até o encerramento da sessão legislativa, em vinte e dois de dezembro. O projeto da lei de diretrizes é encaminhado até oito meses e meio antes do encerramento do exercício, isto é, até quinze de abril, e devolvido para sanção até o encerramento do primeiro período da sessão legislativa, em dezessete de julho. O projeto da lei orçamentária é encaminhado até quatro meses antes do encerramento do exercício, até trinta e um de agosto, e devolvido até o encerramento da sessão legislativa, em vinte e dois de dezembro. O artigo cinquenta e sete, parágrafo segundo, da Constituição determina que a sessão legislativa não será interrompida sem a aprovação do projeto de lei de diretrizes orçamentárias. Não há regra equivalente para a lei orçamentária.
+
+Sobre a tramitação, o artigo cento e sessenta e seis determina que os projetos sejam apreciados pelas duas Casas do Congresso, na forma do regimento comum, e o parágrafo primeiro atribui a uma comissão mista permanente de senadores e deputados, a Comissão Mista de Planos, Orçamentos Públicos e Fiscalização, examinar e emitir parecer sobre eles. Pelo parágrafo quinto, o Presidente da República pode enviar mensagem para propor modificação nos projetos enquanto não iniciada, na comissão mista, a votação da parte cuja alteração é proposta. Pelo artigo sessenta e dois, parágrafo primeiro, inciso um, alínea dê, é vedada medida provisória sobre plano plurianual, diretrizes orçamentárias, orçamento e créditos adicionais e suplementares, ressalvado o crédito extraordinário. Pelo artigo sessenta e oito, parágrafo primeiro, inciso três, essas matérias também não podem ser objeto de lei delegada.
+
+As emendas individuais e de bancada têm execução obrigatória. Pelo artigo cento e sessenta e seis, parágrafo nono, com a redação da Emenda Constitucional cento e vinte e seis, de dois mil e vinte e dois, as emendas individuais são aprovadas no limite de dois por cento da receita corrente líquida do exercício anterior ao do encaminhamento do projeto, sendo um vírgula cinquenta e cinco por cento para deputados e zero vírgula quarenta e cinco por cento para senadores, e metade desse percentual destinada a ações e serviços públicos de saúde. Pelo parágrafo doze, incluído pela Emenda Constitucional cem, de dois mil e dezenove, as emendas de bancada estadual têm execução obrigatória até um por cento da receita corrente líquida realizada no exercício anterior. A execução não é exigida em caso de impedimento de ordem técnica, e os montantes podem ser reduzidos na mesma proporção da limitação aplicada ao conjunto das despesas discricionárias. A Emenda Constitucional cento e cinco, de dois mil e dezenove, criou no artigo cento e sessenta e seis-A a transferência especial, em que o recurso da emenda individual é repassado diretamente ao ente beneficiado, sem convênio. Depois de decisões do Supremo Tribunal Federal exigindo transparência e rastreabilidade dessas emendas, a Lei Complementar duzentos e dez, de dois mil e vinte e quatro, passou a disciplinar a proposição e a execução das emendas parlamentares, com regras de identificação do objeto e de transparência.
+
+A lei orçamentária pode ser alterada durante o exercício por créditos adicionais, regidos pelos artigos quarenta a quarenta e seis da Lei quatro mil trezentos e vinte e pelo artigo cento e sessenta e sete da Constituição. São três espécies, previstas no artigo quarenta e um. Créditos suplementares reforçam dotação já existente; dependem de autorização legislativa, que pode constar da própria lei orçamentária, e são abertos por decreto. Créditos especiais atendem despesas para as quais não há dotação específica; dependem de lei específica e também são abertos por decreto. Créditos extraordinários atendem, nos termos do artigo cento e sessenta e sete, parágrafo terceiro, da Constituição, despesas imprevisíveis e urgentes, como as decorrentes de guerra, comoção interna ou calamidade pública; na União, são abertos por medida provisória. O Supremo, no mesmo julgamento da Ação Direta de Inconstitucionalidade quatro mil e quarenta e oito, afirmou que os requisitos de imprevisibilidade e urgência são passíveis de controle judicial.
+
+O artigo cento e sessenta e sete, inciso cinco, veda a abertura de crédito suplementar ou especial sem prévia autorização legislativa e sem indicação dos recursos correspondentes. As fontes estão no artigo quarenta e três da Lei quatro mil trezentos e vinte: superávit financeiro apurado no balanço patrimonial do exercício anterior; excesso de arrecadação; anulação parcial ou total de dotações; e operações de crédito autorizadas. O artigo cento e sessenta e seis, parágrafo oitavo, da Constituição acrescenta os recursos que, em decorrência de veto, emenda ou rejeição do projeto de lei orçamentária, ficarem sem despesas correspondentes, que podem ser usados mediante créditos especiais ou suplementares, com prévia e específica autorização legislativa. Quanto à vigência, pelo artigo cento e sessenta e sete, parágrafo segundo, os créditos especiais e extraordinários valem no exercício em que autorizados, salvo se o ato de autorização for promulgado nos últimos quatro meses do exercício; nesse caso, reabertos nos limites dos seus saldos, são incorporados ao orçamento do exercício seguinte. Os suplementares não têm essa possibilidade.
+
+Também é vedada, pelo artigo cento e sessenta e sete, inciso seis, a transposição, o remanejamento ou a transferência de recursos de uma categoria de programação para outra, ou de um órgão para outro, sem prévia autorização legislativa. Há exceção no parágrafo quinto, incluído pela Emenda Constitucional oitenta e cinco, de dois mil e quinze: no âmbito das atividades de ciência, tecnologia e inovação, esses remanejamentos podem ser feitos por ato do Poder Executivo, sem autorização legislativa, para viabilizar os resultados de projetos restritos a essas funções.
+
+Se a lei orçamentária não for aprovada até o início do exercício, a Constituição não traz solução expressa. Na prática federal, a lei de diretrizes autoriza a execução provisória de determinadas despesas, em geral as obrigatórias e uma fração mensal das demais, até a publicação da lei.
+
+Pegadinhas do bloco dois.
+
+"O plano plurianual estabelece as metas e prioridades da administração para o exercício seguinte." Errado. Metas e prioridades são conteúdo da lei de diretrizes, no parágrafo segundo; o plano estabelece, de forma regionalizada, diretrizes, objetivos e metas para despesas de capital e programas de duração continuada.
+
+"O plano plurianual coincide com o mandato presidencial, para que cada governo execute integralmente o seu plano." Errado. Ele vigora do segundo ano de um mandato até o fim do primeiro ano do mandato seguinte.
+
+"O orçamento de investimento abrange todas as empresas estatais em que a União tenha participação." Errado. Abrange as empresas em que a União, direta ou indiretamente, detenha a maioria do capital social com direito a voto.
+
+"Emendas ao projeto de lei orçamentária podem indicar como fonte a anulação de dotações destinadas ao serviço da dívida." Errado. O artigo cento e sessenta e seis, parágrafo terceiro, exclui dotações de pessoal e encargos, serviço da dívida e transferências tributárias constitucionais.
+
+"A sessão legislativa não será interrompida sem a aprovação do projeto de lei orçamentária anual." Errado. O artigo cinquenta e sete, parágrafo segundo, refere-se ao projeto de lei de diretrizes orçamentárias.
+
+"O Presidente da República pode propor modificação no projeto de lei orçamentária a qualquer tempo antes da votação em plenário." Errado. O limite é o início da votação, na comissão mista, da parte cuja alteração é proposta.
+
+"Créditos especiais destinam-se ao reforço de dotação orçamentária já existente." Errado. Reforço é crédito suplementar; especial atende despesa sem dotação específica.
+
+"Créditos suplementares autorizados nos últimos quatro meses do exercício podem ser reabertos no exercício seguinte." Errado. A reabertura do artigo cento e sessenta e sete, parágrafo segundo, vale apenas para créditos especiais e extraordinários.
+
+"As emendas individuais impositivas destinam metade do seu limite a ações de educação." Errado. A metade vai para ações e serviços públicos de saúde, pelo artigo cento e sessenta e seis, parágrafo nono.
+
+
+BLOCO TRÊS: RECEITA E DESPESA EM NÍVEL CONCEITUAL
+
+Ingresso é toda entrada de recursos nos cofres públicos. Nem todo ingresso é receita orçamentária. Receita orçamentária é a disponibilidade de recursos que pertence ao Estado e pode ser aplicada em programas e ações; consta, em regra, da lei orçamentária, que, pelo artigo terceiro da Lei quatro mil trezentos e vinte, compreende todas as receitas, inclusive as de operações de crédito autorizadas em lei. Ingressos extraorçamentários são recursos de terceiros que transitam pelo caixa público e serão devolvidos, como cauções, depósitos e retenções na fonte que pertencem a outros entes. Pelo parágrafo único do mesmo artigo, também não entram no orçamento as operações de crédito por antecipação de receita, as emissões de papel-moeda e outras entradas compensatórias no ativo e no passivo financeiros. A operação por antecipação de receita é um empréstimo de curto prazo para cobrir insuficiência de caixa durante o exercício, e deve ser liquidada até dez de dezembro, conforme o artigo trinta e oito da Lei de Responsabilidade Fiscal.
+
+O artigo onze da Lei quatro mil trezentos e vinte classifica a receita em duas categorias econômicas. Receitas correntes, pelo parágrafo primeiro, são as tributárias, de contribuições, patrimonial, agropecuária, industrial, de serviços e outras, além das transferências correntes, isto é, recursos recebidos de outras pessoas de direito público ou privado destinados a despesas correntes. Receitas de capital, pelo parágrafo segundo, são as provenientes da constituição de dívidas, ou seja, operações de crédito; da conversão em espécie de bens e direitos, ou seja, alienações; dos recursos recebidos de outras pessoas destinados a despesas de capital, as transferências de capital; e o superávit do orçamento corrente, que, pelo parágrafo terceiro, é a diferença entre receitas e despesas correntes e não constitui item orçamentário.
+
+Duas outras classificações conceituais. Quanto ao efeito no patrimônio, a receita é efetiva quando aumenta a situação líquida sem contrapartida no passivo, como a arrecadação de tributos; e não efetiva, ou por mutação patrimonial, quando apenas troca um elemento por outro, como a operação de crédito, que gera caixa e dívida, e a alienação de um bem, que troca o bem por dinheiro. Em regra, as correntes são efetivas e as de capital, não efetivas, mas há exceções, como as transferências de capital recebidas, que são efetivas. Quanto ao resultado fiscal, a receita é primária, ou não financeira, quando resulta da atividade típica do Estado, como tributos e contribuições; e financeira quando decorre de operações com ativos e passivos financeiros, como operações de crédito, rendimentos de aplicações e retorno de empréstimos concedidos. Essa distinção é a base do resultado primário, tratado no próximo bloco.
+
+Os estágios da receita, segundo o Manual de Contabilidade Aplicada ao Setor Público, são previsão, lançamento, arrecadação e recolhimento. O lançamento, definido no artigo cinquenta e três da Lei quatro mil trezentos e vinte, é o ato da repartição competente que verifica a procedência do crédito fiscal e a pessoa que é devedora; nem toda receita passa por ele. Arrecadação é o pagamento pelo contribuinte ao agente arrecadador; recolhimento é a entrega desses valores ao caixa do tesouro.
+
+Duas regras da Lei de Responsabilidade Fiscal sobre receita. O artigo onze considera requisito essencial da responsabilidade na gestão fiscal a instituição, a previsão e a efetiva arrecadação de todos os tributos da competência constitucional do ente; o parágrafo único veda transferências voluntárias ao ente que não instituir seus impostos. O artigo doze determina que as previsões de receita observem as normas técnicas e legais, considerem os efeitos de alterações na legislação, da variação de preços, do crescimento econômico ou de outro fator relevante, e venham acompanhadas de demonstrativo da evolução nos últimos três anos e de projeção para os dois seguintes. Pelo parágrafo primeiro, a reestimativa de receita pelo Legislativo só é admitida se comprovado erro ou omissão de ordem técnica ou legal.
+
+A receita corrente líquida, definida no artigo segundo, inciso quatro, da mesma lei, é a soma das receitas correntes, deduzidas, no caso da União, as transferências constitucionais e legais a estados e municípios, as contribuições do empregador e do trabalhador para a seguridade social e as contribuições para o Programa de Integração Social e o Programa de Formação do Patrimônio do Servidor Público. É apurada somando as receitas do mês de referência e dos onze anteriores. Serve de base para limites de pessoal, de dívida, para a reserva de contingência e para as emendas impositivas.
+
+Uma alteração recente no lado da receita é a reforma tributária do consumo, da Emenda Constitucional cento e trinta e dois, de dois mil e vinte e três, regulamentada pela Lei Complementar duzentos e catorze, de dois mil e vinte e cinco. Ela substitui gradualmente tributos sobre o consumo pela Contribuição sobre Bens e Serviços, federal, e pelo Imposto sobre Bens e Serviços, compartilhado por estados e municípios, além de um imposto seletivo, com transição a partir de dois mil e vinte e seis. Para este item, basta saber que muda a composição da receita tributária dos entes, sem alterar os conceitos de classificação vistos acima.
+
+No lado da despesa, o artigo doze da Lei quatro mil trezentos e vinte também usa duas categorias. Despesas correntes, que se dividem em despesas de custeio, destinadas à manutenção de serviços já criados, e transferências correntes. Despesas de capital, que se dividem em investimentos, inversões financeiras e transferências de capital.
+
+A diferença entre investimento e inversão financeira é muito cobrada. Pelo parágrafo quarto, investimentos são as dotações para o planejamento e a execução de obras, inclusive a aquisição de imóveis necessários a elas, para programas especiais de trabalho, para a aquisição de instalações, equipamentos e material permanente e para a constituição ou o aumento do capital de empresas que não sejam de caráter comercial ou financeiro. Pelo parágrafo quinto, inversões financeiras são as dotações para a aquisição de imóveis ou bens de capital já em utilização; para a aquisição de títulos representativos do capital de empresas já constituídas, quando a operação não importe aumento do capital; e para a constituição ou o aumento do capital de entidades ou empresas que visem a objetivos comerciais ou financeiros, inclusive bancárias ou de seguros. O critério de fundo é que o investimento cria ou amplia a capacidade produtiva da economia, enquanto a inversão transfere a propriedade de algo que já existe.
+
+A classificação usada hoje, definida pela Portaria Interministerial cento e sessenta e três, de dois mil e um, detalha a natureza da despesa em categoria econômica, grupo de natureza, modalidade de aplicação e elemento. Os seis grupos são: pessoal e encargos sociais, juros e encargos da dívida e outras despesas correntes, no lado corrente; e investimentos, inversões financeiras e amortização da dívida, no lado de capital. Note que juros são despesa corrente, e amortização do principal é despesa de capital.
+
+Um exemplo do dia a dia de tecnologia. A compra de computadores e equipamentos de rede para um órgão é investimento, porque se trata de equipamento e material permanente. Já a contratação de serviços de sustentação e manutenção de sistemas é outras despesas correntes, porque mantém um serviço existente. Uma auditoria que encontre serviços contínuos de tecnologia classificados como investimento pode indicar erro de classificação que distorce a apuração das despesas de capital.
+
+Há ainda as classificações que respondem a outras perguntas. A institucional responde quem gasta: órgão e unidade orçamentária. A funcional responde em que área de atuação se gasta: função, o maior nível de agregação das áreas de despesa, como saúde e educação, e subfunção, uma partição da função. Pela Portaria quarenta e dois, de mil novecentos e noventa e nove, as subfunções podem ser combinadas com funções diferentes daquelas a que estão vinculadas, a chamada matricialidade. A programática responde para que se gasta: programa e ação.
+
+Programa é o instrumento de organização da ação governamental que visa à concretização de objetivos, mensurado por indicadores estabelecidos no plano plurianual. As ações se dividem em três tipos. Projeto é um conjunto de operações limitadas no tempo, das quais resulta um produto que concorre para a expansão ou o aperfeiçoamento da ação de governo; o desenvolvimento de um novo sistema de atendimento é um projeto. Atividade é um conjunto de operações que se realizam de modo contínuo e permanente, das quais resulta um produto necessário à manutenção da ação de governo; a operação contínua desse sistema é atividade. Operação especial é a despesa que não contribui para a manutenção, a expansão ou o aperfeiçoamento das ações de governo e da qual não resulta produto nem contraprestação direta em bens ou serviços, como o pagamento do serviço da dívida e certas transferências.
+
+Duas classificações de uso fiscal. Despesas obrigatórias decorrem de mandamento constitucional ou legal, como pessoal, benefícios previdenciários e transferências constitucionais; despesas discricionárias dependem de decisão alocativa a cada orçamento, como boa parte do custeio administrativo e dos investimentos. As despesas obrigatórias de caráter continuado, do artigo dezessete da Lei de Responsabilidade Fiscal, foram vistas no item anterior. E, assim como na receita, a despesa é primária quando não financeira, e financeira quando se refere a juros, amortização da dívida e concessão de empréstimos.
+
+Os estágios da despesa orçamentária são fixação, na fase de planejamento, e, na execução, empenho, liquidação e pagamento. O empenho, pelo artigo cinquenta e oito da Lei quatro mil trezentos e vinte, é o ato emanado de autoridade competente que cria para o Estado obrigação de pagamento pendente ou não de implemento de condição. Pelo artigo sessenta, é vedada a realização de despesa sem prévio empenho. Há empenho ordinário, para despesa de valor certo e pagamento único; estimativo, para despesa cujo montante não se possa determinar, como contas de energia; e global, para despesas contratuais sujeitas a parcelamento. A liquidação, pelo artigo sessenta e três, consiste na verificação do direito adquirido pelo credor, com base nos títulos e documentos comprobatórios do respectivo crédito; é o momento em que se confirma a entrega do bem ou serviço. O pagamento, pelo artigo sessenta e dois, só pode ser efetuado após a regular liquidação, mediante ordem de pagamento da autoridade competente, prevista no artigo sessenta e quatro.
+
+Pelo artigo trinta e cinco da mesma lei, pertencem ao exercício financeiro as receitas nele arrecadadas e as despesas nele legalmente empenhadas. Por isso se diz que o regime orçamentário é misto: de caixa para a receita e de competência para a despesa. A contabilidade patrimonial, por sua vez, segue o regime de competência para ambas. As despesas empenhadas e não pagas até trinta e um de dezembro são inscritas em restos a pagar, pelo artigo trinta e seis: processados, se já liquidadas, e não processados, se ainda não liquidadas.
+
+Pegadinhas do bloco três.
+
+"Os depósitos e cauções recebidos pelo poder público constituem receita orçamentária, pois ingressam no caixa do tesouro." Errado. São ingressos extraorçamentários, recursos de terceiros que serão devolvidos.
+
+"As operações de crédito por antecipação de receita integram a receita de capital da lei orçamentária." Errado. O parágrafo único do artigo terceiro da Lei quatro mil trezentos e vinte as exclui do orçamento.
+
+"O superávit do orçamento corrente é classificado como receita corrente." Errado. Pelo artigo onze, é receita de capital, e não constitui item orçamentário.
+
+"A aquisição de um imóvel já em utilização, para instalar uma unidade administrativa, classifica-se como investimento." Errado. Pelo artigo doze, parágrafo quinto, aquisição de imóvel já em utilização é inversão financeira; investimento é a aquisição de imóvel necessário à realização de obra.
+
+"Os juros da dívida pública são despesas de capital, assim como a amortização." Errado. Juros e encargos da dívida são despesa corrente; apenas a amortização é de capital.
+
+"Na classificação funcional, cada subfunção só pode ser combinada com a função à qual está vinculada." Errado. A Portaria quarenta e dois admite a combinação com outras funções.
+
+"A liquidação é o ato que cria para o Estado a obrigação de pagamento." Errado. Quem cria a obrigação é o empenho, pelo artigo cinquenta e oito; a liquidação verifica o direito adquirido pelo credor.
+
+"A reestimativa de receita pelo Poder Legislativo é livre, desde que mantido o equilíbrio do orçamento." Errado. Pelo artigo doze, parágrafo primeiro, da Lei de Responsabilidade Fiscal, só é admitida se comprovado erro ou omissão de ordem técnica ou legal.
+
+
+BLOCO QUATRO: RESTRIÇÕES FISCAIS, ESCOLHAS ALOCATIVAS E SUSTENTABILIDADE DAS AÇÕES
+
+A Lei de Responsabilidade Fiscal define, no artigo primeiro, parágrafo primeiro, que a responsabilidade na gestão fiscal pressupõe a ação planejada e transparente, em que se previnem riscos e corrigem desvios capazes de afetar o equilíbrio das contas públicas, mediante o cumprimento de metas de resultados entre receitas e despesas e a obediência a limites e condições. Os pilares usualmente apontados são planejamento, transparência, controle e responsabilização.
+
+Os conceitos fiscais básicos são estes. Resultado primário é a diferença entre receitas primárias e despesas primárias; mostra se o governo, sem contar os juros, gasta menos do que arrecada. Resultado nominal inclui os juros nominais da dívida. Um governo pode ter superávit primário e déficit nominal ao mesmo tempo, quando o superávit primário não é suficiente para pagar os juros. A meta de resultado primário é fixada na lei de diretrizes, no Anexo de Metas Fiscais.
+
+O acompanhamento da meta durante o ano é feito pelo artigo nove da Lei de Responsabilidade Fiscal. Se, ao final de um bimestre, verificar-se que a realização da receita poderá não comportar o cumprimento das metas de resultado primário ou nominal, os Poderes e o Ministério Público promoverão, por ato próprio e nos montantes necessários, nos trinta dias subsequentes, limitação de empenho e movimentação financeira, segundo os critérios fixados pela lei de diretrizes. É o chamado contingenciamento. Pelo parágrafo segundo, não podem ser limitadas as despesas que constituam obrigações constitucionais e legais do ente, inclusive as destinadas ao pagamento do serviço da dívida, as relativas à inovação e ao desenvolvimento científico e tecnológico custeadas por fundo criado para essa finalidade, incluídas pela Lei Complementar cento e setenta e sete, de dois mil e vinte e um, e as ressalvadas pela lei de diretrizes. O parágrafo terceiro, que autorizava o Executivo a limitar os valores dos demais Poderes e do Ministério Público quando estes não o fizessem, foi declarado inconstitucional pelo Supremo Tribunal Federal, na Ação Direta de Inconstitucionalidade dois mil duzentos e trinta e oito. Pelo parágrafo quarto, até o final de maio, setembro e fevereiro, o Executivo demonstra e avalia o cumprimento das metas fiscais de cada quadrimestre em audiência pública na comissão mista de orçamento.
+
+Complementam o mecanismo o artigo oitavo, pelo qual, até trinta dias após a publicação dos orçamentos, o Executivo estabelece a programação financeira e o cronograma de execução mensal de desembolso; e o artigo treze, pelo qual, no mesmo prazo, as receitas previstas são desdobradas em metas bimestrais de arrecadação. O parágrafo único do artigo oitavo determina que os recursos legalmente vinculados a finalidade específica sejam usados exclusivamente para atender ao objeto da vinculação, ainda que em exercício diverso daquele em que ocorrer o ingresso.
+
+A despesa com pessoal tem limites próprios. O artigo cento e sessenta e nove da Constituição remete a lei complementar, e o artigo dezenove da Lei de Responsabilidade Fiscal fixa a despesa total com pessoal, em relação à receita corrente líquida, em cinquenta por cento para a União e sessenta por cento para estados e para municípios. Na União, o artigo vinte reparte o limite: dois e meio por cento para o Legislativo, incluído o Tribunal de Contas da União; seis por cento para o Judiciário; quarenta vírgula nove por cento para o Executivo; e zero vírgula seis por cento para o Ministério Público da União. Ao atingir noventa e cinco por cento do limite, o chamado limite prudencial do artigo vinte e dois, aplicam-se vedações, como criação de cargos e concessão de vantagens, salvo exceções. Se o limite for ultrapassado, o excedente deve ser eliminado nos dois quadrimestres seguintes, sendo pelo menos um terço no primeiro, conforme o artigo vinte e três.
+
+Outra restrição clássica é a regra de ouro, do artigo cento e sessenta e sete, inciso três, da Constituição: é vedada a realização de operações de crédito que excedam o montante das despesas de capital, ressalvadas as autorizadas mediante créditos suplementares ou especiais com finalidade precisa, aprovados pelo Legislativo por maioria absoluta. A ideia é não financiar gasto corrente com endividamento. A Lei de Responsabilidade Fiscal reforça a regra no artigo doze, parágrafo segundo.
+
+Há ainda uma restrição de fim de mandato. Pelo artigo quarenta e dois da Lei de Responsabilidade Fiscal, é vedado ao titular de Poder ou órgão, nos últimos dois quadrimestres do mandato, contrair obrigação de despesa que não possa ser cumprida integralmente dentro dele, ou que tenha parcelas a serem pagas no exercício seguinte sem suficiente disponibilidade de caixa.
+
+As alterações recentes mais exploradas são as do regime fiscal federal. A Emenda Constitucional noventa e cinco, de dois mil e dezesseis, criou o teto de gastos, que limitava o crescimento das despesas primárias à inflação. A Emenda Constitucional cento e vinte e seis, de dois mil e vinte e dois, determinou sua substituição por um regime fiscal sustentável, instituído por lei complementar, e revogou os dispositivos do teto a partir da sanção dessa lei. A Lei Complementar duzentos, de dois mil e vinte e três, chamada de novo arcabouço fiscal, instituiu esse regime.
+
+Pela Lei Complementar duzentos, cada Poder e órgão autônomo tem limite individualizado para as despesas primárias. O limite é corrigido pela inflação medida pelo Índice Nacional de Preços ao Consumidor Amplo, o í pê cê á, acrescida de um crescimento real equivalente a setenta por cento da variação real da receita primária, se a meta de resultado primário do exercício anterior tiver sido cumprida, ou a cinquenta por cento, se não tiver sido. Em qualquer caso, o crescimento real da despesa fica entre zero vírgula seis por cento e dois vírgula cinco por cento ao ano. A meta de resultado primário passa a ter intervalo de tolerância de zero vírgula vinte e cinco ponto percentual do produto interno bruto, o pib, para mais ou para menos; só há descumprimento abaixo do limite inferior, o que aciona medidas de ajuste, com vedações ligadas sobretudo a despesas com pessoal e benefícios. A lei também prevê um piso para investimentos na lei orçamentária, que, salvo engano, corresponde a zero vírgula seis por cento do produto interno bruto estimado no projeto. Ficam fora do limite despesas como as transferências constitucionais de receitas aos entes e os créditos extraordinários. Repare que a lógica muda em relação ao teto: em vez de congelar a despesa em termos reais, o regime liga o crescimento da despesa ao da receita e ao cumprimento da meta.
+
+Duas mudanças constitucionais da Emenda cento e nove, de dois mil e vinte e um, tratam da sustentabilidade da dívida. O artigo cento e sessenta e quatro-A determina que União, estados, Distrito Federal e municípios conduzam suas políticas fiscais de forma a manter a dívida pública em níveis sustentáveis; o parágrafo único exige que a elaboração e a execução de planejamento e orçamento reflitam a compatibilidade dos indicadores fiscais com a sustentabilidade da dívida. O artigo cento e sessenta e sete-A permite que estados, Distrito Federal e municípios, quando a relação entre despesas correntes e receitas correntes superar noventa e cinco por cento, em doze meses, apliquem mecanismos de ajuste fiscal, como vedações à criação de cargos e à concessão de reajustes. É faculdade, e não obrigação, mas o ente que não a adotar sofre restrições na obtenção de garantias e operações de crédito.
+
+Outra mudança recente com impacto federativo é o artigo cento e sessenta e sete, parágrafo sétimo, incluído pela Emenda Constitucional cento e vinte e oito, de dois mil e vinte e dois: a lei não imporá nem transferirá qualquer encargo financeiro decorrente da prestação de serviço público, inclusive despesas de pessoal, para a União, os estados, o Distrito Federal ou os municípios, sem a previsão de fonte orçamentária e financeira necessária ou da correspondente transferência de recursos, ressalvadas as obrigações assumidas espontaneamente pelos entes. É uma resposta à criação de pisos salariais nacionais sem financiamento.
+
+Essas restrições condicionam as escolhas alocativas. A primeira restrição é a rigidez orçamentária: na União, a grande maioria das despesas primárias, em torno de nove décimos, é obrigatória, como previdência, pessoal, benefícios assistenciais e mínimos constitucionais. Os mínimos mais conhecidos são, para a União, quinze por cento da receita corrente líquida do exercício em ações e serviços públicos de saúde, pelo artigo cento e noventa e oito, parágrafo segundo; e dezoito por cento da receita de impostos em manutenção e desenvolvimento do ensino, pelo artigo duzentos e doze, que exige vinte e cinco por cento de estados, Distrito Federal e municípios. Somam-se as emendas impositivas. O espaço discricionário que sobra é pequeno e concentra investimentos e custeio administrativo, inclusive de tecnologia, que costumam ser os primeiros alvos do contingenciamento.
+
+Escolher alocar recurso em uma ação significa deixar de alocá-lo em outra; o custo de oportunidade é inerente ao orçamento. Instrumentos que qualificam essas escolhas incluem a definição de metas e prioridades na lei de diretrizes, a avaliação de políticas exigida pelo artigo cento e sessenta e cinco, parágrafo dezesseis, já vista no item anterior, e a revisão periódica de gastos, que examina programas existentes para liberar espaço fiscal. Aqui também se aplica a distinção entre despesas obrigatórias e discricionárias: uma decisão de reduzir gasto de forma relevante quase sempre exige mudança legal ou constitucional, e não apenas corte na lei orçamentária.
+
+A sustentabilidade das ações tem duas dimensões: a fiscal, de manter as contas e a dívida em trajetória sustentável; e a de continuidade, de garantir que aquilo que se começa possa ser concluído e mantido. Para a segunda, a regra mais direta é o artigo quarenta e cinco da Lei de Responsabilidade Fiscal: a lei orçamentária e as de créditos adicionais só incluirão novos projetos após adequadamente atendidos os em andamento e contempladas as despesas de conservação do patrimônio público, nos termos da lei de diretrizes. Na Constituição, a Emenda cento e dois acrescentou, além dos parágrafos doze e catorze do artigo cento e sessenta e cinco, já vistos, o parágrafo quinze, que obriga a União a manter registro centralizado de projetos de investimento, com análises de viabilidade, estimativas de custos e informações sobre a execução física e financeira. As exigências de estimativa de impacto para novas despesas e renúncias, nos artigos catorze, dezesseis e dezessete da Lei de Responsabilidade Fiscal e no artigo cento e treze do Ato das Disposições Constitucionais Transitórias, completam esse quadro e foram vistas no item anterior.
+
+Um exemplo. Um órgão implanta um novo sistema com recursos de investimento, mas não prevê no orçamento dos anos seguintes os gastos de hospedagem, licenças e sustentação. Em pouco tempo, o sistema fica sem manutenção e o serviço se degrada. O problema não está no investimento em si, mas na ausência de previsão das despesas correntes que ele gera, exatamente o que o plano plurianual sinaliza ao tratar das despesas de capital e outras delas decorrentes, e o que o artigo quarenta e cinco da Lei de Responsabilidade Fiscal procura evitar ao priorizar projetos em andamento e a conservação do patrimônio.
+
+Uma última regra de desvinculação. O artigo setenta e seis do Ato das Disposições Constitucionais Transitórias, a desvinculação de receitas da União, libera trinta por cento da arrecadação de contribuições sociais, da contribuição de intervenção no domínio econômico e de taxas, para uso livre, aumentando a margem alocativa. A desvinculação foi prorrogada sucessivamente; a última prorrogação de que tenho registro, pela Emenda Constitucional cento e trinta e cinco, de dois mil e vinte e quatro, estende sua vigência até dois mil e trinta e dois.
+
+Pegadinhas do bloco quatro.
+
+"Havendo superávit primário, o resultado nominal do governo será necessariamente superavitário." Errado. O resultado nominal inclui os juros; se o superávit primário não os cobrir, o nominal será deficitário.
+
+"A limitação de empenho do artigo nove da Lei de Responsabilidade Fiscal alcança as despesas com o serviço da dívida." Errado. O parágrafo segundo exclui as obrigações constitucionais e legais, inclusive o serviço da dívida.
+
+"Se o Judiciário não promover a limitação de empenho, o Executivo está autorizado a limitar os valores financeiros daquele Poder." Errado. O parágrafo terceiro do artigo nove foi declarado inconstitucional pelo Supremo.
+
+"O limite de despesa com pessoal da União é de sessenta por cento da receita corrente líquida." Errado. Para a União, o artigo dezenove fixa cinquenta por cento; sessenta é o limite de estados e municípios.
+
+"A regra de ouro veda operações de crédito em montante superior às despesas correntes." Errado. O parâmetro do artigo cento e sessenta e sete, inciso três, são as despesas de capital.
+
+"Pela Lei Complementar duzentos, o crescimento real do limite de despesas corresponde a setenta por cento da variação real da receita primária, independentemente do cumprimento da meta fiscal." Errado. Os setenta por cento valem se a meta tiver sido cumprida; caso contrário, o percentual cai para cinquenta por cento.
+
+"O mecanismo de ajuste do artigo cento e sessenta e sete-A da Constituição é de adoção obrigatória por estados e municípios cuja despesa corrente supere noventa e cinco por cento da receita corrente." Errado. A adoção é facultativa, com consequências para garantias e operações de crédito de quem não a adotar.
+
+"A Lei de Responsabilidade Fiscal admite a inclusão de novos projetos na lei orçamentária independentemente da situação dos projetos em andamento, desde que haja dotação suficiente." Errado. O artigo quarenta e cinco exige que os projetos em andamento estejam adequadamente atendidos e as despesas de conservação do patrimônio contempladas.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Planejamento: determinante para o setor público e indicativo para o privado, artigo cento e setenta e quatro; princípio fundamental do Decreto-Lei duzentos. Musgrave: alocativa, distributiva e estabilizadora. Orçamento-programa integra planejamento e orçamento; base zero rejustifica tudo.
+
+Princípios: unidade, universalidade e anualidade na Lei quatro mil trezentos e vinte; exclusividade com duas ressalvas; não afetação só de impostos. Dever de execução restrito às discricionárias, parágrafos dez e onze do artigo cento e sessenta e cinco.
+
+Plano plurianual: diretrizes, objetivos e metas, regionalizados, para despesas de capital e programas de duração continuada; vigência do segundo ano do mandato ao primeiro do seguinte. Lei de diretrizes: metas e prioridades, política fiscal com trajetória sustentável da dívida, Anexos de Metas e de Riscos Fiscais. Lei orçamentária: fiscal, investimento das estatais com maioria do capital votante e seguridade social.
+
+Prazos: plano e orçamento até trinta e um de agosto, devolução até vinte e dois de dezembro; diretrizes até quinze de abril, devolução até dezessete de julho, sem a qual a sessão legislativa não se interrompe.
+
+Créditos: suplementar reforça, especial cria dotação, extraordinário atende o imprevisível e urgente por medida provisória; só especiais e extraordinários são reabertos. Emendas individuais em dois por cento e de bancada em um por cento da receita corrente líquida.
+
+Receita: correntes e de capital no artigo onze; antecipação de receita e depósitos fora do orçamento. Despesa: investimento cria capacidade, inversão transfere propriedade; juros correntes, amortização de capital. Projeto, atividade e operação especial. Empenho cria a obrigação, liquidação verifica o direito, pagamento só após liquidação.
+
+Fiscal: limitação de empenho bimestral do artigo nove, sem atingir obrigações legais e dívida; pessoal em cinquenta por cento da receita corrente líquida na União; regra de ouro ligada a despesas de capital. Lei Complementar duzentos: setenta ou cinquenta por cento da receita, crescimento real entre zero vírgula seis e dois vírgula cinco por cento, banda de zero vírgula vinte e cinco ponto do pib. Sustentabilidade: artigos cento e sessenta e quatro-A e cento e sessenta e sete-A, parágrafo sétimo do artigo cento e sessenta e sete e artigo quarenta e cinco da Lei de Responsabilidade Fiscal.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em período de recessão, a ampliação de gastos públicos com o objetivo de sustentar o nível de emprego corresponde ao exercício da função estabilizadora do orçamento.
+
+Gabarito: certo. A política fiscal anticíclica voltada a emprego e preços é a função estabilizadora de Musgrave.
+
+
+Item dois. O orçamento-programa caracteriza-se por enfatizar o objeto do gasto, discriminando os itens que o governo adquire, como pessoal e material, sem vinculação a objetivos e metas.
+
+Gabarito: errado. Essa descrição corresponde ao orçamento tradicional; o orçamento-programa organiza o gasto por programas com objetivos, metas e indicadores.
+
+
+Item três. A lei orçamentária anual pode conter autorização para abertura de créditos suplementares sem ofender o princípio da exclusividade.
+
+Gabarito: certo. Artigo cento e sessenta e cinco, parágrafo oitavo, da Constituição.
+
+
+Item quatro. A lei que instituir o plano plurianual estabelecerá, de forma regionalizada, as diretrizes, objetivos e metas da administração pública federal para as despesas de capital e outras delas decorrentes e para as relativas aos programas de duração continuada.
+
+Gabarito: certo. Literalidade do artigo cento e sessenta e cinco, parágrafo primeiro.
+
+
+Item cinco. Um ministério iniciou, com dotação prevista na lei orçamentária anual, obra cuja execução se estenderá por três exercícios, sem que o investimento constasse do plano plurianual ou de lei que autorizasse sua inclusão. A existência de dotação orçamentária afasta a irregularidade.
+
+Gabarito: errado. O artigo cento e sessenta e sete, parágrafo primeiro, exige prévia inclusão no plano plurianual, sob pena de crime de responsabilidade.
+
+
+Item seis. Integra a lei de diretrizes orçamentárias o Anexo de Riscos Fiscais, no qual são avaliados os passivos contingentes e outros riscos capazes de afetar as contas públicas.
+
+Gabarito: certo. Artigo quarto, parágrafo terceiro, da Lei de Responsabilidade Fiscal.
+
+
+Item sete. O projeto de lei de diretrizes orçamentárias da União deve ser encaminhado ao Congresso Nacional até quatro meses antes do encerramento do exercício financeiro.
+
+Gabarito: errado. O prazo é de oito meses e meio antes do encerramento do exercício, até quinze de abril; quatro meses é o prazo do plano plurianual e da lei orçamentária.
+
+
+Item oito. Na União, a abertura de crédito extraordinário para atender despesas decorrentes de calamidade pública pode ser feita por medida provisória.
+
+Gabarito: certo. Artigo cento e sessenta e sete, parágrafo terceiro, combinado com o artigo sessenta e dois, que ressalva o crédito extraordinário da vedação de medida provisória em matéria orçamentária.
+
+
+Item nove. Crédito especial autorizado por lei promulgada em outubro poderá, nos limites do seu saldo, ser reaberto e incorporado ao orçamento do exercício seguinte.
+
+Gabarito: certo. Outubro está nos últimos quatro meses do exercício, hipótese de reabertura do artigo cento e sessenta e sete, parágrafo segundo.
+
+
+Item dez. As receitas provenientes da alienação de bens e da contratação de operações de crédito classificam-se como receitas de capital.
+
+Gabarito: certo. Artigo onze, parágrafo segundo, da Lei quatro mil trezentos e vinte.
+
+
+Item onze. A aquisição, pela União, de ações de empresa já constituída, sem que a operação importe aumento do seu capital, classifica-se como investimento.
+
+Gabarito: errado. É inversão financeira, pelo artigo doze, parágrafo quinto, da Lei quatro mil trezentos e vinte.
+
+
+Item doze. Um auditor constatou que um órgão efetuou pagamento a empresa de desenvolvimento de sistemas antes de atestar a entrega do módulo contratado, apesar de haver empenho prévio. O procedimento é regular, pois o empenho é suficiente para autorizar o pagamento.
+
+Gabarito: errado. Pelo artigo sessenta e dois da Lei quatro mil trezentos e vinte, o pagamento só pode ocorrer após a regular liquidação, que verifica o direito adquirido pelo credor.
+
+
+Item treze. Na classificação programática, a manutenção contínua de um sistema de atendimento ao cidadão já implantado constitui um projeto, por resultar em produto concreto.
+
+Gabarito: errado. Operações contínuas e permanentes necessárias à manutenção da ação de governo são atividades; projeto é limitado no tempo e expande ou aperfeiçoa a ação.
+
+
+Item catorze. Verificado, ao final de um bimestre, que a receita poderá não comportar o cumprimento das metas fiscais, os Poderes e o Ministério Público promoverão, por ato próprio, limitação de empenho e movimentação financeira nos trinta dias subsequentes.
+
+Gabarito: certo. Artigo nove, caput, da Lei de Responsabilidade Fiscal.
+
+
+Item quinze. No regime fiscal sustentável instituído pela Lei Complementar duzentos, de dois mil e vinte e três, o crescimento real dos limites de despesa primária é sempre igual à variação real da receita primária, sem piso nem teto.
+
+Gabarito: errado. O crescimento corresponde a setenta ou cinquenta por cento da variação real da receita, conforme o cumprimento da meta, e fica entre zero vírgula seis e dois vírgula cinco por cento ao ano.
+
+
+Item dezesseis. Pela Constituição, a lei não poderá transferir aos municípios encargo financeiro decorrente da prestação de serviço público, inclusive despesas de pessoal, sem a previsão da fonte orçamentária e financeira necessária ou da correspondente transferência de recursos.
+
+Gabarito: certo. Artigo cento e sessenta e sete, parágrafo sétimo, incluído pela Emenda Constitucional cento e vinte e oito, de dois mil e vinte e dois.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto quatro ponto cinco, serviços e transformação digital.
