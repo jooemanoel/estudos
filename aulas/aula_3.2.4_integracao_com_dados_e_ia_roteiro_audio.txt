@@ -1,0 +1,357 @@
+AUDIOAULA. ITEM TRÊS PONTO DOIS PONTO QUATRO DO EDITAL: INTEGRAÇÃO COM DADOS E INTELIGÊNCIA ARTIFICIAL
+
+
+ABERTURA
+
+Este é o item três ponto dois ponto quatro, integração com dados e inteligência artificial. Ele tem cinco subitens, tratados aqui em seis blocos, porque o primeiro foi dividido em dois: consumo e disponibilização de serviços de dados; consumo e disponibilização de modelos de linguagem; representações vetoriais, busca semântica e recuperação de informação para geração de respostas; agentes e ferramentas; avaliação funcional de respostas e fontes; e limites de autorização, supervisão e proteção contra instruções maliciosas em conteúdo externo. A banca tende a explorar o que o modelo guarda entre as chamadas, a diferença entre busca semântica e lexical, quem executa as ferramentas, os limites das métricas automáticas e a injeção indireta de instruções.
+
+
+BLOCO UM: CONSUMO E DISPONIBILIZAÇÃO DE SERVIÇOS DE DADOS
+
+Contratos de á pê í, paginação e limitação de taxa foram vistos no item três ponto dois ponto dois; repetição de requisições e evolução de esquemas, no item três ponto dois ponto três; e o compartilhamento de dados entre órgãos, com o Decreto dez mil e quarenta e seis, no item três ponto um ponto cinco. Aqui entram as formas de entregar e de receber dados e as regras de dados abertos.
+
+Um serviço de dados entrega dados a outros sistemas, e não telas a pessoas. Há três formas principais. A consulta por á pê í atende perguntas pontuais, como os dados de um contrato, com filtros e paginação. A á pê í de dados do Portal da Transparência, mantido pela Controladoria, segue esse modelo: exige cadastro para obter uma chave de acesso, enviada em cabeçalho, e limita as requisições por minuto. A carga em lote entrega a base inteira, ou um recorte dela, em arquivos, e é a forma adequada para analisar grandes volumes: percorrer todos os contratos de um ano por uma á pê í paginada é lento e sobrecarrega o servidor. E o fluxo de mudanças publica cada alteração como evento, para quem precisa acompanhar as atualizações quase em tempo real.
+
+Na carga recorrente, a extração completa copia tudo a cada execução: é simples, mas cara. A extração incremental traz só o que mudou desde a última execução, com base na data de atualização de cada registro ou em um registro de mudanças. O ponto fraco da incremental pela data são as exclusões. Um registro apagado fisicamente na origem deixa de existir e não aparece no filtro. A origem precisa sinalizar a exclusão, por exemplo, marcando o registro como excluído em vez de removê-lo.
+
+O cê ésse vê é texto tabular simples e universal, mas não carrega tipos. Consumidor e provedor precisam combinar separador, codificação de caracteres e formato de números e datas, e um campo de cê pê éfe lido como número perde os zeros à esquerda. O djêisson tem estrutura aninhada e alguns tipos básicos, como texto, número, lógico e nulo, mas não tem tipo de data, que circula como texto em formato padronizado. O parquê é um formato colunar, comprimido e com esquema embutido: guarda juntos os valores de cada coluna, o que torna muito eficiente ler poucas colunas de uma base com milhões de linhas, situação típica de análise.
+
+Quem consome não deve confiar cegamente no que recebe. Na entrada, validam-se o esquema e as regras básicas, como o dígito verificador do cê pê éfe e a plausibilidade das datas. Registros inválidos vão para uma área de quarentena, com o motivo da rejeição, em vez de serem descartados em silêncio ou de contaminarem a base. E a qualidade é medida em dimensões como completude, exatidão, consistência entre bases, atualidade, validade e unicidade.
+
+Quem oferece deve publicar, junto com os dados, o dicionário de dados, com o significado de cada campo, a unidade, a moeda e o fuso horário; a periodicidade de atualização; o responsável; e a versão do formato, para que mudanças incompatíveis não quebrem os consumidores.
+
+A base normativa dos dados abertos tem duas peças. A primeira é a Lei de Acesso à Informação, a Lei doze mil quinhentos e vinte e sete, de dois mil e onze. O artigo oitavo, parágrafo terceiro, exige que os sítios oficiais permitam gravar relatórios em diversos formatos eletrônicos, inclusive abertos e não proprietários, no inciso segundo; possibilitem o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina, no inciso terceiro; e divulguem em detalhes os formatos usados para estruturar a informação, no inciso quarto. Os incisos seguintes exigem autenticidade, integridade e atualização das informações.
+
+A segunda é o Decreto oito mil setecentos e setenta e sete, de dois mil e dezesseis, que institui a Política de Dados Abertos do Poder Executivo federal. Ele define dados abertos como dados acessíveis ao público, representados em meio digital, estruturados em formato aberto, processáveis por máquina, referenciados na internet e disponibilizados sob licença aberta que permita sua livre utilização, consumo ou cruzamento, limitando-se a creditar a autoria ou a fonte. Entre os princípios do artigo terceiro estão: bases legíveis por máquina e em formato aberto; descrição suficiente para compreender ressalvas sobre qualidade e integridade; permissão irrestrita de reúso; disponibilização na forma primária, com o maior grau de granularidade possível; atualização periódica; e responsável claramente designado para cada base. Desde o Decreto nove mil novecentos e três, de dois mil e dezenove, a gestão da política é coordenada pela Controladoria-Geral da União, por meio da Infraestrutura Nacional de Dados Abertos.
+
+Formato aberto não basta para haver dado aberto. O pê dê éfe é formato aberto, mas uma tabela publicada nele não é estruturada para processamento por máquina. E um arquivo estruturado sem licença aberta também não cumpre a definição.
+
+Dado pessoal não perde a proteção por estar em base pública. O artigo sétimo, parágrafo terceiro, da Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, manda considerar, no tratamento de dados pessoais de acesso público, a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização. A transparência como meio de controle e o plano de dados abertos de cada órgão são temas dos itens dois ponto dois ponto quatro e três ponto quatro ponto quatro.
+
+Pegadinhas do bloco um.
+
+Por ser o pê dê éfe um formato aberto, publicar as bases nesse formato atende à política de dados abertos. Errado. A tabela em pê dê éfe não é estruturada para processamento por máquina, e dado aberto exige ainda licença aberta.
+
+A extração incremental pela data de atualização capta todas as mudanças da origem. Errado. Exclusões físicas não aparecem nesse filtro; a origem precisa sinalizá-las.
+
+O cê ésse vê preserva os tipos dos campos, como números e datas. Errado. É texto puro; os tipos dependem do que as partes combinam.
+
+O parquê guarda os dados linha a linha. Errado. É colunar, o que favorece a leitura de poucas colunas em grandes volumes.
+
+Dados pessoais publicados para fins de transparência podem ser reutilizados para qualquer finalidade, por serem públicos. Errado. O artigo sétimo, parágrafo terceiro, da Lei Geral de Proteção de Dados exige considerar a finalidade, a boa-fé e o interesse público da disponibilização.
+
+
+BLOCO DOIS: CONSUMO E DISPONIBILIZAÇÃO DE MODELOS DE LINGUAGEM
+
+As oportunidades e os riscos da inteligência artificial na administração, inclusive as alucinações, foram vistos no item um ponto quatro ponto cinco. Aqui entra a integração técnica com os modelos.
+
+Um grande modelo de linguagem, em inglês éle éle ême, é treinado para prever o próximo pedaço de texto a partir dos anteriores, e gera a resposta repetindo essa previsão. Esses pedaços são os tôquens: partes de palavras, palavras inteiras ou sinais. Tôquen não é palavra, e em português a mesma frase costuma consumir mais tôquens do que em inglês. Limites, custo e velocidade são medidos em tôquens.
+
+A janela de contexto é o máximo de tôquens que o modelo considera em uma chamada, somando a entrada e a saída. Tudo o que ele usa para responder precisa caber nela: instruções, histórico, documentos e a própria resposta.
+
+O modelo não aprende durante o uso. Seus parâmetros são fixados no treinamento, e seu conhecimento vai até a data de corte desse treinamento. Na forma mais comum de integração, a á pê í de mensagens, cada chamada é independente: para manter uma conversa, a aplicação reenvia o histórico a cada chamada. Alguns provedores oferecem guardar a conversa no servidor, mas isso é armazenamento do serviço, e não memória do modelo. Uma norma publicada depois da data de corte só chega ao modelo se a aplicação a puser no contexto, tema do bloco três.
+
+A requisição leva a instrução de sistema, com as regras gerais da aplicação, como papel, limites e formato da resposta, e a lista de mensagens, cada uma com seu papel: as do usuário trazem os pedidos, e as do assistente, as respostas anteriores. Junto vão parâmetros. A temperatura controla a aleatoriedade na escolha dos tôquens: valores altos dão respostas mais variadas; valores baixos, mais estáveis. Temperatura zero reduz a variação, mas não garante respostas idênticas. O limite de tôquens de saída corta a resposta. Quando ele é atingido, a á pê í não devolve erro: devolve o texto incompleto e informa o motivo da parada, que a aplicação precisa conferir antes de usar a resposta.
+
+Três recursos são frequentes. A resposta em fluxo, em inglês strímin, envia o texto à medida que é gerado, em geral por eventos enviados pelo servidor. Ela reduz o tempo até o primeiro trecho aparecer para o usuário, mas não o tempo total de geração. A saída estruturada faz o modelo responder em djêisson conforme um esquema informado, o que é útil quando outro sistema vai ler a resposta. O formato pode ser garantido; o conteúdo, não, e as regras de negócio continuam sendo validadas. E o processamento em lote, assíncrono, atende grandes volumes sem urgência, com custo menor.
+
+O custo é cobrado por tôquen, com preços diferentes para entrada e saída, e a saída costuma custar mais. Os provedores limitam requisições e tôquens por minuto e respondem quatrocentos e vinte e nove quando o limite é ultrapassado, caso tratado com a repetição vista no item três ponto dois ponto três. Respostas longas levam de segundos a dezenas de segundos, o que exige prazo limite compatível.
+
+O modelo é uma dependência que muda. A aplicação deve fixar a versão específica, e não usar um apelido que aponta sempre para a mais recente, porque uma troca silenciosa altera o comportamento. Versões antigas são descontinuadas em datas anunciadas, e cada troca exige nova avaliação, tema do bloco cinco. Uma camada de abstração entre a aplicação e o provedor facilita a troca; no djava, o Sprín éi ái oferece um cliente de conversa comum a vários provedores.
+
+Há três caminhos de hospedagem. O serviço do provedor pela internet é o mais simples e dá acesso aos modelos mais capazes, mas os dados saem da infraestrutura do órgão. O modelo contratado em um provedor de nuvem, com região de processamento e condições contratuais definidas, é um meio-termo. E o modelo de pesos abertos, executado na infraestrutura do próprio órgão, mantém os dados em casa, ao custo de operar servidores com processadores gráficos e de acompanhar a evolução dos modelos por conta própria.
+
+Enviar dados pessoais ao modelo é tratamento de dados. O provedor que os trata apenas para atender o órgão é operador, definido no artigo quinto, inciso sétimo, da Lei Geral de Proteção de Dados, e deve seguir as instruções do controlador, conforme o artigo trinta e nove. Se as descumprir, por exemplo, usando os dados para treinar seus modelos sem autorização, responde solidariamente pelos danos e se equipara ao controlador, conforme o artigo quarenta e dois, parágrafo primeiro, inciso primeiro. Por isso o contrato deve vedar esse uso de forma expressa.
+
+Se os dados forem tratados fora do país, há transferência internacional, mesmo que o provedor seja só operador. O artigo trinta e três admite a transferência apenas nas hipóteses que lista, como país com grau de proteção adequado ou cláusulas-padrão contratuais. A Resolução número dezenove, de dois mil e vinte e quatro, do Conselho Diretor da Autoridade Nacional de Proteção de Dados, regulamentou a transferência internacional e aprovou o texto das cláusulas-padrão.
+
+O princípio da necessidade, visto no item três ponto dois ponto três, manda enviar só o indispensável: substituir cê pê éfe, nomes e endereços por marcadores quando a tarefa não depende deles. O dado assim pseudonimizado continua sendo dado pessoal, porque o órgão pode desfazer a substituição. Anonimização e risco de reidentificação são tema do item dois ponto dois ponto dois.
+
+Disponibilizar modelos aos sistemas do órgão pede uma camada própria, um guêituei de modelos. Ele centraliza a autenticação dos sistemas clientes, as cotas por sistema e por usuário, o registro de uso e de custo, o mascaramento de dados pessoais antes do envio e a escolha do provedor. Os sistemas internos chamam um endpóinti do órgão, e não o provedor, e a chave do provedor fica só no guêituei. Os registros devem servir à auditoria sem virar um novo depósito de dados pessoais: guardam metadados por padrão, guardam conteúdo só quando necessário e têm prazo de retenção. Latência, disponibilidade e troca para outro modelo quando o provedor falha são temas do item três ponto dois ponto cinco.
+
+Exemplo prático. Um sistema da Controladoria vai resumir, durante a noite, milhares de manifestações de ouvidoria com um modelo de provedor externo. O desenho adequado chama o modelo pelo guêituei do órgão; substitui cê pê éfe, nomes e telefones por marcadores antes do envio; usa o processamento em lote; fixa a versão do modelo; confere o motivo da parada de cada resposta; e se apoia em contrato que veda o uso dos dados para treinamento e define onde eles são tratados.
+
+Pegadinhas do bloco dois.
+
+O modelo de linguagem aprende com as chamadas e passa a lembrar os dados das conversas anteriores. Errado. Os parâmetros são fixos depois do treinamento; a continuidade depende do histórico reenviado pela aplicação.
+
+Com temperatura zero, o modelo sempre produz a mesma resposta para a mesma entrada. Errado. A variação diminui, mas a repetição exata não é garantida.
+
+Quando a resposta atinge o limite de tôquens de saída, a á pê í devolve erro. Errado. Devolve o texto incompleto e informa o motivo da parada.
+
+A resposta em fluxo reduz o tempo total de geração. Errado. Reduz o tempo até o primeiro trecho exibido.
+
+A saída estruturada dispensa a validação da resposta. Errado. Pode garantir o formato, mas não a correção do conteúdo.
+
+Quando o provedor do modelo atua só como operador, o tratamento dos dados no exterior não configura transferência internacional. Errado. Há transferência internacional, sujeita às hipóteses do artigo trinta e três.
+
+O dado pseudonimizado antes do envio deixa de ser dado pessoal. Errado. Como a substituição pode ser desfeita pelo órgão, ele continua pessoal.
+
+
+BLOCO TRÊS: REPRESENTAÇÕES VETORIAIS, BUSCA SEMÂNTICA E RECUPERAÇÃO DE INFORMAÇÃO PARA GERAÇÃO DE RESPOSTAS
+
+A busca tradicional é lexical: encontra os documentos que contêm as palavras da consulta. Usa um índice invertido, que liga cada termo aos documentos em que ele aparece, e ordena os resultados por funções como a bê ême vinte e cinco, que valoriza termos frequentes no documento e raros na coleção e compensa o tamanho dos textos. É rápida e precisa para termos exatos, mas não reconhece sinônimos: quem procura rescisão de contrato não encontra o texto que fala em extinção do ajuste.
+
+A representação vetorial, em inglês embédingue, transforma um texto em um vetor, uma lista de números de tamanho fixo, com centenas ou milhares de dimensões. Ela é produzida por um modelo treinado para que textos de significado parecido gerem vetores próximos. A busca semântica converte a pergunta em vetor e devolve os documentos de vetores mais próximos. Encontra paráfrases e sinônimos, mesmo sem palavras em comum.
+
+A proximidade é medida de três formas principais. A similaridade de cosseno mede o ângulo entre os vetores, varia de menos um a um e ignora o comprimento deles. O produto escalar combina ângulo e comprimento. E a distância euclidiana mede a separação em linha reta. Quando os vetores são normalizados para comprimento um, como fazem muitos modelos, cosseno e produto escalar coincidem, e as três medidas produzem a mesma ordem de resultados.
+
+O vetor só tem sentido no espaço do modelo que o gerou. Documentos e perguntas precisam ser convertidos pelo mesmo modelo. Vetores de modelos diferentes não são comparáveis, mesmo com o mesmo número de dimensões, e trocar o modelo de representação exige reprocessar toda a base.
+
+A busca semântica não substitui a lexical. Para identificadores exatos, como número de processo, cê ene pê jota, sigla ou número de portaria, a busca lexical é mais confiável, porque o vetor capta o sentido geral e pode aproximar números diferentes. Por isso é comum a busca híbrida, que executa as duas e combina as listas. Uma técnica usual é a fusão pela posição recíproca, que combina os resultados pela posição de cada documento em cada lista, sem comparar as pontuações, que estão em escalas diferentes.
+
+Comparar a pergunta com todos os vetores da base é a busca exata, cujo custo cresce com o tamanho da base. Em bases grandes, usam-se índices de busca aproximada de vizinhos mais próximos. O mais comum é o agá éne ésse dáblio, um grafo em camadas pelo qual a busca navega em direção aos vizinhos da pergunta. Outro tipo divide os vetores em grupos e examina só os grupos mais próximos. Esses índices trocam um pouco de revocação, que é a proporção dos vizinhos verdadeiros encontrados, por grande ganho de velocidade, e seus parâmetros regulam esse equilíbrio. Os vetores podem ficar em bancos especializados ou em bancos relacionais com extensões, como a pê guê véctor, do Póstgres, que oferece os dois tipos de índice. Índices de banco de dados em geral são tema do item três ponto três ponto dois.
+
+A geração aumentada por recuperação, conhecida pela sigla em inglês rég, combina busca e modelo de linguagem em duas fases. Na ingestão, os documentos são extraídos, limpos, divididos em trechos, convertidos em vetores e indexados com metadados, como fonte, data, vigência e nível de acesso. Na consulta, a pergunta vira vetor, os trechos mais próximos são recuperados, e a aplicação monta a chamada ao modelo com as instruções, a pergunta e esses trechos. As instruções pedem que a resposta se baseie nos trechos, indique de onde veio cada afirmação e declare quando a informação não estiver neles.
+
+A divisão em trechos é decisão de projeto. Trechos grandes diluem o significado em um único vetor e consomem contexto; trechos pequenos perdem o contexto necessário para serem entendidos. É comum uma sobreposição entre trechos vizinhos, para que uma ideia não fique cortada ao meio, e a divisão pela estrutura do documento. Em normas, dividir por artigo, mantendo juntos caput, incisos e parágrafos e anotando a norma e a vigência, funciona melhor do que cortar a cada número fixo de caracteres.
+
+A ordem dos resultados pode ser refinada por reordenação. Na busca vetorial, pergunta e documento são convertidos separadamente, e os vetores dos documentos são calculados uma vez só, o que a torna rápida. O modelo de reordenação, chamado de codificador cruzado, lê a pergunta e cada candidato juntos e avalia a relevância com mais precisão, mas é caro. Por isso só reordena os primeiros candidatos, por exemplo, os cinquenta mais próximos, dos quais se aproveitam os cinco melhores.
+
+O rég tem vantagens sobre confiar só no que o modelo aprendeu: usa documentos atuais e internos, permite citar a fonte e permite aplicar o controle de acesso na recuperação, tema do bloco seis. Mas reduz as alucinações, sem eliminá-las. Se a recuperação traz o trecho errado ou desatualizado, a resposta sai errada com aparência de bem fundamentada. E o modelo pode ignorar ou interpretar mal um trecho correto.
+
+Há duas alternativas. O ajuste fino retreina o modelo com exemplos e altera seus parâmetros. Serve para ensinar formato, estilo ou uma tarefa específica, mas é ruim para conhecimento que muda, porque cada atualização exige novo treinamento, e não oferece citação de fonte. Já pôr todos os documentos no contexto, sem busca, só funciona para bases pequenas: esbarra no tamanho da janela, aumenta custo e latência, e os modelos tendem a aproveitar pior a informação que fica no meio de contextos longos, efeito conhecido como perdido no meio.
+
+Os vetores herdam a natureza dos textos. Pesquisas mostram que é possível reconstruir boa parte de um texto a partir de seu vetor, de modo que o vetor de um trecho com dados pessoais também é dado pessoal. Quando um documento deve ser eliminado, seus trechos e vetores também devem ser.
+
+Exemplo prático. Um assistente responde perguntas de auditores sobre as normas internas da Controladoria. As portarias são divididas por artigo, com metadados de número, data e vigência. A busca é híbrida, para acertar tanto uma pergunta em linguagem comum sobre prazos quanto a busca pelo número exato de uma portaria. Normas revogadas ficam fora do índice ou marcadas como tal, e cada resposta indica o artigo e a portaria de onde saiu.
+
+Pegadinhas do bloco três.
+
+A busca semântica é sempre superior à lexical. Errado. Para identificadores exatos, a lexical é mais confiável; por isso se usa a busca híbrida.
+
+Vetores gerados por modelos diferentes podem ser comparados, desde que tenham o mesmo número de dimensões. Errado. Cada modelo tem seu próprio espaço; trocar o modelo exige reprocessar a base.
+
+A similaridade de cosseno considera o comprimento dos vetores. Errado. Mede só o ângulo entre eles.
+
+Índices de busca aproximada, como o agá éne ésse dáblio, devolvem sempre os vizinhos exatos. Errado. Trocam um pouco de revocação por velocidade.
+
+O rég elimina as alucinações, porque a resposta se baseia em documentos. Errado. Reduz o problema, mas a recuperação pode falhar e o modelo pode interpretar mal os trechos.
+
+O rég incorpora o conteúdo dos documentos aos parâmetros do modelo. Errado. Os trechos entram no contexto de cada chamada; quem altera parâmetros é o ajuste fino.
+
+
+BLOCO QUATRO: AGENTES E FERRAMENTAS
+
+Na chamada de ferramentas, a aplicação informa ao modelo, junto com a conversa, as ferramentas disponíveis, cada uma com nome, descrição e esquema djêisson dos parâmetros. Quando a tarefa pede, o modelo, em vez de responder com texto livre, devolve um pedido estruturado com o nome da ferramenta e os argumentos. Quem executa é a aplicação: ela chama a função, a á pê í ou a consulta correspondente e devolve o resultado ao modelo, em nova mensagem, para que ele continue. Alguns provedores oferecem ferramentas hospedadas, como busca na internet, executadas pela plataforma deles. Em nenhum caso o modelo executa algo por conta própria: ele só produz texto, e o pedido de ferramenta é texto estruturado.
+
+A descrição da ferramenta funciona como documentação para o modelo, e dela depende a escolha da ferramenta certa. Ferramentas específicas, como consultar processo por número, são mais seguras e previsíveis do que ferramentas genéricas, como executar qualquer consulta em ésse quê éle. Os argumentos produzidos pelo modelo são entrada não confiável: o serviço que executa a ferramenta os valida como validaria dados digitados por uma pessoa. Ferramentas com efeito, como registrar uma providência, devem ser idempotentes, com as técnicas vistas no item três ponto dois ponto três. E os erros voltam ao modelo em mensagem clara, para que ele possa corrigir o pedido. No Sprín éi ái, uma ferramenta pode ser declarada como método anotado com arroba tul, cuja descrição é enviada ao modelo.
+
+Agente é o sistema em que o modelo conduz, em ciclo, o uso de ferramentas para atingir um objetivo. A cada volta, o modelo decide o próximo passo, a aplicação executa a ferramenta, e o resultado volta ao modelo, que decide de novo, até concluir ou atingir um limite. O padrão riáct, de raciocinar e agir, descreve essa alternância entre raciocínio, ação e observação do resultado.
+
+A distinção central é entre fluxo predefinido e agente. No fluxo predefinido, o código fixa a sequência de passos e chama o modelo em pontos determinados: é previsível, testável e mais barato. No agente, o próprio modelo decide o caminho: é flexível, mas menos previsível, mais caro e mais difícil de auditar. A orientação é usar a solução mais simples que resolva o problema e reservar o agente para tarefas cujo caminho não se conhece de antemão. A escolha entre inteligência artificial, solução simples e revisão humana é tema do item dois ponto quatro ponto cinco.
+
+Os fluxos predefinidos seguem padrões conhecidos. No encadeamento, a tarefa é dividida em etapas, e a saída de uma alimenta a seguinte, com verificações entre elas. No roteamento, a entrada é classificada e encaminhada ao tratamento adequado. Na paralelização, partes independentes são executadas ao mesmo tempo. No padrão orquestrador e trabalhadores, um modelo divide a tarefa e distribui as partes a outros. E no padrão avaliador e otimizador, um modelo gera e outro critica, em ciclos.
+
+A memória do agente tem dois níveis. A de curto prazo é o próprio contexto da conversa, limitado pela janela; em tarefas longas, a aplicação resume ou descarta o que já não serve. A de longo prazo fica em armazenamento externo e é recuperada quando necessária, muitas vezes por busca vetorial. Sistemas com vários agentes, em que um orquestrador delega partes da tarefa a subagentes, distribuem o contexto, mas multiplicam custo e pontos de falha.
+
+Os limites do agente são impostos pela aplicação, e não pelo modelo: número máximo de passos, prazo e orçamento de tôquens. Sem eles, o agente pode entrar em ciclo, repetindo a mesma ferramenta indefinidamente, com custo crescente.
+
+Para padronizar a ligação entre aplicações de inteligência artificial e fontes externas, existe o protocolo de contexto de modelo, o ême cê pê, protocolo aberto lançado em dois mil e vinte e quatro e adotado por vários fornecedores. Ele tem três papéis. O hospedeiro é a aplicação de inteligência artificial, como um assistente de conversa ou um ambiente de desenvolvimento. O cliente é o componente, dentro do hospedeiro, que mantém a conexão com um servidor. E o servidor expõe capacidades de três tipos: ferramentas, que o modelo pode pedir para executar; recursos, que são dados oferecidos como contexto; e instruções predefinidas, oferecidas ao usuário como atalhos. As mensagens seguem o formato djêisson érre pê cê. O transporte pode ser local, pela entrada e saída padrão de um processo, ou remoto, por agá tê tê pê, e para servidores remotos a especificação define autorização baseada no ô áuti, visto no item três ponto dois ponto dois. O ganho é de integração: uma ferramenta exposta uma vez como servidor serve a qualquer hospedeiro compatível. O ême cê pê não é modelo, não decide nada e não dispensa o controle de acesso em cada servidor.
+
+Para a comunicação entre agentes, há protocolos próprios, como o agente a agente, conhecido como á dois á, em que cada agente publica um cartão que descreve suas capacidades. O ême cê pê liga o agente a ferramentas e dados; o á dois á liga agentes entre si.
+
+Exemplo prático. Classificar manifestações de ouvidoria em categorias fixas e encaminhá-las à área competente é fluxo predefinido, com um passo de roteamento feito pelo modelo. Investigar se um grupo de empresas licitantes tem sócios em comum, consultando bases diferentes conforme o que vai sendo encontrado, é tarefa cujo caminho não se conhece de antemão e pode justificar um agente, com ferramentas só de leitura.
+
+Pegadinhas do bloco quatro.
+
+Na chamada de ferramentas, o modelo executa a função indicada e devolve o resultado. Errado. O modelo só pede; quem executa é a aplicação.
+
+Os argumentos gerados pelo modelo seguem o esquema declarado e, por isso, dispensam validação. Errado. São entrada não confiável, validada pelo serviço que executa a ferramenta.
+
+Agentes são sempre preferíveis a fluxos predefinidos, por serem mais flexíveis. Errado. O fluxo predefinido é mais previsível e barato; o agente se justifica quando o caminho não é conhecido.
+
+O ciclo do agente termina apenas quando o modelo declara a tarefa concluída. Errado. A aplicação impõe limites de passos, prazo e custo.
+
+O ême cê pê é um modelo de linguagem especializado em ferramentas. Errado. É protocolo de comunicação entre aplicações de inteligência artificial e servidores de ferramentas, recursos e instruções.
+
+O ême cê pê e o á dois á têm a mesma finalidade. Errado. O primeiro liga agentes a ferramentas e dados; o segundo, agentes entre si.
+
+
+BLOCO CINCO: AVALIAÇÃO FUNCIONAL DE RESPOSTAS E FONTES
+
+Avaliação funcional verifica se a resposta cumpre a tarefa: se está correta, completa, pertinente e apoiada em fontes adequadas. Latência, custo e disponibilidade são requisitos não funcionais, tratados no item três ponto dois ponto cinco.
+
+O teste tradicional compara a saída com um valor esperado. Com modelos de linguagem, isso não basta. A mesma pergunta admite muitas respostas corretas, com palavras diferentes, e a mesma entrada pode gerar respostas diferentes a cada execução. Por isso a avaliação usa conjuntos de casos, critérios explícitos e taxas de acerto medidas em várias execuções, e não uma execução única aprovada.
+
+A base é o conjunto de referência: perguntas representativas do uso real, com a resposta esperada, ou seus pontos essenciais, e as fontes que deveriam ser usadas. Ele inclui perguntas sem resposta na base, para testar se o sistema reconhece que não sabe; perguntas ambíguas; perguntas cuja resposta mudou com norma nova; e tentativas de manipulação, tema do bloco seis. O conjunto é versionado e reaplicado a cada troca de modelo, de instruções, de divisão em trechos ou de modelo de representação, como teste de regressão.
+
+Em sistemas de rég, avaliam-se separadamente a recuperação e a geração, para localizar a falha. Na recuperação, a precisão nos cá primeiros resultados é a fração dos trechos recuperados que são relevantes. A revocação nos cá primeiros é a fração dos trechos relevantes existentes que apareceram entre os recuperados. E a posição recíproca média considera a posição do primeiro resultado relevante: no primeiro lugar, vale um; no segundo, meio; no terceiro, um terço; e tira-se a média entre as perguntas. Se o trecho certo não foi recuperado, nenhum ajuste nas instruções de geração resolve.
+
+Na geração, há quatro critérios principais. Fidelidade: cada afirmação da resposta está apoiada nos trechos fornecidos. Pertinência: a resposta trata da pergunta feita. Correção: a resposta coincide com a de referência. E completude: cobre os pontos essenciais. Fidelidade e correção são coisas diferentes: a resposta pode ser fiel a um trecho desatualizado e, ainda assim, estar errada.
+
+As citações têm avaliação própria. Verifica-se se a fonte citada existe, se está entre as recuperadas e se de fato sustenta a afirmação a que foi ligada. Modelos podem inventar referências ou ligar uma afirmação correta à fonte errada. Daí duas medidas: a precisão das citações, que é a fração das citações que sustentam a afirmação ligada a elas, e a revocação das citações, que é a fração das afirmações que precisavam de apoio e o receberam.
+
+A própria fonte também é avaliada: autoridade, como o texto oficial em vez de uma página de terceiros; vigência, porque a norma pode ter sido alterada ou revogada; integridade da versão usada; e pertinência à pergunta. Em matéria normativa, a fonte confiável é o texto oficial consolidado, conferido na data da resposta.
+
+Os métodos de avaliação são quatro. As verificações determinísticas conferem o que regras simples conseguem: djêisson válido, presença de citação, citação entre as fontes recuperadas, ausência de cê pê éfe na saída e tamanho máximo. São baratas e podem rodar em toda resposta, e não só nos testes.
+
+As métricas de sobreposição, como a blú e a rúji, contam palavras e sequências de palavras em comum com uma resposta de referência. São baratas, mas medem forma, e não verdade: uma paráfrase correta pode ter nota baixa, e uma resposta que inverte o sentido com um único não pode ter nota alta.
+
+O modelo como juiz usa outro modelo, com uma rubrica, para dar notas ou comparar respostas. Escala bem, mas tem vieses conhecidos: tende a favorecer a resposta apresentada primeiro, as respostas mais longas e as de modelos da mesma família. Por isso é calibrado contra avaliação humana em uma amostra, com a versão do juiz fixada.
+
+E a avaliação humana por especialistas, com rubrica clara, é a referência de qualidade, mas é cara e lenta. É feita por amostragem, e a concordância entre avaliadores é medida, por exemplo, pelo coeficiente capa de Côuen, que desconta a concordância esperada por acaso.
+
+Em produção, a avaliação continua: retorno dos usuários, taxa de respostas sem informação encontrada, amostragem periódica para revisão humana e comparação entre versões com parte dos usuários antes da troca completa.
+
+Exemplo prático. A equipe do assistente de normas troca a divisão em trechos de tamanho fixo pela divisão por artigo. Antes de publicar, reaplica o conjunto de referência, com duzentas perguntas escritas por auditores. A revocação nos cinco primeiros sobe, mas a precisão das citações cai nas perguntas sobre anexos de portarias, que ficaram sem identificação de origem. A falha é corrigida antes de chegar aos usuários.
+
+Pegadinhas do bloco cinco.
+
+Nota alta em métrica de sobreposição, como a rúji, indica resposta correta. Errado. A métrica mede semelhança de palavras com a referência, e não correção.
+
+O modelo como juiz dispensa a avaliação humana. Errado. Tem vieses de posição, de tamanho e de preferência pela própria família e deve ser calibrado com avaliação humana.
+
+A resposta fiel aos trechos recuperados é necessariamente correta. Errado. O trecho pode estar desatualizado ou não ser pertinente à pergunta.
+
+A revocação nos cá primeiros é a fração dos resultados recuperados que são relevantes. Errado. Essa é a precisão; a revocação é a fração dos relevantes que foram recuperados.
+
+Basta avaliar a resposta final, sem separar recuperação e geração. Errado. A avaliação separada mostra em que etapa está a falha.
+
+O conjunto de referência deve conter só perguntas que têm resposta na base. Errado. Perguntas sem resposta testam se o sistema reconhece que não sabe.
+
+
+BLOCO SEIS: LIMITES DE AUTORIZAÇÃO, SUPERVISÃO E PROTEÇÃO CONTRA INSTRUÇÕES MALICIOSAS EM CONTEÚDO EXTERNO
+
+A base normativa da decisão automatizada e a supervisão humana proporcional ao risco foram vistas no item um ponto quatro ponto cinco; menor privilégio e quebra de controle de acesso, no item três ponto dois ponto dois. Aqui entram os controles técnicos.
+
+O ponto de partida é que o modelo não é barreira de segurança. Tudo o que está no contexto pode ser revelado, e o comportamento do modelo pode ser manipulado. Uma instrução de sistema que diga não mostre dados de outras unidades não é controle de acesso. A autorização é aplicada de forma determinística, fora do modelo: no serviço que executa cada ferramenta e na recuperação de documentos. O artigo quarenta e seis da Lei Geral de Proteção de Dados exige medidas de segurança, técnicas e administrativas, aptas a proteger os dados pessoais de acessos não autorizados, e isso vale para esses sistemas. A adoção dessas medidas desde a concepção é tema do item três ponto três ponto quatro.
+
+O agente age em nome de alguém e deve agir com as permissões dessa pessoa, e não com uma conta de serviço ampla. Quando um componente privilegiado executa pedidos de quem tem menos privilégios, ele pode ser induzido a usar sua autoridade em favor de quem não a tem. É o problema do deputado confuso. A solução é propagar a identidade do usuário até as ferramentas, por exemplo, com tôquen delegado de escopo limitado, e decidir a permissão no serviço. Como no ô áuti, o acesso efetivo é a interseção do que o usuário pode fazer com o que ele delegou ao agente.
+
+A identidade vem da sessão autenticada, e nunca de um argumento preenchido pelo modelo. Se a ferramenta de consulta recebe o identificador do usuário como parâmetro escolhido pelo modelo, basta convencer o modelo a trocá-lo.
+
+No rég, o filtro de permissão é aplicado na recuperação, com metadados de acesso em cada trecho, antes de o conteúdo entrar no contexto. Filtrar a resposta depois de gerada não funciona: o modelo já leu o conteúdo indevido e pode tê-lo incluído na resposta, inteiro ou parafraseado. Documentos de níveis de acesso diferentes no mesmo índice exigem esse filtro em toda consulta.
+
+A lista do ôuásp de riscos de aplicações com grandes modelos de linguagem, na edição de dois mil e vinte e cinco, chama de agência excessiva o risco de dar ao agente mais do que ele precisa, em três dimensões. Funcionalidade excessiva: uma ferramenta de excluir quando a tarefa só exige ler. Permissão excessiva: uma credencial com acesso a todas as bases. E autonomia excessiva: ação de alto impacto sem confirmação. A mesma lista põe a injeção de instruções em primeiro lugar e inclui ainda o tratamento inadequado da saída, o vazamento da instrução de sistema, as fragilidades de vetores e representações vetoriais e o consumo ilimitado, que esgota cotas e orçamento.
+
+A supervisão tem graus. Com o humano no circuito, a ação só ocorre depois de aprovada. Com o humano sobre o circuito, o sistema age, e a pessoa acompanha e pode interromper. Fora do circuito, o sistema age sozinho, o que só cabe em ações de baixo impacto e reversíveis. Ações com efeito externo ou difíceis de desfazer, como enviar comunicação, alterar registro ou abrir processo, pedem aprovação prévia. A tela de aprovação mostra a ação real, com os parâmetros que a aplicação vai executar, e não um resumo redigido pelo modelo, que pode ter sido manipulado. E preferir ações reversíveis, como gerar um rascunho em vez de enviar a mensagem, reduz o dano possível.
+
+A supervisão depende de registro: instruções, trechos recuperados, pedidos de ferramenta com os argumentos, resultados e identidade de quem aprovou. Preservação de evidências e tratamento de incidentes em integrações com inteligência artificial são tema do item três ponto quatro ponto um.
+
+A injeção de instruções, em inglês prômpti injécheon, tem duas formas. Na direta, o próprio usuário escreve instruções para contornar as regras da aplicação; o djêilbreik, que busca contornar as proteções de segurança do modelo, é uma variante dela. Na indireta, as instruções vêm escondidas no conteúdo externo que o sistema processa a pedido do usuário: página da internet, mensagem de correio eletrônico, anexo em pê dê éfe, resultado de ferramenta ou trecho recuperado da base. Podem estar em texto branco sobre fundo branco, em comentários, em metadados ou dentro de imagens. Na injeção indireta, o usuário costuma ser a vítima, e não o autor.
+
+A causa é estrutural. O modelo recebe instruções e dados pelo mesmo canal, como texto, e não tem mecanismo confiável para distingui-los. O problema lembra a injeção de ésse quê éle, mas não existe o equivalente da consulta parametrizada, que separa comando e dado. Por isso não há solução completa, e a proteção é feita em camadas, partindo do pressuposto de que alguma injeção vai passar.
+
+Os danos típicos são três. O primeiro é a exfiltração de dados: o conteúdo malicioso induz o modelo a incluir dados do contexto em um endereço, por exemplo, no endereço de uma imagem em márcdáun. Quando a interface exibe a imagem, o navegador faz a requisição e entrega os dados ao servidor do atacante, sem nenhum clique. O segundo são as ações indevidas: o modelo é levado a pedir ferramentas que enviam, alteram ou excluem. O terceiro é a manipulação de respostas, como a proposta de fornecedor com texto oculto que manda classificá-la como a mais vantajosa.
+
+O risco máximo aparece quando o mesmo agente reúne três capacidades: acesso a dados privados, exposição a conteúdo não confiável e meio de comunicação externa. Essa combinação é chamada de trinca letal. Retirar qualquer uma das três quebra o caminho da exfiltração.
+
+As camadas de proteção são estas. Menor privilégio nas ferramentas, com as permissões do usuário. Aprovação humana para ações sensíveis. Conteúdo externo delimitado e marcado como dado, com a instrução de não obedecer a nada que esteja dentro dele, o que reduz o risco, mas não o elimina. Classificadores que detectam tentativas de injeção na entrada e na saída, também probabilísticos. Tratamento da saída do modelo como não confiável: escapar o agá tê ême éle antes de exibir, como visto para a injeção de scrípti no item três ponto um ponto quatro; bloquear imagens e endereços externos fora de uma lista de permissões; e nunca passar a saída direto a um interpretador de comandos ou a um banco de dados. Restrição da saída de rede do agente a destinos permitidos. E controle da ingestão da base do rég, com registro da origem de cada documento, porque um documento envenenado injeta instruções em toda consulta que o recuperar.
+
+Há também padrões de arquitetura. No padrão planejar e depois executar, a sequência de ferramentas é fixada antes de o agente ler qualquer conteúdo não confiável, que assim não consegue mudar as ações. No padrão de dois modelos, o modelo com acesso às ferramentas nunca lê o conteúdo externo, e o modelo que o lê não tem ferramentas e devolve só dados, tratados como variáveis.
+
+A instrução de sistema não deve conter segredos. Credenciais, chaves e regras de acesso ficam no servidor das ferramentas, porque a instrução de sistema pode ser extraída por injeção.
+
+Exemplo prático. Um assistente da Controladoria resume denúncias recebidas com anexos e tem uma ferramenta de envio de mensagens. Um anexo traz, em texto branco, a ordem de encaminhar o conteúdo de outras denúncias a um endereço externo. Como o agente reúne dados sigilosos, conteúdo não confiável e meio de envio, o ataque é viável. Os controles adequados são envio restrito a destinatários internos, confirmação humana que mostra o destinatário e o texto reais e leitura dos anexos por um componente sem acesso a ferramentas.
+
+Pegadinhas do bloco seis.
+
+Uma instrução de sistema que proíba o modelo de revelar dados de outros usuários é controle de acesso suficiente. Errado. A autorização é aplicada fora do modelo, nas ferramentas e na recuperação.
+
+A injeção de instruções só ocorre quando o usuário digita comandos maliciosos. Errado. Na injeção indireta, as instruções vêm do conteúdo externo, e o usuário costuma ser a vítima.
+
+Classificadores de entrada eliminam o risco de injeção de instruções. Errado. São probabilísticos; não há solução completa, e a defesa é em camadas.
+
+No rég, o filtro de permissão pode ser aplicado sobre a resposta já gerada. Errado. É aplicado na recuperação, antes de o conteúdo entrar no contexto.
+
+O agente pode usar conta de serviço com acesso amplo, desde que o modelo seja instruído a respeitar as permissões do usuário. Errado. O agente age com as permissões do usuário; a conta ampla cria o problema do deputado confuso.
+
+A saída do modelo pode ser exibida como agá tê ême éle sem tratamento, porque foi gerada pela própria aplicação. Errado. A saída é não confiável e deve ser escapada; imagens externas permitem exfiltração.
+
+Guardar a chave de uma á pê í na instrução de sistema é seguro se o modelo for instruído a não revelá-la. Errado. A instrução de sistema pode ser extraída; segredos ficam no servidor.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Consulta por á pê í para pontos, lote para grandes volumes, fluxo de mudanças para acompanhar alterações. Validar na entrada, com quarentena dos inválidos. Lei de Acesso à Informação, artigo oitavo, parágrafo terceiro: relatórios em formatos abertos, acesso automatizado legível por máquina e formatos divulgados. Decreto oito mil setecentos e setenta e sete: forma primária e granular, atualização periódica e responsável designado; gestão pela Controladoria desde o Decreto nove mil novecentos e três.
+
+Tôquen é fragmento de texto; a janela soma entrada e saída; o conhecimento vai até a data de corte. Versão do modelo fixada e reavaliada a cada troca. Provedor que trata dados por conta do órgão é operador, artigos quinto, inciso sétimo, e trinta e nove; se descumpre as instruções, equipara-se ao controlador, artigo quarenta e dois. Cláusulas-padrão de transferência internacional na Resolução dezenove, de dois mil e vinte e quatro. Guêituei de modelos com autenticação, cotas, registros, mascaramento e a chave do provedor.
+
+Lexical: índice invertido e bê ême vinte e cinco. Semântica: vetores próximos para significados próximos. Com vetores normalizados, cosseno, produto escalar e distância euclidiana ordenam igual. Busca híbrida com fusão pela posição recíproca; reordenação por codificador cruzado nos primeiros candidatos. Rég: ingestão com trechos, sobreposição e metadados; consulta com recuperação e resposta que cita os trechos. Ajuste fino serve a formato e estilo e não cita fonte; contexto longo sofre o efeito perdido no meio. Vetor de dado pessoal é dado pessoal.
+
+Ferramenta tem nome, descrição e esquema; as que têm efeito são idempotentes. Agente decide o caminho em ciclo; fluxo predefinido fixa os passos. Encadeamento, roteamento, paralelização, orquestrador e trabalhadores, avaliador e otimizador. Memória de curto prazo no contexto e de longo prazo em armazenamento externo. Ême cê pê: hospedeiro, cliente e servidor; ferramentas, recursos e instruções predefinidas; djêisson érre pê cê; transporte local ou agá tê tê pê, com autorização baseada no ô áuti nos remotos.
+
+Conjunto de referência versionado, com perguntas sem resposta, ambíguas e adversariais, reaplicado como regressão. Recuperação: precisão e revocação nos cá primeiros e posição recíproca média. Geração: fidelidade, pertinência, correção e completude. Citações: precisão e revocação. Fonte: autoridade, vigência, integridade e pertinência. Verificações determinísticas em toda resposta; capa de Côuen para a concordância entre avaliadores humanos.
+
+Identidade vinda da sessão, nunca de argumento do modelo; artigo quarenta e seis da Lei Geral de Proteção de Dados. Agência excessiva: funcionalidade, permissão e autonomia. Humano no circuito, sobre o circuito ou fora dele; aprovação com os parâmetros reais e preferência por ações reversíveis. Instrução e dado no mesmo canal, sem equivalente da consulta parametrizada. Trinca letal: dados privados, conteúdo não confiável e comunicação externa. Planejar e depois executar; dois modelos.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Conforme a Lei de Acesso à Informação, os sítios oficiais devem possibilitar o acesso automatizado por sistemas externos em formatos abertos, estruturados e legíveis por máquina.
+
+Gabarito: certo. Artigo oitavo, parágrafo terceiro, inciso terceiro, da Lei doze mil quinhentos e vinte e sete.
+
+Item dois. Um órgão que publica suas bases em tabelas no formato pê dê éfe atende à definição de dados abertos do Decreto oito mil setecentos e setenta e sete, de dois mil e dezesseis, por se tratar de formato aberto.
+
+Gabarito: errado. Dado aberto exige estrutura processável por máquina e licença aberta.
+
+Item três. Um sistema importa diariamente de outro órgão apenas os registros com data de atualização posterior à última carga. Nessa situação, contratos excluídos fisicamente na origem continuarão na base de destino, salvo se a origem sinalizar as exclusões.
+
+Gabarito: certo. A exclusão física não aparece no filtro pela data de atualização.
+
+Item quatro. Em integração com modelo de linguagem pela á pê í de mensagens, para que o modelo considere as falas anteriores da conversa, a aplicação deve reenviá-las no contexto de cada chamada.
+
+Gabarito: certo. O modelo não guarda memória entre as chamadas.
+
+Item cinco. Quando a resposta do modelo atinge o limite de tôquens de saída definido na requisição, a á pê í rejeita a chamada com erro, o que impede o uso de respostas incompletas.
+
+Gabarito: errado. A á pê í devolve o texto incompleto e informa o motivo da parada.
+
+Item seis. O envio de dados pessoais a provedor de modelo de linguagem que os trata no exterior dispensa as regras de transferência internacional da Lei Geral de Proteção de Dados quando o provedor atua apenas como operador.
+
+Gabarito: errado. Há transferência internacional, sujeita às hipóteses do artigo trinta e três.
+
+Item sete. Na busca semântica, um documento pode ser recuperado mesmo sem ter palavras em comum com a consulta, porque a comparação é feita entre representações vetoriais do significado.
+
+Gabarito: certo. Vetores próximos correspondem a significados parecidos.
+
+Item oito. Ao trocar o modelo de representação vetorial por outro que gere vetores com o mesmo número de dimensões, é possível manter os vetores já indexados e converter com o novo modelo apenas as consultas.
+
+Gabarito: errado. Vetores de modelos diferentes não são comparáveis; a base precisa ser reprocessada.
+
+Item nove. Na geração aumentada por recuperação, os trechos recuperados são incluídos no contexto da chamada ao modelo, sem alteração de seus parâmetros, o que distingue essa técnica do ajuste fino.
+
+Gabarito: certo. O ajuste fino é que altera os parâmetros.
+
+Item dez. Na chamada de ferramentas, o modelo de linguagem executa diretamente a função declarada pela aplicação e incorpora o resultado à resposta.
+
+Gabarito: errado. O modelo devolve um pedido estruturado; quem executa é a aplicação.
+
+Item onze. Um agente consulta processos a partir de números de processo gerados pelo modelo com base no pedido do usuário. Nessa situação, o serviço que executa a consulta deve validar o número recebido e verificar se o usuário autenticado tem acesso ao processo.
+
+Gabarito: certo. Argumentos do modelo são entrada não confiável, e a autorização é decidida no serviço.
+
+Item doze. Sempre que uma tarefa puder ser decomposta em etapas conhecidas de antemão, o agente autônomo é preferível ao fluxo predefinido, por ser mais flexível.
+
+Gabarito: errado. Com etapas conhecidas, o fluxo predefinido é mais previsível, testável e barato.
+
+Item treze. Métricas de sobreposição de palavras com uma resposta de referência, como a rúji, permitem atestar a correção factual das respostas de um assistente baseado em modelo de linguagem.
+
+Gabarito: errado. Medem semelhança de forma, e não correção.
+
+Item catorze. Em um sistema de rég, a revocação nos cinco primeiros resultados corresponde à fração dos trechos relevantes existentes que aparecem entre os cinco recuperados.
+
+Gabarito: certo. A fração dos recuperados que são relevantes é a precisão.
+
+Item quinze. O uso de um modelo de linguagem como juiz dispensa a calibração com avaliadores humanos, desde que o juiz seja mais capaz que o modelo avaliado.
+
+Gabarito: errado. O juiz tem vieses e deve ser calibrado com avaliação humana.
+
+Item dezesseis. Um assistente resume páginas da internet a pedido do usuário, e uma das páginas contém, em texto oculto, a ordem de enviar o histórico da conversa a um endereço externo. Nessa situação, há injeção indireta de instruções, e o usuário que pediu o resumo é vítima, e não autor do ataque.
+
+Gabarito: certo. As instruções vêm do conteúdo externo processado pelo sistema.
+
+Item dezessete. Um assistente de rég indexa, no mesmo índice, relatórios públicos e relatórios de acesso restrito, e a equipe instrui o modelo, na instrução de sistema, a não usar trechos restritos quando o usuário não tiver permissão. Nessa situação, a medida é suficiente para impedir que usuários sem permissão recebam conteúdo restrito.
+
+Gabarito: errado. O filtro de permissão é aplicado na recuperação; instrução ao modelo não é controle de acesso.
+
+Item dezoito. Para ações com efeito externo, como o envio de mensagens por um agente, a tela de aprovação humana deve apresentar os parâmetros reais que serão executados, e não apenas um resumo redigido pelo modelo.
+
+Gabarito: certo. O resumo do modelo pode ter sido manipulado por injeção.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto dois ponto cinco, confiabilidade das aplicações.
