@@ -1,0 +1,406 @@
+AUDIOAULA. ITEM TRÊS PONTO DOIS PONTO CINCO DO EDITAL: CONFIABILIDADE DAS APLICAÇÕES
+
+
+ABERTURA
+
+Este é o item três ponto dois ponto cinco, confiabilidade das aplicações. Ele tem cinco subitens, tratados em cinco blocos: contêineres, serviços de nuvem e processamento sem servidor como ambientes de implantação; logs, métricas e rastreamento; latência, disponibilidade, capacidade e tolerância a falhas; diagnóstico de integrações e dependências; e continuidade, recuperação e degradação de serviços. A banca costuma explorar as sondas de vivacidade e de prontidão, a responsabilidade compartilhada na nuvem, os tipos de métrica, a conta da disponibilidade, os estados do disjuntor, os objetivos de tempo e de ponto de recuperação e a diferença entre replicação e cópia de segurança.
+
+
+BLOCO UM: CONTÊINERES, SERVIÇOS DE NUVEM E PROCESSAMENTO SEM SERVIDOR COMO AMBIENTES DE IMPLANTAÇÃO
+
+A escala horizontal, a aplicação sem estado na instância e a configuração por variáveis de ambiente foram vistas no item três ponto dois ponto um. Aqui entram os ambientes em que a aplicação roda e o que cada um exige dela.
+
+Máquina virtual e contêiner.
+
+A máquina virtual emula um computador inteiro: o hipervisor reparte o hardware físico, e cada máquina virtual tem o próprio sistema operacional completo. O contêiner é um processo isolado que compartilha o núcleo do sistema operacional do hospedeiro. O isolamento vem de dois recursos do núcleo Línux. Os espaços de nomes, em inglês nêimspeicis, limitam o que o processo enxerga: seus processos, sua rede, seus arquivos e seus usuários. Os grupos de controle, os cê grúps, limitam o que ele consome: processador, memória e entrada e saída.
+
+Por isso o contêiner sobe em segundos e ocupa pouco espaço. Em troca, isola menos que a máquina virtual: todos os contêineres do hospedeiro dependem do mesmo núcleo, e uma falha de segurança nele atinge todos. Quando o isolamento entre clientes precisa ser forte, os contêineres rodam dentro de máquinas virtuais.
+
+A imagem é o pacote imutável com a aplicação, as bibliotecas e o necessário para executá-la. O contêiner é uma instância em execução da imagem, e da mesma imagem saem quantos contêineres forem necessários. A imagem é construída em camadas, a partir de um arquivo de instruções, o dóquerfáil. Cada instrução gera uma camada, reaproveitada em quéchi na construção seguinte, e por isso as dependências, que mudam pouco, vêm antes do código, que muda sempre. O formato das imagens e do ambiente de execução é padronizado pela Iniciativa de Contêineres Abertos, a ô cê í, e as imagens ficam guardadas em um registro de imagens.
+
+Quatro práticas de construção. A construção em múltiplos estágios compila em uma imagem com as ferramentas de construção e copia só o artefato final para uma imagem enxuta, com menos superfície de ataque. O processo não roda como superusuário. Segredos não entram na imagem, porque cada camada guarda o seu conteúdo: um arquivo apagado em uma instrução posterior continua recuperável na camada anterior. E a imagem é referenciada por versão fixa ou pelo resumo criptográfico do conteúdo, o dáidjest, e não pela etiqueta léitest, que é móvel e pode apontar amanhã para outra imagem.
+
+O sistema de arquivos do contêiner é efêmero: o que a aplicação grava dentro dele se perde quando o contêiner é recriado. Dados duráveis vão para volumes persistentes ou para serviços externos, como o banco de dados e o armazenamento de objetos. E o contêiner em produção não é corrigido no lugar: a correção gera uma imagem nova, que substitui a antiga. É a infraestrutura imutável. A metodologia da aplicação de doze fatores, de dois mil e onze, resume essas exigências: configuração no ambiente, processos sem estado, serviços de apoio tratados como recursos anexados, logs como fluxo de eventos na saída padrão e descartabilidade, que é subir rápido e encerrar sem perder trabalho.
+
+O orquestrador.
+
+Rodar contêineres em muitas máquinas exige um orquestrador, e o padrão de mercado é o Cubernétis. Ele é declarativo: a equipe descreve o estado desejado, como três réplicas de certa versão da imagem, e o plano de controle compara continuamente o desejado com o real e corrige a diferença. Se uma máquina cai, as réplicas que estavam nela são recriadas em outra.
+
+Os objetos principais. O pód é a menor unidade implantável: um ou mais contêineres que compartilham rede e armazenamento e rodam juntos na mesma máquina. Pódes são descartáveis e mudam de endereço quando recriados. O diplóiment mantém o número desejado de réplicas e conduz a atualização gradual, vista no item três ponto um ponto cinco. O sérvis dá um endereço estável a um conjunto de pódes e distribui as requisições entre eles. Configuração e segredos entram por objetos próprios, o cônfig mép e o sícret. Por padrão, o conteúdo do sícret é apenas codificado em base sessenta e quatro, o que não é criptografia. A proteção depende de habilitar a criptografia no armazenamento do clâster e de restringir quem pode ler esses objetos, ou de usar um cofre de segredos.
+
+Cada contêiner declara a reserva de recursos, em inglês ríquest, que o agendador garante e usa para escolher a máquina, e o limite, que é o teto. No teto, os dois recursos principais se comportam de forma diferente. O contêiner que passa do limite de processador é desacelerado e continua rodando. O que passa do limite de memória é encerrado e reiniciado.
+
+As sondas.
+
+O orquestrador acompanha cada contêiner com três sondas. A sonda de vivacidade, em inglês láivnes, verifica se o processo ainda funciona; se falha seguidamente, o contêiner é reiniciado. A sonda de prontidão, rédines, verifica se ele pode receber tráfego agora; se falha, o pód sai da distribuição de requisições, mas não é reiniciado. A sonda de inicialização, stártap, protege aplicações que demoram a subir: enquanto ela não passa, as outras duas ficam suspensas, e a aplicação não é morta antes de terminar de carregar.
+
+A armadilha clássica é a sonda de vivacidade consultar o banco de dados. Se o banco cai, todas as instâncias falham na sonda e são reiniciadas juntas, sem que o reinício resolva nada, e a aplicação entra em ciclo de reinícios. A vivacidade deve refletir só o estado interno do processo. Dependências externas, quando muito, entram na prontidão, e com cuidado: uma dependência comum a todas as instâncias tira todas do tráfego ao mesmo tempo.
+
+No Sprín Búti, o módulo Áctueitor publica o estado da aplicação no endpóinti de saúde. Quando detecta que roda no Cubernétis, cria os grupos de vivacidade e de prontidão, em caminhos próprios e sem verificações externas por padrão. Na partida, a aplicação só se declara pronta depois de carregar o contexto e executar as rotinas de inicialização.
+
+No encerramento, o orquestrador retira o pód da distribuição e, em paralelo, envia ao processo o sinal de término, o sig térm. A aplicação deve parar de aceitar requisições novas, concluir as que estão em andamento e liberar conexões. Se não terminar no prazo de tolerância, de trinta segundos por padrão, o processo é morto à força. Desde a versão três ponto quatro, o Sprín Búti faz esse desligamento gracioso por padrão nos servidores web embutidos.
+
+Processamento sem servidor.
+
+No processamento sem servidor, em inglês sérverles, os servidores existem, mas são inteiramente geridos pelo provedor. Na forma mais conhecida, a função como serviço, a equipe entrega só o código de uma função, executada em resposta a eventos, como uma requisição agá tê tê pê, a chegada de um arquivo ou uma mensagem em fila. A plataforma cria instâncias conforme a demanda, a partir de zero, e cobra por execução e por tempo de processamento. Sem uso, não há custo de computação.
+
+As restrições: a função não guarda estado entre execuções e tem tempo máximo de execução e limite de memória. A primeira chamada após um período ocioso sofre a partida a frio, em inglês côld stárt, que é o tempo de criar o ambiente e iniciar o código. Em Java, a partida da máquina virtual pesa. As respostas são a imagem nativa, compilada antes da execução pelo Gráal vê ême e suportada pelo Sprín Búti desde a versão três, ou manter instâncias pré-aquecidas, pagando por elas.
+
+O modelo serve bem a cargas irregulares e orientadas a eventos, como processar documentos enviados por cidadãos ou rodar tarefas agendadas. Serve mal a processamentos longos, a cargas altas e constantes, em que pagar por execução sai mais caro que manter instâncias, e a requisitos de latência que não toleram a partida a frio. E aumenta a dependência do provedor, porque gatilhos e serviços integrados são específicos de cada plataforma.
+
+Serviços de nuvem.
+
+A definição mais citada de computação em nuvem é a do Instituto Nacional de Padrões e Tecnologia dos Estados Unidos, o níst, na publicação especial oitocentos, cento e quarenta e cinco, de dois mil e onze. São cinco características essenciais: autosserviço sob demanda, amplo acesso pela rede, agrupamento de recursos que atendem vários clientes, elasticidade rápida e serviço medido. Três modelos de serviço: infraestrutura, plataforma e software como serviço. E quatro modelos de implantação: privada, comunitária, pública e híbrida.
+
+A Instrução Normativa número cinco, de dois mil e vinte e um, do Gabinete de Segurança Institucional da Presidência da República, o gê ésse í, fixa os requisitos mínimos de segurança da informação para o uso de nuvem na administração pública federal. O artigo terceiro define os mesmos quatro modelos de implantação. A comunitária é dedicada a um grupo de órgãos ou entidades que compartilham a mesma natureza de trabalho e obrigações. A híbrida combina duas ou mais infraestruturas distintas, com tecnologia que permite interoperabilidade e portabilidade.
+
+A responsabilidade é compartilhada, e a divisão muda com o modelo de serviço. Na infraestrutura como serviço, o provedor cuida das instalações, do hardware, da rede física e da virtualização; o cliente cuida do sistema operacional e de suas atualizações, do ambiente de execução, da aplicação e dos dados. Na plataforma como serviço, o provedor assume também o sistema operacional e o ambiente de execução. No software como serviço, opera tudo até a aplicação. Em todos os modelos, ficam com o cliente os dados, a classificação da informação, as identidades e acessos e a configuração do que contrata. Boa parte dos incidentes em nuvem nasce de erro de configuração do cliente, como um repositório de arquivos deixado público.
+
+Os provedores organizam a infraestrutura em regiões, cada uma com várias zonas de disponibilidade, que são centros de dados isolados, com energia, refrigeração e rede independentes. Distribuir instâncias por zonas protege contra a perda de um centro de dados. Distribuir por regiões protege contra a perda de uma região inteira, mas custa mais e torna a replicação dos dados mais lenta, por causa da distância.
+
+Três regras da Instrução Normativa cinco merecem atenção. Pelo artigo dezoito, os dados e informações transferidos ao provedor devem estar hospedados em território brasileiro, com pelo menos uma cópia de segurança atualizada no país; informação sem restrição de acesso pode ter cópias de segurança no exterior, e informação com restrição de acesso não pode ser tratada fora do país. Pelo artigo onze, sistemas estruturantes só admitem nuvem privada ou comunitária, restrita a infraestruturas de órgãos ou entidades públicas. E o artigo dezenove exige cláusulas contratuais como a devolução integral dos dados, informações e sistemas ao fim do contrato e a proibição de usar as informações para propaganda, para otimizar mecanismos de inteligência artificial ou para qualquer uso secundário não autorizado.
+
+A mudança recente. Na redação original, a Instrução Normativa cinco vedava em nuvem a informação classificada em qualquer grau de sigilo e o documento preparatório que pudesse originá-la. A Instrução Normativa número oito, de outubro de dois mil e vinte e cinco, do mesmo gabinete, passou a admitir o tratamento em nuvem de informação classificada nos graus reservado e secreto. Exige nuvem privada ou comunitária, toda a infraestrutura em território nacional, provedor com habilitação de segurança para tratar informação classificada, criptografia com algoritmo de Estado e chaves geridas exclusivamente pelo órgão. Continuam vedados o grau ultrassecreto e o uso de nuvem pública ou híbrida para informação classificada. Não tenho certeza se a norma de dois mil e vinte e cinco alterou outros dispositivos da Instrução Normativa cinco além dessa regra.
+
+Pegadinhas do bloco um.
+
+Contêineres isolam tanto quanto máquinas virtuais, porque cada um tem o próprio sistema operacional. Errado. O contêiner compartilha o núcleo do hospedeiro, e o isolamento por espaços de nomes e grupos de controle é mais fraco.
+
+Apagar o arquivo de uma chave em uma instrução posterior do dóquerfáil elimina a chave da imagem. Errado. A camada anterior continua guardando o arquivo.
+
+Falha na sonda de prontidão leva o orquestrador a reiniciar o contêiner. Errado. O pód só sai da distribuição de tráfego; quem reinicia é a falha na vivacidade.
+
+O contêiner que ultrapassa o limite de processador é encerrado pelo orquestrador. Errado. Ele é desacelerado; o encerramento ocorre ao ultrapassar o limite de memória.
+
+No software como serviço, a classificação da informação e a gestão de acessos passam ao provedor. Errado. Dados, classificação, identidades e acessos ficam sempre com o cliente.
+
+Pela norma de dois mil e vinte e cinco do gê ésse í, informação ultrassecreta pode ser tratada em nuvem comunitária. Errado. Só os graus reservado e secreto, em nuvem privada ou comunitária.
+
+
+BLOCO DOIS: LOGS, MÉTRICAS E RASTREAMENTO
+
+Observabilidade é a capacidade de entender o estado interno de um sistema pelos dados que ele emite, a telemetria. O monitoramento tradicional responde a perguntas definidas antes, como se a memória passou de um limite. A observabilidade permite investigar perguntas que ninguém previu, como por que só os usuários de um estado estão com lentidão desde as dez horas. Três sinais sustentam isso: logs, métricas e rastros.
+
+Logs.
+
+O log registra um evento discreto, com data, hora e contexto: uma requisição recebida, uma falha, uma decisão. Os níveis, do mais detalhado ao mais grave, são rastreamento, depuração, informação, alerta e erro; em inglês, trêice, dibâg, ínfo, uórn e érror. Em produção, o nível costuma ser o de informação, e o Áctueitor permite mudar o nível de um pacote em tempo de execução, sem reiniciar, para investigar um problema.
+
+O log estruturado registra cada evento como um conjunto de campos com nome, em geral em djêisson, em vez de uma frase livre. A ferramenta central passa a filtrar e agregar por campo, como todos os erros do serviço de pagamentos para um mesmo órgão. Desde a versão três ponto quatro, o Sprín Búti gera log estruturado de forma nativa, em formatos como o esquema comum da Elástic.
+
+Em Java, a aplicação escreve pela fachada ésse éle éfe quatro jota, e o Sprín Búti usa por padrão a implementação Lógbéc. O contexto de diagnóstico mapeado, ême dê cê, acrescenta campos a todas as linhas de log da mesma thread, como o identificador da requisição. Como é ligado à thread, ele não acompanha sozinho o processamento que passa a outra thread em tarefas assíncronas. Precisa ser propagado e, ao fim, limpo; senão, uma thread reaproveitada do pool carrega o contexto de uma requisição para a seguinte.
+
+Em contêineres, a aplicação escreve na saída padrão, e a plataforma coleta e envia os logs a um armazenamento central, porque o arquivo local morre com o contêiner.
+
+Não vão para o log senhas, tôquens, chaves nem dados pessoais além do necessário. O princípio da necessidade, do artigo sexto, inciso três, da Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, vale para os logs. E um log com dados pessoais é uma base que também precisa de proteção. Retenção e descarte de registros são tema do item três ponto três ponto quatro, e registros de segurança e preservação de evidências, do item três ponto quatro ponto um.
+
+Na nuvem, a Instrução Normativa cinco, no artigo treze, manda exigir do provedor que registre todos os acessos, incidentes e eventos cibernéticos, inclusive sessões e transações, e guarde esses registros por um ano. E o órgão mantém os registros recebidos do provedor por cinco anos, em ambiente próprio controlado. Na norma ízo vinte e sete mil e dois, de dois mil e vinte e dois, os controles oito ponto quinze, oito ponto dezesseis e oito ponto dezessete tratam do registro de logs, das atividades de monitoramento e da sincronização dos relógios. Sem relógios sincronizados, eventos de máquinas diferentes não se ordenam.
+
+Métricas.
+
+Métrica é uma medida numérica agregada ao longo do tempo, como requisições por segundo ou memória em uso. Ocupa pouco espaço, porque não guarda cada evento, e é a base dos painéis e dos alertas.
+
+Quatro tipos. O contador só cresce, como o total de requisições, e o que interessa é a sua taxa de variação. O medidor, em inglês guêidj, sobe e desce, como o tamanho de uma fila ou as conexões em uso. O histograma conta as observações em faixas de valores e permite calcular percentis no servidor de métricas, inclusive juntando várias instâncias. O resumo calcula os percentis na própria instância, e percentis de instâncias diferentes não se combinam: a média dos percentis noventa e nove de dez instâncias não é o percentil noventa e nove do serviço.
+
+Cada métrica tem etiquetas, como método, rota e status da resposta, e cada combinação distinta de valores forma uma série temporal própria. O número de séries é a cardinalidade. Uma etiqueta com o identificador do usuário ou da requisição cria milhões de séries e estoura a memória e o custo do servidor de métricas; esse detalhe pertence ao log ou ao rastro. Por isso a métrica de requisições do Sprín registra a rota pelo modelo, com o identificador como variável, e não pelo caminho com o número de cada processo.
+
+O que medir. Os quatro sinais de ouro, do livro de engenharia de confiabilidade de sites do Google, a ésse érre é, são latência, tráfego, erros e saturação. Para serviços que atendem requisições, usa-se o método érre é dê: taxa, erros e duração. Para recursos, como processador, disco e pool de conexões, o método iú ésse é: utilização, saturação e erros. E a latência das respostas com erro é medida à parte, porque erros rápidos baixam a latência média e escondem o problema.
+
+No Sprín Búti, o Maicrômiter é a fachada de métricas independente de fornecedor, no papel que o ésse éle éfe quatro jota cumpre para os logs. O Áctueitor publica as métricas, por exemplo, no formato do Prométeus, que as coleta consultando a aplicação periodicamente.
+
+Rastreamento.
+
+O rastreamento distribuído segue uma requisição por todos os serviços que ela atravessa. O rastro, em inglês trêice, é a jornada inteira, com um identificador único. Cada etapa é um trecho, em inglês spén, com início, duração, atributos e o identificador do trecho pai. Os trechos formam uma árvore que mostra onde o tempo foi gasto e onde a falha começou.
+
+Para isso, o contexto viaja com a chamada. O padrão é o contexto de rastreamento do consórcio dáblio três cê, com o cabeçalho trêice pérent, que leva a versão, o identificador do rastro, o do trecho pai e as opções, entre elas a de amostragem. Em mensageria, o contexto vai nos cabeçalhos da mensagem; sem isso, o rastro se parte em dois.
+
+O Ôpen Telemétri, projeto da fundação de computação nativa em nuvem, padroniza interfaces, bibliotecas, o protocolo ô tê éle pê e um coletor para os três sinais, sem amarrar a instrumentação a um fornecedor. No Sprín Búti três, o Maicrômiter Trêicin substituiu o Sprín Cláud Slúf, e uma única instrumentação, a á pê í de observação, gera métricas e rastros. Os identificadores de rastro e de trecho entram automaticamente no contexto dos logs, o que liga cada linha de log ao seu rastro.
+
+Rastrear tudo custa caro, e entra a amostragem. Na amostragem na origem, a decisão é tomada no início da requisição e propagada; é barata, mas descarta às cegas, inclusive rastros que terminarão em erro. Na amostragem na cauda, a decisão é tomada depois que o rastro termina, o que permite guardar todos os erros e as requisições lentas, ao custo de reter os trechos no coletor até a decisão. O Sprín Búti amostra por padrão dez por cento das requisições.
+
+Os três sinais se completam: a métrica avisa que algo mudou, o rastro mostra onde, e o log explica por quê.
+
+O alerta deve indicar um sintoma que afeta o usuário, como a taxa de erros acima do objetivo, e não toda causa possível, como processador alto sem efeito no serviço. Todo alerta precisa ser acionável e ter um roteiro de resposta. Alertas em excesso causam fadiga, e o alerta importante passa despercebido.
+
+Pegadinhas do bloco dois.
+
+A média dos percentis noventa e nove calculados em cada instância corresponde ao percentil noventa e nove do serviço. Errado. Percentis não se combinam por média; para agregar, usa-se histograma.
+
+O número de conexões abertas em cada instante deve ser registrado em um contador. Errado. Valor que sobe e desce é medidor; o contador só cresce.
+
+Usar o identificador do usuário como etiqueta de métrica é boa prática, porque permite filtrar o painel por usuário. Errado. Explode a cardinalidade; esse detalhe vai para o log ou para o rastro.
+
+O contexto de diagnóstico mapeado acompanha automaticamente a execução assíncrona em outra thread. Errado. Ele é ligado à thread e precisa ser propagado e limpo.
+
+Na amostragem na origem, os rastros com erro são sempre preservados. Errado. A decisão é tomada antes do resultado; só a amostragem na cauda permite guardar todos os erros.
+
+Para facilitar o diagnóstico, o log de produção deve registrar o corpo completo das requisições, com tôquens e dados pessoais. Errado. Segredos nunca entram, e dados pessoais seguem o princípio da necessidade.
+
+
+BLOCO TRÊS: LATÊNCIA, DISPONIBILIDADE, CAPACIDADE E TOLERÂNCIA A FALHAS
+
+Latência, vazão e percentis foram vistos nos itens três ponto um ponto três e três ponto dois ponto um, assim como a multiplicação das disponibilidades em uma cadeia de chamadas. Aqui entram a latência de cauda, a conta e os objetivos de disponibilidade, a capacidade e o funcionamento dos mecanismos de tolerância a falhas.
+
+Latência de cauda.
+
+Quando uma requisição se espalha em chamadas paralelas e precisa de todas as respostas, a cauda de cada chamada vira a regra do conjunto. Se cada um de cem servidores tem uma chance em cem de responder devagar, a chance de pelo menos um dos cem ser lento é de cerca de sessenta e três por cento. O efeito foi descrito por Jeffrey Dean e Luiz André Barroso, do Google, em dois mil e treze. Uma defesa é a requisição redundante: se a resposta não chega no tempo do percentil noventa e cinco, envia-se a mesma requisição a outra réplica e usa-se a primeira resposta, o que só é seguro em operações idempotentes.
+
+Disponibilidade.
+
+Disponibilidade é a proporção do tempo, ou das requisições, em que o serviço funciona como esperado. É uma das quatro propriedades da informação que a Política Nacional de Segurança da Informação busca proteger, ao lado da integridade, da confidencialidade e da autenticidade. A política vigente foi instituída pelo Decreto doze mil quinhentos e setenta e dois, de agosto de dois mil e vinte e cinco, que revogou o Decreto nove mil seiscentos e trinta e sete, de dois mil e dezoito.
+
+A conta dos noves. Noventa e nove por cento admitem cerca de três dias e quinze horas de indisponibilidade por ano, ou pouco mais de sete horas por mês. Noventa e nove vírgula nove, cerca de oito horas e quarenta e cinco minutos por ano, ou quarenta e três minutos por mês. Noventa e nove vírgula noventa e nove, cerca de cinquenta e dois minutos por ano. Cinco noves, cerca de cinco minutos por ano. Cada nove a mais divide por dez a indisponibilidade admitida e custa muito mais.
+
+Pela fórmula clássica, a disponibilidade é o tempo médio entre falhas dividido pela soma desse tempo com o tempo médio de reparo, em inglês ême tê bê éfe e ême tê tê érre. Um serviço que falha em média a cada novecentas e noventa e nove horas e leva uma hora para voltar tem noventa e nove vírgula nove por cento. Pela mesma fórmula, reduzir o reparo à metade equivale a dobrar o tempo entre falhas, e costuma ser mais barato: detectar, reverter e recuperar rápido pesa tanto quanto evitar a falha.
+
+Em paralelo, a conta se inverte. Quando basta uma réplica funcionando, multiplicam-se as indisponibilidades: duas réplicas independentes de noventa e nove por cento dão noventa e nove vírgula noventa e nove, porque o conjunto só para se as duas pararem juntas, com probabilidade de um centésimo vezes um centésimo. A conta supõe falhas independentes. Réplicas no mesmo centro de dados, com a mesma versão defeituosa ou com a mesma configuração errada, caem juntas.
+
+Objetivos de nível de serviço.
+
+A engenharia de confiabilidade organiza a meta em três níveis. O indicador de nível de serviço, ésse éle í, é a medida, como a proporção de requisições respondidas com sucesso em menos de trezentos milissegundos. O objetivo de nível de serviço, ésse éle ô, é a meta do indicador em uma janela, como noventa e nove vírgula nove por cento em trinta dias. O acordo de nível de serviço, ésse éle á, é o compromisso formal com quem usa ou contrata, com consequências se descumprido. O objetivo interno é mais rigoroso que o acordo, para que a equipe reaja antes de quebrar o compromisso. Acordos de nível de serviço em contratos são tema do item três ponto quatro ponto cinco.
+
+O orçamento de erros é o complemento do objetivo. Com noventa e nove vírgula nove por cento em trinta dias, sobra zero vírgula um por cento, o equivalente a cerca de quarenta e três minutos de indisponibilidade total. Enquanto há orçamento, as mudanças seguem no ritmo normal; esgotado, as mudanças arriscadas são congeladas e o esforço vai para a confiabilidade. Cem por cento é a meta errada. É inalcançável, cada nove adicional custa caro, e acima de certo ponto o usuário não percebe a diferença, porque a própria rede e o próprio aparelho falham mais que isso.
+
+Capacidade.
+
+Capacidade é a carga máxima que o sistema atende dentro dos objetivos. O planejamento de capacidade estima a demanda, mede com testes de carga quanto cada instância suporta e mantém folga. A norma ízo vinte e sete mil e dois trata do tema no controle oito ponto seis, gestão de capacidade.
+
+A lei de Lítol liga os números: o número médio de requisições em andamento é a taxa de chegada multiplicada pelo tempo médio de permanência. Duzentas requisições por segundo com meio segundo de resposta mantêm cem requisições simultâneas, que ocupam cem threads ou conexões. Se uma dependência passa a responder em cinco segundos, a mesma taxa exige mil. Os pools se esgotam, as filas crescem, e a lentidão de um ponto vira indisponibilidade geral. É o mecanismo da falha em cascata.
+
+A folga também cobre perdas. Com três zonas de disponibilidade, cada uma deve operar abaixo de dois terços da capacidade, para que as duas restantes absorvam a carga da que cair. É a lógica do ene mais um: capacidade para a demanda e mais uma unidade de reserva.
+
+O escalonamento automático acrescenta instâncias conforme uma métrica, como processador ou requisições por instância, mas não dispensa o planejamento. Ele reage com atraso, porque precisa observar a carga e esperar a nova instância subir, e a partida de uma aplicação Java pode levar dezenas de segundos; picos súbitos exigem um mínimo de instâncias já em pé. E o máximo precisa de limite: vinte instâncias com pool de vinte conexões abrem quatrocentas conexões com um banco que talvez aceite duzentas. Escalar a camada sem estado transfere a pressão para o recurso compartilhado.
+
+Quando a demanda passa da capacidade, é melhor recusar parte das requisições logo na entrada, com resposta quatrocentos e vinte e nove ou quinhentos e três, do que aceitar todas e deixar todas esgotarem o prazo. É o descarte de carga, completado por filas limitadas e prioridade para o tráfego essencial.
+
+Tolerância a falhas.
+
+Tolerância a falhas é a capacidade de continuar prestando o serviço, ainda que degradado, apesar da falha de componentes. A terminologia clássica distingue três conceitos. A falha é a causa, como uma instrução incorreta no código ou um disco que queima. O erro é o estado interno incorreto que ela produz. E o defeito é o desvio percebido por quem usa o serviço. Tolerar falhas é impedir que a causa chegue ao usuário.
+
+A base é a redundância, que elimina o ponto único de falha. No arranjo ativo-ativo, todas as réplicas atendem, e a perda de uma só reduz a capacidade. No ativo-passivo, a reserva espera e assume quando a principal falha, na troca chamada, em inglês, fêilôuver. A reserva quente já está sincronizada e pronta; a fria precisa ser iniciada, e a troca demora mais. O balanceador de carga verifica cada instância periodicamente e retira as que não respondem. A norma ízo vinte e sete mil e dois trata da redundância no controle oito ponto catorze.
+
+Detectar falha pela rede é difícil, porque uma réplica lenta e uma réplica parada parecem iguais para quem espera. Se duas partes do sistema se julgam, cada uma, a única ativa, acontece o cérebro dividido, com gravações conflitantes. A defesa é o quórum por maioria: com três réplicas, a decisão exige duas, e o sistema tolera a perda de uma; com cinco, tolera duas. Em geral, dois éfe mais um nós toleram éfe falhas por parada.
+
+O disjuntor, citado no item três ponto dois ponto três, tem três estados. Fechado é a operação normal: as chamadas passam, e o disjuntor mede a taxa de falhas e de chamadas lentas em uma janela, contada por número de chamadas ou por tempo. Quando a taxa passa do limite, com um mínimo de chamadas na janela, ele abre: as chamadas falham imediatamente, sem chegar à dependência, durante um tempo de espera. Esgotado esse tempo, ele passa a meio aberto e deixa passar algumas chamadas de teste; se elas funcionam, fecha, e se falham, abre de novo. O disjuntor protege os dois lados: quem chama não prende threads esperando, e a dependência ganha tempo para se recuperar.
+
+Os compartimentos limitam quantas threads ou chamadas simultâneas cada dependência pode ocupar, com um pool próprio ou um semáforo. A dependência lenta esgota só a sua cota, e o resto do sistema continua atendendo.
+
+No ecossistema Sprín, esses mecanismos vêm em geral da biblioteca Rezíliens for djêi, que a própria Nétflix indicou como alternativa ao pôr o seu Rístrix em modo de manutenção, em dois mil e dezoito. Ela oferece disjuntor, repetição, compartimento, limitador de taxa e limitador de tempo, aplicáveis por anotações como arroba sârkit brêiquer, que recebe o nome da configuração e o método alternativo.
+
+A confiança nesses mecanismos vem de testá-los. A engenharia do caos injeta falhas de propósito, em experimentos controlados, como derrubar instâncias ou atrasar uma dependência, e verifica se o sistema se mantém no estado estável esperado. Parte de uma hipótese explícita e de um raio de impacto pequeno, ampliado aos poucos. A prática ficou conhecida pelo Quêios Mânqui, da Nétflix, que desligava instâncias de produção ao acaso.
+
+Pegadinhas do bloco três.
+
+Duas réplicas independentes de noventa e nove por cento, em paralelo, resultam em noventa e oito por cento de disponibilidade. Errado. Em paralelo multiplicam-se as indisponibilidades, e o resultado é noventa e nove vírgula noventa e nove.
+
+Reduzir o tempo médio de reparo não altera a disponibilidade, que depende só da frequência das falhas. Errado. Reduzir o reparo à metade equivale a dobrar o tempo entre falhas.
+
+A meta adequada para um serviço crítico é a disponibilidade de cem por cento. Errado. É inalcançável, e o orçamento de erros pressupõe meta abaixo de cem.
+
+O escalonamento automático dispensa o planejamento de capacidade. Errado. Ele reage com atraso e transfere a pressão para recursos compartilhados, como o banco.
+
+No estado aberto, o disjuntor libera algumas chamadas de teste para verificar a recuperação da dependência. Errado. Isso é o meio aberto; o aberto rejeita todas.
+
+Com quórum por maioria, um grupo de quatro réplicas tolera a falha de duas. Errado. A maioria de quatro é três, e o grupo tolera só uma falha.
+
+
+BLOCO QUATRO: DIAGNÓSTICO DE INTEGRAÇÕES E DEPENDÊNCIAS
+
+Diagnosticar é ir do sintoma à causa. O roteiro começa pelo sintoma medido: que operação falha, para quem, desde quando e em que proporção. Em seguida, pergunta-se o que mudou naquele momento: uma implantação, uma configuração, um certificado, o volume de tráfego ou uma dependência, porque boa parte dos incidentes começa em uma mudança. Depois vêm as hipóteses, verificadas uma a uma com a telemetria. E quem devolve o erro nem sempre é a origem: o serviço que falha para o usuário pode ser só a vítima de uma dependência lenta mais abaixo.
+
+Isso exige conhecer as dependências. Cada serviço precisa de um mapa do que usa: outros serviços, bancos, filas, cofre de segredos, provedor de identidade, resolução de nomes e certificados. O rastreamento distribuído monta esse mapa a partir do tráfego real. A dependência forte é aquela sem a qual o serviço não funciona, e a disponibilidade do serviço não passa da que suas dependências fortes, juntas, permitem. A dependência fraca pode falhar com o serviço degradado, como se vê no bloco cinco.
+
+As camadas de uma chamada.
+
+Uma chamada remota atravessa camadas, e cada uma falha de modo reconhecível. Os testes devem partir do mesmo ambiente de onde a aplicação chama: o contêiner tem resolução de nomes, intermediários e regras de filtragem de tráfego diferentes dos da máquina do desenvolvedor.
+
+Resolução de nomes: o servidor de dê ene ésse não encontra o endereço, e em Java a exceção é de máquina desconhecida. As causas comuns são nome errado na configuração do ambiente e rede sem acesso ao servidor de nomes.
+
+Conexão recusada: a falha é imediata. A máquina de destino respondeu, mas nenhum processo escuta naquela porta, porque o serviço caiu ou a porta está errada.
+
+Prazo de conexão esgotado: o pedido de conexão não teve resposta. É o padrão de um filtro de rede que descarta os pacotes em silêncio, de uma rota inexistente ou de uma máquina fora do ar.
+
+Prazo de leitura esgotado: a conexão foi aberta, mas a resposta não chegou a tempo. A dependência está lenta ou travada.
+
+Falha na negociação tê éle ésse: certificado vencido, emitido por autoridade que a aplicação não reconhece, com cadeia intermediária incompleta ou com nome diferente do endereço chamado. Em Java, o erro de construção do caminho de certificação costuma indicar autoridade ausente do repositório de confiança. A correção é incluir a autoridade correta, e nunca desligar a validação de certificados, o que abriria caminho à interceptação.
+
+Conexão reiniciada pelo outro lado: muitas vezes, um intermediário, como balanceador ou filtro de rede, encerrou uma conexão que ficou ociosa no pool por mais tempo que o limite dele. A correção é o pool descartar conexões ociosas antes desse limite.
+
+Na camada agá tê tê pê, a semântica dos códigos está na érre éfe cê nove mil cento e dez, de dois mil e vinte e dois. A família quatrocentos aponta para a requisição, como contrato violado, credencial vencida, falta de permissão ou limite de taxa. A família quinhentos aponta para o lado do servidor. Dois códigos são, por definição, emitidos por um intermediário, como o guêituei ou o balanceador. Quinhentos e dois, guêituei inválido: o intermediário recebeu resposta inválida da aplicação. Quinhentos e quatro, tempo esgotado no guêituei: o intermediário desistiu de esperar. Nos dois casos, o log da aplicação pode não ter nada, e a investigação começa no log do intermediário. Já o quinhentos e três, serviço indisponível, indica sobrecarga ou manutenção e pode vir da aplicação ou do balanceador sem instâncias saudáveis. E um quinhentos e quatro com a aplicação ainda trabalhando revela prazos desalinhados, problema visto no item três ponto dois ponto três.
+
+Dentro da aplicação.
+
+O pool de conexões que o Sprín Búti usa por padrão, o Rikári cê pê, tem no máximo dez conexões e faz a requisição esperar até trinta segundos por uma conexão livre antes de falhar. O sintoma do esgotamento é lentidão geral com o banco ocioso. As causas típicas são consultas lentas, conexões que não são devolvidas, o chamado vazamento de conexões, e transações que seguram a conexão enquanto chamam outro serviço. O pool tem detecção de vazamento, desligada por padrão, que registra onde foi obtida uma conexão retida por tempo demais.
+
+Duas fotografias da máquina virtual Java ajudam. O despejo de threads mostra o que cada thread faz naquele instante: muitas paradas na mesma chamada externa ou à espera do pool apontam o gargalo. O despejo da memória de objetos, em inglês ríp dâmp, mostra o que ocupa a memória e serve para achar vazamentos. Pausas longas do coletor de lixo aparecem como picos no percentil noventa e nove. O Áctueitor oferece os dois despejos, e por isso esses endpóintis não podem ficar expostos: o despejo de memória pode conter senhas, tôquens e dados pessoais. Por padrão, só o endpóinti de saúde é exposto pela web.
+
+Dependência também é biblioteca. Um erro de método ou de classe inexistente em tempo de execução, em código que compilou sem problema, costuma indicar conflito de versões: duas bibliotecas pedem versões diferentes de uma terceira, e só uma é carregada. No Méiven, vence a declaração mais próxima da raiz da árvore de dependências, e não a versão mais nova. O diagnóstico começa pela árvore de dependências, e a prevenção é alinhar as versões, o que o Sprín Búti faz com a sua lista de versões gerenciadas. A segurança da cadeia de dependências é tema do item três ponto quatro ponto três.
+
+Em integrações por mensageria, o indicador principal é o atraso do consumidor: a distância entre a última mensagem publicada e a última processada. Atraso que cresce aos poucos indica consumo mais lento que a produção. Consumo parado com mensagens se acumulando sugere uma mensagem que trava o consumidor. E a fila de mensagens mortas, vista no item três ponto dois ponto três, precisa de alerta próprio.
+
+O monitoramento sintético executa, de fora e em intervalos regulares, transações roteirizadas, como consultar um processo de teste. Ele detecta falhas mesmo sem tráfego real, como de madrugada, e mede o serviço como o usuário o vê.
+
+Exemplo prático. Desde a manhã, o sistema de acompanhamento de auditorias falha ao consultar a á pê í de um órgão parceiro. O log mostra erro de construção do caminho de certificação, e a linha do tempo mostra que o parceiro trocou o certificado na véspera, agora emitido por uma autoridade intermediária nova. O teste feito de dentro do contêiner da aplicação confirma que a cadeia não é reconhecida. A correção é incluir a autoridade no repositório de confiança da imagem e criar alerta para vencimento e troca de certificados das integrações.
+
+Pegadinhas do bloco quatro.
+
+Conexão recusada indica dependência lenta, e aumentar o prazo de leitura resolve o problema. Errado. A recusa é imediata: nada escuta na porta de destino.
+
+A resposta quinhentos e quatro indica que a aplicação de destino registrou erro interno. Errado. Ela é emitida pelo intermediário que desistiu de esperar; a aplicação pode nem ter registrado erro.
+
+Diante de erro de certificado em uma integração, a solução adequada é desligar a validação de certificados no cliente. Errado. Isso abre caminho à interceptação; inclui-se a autoridade correta.
+
+No Méiven, havendo versões diferentes de uma dependência transitiva, prevalece a mais recente. Errado. Vence a declaração mais próxima da raiz.
+
+Expor todos os endpóintis do Áctueitor em produção facilita o diagnóstico e é a configuração padrão. Errado. Por padrão, só a saúde é exposta pela web, e o despejo de memória pode conter segredos.
+
+
+BLOCO CINCO: CONTINUIDADE, RECUPERAÇÃO E DEGRADAÇÃO DE SERVIÇOS
+
+A base normativa.
+
+A Instrução Normativa número três, de dois mil e vinte e um, do gê ésse í, lista no artigo terceiro cinco processos de gestão de segurança da informação de realização obrigatória pelos órgãos e entidades da administração pública federal: mapeamento de ativos de informação, gestão de riscos, gestão de continuidade de negócios, gestão de mudanças e avaliação de conformidade.
+
+Pelo artigo dezoito, a gestão de continuidade visa minimizar os impactos de falhas, desastres ou indisponibilidades significativas e recuperar perdas de ativos de informação em nível aceitável, por meio de resposta a incidentes e recuperação de desastres. Ela se apoia nas estratégias de continuidade para as atividades críticas, na avaliação de riscos e em diretrizes institucionais. E se materializa em um plano de continuidade de negócios em segurança da informação, que observa a prioridade de recuperação dos processos de negócio.
+
+O artigo vinte e três fixa o conteúdo mínimo do plano: objetivo; atividades críticas; requisitos de ativação, em especial o tempo máximo aceitável de permanência da falha; responsáveis pela ativação e pelas medidas de contingência, nominalmente atribuídos e com contatos; limites de decisão; parâmetros para encerrar o plano e voltar à normalidade; e roteiro de simulação de teste. O plano é testado regularmente, com resultados documentados. Pelo artigo vinte e quatro, é revisado no mínimo uma vez por ano, quando os testes revelam perda de eficácia e após mudança significativa nos ativos ou nas atividades. O gestor de segurança da informação coordena o processo e designa um agente responsável dentre os servidores efetivos do órgão, que participa da elaboração da análise de impacto nos negócios.
+
+Os parâmetros.
+
+A referência internacional é a norma ízo vinte e dois mil trezentos e um, de sistemas de gestão de continuidade de negócios. O ponto de partida é a análise de impacto nos negócios, que identifica as atividades críticas e mede como o dano da interrupção cresce com o tempo. Dela saem os parâmetros. O período máximo tolerável de interrupção é o prazo após o qual o impacto se torna inaceitável. O tempo objetivo de recuperação, érre tê ô, é o prazo planejado para retomar a atividade, e precisa ser menor que o período máximo tolerável. O ponto objetivo de recuperação, érre pê ô, é a perda máxima de dados aceita, medida em tempo: com érre pê ô de uma hora, a recuperação pode devolver os dados ao estado de até uma hora antes da falha. E define-se o nível mínimo de serviço aceitável enquanto a interrupção durar.
+
+Os dois objetivos orientam escolhas diferentes. O ponto objetivo define a frequência das cópias e o tipo de replicação. O tempo objetivo define a estratégia de retomada e o tipo de local de contingência.
+
+As estratégias de recuperação de desastres formam uma escada de custo. Cópia de segurança e restauração: a mais barata, com tempo e perda maiores, porque tudo é reconstruído. Chama piloto: o núcleo essencial, como o banco replicado, fica ligado no local secundário, e o restante sobe na crise. Réplica reduzida em espera: uma cópia completa, porém menor, já funciona e é ampliada na troca. E ativo-ativo em vários locais: tempo e perda próximos de zero, com o maior custo. Na terminologia clássica, os locais de contingência são quentes, prontos para assumir em minutos ou horas; mornos, com parte da infraestrutura; e frios, só com espaço e infraestrutura básica, que exigem dias.
+
+Cópias de segurança.
+
+A regra três, dois, um pede três cópias dos dados, em dois tipos de armazenamento diferentes, com uma fora do local principal. Versões atuais acrescentam uma cópia imutável ou desconectada e zero erro nos testes de restauração.
+
+A cópia completa copia tudo. A incremental copia o que mudou desde a última cópia de qualquer tipo: é a mais rápida de fazer e a mais lenta de restaurar, porque exige a completa e todas as incrementais seguintes, em ordem. A diferencial copia o que mudou desde a última completa: cresce a cada dia, mas a restauração exige só a completa e a última diferencial. Nos bancos de dados, uma cópia completa somada ao arquivamento contínuo do log de transações permite a recuperação a um ponto no tempo, como um minuto antes do comando que apagou uma tabela.
+
+Replicação não é cópia de segurança. A réplica repete em segundos tudo o que acontece no principal, inclusive a exclusão indevida, o dado corrompido e a criptografia feita por um programa de sequestro de dados, o rénsomuér. A replicação protege contra a perda de uma máquina; a cópia de segurança, separada e com histórico, protege contra a perda do próprio dado. Pelo mesmo motivo, um instantâneo guardado no mesmo armazenamento e acessível pelas mesmas credenciais não é cópia independente.
+
+Cópia nunca restaurada não é garantia: o teste de restauração mede o tempo real de recuperação e revela cópias incompletas. A norma ízo vinte e sete mil e dois trata das cópias de segurança no controle oito ponto treze e da prontidão da tecnologia da informação para a continuidade no controle cinco ponto trinta. A proteção das cópias, como criptografia e retenção, é tema do item três ponto três ponto quatro.
+
+Na nuvem, a Instrução Normativa cinco, no artigo vinte, exige que o provedor tenha processos de gestão de continuidade de negócios e plano de recuperação de desastres, com procedimentos para restaurar plataforma, infraestrutura, aplicações e dados após perda. Pela responsabilidade compartilhada do bloco um, a proteção da infraestrutura pelo provedor não substitui a política de cópias do órgão para os próprios dados.
+
+Os testes do plano têm níveis crescentes de realismo e de risco. No exercício de mesa, a equipe percorre o plano diante de um cenário, sem tocar nos sistemas. Na simulação, executa os passos em ambiente de teste. No teste paralelo, ativa o local de contingência sem desligar o principal. E na interrupção completa, desliga o principal de fato.
+
+Degradação controlada.
+
+Degradação controlada, ou graciosa, é manter as funções essenciais quando parte do sistema falha, em vez de parar tudo. A pergunta de projeto é: sem esta dependência, o que o usuário ainda consegue fazer?
+
+As técnicas. Responder com dados do quéchi, mesmo desatualizados, informando a data da informação. Ocultar a função acessória, como as recomendações de uma página. Passar a modo somente leitura quando o banco principal falha, atendendo consultas pelas réplicas e suspendendo gravações. Aceitar a solicitação e processá-la depois, por fila, com protocolo para o cidadão. Desligar funções pesadas e não essenciais por chave de funcionalidade, vista no item três ponto um ponto cinco, para preservar a capacidade das essenciais. E, nas integrações com modelos de linguagem, passar a um modelo alternativo ou à busca tradicional quando o provedor principal falha ou estoura a latência.
+
+O caminho alternativo, em inglês fólbéc, exige três cuidados. Não pode depender do componente que falhou. Não pode ser mais caro que o caminho normal, como consultar direto o banco já sobrecarregado quando o quéchi cai. E precisa ser visível: cada uso é registrado e medido, para que a degradação não dure semanas sem que ninguém perceba.
+
+O cuidado principal é não transformar falha em resposta falsa. Decisões de segurança e de integridade falham fechadas: sem confirmação, nega-se. Funções acessórias falham abertas: sem a recomendação, a página segue sem ela.
+
+Exemplo prático. Um sistema de compras consulta o Cadastro Nacional de Empresas Inidôneas e Suspensas, o Céis, mantido pela Controladoria-Geral da União, antes de habilitar um fornecedor. Se a consulta falha, a ausência de resposta não pode ser tratada como ausência de sanção. O sistema registra a verificação como pendente, impede a habilitação até a confirmação e informa ao usuário que a consulta está indisponível.
+
+A comunicação faz parte da degradação: uma página de situação do serviço e mensagens claras sobre o que funciona e quando se espera a volta reduzem chamados e novas tentativas, que aumentariam a carga. A continuidade durante entregas e incidentes, do ponto de vista da operação, é tema do item três ponto quatro ponto três.
+
+Pegadinhas do bloco cinco.
+
+O ponto objetivo de recuperação indica o prazo máximo para restabelecer o serviço. Errado. Esse é o tempo objetivo; o ponto objetivo é a perda máxima de dados, medida em tempo.
+
+O tempo objetivo de recuperação pode superar o período máximo tolerável de interrupção, desde que aprovado pela alta direção. Errado. Ele precisa ser menor, senão a recuperação planejada chega depois do dano inaceitável.
+
+A cópia incremental é a mais rápida de restaurar, porque contém apenas as alterações. Errado. É a mais rápida de fazer; a restauração exige a completa e todas as incrementais.
+
+A replicação síncrona para outra zona dispensa a cópia de segurança. Errado. A réplica repete a exclusão, a corrupção e a criptografia por sequestro de dados.
+
+Pela Instrução Normativa três, de dois mil e vinte e um, o plano de continuidade é revisado a cada dois anos. Errado. A revisão é no mínimo anual, além das hipóteses de teste e de mudança significativa, conforme o artigo vinte e quatro.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Ambientes de implantação. Imagem imutável em camadas, construída em múltiplos estágios e referenciada por versão fixa ou resumo; contêiner efêmero, corrigido por substituição. Cubernétis declarativo: pód, diplóiment, sérvis, cônfig mép e sícret; reserva e limite de recursos; sonda de inicialização para partidas lentas; sig térm e desligamento gracioso. Sem servidor: função disparada por evento, cobrança por execução e partida a frio. Níst: cinco características, três modelos de serviço e quatro de implantação. Instrução Normativa cinco: dados hospedados no Brasil com cópia atualizada no país, estruturantes só em nuvem privada ou comunitária, devolução integral dos dados ao fim do contrato.
+
+Logs, métricas e rastreamento. Log estruturado na saída padrão; nível ajustável em execução; registros de nuvem guardados um ano pelo provedor e cinco pelo órgão. Contador, medidor, histograma e resumo; sinais de ouro, érre é dê e iú ésse é. Rastro feito de trechos, contexto no cabeçalho trêice pérent, Ôpen Telemétri e Maicrômiter; amostragem padrão de dez por cento no Sprín Búti. Alerta por sintoma, acionável.
+
+Latência, disponibilidade, capacidade e tolerância. Cauda amplificada em chamadas paralelas; requisição redundante só em operação idempotente. Disponibilidade é propriedade protegida pela política do Decreto doze mil quinhentos e setenta e dois; três noves são cerca de quarenta e três minutos por mês. Indicador, objetivo e acordo; orçamento de erros. Lei de Lítol; folga para perder uma zona; descarte de carga. Falha, erro e defeito; ativo-ativo e ativo-passivo; cérebro dividido. Disjuntor com janela, limite e chamadas de teste; compartimentos; engenharia do caos.
+
+Diagnóstico. Sintoma, mudança recente, hipóteses e telemetria; dependência forte e fraca; teste a partir do ambiente da aplicação. Nome não resolvido, conexão recusada, prazo de conexão, prazo de leitura, negociação tê éle ésse e conexão ociosa encerrada por intermediário. Pool com dez conexões e trinta segundos de espera; despejos de threads e de memória; árvore de dependências; atraso do consumidor; monitoramento sintético.
+
+Continuidade e degradação. Instrução Normativa três: continuidade é processo obrigatório, com plano que traz atividades críticas, tempo máximo aceitável de permanência da falha, responsáveis nominais e roteiro de teste. Análise de impacto, período máximo tolerável, érre tê ô e érre pê ô. Cópia e restauração, chama piloto, réplica reduzida e ativo-ativo; locais quente, morno e frio. Regra três, dois, um; recuperação a um ponto no tempo; teste de restauração. Degradação com quéchi, somente leitura, fila, chave de funcionalidade e modelo alternativo; o alternativo é independente, barato e medido; decisões de segurança e de integridade falham fechadas.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Norma editada em dois mil e vinte e cinco pelo Gabinete de Segurança Institucional da Presidência da República passou a admitir o tratamento de informação classificada no grau secreto em nuvem comunitária com infraestrutura localizada em território nacional.
+
+Gabarito: certo. A Instrução Normativa oito, de dois mil e vinte e cinco, admite os graus reservado e secreto em nuvem privada ou comunitária; o ultrassecreto continua vedado.
+
+Item dois. Em aplicação implantada no Cubernétis cuja sonda de vivacidade verifica a conexão com o banco de dados, uma indisponibilidade do banco fará o orquestrador apenas deixar de enviar tráfego às instâncias, sem reiniciá-las.
+
+Gabarito: errado. Falha na vivacidade reinicia os contêineres, e todas as instâncias entram em ciclo de reinícios; deixar de enviar tráfego é o efeito da prontidão.
+
+Item três. Segundo a Instrução Normativa cinco, de dois mil e vinte e um, do gê ésse í, informação sem restrição de acesso tratada em nuvem pode ter cópias de segurança fora do território brasileiro, mantida ao menos uma cópia de segurança atualizada no país.
+
+Gabarito: certo. É o que dispõe o artigo dezoito.
+
+Item quatro. No Cubernétis, o conteúdo de um sícret é armazenado criptografado por padrão, o que dispensa controles adicionais sobre quem pode lê-lo.
+
+Gabarito: errado. Por padrão, ele é apenas codificado em base sessenta e quatro; a proteção exige criptografia no armazenamento do clâster, restrição de leitura ou cofre de segredos.
+
+Item cinco. Em um serviço com dez instâncias que calculam localmente o percentil noventa e nove da latência, a média aritmética desses dez valores corresponde ao percentil noventa e nove do serviço.
+
+Gabarito: errado. Percentis não se combinam por média; a agregação correta usa histogramas.
+
+Item seis. Empregar o identificador de cada requisição como etiqueta de métrica eleva a cardinalidade das séries temporais, razão pela qual essa informação deve constar de logs ou rastros.
+
+Gabarito: certo. Cada valor distinto de etiqueta cria uma série temporal.
+
+Item sete. Na amostragem de rastros decidida no início da requisição, rastros que terminam em erro podem ser descartados, risco que a amostragem decidida após a conclusão do rastro permite evitar.
+
+Gabarito: certo. Só a amostragem na cauda conhece o resultado antes de decidir.
+
+Item oito. Dois servidores independentes, cada um com disponibilidade de noventa e nove por cento, operando em paralelo de modo que um basta para atender, resultam em disponibilidade de noventa e nove vírgula noventa e nove por cento.
+
+Gabarito: certo. O conjunto só para se os dois pararem juntos: um centésimo vezes um centésimo.
+
+Item nove. Para evitar penalidades, a equipe deve fixar o objetivo de nível de serviço interno em patamar menos rigoroso que o do acordo de nível de serviço firmado.
+
+Gabarito: errado. O objetivo interno é mais rigoroso, para dar margem de reação antes da quebra do acordo.
+
+Item dez. No estado meio aberto, o disjuntor rejeita imediatamente todas as chamadas, sem consultar a dependência, até que expire o tempo de espera.
+
+Gabarito: errado. Isso descreve o estado aberto; no meio aberto, algumas chamadas de teste passam.
+
+Item onze. Um serviço que recebe cem requisições por segundo, com tempo médio de resposta de dois segundos, mantém em média duzentas requisições simultâneas em andamento.
+
+Gabarito: certo. Pela lei de Lítol, cem vezes dois.
+
+Item doze. A resposta quinhentos e quatro recebida pelo usuário comprova que a aplicação de destino processou a requisição e registrou erro interno.
+
+Gabarito: errado. O código é emitido pelo intermediário que desistiu de esperar; a aplicação pode continuar processando ou nem ter recebido a requisição.
+
+Item treze. Em uma integração, a falha imediata por conexão recusada indica, em regra, que nenhum processo escuta na porta de destino, ao passo que o esgotamento do prazo de conexão é compatível com um filtro de rede que descarta pacotes em silêncio.
+
+Gabarito: certo. A recusa exige que a máquina responda; o descarte silencioso não produz resposta alguma.
+
+Item catorze. No Méiven, quando duas dependências transitivas exigem versões diferentes da mesma biblioteca, é carregada sempre a versão mais recente.
+
+Gabarito: errado. Vence a declaração mais próxima da raiz da árvore de dependências.
+
+Item quinze. Um érre pê ô de quinze minutos significa que o serviço deve estar restabelecido em até quinze minutos após o desastre.
+
+Gabarito: errado. Esse é o érre tê ô; o érre pê ô limita a perda de dados aos quinze minutos anteriores à falha.
+
+Item dezesseis. De acordo com a Instrução Normativa três, de dois mil e vinte e um, do gê ésse í, o plano de continuidade de negócios em segurança da informação deve ser revisado no mínimo uma vez por ano e também após mudança significativa nos ativos de informação ou nas atividades.
+
+Gabarito: certo. É o que dispõe o artigo vinte e quatro.
+
+Item dezessete. A replicação síncrona do banco de dados para uma segunda zona de disponibilidade dispensa a política de cópias de segurança, por garantir que nenhum dado seja perdido.
+
+Gabarito: errado. A réplica repete exclusões, corrupção e criptografia por sequestro de dados; a cópia de segurança preserva o histórico.
+
+Item dezoito. Em sistema que consulta cadastro de sanções antes de habilitar fornecedores, a indisponibilidade da consulta deve impedir a habilitação até a confirmação, e não ser tratada como ausência de sanção.
+
+Gabarito: certo. Decisões de integridade falham fechadas.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto três ponto um, modelagem e persistência.
