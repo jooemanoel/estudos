@@ -1,0 +1,359 @@
+AUDIOAULA. ITEM TRÊS PONTO DOIS PONTO TRÊS DO EDITAL: COMUNICAÇÃO E CONSISTÊNCIA
+
+
+ABERTURA
+
+Este é o item três ponto dois ponto três, comunicação e consistência. Ele tem quatro subitens, tratados aqui em quatro blocos: mensageria, eventos e persistência; falhas, repetição de requisições, idempotência e consistência; integração entre sistemas e coordenação de operações; e evolução de contratos e migração de esquemas. A banca costuma explorar as garantias de entrega de mensagens, o problema da escrita dupla e a caixa de saída transacional, o teorema cáp, as sagas com transações de compensação e a ordem segura das mudanças de esquema.
+
+
+BLOCO UM: MENSAGERIA, EVENTOS E PERSISTÊNCIA
+
+A distinção entre evento e comando, os quatro padrões de uso de eventos e as topologias de coreografia e orquestração foram vistos no item três ponto dois ponto um. Aqui entram os mecanismos de mensageria, as garantias de entrega e a relação entre as mensagens e o banco de dados.
+
+Há dois modelos de canal.
+
+Na fila ponto a ponto, cada mensagem é entregue a um único consumidor. Vários consumidores podem ler da mesma fila, disputando as mensagens, o que distribui a carga entre eles. É o padrão dos consumidores concorrentes.
+
+Na publicação e assinatura, a mensagem é publicada em um tópico, e cada assinante recebe sua própria cópia. É o modelo natural para eventos, em que vários sistemas reagem ao mesmo fato.
+
+Os intermediários, os brôqueres, se dividem em duas famílias.
+
+A primeira é a dos brôqueres de filas, como o Rébit ém quiú, que implementa o protocolo á ême quê pê. O produtor publica em um ponto de troca, que encaminha a mensagem para as filas conforme regras de ligação. A mensagem sai da fila depois que o consumidor confirma o processamento.
+
+A segunda é a dos registros distribuídos, como o Cáfca. O tópico é um registro em que as mensagens só são acrescentadas ao final, dividido em partições. A mensagem não é apagada quando consumida: fica retida por um prazo ou até um limite de tamanho. Cada consumidor controla a posição até onde já leu, chamada de deslocamento, em inglês ófset, e pode voltar e reprocessar mensagens antigas.
+
+Três detalhes do Cáfca aparecem em prova.
+
+A ordem só é garantida dentro de uma partição, e não no tópico inteiro. Mensagens com a mesma chave, como o número do processo, vão para a mesma partição e por isso mantêm a ordem entre si.
+
+Em um grupo de consumidores, cada partição é lida por um único consumidor do grupo. Por isso o paralelismo máximo do grupo é o número de partições. Consumidores além desse número ficam ociosos.
+
+E grupos diferentes leem o mesmo tópico de forma independente, cada um com seus próprios deslocamentos. É assim que o Cáfca faz publicação e assinatura.
+
+Confirmação e garantias de entrega.
+
+O consumidor confirma a mensagem, em inglês éc, depois de processá-la. Se ele cai antes de confirmar, a mensagem é entregue de novo, a outro consumidor ou ao mesmo, quando voltar. Confirmar antes de processar evita a repetição, mas perde a mensagem se o processamento falhar no meio.
+
+Daí as três garantias de entrega.
+
+No máximo uma vez: a mensagem pode se perder, mas nunca é processada duas vezes.
+
+Pelo menos uma vez: a mensagem não se perde, mas pode ser processada mais de uma vez. É a garantia mais comum.
+
+Exatamente uma vez: é a mais difícil. Alguns brôqueres oferecem essa semântica dentro do próprio brôquer, como o Cáfca com transações que leem de um tópico e gravam em outro. Mas, quando o processamento grava em um banco ou chama outro sistema, o resultado se obtém combinando entrega pelo menos uma vez com consumidor idempotente, assunto do bloco dois. A entrega pode se repetir; o efeito acontece uma vez só.
+
+Uma mensagem que falha sempre, por exemplo por conteúdo inválido, é chamada de mensagem envenenada. Se for recolocada na fila indefinidamente, atrasa ou bloqueia as demais. Depois de um número limitado de tentativas, ela vai para a fila de mensagens mortas, em inglês déd léter quiú, para análise e eventual reprocessamento. Essa fila precisa de monitoramento: mensagem esquecida ali é uma operação de negócio que não aconteceu.
+
+Durabilidade. Para que as mensagens sobrevivam à queda do brôquer, a fila precisa ser durável e a mensagem, persistente, gravada em disco. Em registros distribuídos, a mensagem é replicada em várias máquinas, e o produtor pode exigir a confirmação de todas as réplicas sincronizadas antes de considerar o envio concluído. E o produtor precisa esperar a confirmação do brôquer: enviar sem esperar é escolher, sem perceber, a garantia de no máximo uma vez.
+
+O problema da escrita dupla.
+
+Um serviço que registra um pagamento no banco e publica o evento pagamento efetuado faz duas gravações em sistemas diferentes, sem transação comum. Se o banco confirma e a publicação falha, os outros sistemas nunca sabem do pagamento. Se a publicação acontece e a transação do banco é desfeita, os outros sistemas reagem a um pagamento que não existe.
+
+Inverter a ordem não resolve: só muda qual das duas inconsistências pode acontecer.
+
+A transação distribuída com confirmação em duas fases, vista no bloco três, resolveria em tese, mas muitos brôqueres não a suportam e ela reduz a disponibilidade.
+
+A solução usual é o padrão da caixa de saída transacional, em inglês transácheonal áutbócs. O serviço grava a mudança de negócio e, na mesma transação local, grava o evento em uma tabela de saída, no mesmo banco. Ou as duas gravações acontecem, ou nenhuma. Um processo separado lê a tabela de saída, publica os eventos no brôquer e os marca como enviados.
+
+Esse processo pode consultar a tabela periodicamente ou ler o registro de transações do próprio banco, técnica chamada de captura de mudanças de dados. Em qualquer caso, se ele cair entre publicar e marcar como enviado, o evento é publicado de novo. A caixa de saída garante entrega pelo menos uma vez, e por isso os consumidores precisam ser idempotentes.
+
+No Sprín, o ouvinte de eventos transacional, arroba transácheonal ivént lísner, executa por padrão só depois da confirmação da transação. Ele evita publicar o evento de uma transação desfeita, mas não resolve o problema inteiro: se a aplicação cair depois da confirmação e antes da publicação, o evento se perde. Para ter garantia, é preciso a caixa de saída.
+
+Por fim, mensagens também guardam dados. Em registros com retenção longa, um evento com dados pessoais continua armazenado mesmo depois que o registro foi apagado do banco. A Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, limita o tratamento ao mínimo necessário, pelo princípio da necessidade, do artigo sexto, inciso três, e determina a eliminação dos dados após o término do tratamento, salvo as hipóteses de conservação do artigo dezesseis. Na prática, eventos devem levar só os dados necessários, ou apenas identificadores, e a retenção dos tópicos deve ser definida de forma consciente.
+
+Pegadinhas do bloco um.
+
+No Cáfca, a ordem das mensagens é garantida em todo o tópico. Errado. A ordem é garantida dentro de cada partição.
+
+Em um grupo de consumidores do Cáfca, acrescentar consumidores além do número de partições aumenta o paralelismo. Errado. Cada partição é lida por um único consumidor do grupo; os excedentes ficam ociosos.
+
+No Cáfca, a mensagem é apagada do tópico assim que é consumida. Errado. Ela fica retida pelo prazo configurado e pode ser relida.
+
+A entrega pelo menos uma vez garante que cada mensagem seja processada uma única vez. Errado. Ela garante que a mensagem não se perca, mas admite repetição.
+
+Gravar no banco e, em seguida, publicar o evento no brôquer garante a consistência entre os dois. Errado. Sem transação comum, uma das gravações pode falhar; a solução usual é a caixa de saída transacional.
+
+A caixa de saída transacional garante que cada evento seja publicado exatamente uma vez. Errado. Garante pelo menos uma vez; os consumidores precisam ser idempotentes.
+
+
+BLOCO DOIS: FALHAS, REPETIÇÃO DE REQUISIÇÕES, IDEMPOTÊNCIA E CONSISTÊNCIA
+
+A definição de idempotência, a chave de idempotência e a restrição de unicidade foram vistas no item três ponto um ponto três, assim como os nomes das proteções sob carga, como o prazo limite e o disjuntor. Aqui entram a falha parcial, as regras de repetição, os detalhes de implementação da idempotência e os modelos de consistência.
+
+Falha parcial.
+
+Em um sistema distribuído, a falha é parcial: uma parte cai e as outras continuam. E quem chama não consegue distinguir três situações. A requisição se perdeu e nada foi feito. A requisição foi processada, mas a resposta se perdeu. Ou o outro lado está apenas lento. Nas três, o que se vê é o mesmo: o prazo limite esgotado.
+
+A consequência é direta. Depois de um prazo esgotado, o chamador não sabe se a operação aconteceu. Repetir pode duplicá-la. Não repetir pode perdê-la. Por isso a repetição segura depende de idempotência.
+
+Prazos limite. Toda chamada remota precisa de prazo, tanto para estabelecer a conexão quanto para receber a resposta. E, em cadeias de chamadas, os prazos devem ser coerentes: se o cliente desiste em dois segundos, não faz sentido um serviço interno esperar cinco por uma dependência, produzindo um trabalho que ninguém vai aproveitar. Uma técnica é propagar, junto com a requisição, o prazo que ainda resta, para que cada etapa saiba quanto tempo tem.
+
+Repetição.
+
+Só se repetem falhas transitórias: prazo esgotado, conexão recusada ou interrompida, serviço indisponível, que é o status quinhentos e três, e excesso de requisições, o quatrocentos e vinte e nove, respeitando o cabeçalho rítrai áfter. Falhas permanentes não se repetem: requisição inválida, falta de autenticação, falta de permissão, recurso não encontrado, violação de regra de negócio. Repetir um erro da família quatrocentos só gera carga.
+
+As tentativas são limitadas em número e espaçadas por espera exponencial, o bécóf exponencial: espera-se, por exemplo, um segundo, depois dois, depois quatro. E acrescenta-se uma variação aleatória, em inglês djíter. Sem ela, todos os clientes que falharam no mesmo instante tentam de novo no mesmo instante, em ondas sincronizadas que derrubam o serviço justamente quando ele tenta voltar. É o chamado efeito manada.
+
+Cuidado com a amplificação. Se cada uma de três camadas faz até três tentativas, uma única requisição do usuário pode gerar vinte e sete chamadas na camada mais baixa. A regra é repetir em uma camada só, ou limitar o total por um orçamento de tentativas.
+
+E quando a dependência falha de forma persistente, repetir só piora. O disjuntor, em inglês sârkit brêiquer, interrompe as chamadas por um intervalo e devolve erro imediato, dando tempo para a recuperação. O funcionamento detalhado do disjuntor e da degradação controlada é tema do item três ponto dois ponto cinco.
+
+Idempotência na prática.
+
+Há operações idempotentes por natureza. Definir a situação do processo como arquivado é idempotente: repetir não muda nada. Somar cem reais a um saldo não é: cada repetição soma de novo. Sempre que possível, a operação deve ser expressa como definição de um valor ou de um estado, e não como incremento.
+
+Atualizações condicionais também ajudam: altere a situação para pago somente se ela ainda estiver pendente. A repetição encontra a situação já alterada e não faz nada.
+
+Para operações que criam algo, como o registro de um pagamento, entra a chave de idempotência. Os detalhes de implementação são os que caem em prova.
+
+A chave identifica a operação lógica, e não a tentativa. O cliente a gera uma vez, normalmente um iú iú ái dí, e a reenvia em todas as repetições da mesma operação.
+
+O servidor grava a chave junto com o resultado, na mesma transação do efeito. Gravar a chave numa transação e o efeito em outra traz de volta o problema da escrita dupla.
+
+Na repetição, o servidor devolve o resultado guardado, sem executar de novo.
+
+Duas requisições com a mesma chave podem chegar ao mesmo tempo. Uma restrição de unicidade sobre a chave faz a segunda falhar ao gravar, e ela recebe a resposta da primeira ou um aviso de conflito, com o status quatrocentos e nove.
+
+A mesma chave com conteúdo diferente indica erro do cliente e deve ser rejeitada, e não tratada como repetição.
+
+E as chaves expiram depois de um prazo definido, para que a tabela não cresça indefinidamente.
+
+No consumo de mensagens, a mesma ideia se chama consumidor idempotente. O consumidor guarda o identificador de cada mensagem processada, na mesma transação do efeito. Se a mensagem chega de novo, o identificador já está lá, e ela é descartada. Por isso toda mensagem precisa de um identificador único, atribuído pelo produtor.
+
+Atualização perdida.
+
+O bloqueio otimista, visto no item três ponto um ponto três, tem uma forma própria no agá tê tê pê. O servidor envia, junto com o recurso, uma etiqueta que identifica a versão, no cabeçalho í tég. Para alterar o recurso, o cliente reenvia a etiqueta no cabeçalho íf métch. Se o recurso mudou nesse meio-tempo, o servidor recusa a alteração com o status quatrocentos e doze, falha de pré-condição. Assim, a gravação de um cliente não apaga em silêncio a do outro.
+
+Modelos de consistência.
+
+Na consistência forte, também chamada de linearizabilidade, toda leitura enxerga a gravação mais recente, como se houvesse uma única cópia dos dados.
+
+Na consistência eventual, as réplicas podem divergir por um tempo, mas convergem se não houver novas gravações. Um cidadão que atualiza o endereço e, em seguida, consulta outra réplica pode ver o endereço antigo por alguns instantes.
+
+Entre os dois extremos há garantias intermediárias. Ler as próprias gravações: o usuário sempre vê o que ele mesmo gravou, ainda que os outros vejam depois. Leituras monotônicas: o usuário nunca vê um dado mais antigo depois de já ter visto um mais novo. E consistência causal: quem vê uma resposta também vê a pergunta que a originou.
+
+O teorema cáp, proposto por Eric Brewer e demonstrado em dois mil e dois por Gilbert e Lynch, diz que um sistema distribuído não pode garantir ao mesmo tempo consistência, disponibilidade e tolerância a partição. A leitura correta é esta: partições de rede acontecem, e não se escolhe tê-las ou não. Então, durante uma partição, o sistema escolhe entre manter a consistência, recusando parte das requisições, e manter a disponibilidade, respondendo com dados possivelmente desatualizados. A frase escolha dois dos três é uma simplificação enganosa.
+
+A extensão proposta por Daniel Abadi, conhecida como pacélque, completa o quadro: havendo partição, escolhe-se entre disponibilidade e consistência; senão, em operação normal, escolhe-se entre latência e consistência, porque sincronizar réplicas leva tempo.
+
+E duas siglas que a banca troca. O cê do teorema cáp é a linearizabilidade, a visão única dos dados entre as réplicas. O cê das propriedades á cê í dê das transações, atomicidade, consistência, isolamento e durabilidade, é outra coisa: a transação leva o banco de um estado válido a outro, respeitando as restrições de integridade. Em contraste com as propriedades á cê í dê, o modelo conhecido como bêis descreve sistemas basicamente disponíveis, com estado flexível e consistência eventual.
+
+A consistência eventual também é questão de interface. Quando o processamento é assíncrono, a tela deve informar que a solicitação foi recebida e está em processamento, e não que foi concluída.
+
+Pegadinhas do bloco dois.
+
+Após o esgotamento do prazo limite de uma chamada, é seguro concluir que a operação não foi executada. Errado. A requisição pode ter sido processada e só a resposta ter se perdido.
+
+Respostas de status quatrocentos devem ser repetidas automaticamente, com espera exponencial. Errado. Falhas permanentes não se repetem; só as transitórias.
+
+A variação aleatória na espera entre tentativas é dispensável, porque a espera crescente já distribui as repetições. Errado. Sem ela, os clientes que falharam juntos repetem juntos, no efeito manada.
+
+A chave de idempotência deve ser gerada de novo a cada tentativa de envio. Errado. Ela identifica a operação lógica e se repete em todas as tentativas.
+
+Pelo teorema cáp, o projetista pode abrir mão da tolerância a partição e garantir consistência e disponibilidade em um sistema distribuído. Errado. Partições acontecem; durante elas, escolhe-se entre consistência e disponibilidade.
+
+O cê do teorema cáp corresponde ao cê das propriedades á cê í dê. Errado. No cáp, é a linearizabilidade entre réplicas; no á cê í dê, é a preservação das restrições de integridade.
+
+
+BLOCO TRÊS: INTEGRAÇÃO ENTRE SISTEMAS E COORDENAÇÃO DE OPERAÇÕES
+
+O catálogo de padrões de integração corporativa de Gregor Hohpe e Bobby Woolf, de dois mil e três, descreve quatro estilos de integração.
+
+Transferência de arquivos: um sistema gera um arquivo, e outro o lê depois. É simples e funciona entre tecnologias diferentes, mas tem latência alta, porque os dados só chegam no próximo lote, e exige acordo rígido sobre o formato.
+
+Banco de dados compartilhado: os sistemas leem e gravam as mesmas tabelas. Os dados ficam sempre consistentes, mas o esquema vira um contrato que ninguém consegue mudar, como visto no item três ponto dois ponto um.
+
+Invocação remota: um sistema chama uma função do outro, como numa chamada a uma á pê í rést. É imediata e simples de entender, mas cria acoplamento temporal.
+
+E mensageria: os sistemas trocam mensagens por um intermediário, de forma assíncrona. Desacopla no tempo e absorve picos, ao custo de consistência eventual e de mais complexidade operacional.
+
+Não há estilo melhor em abstrato, e é comum combinar vários no mesmo ambiente.
+
+Na comunicação síncrona entre serviços internos, além do rést, é comum o djí érre pê cê, uma estrutura de chamada remota que usa o agá tê tê pê dois e um formato binário, o prótocol báfers, com o contrato definido em um arquivo de interface. É mais eficiente que o djêisson, oferece fluxos contínuos nos dois sentidos e gera o código de cliente e de servidor a partir do contrato. Em compensação, a mensagem não é legível por pessoas, e o uso direto no navegador é limitado.
+
+Também é possível fazer requisição e resposta sobre mensageria. O solicitante envia a mensagem com um identificador de correlação e o endereço de uma fila de resposta. Quem responde devolve a resposta nessa fila, com o mesmo identificador, para que o solicitante associe uma à outra.
+
+Do mesmo catálogo vêm padrões de tratamento de mensagens. Os mais citados são estes.
+
+Roteador baseado em conteúdo: encaminha cada mensagem a um destino conforme o seu conteúdo, como a unidade da federação.
+
+Tradutor de mensagens: converte o formato de um sistema no formato de outro.
+
+Divisor e agregador: o divisor quebra uma mensagem composta em partes, como um lote em itens; o agregador junta mensagens relacionadas em uma só, como as respostas de vários sistemas a uma mesma consulta.
+
+E o modelo canônico de dados: um formato comum, independente de qualquer sistema. Dez sistemas integrados dois a dois podem exigir até quarenta e cinco conexões, cada uma com sua tradução. Com o modelo canônico, cada sistema só precisa traduzir de e para o formato comum.
+
+Uéb rúquis. Em vez de o consumidor perguntar periodicamente ao fornecedor se há novidades, o fornecedor chama um endereço do consumidor quando o evento ocorre. Três cuidados de quem recebe: validar a assinatura da chamada, normalmente um código agá mác calculado com um segredo compartilhado, para ter certeza de quem enviou; responder rápido e processar depois, de forma assíncrona; e ser idempotente, porque o fornecedor repete a chamada quando não recebe a confirmação.
+
+E, em qualquer estilo, um identificador de correlação, gerado na entrada e propagado por todas as chamadas e mensagens, permite reconstruir o caminho de uma operação entre os sistemas. O rastreamento distribuído é tema do item três ponto dois ponto cinco.
+
+Coordenação de operações.
+
+Uma operação de negócio que altera dados em vários serviços, cada um com seu banco, não cabe em uma transação local.
+
+A confirmação em duas fases, em inglês tchú fêis comít, é o protocolo clássico de transação distribuída. Na primeira fase, o coordenador pergunta a cada participante se ele pode confirmar. Cada um prepara a transação, mantendo os bloqueios, e responde. Na segunda fase, se todos responderam sim, o coordenador manda confirmar; se algum respondeu não, manda desfazer.
+
+Ela garante atomicidade, mas tem custos sérios. Os participantes ficam bloqueados enquanto esperam a decisão. Se o coordenador falhar depois da preparação, os participantes ficam travados, segurando bloqueios, sem saber se confirmam ou desfazem. E a disponibilidade do conjunto cai, porque todos precisam estar no ar ao mesmo tempo. Por isso ela costuma ser evitada entre microsserviços.
+
+A alternativa é a saga, proposta por Hector Garcia-Molina e Kenneth Salem em mil novecentos e oitenta e sete. A saga é uma sequência de transações locais, cada uma em um serviço. Cada etapa confirma a sua própria transação e dispara a seguinte. Se uma etapa falha, a saga executa transações de compensação, que desfazem semanticamente as etapas já confirmadas, na ordem inversa.
+
+A compensação não é um desfazer técnico. A etapa anterior já foi confirmada, e outros processos podem tê-la visto. Compensar um empenho é registrar a sua anulação; compensar um comunicado enviado é enviar uma retificação. A história fica registrada.
+
+Há duas formas de coordenar uma saga. Na coreografada, cada serviço reage aos eventos dos outros, sem coordenador. Na orquestrada, um orquestrador envia comandos a cada etapa e guarda o estado da saga. A coreografia desacopla mais, mas deixa o fluxo espalhado. A orquestração concentra o fluxo e facilita acompanhar e tratar falhas, e por isso costuma ser preferida em sagas com muitas etapas.
+
+As etapas de uma saga se classificam em três tipos. As compensáveis, que podem ser desfeitas por compensação. A etapa pivô, o ponto sem retorno: se ela for confirmada, a saga segue até o fim. E as repetíveis, depois do pivô, que não podem falhar de forma definitiva e por isso são repetidas até dar certo. Uma boa prática é deixar para depois do pivô o que não tem compensação possível.
+
+E o ponto mais cobrado: a saga não tem isolamento. Ela garante que, ao final, todas as etapas foram concluídas ou compensadas, mas durante a execução os estados intermediários são visíveis. Outro processo pode ler um empenho que depois será anulado. As contramedidas incluem o bloqueio semântico, uma situação como pendente, que avisa que o registro está em uma saga em andamento, e a releitura do valor antes de agir.
+
+Um exemplo de trabalho na CGU. A concessão de uma viagem a serviço passa por quatro sistemas: o de viagens registra a solicitação, o financeiro empenha o valor, a agência emite a passagem e o de notificações avisa o servidor. Se a emissão da passagem falhar, a saga anula o empenho e cancela a solicitação. A emissão é o pivô: depois dela, o aviso ao servidor é repetido até ser entregue.
+
+Pegadinhas do bloco três.
+
+Na integração por banco de dados compartilhado, os sistemas ficam desacoplados, porque não se chamam diretamente. Errado. O esquema compartilhado acopla todos eles.
+
+A transação de compensação de uma saga restaura o banco exatamente ao estado anterior, como se a etapa nunca tivesse ocorrido. Errado. Ela desfaz semanticamente uma etapa que foi confirmada e pode ter sido vista.
+
+A saga garante isolamento entre operações concorrentes, como uma transação local. Errado. Os estados intermediários são visíveis.
+
+A confirmação em duas fases aumenta a disponibilidade, porque cada participante decide sozinho. Errado. Todos precisam estar disponíveis, e a falha do coordenador pode deixá-los bloqueados.
+
+Na saga coreografada, um orquestrador central envia comandos a cada serviço. Errado. Isso é a orquestrada; na coreografada, os serviços reagem aos eventos uns dos outros.
+
+O receptor de uéb rúquis dispensa idempotência, porque o fornecedor envia cada evento uma única vez. Errado. O fornecedor repete a chamada quando não recebe confirmação.
+
+
+BLOCO QUATRO: EVOLUÇÃO DE CONTRATOS E MIGRAÇÃO DE ESQUEMAS
+
+Retrocompatibilidade, leitor tolerante e descontinuação foram vistos no item três ponto um ponto cinco; as estratégias de versionamento de á pê ís e os testes de contrato, no item três ponto dois ponto dois. Aqui entram os contratos de mensagens e a mudança do esquema do banco sem interromper o serviço.
+
+Contratos de mensagens.
+
+O contrato de uma mensagem é o seu esquema: campos, tipos e significado. Em mensageria, evoluir o contrato é mais difícil que em á pê ís, por dois motivos. O produtor não conhece os consumidores, e por isso não sabe quem vai quebrar. E as mensagens ficam guardadas: num registro com retenção longa ou num repositório de eventos, mensagens antigas convivem com consumidores novos por muito tempo.
+
+Formatos com esquema explícito, como o Ávro, o prôtobâf e o esquema djêisson, permitem verificar a compatibilidade de forma automática. O registro de esquemas guarda as versões do esquema de cada tópico e recusa, na publicação, um esquema novo que viole o modo de compatibilidade configurado.
+
+Os modos de compatibilidade são cobrados com frequência, e a chave é a ordem de atualização.
+
+Compatibilidade para trás: os consumidores com o esquema novo conseguem ler as mensagens gravadas com o esquema anterior. Por isso, atualizam-se primeiro os consumidores e depois os produtores. Remover um campo e acrescentar um campo opcional com valor padrão são mudanças compatíveis nesse modo.
+
+Compatibilidade para frente: os consumidores com o esquema anterior conseguem ler as mensagens gravadas com o esquema novo. Atualizam-se primeiro os produtores. Acrescentar um campo é compatível nesse modo.
+
+Compatibilidade completa: as duas ao mesmo tempo, e a ordem de atualização deixa de importar.
+
+Há ainda variantes transitivas, que verificam a compatibilidade com todas as versões anteriores, e não só com a última.
+
+No prôtobâf, cada campo tem um número, e é esse número que vai na mensagem binária. Um número de campo nunca deve ser reaproveitado. Se um campo é removido, seu número fica reservado. Reaproveitar o número faz um consumidor antigo interpretar o dado novo como se fosse o antigo, uma quebra silenciosa.
+
+Em repositórios de eventos, os eventos antigos são imutáveis e não são reescritos. Quando o formato muda, eles são convertidos para o formato novo no momento da leitura, técnica chamada de âpcésting, ou o formato novo ganha um novo tipo de evento.
+
+Migração de esquemas do banco.
+
+Mudanças no esquema do banco são tratadas como código: scrípts de migração versionados, guardados no repositório e aplicados automaticamente, em ordem, em todos os ambientes. As ferramentas mais usadas no djava são o Fláiuei e o Líquibêis, ambas com integração ao Sprín Búti, que executa as migrações pendentes na inicialização da aplicação.
+
+No Fláiuei, cada migração é um arquivo numerado por versão, e uma tabela de histórico registra quais versões já foram aplicadas, com uma soma de verificação do conteúdo. A regra mais cobrada: migração já aplicada não se edita. Se o arquivo for alterado, a soma de verificação deixa de bater, e a validação falha na execução seguinte. A correção vira uma migração nova.
+
+O Líquibêis organiza as mudanças em conjuntos dentro de um arquivo de registro de mudanças, guarda o histórico em tabela própria e permite declarar, para cada conjunto, como desfazê-lo.
+
+Mudança sem interrupção.
+
+Na implantação gradual ou na azul e verde, vistas no item três ponto um ponto cinco, a versão antiga e a nova da aplicação rodam ao mesmo tempo, sobre o mesmo banco. Portanto, o esquema precisa funcionar com as duas versões ao mesmo tempo. Uma mudança que quebra a versão antiga, como renomear ou apagar uma coluna que ela usa, derruba as instâncias antigas durante a implantação. E impede a reversão, porque a versão antiga não roda mais no esquema novo.
+
+A técnica para isso é a de expandir e contrair, também chamada de mudança paralela. Para renomear a coluna nome para nome completo, por exemplo:
+
+Primeiro, expandir: acrescentar a coluna nova, aceitando valores nulos, sem mexer na antiga. A versão antiga continua funcionando, porque ignora a coluna nova.
+
+Segundo, implantar uma versão da aplicação que grava nas duas colunas e continua lendo da antiga.
+
+Terceiro, preencher retroativamente a coluna nova nos registros existentes, em lotes pequenos, para não bloquear a tabela por muito tempo. Esse preenchimento deve poder ser interrompido e retomado sem duplicar trabalho.
+
+Quarto, implantar a versão que lê da coluna nova e ainda grava nas duas.
+
+Quinto, implantar a versão que usa só a coluna nova.
+
+E sexto, contrair: quando nenhuma versão em execução, nem a versão de reversão, usa mais a coluna antiga, removê-la.
+
+Cada passo é compatível com o anterior, e qualquer um pode ser revertido até a contração. A mesma lógica vale para contratos de á pê ís e de mensagens: acrescentar o novo, migrar os consumidores, descontinuar e só então remover o antigo.
+
+Dois cuidados práticos. Algumas alterações de esquema bloqueiam a tabela inteira enquanto executam, o que, em tabelas grandes, significa minutos de indisponibilidade. Elas devem ser ensaiadas com volume real e, quando o banco permitir, feitas de forma não bloqueante, como na criação de índices sem bloquear gravações. E a migração de esquema deve ser separada da migração de dados: alterar a estrutura costuma ser rápido; mover e transformar milhões de registros é demorado e deve rodar à parte, com conciliação, como visto no item três ponto um ponto cinco. Transações, concorrência e evolução de esquemas no nível do banco serão aprofundadas no item três ponto três ponto um.
+
+Pegadinhas do bloco quatro.
+
+No Fláiuei, para corrigir uma migração já aplicada em produção, deve-se editar o arquivo original. Errado. A soma de verificação deixa de bater; a correção é uma migração nova.
+
+Na compatibilidade para trás de esquemas de mensagens, atualizam-se primeiro os produtores. Errado. Atualizam-se primeiro os consumidores, que precisam ler tanto as mensagens antigas quanto as novas.
+
+Durante uma implantação gradual, é seguro renomear diretamente uma coluna usada pela versão anterior, desde que a nova versão já use o novo nome. Errado. As duas versões convivem sobre o mesmo banco; a renomeação derruba a antiga e impede a reversão.
+
+No prôtobâf, o número de um campo removido pode ser reaproveitado por um campo novo. Errado. O número fica reservado, para evitar interpretação errada por consumidores antigos.
+
+Na técnica de expandir e contrair, a coluna antiga é removida no mesmo passo em que a nova é criada. Errado. A remoção é o último passo, quando nenhuma versão em execução usa mais a coluna antiga.
+
+Em repositórios de eventos, os eventos antigos devem ser reescritos no formato novo a cada mudança de esquema. Errado. Os eventos são imutáveis; convertem-se na leitura ou cria-se um novo tipo de evento.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Fila ponto a ponto entrega a um consumidor; publicação e assinatura, a cada assinante. Rébit ém quiú retira a mensagem após a confirmação; Cáfca retém e permite reler, com ordem só na partição e um consumidor por partição em cada grupo. No máximo uma vez pode perder; pelo menos uma vez pode repetir; exatamente uma vez, na prática, é pelo menos uma vez com consumidor idempotente. Mensagem envenenada vai para a fila de mensagens mortas. Escrita dupla se resolve com a caixa de saída transacional, na mesma transação local, com entrega pelo menos uma vez. Eventos com o mínimo de dados pessoais.
+
+Prazo esgotado não revela se a operação aconteceu. Repetir só falhas transitórias, com espera exponencial, variação aleatória e em uma camada só; três camadas com três tentativas geram vinte e sete chamadas. A chave de idempotência identifica a operação, é gravada na mesma transação do efeito, tem restrição de unicidade e rejeita conteúdo diferente. Consumidor idempotente guarda o identificador da mensagem. Í tég com íf métch evita a atualização perdida, com quatrocentos e doze. Cáp: na partição, consistência ou disponibilidade; pacélque acrescenta latência ou consistência fora da partição. O cê do cáp não é o cê do á cê í dê.
+
+Quatro estilos: arquivo, banco compartilhado, invocação remota e mensageria. Djí érre pê cê é binário e eficiente entre serviços internos. Roteador, tradutor, divisor, agregador e modelo canônico. Uéb rúquis exigem validação da assinatura, resposta rápida e idempotência. Duas fases bloqueia e reduz a disponibilidade. Saga: transações locais com compensação semântica, coreografada ou orquestrada; etapas compensáveis, pivô e repetíveis; sem isolamento, com bloqueio semântico.
+
+Registro de esquemas aplica o modo de compatibilidade: para trás, consumidores primeiro; para frente, produtores primeiro; completa, qualquer ordem. Número de campo do prôtobâf não se reaproveita. Eventos antigos não se reescrevem. Fláiuei: migração aplicada não se edita. O esquema deve servir à versão antiga e à nova ao mesmo tempo; expandir, migrar em etapas e contrair por último.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em um grupo de consumidores do Cáfca, cada partição de um tópico é lida por um único consumidor do grupo, de modo que o número de partições limita o paralelismo do grupo.
+
+Gabarito: certo. Consumidores além do número de partições ficam ociosos.
+
+Item dois. No Cáfca, a ordem relativa de mensagens com chaves diferentes publicadas no mesmo tópico é garantida, independentemente da partição em que forem gravadas.
+
+Gabarito: errado. A ordem só é garantida dentro de cada partição.
+
+Item três. No padrão da caixa de saída transacional, o evento é gravado em uma tabela do mesmo banco, na mesma transação local da alteração de negócio, e publicado posteriormente por um processo separado.
+
+Gabarito: certo. Assim, a alteração e o registro do evento acontecem juntos ou não acontecem.
+
+Item quatro. Quando uma chamada remota esgota o prazo limite, o chamador pode concluir que a operação não foi executada e repeti-la sem risco de duplicação.
+
+Gabarito: errado. A operação pode ter sido processada e só a resposta ter se perdido; a repetição segura exige idempotência.
+
+Item cinco. A chave de idempotência deve ser gerada novamente a cada tentativa de envio, para que o servidor distinga as repetições.
+
+Gabarito: errado. Ela identifica a operação lógica e é reenviada igual em todas as tentativas.
+
+Item seis. Segundo o teorema cáp, durante uma partição de rede, o sistema distribuído precisa escolher entre manter a consistência e manter a disponibilidade.
+
+Gabarito: certo. Partições acontecem, e durante elas não é possível garantir as duas.
+
+Item sete. Na saga, a falha de uma etapa leva à execução de transações de compensação, que desfazem semanticamente as etapas já confirmadas.
+
+Gabarito: certo. A compensação registra a anulação, já que as etapas anteriores foram confirmadas.
+
+Item oito. Por coordenar transações locais confirmadas uma a uma, a saga garante o isolamento entre operações concorrentes.
+
+Gabarito: errado. A saga não tem isolamento; os estados intermediários são visíveis.
+
+Item nove. Na confirmação em duas fases, a falha do coordenador após a fase de preparação pode deixar os participantes bloqueados, aguardando a decisão.
+
+Gabarito: certo. Os participantes mantêm os bloqueios até saber se confirmam ou desfazem.
+
+Item dez. No Fláiuei, alterar o conteúdo de uma migração já aplicada faz falhar a validação da soma de verificação na execução seguinte.
+
+Gabarito: certo. Por isso a correção deve ser feita em uma migração nova.
+
+Item onze. No modo de compatibilidade para trás do registro de esquemas, os produtores devem ser atualizados antes dos consumidores.
+
+Gabarito: errado. Atualizam-se primeiro os consumidores, que passam a ler as mensagens antigas e as novas.
+
+Item doze. Durante uma implantação gradual, a renomeação direta de uma coluna usada pela versão anterior da aplicação é segura, desde que a nova versão já utilize o novo nome.
+
+Gabarito: errado. As duas versões convivem sobre o mesmo banco; a renomeação derruba a antiga e impede a reversão.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto dois ponto quatro, integração com dados e inteligência artificial.
