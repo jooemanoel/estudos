@@ -1,0 +1,524 @@
+AUDIOAULA. ITEM TRÊS PONTO DOIS PONTO UM DO EDITAL: ARQUITETURAS DE APLICAÇÕES
+
+
+ABERTURA
+
+Este é o item três ponto dois ponto um, arquiteturas de aplicações. Ele tem sete subitens, tratados aqui em sete blocos: monolitos, microsserviços e arquiteturas orientadas a eventos; distribuição de responsabilidades, acoplamento e dependências; desempenho, escalabilidade, segurança e custo; escolha de arquitetura conforme restrições; organização de componentes, inversão de controle e injeção de dependências no Sprín; configuração e autoconfiguração no Sprín Búti; e serviços rést com separação entre apresentação, regras de negócio e acesso a dados. A banca costuma explorar as características dos microsserviços, o custo da distribuição, as formas de injeção e de resolução de ambiguidade no Sprín, as condições da autoconfiguração e a semântica dos métodos e códigos de status do agá tê tê pê.
+
+
+BLOCO UM: MONOLITOS, MICROSSERVIÇOS E ARQUITETURAS ORIENTADAS A EVENTOS
+
+Arquitetura de aplicações é o conjunto das decisões estruturais de um sistema: como ele se divide em partes, como essas partes se comunicam e como são implantadas. São decisões caras de mudar depois.
+
+Monolito.
+
+O monolito é uma aplicação implantada como uma única unidade. Todas as funcionalidades rodam no mesmo processo e, em geral, usam o mesmo banco de dados.
+
+Monolito não é sinônimo de código ruim. Ele tem vantagens reais: chamadas entre partes são chamadas de método, rápidas e sem falhas de rede; transações de banco cobrem a operação inteira; há um único artefato para testar, implantar e monitorar. Para equipes pequenas e domínios ainda pouco conhecidos, costuma ser a melhor escolha.
+
+O problema aparece quando o monolito perde a estrutura interna e vira o que se chama de grande bola de lama: tudo depende de tudo, e qualquer mudança exige entender o sistema inteiro. Mas isso é falta de modularidade, não consequência inevitável de ser um monolito.
+
+A resposta intermediária é o monolito modular: uma única unidade de implantação, dividida internamente em módulos com fronteiras explícitas, interfaces públicas e dados próprios de cada módulo. Ele preserva a simplicidade operacional do monolito e prepara o caminho para extrair serviços depois, se for necessário.
+
+Microsserviços.
+
+Arquitetura de microsserviços é a construção de uma aplicação como um conjunto de serviços pequenos, cada um rodando em seu próprio processo, comunicando-se por mecanismos leves, como agá tê tê pê ou mensageria, e implantados de forma independente.
+
+O texto de referência, de James Lewis e Martin Fowler, de dois mil e catorze, lista características comuns. As mais cobradas são estas.
+
+Componentização por serviços: o componente é um serviço implantável separadamente, e não uma biblioteca.
+
+Organização em torno de capacidades de negócio: cada serviço cuida de uma área do negócio, como cadastro de fornecedores ou cálculo de glosas, e não de uma camada técnica, como a camada de banco de dados.
+
+Produtos, e não projetos: a equipe que constrói o serviço é responsável por ele em produção, ao longo de toda a vida.
+
+Pontas inteligentes e canos burros: a lógica fica nos serviços, e a comunicação é simples. É o contrário do barramento de serviços corporativo da arquitetura orientada a serviços tradicional, que concentrava roteamento, transformação e regras no meio do caminho.
+
+Governança descentralizada: cada serviço pode usar a tecnologia mais adequada.
+
+Gestão descentralizada de dados: cada serviço é dono dos seus dados. Outro serviço não acessa o banco dele diretamente; pede pela interface.
+
+Automação de infraestrutura, projeto para falhas e desenho evolutivo completam a lista.
+
+A independência de implantação é o teste principal. Se dois serviços precisam sempre ser implantados juntos, eles não são independentes. Esse é o monolito distribuído: tem todos os custos da distribuição e nenhum dos benefícios. O banco de dados compartilhado entre serviços é a causa mais comum.
+
+A lei de Conway explica outra parte da história: organizações produzem sistemas cuja estrutura copia a estrutura de comunicação da própria organização. Por isso microsserviços funcionam melhor quando cada equipe é dona de um conjunto de serviços. A chamada manobra inversa de Conway é organizar as equipes de acordo com a arquitetura que se deseja obter.
+
+E o próprio Fowler recomenda, na maioria dos casos, começar pelo monolito e extrair serviços quando as fronteiras do domínio estiverem claras. Fronteiras erradas entre serviços são muito mais caras de corrigir que fronteiras erradas entre módulos.
+
+Arquiteturas orientadas a eventos.
+
+Nessa arquitetura, os componentes se comunicam publicando e consumindo eventos. Evento é o registro de um fato que já aconteceu, como processo autuado ou pagamento efetuado. Por isso o nome do evento fica no passado.
+
+É preciso distinguir evento de comando. O comando é um pedido dirigido a um destinatário específico, que pode recusá-lo: autue este processo. O evento é um aviso de que algo aconteceu: o produtor não sabe nem precisa saber quem vai consumi-lo.
+
+Daí vem o principal benefício: o desacoplamento. O produtor não conhece os consumidores, e novos consumidores podem ser acrescentados sem mudar o produtor. Há também desacoplamento temporal: se o consumidor está fora do ar, o evento espera no intermediário, o brôquer de mensagens, e é processado depois.
+
+Martin Fowler distingue quatro padrões que costumam ser confundidos sob o mesmo nome.
+
+Notificação de evento: o evento só avisa que algo mudou, e quem precisar de detalhes consulta o produtor.
+
+Transferência de estado carregada pelo evento: o evento leva os dados necessários, e o consumidor mantém uma cópia própria, sem precisar consultar o produtor.
+
+Fonte de eventos, em inglês ivént sórcing: o estado do sistema não é guardado diretamente; guarda-se a sequência de todos os eventos, e o estado atual é obtido reprocessando essa sequência. Dá auditoria completa e permite reconstruir o estado em qualquer momento, ao custo de maior complexidade.
+
+E a segregação de responsabilidade entre comando e consulta, pela sigla cê quê érre ésse: o modelo usado para gravar é separado do modelo usado para consultar, cada um otimizado para sua função. Combina bem com a fonte de eventos, mas um não exige o outro.
+
+Há duas topologias. Na topologia de brôquer, não há coordenador central: cada componente reage aos eventos e publica novos eventos, numa coreografia. Na topologia de mediador, um orquestrador controla o fluxo e envia comandos a cada etapa. A coreografia desacopla mais; a orquestração dá mais visibilidade e controle sobre fluxos longos.
+
+O custo das arquiteturas orientadas a eventos é real. A consistência passa a ser eventual: por um intervalo, partes do sistema enxergam estados diferentes. O fluxo fica difícil de seguir, porque não há uma chamada que se possa ler de ponta a ponta. E surgem mensagens duplicadas, fora de ordem ou perdidas. O tratamento de repetição, idempotência e consistência é tema do item três ponto dois ponto três.
+
+Pegadinhas do bloco um.
+
+Todo monolito é desestruturado e de difícil manutenção. Errado. A desestruturação vem da falta de modularidade; o monolito modular é uma arquitetura legítima.
+
+Em microsserviços, o compartilhamento do mesmo banco de dados entre os serviços é recomendado para garantir consistência. Errado. Cada serviço é dono dos seus dados; o banco compartilhado gera o monolito distribuído.
+
+Microsserviços concentram a lógica de integração em um barramento central inteligente. Errado. O princípio é pontas inteligentes e canos burros; o barramento inteligente é característico da arquitetura orientada a serviços tradicional.
+
+Evento e comando são equivalentes, mudando só o nome. Errado. O comando é um pedido a um destinatário específico; o evento é um fato já ocorrido, publicado sem conhecer os consumidores.
+
+A fonte de eventos exige a segregação entre comando e consulta. Errado. Combinam bem, mas são independentes.
+
+
+BLOCO DOIS: DISTRIBUIÇÃO DE RESPONSABILIDADES, ACOPLAMENTO E DEPENDÊNCIAS
+
+A classificação de acoplamento, as métricas de instabilidade e os princípios das dependências estáveis e acíclicas foram vistos no item três ponto um ponto cinco. Aqui o foco é dividir um sistema em partes e o acoplamento entre partes que rodam separadas.
+
+Onde traçar as fronteiras.
+
+A referência é o desenho orientado a domínio, de Eric Evans. O conceito central é o contexto delimitado: uma fronteira dentro da qual um modelo e sua linguagem têm significado único e consistente. Processo, no contexto da corregedoria, pode ser o processo administrativo disciplinar; no contexto de auditoria, o processo de trabalho auditado. Cada contexto tem seu modelo, e a tradução entre eles é explícita.
+
+Dentro de cada contexto vale a linguagem ubíqua: a mesma terminologia usada por especialistas do negócio, documentação e código.
+
+O contexto delimitado é o candidato natural à fronteira de um módulo ou serviço. Dividir por capacidade de negócio produz partes coesas. Dividir por camada técnica, com um serviço de banco de dados, um serviço de regras e um serviço de telas, produz partes que precisam mudar juntas a cada funcionalidade nova.
+
+O princípio que resume a divisão é o do fechamento comum: o que muda junto deve ficar junto. E o tamanho certo não se mede em linhas de código. Serviços pequenos demais, que só funcionam chamando uns aos outros, são chamados de nanosserviços e multiplicam o custo de comunicação sem ganho de independência.
+
+O acoplamento entre partes distribuídas tem formas próprias.
+
+Acoplamento temporal: o serviço A só funciona se o serviço B estiver no ar naquele instante, porque o chama de forma síncrona. Mensageria assíncrona reduz esse acoplamento.
+
+Acoplamento de implantação: os serviços precisam ser implantados juntos, porque uma mudança em um quebra o outro.
+
+Acoplamento de dados: os serviços leem e gravam as mesmas tabelas. Qualquer mudança no esquema afeta todos.
+
+Acoplamento de domínio: um serviço precisa conhecer as regras internas de outro para usá-lo.
+
+A cadeia de chamadas síncronas tem um custo que a banca gosta de calcular. As disponibilidades se multiplicam. Se uma requisição passa por três serviços, cada um com noventa e nove vírgula nove por cento de disponibilidade, a disponibilidade da cadeia fica em torno de noventa e nove vírgula sete por cento. Quanto mais longa a cadeia, menor a disponibilidade e maior a latência, que se soma a cada etapa.
+
+Daí as falácias da computação distribuída, atribuídas a Peter Deutsch e colegas: premissas falsas que quem programa costuma assumir. São oito: a rede é confiável; a latência é zero; a largura de banda é infinita; a rede é segura; a topologia não muda; há um único administrador; o custo de transporte é zero; e a rede é homogênea. Transformar uma chamada de método em uma chamada de rede traz todas essas falhas para dentro do sistema.
+
+Dependências.
+
+A regra que organiza as dependências é a da direção: o que é mais estável e mais importante para o negócio não deve depender do que é mais volátil e técnico.
+
+A arquitetura hexagonal, de Alistair Cockburn, também chamada de portas e adaptadores, aplica isso. O núcleo da aplicação, com as regras de negócio, define portas, que são interfaces. Adaptadores implementam essas portas para o mundo externo: um adaptador rést recebe requisições, um adaptador de banco grava dados, um adaptador de mensageria publica eventos. O núcleo não conhece nenhuma tecnologia; trocar o banco ou acrescentar uma interface nova é trocar ou acrescentar um adaptador.
+
+A arquitetura limpa, de Robert Martin, segue a mesma ideia em círculos concêntricos, com a regra da dependência: as dependências do código-fonte apontam sempre para dentro, em direção às regras de negócio. O círculo interno não sabe nada dos externos. É a inversão de dependência, vista no item três ponto um ponto dois, aplicada à arquitetura inteira.
+
+E um alerta sobre bibliotecas compartilhadas entre serviços. Compartilhar utilitários técnicos é aceitável. Compartilhar o modelo de domínio em uma biblioteca comum acopla os serviços: uma mudança no modelo obriga todos a atualizar e implantar juntos.
+
+Pegadinhas do bloco dois.
+
+A divisão de um sistema em serviços por camada técnica, como apresentação, regras e dados, maximiza a independência entre eles. Errado. Cada funcionalidade nova altera todas as camadas; a divisão por capacidade de negócio é a que produz independência.
+
+Quanto menores os serviços, menor o acoplamento do sistema. Errado. Serviços pequenos demais dependem uns dos outros para tudo e multiplicam o custo de comunicação.
+
+Em uma cadeia de chamadas síncronas, a disponibilidade do conjunto é igual à do serviço mais disponível. Errado. As disponibilidades se multiplicam, e o conjunto fica menos disponível que cada parte.
+
+Na arquitetura hexagonal, o núcleo de regras de negócio depende diretamente das classes do banco de dados. Errado. O núcleo define portas, e os adaptadores de tecnologia dependem delas.
+
+Comunicação assíncrona por mensageria aumenta o acoplamento temporal. Errado. Ela reduz esse acoplamento, porque o consumidor não precisa estar no ar no momento da publicação.
+
+
+BLOCO TRÊS: DESEMPENHO, ESCALABILIDADE, SEGURANÇA E CUSTO
+
+Essas são características de arquitetura, também chamadas de atributos de qualidade. A primeira lei da arquitetura de software, na formulação de Mark Richards e Neal Ford, é que tudo em arquitetura é uma escolha com custos. Nenhuma arquitetura maximiza todas as características ao mesmo tempo.
+
+Desempenho.
+
+Duas medidas não podem ser confundidas. Latência é o tempo para atender uma requisição. Vazão é a quantidade de requisições atendidas por unidade de tempo. Melhorar uma não melhora necessariamente a outra.
+
+E a latência deve ser medida por percentis, não pela média. A média esconde os usuários que esperam muito. O percentil noventa e nove, por exemplo, diz o tempo abaixo do qual estão noventa e nove por cento das requisições.
+
+Distribuir um sistema costuma piorar a latência, porque cada chamada de rede acrescenta tempo, serialização e risco de falha. O cache, que guarda resultados para não recalculá-los, é a técnica mais comum para reduzir latência e carga, ao custo de lidar com dados possivelmente desatualizados. O detalhe técnico de cache é tema do item três ponto três ponto um.
+
+Escalabilidade.
+
+Escalabilidade é a capacidade de atender mais carga acrescentando recursos.
+
+Escalar verticalmente é aumentar a máquina: mais processador, mais memória. É simples, mas tem limite físico e de custo, e a máquina continua sendo um ponto único de falha.
+
+Escalar horizontalmente é acrescentar mais instâncias, com um balanceador de carga distribuindo as requisições. Não tem limite prático e melhora a disponibilidade, mas exige que a aplicação seja preparada para isso.
+
+A condição principal é a aplicação não guardar estado entre requisições na memória da instância. Se a sessão do usuário fica na memória de uma instância, a próxima requisição, atendida por outra instância, não a encontra. A solução paliativa é a afinidade de sessão, que manda o mesmo usuário sempre para a mesma instância e prejudica o balanceamento e a tolerância a falhas. A solução adequada é guardar o estado fora da aplicação, num banco ou num armazenamento compartilhado, ou usar tôquens que carregam a informação do usuário.
+
+O cubo de escala da consultoria á cá éfe resume três eixos. No eixo xis, clonam-se instâncias idênticas atrás de um balanceador. No eixo ípsilon, a aplicação é dividida por função, como em microsserviços. No eixo zê, os dados são particionados, cada instância cuidando de uma parte dos dados, por exemplo, por unidade da federação.
+
+Uma vantagem real dos microsserviços é escalar só a parte que precisa. No monolito, escala-se tudo, mesmo que só a consulta pública esteja sobrecarregada.
+
+E escalabilidade elástica é a capacidade de acrescentar e retirar recursos automaticamente conforme a demanda, típica de ambientes de nuvem. Os ambientes de implantação, como contêineres e processamento sem servidor, são tema do item três ponto dois ponto cinco.
+
+Segurança.
+
+Arquiteturas distribuídas ampliam a superfície de ataque: cada serviço é um ponto de entrada, e cada chamada entre serviços é um tráfego que pode ser interceptado.
+
+Três princípios orientam a resposta. Defesa em profundidade: várias camadas de proteção, de modo que a falha de uma não exponha tudo. Menor privilégio: cada componente tem só as permissões de que precisa, inclusive no acesso ao banco. E confiança zero: nenhuma chamada é confiável só por vir de dentro da rede interna; toda chamada é autenticada e autorizada.
+
+Um padrão comum é o guêituei de á pê í, um ponto de entrada único na frente dos serviços, que concentra roteamento, autenticação, limitação de taxa de requisições e registro de acessos. Ele não dispensa a autorização em cada serviço. A autenticação e a autorização em detalhe são tema do item três ponto dois ponto dois.
+
+Segredos, como senhas de banco e chaves de á pê í, nunca ficam no código-fonte nem no repositório. Ficam em variáveis de ambiente ou em cofres de segredos.
+
+E há base legal. A Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, no artigo quarenta e seis, obriga os agentes de tratamento a adotar medidas de segurança, técnicas e administrativas, aptas a proteger os dados pessoais. O parágrafo segundo determina que essas medidas sejam observadas desde a fase de concepção do produto ou do serviço até a sua execução. É a privacidade desde a concepção: segurança é decisão de arquitetura, e não um ajuste no fim.
+
+Custo.
+
+O custo de uma arquitetura não é só infraestrutura. Inclui as pessoas necessárias para operá-la, as ferramentas de monitoramento, os fluxos de implantação e o tempo gasto em diagnóstico.
+
+Microsserviços têm um custo operacional fixo alto: cada serviço precisa de seu fluxo de implantação, monitoramento, registros e alertas. Esse custo só compensa quando o sistema e a organização são grandes o bastante para aproveitar a independência.
+
+Na nuvem, o custo passa a ser variável e proporcional ao uso, o que é bom para cargas sazonais, como a entrega da declaração do imposto de renda, e perigoso quando ninguém acompanha. A prática de gestão financeira de nuvem, conhecida como fín óps, une tecnologia, finanças e negócio para dar visibilidade e responsabilidade sobre esse gasto.
+
+Pegadinhas do bloco três.
+
+Latência e vazão são medidas equivalentes de desempenho. Errado. Latência é o tempo de cada requisição; vazão é a quantidade atendida por unidade de tempo.
+
+A latência média é o melhor indicador da experiência dos usuários. Errado. Percentis altos revelam os usuários que esperam muito e que a média esconde.
+
+Escalar verticalmente elimina o ponto único de falha. Errado. A máquina maior continua sendo uma só; quem reduz o ponto único de falha é a escala horizontal.
+
+Guardar a sessão do usuário na memória da instância facilita a escala horizontal. Errado. Estado na instância exige afinidade de sessão e prejudica a escala; o estado deve ficar fora da aplicação.
+
+O guêituei de á pê í dispensa a autorização nos serviços internos. Errado. Pelo princípio da confiança zero, cada serviço autentica e autoriza as chamadas que recebe.
+
+
+BLOCO QUATRO: ESCOLHA DE ARQUITETURA CONFORME RESTRIÇÕES
+
+Não existe arquitetura melhor em abstrato. Existe a arquitetura mais adequada a um conjunto de requisitos, restrições e contexto.
+
+Três tipos de fator orientam a escolha.
+
+Os requisitos de qualidade, ou seja, as características que precisam ser priorizadas: disponibilidade, desempenho, segurança, facilidade de mudança. Na prática, não se consegue priorizar mais que algumas poucas. Escolher as mais importantes é a primeira decisão.
+
+As restrições: decisões já tomadas que a arquitetura precisa respeitar. Podem ser técnicas, como a plataforma padronizada do órgão ou a integração obrigatória com um sistema legado; de prazo e orçamento; de pessoal, como o tamanho e a experiência da equipe; e normativas, como regras de proteção de dados e de guarda de documentos.
+
+E o contexto organizacional: a lei de Conway, a maturidade da organização em automação e operação e a estabilidade do domínio.
+
+Requisitos de qualidade vagos não ajudam. Sistema rápido não é verificável. A forma recomendada pelo Instituto de Engenharia de Software da Universidade Carnegie Mellon é o cenário de atributo de qualidade, com seis partes: a fonte do estímulo, o estímulo, o ambiente, o artefato, a resposta e a medida da resposta. Por exemplo: dez mil cidadãos, a fonte, consultam processos, o estímulo, no último dia de prazo, o ambiente, no serviço de consulta, o artefato; o sistema atende todas as requisições, a resposta, com noventa e cinco por cento delas em menos de dois segundos, a medida.
+
+O mesmo instituto propôs o método de análise de compromissos de arquitetura, pela sigla em inglês átam. Ele avalia uma arquitetura confrontando-a com cenários de qualidade priorizados, e identifica três coisas: os pontos de sensibilidade, decisões que afetam fortemente um atributo; os pontos de compromisso, decisões que afetam mais de um atributo em sentidos opostos, como a criptografia, que melhora a segurança e piora o desempenho; e os riscos.
+
+Algumas regras práticas de escolha.
+
+Domínio ainda pouco conhecido e equipe pequena: monolito modular. As fronteiras certas só aparecem com o tempo.
+
+Partes do sistema com necessidades muito diferentes de escala, de disponibilidade ou de ritmo de mudança, e equipes que precisam entregar de forma independente: microsserviços, desde que a organização tenha os pré-requisitos. Fowler lista três: provisionamento rápido de ambientes, monitoramento básico e implantação rápida e automatizada. Sem eles, microsserviços multiplicam os problemas.
+
+Muitos sistemas que precisam reagir aos mesmos fatos, integração com processamento demorado ou picos de carga que podem ser absorvidos por fila: arquitetura orientada a eventos.
+
+Uma decisão de arquitetura também deve considerar a reversibilidade. Decisões difíceis de reverter, como a divisão em serviços ou a escolha do banco, merecem mais análise e podem ser adiadas até o último momento responsável, quando há mais informação. Decisões fáceis de reverter devem ser tomadas rapidamente.
+
+A decisão e seus motivos ficam registrados, como nos registros de decisão vistos no item três ponto um ponto cinco. E a arquitetura evolutiva propõe as funções de aptidão: verificações automáticas, executadas continuamente, que confirmam se a arquitetura mantém as características escolhidas. Um teste que falha se a camada de apresentação acessar diretamente o repositório é uma função de aptidão.
+
+Um exemplo na CGU. Um novo sistema de recebimento de denúncias tem equipe de quatro pessoas, prazo de seis meses e picos de acesso previsíveis após campanhas. A escolha razoável é um monolito modular, com módulos para recebimento, triagem e acompanhamento, e uma fila para absorver os picos de recebimento. Microsserviços trariam custo operacional que a equipe não consegue sustentar.
+
+Pegadinhas do bloco quatro.
+
+Microsserviços são a arquitetura recomendada para qualquer sistema novo, por serem a abordagem mais moderna. Errado. A escolha depende de requisitos, restrições e contexto, e microsserviços exigem pré-requisitos organizacionais.
+
+Um requisito de qualidade como o sistema deve ser rápido é suficiente para orientar a arquitetura. Errado. Ele precisa ser expresso em cenário com medida de resposta verificável.
+
+No método de análise de compromissos de arquitetura, ponto de compromisso é a decisão que afeta um único atributo de qualidade. Errado. Isso é ponto de sensibilidade; o de compromisso afeta mais de um atributo em sentidos opostos.
+
+Decisões de arquitetura devem ser todas tomadas no início do projeto, antes de qualquer desenvolvimento. Errado. Decisões difíceis de reverter podem ser adiadas até o último momento responsável.
+
+
+BLOCO CINCO: SPRÍN: ORGANIZAÇÃO DE COMPONENTES, INVERSÃO DE CONTROLE E INJEÇÃO DE DEPENDÊNCIAS
+
+O princípio da inversão de dependência foi visto no item três ponto um ponto dois. O escopo singleton dos bíns, os cuidados com estado compartilhado entre threads e o funcionamento por proxy foram vistos no item três ponto um ponto três. Aqui entra o mecanismo do Sprín.
+
+Inversão de controle é transferir ao freimuórqui o controle sobre a criação e a ligação dos objetos. Em vez de o código criar suas dependências com a palavra niú, o freimuórqui cria os objetos e os entrega prontos. A injeção de dependências é a forma mais comum de inversão de controle: as dependências são passadas ao objeto de fora.
+
+No Sprín, quem faz isso é o contêiner de inversão de controle, representado pela interface aplikéichon cóntext, que estende a interface mais básica bín féctori e acrescenta recursos como eventos, internacionalização e integração com a programação orientada a aspectos. Os objetos gerenciados pelo contêiner se chamam bíns.
+
+Há duas formas principais de declarar bíns.
+
+A primeira é a varredura de componentes. As classes anotadas com arroba compônent, ou com um dos estereótipos derivados, são encontradas e registradas automaticamente. Os estereótipos são três.
+
+Arroba sérvis, para classes da camada de regras de negócio. Funcionalmente, é igual ao arroba compônent; serve para documentar a intenção.
+
+Arroba repósitori, para classes de acesso a dados. Além de documentar, ele ativa a tradução das exceções específicas de cada tecnologia de persistência para a hierarquia de exceções de acesso a dados do Sprín.
+
+Arroba contrôler, para controladores web. E o arroba rést contrôler, que combina o arroba contrôler com a indicação de que o retorno dos métodos é o corpo da resposta, normalmente convertido para djêisson.
+
+A segunda forma é a configuração em código: uma classe anotada com arroba configuréichon contém métodos anotados com arroba bín, e o objeto retornado por cada método vira um bín. É a forma usada para classes de bibliotecas de terceiros, que não podem receber anotações, e para criação que exige lógica.
+
+Agora, as três formas de injeção.
+
+Injeção por construtor: as dependências são parâmetros do construtor. É a forma recomendada. Os campos podem ser finais, o objeto nunca existe em estado incompleto, as dependências obrigatórias ficam explícitas e o teste unitário é simples, porque basta chamar o construtor com dependências falsas. Desde a versão quatro ponto três do Sprín, uma classe com um único construtor não precisa da anotação arroba ótouáierd.
+
+Injeção por método de atribuição, o séter: indicada para dependências opcionais ou que podem ser trocadas depois da criação.
+
+Injeção por campo: a anotação é colocada direto no atributo. Não é recomendada: o campo não pode ser final, a dependência fica escondida e o teste exige o contêiner ou reflexão.
+
+Um construtor com muitos parâmetros não é motivo para trocar a forma de injeção. É sinal de que a classe tem responsabilidades demais.
+
+Ambiguidade.
+
+Se há dois bíns do mesmo tipo, por exemplo, duas implementações de uma interface de notificação, uma por correio eletrônico e outra por mensagem de celular, a injeção por tipo fica ambígua e a aplicação não sobe, com uma exceção de definição de bín não única. As soluções são três. Marcar uma das implementações com arroba práimeri, que a torna a escolha padrão. Indicar qual se quer no ponto de injeção, com arroba cuálifaier e o nome do bín. Ou injetar uma lista do tipo da interface, que recebe todas as implementações, útil quando se quer aplicar todas.
+
+Escopos.
+
+O escopo padrão é o singleton: uma única instância por contêiner. Não confundir com o padrão de projeto singleton, que garante uma instância por máquina virtual. O escopo prôutotaip cria uma instância nova a cada vez que o bín é pedido ao contêiner. Em aplicações web, existem ainda os escopos de requisição, de sessão e de aplicação.
+
+A armadilha clássica: injetar um bín prôutotaip em um bín singleton. A injeção acontece uma vez só, na criação do singleton, que passa a usar sempre a mesma instância. Para obter instâncias novas, é preciso pedir ao contêiner a cada uso, por exemplo, com um provedor de objetos.
+
+Ciclo de vida. O método anotado com arroba pôust constráct executa depois que as dependências foram injetadas, e serve para inicialização. O anotado com arroba pri distrói executa quando o contêiner é encerrado, e serve para liberar recursos. O escopo prôutotaip é exceção: o contêiner não gerencia a destruição desses bíns.
+
+E dependências circulares, em que A depende de B e B depende de A. Com injeção por construtor, o contêiner não consegue criar nenhum dos dois. Desde a versão dois ponto seis, o Sprín Búti proíbe referências circulares por padrão, e a aplicação não sobe. A correção adequada é redesenhar as responsabilidades, não reativar a permissão.
+
+Pegadinhas do bloco cinco.
+
+A anotação arroba repósitori é apenas documental, sem nenhum efeito além do arroba compônent. Errado. Ela ativa a tradução de exceções de persistência para a hierarquia de acesso a dados do Sprín.
+
+A injeção por campo é a forma recomendada, por reduzir o código. Errado. A recomendada é por construtor, que permite campos finais e facilita testes.
+
+Havendo duas implementações de uma interface, o Sprín escolhe uma delas aleatoriamente. Errado. A aplicação falha na inicialização, salvo se houver arroba práimeri, arroba cuálifaier ou injeção de lista.
+
+Um bín prôutotaip injetado em um singleton fornece uma instância nova a cada chamada de método. Errado. A injeção ocorre uma única vez, na criação do singleton.
+
+No Sprín Búti atual, dependências circulares entre bíns são resolvidas automaticamente por padrão. Errado. Desde a versão dois ponto seis, elas são proibidas por padrão.
+
+
+BLOCO SEIS: SPRÍN BÚTI: CONFIGURAÇÃO E AUTOCONFIGURAÇÃO
+
+O Sprín Búti é construído sobre o Sprín e adota a convenção em vez da configuração. Ele parte de padrões razoáveis, que o desenvolvedor só altera quando precisa. Seus pilares são os stárters, a autoconfiguração, a configuração externalizada e o servidor embutido.
+
+A anotação arroba sprín búti aplikéichon, colocada na classe principal, reúne três anotações. Arroba sprín búti configuréichon, que marca a classe como fonte de configuração. Arroba enêibou ótou configuréichon, que liga a autoconfiguração. E arroba compônent scén, que liga a varredura de componentes.
+
+O detalhe mais cobrado: a varredura começa no pacote da classe principal e alcança seus subpacotes. Uma classe anotada com arroba sérvis em um pacote fora dessa árvore não é encontrada, e a injeção dela falha. Por isso a classe principal fica no pacote raiz da aplicação.
+
+Os stárters.
+
+Um stárter é uma dependência que agrupa as bibliotecas necessárias para um recurso, com versões compatíveis entre si. O stárter web, por exemplo, traz o Sprín ême vê cê, o servidor Tômquet embutido e a biblioteca Djécson, para converter objetos em djêisson. A aplicação vira um arquivo djár executável, que já contém o servidor, sem instalação em servidor de aplicação externo.
+
+A autoconfiguração.
+
+A autoconfiguração cria bíns automaticamente, de acordo com o que encontra no ambiente. Ela é feita por classes de configuração comuns, protegidas por condições. As condições mais cobradas são três.
+
+Arroba condíchonal ón clés: só configura se determinada classe estiver no caminho de classes. Se o driver de um banco está entre as dependências, a fonte de dados é configurada.
+
+Arroba condíchonal ón próperti: só configura se uma propriedade tiver certo valor.
+
+E arroba condíchonal ón míssing bín: só cria o bín se a aplicação ainda não tiver definido um do mesmo tipo. Essa é a chave do modelo. Quando o desenvolvedor declara seu próprio bín, a autoconfiguração recua. A configuração explícita sempre prevalece sobre a automática.
+
+As classes de autoconfiguração são registradas em um arquivo de importações dentro da pasta meta inf do pacote, desde a versão dois ponto sete. Nas versões anteriores, o registro era no arquivo sprín féctoris.
+
+Para descobrir o que foi ou não configurado, há o relatório de avaliação de condições, exibido ao iniciar a aplicação com a opção de depuração, e o endpoint de condições do áctuêitor, o módulo de monitoramento e gestão do Sprín Búti. Por padrão, o áctuêitor expõe pela web apenas o endpoint de saúde; os demais precisam ser habilitados de forma explícita, e não devem ficar abertos sem autenticação.
+
+E uma autoconfiguração indesejada pode ser excluída pelo atributo de exclusão da anotação principal ou por uma propriedade.
+
+A configuração externalizada.
+
+O mesmo artefato deve rodar em desenvolvimento, homologação e produção, mudando só a configuração. Os valores ficam fora do código, no arquivo aplikéichon ponto próperties ou na versão em formato iámel, em variáveis de ambiente ou em argumentos de linha de comando.
+
+Há uma ordem de precedência. Simplificando, das fontes que mais pesam para as que menos pesam: argumentos de linha de comando, variáveis de ambiente, arquivos de propriedades específicos do perfil ativo e o arquivo de propriedades padrão. Assim, uma variável de ambiente definida no servidor de produção sobrepõe o valor do arquivo empacotado.
+
+A vinculação flexível liga nomes em formatos diferentes. A propriedade sprín ponto datassórce ponto iú érre éle pode ser fornecida pela variável de ambiente em maiúsculas, com sublinhados no lugar dos pontos. É o que permite configurar a aplicação em contêineres só com variáveis de ambiente.
+
+Os perfis agrupam configurações por ambiente. O perfil ativo é escolhido pela propriedade de perfis ativos, e o arquivo específico, como aplikéichon traço prod ponto próperties, complementa e sobrepõe o padrão. Bíns também podem ser condicionados a um perfil, com arroba prôufail.
+
+Para ler a configuração no código, há duas formas. Arroba váliu injeta um valor isolado. Arroba configuréichon próperties liga um grupo de propriedades com o mesmo prefixo a uma classe com tipos definidos, e permite validá-las na inicialização. Para grupos de configuração, a segunda é a recomendada: é tipada, fica documentada em um só lugar e acusa erro cedo.
+
+Segredos seguem a regra do bloco três: não ficam no arquivo de propriedades versionado. Entram por variável de ambiente ou cofre de segredos.
+
+Uma nota de versões. O Sprín Búti três exige djava dezessete e trocou os pacotes djávax pelos pacotes djakarta, o que obriga a ajustar importações na migração. A versão quatro, lançada em novembro de dois mil e vinte e cinco sobre o Sprín freimuórqui sete, mantém o djava dezessete como mínimo.
+
+Pegadinhas do bloco seis.
+
+A varredura de componentes do Sprín Búti alcança, por padrão, todos os pacotes do caminho de classes. Errado. Ela começa no pacote da classe principal e alcança só os subpacotes.
+
+Se o desenvolvedor declarar um bín de fonte de dados, a autoconfiguração cria outro e gera conflito. Errado. A condição de bín ausente faz a autoconfiguração recuar.
+
+Valores do arquivo de propriedades padrão prevalecem sobre variáveis de ambiente. Errado. Variáveis de ambiente e argumentos de linha de comando têm precedência maior.
+
+O áctuêitor expõe por padrão, pela web, todos os seus endpoints. Errado. Por padrão, só o de saúde é exposto pela web.
+
+Arroba váliu e arroba configuréichon próperties são equivalentes para grupos de configuração. Errado. A segunda liga o grupo a uma classe tipada e validável, e é a recomendada.
+
+
+BLOCO SETE: SERVIÇOS RÉST E SEPARAÇÃO ENTRE APRESENTAÇÃO, REGRAS DE NEGÓCIO E ACESSO A DADOS
+
+Rést, a transferência de estado representacional, é o estilo arquitetural definido por Roy Fielding em sua tese de doutorado, de dois mil. Não é um protocolo nem um padrão formal: é um conjunto de restrições.
+
+As restrições são seis. Cliente e servidor separados. Comunicação sem estado: cada requisição traz tudo o que o servidor precisa para atendê-la, e o servidor não guarda contexto do cliente entre requisições. Respostas que podem ser marcadas como armazenáveis em cache. Interface uniforme. Sistema em camadas: o cliente não sabe se fala com o servidor final ou com um intermediário. E código sob demanda, a única opcional, em que o servidor pode enviar código para o cliente executar.
+
+A interface uniforme tem quatro partes: recursos identificados por endereços; manipulação dos recursos por meio de representações, como um documento djêisson; mensagens autodescritivas; e hipermídia como motor do estado da aplicação, conhecida como rêitióas, em que as respostas trazem os links para as próximas ações possíveis.
+
+O modelo de maturidade de Richardson classifica as á pê ís em quatro níveis. Nível zero: um único endereço e um único método, usado como transporte de chamadas remotas. Nível um: recursos com endereços próprios. Nível dois: uso correto dos métodos e dos códigos de status do agá tê tê pê. Nível três: hipermídia. A maioria das á pê ís chamadas de rést está no nível dois.
+
+Os métodos têm semântica definida.
+
+Um método é seguro quando não altera o estado do servidor, e idempotente quando repeti-lo várias vezes produz o mesmo efeito que executá-lo uma vez.
+
+Guét lê um recurso. É seguro e idempotente.
+
+Póst cria um recurso subordinado ou processa dados. Não é seguro nem idempotente: dois envios iguais podem criar dois registros.
+
+Put substitui o recurso inteiro pela representação enviada. É idempotente, mas não seguro.
+
+Pétch altera parcialmente o recurso. Não é seguro e não é necessariamente idempotente, porque depende da operação descrita, como incrementar um valor.
+
+Delit remove o recurso. É idempotente: apagar de novo um recurso já apagado não muda mais nada, ainda que a segunda resposta possa ser não encontrado.
+
+Os códigos de status mais cobrados. Duzentos, sucesso. Duzentos e um, criado, normalmente acompanhado do cabeçalho de localização com o endereço do novo recurso. Duzentos e quatro, sucesso sem conteúdo na resposta. Quatrocentos, requisição malformada ou inválida. Quatrocentos e um, não autenticado: falta a credencial ou ela é inválida. Quatrocentos e três, proibido: o usuário foi identificado, mas não tem permissão. Quatrocentos e quatro, não encontrado. Quatrocentos e nove, conflito com o estado atual do recurso. Quatrocentos e vinte e dois, conteúdo bem formado, mas que viola regras de validação. E quinhentos, erro interno do servidor.
+
+A troca clássica é entre quatrocentos e um e quatrocentos e três. O nome oficial do quatrocentos e um é não autorizado, mas o sentido é não autenticado.
+
+O desenho de contratos, a nomeação de recursos e o versionamento de á pê ís são temas do item três ponto dois ponto dois.
+
+No Sprín, a construção do serviço.
+
+O controlador é anotado com arroba rést contrôler, e os métodos são mapeados a endereços e métodos agá tê tê pê por anotações como arroba guét méping e arroba pôust méping. Os dados da requisição chegam por três anotações principais: arroba péth vériabol, para valores do caminho, como o número do processo; arroba ricuést param, para parâmetros da consulta, como filtros e paginação; e arroba ricuést bódi, para o corpo da requisição, convertido de djêisson para objeto.
+
+Para controlar o código de status e os cabeçalhos, o método retorna um rispónse éntiti. Por exemplo, para devolver duzentos e um com o cabeçalho de localização após criar um recurso.
+
+A validação de entrada usa a especificação de validação de bíns do djakarta. As restrições ficam como anotações nos campos do objeto de entrada, como não vazio e tamanho máximo, e o parâmetro do controlador recebe arroba válid. Se a validação falha, o Sprín rejeita a requisição antes de executar o método, com status quatrocentos.
+
+O tratamento de erros é centralizado em uma classe anotada com arroba rést contrôler advais, com métodos anotados com arroba ecssépchon rândler, cada um traduzindo um tipo de exceção para uma resposta agá tê tê pê. Desde o Sprín seis, há suporte ao formato padronizado de detalhes de problema para erros de á pê ís, definido hoje pela érre éfe cê nove mil quatrocentos e cinquenta e sete, que substituiu a sete mil oitocentos e sete. O cliente recebe sempre a mesma estrutura de erro, com tipo, título, status e detalhe, e nunca o rastro interno da exceção, que revela detalhes de implementação úteis a um atacante.
+
+A separação em camadas.
+
+A arquitetura em camadas mais comum tem três.
+
+A camada de apresentação, os controladores, cuida só do protocolo: recebe a requisição, valida o formato, chama o serviço e monta a resposta. Não contém regras de negócio. Regra de negócio no controlador não é reaproveitada quando a mesma operação vier de outra entrada, como uma fila ou um processamento em lote.
+
+A camada de regras de negócio, os serviços, concentra as regras e coordena as operações. É nela que fica a anotação arroba transácheonal, porque a transação deve abranger a operação de negócio inteira, que pode envolver vários repositórios.
+
+A camada de acesso a dados, os repositórios, cuida só da persistência. O Sprín Data e o mapeamento de entidades são temas do item três ponto três ponto um.
+
+Nas camadas fechadas, cada camada só chama a imediatamente inferior. O controlador não acessa o repositório diretamente. O antipadrão do ralo é quando a maioria das requisições atravessa camadas que só repassam a chamada, sem acrescentar nada; algum repasse é normal, mas se for a regra, as camadas não estão servindo para nada.
+
+E não se expõem as entidades de persistência diretamente na á pê í. Usam-se objetos de transferência de dados, os dê tê ôs, que em djava moderno costumam ser récords, imutáveis. Há três motivos. Segurança: receber a entidade no corpo da requisição permite que o cliente preencha campos que não deveria, como o perfil de acesso, a chamada atribuição em massa; e devolver a entidade pode expor campos internos. Acoplamento: o contrato da á pê í passa a mudar toda vez que muda o esquema do banco. E técnica: a serialização de entidades com relacionamentos de carregamento tardio pode disparar consultas inesperadas ou falhar.
+
+Por fim, a organização dos pacotes. Organizar por camada, com pacotes de controladores, serviços e repositórios, espalha cada funcionalidade por todo o projeto. Organizar por funcionalidade, com um pacote para processos e outro para fornecedores, cada um com suas camadas internas, mantém junto o que muda junto e prepara o caminho para o monolito modular do bloco um.
+
+Pegadinhas do bloco sete.
+
+Na restrição de comunicação sem estado do rést, o servidor guarda o contexto de cada cliente entre as requisições. Errado. Cada requisição deve conter toda a informação necessária.
+
+O método put não é idempotente. Errado. Put substitui o recurso pela mesma representação, e repeti-lo produz o mesmo efeito; quem não é idempotente é o póst.
+
+O método delit deixa de ser idempotente porque a segunda chamada pode retornar quatrocentos e quatro. Errado. A idempotência se refere ao efeito no servidor, não ao código de resposta.
+
+O status quatrocentos e três indica que o usuário não está autenticado. Errado. Não autenticado é quatrocentos e um; quatrocentos e três é usuário identificado sem permissão.
+
+A anotação arroba transácheonal deve ficar preferencialmente nos controladores, por serem a porta de entrada da requisição. Errado. Ela fica na camada de serviço, que delimita a operação de negócio.
+
+Expor as entidades de persistência diretamente nos endpoints é boa prática, porque evita duplicação de classes. Errado. Permite atribuição em massa, expõe campos internos e acopla o contrato da á pê í ao esquema do banco.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Monolito é unidade única de implantação, não sinônimo de desordem; monolito modular é o meio-termo. Microsserviços: implantação independente, capacidades de negócio, pontas inteligentes e canos burros, dados próprios; banco compartilhado gera monolito distribuído. Conway: sistema copia a comunicação da organização. Evento é fato passado sem destinatário; comando é pedido a alguém. Notificação, transferência de estado, fonte de eventos e cê quê érre ésse; brôquer é coreografia, mediador é orquestração.
+
+Fronteiras pelo contexto delimitado e pela capacidade de negócio; o que muda junto fica junto. Acoplamento temporal, de implantação, de dados e de domínio. Disponibilidades em cadeia se multiplicam. Oito falácias da computação distribuída. Hexagonal e arquitetura limpa: dependências apontam para as regras de negócio.
+
+Latência não é vazão; percentis, não média. Escala vertical tem limite e ponto único de falha; horizontal exige aplicação sem estado na instância. Cubo de escala: clonar, dividir por função e particionar dados. Defesa em profundidade, menor privilégio e confiança zero; guêituei não dispensa autorização nos serviços. Lei Geral de Proteção de Dados, artigo quarenta e seis, parágrafo segundo: segurança desde a concepção. Microsserviços têm custo operacional fixo alto.
+
+Escolha por requisitos de qualidade, restrições e contexto. Cenário com seis partes, incluindo a medida da resposta. Átam: sensibilidade afeta um atributo, compromisso afeta vários em sentidos opostos. Pré-requisitos de microsserviços: provisionamento rápido, monitoramento e implantação automatizada. Decisões irreversíveis no último momento responsável; funções de aptidão verificam a arquitetura.
+
+Aplikéichon cóntext é o contêiner; arroba repósitori traduz exceções; arroba bín em classe de configuração para código de terceiros. Injeção por construtor é a recomendada; construtor único dispensa arroba ótouáierd. Ambiguidade: arroba práimeri, arroba cuálifaier ou lista. Prôutotaip dentro de singleton é injetado uma vez. Circularidade proibida por padrão desde o Búti dois ponto seis.
+
+Arroba sprín búti aplikéichon reúne configuração, autoconfiguração e varredura a partir do pacote da classe principal. Stárters agrupam dependências; servidor embutido em djár executável. Condições de classe, de propriedade e de bín ausente; o bín do desenvolvedor prevalece. Linha de comando e variáveis de ambiente sobrepõem o arquivo padrão; perfis por ambiente; arroba configuréichon próperties para grupos. Áctuêitor expõe só a saúde por padrão.
+
+Rést: seis restrições, só o código sob demanda é opcional. Richardson, níveis zero a três. Guét seguro e idempotente; put e delit idempotentes; póst nenhum dos dois. Quatrocentos e um não autenticado, quatrocentos e três sem permissão. Validação com arroba válid gera quatrocentos; erros centralizados no rést contrôler advais, com detalhes de problema. Controlador sem regra de negócio; transação no serviço; dê tê ôs em vez de entidades.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em uma arquitetura de microsserviços, a necessidade de implantar sempre em conjunto dois serviços que compartilham o mesmo banco de dados indica a ocorrência de um monolito distribuído.
+
+Gabarito: certo. Sem implantação independente, o sistema tem os custos da distribuição sem os benefícios.
+
+Item dois. Na arquitetura orientada a eventos, o produtor de um evento deve conhecer previamente todos os consumidores que serão notificados.
+
+Gabarito: errado. O produtor publica o fato sem conhecer os consumidores, o que permite acrescentá-los sem alterar o produtor.
+
+Item três. Na fonte de eventos, o estado atual de uma entidade é obtido pelo reprocessamento da sequência de eventos armazenados.
+
+Gabarito: certo. Guarda-se a sequência de eventos, e não o estado diretamente.
+
+Item quatro. Uma requisição que atravessa, de forma síncrona, três serviços com disponibilidade individual de noventa e nove vírgula nove por cento tem disponibilidade conjunta inferior à de cada serviço.
+
+Gabarito: certo. As disponibilidades se multiplicam, e o resultado fica em torno de noventa e nove vírgula sete por cento.
+
+Item cinco. A divisão de um sistema em serviços organizados por capacidades de negócio tende a reduzir a necessidade de alterar vários serviços a cada nova funcionalidade, em comparação com a divisão por camadas técnicas.
+
+Gabarito: certo. O que muda junto fica junto, e cada funcionalidade tende a ficar dentro de uma capacidade.
+
+Item seis. Na arquitetura hexagonal, os adaptadores de banco de dados e de interface rést dependem das portas definidas pelo núcleo da aplicação.
+
+Gabarito: certo. O núcleo define as portas, e as tecnologias externas se adaptam a elas.
+
+Item sete. A escala horizontal de uma aplicação web é facilitada quando a sessão do usuário é mantida na memória de cada instância.
+
+Gabarito: errado. O estado na instância exige afinidade de sessão; a escala horizontal pede estado fora da aplicação.
+
+Item oito. A adoção de um guêituei de á pê í na entrada de um conjunto de microsserviços dispensa a autenticação das chamadas entre os serviços internos.
+
+Gabarito: errado. Pelo princípio da confiança zero, chamadas internas também são autenticadas e autorizadas.
+
+Item nove. No método de análise de compromissos de arquitetura, a adoção de criptografia em todas as comunicações, que melhora a segurança e piora o desempenho, constitui ponto de compromisso.
+
+Gabarito: certo. A decisão afeta mais de um atributo em sentidos opostos.
+
+Item dez. Para uma equipe pequena, com domínio ainda pouco conhecido e sem automação de implantação, a arquitetura de microsserviços é a mais indicada, por permitir corrigir as fronteiras com facilidade.
+
+Gabarito: errado. Faltam os pré-requisitos, e fronteiras erradas entre serviços são caras de corrigir; o monolito modular é mais adequado.
+
+Item onze. No Sprín, uma classe com um único construtor tem suas dependências injetadas por esse construtor mesmo sem a anotação arroba ótouáierd.
+
+Gabarito: certo. Desde a versão quatro ponto três, o construtor único é usado automaticamente.
+
+Item doze. Se houver dois bíns que implementam a mesma interface e nenhum deles estiver marcado como primário, a injeção dessa interface sem qualificador faz a aplicação falhar na inicialização.
+
+Gabarito: certo. A ambiguidade gera exceção de definição de bín não única.
+
+Item treze. Um bín de escopo prôutotaip injetado por construtor em um bín singleton é recriado a cada chamada de método do singleton.
+
+Gabarito: errado. A injeção ocorre uma única vez, na criação do singleton.
+
+Item catorze. A anotação arroba sprín búti aplikéichon habilita a varredura de componentes em todos os pacotes presentes no caminho de classes da aplicação.
+
+Gabarito: errado. A varredura começa no pacote da classe anotada e alcança apenas seus subpacotes.
+
+Item quinze. Quando a aplicação define seu próprio bín de fonte de dados, a autoconfiguração correspondente do Sprín Búti deixa de criar o bín padrão.
+
+Gabarito: certo. A condição de bín ausente faz a autoconfiguração recuar diante da configuração explícita.
+
+Item dezesseis. No Sprín Búti, um valor definido no arquivo de propriedades empacotado na aplicação prevalece sobre o mesmo valor informado por variável de ambiente.
+
+Gabarito: errado. Variáveis de ambiente têm precedência maior que o arquivo de propriedades padrão.
+
+Item dezessete. Na restrição de interface uniforme do estilo rést, a hipermídia como motor do estado da aplicação significa que o servidor guarda, entre as requisições, o estado da navegação de cada cliente.
+
+Gabarito: errado. Significa que as respostas trazem os links para as próximas ações possíveis; a comunicação continua sem estado no servidor.
+
+Item dezoito. Por não ser idempotente, o método put pode criar um novo recurso a cada repetição da mesma requisição.
+
+Gabarito: errado. Put é idempotente; quem pode criar um recurso a cada repetição é o póst.
+
+Item dezenove. O usuário autenticado que tenta acessar recurso para o qual não tem permissão deve receber o status quatrocentos e três.
+
+Gabarito: certo. Quatrocentos e um é falta de autenticação; quatrocentos e três é falta de permissão.
+
+Item vinte. Em uma aplicação Sprín organizada em camadas, a anotação arroba transácheonal deve ficar na camada de serviço, e os controladores não devem conter regras de negócio.
+
+Gabarito: certo. O serviço delimita a operação de negócio, e o controlador cuida só do protocolo.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto dois ponto dois, á pê ís e identidade.
