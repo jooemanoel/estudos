@@ -1,0 +1,377 @@
+AUDIOAULA. ITEM TRÊS PONTO UM PONTO CINCO DO EDITAL: MANUTENÇÃO E EVOLUÇÃO
+
+
+ABERTURA
+
+Este é o item três ponto um ponto cinco, manutenção e evolução. Ele tem quatro subitens, tratados aqui em quatro blocos: débito técnico, documentação, modularidade e acoplamento; sustentação e modernização de sistemas legados; interoperabilidade e compatibilidade; e impactos das mudanças e das falhas sobre a continuidade e a qualidade dos serviços. A banca costuma explorar os tipos de manutenção, as estratégias de modernização incremental, os níveis de interoperabilidade e a separação entre implantar e liberar uma mudança.
+
+
+BLOCO UM: DÉBITO TÉCNICO, DOCUMENTAÇÃO, MODULARIDADE E ACOPLAMENTO
+
+A meta de alta coesão e baixo acoplamento, os princípios SOLID, os padrões de projeto e a definição de refatoração foram vistos no item três ponto um ponto dois. Aqui entram a natureza da manutenção, o débito técnico, a documentação e a classificação e medição do acoplamento.
+
+Primeiro, a manutenção em si.
+
+A norma ISO, í é cê e í tríplo é, catorze mil setecentos e sessenta e quatro, sobre manutenção de software, distingue quatro tipos.
+
+Manutenção corretiva: corrige defeitos descobertos depois da entrega.
+
+Manutenção adaptativa: ajusta o software a mudanças no ambiente, como uma nova versão do sistema operacional, um novo navegador, uma integração que mudou ou uma lei nova que altera uma regra de cálculo.
+
+Manutenção perfectiva: melhora o software para os usuários ou para quem o mantém, como ganho de desempenho, melhoria de usabilidade ou de manutenibilidade.
+
+Manutenção preventiva: detecta e corrige falhas latentes antes que se manifestem como defeitos em operação.
+
+A troca mais cobrada é entre adaptativa e corretiva. Mudar o sistema por causa de uma nova lei é adaptativa, porque o software não estava errado: o ambiente mudou.
+
+E a maior parte do esforço de manutenção não é corretiva. Estudos clássicos, como os de Lientz e Swanson, mostram que a maior fatia vai para a manutenção adaptativa e perfectiva, ou seja, para fazer o sistema evoluir.
+
+Lehman formulou leis sobre a evolução de sistemas usados no mundo real. Duas são as mais citadas. A lei da mudança contínua: um sistema em uso precisa ser continuamente adaptado, ou se torna progressivamente menos útil. E a lei da complexidade crescente: à medida que o sistema evolui, sua complexidade aumenta, a menos que se trabalhe ativamente para reduzi-la.
+
+A segunda lei leva direto ao débito técnico.
+
+Débito técnico é a metáfora proposta por Ward Cunningham, em mil novecentos e noventa e dois, para o custo futuro de escolher hoje uma solução mais rápida em vez da melhor. Como numa dívida financeira, há o principal, que é o esforço para corrigir a solução, e os juros, que são o esforço extra que cada mudança futura exige enquanto a dívida não é paga.
+
+Duas consequências da metáfora. Assumir débito pode ser uma decisão racional, como cumprir um prazo legal de lançamento de um serviço, desde que seja consciente e com plano de pagamento. E débito em um trecho de código que nunca mais muda quase não cobra juros: o pagamento deve priorizar o que é alterado com frequência.
+
+Martin Fowler organizou o débito em um quadrante com dois eixos: deliberado ou inadvertido, prudente ou imprudente. Débito deliberado e prudente: sabemos que a solução é provisória e decidimos entregar agora e corrigir depois. Débito deliberado e imprudente: não temos tempo para projetar, então nem projetamos. Débito inadvertido e imprudente: a equipe não conhecia as boas práticas. E débito inadvertido e prudente: só depois de construir a equipe aprendeu qual teria sido o melhor projeto. Esse último é inevitável, porque o aprendizado vem com o próprio desenvolvimento.
+
+O débito não está só no código. Há débito de arquitetura, como módulos que deveriam ser independentes e não são; de testes, como partes críticas sem testes automatizados; de documentação; e de dependências, como bibliotecas e plataformas desatualizadas, que acumulam vulnerabilidades e ficam cada vez mais caras de atualizar.
+
+Gerir o débito exige torná-lo visível, com registro no béclog, ao lado das demais demandas; medi-lo, com ferramentas de análise estática; e reservar capacidade da equipe para pagá-lo continuamente. A regra do escoteiro resume a prática do dia a dia: deixe o código um pouco melhor do que você o encontrou.
+
+E débito técnico não é sinônimo de defeito. Um sistema pode funcionar corretamente e, mesmo assim, ter alto débito, porque cada mudança é lenta e arriscada.
+
+Documentação.
+
+O manifesto ágil valoriza software em funcionamento mais que documentação abrangente. Isso não significa ausência de documentação, e sim documentação suficiente, que alguém de fato usa.
+
+Para manutenção, os tipos mais úteis são estes.
+
+O arquivo de apresentação do repositório, o rídmi: o que o sistema faz, como executar, como testar e como implantar.
+
+A documentação de arquitetura. Um modelo conhecido é o cê quatro, que descreve o sistema em quatro níveis de zoom: contexto, contêineres, componentes e código.
+
+Os registros de decisão de arquitetura. Cada registro descreve o contexto, a decisão tomada e suas consequências. Eles preservam o porquê das escolhas, que é exatamente o que se perde quando as pessoas saem da equipe. Um registro aceito não é editado para mudar a decisão: uma decisão nova gera um novo registro, que substitui o anterior.
+
+O manual de operação, em inglês rãnbuk, com os procedimentos para incidentes e tarefas rotineiras de operação.
+
+E os comentários no código. O código bem escrito mostra o que é feito; o comentário deve explicar por que, especialmente quando a razão é uma regra de negócio ou uma norma. Comentário que repete o código envelhece mal.
+
+A abordagem de documentação como código guarda a documentação no mesmo repositório, versionada e revisada junto com as mudanças. Documentação desatualizada é perigosa, porque induz o mantenedor a erro com aparência de autoridade.
+
+Agora, modularidade e acoplamento em mais detalhe.
+
+A classificação clássica de acoplamento, do pior para o melhor, tem seis tipos.
+
+Acoplamento de conteúdo: um módulo acessa ou altera diretamente os dados internos de outro.
+
+Acoplamento comum: módulos compartilham dados globais.
+
+Acoplamento externo: módulos dependem de um formato, protocolo ou dispositivo imposto de fora.
+
+Acoplamento de controle: um módulo passa a outro um indicador que decide qual lógica o outro executa, como um parâmetro booleano que muda todo o comportamento do método.
+
+Acoplamento de carimbo: um módulo passa uma estrutura inteira quando o outro usa só parte dela.
+
+Acoplamento de dados: os módulos trocam apenas os dados necessários, por parâmetros. É o desejável.
+
+A coesão também tem uma escala, da pior para a melhor: coincidental, quando os elementos estão juntos por acaso, como numa classe de utilidades gerais; lógica, quando fazem coisas da mesma categoria, escolhidas por um indicador; temporal, quando executam no mesmo momento, como tudo que roda na inicialização; procedural, quando seguem uma ordem de execução; comunicacional, quando operam sobre os mesmos dados; sequencial, quando a saída de um é a entrada do outro; e funcional, quando todos contribuem para uma única tarefa bem definida. A funcional é a ideal.
+
+Há métricas para o acoplamento.
+
+Acoplamento aferente é o número de módulos que dependem de um módulo. Acoplamento eferente é o número de módulos de que ele depende.
+
+Robert Martin define a instabilidade como o acoplamento eferente dividido pela soma do aferente com o eferente. O resultado vai de zero a um. Perto de zero, o módulo é estável: muitos dependem dele e ele depende de poucos, então é difícil de mudar. Perto de um, é instável: depende de muitos e ninguém depende dele, então é fácil de mudar.
+
+Daí o princípio das dependências estáveis: as dependências devem apontar na direção da estabilidade. Um módulo que muda muito não deve ser a base de que todos dependem. E o princípio das dependências acíclicas: não deve haver ciclos de dependência entre módulos, porque um ciclo faz que os módulos envolvidos precisem ser mudados, testados e liberados juntos, como se fossem um só.
+
+Outra métrica é a complexidade ciclomática de McCabe: o número de caminhos independentes em um trecho de código, que equivale ao número de pontos de decisão mais um. Ela indica a dificuldade de entender o código e o número mínimo de casos de teste para percorrer esses caminhos básicos.
+
+Em djava, a partir da versão nove, o sistema de módulos da plataforma permite declarar, no arquivo de descrição do módulo, quais pacotes ele exporta e de quais módulos ele depende. Pacotes não exportados ficam inacessíveis aos outros módulos, mesmo que suas classes sejam públicas. É a ocultação de informação aplicada pela própria plataforma.
+
+A distribuição de responsabilidades entre serviços e o acoplamento em arquiteturas distribuídas são temas do item três ponto dois ponto um.
+
+Pegadinhas do bloco um.
+
+A alteração de um sistema para atender a uma nova lei que muda uma regra de cálculo é manutenção corretiva. Errado. É adaptativa: o ambiente mudou, e o software não estava errado.
+
+A maior parte do esforço de manutenção de software é destinada à correção de defeitos. Errado. A maior fatia é adaptativa e perfectiva.
+
+Todo débito técnico decorre de imperícia da equipe. Errado. Há débito deliberado e prudente, e o inadvertido e prudente é inevitável.
+
+Débito técnico e defeito são sinônimos. Errado. Um sistema correto pode ter alto débito.
+
+Acoplamento de controle é o tipo mais desejável. Errado. O desejável é o acoplamento de dados.
+
+Um módulo com instabilidade próxima de zero é fácil de alterar. Errado. Ele é estável, porque muitos dependem dele, e por isso mudá-lo é difícil.
+
+Registros de decisão de arquitetura devem ser editados sempre que a decisão mudar. Errado. A decisão nova gera um novo registro, que substitui o anterior.
+
+
+BLOCO DOIS: SUSTENTAÇÃO E MODERNIZAÇÃO DE SISTEMAS LEGADOS
+
+Sistema legado é aquele que continua essencial ao negócio, mas é difícil e arriscado de mudar. As causas costumam se somar: tecnologia obsoleta ou sem suporte, documentação ausente ou desatualizada, ausência de testes automatizados e conhecimento concentrado em poucas pessoas.
+
+Michael Feathers propôs uma definição provocativa: código legado é código sem testes. A ideia é que, sem testes, não se sabe se uma mudança preservou o comportamento, e por isso todo código sem testes se torna difícil de mudar, por mais novo que seja.
+
+Legado não é sinônimo de antigo. Um sistema em uma linguagem antiga, bem testado e documentado, pode ser mais fácil de manter que um sistema recente sem testes. E legado não é sinônimo de ruim: ele costuma concentrar décadas de regras de negócio que ninguém mais tem escritas em outro lugar.
+
+O conhecimento concentrado tem até nome: o fator ônibus, o número de pessoas que, se saíssem de repente da equipe, deixariam o sistema sem quem o entenda. Fator ônibus igual a um é risco de continuidade.
+
+Sustentação é manter o sistema funcionando e útil: atender incidentes, corrigir defeitos, aplicar atualizações de segurança, fazer pequenas evoluções e acompanhar a obsolescência da plataforma. Um ponto crítico é o fim do suporte de linguagens, bancos de dados e sistemas operacionais. Depois dele, não há mais correções de segurança, e o risco cresce mesmo que nada no sistema mude.
+
+Quando a sustentação deixa de ser suficiente, entra a modernização. As opções costumam ser apresentadas como os erres da migração. Na formulação mais usada em nuvem, são sete.
+
+Reter: manter como está, por enquanto, porque o custo ou o risco de mudar não se justifica.
+
+Aposentar: desligar o sistema, porque ele não é mais necessário ou sua função já existe em outro lugar.
+
+Rehospedar, conhecido como lífti én chífti: mover para outra infraestrutura sem alterar o código.
+
+Realocar: mover para outra plataforma equivalente, sem mudanças na aplicação, como trocar o ambiente de virtualização.
+
+Replataformar: fazer ajustes pontuais para aproveitar a nova plataforma, como trocar o banco de dados próprio por um serviço gerenciado, sem mudar a arquitetura.
+
+Recomprar: substituir por um produto pronto, muitas vezes oferecido como software como serviço.
+
+Refatorar ou rearquitetar: reconstruir a aplicação, mudando sua estrutura, para obter benefícios que a arquitetura atual não permite.
+
+Os de menor risco e menor ganho são reter e rehospedar. O de maior potencial e maior risco é rearquitetar.
+
+O maior risco da modernização é a reescrita total, chamada de bíg bén: parar a evolução do sistema antigo e reconstruí-lo do zero, para trocar tudo de uma vez. Ela costuma subestimar as regras escondidas no legado, demora mais do que o previsto enquanto o negócio continua mudando e concentra todo o risco em um único dia de virada.
+
+A alternativa é a modernização incremental, com três padrões principais.
+
+O padrão estrangulador, inspirado na figueira estranguladora, que cresce em torno de uma árvore até substituí-la. Uma camada na frente do sistema, como um roteador de requisições, encaminha cada funcionalidade para o sistema antigo ou para o novo. As funcionalidades são migradas uma a uma, e o legado vai encolhendo até poder ser desligado. A cada passo, o sistema completo continua funcionando, e é possível voltar atrás.
+
+A camada anticorrupção, conceito do desenho orientado a domínio, de Eric Evans. É uma camada de tradução entre o sistema novo e o legado, que impede que o modelo confuso ou ultrapassado do legado contamine o modelo do sistema novo. O sistema novo conversa com a camada em seus próprios termos, e a camada traduz.
+
+E a ramificação por abstração: cria-se uma abstração na frente do componente que será substituído, muda-se todo o código para usar a abstração, cria-se a nova implementação por trás dela e, ao final, troca-se a implementação e remove-se a antiga. Tudo isso no tronco principal do código, sem um ramo paralelo de longa duração.
+
+Para mexer com segurança em código sem testes, Feathers recomenda os testes de caracterização: testes que registram o comportamento atual do sistema, tal como ele é, e não como deveria ser. Se o sistema hoje arredonda um valor de um jeito estranho, o teste registra esse jeito. Assim, a refatoração tem uma rede de proteção, e mudanças de comportamento passam a ser decisões explícitas, não acidentes.
+
+Outra técnica de validação é a execução paralela: o sistema novo processa as mesmas entradas que o antigo, e os resultados são comparados antes que o novo assuma.
+
+E a migração dos dados costuma ser a parte mais arriscada. Dados legados carregam inconsistências, campos usados para finalidades diferentes ao longo dos anos e regras implícitas. A migração precisa de conciliação, ou seja, de conferência de totais e de amostras entre a origem e o destino, e de ensaios antes da virada.
+
+Um exemplo na CGU. Um sistema antigo de acompanhamento de processos calcula prazos com regras que não estão documentadas em lugar nenhum. A equipe começa com testes de caracterização sobre casos reais, coloca um roteador na frente e migra primeiro a consulta pública de processos, que é só leitura e tem menor risco, deixando o cálculo de prazos para o final, depois de meses de execução paralela.
+
+Pegadinhas do bloco dois.
+
+Sistema legado é, por definição, aquele desenvolvido em linguagem ou plataforma antiga. Errado. O que caracteriza o legado é a importância para o negócio somada à dificuldade e ao risco de mudar; na definição de Feathers, é o código sem testes.
+
+A reescrita completa do sistema é a estratégia de modernização de menor risco, porque elimina de uma vez todo o débito acumulado. Errado. A reescrita total concentra o risco e tende a perder regras escondidas; a modernização incremental reduz o risco.
+
+No padrão estrangulador, o sistema legado é desligado no início da migração. Errado. Ele é substituído aos poucos e desligado só ao final.
+
+Testes de caracterização registram o comportamento correto esperado do sistema, conforme os requisitos. Errado. Registram o comportamento atual, mesmo que esteja errado.
+
+Rehospedar o sistema em nuvem moderniza sua arquitetura. Errado. Rehospedar move a aplicação sem alterar o código nem a arquitetura.
+
+A camada anticorrupção tem a função de proteger o sistema legado contra ataques. Errado. Ela traduz modelos, impedindo que o modelo do legado contamine o sistema novo.
+
+
+BLOCO TRÊS: INTEROPERABILIDADE E COMPATIBILIDADE
+
+Interoperabilidade é a capacidade de sistemas e organizações trocarem informações e usarem as informações trocadas. As duas partes importam: trocar dados que o outro lado não consegue interpretar não é interoperar.
+
+O modelo de qualidade da norma ISO e í é cê vinte e cinco mil e dez trata a interoperabilidade como subcaracterística da compatibilidade. A compatibilidade tem duas subcaracterísticas: a coexistência, que é funcionar bem compartilhando ambiente e recursos com outros produtos sem prejudicá-los, e a interoperabilidade.
+
+A interoperabilidade costuma ser descrita em níveis.
+
+Técnica: a capacidade de conectar e transmitir dados, com protocolos de rede e de comunicação comuns.
+
+Sintática: o formato e a estrutura comuns das mensagens, como djêisson ou xis ême éle com um esquema definido.
+
+Semântica: o significado comum dos dados. Os dois lados precisam entender o mesmo pelo mesmo campo. Situação, por exemplo, pode significar a situação do processo para um órgão e a situação cadastral do fornecedor para outro. Vocabulários controlados, tabelas de códigos comuns e identificadores únicos resolvem esse nível.
+
+Organizacional: processos, responsabilidades e acordos entre as organizações, como quem fornece o dado, com que frequência, com que qualidade e quem responde por ele.
+
+E o quadro europeu de interoperabilidade acrescenta o nível jurídico: a existência de base legal que permita e regule a troca.
+
+A pegadinha clássica é dizer que dois sistemas que trocam djêisson pelo mesmo protocolo são interoperáveis. Eles têm interoperabilidade técnica e sintática, mas não necessariamente semântica.
+
+Um exemplo brasileiro de interoperabilidade semântica é o identificador único do cidadão. A Lei catorze mil quinhentos e trinta e quatro, de dois mil e vinte e três, adotou o número do Cadastro de Pessoas Físicas, o cê pê efe, como número único e suficiente para a identificação do cidadão nos bancos de dados de serviços públicos.
+
+No governo federal, a referência técnica é a arquitetura de padrões de interoperabilidade de governo eletrônico, a ê ping, adotada desde dois mil e cinco. Ela define premissas, políticas e especificações técnicas para a troca de informações entre os sistemas de governo e com a sociedade. Cada padrão recebe uma situação: adotado, recomendado, em transição ou em estudo.
+
+Na legislação, a Lei catorze mil cento e vinte e nove, de dois mil e vinte e um, a Lei do Governo Digital, inclui a interoperabilidade de sistemas e a promoção de dados abertos entre seus princípios e diretrizes e dedica um capítulo à interoperabilidade de dados entre órgãos públicos. A numeração exata dos dispositivos desse capítulo deve ser conferida no texto da lei.
+
+E o Decreto dez mil e quarenta e seis, de dois mil e dezenove, trata da governança no compartilhamento de dados na administração pública federal. Ele institui o Cadastro Base do Cidadão e o Comitê Central de Governança de Dados e classifica o compartilhamento em três níveis, conforme a confidencialidade: amplo, para dados públicos sem restrição de acesso; restrito, para dados protegidos por sigilo, compartilhados com órgãos para a execução de políticas públicas; e específico, para dados protegidos por sigilo, compartilhados com órgãos determinados. Em dois mil e vinte e dois, o Supremo Tribunal Federal condicionou a aplicação do decreto à observância da Lei Geral de Proteção de Dados Pessoais: compartilhar dados entre órgãos exige finalidade legítima e específica, compatível com o que motivou a coleta, e as demais salvaguardas da lei.
+
+Interoperar não dispensa a proteção de dados. Ao contrário: integrar bases amplia o risco, e cada integração deve compartilhar só os dados necessários à finalidade.
+
+Agora, compatibilidade entre versões.
+
+Retrocompatibilidade, ou compatibilidade para trás: a versão nova continua funcionando com clientes, dados ou integrações feitos para a versão antiga. Um serviço que ganha uma versão nova e continua atendendo os sistemas que o consumiam é retrocompatível.
+
+Compatibilidade para frente: a versão antiga consegue lidar com dados produzidos por uma versão mais nova, normalmente ignorando o que não conhece.
+
+O princípio da robustez, atribuído a Jon Póstel, resume a postura: seja conservador no que envia e tolerante no que recebe. O padrão do leitor tolerante aplica isso a integrações: o consumidor lê apenas os campos de que precisa e ignora campos desconhecidos, para não quebrar quando o fornecedor acrescenta informação.
+
+Algumas mudanças quebram a compatibilidade e outras não.
+
+Normalmente compatíveis: acrescentar um campo opcional na resposta, acrescentar uma nova operação, aceitar um novo valor opcional na entrada.
+
+Normalmente incompatíveis: remover ou renomear um campo, mudar o tipo de um campo, tornar obrigatório um campo que era opcional, restringir os valores aceitos e mudar o significado de um campo sem mudar o nome. Essa última é a mais traiçoeira, porque não quebra nada visível: o sistema continua funcionando com o dado errado.
+
+Uma mudança incompatível precisa de um processo de descontinuação: anunciar com antecedência, manter a versão antiga funcionando por um período de convivência, monitorar quem ainda a usa e só então desligá-la. O versionamento semântico, visto no item três ponto um ponto quatro, comunica a quebra pelo número da versão.
+
+O desenho e o versionamento de á pê ís rést e a evolução de contratos e de esquemas de banco de dados são temas dos itens três ponto dois ponto dois e três ponto dois ponto três.
+
+Pegadinhas do bloco três.
+
+Dois sistemas que trocam mensagens em djêisson pelo mesmo protocolo são, por isso, plenamente interoperáveis. Errado. Isso garante interoperabilidade técnica e sintática, não a semântica nem a organizacional.
+
+No modelo da norma ISO e í é cê vinte e cinco mil e dez, interoperabilidade é subcaracterística da manutenibilidade. Errado. É subcaracterística da compatibilidade, ao lado da coexistência.
+
+Acrescentar um campo opcional à resposta de um serviço é mudança incompatível. Errado. Em regra, é compatível, especialmente com consumidores que seguem o leitor tolerante.
+
+Mudar o significado de um campo, mantendo nome e tipo, preserva a compatibilidade. Errado. É uma quebra de compatibilidade semântica, e a mais difícil de detectar.
+
+O compartilhamento de dados entre órgãos federais, por ser interno à administração, dispensa a observância da Lei Geral de Proteção de Dados Pessoais. Errado. O Supremo condicionou o compartilhamento às salvaguardas da lei.
+
+Retrocompatibilidade é a capacidade da versão antiga de processar dados da versão nova. Errado. Isso é compatibilidade para frente; retrocompatibilidade é a versão nova continuar atendendo o que foi feito para a antiga.
+
+
+BLOCO QUATRO: IMPACTOS DAS MUDANÇAS E DAS FALHAS SOBRE A CONTINUIDADE E A QUALIDADE DOS SERVIÇOS
+
+Este bloco trata da mudança como fonte de risco para quem depende do serviço. Comece pela norma.
+
+A Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, o Código de Defesa do Usuário do Serviço Público, determina no artigo quarto que os serviços públicos e o atendimento do usuário sejam realizados de forma adequada, observados os princípios da regularidade, continuidade, efetividade, segurança, atualidade, generalidade, transparência e cortesia.
+
+A Lei oito mil novecentos e oitenta e sete, de mil novecentos e noventa e cinco, sobre concessões, traz a mesma lógica no artigo sexto. O parágrafo segundo define a atualidade como a modernidade das técnicas, do equipamento e das instalações e a sua conservação, bem como a melhoria e expansão do serviço. E o parágrafo terceiro diz que não se caracteriza como descontinuidade a interrupção em situação de emergência ou após prévio aviso, quando motivada por razões de ordem técnica ou de segurança das instalações.
+
+Repare na tensão entre os dois princípios. A atualidade exige que o serviço evolua. A continuidade exige que ele não pare. Toda mudança num sistema que sustenta um serviço público é uma aposta entre os dois, e as práticas deste bloco servem para reduzir o custo dessa aposta. E a janela de manutenção com aviso prévio é a aplicação direta do parágrafo terceiro.
+
+Antes de mudar, a análise de impacto.
+
+Análise de impacto é identificar o que uma mudança pode afetar: módulos, integrações, relatórios, dados, usuários e outros órgãos. Ela depende de duas coisas vistas no bloco um: conhecer as dependências, o que é mais fácil com baixo acoplamento, e ter rastreabilidade, ou seja, ligações registradas entre requisitos, código e testes. Sem rastreabilidade, a pergunta o que quebra se eu mudar isto só se responde mudando e esperando.
+
+A proteção principal são os testes de regressão automatizados: verificam se o que funcionava continua funcionando depois da mudança. Sem eles, cada mudança exige teste manual extenso, o que torna as entregas lentas e grandes. E entregas grandes são justamente as mais arriscadas.
+
+Gestão de mudanças.
+
+Na biblioteca de boas práticas de serviços de tecnologia, conhecida como ítil, a versão quatro chama a prática de habilitação de mudanças e distingue três tipos.
+
+Mudança padrão: de baixo risco, bem conhecida e pré-autorizada, executada sem nova avaliação, como uma rotina de atualização já documentada.
+
+Mudança normal: precisa ser avaliada e autorizada antes de ser executada, com o nível de autorização proporcional ao risco.
+
+Mudança emergencial: precisa ser implementada o mais rápido possível, como a correção de uma falha grave de segurança, com um processo de avaliação e autorização acelerado, mas não ausente.
+
+A mesma biblioteca distingue incidente de problema. Incidente é uma interrupção não planejada de um serviço ou a redução de sua qualidade. Problema é a causa, ou causa potencial, de um ou mais incidentes. Restaurar o serviço resolve o incidente; eliminar a causa resolve o problema. Uma solução de contorno restaura o serviço sem eliminar a causa.
+
+Implantar e liberar.
+
+A distinção mais importante deste bloco é entre implantação e liberação. Implantar, em inglês diplói, é colocar a nova versão do código no ambiente de produção. Liberar é tornar a funcionalidade disponível para os usuários. As duas coisas podem ser separadas.
+
+O recurso que as separa são as chaves de funcionalidade, em inglês fítcher flégs: o código novo é implantado desligado e ligado depois, para todos ou para um grupo, sem nova implantação. Se der problema, desliga-se a chave. O custo é que chaves esquecidas viram débito técnico, porque cada uma multiplica os caminhos possíveis do código.
+
+As estratégias de implantação mais cobradas são três.
+
+Azul e verde: mantêm-se dois ambientes de produção idênticos. Um atende os usuários enquanto a nova versão é instalada no outro. A virada é uma troca de roteamento, e a reversão é trocar de volta.
+
+Canário: a nova versão recebe primeiro uma pequena parcela do tráfego. Se os indicadores ficam bons, a parcela aumenta até chegar a todos. O nome vem dos canários usados nas minas para detectar gases antes que atingissem os mineiros.
+
+Gradual, ou rolante: as instâncias do serviço são atualizadas uma de cada vez, e as duas versões convivem durante a atualização.
+
+Nas três, a ideia é limitar o raio de impacto, ou seja, quantos usuários uma falha atinge, e ter um caminho rápido de volta. Mas a reversão só é simples se a mudança for reversível. Mudança no esquema do banco de dados que apaga uma coluna não se desfaz trocando a versão do código. Por isso migrações de esquema são feitas em etapas compatíveis, tema do item três ponto dois ponto três.
+
+Medindo o efeito das mudanças.
+
+A pesquisa do programa conhecido como dora, sobre desempenho de entrega de software, propõe quatro métricas principais. Duas medem velocidade: a frequência de implantação e o tempo de espera para mudanças, do código pronto até a produção. Duas medem estabilidade: a taxa de falha de mudanças, que é a proporção de implantações que causam falha em produção, e o tempo para recuperar o serviço depois de uma implantação com falha.
+
+O achado central da pesquisa é que velocidade e estabilidade não são opostas. As equipes de melhor desempenho vão bem nas quatro, porque mudanças pequenas e frequentes são mais fáceis de testar, de entender e de reverter.
+
+Quando a falha acontece.
+
+A falha de um sistema público raramente fica só na tecnologia. Ela pode impedir o cidadão de cumprir um prazo, suspender um pagamento ou expor dados pessoais.
+
+Quando envolve dados pessoais, entra a Lei Geral de Proteção de Dados Pessoais. O artigo quarenta e oito obriga o controlador a comunicar à Autoridade Nacional de Proteção de Dados e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante aos titulares. O regulamento de comunicação de incidentes da autoridade, de dois mil e vinte e quatro, fixou o prazo de três dias úteis a partir do conhecimento do incidente.
+
+Depois de restaurado o serviço, a análise pós-incidente deve ser sem culpa: o objetivo é entender como o sistema e o processo permitiram a falha e o que muda para evitá-la, e não encontrar um culpado. Culpar pessoas leva à ocultação de erros, e erros escondidos não são corrigidos.
+
+Disponibilidade, objetivos de tempo e de ponto de recuperação, tolerância a falhas e degradação controlada de serviços são temas do item três ponto dois ponto cinco.
+
+Pegadinhas do bloco quatro.
+
+Implantar uma nova versão em produção significa, necessariamente, liberá-la a todos os usuários. Errado. Chaves de funcionalidade separam a implantação da liberação.
+
+Mudança emergencial dispensa avaliação e autorização. Errado. Ela tem um processo acelerado, mas não dispensa autorização.
+
+Incidente e problema são sinônimos. Errado. Problema é a causa de um ou mais incidentes; resolver o incidente restaura o serviço, resolver o problema elimina a causa.
+
+Para reduzir o risco, as mudanças devem ser acumuladas e implantadas em grandes pacotes, com pouca frequência. Errado. Mudanças pequenas e frequentes são mais fáceis de testar e reverter, e a pesquisa mostra que velocidade e estabilidade andam juntas.
+
+Na implantação canário, todos os usuários passam ao mesmo tempo para a nova versão. Errado. A nova versão recebe primeiro uma pequena parcela do tráfego.
+
+A interrupção de um serviço por razões técnicas, após aviso prévio, caracteriza descontinuidade do serviço. Errado. O parágrafo terceiro do artigo sexto da Lei oito mil novecentos e oitenta e sete afasta a descontinuidade nesse caso.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Manutenção corretiva, adaptativa, perfectiva e preventiva; lei nova é adaptativa; o maior esforço é adaptativo e perfectivo. Lehman: mudança contínua e complexidade crescente. Débito técnico tem principal e juros; quadrante de Fowler, deliberado ou inadvertido, prudente ou imprudente; não é sinônimo de defeito. Registros de decisão preservam o porquê e não são reescritos. Acoplamento do pior ao melhor: conteúdo, comum, externo, controle, carimbo e dados; coesão funcional é a ideal. Instabilidade é o eferente sobre a soma; perto de zero, estável e difícil de mudar.
+
+Legado é importante e arriscado de mudar; para Feathers, código sem testes. Sete erres: reter, aposentar, rehospedar, realocar, replataformar, recomprar e rearquitetar. Reescrita total concentra o risco; estrangulador migra aos poucos; camada anticorrupção traduz modelos; ramificação por abstração troca a implementação no tronco. Testes de caracterização registram o comportamento atual. Migração de dados exige conciliação.
+
+Interoperabilidade técnica, sintática, semântica, organizacional e jurídica; formato comum não garante significado comum. Na norma vinte e cinco mil e dez, compatibilidade reúne coexistência e interoperabilidade. Cê pê efe como identificador único, Lei catorze mil quinhentos e trinta e quatro. Decreto dez mil e quarenta e seis: compartilhamento amplo, restrito e específico, sob a Lei Geral de Proteção de Dados. Retrocompatibilidade é o novo atendendo o antigo; leitor tolerante; campo opcional novo é compatível, mudança de significado não.
+
+Lei treze mil quatrocentos e sessenta, artigo quarto: continuidade e atualidade. Lei oito mil novecentos e oitenta e sete, artigo sexto, parágrafo terceiro: interrupção técnica com aviso prévio não é descontinuidade. Mudanças padrão, normal e emergencial; incidente não é problema. Implantar não é liberar. Azul e verde, canário e gradual limitam o raio de impacto. Dora: frequência, tempo de espera, taxa de falha e tempo de recuperação. Incidente com dados pessoais: comunicação em três dias úteis. Análise pós-incidente sem culpa.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. A alteração de um sistema de concessão de benefícios para incorporar uma nova regra de cálculo instituída por lei caracteriza manutenção adaptativa.
+
+Gabarito: certo. A mudança decorre do ambiente, e não de defeito do software.
+
+Item dois. Um módulo do qual dependem muitos outros e que depende de poucos apresenta instabilidade próxima de um, o que facilita sua alteração.
+
+Gabarito: errado. Ele tem instabilidade próxima de zero: é estável e, por isso, difícil de alterar.
+
+Item três. Quando um método recebe um parâmetro booleano que determina qual de dois comportamentos completamente distintos ele executará, configura-se acoplamento de controle.
+
+Gabarito: certo. O chamador controla a lógica interna do módulo chamado.
+
+Item quatro. Na definição de Michael Feathers, código legado é o código sem testes, independentemente da idade da tecnologia em que foi escrito.
+
+Gabarito: certo. Sem testes, não se sabe se a mudança preservou o comportamento.
+
+Item cinco. Os testes de caracterização devem ser escritos com base nos requisitos originais do sistema legado, de modo a evidenciar seus desvios em relação ao comportamento esperado.
+
+Gabarito: errado. Eles registram o comportamento atual, tal como é, para servir de rede de proteção na refatoração.
+
+Item seis. A estratégia de rehospedagem de um sistema legado em nuvem implica a reestruturação de sua arquitetura para aproveitar os serviços gerenciados do provedor.
+
+Gabarito: errado. Rehospedar move a aplicação sem alterar código nem arquitetura; aproveitar serviços gerenciados é replataformar ou rearquitetar.
+
+Item sete. Dois sistemas que trocam mensagens em formato padronizado, por protocolo comum, mas atribuem significados diferentes ao mesmo campo, carecem de interoperabilidade semântica.
+
+Gabarito: certo. Há interoperabilidade técnica e sintática, mas não acordo sobre o significado.
+
+Item oito. A inclusão de um novo campo opcional na resposta de um serviço tende a quebrar os consumidores que adotam o padrão do leitor tolerante.
+
+Gabarito: errado. O leitor tolerante ignora campos desconhecidos; a inclusão de campo opcional é, em regra, compatível.
+
+Item nove. Pelo Decreto dez mil e quarenta e seis, de dois mil e dezenove, o compartilhamento amplo destina-se a dados protegidos por sigilo, compartilhados com quaisquer órgãos interessados.
+
+Gabarito: errado. O compartilhamento amplo é o de dados públicos sem restrição de acesso; dados sigilosos seguem o compartilhamento restrito ou específico.
+
+Item dez. Na prática de habilitação de mudanças, a mudança emergencial é executada sem avaliação nem autorização, dada a urgência.
+
+Gabarito: errado. A avaliação e a autorização são aceleradas, não dispensadas.
+
+Item onze. Segundo as pesquisas sobre desempenho de entrega de software, aumentar a frequência das implantações, com mudanças menores, tende a reduzir a estabilidade dos serviços.
+
+Gabarito: errado. Velocidade e estabilidade andam juntas; mudanças pequenas são mais fáceis de testar e reverter.
+
+Item doze. Nos termos da Lei oito mil novecentos e oitenta e sete, de mil novecentos e noventa e cinco, não se caracteriza descontinuidade a interrupção do serviço, após prévio aviso, motivada por razões de ordem técnica.
+
+Gabarito: certo. É a previsão do parágrafo terceiro do artigo sexto.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto dois ponto um, arquiteturas de aplicações.
