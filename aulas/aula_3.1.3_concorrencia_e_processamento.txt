@@ -102,7 +102,7 @@ A anotação Async do Spring executa um método em outra thread. Ela funciona po
 
 E no JavaScript, a palavra await suspende a função, e não a thread. A thread continua livre para atender outros eventos.
 
-Pegadinhas do bloco null.
+Pegadinhas do bloco um.
 
 Concorrência exige múltiplos núcleos. Errado. Isso é paralelismo.
 
@@ -223,7 +223,7 @@ E a lista sincronizada, obtida pela classe Collections, usa um único bloqueio p
 
 A pegadinha aqui é fina. Uma coleção segura para threads garante cada operação isolada. A composição de operações continua sendo responsabilidade de quem usa. Verificar se a chave existe e depois inserir é uma corrida, mesmo com o mapa concorrente. A forma correta é usar o método que faz as duas coisas de uma vez, de forma atômica.
 
-Pegadinhas do bloco null.
+Pegadinhas do bloco dois.
 
 Volatile torna o incremento seguro. Errado. Dá visibilidade, não atomicidade.
 
@@ -327,7 +327,7 @@ Quando rejeita, a política padrão lança uma exceção. Há outras políticas:
 
 E o risco operacional mais grave: todas as threads ficarem presas esperando um serviço externo lento. A aplicação inteira para. As defesas são: prazo limite em toda chamada externa, filas limitadas, pools separados por dependência e disjuntor.
 
-Pegadinhas do bloco null.
+Pegadinhas do bloco três.
 
 Componentes singleton do Spring são seguros para threads por serem gerenciados. Errado.
 
@@ -470,7 +470,7 @@ Teste de resistência mantém a carga por muito tempo, e revela vazamentos de me
 
 E a observação mais importante sobre testes neste tema. Defeito de concorrência é não determinístico. Pode não aparecer em mil execuções e surgir em produção. Um teste que passa não prova que não há corrida. A correção vem do projeto: estado confinado, operações atômicas e restrições no banco.
 
-Pegadinhas do bloco null.
+Pegadinhas do bloco quatro.
 
 O bloqueio otimista impede que duas transações leiam o mesmo registro. Errado. Ele detecta o conflito ao gravar.
 

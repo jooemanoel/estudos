@@ -1,0 +1,490 @@
+AUDIOAULA. ITEM TRÊS PONTO UM PONTO QUATRO DO EDITAL: INTERFACES E EXPERIÊNCIA DO USUÁRIO
+
+
+ABERTURA
+
+Este é o item três ponto um ponto quatro, interfaces e experiência do usuário. Ele tem cinco subitens, tratados aqui em cinco blocos: usabilidade, prototipagem e desenho responsivo; acessibilidade e barreiras digitais; componentes de interface e reaproveitamento; validação com usuários e prevenção de erros no uso dos serviços; e desenvolvimento de interfaces com djávascripti e Viú. A banca costuma explorar os critérios e níveis das diretrizes de acessibilidade, a obrigação legal de acessibilidade nos sítios públicos e o comportamento exato da reatividade e da comunicação entre componentes no Viú.
+
+
+BLOCO UM: USABILIDADE, PROTOTIPAGEM E DESENHO RESPONSIVO
+
+A definição de usabilidade da norma ISO nove mil duzentos e quarenta e um, parte onze, com eficácia, eficiência e satisfação, e as dez heurísticas de Nielsen foram vistas no item três ponto um ponto um. Aqui entram os componentes práticos da usabilidade, a prototipagem e a adaptação da interface a diferentes telas.
+
+Nielsen descreve a usabilidade por cinco componentes.
+
+Facilidade de aprendizado: quanto o usuário consegue fazer na primeira vez que usa a interface.
+
+Eficiência: com que rapidez o usuário que já aprendeu executa as tarefas.
+
+Facilidade de memorização: quanto o usuário recupera da proficiência depois de um período sem usar.
+
+Erros: quantos erros o usuário comete, quão graves são e com que facilidade ele se recupera.
+
+Satisfação: quão agradável é o uso.
+
+Os componentes podem entrar em conflito. Um sistema interno usado o dia inteiro por servidores pode privilegiar a eficiência de quem já é experiente, com atalhos de teclado. Um serviço que o cidadão usa uma vez por ano precisa privilegiar o aprendizado e a memorização, porque todo uso é praticamente o primeiro.
+
+Três leis empíricas aparecem com frequência.
+
+A Lei de Fits diz que o tempo para atingir um alvo cresce com a distância e diminui com o tamanho do alvo. Por isso botões principais devem ser grandes e estar perto de onde a atenção já está, e as bordas da tela funcionam como alvos fáceis em computadores.
+
+A Lei de Ríc diz que o tempo de decisão cresce com o número e a complexidade das opções. Não significa que menus devam ter poucas opções a qualquer custo, e sim que as opções devem ser agrupadas e priorizadas.
+
+E a carga cognitiva: a memória de trabalho é limitada. A interface deve mostrar a informação necessária no momento em que ela é necessária, em vez de exigir que o usuário lembre o que viu na tela anterior.
+
+Outro conceito é a afórdance: a propriedade de um elemento que sugere como usá-lo. Um botão com aparência de botão convida ao clique. Um texto azul sublinhado sugere um link. Quando o visual não indica a ação possível, o usuário não a descobre.
+
+Prototipagem.
+
+Protótipo é uma representação da solução feita para aprender antes de construir. Os níveis de baixa e alta fidelidade foram vistos no item três ponto um ponto um. Três termos completam o vocabulário.
+
+O uáierfreim é o esqueleto da tela: posição dos elementos, hierarquia e fluxo, sem cores nem conteúdo definitivo.
+
+O mócap é a representação visual estática, com cores, tipografia e imagens, mas sem interação.
+
+O protótipo navegável permite clicar e percorrer o fluxo, simulando o comportamento.
+
+Quanto ao destino do protótipo, há duas estratégias.
+
+No protótipo descartável, ele serve só para validar ideias e depois é abandonado. O código definitivo é escrito do zero, com a qualidade devida.
+
+No protótipo evolutivo, ele é refinado até virar o produto. Exige qualidade de engenharia desde o início.
+
+O risco clássico é tratar como evolutivo um protótipo feito como descartável, levando para produção um código que nunca foi pensado para durar.
+
+Desenho responsivo.
+
+Desenho responsivo é uma única interface que se adapta ao tamanho e às características da tela. A proposta, de dois mil e dez, combina três ingredientes: grade fluida, com larguras proporcionais em vez de fixas; imagens flexíveis, que não ultrapassam o contêiner; e consultas de mídia, que aplicam regras de estilo diferentes conforme a largura da tela ou outras características do dispositivo.
+
+Os valores de largura em que o layout muda se chamam pontos de quebra. A boa prática é definir os pontos de quebra pelo conteúdo, onde o layout começa a quebrar, e não por modelos específicos de aparelho, que mudam todo ano.
+
+É preciso distinguir o desenho responsivo do desenho adaptativo. No adaptativo, o servidor ou a página escolhe entre alguns layouts fixos, prontos para tamanhos predefinidos. No responsivo, o mesmo layout se ajusta de forma contínua.
+
+A estratégia primeiro o celular, em inglês móbail férst, começa pela tela menor e acrescenta recursos e colunas conforme a tela cresce. Ela se alinha ao aprimoramento progressivo: parte-se de uma base que funciona em qualquer ambiente e se acrescentam camadas. A abordagem oposta é a degradação graciosa: projeta-se para o ambiente mais capaz e se garante que a experiência não quebre nos menos capazes.
+
+Três detalhes técnicos aparecem em questões.
+
+A meta tag viúpórt, no cabeçalho do documento agá tê ême éle, ou seja, a linguagem de marcação de hipertexto, informa ao navegador do celular que a largura da página é a largura do aparelho. Sem ela, o celular renderiza a página como se fosse uma tela de computador e a reduz, e as consultas de mídia não funcionam como esperado.
+
+Unidades relativas, como porcentagem e rém, que é relativa ao tamanho de fonte da raiz, respeitam a configuração de fonte do usuário. Tamanhos fixos em píxels ignoram quem aumentou a fonte do sistema.
+
+E os recursos de layout do cê ésse ésse, a linguagem de folhas de estilo: o fléquis bóx organiza elementos em uma dimensão, linha ou coluna; o grid organiza em duas dimensões, linhas e colunas ao mesmo tempo.
+
+Responsivo não é só encolher a tela. Em telas de toque, os alvos precisam ser maiores, porque o dedo é menos preciso que o ponteiro do mouse, e não existe o estado de passar o mouse por cima. Informação que só aparece nesse estado fica inacessível no celular.
+
+Pegadinhas do bloco um.
+
+Desenho responsivo exige uma versão separada do sistema para celulares. Errado. É a mesma interface, com o mesmo endereço, que se adapta. Versões separadas por dispositivo são outra estratégia.
+
+Pontos de quebra devem corresponder às larguras dos aparelhos mais vendidos. Errado. A recomendação é defini-los pelo conteúdo.
+
+Primeiro o celular significa que o sistema só funciona em celulares. Errado. Significa começar o projeto pela tela menor e expandir.
+
+Protótipo de alta fidelidade dispensa a validação com usuários, porque já está próximo do produto final. Errado. A fidelidade diz respeito à aparência e à interação, não à validação.
+
+Os componentes da usabilidade sempre se reforçam. Errado. Eficiência para o experiente e facilidade de aprendizado para o novato podem conflitar.
+
+
+BLOCO DOIS: ACESSIBILIDADE E BARREIRAS DIGITAIS
+
+Os quatro princípios das diretrizes de acessibilidade para conteúdo web, conhecidas pela sigla dábliu cê á guê, e os três níveis de conformidade foram vistos no item três ponto um ponto um. Aqui entram a base legal brasileira, os critérios mais cobrados e as práticas de implementação.
+
+A base legal começa pela Lei Brasileira de Inclusão da Pessoa com Deficiência, a Lei treze mil cento e quarenta e seis, de dois mil e quinze, também chamada Estatuto da Pessoa com Deficiência.
+
+O artigo segundo adota o modelo social da deficiência. Pessoa com deficiência é aquela que tem impedimento de longo prazo de natureza física, mental, intelectual ou sensorial, o qual, em interação com uma ou mais barreiras, pode obstruir sua participação plena e efetiva na sociedade em igualdade de condições com as demais pessoas.
+
+O ponto central é a interação com barreiras. A deficiência não está só no indivíduo. Uma pessoa cega usa perfeitamente um sistema bem construído; a barreira surge quando a imagem não tem descrição textual ou o botão não é alcançável pelo teclado.
+
+O artigo terceiro, inciso quatro, define barreira como qualquer entrave, obstáculo, atitude ou comportamento que limite ou impeça a participação social da pessoa e o exercício de seus direitos, e classifica as barreiras em seis tipos: urbanísticas, arquitetônicas, nos transportes, nas comunicações e na informação, atitudinais e tecnológicas.
+
+Para quem desenvolve sistemas, interessam sobretudo as barreiras nas comunicações e na informação e as barreiras tecnológicas. E as atitudinais também: a decisão de deixar a acessibilidade para depois é uma barreira atitudinal.
+
+O mesmo artigo terceiro define tecnologia assistiva, ou ajuda técnica: produtos, recursos, metodologias e serviços que promovem a funcionalidade e a autonomia da pessoa com deficiência. Leitores de tela, ampliadores, teclados alternativos e softwares de reconhecimento de voz são exemplos.
+
+O artigo sessenta e três é o mais cobrado. Ele torna obrigatória a acessibilidade nos sítios da internet mantidos por empresas com sede ou representação comercial no país ou por órgãos de governo, para uso da pessoa com deficiência, garantindo-lhe acesso às informações disponíveis, conforme as melhores práticas e diretrizes de acessibilidade adotadas internacionalmente. O parágrafo primeiro exige que esses sítios contenham símbolo de acessibilidade em destaque.
+
+Note o alcance: a obrigação não é só do governo. Alcança também empresas com sede ou representação comercial no país.
+
+Antes disso, o Decreto cinco mil duzentos e noventa e seis, de dois mil e quatro, no artigo quarenta e sete, já tornava obrigatória a acessibilidade nos portais e sítios eletrônicos da administração pública.
+
+E o modelo de acessibilidade em governo eletrônico, o ê mag, foi institucionalizado pela Portaria número três, de dois mil e sete, da então Secretaria de Logística e Tecnologia da Informação. A versão vigente, três ponto um, organiza quarenta e cinco recomendações em seis seções: marcação, comportamento, conteúdo ou informação, apresentação ou desenho, multimídia e formulário. O ê mag é coerente com as diretrizes internacionais e as adapta à realidade dos sítios de governo. Para verificar os sítios, o governo disponibiliza o avaliador automático conhecido como ases.
+
+Uma referência recente: em dois mil e vinte e cinco, a Associação Brasileira de Normas Técnicas, á bê ene tê, publicou a norma brasileira dezessete mil duzentos e vinte e cinco, com requisitos de acessibilidade para conteúdo e aplicações web, baseada nas diretrizes internacionais. Se a banca cobrar detalhes dessa norma, a redação exata deve ser conferida, porque ela é muito nova.
+
+Agora, as diretrizes internacionais. A versão dois ponto dois foi publicada pelo consórcio da web em outubro de dois mil e vinte e três. Ela é compatível com as versões anteriores: quem atende à dois ponto dois atende também à dois ponto um e à dois ponto zero. A única exceção é o critério de análise sintática, o quatro ponto um ponto um, que foi tornado obsoleto e removido.
+
+A dois ponto dois acrescentou nove critérios. Os mais cobrados são estes.
+
+Tamanho mínimo do alvo, nível duplo A: alvos de toque ou clique com pelo menos vinte e quatro por vinte e quatro píxels, salvo exceções, como links dentro de um texto corrido.
+
+Foco não encoberto, nível duplo A: o elemento que recebe o foco do teclado não pode ficar totalmente escondido, por exemplo, sob um cabeçalho fixo ou um aviso de cúquis.
+
+Movimentos de arrastar, nível duplo A: toda funcionalidade que use arrastar deve ter uma alternativa com um único ponteiro, como clicar ou tocar.
+
+Autenticação acessível, nível duplo A: o login não pode depender de um teste cognitivo, como memorizar ou transcrever caracteres, sem oferecer alternativa. Permitir colar a senha e usar gerenciadores de senha atende ao critério.
+
+Ajuda consistente, nível A: mecanismos de ajuda, como contato ou atendimento, ficam na mesma posição relativa nas várias páginas.
+
+Entrada redundante, nível A: a informação que o usuário já forneceu no mesmo processo não deve ser pedida de novo; ela é preenchida automaticamente ou oferecida para seleção.
+
+Entre os critérios antigos, os que mais aparecem em prova:
+
+Conteúdo não textual, nível A: toda imagem informativa tem alternativa em texto. Imagem decorativa recebe texto alternativo vazio, para que o leitor de tela a ignore.
+
+Uso de cor, nível A: a cor não pode ser o único meio de transmitir informação. Campo com erro marcado só em vermelho viola o critério; é preciso também texto ou ícone.
+
+Teclado, nível A: toda funcionalidade deve ser operável pelo teclado.
+
+Contraste mínimo, nível duplo A: razão de quatro e meio para um para texto normal e de três para um para texto grande. No nível triplo A, o contraste aprimorado exige sete para um para texto normal e quatro e meio para um para texto grande. Componentes de interface e gráficos precisam de contraste de três para um, no nível duplo A.
+
+Redimensionamento de texto, nível duplo A: o texto pode ser ampliado até duzentos por cento sem perda de conteúdo ou funcionalidade.
+
+Refluxo, nível duplo A: o conteúdo deve ser apresentado em uma largura equivalente a trezentos e vinte píxels sem rolagem horizontal, salvo conteúdos que exigem duas dimensões, como mapas e tabelas de dados. É aqui que acessibilidade e desenho responsivo se encontram: quem amplia a tela em quatrocentos por cento num monitor comum vê o equivalente a uma tela de celular.
+
+Foco visível, nível duplo A: quem navega pelo teclado precisa ver onde está o foco. Remover o contorno de foco pelo estilo, sem substituí-lo, viola o critério.
+
+Tempo ajustável, nível A: se há limite de tempo, como a expiração da sessão, o usuário deve poder desligá-lo, ajustá-lo ou estendê-lo, salvo exceções. Em serviços públicos, a sessão que expira no meio de um formulário longo, sem aviso, é uma barreira comum.
+
+Legendas, nível A, para vídeos gravados.
+
+E os níveis são cumulativos. Declarar conformidade duplo A exige cumprir todos os critérios de nível A e todos os de nível duplo A.
+
+Na implementação, três práticas.
+
+Primeira: usar o elemento nativo correto. Um botão deve ser o elemento botão, e não uma dív com evento de clique. O elemento nativo já é focável, já responde ao Enter e à barra de espaço e já é anunciado como botão pelo leitor de tela.
+
+Segunda: o conjunto de atributos ária, a especificação de aplicações ricas acessíveis, serve para descrever papéis, estados e propriedades que o agá tê ême éle não expressa sozinho, como uma aba selecionada ou um menu expandido. A primeira regra de uso é não usar ária quando existe um elemento nativo que faça o mesmo. Ária mal aplicada piora a acessibilidade, porque anuncia algo que o elemento não faz. E ária muda apenas o que é anunciado: não acrescenta comportamento. Dar a uma dív o papel de botão não a torna focável nem acionável pelo teclado.
+
+Terceira: em aplicações de página única, as mudanças acontecem sem recarregar a página. Mensagens que surgem dinamicamente, como um erro de envio, devem ser anunciadas por uma região viva, o atributo ária laive, e o foco deve ser levado ao conteúdo novo quando a rota muda.
+
+Sobre a verificação: ferramentas automáticas detectam só parte dos problemas. Elas encontram uma imagem sem texto alternativo, mas não julgam se o texto descreve a imagem corretamente. A avaliação completa combina ferramentas automáticas, inspeção manual, navegação só pelo teclado, uso de leitor de tela e testes com pessoas com deficiência.
+
+E as chamadas sobreposições de acessibilidade, em inglês ouverleis, são as ferramentas que prometem tornar o sítio acessível com uma linha de código, por uma camada sobreposta. Elas não garantem conformidade e podem interferir na tecnologia assistiva que o usuário já usa. No governo, o vê libras, que traduz conteúdo para a Língua Brasileira de Sinais, é um recurso complementar; ele não substitui a acessibilidade do próprio sítio.
+
+Por fim, a barreira digital não é só a deficiência. Conexão lenta, aparelho antigo, plano de dados limitado, baixa escolaridade e pouca familiaridade com tecnologia também excluem. Páginas leves, que funcionam com rede ruim, e canais alternativos ao digital fazem parte do mesmo cuidado.
+
+Pegadinhas do bloco dois.
+
+A Lei Brasileira de Inclusão obriga a acessibilidade apenas nos sítios de órgãos públicos. Errado. O artigo sessenta e três alcança também os sítios de empresas com sede ou representação comercial no país.
+
+Pela Lei Brasileira de Inclusão, a deficiência é uma condição exclusiva do indivíduo. Errado. O artigo segundo define a deficiência pela interação do impedimento com as barreiras.
+
+Atender ao nível duplo A dispensa os critérios de nível A. Errado. Os níveis são cumulativos.
+
+O contraste mínimo de quatro e meio para um vale para qualquer texto. Errado. Texto grande exige três para um no nível duplo A.
+
+Atribuir o papel ária de botão a uma dív a torna operável pelo teclado. Errado. Ária altera a semântica anunciada, não o comportamento.
+
+Ferramenta automática que não aponta erros comprova a conformidade. Errado. A verificação automática cobre só parte dos critérios.
+
+A versão dois ponto dois das diretrizes revogou os critérios da versão dois ponto um. Errado. Ela os mantém, salvo o critério de análise sintática, e acrescenta nove.
+
+
+BLOCO TRÊS: COMPONENTES DE INTERFACE E REAPROVEITAMENTO
+
+Componente de interface é uma parte da tela com aparência, comportamento e contrato próprios, que pode ser usada em vários lugares: um botão, um campo de formulário, uma tabela com paginação, um seletor de datas.
+
+Reaproveitar componentes traz três ganhos. Consistência, porque o mesmo elemento se comporta do mesmo jeito em todo o sistema. Produtividade, porque não se reconstrói o que já existe. E qualidade concentrada: uma correção de acessibilidade feita no componente vale para todas as telas que o usam.
+
+O mesmo vale ao contrário. Um defeito no componente compartilhado se espalha por todas as telas. Por isso componentes compartilhados exigem testes próprios e cuidado com mudanças.
+
+O sistema de dizáin é o conjunto que reúne princípios visuais, padrões de interação, componentes prontos e documentação de uso. Não é só uma biblioteca de componentes: inclui as regras de quando e como usar cada um.
+
+Dentro dele, os tôquens de dizáin são as decisões visuais elementares guardadas como variáveis com nome: cores, espaçamentos, tamanhos de fonte, bordas. Um componente não usa um código de cor solto; usa o tôquen cor primária. Trocar o tôquen atualiza todo o sistema de forma coerente.
+
+No governo federal, o padrão digital de governo oferece um sistema de dizáin para os serviços do portal gov ponto bê erre, com componentes como cabeçalho, rodapé, botões e formulários, já pensados com acessibilidade. Usá-lo dá ao cidadão uma experiência uniforme entre serviços de órgãos diferentes.
+
+Uma forma clássica de organizar componentes é o dizáin atômico, proposto por Brad Frost, em cinco níveis. Átomos são os elementos básicos, como um rótulo, um campo e um botão. Moléculas são grupos simples de átomos, como um campo de busca com seu botão. Organismos são seções mais complexas, como um cabeçalho com logotipo, menu e busca. Modelos definem a estrutura da página com espaços para conteúdo. E páginas são os modelos preenchidos com conteúdo real.
+
+Três princípios de engenharia guiam um bom componente.
+
+Responsabilidade única. Um componente que exibe uma lista de processos não deve também buscar os dados, aplicar regras de negócio e controlar permissões. Uma divisão comum separa os componentes de apresentação, que só recebem dados e exibem, dos componentes contêineres, que obtêm os dados e coordenam o comportamento. Os de apresentação são os mais fáceis de reaproveitar e de testar.
+
+Contrato explícito. O componente recebe dados pelas propriedades e comunica o que aconteceu por eventos. Quem o usa não precisa conhecer o funcionamento interno.
+
+Composição em vez de configuração excessiva. Um componente que tenta atender a todos os casos por meio de dezenas de opções e marcadores booleanos fica difícil de entender e de manter. É melhor oferecer pontos de encaixe de conteúdo e compor componentes menores.
+
+E a abstração prematura é um risco. Generalizar a partir de um único uso costuma produzir a abstração errada. Uma regra prática é esperar o terceiro caso parecido antes de extrair um componente genérico. Duplicação pequena é mais barata que a abstração errada, que acopla telas que deveriam evoluir separadamente.
+
+Uma biblioteca de componentes compartilhada por vários sistemas precisa de versionamento. No versionamento semântico, o número tem três partes: maior, menor e correção. A parte maior muda quando há quebra de compatibilidade, como remover uma propriedade; a menor, quando se acrescenta funcionalidade compatível; e a de correção, para correções compatíveis. O impacto dessas mudanças na evolução dos sistemas é tema do próximo item.
+
+Pegadinhas do bloco três.
+
+Sistema de dizáin é sinônimo de biblioteca de componentes. Errado. Ele inclui também princípios, padrões e documentação de uso.
+
+Reaproveitar um componente elimina a necessidade de testá-lo em cada contexto. Errado. O reaproveitamento concentra a qualidade, mas também concentra o defeito, que se propaga para todas as telas.
+
+Quanto mais opções de configuração um componente tiver, mais reaproveitável ele será. Errado. Excesso de opções dificulta o uso e a manutenção; a composição é preferível.
+
+Toda duplicação de código de interface deve ser eliminada imediatamente por um componente genérico. Errado. A abstração prematura tende a gerar acoplamento indevido.
+
+No dizáin atômico, organismo é o nível mais básico. Errado. O nível mais básico é o átomo.
+
+
+BLOCO QUATRO: VALIDAÇÃO COM USUÁRIOS E PREVENÇÃO DE ERROS NO USO DOS SERVIÇOS
+
+A diferença entre teste de usabilidade, com usuários, e avaliação heurística, com especialistas, e a recomendação de rodadas com cerca de cinco usuários foram vistas no item três ponto um ponto um. Aqui entram os métodos e as métricas da validação e as técnicas de prevenção de erros.
+
+Os métodos de validação se dividem em dois grandes grupos.
+
+Qualitativos, que explicam por que o problema acontece. O principal é o teste com protocolo de pensar em voz alta: o participante executa tarefas reais e verbaliza o que pensa, o que espera e o que estranha, enquanto o facilitador observa sem ajudar. O facilitador não deve conduzir a resposta. Perguntar se o participante achou fácil induz a resposta; pedir que ele conte o que aconteceu, não.
+
+Quantitativos, que medem quanto e com que frequência. As métricas clássicas são a taxa de sucesso na tarefa, o tempo para concluí-la, o número de erros e questionários padronizados.
+
+O questionário mais conhecido é a escala de usabilidade de sistema, pela sigla em inglês ésse iú ésse. Tem dez afirmações, alternando positivas e negativas, respondidas numa escala de cinco pontos. O resultado vai de zero a cem, mas não é uma porcentagem. A média de referência fica em torno de sessenta e oito.
+
+Outras técnicas úteis.
+
+O teste á bê compara duas versões com usuários reais em produção, divididos de forma aleatória, para ver qual tem melhor desempenho em uma métrica definida antes. Ele mostra qual versão é melhor, mas não explica por quê. Exige volume de usuários para ter significância estatística.
+
+A classificação de cartões ajuda a organizar a navegação: os participantes agrupam os assuntos como fazem sentido para eles. Na classificação aberta, eles criam os grupos e os nomes; na fechada, distribuem os assuntos em categorias já definidas.
+
+O teste de árvore faz o caminho inverso: verifica se as pessoas encontram um assunto numa estrutura de navegação proposta, sem o visual da interface.
+
+E os testes podem ser moderados, com facilitador presente ou remoto em tempo real, ou não moderados, em que o participante segue tarefas sozinho numa plataforma.
+
+Um cuidado legal. Gravações de tela, voz e rosto dos participantes são dados pessoais. Pela Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, o tratamento precisa de base legal, informação clara ao titular e respeito ao princípio da finalidade, previsto no artigo sexto: os dados servem à avaliação do serviço e não podem ser reaproveitados para outro fim incompatível.
+
+Validar é um processo contínuo. Os dados de uso em produção, como a taxa de abandono em cada etapa de um formulário, e as manifestações na ouvidoria também são fontes de validação.
+
+Agora, a prevenção de erros.
+
+Don Norman distingue dois tipos de erro humano.
+
+O deslize é quando a pessoa tem a intenção correta, mas executa a ação errada: clica no botão vizinho ou digita um número trocado. Combate-se com alvos bem separados, confirmação de dados e desenho que reduza ações parecidas lado a lado.
+
+O engano é quando a intenção já está errada, porque a pessoa entendeu mal a situação: escolhe o serviço errado porque o nome não é claro. Combate-se com linguagem clara, informação no momento certo e respostas visíveis do sistema.
+
+A distinção importa porque o remédio é diferente. Aviso a mais não corrige um engano que nasce de um rótulo confuso.
+
+As técnicas de prevenção, da mais forte para a mais fraca.
+
+Restrições, que tornam o erro impossível. Um seletor de datas que só permite datas válidas. Um botão de envio desabilitado enquanto falta um campo obrigatório, desde que o sistema explique o que falta. Um dispositivo que impede a ação errada é chamado de função forçadora, ou, na tradição japonesa, pocaioque.
+
+Valores padrão sensatos, que já trazem a opção mais comum.
+
+Aceitar formatos variados e normalizar. Um campo de cê pê efe deve aceitar o número com ou sem pontos e traço. Rejeitar o formato que o usuário digitou transfere ao cidadão um trabalho que o sistema pode fazer.
+
+Validação no momento certo. A validação em linha, junto ao campo, quando o usuário sai dele, ajuda. Validar a cada tecla, acusando erro antes de a pessoa terminar de digitar, atrapalha.
+
+Desfazer é melhor que confirmar. Caixas de confirmação viram hábito, e o usuário clica em sim sem ler. Para ações frequentes, oferecer desfazer é mais eficaz. Para ações irreversíveis e graves, a confirmação deve dizer exatamente o que vai acontecer.
+
+Quando o erro acontece, a mensagem deve dizer o que houve, em linguagem simples, e como corrigir. Deve aparecer junto ao campo e ser anunciada à tecnologia assistiva. Não deve culpar o usuário nem usar códigos internos. Uma mensagem que diz erro quatrocentos e vinte e dois não ajuda o cidadão; uma que diz que a data de nascimento está no futuro, sim.
+
+As diretrizes de acessibilidade tratam do tema na diretriz de assistência de entrada. Identificação do erro, nível A: o erro detectado automaticamente é identificado e descrito em texto. Rótulos ou instruções, nível A: os campos têm rótulos ou instruções. Sugestão de correção, nível duplo A: se o sistema sabe como corrigir, sugere. E prevenção de erros, nível duplo A: em transações com efeito jurídico ou financeiro, ou que alteram ou apagam dados do usuário, o envio deve ser reversível, verificado ou confirmado, com oportunidade de revisão antes do envio final.
+
+Sobre os rótulos: o texto de exemplo dentro do campo, chamado pleisrôlder, não substitui o rótulo. Ele some quando a pessoa começa a digitar, costuma ter contraste baixo e nem sempre é lido pelo leitor de tela.
+
+Na Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, o Código de Defesa do Usuário do Serviço Público, o artigo quinto inclui entre as diretrizes do atendimento a utilização de linguagem simples e compreensível, evitando o uso de siglas, jargões e estrangeirismos. Mensagem de erro técnica descumpre essa diretriz.
+
+E um ponto de engenharia que a banca adora. A validação no navegador é recurso de experiência do usuário, não de segurança. Qualquer pessoa pode contornar o código que roda no navegador e enviar uma requisição diretamente ao servidor. Toda regra que protege dados ou o negócio deve ser validada também no servidor.
+
+Pegadinhas do bloco quatro.
+
+A validação no navegador dispensa a validação no servidor, desde que cubra todas as regras. Errado. O código do navegador pode ser contornado; o servidor deve validar sempre.
+
+O teste á bê explica por que os usuários preferem uma versão. Errado. Ele indica qual versão tem melhor desempenho na métrica; o porquê vem de métodos qualitativos.
+
+A pontuação da escala de usabilidade de sistema é a porcentagem de usuários satisfeitos. Errado. É uma pontuação de zero a cem que não representa porcentagem.
+
+Deslize é o erro em que a intenção do usuário já estava errada. Errado. Isso é o engano. No deslize, a intenção está certa e a execução falha.
+
+Pedir confirmação para todas as ações é a forma mais eficaz de prevenir erros. Errado. A confirmação vira hábito; para ações frequentes, desfazer é mais eficaz.
+
+O texto de exemplo dentro do campo pode substituir o rótulo, desde que seja claro. Errado. Ele desaparece durante a digitação e não atende à exigência de rótulo.
+
+
+BLOCO CINCO: DESENVOLVIMENTO DE INTERFACES COM DJÁVASCRIPTI E VIÚ
+
+O laço de eventos do djávascripti, com sua única thread, foi visto no item três ponto um ponto três. Aqui entram os eventos do navegador, o consumo de á pê ís e o Viú.
+
+Começando pelos eventos do navegador.
+
+Quando o usuário clica em um elemento, o evento percorre três fases. Na fase de captura, desce da raiz do documento até o elemento. Na fase de alvo, chega ao elemento clicado. Na fase de borbulhamento, sobe de volta pelos elementos ancestrais. Por padrão, os ouvintes de eventos registrados com o método éd ivént lísner respondem na fase de borbulhamento.
+
+O borbulhamento permite a delegação de eventos: em vez de registrar um ouvinte em cada um dos mil itens de uma lista, registra-se um único ouvinte na lista e se verifica qual item foi o alvo. Funciona também para itens acrescentados depois.
+
+Dois métodos do evento são confundidos com frequência. O privent difólt cancela a ação padrão do navegador, como o envio do formulário com recarga da página ou a navegação de um link. O stóp própaguêichan interrompe a propagação para os ancestrais. Um não faz o trabalho do outro.
+
+Consumo de á pê ís.
+
+A função fétch faz requisições e devolve uma prómiss, a promessa de um resultado futuro. Com ássinc e euêit, o código fica com aparência sequencial: euêit espera a promessa sem bloquear a thread.
+
+O detalhe mais cobrado: a promessa do fétch só é rejeitada em falha de rede, ou quando a requisição é cancelada. Uma resposta com status quatrocentos e quatro ou quinhentos não rejeita a promessa. Ela é resolvida normalmente. Quem trata erros precisa verificar o campo ókei da resposta, verdadeiro apenas para status de duzentos a duzentos e noventa e nove. Já a biblioteca Áxios rejeita a promessa para status fora dessa faixa, por padrão. E a leitura do corpo, com o método djêisson da resposta, também devolve uma promessa.
+
+Um componente que consome uma á pê í deve tratar quatro estados: carregando, sucesso, vazio e erro. A tela que mostra uma lista vazia quando, na verdade, a requisição falhou induz o usuário a concluir que não há dados.
+
+Para cancelar uma requisição que não interessa mais, por exemplo, quando o usuário sai da tela ou digita um novo termo de busca, usa-se o abórt controler. Isso evita que uma resposta antiga, que chegou atrasada, sobrescreva a resposta nova.
+
+Duas questões de segurança no consumo de á pê ís.
+
+A política de mesma origem impede que uma página leia respostas de outra origem. O mecanismo córs, de compartilhamento de recursos entre origens, permite ao servidor autorizar origens específicas por cabeçalhos de resposta. Quem aplica a política é o navegador. Por isso o córs não protege a á pê í contra chamadas feitas fora do navegador, por um scrípti ou outra ferramenta. A á pê í precisa de autenticação e autorização próprias. E requisições que não são simples, como as que usam métodos diferentes de guét e póst ou cabeçalhos personalizados, disparam antes uma requisição de verificação prévia com o método óptions.
+
+E nada que está no código do navegador é secreto. Chave de á pê í colocada no código da interface fica visível para qualquer usuário. Tôquens guardados no armazenamento local do navegador podem ser lidos por qualquer scrípti da página, o que os expõe a ataques de injeção de scrípti. Cúquis marcados como acessíveis só pelo protocolo agá tê tê pê não são lidos por scrípts.
+
+Agora o Viú.
+
+O Viú é um freimuórqui progressivo para construir interfaces. Progressivo porque pode ser adotado aos poucos, de um trecho de página até uma aplicação completa com roteamento e gerenciamento de estado. A versão dois chegou ao fim do suporte em trinta e um de dezembro de dois mil e vinte e três. A versão atual é a três.
+
+O componente costuma ser escrito em um arquivo de componente único, com extensão ponto viú, que reúne três seções: o templeite, com a marcação; o scrípti, com a lógica; e o estilo. O estilo marcado como escopado vale só para aquele componente.
+
+O Viú três oferece duas formas de escrever a lógica. A á pê í de opções organiza o componente em seções fixas, como dados, métodos, propriedades computadas e observadores, acessados por meio da palavra dís. A á pê í de composição organiza a lógica em funções e permite agrupar o código por assunto. A forma recomendada para projetos novos é a á pê í de composição com a marcação scrípti setáp. As duas são suportadas; a de opções não foi descontinuada.
+
+Reatividade.
+
+A reatividade é o mecanismo pelo qual a interface se atualiza sozinha quando os dados mudam. No Viú três, ela é implementada com os objetos Próxi do djávascripti, que interceptam leituras e escritas. No Viú dois, era implementada com outro recurso da linguagem, que não detectava a inclusão de novas propriedades em um objeto nem a alteração de um item do vetor pelo índice. O Próxi resolveu essas limitações.
+
+As peças principais.
+
+A função réf cria uma referência reativa para qualquer valor, inclusive valores simples, como um número ou um texto. No scrípti, o valor é lido e alterado pela propriedade váliu. No templeite, o Viú faz o desembrulho automático, e não se usa o ponto váliu.
+
+A função riáctiv torna reativo um objeto. Não funciona com valores simples. E tem duas armadilhas: desestruturar o objeto reativo gera variáveis comuns, que perdem a reatividade; e substituir o objeto inteiro por outro rompe a ligação. A função tú réfs converte as propriedades em referências e preserva a reatividade na desestruturação. Por essas armadilhas, a documentação recomenda o réf como forma principal.
+
+A função compiúted cria uma propriedade computada, derivada de outros dados reativos. Ela guarda o resultado em cache e só recalcula quando uma de suas dependências muda. Um método chamado no templeite, ao contrário, é executado de novo a cada renderização. Propriedade computada deve ser pura: calcular e devolver o valor, sem efeitos colaterais, como requisições.
+
+Para efeitos colaterais, existem os observadores. O uótch observa fontes indicadas explicitamente, é preguiçoso por padrão, ou seja, só executa quando a fonte muda, salvo se for configurado como imediato, e dá acesso ao valor novo e ao antigo. O uótch iféct executa imediatamente e rastreia sozinho as dependências que lê.
+
+E as atualizações do documento são assíncronas e agrupadas. Alterar um dado não atualiza a tela na mesma linha de código; o Viú acumula as mudanças e atualiza uma vez. Para agir depois da atualização, usa-se a função next tíc.
+
+Diretivas do templeite.
+
+A interpolação com chaves duplas exibe texto e escapa o agá tê ême éle, ou seja, trata o conteúdo como texto, não como marcação. A diretiva vê agá tê ême éle insere marcação crua e abre espaço para injeção de scrípti. Nunca deve ser usada com conteúdo vindo do usuário.
+
+A diretiva vê báind, abreviada por dois pontos, liga um atributo a um dado.
+
+A diretiva vê ón, abreviada pela arroba, escuta eventos. Ela aceita modificadores: o ponto privent chama o privent difólt, o ponto stóp interrompe a propagação, o ponto ônce faz o ouvinte disparar uma única vez. Há também modificadores de tecla, como o ponto enter.
+
+A diretiva vê model cria a ligação de mão dupla com campos de formulário.
+
+A diretiva vê íf renderiza ou não o elemento: quando a condição é falsa, o elemento é retirado do documento e o componente é destruído. A diretiva vê chou mantém o elemento e só alterna a visibilidade pelo estilo. Regra prática: vê íf para condições que mudam pouco, porque o custo inicial é menor; vê chou para alternâncias frequentes, porque o custo de alternar é menor.
+
+A diretiva vê fór repete o elemento para cada item de uma lista e deve receber o atributo quí, com um identificador estável e único do item. Usar o índice como chave causa problemas quando a lista é reordenada ou recebe inclusões no meio, porque o Viú reaproveita elementos com base na chave e o estado interno, como o texto de um campo, fica associado ao item errado.
+
+E não se deve usar vê íf e vê fór no mesmo elemento. No Viú três, o vê íf tem precedência sobre o vê fór, o contrário do Viú dois, e por isso a condição não enxerga a variável do laço. O correto é filtrar a lista numa propriedade computada.
+
+Comunicação entre componentes.
+
+O fluxo de dados é de mão única, de cima para baixo. O componente pai passa dados ao filho por propriedades, as próps, declaradas no filho com difáin próps. O filho nunca deve alterar uma próp; o Viú emite aviso se isso for tentado. Quando precisa mudar algo, o filho emite um evento, declarado com difáin emíts, e o pai, que é dono do dado, decide como alterá-lo. Resumindo: propriedades descem, eventos sobem.
+
+Na declaração das próps, é possível indicar o tipo, a obrigatoriedade e o valor padrão. O valor padrão de uma próp do tipo objeto ou vetor deve ser fornecido por uma função, para que cada instância receba a sua própria cópia.
+
+O vê model em um componente é açúcar sintático para essa dupla: no Viú três, ele passa a próp model váliu e escuta o evento apdêit model váliu. Desde a versão três ponto quatro, a macro difáin model simplifica a declaração no filho.
+
+Os slóts permitem que o pai insira conteúdo dentro do componente filho. É o ponto de encaixe da composição vista no bloco três: um componente de cartão define a moldura, e o pai fornece o conteúdo. Slóts nomeados permitem mais de um ponto de encaixe.
+
+Para dados que precisam atravessar muitos níveis, existem o provaid, no ancestral, e o indjéct, no descendente, que evitam repassar a mesma próp por todos os níveis intermediários. E para estado compartilhado por toda a aplicação, a biblioteca oficial é a Pínia, que substituiu a Viú ex como recomendação.
+
+Para reaproveitar lógica, e não marcação, o Viú três usa os compôusabous: funções que encapsulam estado reativo e comportamento, por convenção com nome iniciado por iús, como iús paginação. Eles substituem os míxins do Viú dois, que causavam conflito de nomes e escondiam a origem das propriedades.
+
+Ciclo de vida.
+
+O gancho ón máunted executa depois que o componente foi inserido no documento. É ali que se acessa o elemento renderizado. Antes da montagem, o elemento ainda não existe. O gancho ón anmáunted executa na remoção e serve para limpar o que o componente criou: temporizadores, ouvintes de eventos registrados fora dele e requisições pendentes. Sem essa limpeza, surgem vazamentos de memória e atualizações em componentes que já não existem.
+
+Um exemplo de trabalho na CGU. Um painel de consulta a convênios busca dados de uma á pê í quando é montado. Se o desenvolvedor usar o fétch sem verificar o campo ókei, uma resposta de erro do servidor é tratada como sucesso; se não cancelar a requisição ao sair da tela, uma resposta atrasada tenta atualizar um componente desmontado; e se usar o índice como chave da lista, a ordenação por valor embaralha os campos de anotação de cada convênio.
+
+Pegadinhas do bloco cinco.
+
+A promessa do fétch é rejeitada quando o servidor responde com status quinhentos. Errado. Ela só é rejeitada em falha de rede ou cancelamento; é preciso verificar o campo ókei.
+
+O córs protege a á pê í contra requisições de qualquer cliente não autorizado. Errado. Quem aplica o córs é o navegador; clientes fora dele o ignoram.
+
+O privent difólt impede que o evento chegue aos elementos ancestrais. Errado. Isso é o stóp própaguêichan. O privent difólt cancela a ação padrão.
+
+Propriedade computada é recalculada a cada renderização, como um método. Errado. Ela fica em cache até que uma dependência mude.
+
+No scrípti, o valor de um réf é lido diretamente pelo nome da variável. Errado. No scrípti usa-se a propriedade váliu; o desembrulho automático ocorre no templeite.
+
+Desestruturar um objeto criado com riáctiv preserva a reatividade. Errado. As variáveis desestruturadas perdem a reatividade, salvo com tú réfs.
+
+O componente filho pode alterar diretamente a próp recebida, e a mudança se propaga ao pai. Errado. O fluxo é de mão única; o filho emite um evento.
+
+A diretiva vê chou retira o elemento do documento quando a condição é falsa. Errado. Isso é o vê íf; o vê chou só oculta o elemento.
+
+No Viú três, o vê fór tem precedência sobre o vê íf no mesmo elemento. Errado. No Viú três, o vê íf tem precedência.
+
+A interpolação com chaves duplas renderiza o agá tê ême éle recebido. Errado. Ela escapa a marcação; quem insere marcação crua é o vê agá tê ême éle.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Usabilidade em cinco componentes: aprendizado, eficiência, memorização, erros e satisfação, que podem conflitar. Fits: alvo maior e mais perto é mais rápido; Ríc: mais opções, decisão mais lenta. Protótipo descartável é abandonado; evolutivo vira o produto. Responsivo: grade fluida, imagens flexíveis e consultas de mídia; pontos de quebra pelo conteúdo; meta tag viúpórt.
+
+Lei Brasileira de Inclusão: deficiência como interação entre impedimento e barreiras; seis tipos de barreira, incluindo comunicações e informação, atitudinais e tecnológicas; artigo sessenta e três obriga acessibilidade em sítios de governo e de empresas com sede ou representação no país, com símbolo em destaque. Decreto cinco mil duzentos e noventa e seis, artigo quarenta e sete; ê mag três ponto um, com quarenta e cinco recomendações em seis seções. Diretrizes dois ponto dois, de dois mil e vinte e três: nove critérios novos, como alvo mínimo de vinte e quatro píxels e autenticação acessível; análise sintática removida. Contraste duplo A: quatro e meio para um, ou três para um em texto grande; refluxo em trezentos e vinte píxels. Níveis cumulativos. Elemento nativo antes de ária; ferramenta automática não basta.
+
+Componentes: consistência e qualidade concentrada, mas defeito também concentrado. Sistema de dizáin vai além da biblioteca; tôquens guardam decisões visuais. Dizáin atômico: átomos, moléculas, organismos, modelos e páginas. Responsabilidade única, contrato por propriedades e eventos, composição e cuidado com a abstração prematura.
+
+Validação: pensar em voz alta explica o porquê; teste á bê mede qual versão ganha, sem explicar. Escala de usabilidade de sistema: zero a cem, média em torno de sessenta e oito, não é porcentagem. Deslize é execução errada; engano é intenção errada. Restrições, padrões sensatos, formatos flexíveis e desfazer. Prevenção de erros duplo A para transações jurídicas, financeiras ou de dados. Rótulo não se substitui por texto de exemplo. Validação no navegador é experiência; segurança é no servidor.
+
+Djávascripti: captura, alvo e borbulhamento; privent difólt cancela a ação padrão, stóp própaguêichan para a propagação. Fétch não rejeita em quatrocentos e quatro ou quinhentos; verificar ókei. Córs é aplicado pelo navegador. Viú três: réf com ponto váliu no scrípti, riáctiv perde reatividade na desestruturação, compiúted em cache, uótch preguiçoso. Chave estável no vê fór; vê íf destrói, vê chou oculta. Propriedades descem, eventos sobem; vê model é model váliu mais apdêit model váliu. Compôusabous substituem míxins; limpeza no ón anmáunted.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em um sistema usado diariamente por servidores experientes, a priorização de atalhos de teclado para acelerar tarefas frequentes favorece o componente de eficiência da usabilidade, ainda que possa reduzir a facilidade de aprendizado para novos usuários.
+
+Gabarito: certo. Os componentes da usabilidade podem conflitar, e a eficiência se refere à rapidez de quem já aprendeu.
+
+Item dois. No desenho responsivo, recomenda-se definir os pontos de quebra a partir das larguras de tela dos modelos de celular mais utilizados pelo público-alvo.
+
+Gabarito: errado. Os pontos de quebra devem ser definidos pelo conteúdo, onde o layout começa a quebrar.
+
+Item três. Um protótipo construído para validar rapidamente o fluxo de um serviço, sem preocupação com a qualidade do código, deve ser tratado como descartável, e não como base do produto.
+
+Gabarito: certo. O protótipo descartável é abandonado após a validação; o evolutivo exige qualidade de engenharia desde o início.
+
+Item quatro. De acordo com a Lei Brasileira de Inclusão, a obrigação de acessibilidade nos sítios da internet restringe-se aos órgãos e entidades da administração pública.
+
+Gabarito: errado. O artigo sessenta e três alcança também os sítios de empresas com sede ou representação comercial no país.
+
+Item cinco. Um formulário que destaca os campos com erro apenas pela cor vermelha da borda viola critério de nível A das diretrizes de acessibilidade para conteúdo web.
+
+Gabarito: certo. O critério de uso de cor, de nível A, proíbe que a cor seja o único meio de transmitir informação.
+
+Item seis. Para declarar conformidade de nível duplo A com as diretrizes de acessibilidade para conteúdo web, basta que a página atenda aos critérios classificados nesse nível.
+
+Gabarito: errado. Os níveis são cumulativos; é preciso atender também a todos os critérios de nível A.
+
+Item sete. Ao atribuir a uma dív o papel ária de botão, o desenvolvedor faz que o elemento passe a receber foco e a responder às teclas Enter e barra de espaço, como um botão nativo.
+
+Gabarito: errado. Ária altera apenas a semântica anunciada; foco e comportamento de teclado precisam ser implementados, por isso se prefere o elemento nativo.
+
+Item oito. A correção de um problema de acessibilidade em um componente de interface compartilhado beneficia todas as telas que o utilizam, da mesma forma que um defeito introduzido nesse componente se propaga para todas elas.
+
+Gabarito: certo. O reaproveitamento concentra tanto a qualidade quanto o defeito.
+
+Item nove. Em um sistema de dizáin, os tôquens de dizáin correspondem aos componentes de maior complexidade, como cabeçalhos e formulários completos.
+
+Gabarito: errado. Tôquens são decisões visuais elementares guardadas como variáveis, como cores e espaçamentos.
+
+Item dez. Uma equipe que precisa saber por que os cidadãos abandonam um formulário de requerimento obtém essa explicação diretamente de um teste á bê entre duas versões do formulário.
+
+Gabarito: errado. O teste á bê indica qual versão tem melhor desempenho; a explicação vem de métodos qualitativos, como o teste com pensar em voz alta.
+
+Item onze. O cidadão que, pretendendo selecionar o serviço de segunda via, clica por descuido no botão vizinho, de cancelamento, comete um deslize, e não um engano.
+
+Gabarito: certo. No deslize, a intenção está correta e a execução falha.
+
+Item doze. Se todas as regras de negócio de um formulário forem validadas no navegador, a validação dos mesmos dados no servidor torna-se redundante.
+
+Gabarito: errado. O código do navegador pode ser contornado, e a validação no servidor é indispensável.
+
+Item treze. Em djávascripti, a promessa retornada pela função fétch é rejeitada quando o servidor responde com status quatrocentos e quatro, o que permite tratar esse caso no bloco de captura de exceções.
+
+Gabarito: errado. A promessa só é rejeitada em falha de rede ou cancelamento; o status de erro exige a verificação do campo ókei.
+
+Item quatorze. No Viú três, uma propriedade computada tem seu resultado mantido em cache e só é recalculada quando uma de suas dependências reativas é alterada.
+
+Gabarito: certo. Essa é a diferença em relação ao método chamado no templeite, executado a cada renderização.
+
+Item quinze. No Viú, um componente filho que precise alterar um valor recebido por próp deve emitir um evento para que o componente pai, dono do dado, realize a alteração.
+
+Gabarito: certo. O fluxo de dados é de mão única: propriedades descem e eventos sobem.
+
+Item dezesseis. Na renderização de uma lista que pode ser reordenada pelo usuário, o uso do índice do item como valor do atributo quí na diretiva vê fór é a prática recomendada pelo Viú.
+
+Gabarito: errado. A chave deve ser um identificador estável e único; o índice associa o estado ao item errado quando a lista muda de ordem.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto um ponto cinco, manutenção e evolução.
