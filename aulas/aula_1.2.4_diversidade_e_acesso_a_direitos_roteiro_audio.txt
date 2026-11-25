@@ -1,29 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.2.4 DO EDITAL: DIVERSIDADE E ACESSO A DIREITOS.
-SUBITEM 1.2.4.1: Relações étnico-raciais, gênero e sexualidade; pessoas com deficiência; idade; povos indígenas e comunidades tradicionais. Interseccionalidade, acessibilidade e barreiras administrativas e digitais.
+AUDIOAULA. ITEM UM PONTO DOIS PONTO QUATRO DO EDITAL: DIVERSIDADE E ACESSO A DIREITOS
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto dois ponto quatro do edital da CGU, chamado diversidade e acesso a direitos. Ele tem um único subitem, o um ponto dois ponto quatro ponto um, que se divide em duas frases.
-
-A primeira frase lista grupos e dimensões da diversidade: relações étnico-raciais; gênero e sexualidade; pessoas com deficiência; idade; e povos indígenas e comunidades tradicionais.
-
-A segunda frase lista três conceitos transversais: interseccionalidade, acessibilidade e barreiras administrativas e digitais.
-
-Vamos organizar a aula em quatro blocos. Bloco um: relações étnico-raciais, gênero e sexualidade. Bloco dois: pessoas com deficiência e idade. Bloco três: povos indígenas e comunidades tradicionais. Bloco quatro: interseccionalidade, acessibilidade e barreiras administrativas e digitais. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Repare no título do item: diversidade e acesso a direitos. O foco não é apenas descrever grupos, mas entender por que pessoas desses grupos, que têm formalmente os mesmos direitos de todos, encontram mais dificuldade para exercê-los, e quais instrumentos jurídicos e institucionais existem para enfrentar essa dificuldade. É uma continuação direta das duas aulas anteriores: a de fundamentos sociológicos, com os conceitos de discriminação e reprodução das desigualdades, e a de formação social, com a distinção entre direito formal e direito efetivo.
-
-Este item tem uma carga normativa grande e atualizada. Há leis recentes, como a nova lei de cotas raciais em concursos públicos, de dois mil e vinte e cinco, e decisões recentes do Supremo Tribunal Federal, como a de dezembro de dois mil e vinte e cinco sobre o marco temporal das terras indígenas. Também há dados novos do Censo de dois mil e vinte e dois sobre cor ou raça, povos indígenas e pessoas com deficiência. Como sempre, confira os dispositivos no texto oficial do Planalto e os dados no site do IBGE.
-
-E, para quem vai trabalhar com tecnologia, este é um dos itens mais diretamente aplicáveis. A segunda frase do subitem, sobre acessibilidade e barreiras digitais, conversa com os conhecimentos específicos do seu cargo, que tratam de acessibilidade, desenho centrado nas pessoas e prevenção de erros no uso dos serviços.
-
-Uma orientação de estratégia. A Cebraspe tende a cobrar, neste item, três coisas: os conceitos legais, como os de pessoa com deficiência, população negra e comunidades tradicionais; os números e regras das leis, como percentuais de cotas e idades; e a interpretação, especialmente sobre o modelo social da deficiência, a autodeclaração e a interseccionalidade. Desconfie de itens que tratem a diferença como problema do indivíduo, e não da relação entre o indivíduo e as barreiras da sociedade.
+Este é o item um ponto dois ponto quatro, diversidade e acesso a direitos. Ele tem um único subitem, organizado aqui em quatro blocos: relações étnico-raciais, gênero e sexualidade; pessoas com deficiência e idade; povos indígenas e comunidades tradicionais; e interseccionalidade, acessibilidade e barreiras administrativas e digitais. A banca costuma cobrar os conceitos legais, os percentuais e as idades previstos nas leis, normas e decisões recentes, como a lei de cotas raciais em concursos públicos, de dois mil e vinte e cinco, e a decisão do Supremo Tribunal Federal de dezembro de dois mil e vinte e cinco sobre o marco temporal, além do modelo social da deficiência.
 
 
-BLOCO UM. RELAÇÕES ÉTNICO-RACIAIS, GÊNERO E SEXUALIDADE.
+BLOCO UM: RELAÇÕES ÉTNICO-RACIAIS, GÊNERO E SEXUALIDADE
 
 Relações étnico-raciais.
 
@@ -97,10 +80,8 @@ Pegadinhas: dizer que o casamento entre pessoas do mesmo sexo foi instituído po
 
 Para o setor público, a conexão prática: sistemas e formulários que exigem apenas sexo biológico, que não permitem nome social ou que tratam campos como fixos podem constituir barreiras e gerar situações de constrangimento no acesso a serviços. É um exemplo de barreira administrativa e digital, que veremos no bloco quatro.
 
-Resumo do bloco um. Pelo Censo de dois mil e vinte e dois, pardos são o maior grupo, com quarenta e cinco vírgula três por cento, e pretos e pardos somam cinquenta e cinco vírgula cinco por cento. A classificação é por autodeclaração e a raça é uma construção social. A Lei quinze mil cento e quarenta e dois reserva trinta por cento das vagas dos concursos federais para pretos, pardos, indígenas e quilombolas, revogando a lei de dois mil e catorze. Sexo, gênero, identidade de gênero e orientação sexual são conceitos distintos. A Lei Maria da Penha prevê cinco formas de violência. E os direitos da população LGBTQIA+ avançaram sobretudo por decisões judiciais.
 
-
-BLOCO DOIS. PESSOAS COM DEFICIÊNCIA E IDADE.
+BLOCO DOIS: PESSOAS COM DEFICIÊNCIA E IDADE
 
 Pessoas com deficiência.
 
@@ -154,10 +135,8 @@ Pegadinhas sobre idade: dizer que a pessoa idosa é a de sessenta e cinco anos p
 
 E um conceito cada vez mais discutido: o etarismo, ou idadismo, que é o preconceito e a discriminação com base na idade. Ele aparece, por exemplo, na dificuldade de pessoas mais velhas conseguirem emprego, na desvalorização de sua opinião, e na exclusão digital, quando serviços são desenhados apenas para quem tem familiaridade com tecnologia.
 
-Resumo do bloco dois. A Lei Brasileira de Inclusão adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras. As barreiras são urbanísticas, arquitetônicas, nos transportes, nas comunicações e na informação, atitudinais e tecnológicas. Acessibilidade, desenho universal, tecnologia assistiva e adaptação razoável são conceitos distintos, e a recusa de adaptação razoável é discriminação. A deficiência não afeta a capacidade civil. O Censo de dois mil e vinte e dois registrou catorze vírgula quatro milhões de pessoas com deficiência, números não comparáveis com dois mil e dez. E, quanto à idade: criança até doze anos incompletos, adolescente de doze a dezoito, jovem de quinze a vinte e nove, pessoa idosa a partir de sessenta, com prioridade especial acima de oitenta.
 
-
-BLOCO TRÊS. POVOS INDÍGENAS E COMUNIDADES TRADICIONAIS.
+BLOCO TRÊS: POVOS INDÍGENAS E COMUNIDADES TRADICIONAIS
 
 Povos indígenas.
 
@@ -217,10 +196,8 @@ Por que o território é tão central para esses grupos? Porque, para eles, a te
 
 E o acesso a direitos? Povos indígenas e comunidades tradicionais enfrentam barreiras específicas: distância e isolamento geográfico; barreiras linguísticas, quando os serviços só são oferecidos em português; exigências documentais incompatíveis com seus modos de vida; desconhecimento de suas especificidades culturais pelos servidores; e conflitos territoriais e violência. Políticas públicas adequadas exigem atenção diferenciada, como a existência de um subsistema de saúde indígena, a educação escolar indígena bilíngue e intercultural e a participação desses povos nas decisões que os afetam.
 
-Resumo do bloco três. O Censo de dois mil e vinte e dois contou cerca de um milhão e setecentos mil indígenas. A Constituição reconhece aos índios organização social, costumes, línguas, crenças, tradições e direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las; as terras são bens da União, com posse permanente e usufruto exclusivo indígena. O Supremo afastou o marco temporal em dois mil e vinte e três e, em dezembro de dois mil e vinte e cinco, declarou inconstitucional o marco temporal da Lei quatorze mil setecentos e um. A Convenção cento e sessenta e nove da OIT estabelece a autoidentificação como critério fundamental e a consulta prévia, livre e informada. Comunidades tradicionais são grupos culturalmente diferenciados que se reconhecem como tais e dependem do território; aos quilombolas, a Constituição reconhece a propriedade definitiva.
 
-
-BLOCO QUATRO. INTERSECCIONALIDADE, ACESSIBILIDADE E BARREIRAS ADMINISTRATIVAS E DIGITAIS.
+BLOCO QUATRO: INTERSECCIONALIDADE, ACESSIBILIDADE E BARREIRAS ADMINISTRATIVAS E DIGITAIS
 
 Interseccionalidade.
 
@@ -282,104 +259,23 @@ A resposta adequada não é abandonar a digitalização, mas desenhá-la com inc
 
 E, por fim, uma barreira mais nova: a dos sistemas automatizados e da inteligência artificial. Quando decisões ou triagens são automatizadas, critérios aparentemente neutros podem reproduzir desigualdades presentes nos dados históricos, como você viu na aula de sociologia. Um sistema que nega automaticamente um pedido por um dado inconsistente pode afetar desproporcionalmente quem tem registros mais irregulares, como trabalhadores informais, pessoas trans ou comunidades tradicionais. Por isso, a supervisão humana, a transparência dos critérios e a possibilidade de contestação são garantias importantes, que o edital volta a tratar no bloco de evidências e inteligência artificial.
 
-Resumo do bloco quatro. A interseccionalidade, formulada por Kimberlé Crenshaw, mostra que os eixos de desigualdade se cruzam e interagem, produzindo situações específicas, e não uma simples soma; por isso, a análise de dados e de políticas deve cruzar variáveis. A acessibilidade alcança espaços, transportes, informação, comunicação, sistemas, tecnologias e serviços, e a acessibilidade dos sites de órgãos de governo é obrigatória. As barreiras administrativas pesam de forma desigual sobre os diferentes grupos. A exclusão digital tem dimensões de acesso, equipamento, habilidade, acessibilidade, linguagem e custo. E a digitalização inclusiva exige sistemas acessíveis, linguagem simples, canais alternativos e supervisão humana sobre decisões automatizadas.
+
+PEGADINHAS DO ITEM
+
+Troca de conceitos vizinhos. Sexo, gênero, identidade de gênero e orientação sexual. Modelo médico e modelo social. Desenho universal e adaptação razoável. Acessibilidade e tecnologia assistiva. Interseccionalidade e soma de discriminações.
+
+Números e idades. Trinta por cento nas cotas de concursos federais, com vinte e cinco, três e dois. Vinte por cento até e cinco por cento no mínimo para pessoas com deficiência. Criança até doze anos incompletos. Jovem de quinze a vinte e nove. Pessoa idosa a partir de sessenta. Prioridade especial acima de oitenta. Censo: pardos quarenta e cinco vírgula três por cento; pretos e pardos cinquenta e cinco vírgula cinco por cento; pessoas com deficiência sete vírgula três por cento.
+
+Competências e titularidades. Terras indígenas como bens da União, demarcadas pela União, com posse permanente e usufruto exclusivo dos indígenas. Quilombolas com propriedade definitiva.
+
+Atualidade. A lei de cotas de dois mil e catorze revogada. O marco temporal declarado inconstitucional duas vezes pelo Supremo. Alteração de nome de pessoa trans sem cirurgia nem decisão judicial.
+
+Critério de identificação. Autodeclaração e autoidentificação como critérios fundamentais, com heteroidentificação complementar nas cotas, pelo fenótipo.
+
+Leitura de dados. Números de pessoas com deficiência de dois mil e dez e dois mil e vinte e dois não são comparáveis. Indígenas pelo quesito de cor ou raça versus total.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: troca de conceitos vizinhos. Sexo, gênero, identidade de gênero e orientação sexual. Modelo médico e modelo social. Desenho universal e adaptação razoável. Acessibilidade e tecnologia assistiva. Interseccionalidade e soma de discriminações.
-
-Segunda estratégia: números e idades. Trinta por cento nas cotas de concursos federais, com vinte e cinco, três e dois. Vinte por cento até e cinco por cento no mínimo para pessoas com deficiência. Criança até doze anos incompletos. Jovem de quinze a vinte e nove. Pessoa idosa a partir de sessenta. Prioridade especial acima de oitenta. Censo: pardos quarenta e cinco vírgula três por cento; pretos e pardos cinquenta e cinco vírgula cinco por cento; pessoas com deficiência sete vírgula três por cento.
-
-Terceira estratégia: competências e titularidades. Terras indígenas como bens da União, demarcadas pela União, com posse permanente e usufruto exclusivo dos indígenas. Quilombolas com propriedade definitiva.
-
-Quarta estratégia: atualidade. A lei de cotas de dois mil e catorze revogada. O marco temporal declarado inconstitucional duas vezes pelo Supremo. Alteração de nome de pessoa trans sem cirurgia nem decisão judicial.
-
-Quinta estratégia: critério de identificação. Autodeclaração e autoidentificação como critérios fundamentais, com heteroidentificação complementar nas cotas, pelo fenótipo.
-
-Sexta estratégia: leitura de dados. Números de pessoas com deficiência de dois mil e dez e dois mil e vinte e dois não são comparáveis. Indígenas pelo quesito de cor ou raça versus total.
-
-Sétima estratégia: situação hipotética. Pergunte. A barreira está na pessoa ou no ambiente? A regra é neutra no texto, mas desproporcional nos efeitos? A consulta foi prévia? Há canal alternativo para quem não usa o digital? Os dados cruzam as variáveis?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-Segundo o Censo Demográfico de dois mil e vinte e dois, a população que se autodeclarou parda passou a constituir o maior grupo de cor ou raça do país, e a soma das pessoas autodeclaradas pretas e pardas ultrapassou a metade da população.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: pardos são quarenta e cinco vírgula três por cento, o maior grupo pela primeira vez desde mil novecentos e noventa e um, e pretos e pardos somam cinquenta e cinco vírgula cinco por cento.
-
-Questão dois.
-A lei de dois mil e vinte e cinco que trata da reserva de vagas em concursos públicos federais reserva às pessoas pretas e pardas, indígenas e quilombolas o percentual de trinta por cento das vagas, tendo revogado a lei anterior, que reservava vinte por cento das vagas apenas para pessoas pretas e pardas.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a Lei quinze mil cento e quarenta e dois ampliou o percentual e incluiu indígenas e quilombolas. A regulamentação dividiu a reserva em vinte e cinco, três e dois por cento.
-
-Questão três.
-Identidade de gênero e orientação sexual são expressões sinônimas, ambas referentes à atração afetiva e sexual que uma pessoa sente por outras.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: identidade de gênero diz respeito a como a pessoa se percebe, como homem, mulher, ambos ou nenhum; orientação sexual diz respeito a por quem ela sente atração. São dimensões independentes.
-
-Questão quatro.
-De acordo com a Lei Brasileira de Inclusão, a deficiência constitui atributo exclusivamente médico do indivíduo, devendo ser aferida apenas a partir do diagnóstico clínico, independentemente das barreiras presentes no ambiente.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a lei adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras, e a avaliação, quando necessária, é biopsicossocial e multiprofissional.
-
-Questão cinco.
-Nos termos da Lei Brasileira de Inclusão, a recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas configura discriminação em razão da deficiência.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a discriminação inclui não só a exclusão ativa, mas também a recusa das adaptações e tecnologias necessárias, desde que não impliquem ônus desproporcional e indevido.
-
-Questão seis.
-A comparação entre o número de pessoas com deficiência registrado no Censo de dois mil e dez, superior a quarenta e cinco milhões, e o registrado no Censo de dois mil e vinte e dois, de cerca de catorze milhões, demonstra que a população com deficiência no país diminuiu significativamente no período.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o IBGE mudou a metodologia, adotando o padrão internacional que considera apenas quem não consegue de modo algum ou tem muita dificuldade em realizar certas atividades. Os números não são comparáveis.
-
-Questão sete.
-Para os fins do Estatuto da Pessoa Idosa, considera-se pessoa idosa aquela com idade igual ou superior a sessenta e cinco anos, assegurando-se prioridade especial às pessoas com mais de setenta anos.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o Estatuto considera pessoa idosa quem tem sessenta anos ou mais, e a prioridade especial é assegurada às maiores de oitenta anos. A idade de sessenta e cinco anos é referência de alguns indicadores do IBGE.
-
-Questão oito.
-A Constituição Federal reconhece aos índios os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar todos os seus bens.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o artigo duzentos e trinta e um. O direito é originário, anterior ao Estado, e a demarcação é declaratória. As terras são bens da União, com posse permanente e usufruto exclusivo dos indígenas.
-
-Questão nove.
-Ao julgar, em dezembro de dois mil e vinte e cinco, as ações relativas à lei de dois mil e vinte e três que tratou da demarcação de terras indígenas, o Supremo Tribunal Federal declarou constitucional a tese do marco temporal, superando o entendimento que havia adotado em dois mil e vinte e três.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: por dez votos a um, o Supremo declarou novamente inconstitucional o marco temporal, reafirmando o entendimento de dois mil e vinte e três. Outros dispositivos da lei foram mantidos.
-
-Questão dez.
-A Convenção cento e sessenta e nove da Organização Internacional do Trabalho estabelece a consciência da própria identidade indígena ou tribal como critério fundamental para identificar os povos a que se aplica e prevê o dever de consulta prévia, livre e informada a esses povos sobre medidas legislativas ou administrativas que possam afetá-los diretamente.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: autoidentificação e consulta prévia, livre e informada são os dois pilares mais cobrados da Convenção. A consulta deve ocorrer antes da decisão, por meio das instituições representativas dos povos.
-
-Questão onze.
-O conceito de interseccionalidade designa a soma aritmética das discriminações sofridas por uma pessoa em razão de cada uma de suas características, analisadas de forma independente umas das outras.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a interseccionalidade, formulada por Kimberlé Crenshaw, enfatiza que os eixos de desigualdade interagem e produzem situações específicas de desvantagem, que não se reduzem à soma de discriminações isoladas.
-
-Questão doze.
-A oferta de um serviço público exclusivamente por meio de aplicativo, sem canais alternativos de atendimento e sem observância de requisitos de acessibilidade, pode constituir barreira de acesso a direitos que afeta de forma desproporcional pessoas idosas, pessoas com deficiência e pessoas com menor acesso à internet.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é um exemplo de barreira digital e de discriminação indireta. A exclusão digital envolve acesso, equipamento, habilidade, acessibilidade, linguagem e custo, e a digitalização inclusiva exige acessibilidade e canais alternativos.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Censo de dois mil e vinte e dois: pardos quarenta e cinco vírgula três por cento, maior grupo; pretos e pardos cinquenta e cinco vírgula cinco por cento; indígenas cerca de um milhão e setecentos mil. Autodeclaração. Raça como construção social.
 
@@ -405,4 +301,69 @@ Acessibilidade alcança sistemas e tecnologias; sites de governo devem ser acess
 
 Barreiras administrativas e digitais pesam de forma desigual. Exclusão digital: acesso, equipamento, habilidade, acessibilidade, linguagem e custo. Digitalização inclusiva com canais alternativos e supervisão humana.
 
-Fim da aula do item um ponto dois ponto quatro. Na sequência do edital, o próximo é o item um ponto dois ponto cinco, desenvolvimento e realidade brasileira. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Segundo o Censo Demográfico de dois mil e vinte e dois, a população que se autodeclarou parda passou a constituir o maior grupo de cor ou raça do país, e a soma das pessoas autodeclaradas pretas e pardas ultrapassou a metade da população.
+
+Gabarito: certo. Pardos são quarenta e cinco vírgula três por cento, o maior grupo pela primeira vez desde mil novecentos e noventa e um, e pretos e pardos somam cinquenta e cinco vírgula cinco por cento.
+
+
+Item dois. A lei de dois mil e vinte e cinco que trata da reserva de vagas em concursos públicos federais reserva às pessoas pretas e pardas, indígenas e quilombolas o percentual de trinta por cento das vagas, tendo revogado a lei anterior, que reservava vinte por cento das vagas apenas para pessoas pretas e pardas.
+
+Gabarito: certo. A Lei quinze mil cento e quarenta e dois ampliou o percentual e incluiu indígenas e quilombolas. A regulamentação dividiu a reserva em vinte e cinco, três e dois por cento.
+
+
+Item três. Identidade de gênero e orientação sexual são expressões sinônimas, ambas referentes à atração afetiva e sexual que uma pessoa sente por outras.
+
+Gabarito: errado. Identidade de gênero diz respeito a como a pessoa se percebe, como homem, mulher, ambos ou nenhum; orientação sexual diz respeito a por quem ela sente atração. São dimensões independentes.
+
+
+Item quatro. De acordo com a Lei Brasileira de Inclusão, a deficiência constitui atributo exclusivamente médico do indivíduo, devendo ser aferida apenas a partir do diagnóstico clínico, independentemente das barreiras presentes no ambiente.
+
+Gabarito: errado. A lei adota o modelo social: a deficiência resulta da interação entre impedimentos de longo prazo e barreiras, e a avaliação, quando necessária, é biopsicossocial e multiprofissional.
+
+
+Item cinco. Nos termos da Lei Brasileira de Inclusão, a recusa de adaptações razoáveis e de fornecimento de tecnologias assistivas configura discriminação em razão da deficiência.
+
+Gabarito: certo. A discriminação inclui não só a exclusão ativa, mas também a recusa das adaptações e tecnologias necessárias, desde que não impliquem ônus desproporcional e indevido.
+
+
+Item seis. A comparação entre o número de pessoas com deficiência registrado no Censo de dois mil e dez, superior a quarenta e cinco milhões, e o registrado no Censo de dois mil e vinte e dois, de cerca de catorze milhões, demonstra que a população com deficiência no país diminuiu significativamente no período.
+
+Gabarito: errado. O IBGE mudou a metodologia, adotando o padrão internacional que considera apenas quem não consegue de modo algum ou tem muita dificuldade em realizar certas atividades. Os números não são comparáveis.
+
+
+Item sete. Para os fins do Estatuto da Pessoa Idosa, considera-se pessoa idosa aquela com idade igual ou superior a sessenta e cinco anos, assegurando-se prioridade especial às pessoas com mais de setenta anos.
+
+Gabarito: errado. O Estatuto considera pessoa idosa quem tem sessenta anos ou mais, e a prioridade especial é assegurada às maiores de oitenta anos. A idade de sessenta e cinco anos é referência de alguns indicadores do IBGE.
+
+
+Item oito. A Constituição Federal reconhece aos índios os direitos originários sobre as terras que tradicionalmente ocupam, competindo à União demarcá-las, protegê-las e fazer respeitar todos os seus bens.
+
+Gabarito: certo. É o artigo duzentos e trinta e um. O direito é originário, anterior ao Estado, e a demarcação é declaratória. As terras são bens da União, com posse permanente e usufruto exclusivo dos indígenas.
+
+
+Item nove. Ao julgar, em dezembro de dois mil e vinte e cinco, as ações relativas à lei de dois mil e vinte e três que tratou da demarcação de terras indígenas, o Supremo Tribunal Federal declarou constitucional a tese do marco temporal, superando o entendimento que havia adotado em dois mil e vinte e três.
+
+Gabarito: errado. Por dez votos a um, o Supremo declarou novamente inconstitucional o marco temporal, reafirmando o entendimento de dois mil e vinte e três. Outros dispositivos da lei foram mantidos.
+
+
+Item dez. A Convenção cento e sessenta e nove da Organização Internacional do Trabalho estabelece a consciência da própria identidade indígena ou tribal como critério fundamental para identificar os povos a que se aplica e prevê o dever de consulta prévia, livre e informada a esses povos sobre medidas legislativas ou administrativas que possam afetá-los diretamente.
+
+Gabarito: certo. Autoidentificação e consulta prévia, livre e informada são os dois pilares mais cobrados da Convenção. A consulta deve ocorrer antes da decisão, por meio das instituições representativas dos povos.
+
+
+Item onze. O conceito de interseccionalidade designa a soma aritmética das discriminações sofridas por uma pessoa em razão de cada uma de suas características, analisadas de forma independente umas das outras.
+
+Gabarito: errado. A interseccionalidade, formulada por Kimberlé Crenshaw, enfatiza que os eixos de desigualdade interagem e produzem situações específicas de desvantagem, que não se reduzem à soma de discriminações isoladas.
+
+
+Item doze. A oferta de um serviço público exclusivamente por meio de aplicativo, sem canais alternativos de atendimento e sem observância de requisitos de acessibilidade, pode constituir barreira de acesso a direitos que afeta de forma desproporcional pessoas idosas, pessoas com deficiência e pessoas com menor acesso à internet.
+
+Gabarito: certo. É um exemplo de barreira digital e de discriminação indireta. A exclusão digital envolve acesso, equipamento, habilidade, acessibilidade, linguagem e custo, e a digitalização inclusiva exige acessibilidade e canais alternativos.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto dois ponto cinco, desenvolvimento e realidade brasileira.

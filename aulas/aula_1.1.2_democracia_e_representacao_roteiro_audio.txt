@@ -1,28 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.2 DO EDITAL: DEMOCRACIA E REPRESENTAÇÃO.
-SUBITEM 1.1.2.1: Representação e participação. Responsabilização democrática. Relações entre Executivo, Legislativo e Judiciário. Governabilidade e controles recíprocos.
+AUDIOAULA. ITEM UM PONTO UM PONTO DOIS DO EDITAL: DEMOCRACIA E REPRESENTAÇÃO
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto dois do edital da CGU, chamado democracia e representação. Ele tem um único subitem, o um ponto um ponto dois ponto um, com quatro temas.
-
-Primeiro tema: representação e participação.
-Segundo tema: responsabilização democrática.
-Terceiro tema: relações entre Executivo, Legislativo e Judiciário.
-Quarto tema: governabilidade e controles recíprocos.
-
-Vamos organizar a aula em quatro blocos, nessa ordem. Depois, um resumo das estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Na aula anterior, sobre Estado e legitimidade, vimos que todo o poder emana do povo e que a legitimidade tem uma dimensão de origem e uma dimensão de exercício. Esta aula é a continuação natural. Ela responde a três perguntas. Como o povo exerce o poder? Como quem exerce o poder em nome do povo presta contas? E como os Poderes se limitam uns aos outros sem paralisar o governo?
-
-Este item mistura ciência política com direito constitucional. Por isso, ele tem mais números e mais dispositivos da Constituição do que o anterior. Quando eu citar artigos, prazos e quóruns, confira depois no texto oficial do Planalto. Os autores de referência aqui são Hanna Pitkin, Edmund Burke, Bernard Manin, Joseph Schumpeter, Robert Dahl, Guillermo O'Donnell, Andreas Schedler, Montesquieu, os Federalistas, Sérgio Abranches e Bresser-Pereira.
-
-E um lembrete de estratégia. O edital não escreveu separação de Poderes. Escreveu relações entre os Poderes e controles recíprocos. Não escreveu eleições. Escreveu responsabilização democrática. Isso indica que a banca quer que você entenda o funcionamento, e não apenas a lista de competências. Mas as pegadinhas de competência, de prazo e de quórum continuam sendo a forma mais fácil de construir um item errado. Então, vamos cuidar dos dois lados.
+Este é o item um ponto um ponto dois, democracia e representação. Ele tem um único subitem, organizado aqui em quatro blocos: representação e participação; responsabilização democrática; relações entre Executivo, Legislativo e Judiciário; e governabilidade e controles recíprocos. A banca costuma cobrar o funcionamento das relações entre os Poderes, as competências, os prazos e os quóruns da Constituição, e os conceitos de autores como Hanna Pitkin, Bernard Manin, Guillermo O'Donnell e Sérgio Abranches.
 
 
-BLOCO UM. REPRESENTAÇÃO E PARTICIPAÇÃO.
+BLOCO UM: REPRESENTAÇÃO E PARTICIPAÇÃO
 
 Comecemos pelos modelos de democracia.
 
@@ -112,10 +96,8 @@ Segunda: participar não é o mesmo que decidir. Há instâncias deliberativas, 
 
 Terceira: a participação tem barreiras e pode ser desigual. Quem tem mais tempo, informação, recursos e acesso digital participa mais. Uma audiência pública com pouca gente ou dominada por um único grupo organizado não representa necessariamente a população afetada. O edital volta a isso no item sobre participação social, quando fala em representatividade e barreiras à participação. Item que trate qualquer mecanismo participativo como automaticamente representativo da sociedade merece desconfiança.
 
-Resumo do bloco um. O Brasil é uma democracia semidireta. A representação segue o modelo do mandato livre, com sistema proporcional para deputados e vereadores e majoritário para chefes do Executivo e senadores. A participação direta se faz por plebiscito, referendo e iniciativa popular, e também por conselhos, consultas, ouvidorias e denúncias aos órgãos de controle.
 
-
-BLOCO DOIS. RESPONSABILIZAÇÃO DEMOCRÁTICA.
+BLOCO DOIS: RESPONSABILIZAÇÃO DEMOCRÁTICA
 
 Responsabilização democrática é a expressão que o edital usa para o que a literatura chama de accountability. Não há tradução perfeita. A ideia reúne três coisas: o dever de quem exerce poder público de prestar contas, a possibilidade de ser cobrado por isso e a possibilidade de sofrer consequências.
 
@@ -167,10 +149,8 @@ Responsabilização é o processo de prestar contas e responder pelas consequên
 
 Um governo pode ser responsivo sem ser responsabilizável, por exemplo, quando atende a demandas populares, mas não presta contas de como gasta. E o contrário também.
 
-Resumo do bloco dois. Responsabilização democrática exige informação, justificação e possibilidade de sanção. É vertical quando vem da sociedade, sobretudo pelo voto. É horizontal quando vem de outros órgãos do Estado, como a CGU. E é social quando vem da sociedade organizada de forma contínua. As três se reforçam.
 
-
-BLOCO TRÊS. RELAÇÕES ENTRE EXECUTIVO, LEGISLATIVO E JUDICIÁRIO.
+BLOCO TRÊS: RELAÇÕES ENTRE EXECUTIVO, LEGISLATIVO E JUDICIÁRIO
 
 O ponto de partida é o artigo segundo da Constituição: são Poderes da União, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário. E a separação dos Poderes é cláusula pétrea, pelo artigo sessenta, parágrafo quarto.
 
@@ -238,10 +218,8 @@ Judicialização da política é o fenômeno pelo qual questões de grande reper
 
 Ativismo judicial é outra coisa. É uma postura, um modo mais expansivo de interpretar a Constituição, pelo qual o Judiciário amplia o seu espaço de atuação sobre os outros Poderes. A distinção, difundida por Luís Roberto Barroso, é esta: a judicialização é um fato, uma circunstância do modelo institucional. O ativismo é uma atitude, uma escolha do intérprete. O oposto do ativismo é a autocontenção judicial. Item que trate os dois termos como sinônimos está errado.
 
-Resumo do bloco três. Os Poderes são independentes e harmônicos. A separação é flexível, com funções típicas e atípicas. E cada Poder dispõe de instrumentos para limitar os demais: veto e medida provisória de um lado; derrubada de veto, sustação de atos, julgamento de contas, CPI e impeachment de outro; e controle de constitucionalidade e de legalidade pelo Judiciário.
 
-
-BLOCO QUATRO. GOVERNABILIDADE E CONTROLES RECÍPROCOS.
+BLOCO QUATRO: GOVERNABILIDADE E CONTROLES RECÍPROCOS
 
 O edital junta, de propósito, duas ideias que puxam em direções diferentes. Governabilidade é a capacidade de decidir e governar. Controles recíprocos são os limites a essa capacidade. O que a banca quer é que você entenda a tensão e o equilíbrio entre as duas.
 
@@ -287,102 +265,21 @@ Para o órgão de controle, isso se traduz em uma postura. O controle interno ap
 
 Item que diga que os mecanismos de controle recíproco são incompatíveis com a governabilidade está errado. Item que diga que a governabilidade autoriza o Executivo a se sobrepor aos demais Poderes também está errado. E item que apresente os dois como dimensões em tensão, a serem equilibradas, tende a estar certo.
 
-Resumo do bloco quatro. Governabilidade é capacidade política de governar. Governança é capacidade de implementar. No Brasil, a governabilidade se constrói pelo presidencialismo de coalizão. E os controles recíprocos limitam o poder sem negar a governabilidade: são condição da sua legitimidade.
+
+PEGADINHAS DO ITEM
+
+Troca de números e quóruns. Um por cento, cinco Estados e três décimos por cento na iniciativa popular. Quinze dias úteis para o veto. Maioria absoluta para derrubar o veto. Sessenta dias, prorrogáveis uma vez, para a medida provisória. Um terço para a CPI. Dois terços para o impeachment. Três quintos para a emenda constitucional.
+
+Troca de órgão competente. Câmara por Senado. Congresso por Tribunal de Contas. Senado por Supremo. Lembre: quem julga as contas do Presidente é o Congresso. Quem autoriza o processo contra o Presidente é a Câmara. Quem julga o crime de responsabilidade é o Senado.
+
+Troca de conceitos vizinhos. Plebiscito por referendo. Mandato imperativo por mandato livre. Representação descritiva por substantiva. Accountability vertical por horizontal. Governabilidade por governança. Judicialização por ativismo.
+
+Ampliação indevida de um poder. A CPI que julga e prende. O Congresso que susta qualquer ato do Executivo. A súmula que vincula o legislador. O Judiciário que revê o mérito administrativo livremente.
+
+Afirmações absolutas. Separação rígida. Veto absoluto. Democracia exclusivamente representativa. Eleições como mecanismo suficiente de responsabilização.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: troca de números e quóruns. Um por cento, cinco Estados e três décimos por cento na iniciativa popular. Quinze dias úteis para o veto. Maioria absoluta para derrubar o veto. Sessenta dias, prorrogáveis uma vez, para a medida provisória. Um terço para a CPI. Dois terços para o impeachment. Três quintos para a emenda constitucional.
-
-Segunda estratégia: troca de órgão competente. Câmara por Senado. Congresso por Tribunal de Contas. Senado por Supremo. Lembre: quem julga as contas do Presidente é o Congresso. Quem autoriza o processo contra o Presidente é a Câmara. Quem julga o crime de responsabilidade é o Senado.
-
-Terceira estratégia: troca de conceitos vizinhos. Plebiscito por referendo. Mandato imperativo por mandato livre. Representação descritiva por substantiva. Accountability vertical por horizontal. Governabilidade por governança. Judicialização por ativismo.
-
-Quarta estratégia: ampliação indevida de um poder. A CPI que julga e prende. O Congresso que susta qualquer ato do Executivo. A súmula que vincula o legislador. O Judiciário que revê o mérito administrativo livremente.
-
-Quinta estratégia: afirmações absolutas. Separação rígida. Veto absoluto. Democracia exclusivamente representativa. Eleições como mecanismo suficiente de responsabilização.
-
-Sexta estratégia: situação hipotética que pede enquadramento. Pergunte: quem está controlando quem? Se é a sociedade controlando o Estado, é vertical ou social. Se é um órgão do Estado controlando outro, é horizontal. O problema descrito é de apoio político ou de capacidade de execução? Se é de apoio, governabilidade. Se é de execução, governança.
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-O plebiscito é convocado com anterioridade ao ato legislativo ou administrativo, cabendo ao povo aprovar ou rejeitar o que lhe tenha sido submetido, ao passo que o referendo é posterior ao ato, cabendo ao povo ratificá-lo ou rejeitá-lo; em ambos os casos, a decisão de realizar a consulta, no plano federal, compete ao Congresso Nacional.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: plebiscito é prévio, referendo ratifica. E é da competência exclusiva do Congresso Nacional autorizar referendo e convocar plebiscito, conforme o artigo quarenta e nove, inciso quinze.
-
-Questão dois.
-A iniciativa popular de lei federal é exercida pela apresentação, ao Senado Federal, de projeto subscrito por, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: os três números estão corretos, mas o projeto é apresentado à Câmara dos Deputados, e não ao Senado. É o típico item em que quase tudo está certo e um único detalhe o invalida.
-
-Questão três.
-No modelo de representação política adotado no Brasil, o parlamentar está juridicamente vinculado às instruções recebidas de seus eleitores, os quais podem, na forma prevista na Constituição Federal, revogar o mandato daquele que as descumprir.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o item descreve o mandato imperativo com revogação popular, o recall. No Brasil, vigora o mandato livre ou representativo, e a Constituição Federal não prevê a revogação de mandato pelos eleitores.
-
-Questão quatro.
-Nos termos da Constituição Federal, a Câmara dos Deputados compõe-se de representantes do povo, eleitos pelo sistema proporcional, e o Senado Federal compõe-se de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio majoritário.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o texto dos artigos quarenta e cinco e quarenta e seis. A inversão desses elementos, tanto de quem é representado quanto do sistema eleitoral, é pegadinha recorrente.
-
-Questão cinco.
-Na classificação de Guillermo O'Donnell, denomina-se accountability horizontal o controle exercido pelos eleitores sobre os governantes por meio do voto, e accountability vertical o controle exercido por órgãos estatais sobre outros órgãos e agentes do Estado.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: os conceitos estão invertidos. Vertical é o controle da sociedade sobre o Estado, sobretudo pelo voto. Horizontal é o controle entre órgãos do próprio Estado.
-
-Questão seis.
-A atuação de um órgão de controle interno do Poder Executivo que, no exercício de competência legal, audita a aplicação de recursos por um ministério e recomenda a correção das falhas identificadas constitui exemplo de accountability horizontal.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: trata-se de um órgão estatal, com competência legal, supervisionando outro órgão estatal. É accountability horizontal, ainda que, na classificação do direito administrativo, seja controle interno.
-
-Questão sete.
-A responsabilização democrática realiza-se plenamente com a divulgação ativa de informações sobre os atos de governo, sendo dispensáveis, para a sua caracterização, a justificação das decisões e a possibilidade de imposição de consequências aos agentes públicos.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a transparência é condição necessária, mas não suficiente. Na formulação de Schedler, a responsabilização envolve informação, justificação e possibilidade de sanção.
-
-Questão oito.
-O veto presidencial a projeto de lei pode fundamentar-se na inconstitucionalidade do projeto ou na sua contrariedade ao interesse público e pode ser rejeitado pelo Congresso Nacional, pelo voto da maioria absoluta dos deputados e dos senadores, o que evidencia o seu caráter relativo.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: veto jurídico e veto político, ambos superáveis por maioria absoluta dos deputados e dos senadores, em sessão conjunta. É um exemplo de controle do Executivo sobre o Legislativo seguido de controle do Legislativo sobre o Executivo.
-
-Questão nove.
-Como manifestação do sistema de freios e contrapesos, compete ao Tribunal de Contas da União julgar anualmente as contas prestadas pelo Presidente da República, cabendo ao Congresso Nacional emitir parecer prévio sobre elas.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: está invertido. O TCU aprecia as contas do Presidente mediante parecer prévio. Quem julga é o Congresso Nacional. O TCU julga as contas dos demais administradores e responsáveis por recursos públicos.
-
-Questão dez.
-Um decreto do Presidente da República, a pretexto de regulamentar determinada lei, cria obrigação nela não prevista. Nessa situação, o Congresso Nacional pode sustar o ato, por se tratar de ato normativo do Poder Executivo que exorbita do poder regulamentar, o que constitui exemplo de controle recíproco entre os Poderes.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a competência do artigo quarenta e nove, inciso cinco. Lembre os limites: vale para atos normativos e apenas quando exorbitam do poder regulamentar ou dos limites da delegação legislativa.
-
-Questão onze.
-Um governo dispõe de ampla maioria no Congresso Nacional e de elevado apoio popular, mas não consegue implementar as políticas aprovadas por falta de recursos financeiros e de capacidade administrativa. Nessa situação, o problema enfrentado é de governabilidade, e não de governança.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: apoio político e maioria parlamentar indicam que há governabilidade. O que falta é capacidade financeira e administrativa de implementar, ou seja, governança. O item trocou os conceitos.
-
-Questão doze.
-A expressão presidencialismo de coalizão designa o arranjo em que o Presidente da República, eleito diretamente em um sistema multipartidário, necessita compor alianças com diversos partidos para formar maioria no Legislativo e viabilizar a sua agenda de governo.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o conceito de Sérgio Abranches. O sistema continua sendo presidencialista, e a formação de coalizões é o modo como a governabilidade se constrói em um Congresso fragmentado.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 O Brasil é uma democracia semidireta: representantes eleitos e participação direta.
 
@@ -404,4 +301,69 @@ Governabilidade é capacidade política de governar. Governança é capacidade d
 
 Controles recíprocos não negam a governabilidade democrática. São condição da sua legitimidade.
 
-Fim da aula do item um ponto um ponto dois. Na sequência do edital, o próximo é o item um ponto um ponto três, federalismo e capacidades estatais. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. O plebiscito é convocado com anterioridade ao ato legislativo ou administrativo, cabendo ao povo aprovar ou rejeitar o que lhe tenha sido submetido, ao passo que o referendo é posterior ao ato, cabendo ao povo ratificá-lo ou rejeitá-lo; em ambos os casos, a decisão de realizar a consulta, no plano federal, compete ao Congresso Nacional.
+
+Gabarito: certo. Plebiscito é prévio, referendo ratifica. E é da competência exclusiva do Congresso Nacional autorizar referendo e convocar plebiscito, conforme o artigo quarenta e nove, inciso quinze.
+
+
+Item dois. A iniciativa popular de lei federal é exercida pela apresentação, ao Senado Federal, de projeto subscrito por, no mínimo, um por cento do eleitorado nacional, distribuído por pelo menos cinco Estados, com não menos de três décimos por cento dos eleitores de cada um deles.
+
+Gabarito: errado. Os três números estão corretos, mas o projeto é apresentado à Câmara dos Deputados, e não ao Senado. É o típico item em que quase tudo está certo e um único detalhe o invalida.
+
+
+Item três. No modelo de representação política adotado no Brasil, o parlamentar está juridicamente vinculado às instruções recebidas de seus eleitores, os quais podem, na forma prevista na Constituição Federal, revogar o mandato daquele que as descumprir.
+
+Gabarito: errado. O item descreve o mandato imperativo com revogação popular, o recall. No Brasil, vigora o mandato livre ou representativo, e a Constituição Federal não prevê a revogação de mandato pelos eleitores.
+
+
+Item quatro. Nos termos da Constituição Federal, a Câmara dos Deputados compõe-se de representantes do povo, eleitos pelo sistema proporcional, e o Senado Federal compõe-se de representantes dos Estados e do Distrito Federal, eleitos segundo o princípio majoritário.
+
+Gabarito: certo. É o texto dos artigos quarenta e cinco e quarenta e seis. A inversão desses elementos, tanto de quem é representado quanto do sistema eleitoral, é pegadinha recorrente.
+
+
+Item cinco. Na classificação de Guillermo O'Donnell, denomina-se accountability horizontal o controle exercido pelos eleitores sobre os governantes por meio do voto, e accountability vertical o controle exercido por órgãos estatais sobre outros órgãos e agentes do Estado.
+
+Gabarito: errado. Os conceitos estão invertidos. Vertical é o controle da sociedade sobre o Estado, sobretudo pelo voto. Horizontal é o controle entre órgãos do próprio Estado.
+
+
+Item seis. A atuação de um órgão de controle interno do Poder Executivo que, no exercício de competência legal, audita a aplicação de recursos por um ministério e recomenda a correção das falhas identificadas constitui exemplo de accountability horizontal.
+
+Gabarito: certo. Trata-se de um órgão estatal, com competência legal, supervisionando outro órgão estatal. É accountability horizontal, ainda que, na classificação do direito administrativo, seja controle interno.
+
+
+Item sete. A responsabilização democrática realiza-se plenamente com a divulgação ativa de informações sobre os atos de governo, sendo dispensáveis, para a sua caracterização, a justificação das decisões e a possibilidade de imposição de consequências aos agentes públicos.
+
+Gabarito: errado. A transparência é condição necessária, mas não suficiente. Na formulação de Schedler, a responsabilização envolve informação, justificação e possibilidade de sanção.
+
+
+Item oito. O veto presidencial a projeto de lei pode fundamentar-se na inconstitucionalidade do projeto ou na sua contrariedade ao interesse público e pode ser rejeitado pelo Congresso Nacional, pelo voto da maioria absoluta dos deputados e dos senadores, o que evidencia o seu caráter relativo.
+
+Gabarito: certo. Veto jurídico e veto político, ambos superáveis por maioria absoluta dos deputados e dos senadores, em sessão conjunta. É um exemplo de controle do Executivo sobre o Legislativo seguido de controle do Legislativo sobre o Executivo.
+
+
+Item nove. Como manifestação do sistema de freios e contrapesos, compete ao Tribunal de Contas da União julgar anualmente as contas prestadas pelo Presidente da República, cabendo ao Congresso Nacional emitir parecer prévio sobre elas.
+
+Gabarito: errado. Está invertido. O TCU aprecia as contas do Presidente mediante parecer prévio. Quem julga é o Congresso Nacional. O TCU julga as contas dos demais administradores e responsáveis por recursos públicos.
+
+
+Item dez. Um decreto do Presidente da República, a pretexto de regulamentar determinada lei, cria obrigação nela não prevista. Nessa situação, o Congresso Nacional pode sustar o ato, por se tratar de ato normativo do Poder Executivo que exorbita do poder regulamentar, o que constitui exemplo de controle recíproco entre os Poderes.
+
+Gabarito: certo. É a competência do artigo quarenta e nove, inciso cinco. Lembre os limites: vale para atos normativos e apenas quando exorbitam do poder regulamentar ou dos limites da delegação legislativa.
+
+
+Item onze. Um governo dispõe de ampla maioria no Congresso Nacional e de elevado apoio popular, mas não consegue implementar as políticas aprovadas por falta de recursos financeiros e de capacidade administrativa. Nessa situação, o problema enfrentado é de governabilidade, e não de governança.
+
+Gabarito: errado. Apoio político e maioria parlamentar indicam que há governabilidade. O que falta é capacidade financeira e administrativa de implementar, ou seja, governança. O item trocou os conceitos.
+
+
+Item doze. A expressão presidencialismo de coalizão designa o arranjo em que o Presidente da República, eleito diretamente em um sistema multipartidário, necessita compor alianças com diversos partidos para formar maioria no Legislativo e viabilizar a sua agenda de governo.
+
+Gabarito: certo. É o conceito de Sérgio Abranches. O sistema continua sendo presidencialista, e a formação de coalizões é o modo como a governabilidade se constrói em um Congresso fragmentado.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto três, federalismo e capacidades estatais.

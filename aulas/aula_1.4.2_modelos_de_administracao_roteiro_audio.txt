@@ -1,5 +1,4 @@
 AUDIOAULA. ITEM UM PONTO QUATRO PONTO DOIS DO EDITAL: MODELOS DE ADMINISTRAÇÃO
-Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
 
 
 ABERTURA
@@ -248,62 +247,63 @@ ITENS DE FIXAÇÃO COM GABARITO
 
 Item um. No modelo burocrático weberiano, o excesso de formalismo, a resistência a mudanças e a superconformidade às regras constituem características essenciais do tipo ideal, descritas por Weber como fontes da superioridade técnica da burocracia.
 
-Gabarito do item um: errado. Essas são disfunções da burocracia, analisadas por Merton; para Weber, a superioridade técnica decorre de traços como legalidade, impessoalidade, hierarquia e profissionalização.
+Gabarito: errado. Essas são disfunções da burocracia, analisadas por Merton; para Weber, a superioridade técnica decorre de traços como legalidade, impessoalidade, hierarquia e profissionalização.
 
 
 Item dois. A Constituição Federal determina que a União, os estados, o Distrito Federal e os municípios mantenham escolas de governo para a formação e o aperfeiçoamento dos servidores públicos.
 
-Gabarito do item dois: errado. O artigo trinta e nove, parágrafo segundo, da Constituição menciona apenas União, estados e Distrito Federal.
+Gabarito: errado. O artigo trinta e nove, parágrafo segundo, da Constituição menciona apenas União, estados e Distrito Federal.
 
 
 Item três. São estáveis após três anos de efetivo exercício os servidores nomeados para cargo de provimento efetivo em virtude de concurso público, sendo condição para a aquisição da estabilidade a avaliação especial de desempenho por comissão instituída para essa finalidade.
 
-Gabarito do item três: certo. Artigo quarenta e um, caput e parágrafo quarto, da Constituição, com redação da Emenda Constitucional dezenove.
+Gabarito: certo. Artigo quarenta e um, caput e parágrafo quarto, da Constituição, com redação da Emenda Constitucional dezenove.
 
 
 Item quatro. Segundo o Plano Diretor da Reforma do Aparelho do Estado, de mil novecentos e noventa e cinco, a administração pública gerencial rompe com a burocrática, abandonando a admissão por critérios de mérito e a estruturação em carreiras, e passa a controlar os resultados a posteriori.
 
-Gabarito do item quatro: errado. O Plano Diretor afirma que a administração gerencial se apoia na burocrática e conserva, embora flexibilizando, o mérito e as carreiras; muda a forma de controle.
+Gabarito: errado. O Plano Diretor afirma que a administração gerencial se apoia na burocrática e conserva, embora flexibilizando, o mérito e as carreiras; muda a forma de controle.
 
 
 Item cinco. Uma equipe da Controladoria-Geral da União avaliou um programa federal de inclusão digital e constatou que todos os telecentros previstos foram instalados no prazo e dentro do orçamento, mas não houve aumento da proporção de moradores das localidades atendidas que acessam serviços públicos digitais. Nessa situação, o programa foi eficaz quanto às metas físicas, mas não demonstrou efetividade.
 
-Gabarito do item cinco: certo. As metas físicas foram cumpridas, o que indica eficácia; a ausência de mudança na realidade do público indica falta de efetividade.
+Gabarito: certo. As metas físicas foram cumpridas, o que indica eficácia; a ausência de mudança na realidade do público indica falta de efetividade.
 
 
 Item seis. A autonomia gerencial, orçamentária e financeira de órgãos e entidades da administração direta e indireta pode ser ampliada mediante contrato firmado entre seus administradores e o poder público, que tenha por objeto a fixação de metas de desempenho, instrumento que, no âmbito federal, foi regulamentado como contrato de desempenho.
 
-Gabarito do item seis: certo. Artigo trinta e sete, parágrafo oitavo, da Constituição e Lei treze mil novecentos e trinta e quatro, de dois mil e dezenove.
+Gabarito: certo. Artigo trinta e sete, parágrafo oitavo, da Constituição e Lei treze mil novecentos e trinta e quatro, de dois mil e dezenove.
 
 
 Item sete. Por força de emenda constitucional, os órgãos e entidades da administração pública devem realizar, individual ou conjuntamente, avaliação das políticas públicas, inclusive com divulgação do objeto a ser avaliado e dos resultados alcançados, na forma da lei.
 
-Gabarito do item sete: certo. Artigo trinta e sete, parágrafo dezesseis, da Constituição, incluído pela Emenda Constitucional cento e nove, de dois mil e vinte e um.
+Gabarito: certo. Artigo trinta e sete, parágrafo dezesseis, da Constituição, incluído pela Emenda Constitucional cento e nove, de dois mil e vinte e um.
 
 
 Item oito. A política de governança instituída pelo Decreto nove mil duzentos e três, de dois mil e dezessete, aplica-se à administração pública federal direta, autárquica e fundacional e às empresas públicas e sociedades de economia mista federais.
 
-Gabarito do item oito: errado. O decreto abrange apenas a administração federal direta, autárquica e fundacional.
+Gabarito: errado. O decreto abrange apenas a administração federal direta, autárquica e fundacional.
 
 
 Item nove. Nos termos do Decreto nove mil duzentos e três, de dois mil e dezessete, governança pública é o conjunto de mecanismos de liderança, estratégia e controle postos em prática para avaliar, direcionar e monitorar a gestão, com vistas à condução de políticas públicas e à prestação de serviços de interesse da sociedade.
 
-Gabarito do item nove: certo. Artigo segundo, inciso um, do Decreto nove mil duzentos e três.
+Gabarito: certo. Artigo segundo, inciso um, do Decreto nove mil duzentos e três.
 
 
 Item dez. Um município instituiu, por lei, o seu conselho de saúde com caráter meramente consultivo e previu a realização da conferência municipal de saúde a cada dois anos. Nessa situação, o desenho é compatível com a Lei oito mil cento e quarenta e dois, de mil novecentos e noventa, que deixa a definição do caráter dos conselhos a critério de cada ente.
 
-Gabarito do item dez: errado. A Lei oito mil cento e quarenta e dois, artigo primeiro, define o conselho como permanente e deliberativo e a conferência a cada quatro anos.
+Gabarito: errado. A Lei oito mil cento e quarenta e dois, artigo primeiro, define o conselho como permanente e deliberativo e a conferência a cada quatro anos.
 
 
 Item onze. Na perspectiva do Novo Serviço Público, o cidadão é tratado como cliente, e a satisfação individual dos usuários constitui o principal critério de avaliação do desempenho dos gestores públicos.
 
-Gabarito do item onze: errado. O Novo Serviço Público propõe servir cidadãos, e não clientes, tendo o interesse público como objetivo.
+Gabarito: errado. O Novo Serviço Público propõe servir cidadãos, e não clientes, tendo o interesse público como objetivo.
 
 
 Item doze. Na análise de Edson Nunes, o insulamento burocrático, que protege núcleos técnicos do Estado das pressões clientelistas, convive no Brasil com o clientelismo, o corporativismo e o universalismo de procedimentos.
 
-Gabarito do item doze: certo. São as quatro gramáticas que, segundo Edson Nunes, coexistem na relação entre Estado e sociedade no Brasil.
+Gabarito: certo. São as quatro gramáticas que, segundo Edson Nunes, coexistem na relação entre Estado e sociedade no Brasil.
+
 
 ENCERRAMENTO
 

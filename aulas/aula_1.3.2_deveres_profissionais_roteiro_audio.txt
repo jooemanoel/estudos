@@ -1,27 +1,9 @@
-ROTEIRO DE AUDIOAULA
-Concurso da Controladoria-Geral da União. Cargo de Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
-Item um ponto três ponto dois do edital: Deveres profissionais.
-Subitem um ponto três ponto dois ponto um: Imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e recursos públicos.
-Subitem um ponto três ponto dois ponto dois: Aplicação dos valores e deveres de conduta ética da CGU a situações de trabalho.
+AUDIOAULA. ITEM UM PONTO TRÊS PONTO DOIS DO EDITAL: DEVERES PROFISSIONAIS
 
 
 ABERTURA
 
-Olá! Seja bem-vindo e bem-vinda a mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
-
-Na aula passada, estudamos os fundamentos da ética pública: valores, teorias e dilemas. Hoje descemos para o chão da repartição. O item um ponto três ponto dois trata dos deveres profissionais, e tem dois subitens.
-
-O primeiro lista quatro grupos de deveres. Um: imparcialidade, probidade, diligência e respeito. Dois: autonomia técnica e responsabilidade. Três: os limites da obediência hierárquica. Quatro: o uso adequado de informação e de recursos públicos.
-
-O segundo subitem é diferente: pede a aplicação dos valores e deveres de conduta ética da CGU a situações de trabalho. Isso é sinal claro de que a banca vai trazer casos práticos, pequenas histórias, e perguntar se a conduta foi correta.
-
-Por isso a aula terá cinco blocos. Os quatro primeiros seguem os quatro grupos de deveres. O quinto é um laboratório de casos, aplicando tudo a situações típicas de um auditor da CGU, inclusive de um auditor da área de tecnologia. Depois, as estratégias da banca, doze questões e a revisão final.
-
-Uma nota sobre fontes. Os deveres vêm de quatro normas principais: a Lei oito mil cento e doze, de mil novecentos e noventa, que é o regime jurídico dos servidores federais, em especial os artigos cento e dezesseis, de deveres, cento e dezessete, de proibições, e cento e trinta e dois, de casos de demissão; o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, do Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, que estudamos na aula passada; a Lei de Introdução às Normas do Direito Brasileiro, nos artigos vinte e vinte e oito, regulamentados pelo Decreto nove mil oitocentos e trinta, de dois mil e dezenove; e o código de conduta próprio da CGU, que foi renovado em dezembro de dois mil e vinte e cinco.
-
-Uma nota de estratégia: a Lei oito mil cento e doze é cobrada pela letra. A banca troca uma palavra e a questão vira errada. Então, quando eu disser "guarde a expressão", guarde mesmo.
-
-Vamos lá.
+Este é o item um ponto três ponto dois, deveres profissionais. Ele tem dois subitens, organizados aqui em cinco blocos: imparcialidade, probidade, diligência e respeito; autonomia técnica e responsabilidade; limites da obediência hierárquica; uso adequado de informação e de recursos públicos; e um laboratório de casos com os valores e deveres de conduta da CGU. A banca costuma cobrar a letra dos artigos cento e dezesseis, cento e dezessete e cento e trinta e dois da Lei oito mil cento e doze, de mil novecentos e noventa, os artigos vinte e vinte e oito da Lei de Introdução às Normas do Direito Brasileiro, o código de conduta da CGU, renovado em dezembro de dois mil e vinte e cinco, e casos práticos de conduta.
 
 
 BLOCO UM: IMPARCIALIDADE, PROBIDADE, DILIGÊNCIA E RESPEITO
@@ -57,8 +39,6 @@ Por fim, o respeito. O artigo cento e dezesseis manda tratar com urbanidade as p
 O respeito vale em todas as direções: com o cidadão, com os colegas, com os subordinados, com os superiores e com os auditados. Um ponto que muita gente esquece: o gestor auditado também merece respeito. A auditoria pode ser firme, cética e rigorosa, mas não pode ser humilhante, intimidadora ou desrespeitosa. Firmeza não é grosseria.
 
 E o respeito inclui a prevenção do assédio e da discriminação, tema do item um ponto três ponto quatro, que veremos adiante.
-
-Resumo do bloco. Imparcialidade é não deixar que preferências pessoais interfiram na atuação; inclui a aparência de imparcialidade e a objetividade baseada em evidências. Probidade é honestidade e integridade; a improbidade pode ocorrer por enriquecimento ilícito, lesão ao erário ou atentado a princípios, e exige dolo. Diligência é zelo e dedicação, o primeiro dever do artigo cento e dezesseis, e se opõe à desídia. Respeito é urbanidade com todas as pessoas, inclusive com os auditados.
 
 
 BLOCO DOIS: AUTONOMIA TÉCNICA E RESPONSABILIDADE
@@ -97,8 +77,6 @@ Quinta pegadinha: "segundo a Lei de Introdução às Normas do Direito Brasileir
 
 Sexta pegadinha: "o erro grosseiro corresponde a qualquer equívoco cometido pelo agente". Errado. É o erro manifesto, evidente e inescusável, com culpa grave.
 
-Resumo do bloco. Autonomia técnica é decidir com base em evidências e critérios técnicos, sem interferência indevida; não é imunidade à supervisão, à revisão e à prestação de contas. O código de conduta da CGU exige evidências robustas e verificáveis, fundamentação técnica e rastreabilidade. O servidor responde nas esferas civil, penal e administrativa, independentes entre si, além da ética. Pelo artigo vinte e oito da Lei de Introdução, responde pessoalmente por decisões ou opiniões técnicas em caso de dolo ou erro grosseiro; erro grosseiro é manifesto, evidente e inescusável, com culpa grave.
-
 
 BLOCO TRÊS: LIMITES DA OBEDIÊNCIA HIERÁRQUICA
 
@@ -129,8 +107,6 @@ Do outro lado, há os limites para quem desobedece sem razão. A lei proíbe opo
 O Código de Ética completa o quadro: manda o servidor resistir a todas as pressões de superiores hierárquicos, de contratantes, interessados e outros que visem obter favores, benesses ou vantagens indevidas em decorrência de ações imorais, ilegais ou aéticas, e denunciá-las.
 
 Por fim, uma relação com o bloco anterior: a autonomia técnica é um limite específico da obediência. O chefe pode determinar prioridades, prazos, escopo e forma do trabalho, mas não pode determinar a conclusão técnica contra as evidências. Se ordenar isso, a ordem é ilegítima, e o caminho é registrar, levar à instância adequada e não assinar o que não corresponde às evidências.
-
-Resumo do bloco. Dever de cumprir as ordens superiores, exceto quando manifestamente ilegais. Discordância técnica e mera suspeita não autorizam descumprir; ilegalidade evidente, sim. Quem cumpre ordem manifestamente ilegal também responde. Deveres correlatos: levar irregularidades ao conhecimento da autoridade superior, ou de outra autoridade quando o superior estiver envolvido, e representar contra ilegalidade, omissão ou abuso de poder. Quem comunica crimes ou improbidade de boa-fé é protegido. Resistência injustificada é proibida e insubordinação grave é causa de demissão.
 
 
 BLOCO QUATRO: USO ADEQUADO DE INFORMAÇÃO E DE RECURSOS PÚBLICOS
@@ -171,8 +147,6 @@ E o tempo também é recurso público. A jornada de trabalho deve ser dedicada a
 
 Décima primeira pegadinha: "o uso eventual de bem público para fim particular não configura irregularidade se não houver prejuízo financeiro mensurável". Cuidado. A proibição legal de utilizar recursos materiais da repartição em atividades particulares não depende de prejuízo mensurável. A gravidade pode influenciar a sanção, mas a conduta é indevida.
 
-Resumo do bloco. Publicidade é regra e sigilo é exceção; o servidor deve informar com presteza, ressalvado o sigilo, e guardar sigilo sobre assuntos da repartição. Revelar segredo obtido em razão do cargo é causa de demissão. A Lei Geral de Proteção de Dados exige finalidade, necessidade e segurança. Consultar sistemas sem necessidade de serviço é indevido mesmo sem divulgação. O código da CGU exige uso responsável de inteligência artificial e equilíbrio nas redes sociais. Recursos públicos incluem bens, pessoas, tempo e infraestrutura de tecnologia, e não podem ser usados em atividades particulares.
-
 
 BLOCO CINCO: LABORATÓRIO DE CASOS COM OS VALORES E DEVERES DA CGU
 
@@ -197,101 +171,24 @@ Caso oito: o computador do órgão. Uma servidora usa, no fim do expediente, o n
 Repare que, em todos os casos, a resposta correta combina norma e valor: a regra diz o que fazer, e o valor explica por quê. É isso que a banca quer medir com o subitem de aplicação.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
+PEGADINHAS DO ITEM
 
-Estratégia um: alterar a expressão "exceto quando manifestamente ilegais". Trocar por "quando o servidor discordar", "quando houver dúvida" ou suprimir a exceção, dizendo que toda ordem deve ser cumprida.
+Alterar a expressão "exceto quando manifestamente ilegais". Trocar por "quando o servidor discordar", "quando houver dúvida" ou suprimir a exceção, dizendo que toda ordem deve ser cumprida.
 
-Estratégia dois: transformar autonomia técnica em imunidade. Dizer que o auditor não se submete a supervisão, revisão ou prestação de contas.
+Transformar autonomia técnica em imunidade. Dizer que o auditor não se submete a supervisão, revisão ou prestação de contas.
 
 Estratégia três: mexer no padrão de culpa do artigo vinte e oito da Lei de Introdução. Dizer culpa leve, qualquer culpa ou responsabilidade objetiva, em vez de dolo ou erro grosseiro. Ou definir erro grosseiro como qualquer erro.
 
-Estratégia quatro: reduzir conceitos amplos. Dizer que improbidade só existe com enriquecimento ilícito, que imparcialidade é ausência de opiniões, que diligência é só rapidez.
+Reduzir conceitos amplos. Dizer que improbidade só existe com enriquecimento ilícito, que imparcialidade é ausência de opiniões, que diligência é só rapidez.
 
-Estratégia cinco: relativizar o uso indevido. Dizer que consultar dados sem divulgá-los não é irregular, que o uso de bem público sem prejuízo mensurável é permitido, ou que a permissão técnica de acesso basta.
+Relativizar o uso indevido. Dizer que consultar dados sem divulgá-los não é irregular, que o uso de bem público sem prejuízo mensurável é permitido, ou que a permissão técnica de acesso basta.
 
-Estratégia seis: deslocar a responsabilidade. Dizer que quem cumpre ordem manifestamente ilegal fica isento, ou que o uso de inteligência artificial transfere a responsabilidade para a ferramenta.
+Deslocar a responsabilidade. Dizer que quem cumpre ordem manifestamente ilegal fica isento, ou que o uso de inteligência artificial transfere a responsabilidade para a ferramenta.
 
-Estratégia sete: em casos práticos, exigir comunicação ao superior envolvido, tratar toda informação de auditoria como sigilosa ou toda crítica em rede social como proibida. O equilíbrio é a chave: publicidade como regra, sigilo como exceção; liberdade de expressão com limites.
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze questões no formato certo ou errado. Ouça, pause se quiser, decida e só depois ouça o gabarito.
-
-Questão um.
-Nos termos da Lei oito mil cento e doze, de mil novecentos e noventa, é dever do servidor cumprir as ordens superiores, exceto quando manifestamente ilegais.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a redação literal do artigo cento e dezesseis, inciso quarto. A exceção é a ilegalidade manifesta, ou seja, evidente.
-
-Questão dois.
-O servidor público pode legitimamente deixar de cumprir ordem de seu superior hierárquico sempre que discordar, por razões técnicas, da solução determinada, ainda que a ordem não seja ilegal.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a discordância técnica não autoriza o descumprimento. O servidor pode registrar e fundamentar sua posição, mas deve cumprir a ordem que não seja manifestamente ilegal. A recusa injustificada pode configurar infração e, se grave, insubordinação.
-
-Questão três.
-Constitui dever do servidor público federal representar contra ilegalidade, omissão ou abuso de poder.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o inciso doze do artigo cento e dezesseis da Lei oito mil cento e doze. Ele convive com o dever de levar as irregularidades de que tiver ciência ao conhecimento da autoridade competente.
-
-Questão quatro.
-De acordo com a Lei de Introdução às Normas do Direito Brasileiro, o agente público responde pessoalmente por suas decisões ou opiniões técnicas sempre que agir com culpa, ainda que leve.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o artigo vinte e oito exige dolo ou erro grosseiro. A culpa leve não basta para a responsabilização pessoal por decisões ou opiniões técnicas.
-
-Questão cinco.
-Conforme a regulamentação federal da Lei de Introdução às Normas do Direito Brasileiro, considera-se erro grosseiro aquele manifesto, evidente e inescusável, praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a definição do Decreto nove mil oitocentos e trinta, de dois mil e dezenove.
-
-Questão seis.
-O dever de imparcialidade impõe ao servidor público que não possua convicções políticas, religiosas ou ideológicas, pois qualquer opinião pessoal compromete sua atuação funcional.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a imparcialidade não exige ausência de convicções, mas que elas não interfiram na atuação. O servidor deve agir com objetividade, com base em critérios técnicos e no interesse público.
-
-Questão sete.
-É proibido ao servidor público federal utilizar pessoal ou recursos materiais da repartição em serviços ou atividades particulares.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é uma das proibições do artigo cento e dezessete da Lei oito mil cento e doze. Vale para bens, equipamentos de tecnologia, veículos e para o trabalho de outros servidores.
-
-Questão oito.
-A revelação de segredo do qual o servidor se apropriou em razão do cargo constitui hipótese de aplicação da penalidade de demissão, nos termos da Lei oito mil cento e doze, de mil novecentos e noventa.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o artigo cento e trinta e dois, inciso nono. A mesma conduta pode ter repercussão penal e na esfera da improbidade.
-
-Questão nove.
-A probidade administrativa somente é violada quando o agente público obtém enriquecimento ilícito em razão do exercício de suas funções.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a Lei de Improbidade também prevê atos que causam lesão ao erário e atos que atentam contra os princípios da administração pública. E a probidade, como valor ético, é ainda mais ampla.
-
-Questão dez.
-A autonomia técnica do auditor assegura que suas conclusões não sejam submetidas a supervisão ou revisão por instâncias superiores do órgão de controle.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: autonomia técnica protege contra interferência indevida, sem fundamento técnico. Supervisão, revisão e controle de qualidade fazem parte do trabalho e não ferem a autonomia.
-
-Questão onze.
-Servidor que, com permissão técnica de acesso a sistema corporativo, consulta dados pessoais de terceiros por mera curiosidade não comete irregularidade, desde que não divulgue as informações obtidas.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a permissão de acesso não autoriza o uso sem finalidade de serviço. O acesso indevido já viola o dever de uso adequado da informação e os princípios da finalidade e da necessidade da proteção de dados.
-
-Questão doze.
-Entre os deveres do servidor federal está o de atender com presteza ao público em geral, prestando as informações requeridas, ressalvadas as protegidas por sigilo.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o artigo cento e dezesseis, inciso quinto, alínea a, da Lei oito mil cento e doze. Ele expressa a convivência entre publicidade, como regra, e sigilo, como exceção.
+Em casos práticos, exigir comunicação ao superior envolvido, tratar toda informação de auditoria como sigilosa ou toda crítica em rede social como proibida. O equilíbrio é a chave: publicidade como regra, sigilo como exceção; liberdade de expressão com limites.
 
 
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Imparcialidade: convicções pessoais não podem interferir; vale a aparência e a objetividade pelas evidências.
 
@@ -312,10 +209,68 @@ Informação: publicidade é regra, sigilo é exceção; revelar segredo do carg
 Recursos: proibido usar pessoal ou recursos materiais da repartição em atividades particulares.
 
 
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Nos termos da Lei oito mil cento e doze, de mil novecentos e noventa, é dever do servidor cumprir as ordens superiores, exceto quando manifestamente ilegais.
+
+Gabarito: certo. É a redação literal do artigo cento e dezesseis, inciso quarto. A exceção é a ilegalidade manifesta, ou seja, evidente.
+
+
+Item dois. O servidor público pode legitimamente deixar de cumprir ordem de seu superior hierárquico sempre que discordar, por razões técnicas, da solução determinada, ainda que a ordem não seja ilegal.
+
+Gabarito: errado. A discordância técnica não autoriza o descumprimento. O servidor pode registrar e fundamentar sua posição, mas deve cumprir a ordem que não seja manifestamente ilegal. A recusa injustificada pode configurar infração e, se grave, insubordinação.
+
+
+Item três. Constitui dever do servidor público federal representar contra ilegalidade, omissão ou abuso de poder.
+
+Gabarito: certo. É o inciso doze do artigo cento e dezesseis da Lei oito mil cento e doze. Ele convive com o dever de levar as irregularidades de que tiver ciência ao conhecimento da autoridade competente.
+
+
+Item quatro. De acordo com a Lei de Introdução às Normas do Direito Brasileiro, o agente público responde pessoalmente por suas decisões ou opiniões técnicas sempre que agir com culpa, ainda que leve.
+
+Gabarito: errado. O artigo vinte e oito exige dolo ou erro grosseiro. A culpa leve não basta para a responsabilização pessoal por decisões ou opiniões técnicas.
+
+
+Item cinco. Conforme a regulamentação federal da Lei de Introdução às Normas do Direito Brasileiro, considera-se erro grosseiro aquele manifesto, evidente e inescusável, praticado com culpa grave, caracterizado por ação ou omissão com elevado grau de negligência, imprudência ou imperícia.
+
+Gabarito: certo. É a definição do Decreto nove mil oitocentos e trinta, de dois mil e dezenove.
+
+
+Item seis. O dever de imparcialidade impõe ao servidor público que não possua convicções políticas, religiosas ou ideológicas, pois qualquer opinião pessoal compromete sua atuação funcional.
+
+Gabarito: errado. A imparcialidade não exige ausência de convicções, mas que elas não interfiram na atuação. O servidor deve agir com objetividade, com base em critérios técnicos e no interesse público.
+
+
+Item sete. É proibido ao servidor público federal utilizar pessoal ou recursos materiais da repartição em serviços ou atividades particulares.
+
+Gabarito: certo. É uma das proibições do artigo cento e dezessete da Lei oito mil cento e doze. Vale para bens, equipamentos de tecnologia, veículos e para o trabalho de outros servidores.
+
+
+Item oito. A revelação de segredo do qual o servidor se apropriou em razão do cargo constitui hipótese de aplicação da penalidade de demissão, nos termos da Lei oito mil cento e doze, de mil novecentos e noventa.
+
+Gabarito: certo. É o artigo cento e trinta e dois, inciso nono. A mesma conduta pode ter repercussão penal e na esfera da improbidade.
+
+
+Item nove. A probidade administrativa somente é violada quando o agente público obtém enriquecimento ilícito em razão do exercício de suas funções.
+
+Gabarito: errado. A Lei de Improbidade também prevê atos que causam lesão ao erário e atos que atentam contra os princípios da administração pública. E a probidade, como valor ético, é ainda mais ampla.
+
+
+Item dez. A autonomia técnica do auditor assegura que suas conclusões não sejam submetidas a supervisão ou revisão por instâncias superiores do órgão de controle.
+
+Gabarito: errado. Autonomia técnica protege contra interferência indevida, sem fundamento técnico. Supervisão, revisão e controle de qualidade fazem parte do trabalho e não ferem a autonomia.
+
+
+Item onze. Servidor que, com permissão técnica de acesso a sistema corporativo, consulta dados pessoais de terceiros por mera curiosidade não comete irregularidade, desde que não divulgue as informações obtidas.
+
+Gabarito: errado. A permissão de acesso não autoriza o uso sem finalidade de serviço. O acesso indevido já viola o dever de uso adequado da informação e os princípios da finalidade e da necessidade da proteção de dados.
+
+
+Item doze. Entre os deveres do servidor federal está o de atender com presteza ao público em geral, prestando as informações requeridas, ressalvadas as protegidas por sigilo.
+
+Gabarito: certo. É o artigo cento e dezesseis, inciso quinto, alínea a, da Lei oito mil cento e doze. Ele expressa a convivência entre publicidade, como regra, e sigilo, como exceção.
+
+
 ENCERRAMENTO
 
-Na próxima audioaula, vamos ao item um ponto três ponto três, Conflitos de interesses e imparcialidade: a identificação de interesses privados em conflito com a função pública e as medidas de prevenção, consulta e encaminhamento, nos termos da Lei doze mil oitocentos e treze, de dois mil e treze, e o impedimento e a suspeição no processo administrativo federal, nos termos dos artigos dezoito a vinte e um da Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove.
-
-Até lá, refaça os casos do laboratório e repita em voz alta: exceto quando manifestamente ilegais.
-
-Bons estudos.
+A próxima aula trata do item um ponto três ponto três, conflitos de interesses e imparcialidade.

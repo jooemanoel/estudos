@@ -1,27 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.2.3 DO EDITAL: POPULAÇÃO, TERRITÓRIO E TRABALHO.
-SUBITEM 1.2.3.1: Transição demográfica, envelhecimento e cuidado; desigualdades regionais, urbanas e rurais; estrutura produtiva, informalidade e mudanças tecnológicas no trabalho.
+AUDIOAULA. ITEM UM PONTO DOIS PONTO TRÊS DO EDITAL: POPULAÇÃO, TERRITÓRIO E TRABALHO
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto dois ponto três do edital da CGU, chamado população, território e trabalho. Ele tem um único subitem, o um ponto dois ponto três ponto um, com três grupos de temas, que correspondem exatamente às três palavras do título.
-
-Primeiro grupo, população: transição demográfica, envelhecimento e cuidado.
-Segundo grupo, território: desigualdades regionais, urbanas e rurais.
-Terceiro grupo, trabalho: estrutura produtiva, informalidade e mudanças tecnológicas no trabalho.
-
-Vamos seguir essa ordem, em três blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Este item é diferente dos anteriores em um ponto importante: ele trabalha com dados. A Cebraspe pode cobrar conceitos, como transição demográfica ou informalidade, mas também pode apresentar números e pedir que você os interprete corretamente. Por isso, nesta aula, vou trazer os principais dados oficiais recentes, do Censo Demográfico de dois mil e vinte e dois, das projeções populacionais do IBGE e da Pesquisa Nacional por Amostra de Domicílios Contínua, a PNAD Contínua. Não é preciso decorar cada número. O importante é conhecer a ordem de grandeza e a direção das tendências, e saber o que cada indicador mede. Lembre que os dados do mercado de trabalho mudam a cada trimestre; se a prova trouxer um número, confie no número da prova.
-
-Por que este item importa para a CGU? Porque as grandes políticas públicas que a CGU avalia, como a previdência, a saúde, a assistência social, a educação, o trabalho e o desenvolvimento regional, são diretamente afetadas pelas mudanças demográficas, pelas desigualdades territoriais e pela estrutura do mercado de trabalho. Um auditor que não entende, por exemplo, o envelhecimento da população não consegue avaliar a sustentabilidade da previdência ou a adequação da rede de saúde. E o edital, no bloco de evidências e dados, cobra justamente a leitura crítica de indicadores.
-
-As bases desta aula são os dados do IBGE e duas leis: o Estatuto da Pessoa Idosa e a Política Nacional de Cuidados, de dois mil e vinte e quatro. Como sempre, confira os dispositivos no texto oficial do Planalto e os dados no site do IBGE.
+Este é o item um ponto dois ponto três, população, território e trabalho. Ele tem um único subitem, organizado aqui em três blocos: transição demográfica, envelhecimento e cuidado; desigualdades regionais, urbanas e rurais; e estrutura produtiva, informalidade e mudanças tecnológicas no trabalho. A banca costuma cobrar os conceitos e indicadores do IBGE, a direção das tendências do Censo Demográfico de dois mil e vinte e dois e da PNAD Contínua, o Estatuto da Pessoa Idosa e a Política Nacional de Cuidados, de dois mil e vinte e quatro.
 
 
-BLOCO UM. TRANSIÇÃO DEMOGRÁFICA, ENVELHECIMENTO E CUIDADO.
+BLOCO UM: TRANSIÇÃO DEMOGRÁFICA, ENVELHECIMENTO E CUIDADO
 
 Comecemos pelo conceito de transição demográfica.
 
@@ -119,10 +104,8 @@ Repare em duas pegadinhas possíveis. Primeira: dizer que a política se dirige 
 
 Pegadinhas do bloco um. Dizer que a natalidade cai antes da mortalidade na transição demográfica. Dizer que o envelhecimento decorre apenas do aumento da longevidade. Dizer que a fecundidade brasileira está acima do nível de reposição. Dizer que a população brasileira já está em declínio. Dizer que o bônus demográfico garante crescimento. Confundir a idade de sessenta anos do Estatuto com a referência de sessenta e cinco anos usada pelo IBGE. E dizer que a Política Nacional de Cuidados se restringe a idosos ou a quem recebe cuidado.
 
-Resumo do bloco um. A transição demográfica leva de natalidade e mortalidade altas a natalidade e mortalidade baixas, com a mortalidade caindo primeiro. No Brasil, a fecundidade caiu de mais de seis filhos por mulher em mil novecentos e sessenta para cerca de um vírgula seis em dois mil e vinte e três, abaixo da reposição; o crescimento entre os censos de dois mil e dez e dois mil e vinte e dois foi o menor da história, e a população deve começar a diminuir na década de quarenta. O envelhecimento decorre principalmente da queda da fecundidade. O bônus demográfico é oportunidade temporária, não garantia. O cuidado é trabalho, desigualmente distribuído entre homens e mulheres, e a Política Nacional de Cuidados garante o direito a ser cuidado, a cuidar e ao autocuidado, com corresponsabilização.
 
-
-BLOCO DOIS. DESIGUALDADES REGIONAIS, URBANAS E RURAIS.
+BLOCO DOIS: DESIGUALDADES REGIONAIS, URBANAS E RURAIS
 
 O segundo grupo trata do território. A ideia central é que, no Brasil, o lugar onde a pessoa nasce e vive influencia fortemente as suas oportunidades, a sua renda e o seu acesso a serviços e direitos.
 
@@ -170,10 +153,8 @@ Terceira, mais técnica: no Brasil, a classificação oficial entre urbano e rur
 
 Pegadinhas do bloco dois. Dizer que as desigualdades regionais se resumem à renda. Tratar as regiões como blocos homogêneos. Dizer que a urbanização brasileira foi planejada e acompanhada de infraestrutura adequada. Dizer que a segregação socioespacial é apenas uma questão de renda, sem relação com raça. Dizer que rural é sinônimo de agrícola. E dizer que o critério oficial de urbano e rural é uniforme e baseado apenas na densidade.
 
-Resumo do bloco dois. O Brasil tem grandes desigualdades regionais, de origem histórica, com Norte e Nordeste concentrando os piores indicadores, mas as médias regionais escondem desigualdades internas. A Constituição faz da redução das desigualdades regionais um objetivo fundamental e prevê fundos de financiamento e de participação. A urbanização foi rápida e pouco planejada, produzindo segregação socioespacial e periferização; o plano diretor é obrigatório para cidades com mais de vinte mil habitantes. O rural é diverso e desigual, não se confunde com o agrícola e tem pior acesso a serviços; e o critério oficial de urbano tende a superestimar a urbanização.
 
-
-BLOCO TRÊS. ESTRUTURA PRODUTIVA, INFORMALIDADE E MUDANÇAS TECNOLÓGICAS NO TRABALHO.
+BLOCO TRÊS: ESTRUTURA PRODUTIVA, INFORMALIDADE E MUDANÇAS TECNOLÓGICAS NO TRABALHO
 
 Comecemos pela estrutura produtiva.
 
@@ -249,104 +230,25 @@ E, para você que vai trabalhar com tecnologia no setor público, duas conexões
 
 Pegadinhas do bloco três. Dizer que o desalentado é contado como desocupado. Dizer que a taxa de desocupação é calculada sobre a população total. Dizer que a informalidade se restringe a empregados sem carteira. Dizer que a informalidade se distribui igualmente entre regiões e grupos. Dizer que a heterogeneidade estrutural é uma fase transitória que desaparece naturalmente. Dizer que a tecnologia necessariamente reduz o emprego total. Dizer que o trabalho por plataforma é necessariamente formal. E dizer que teletrabalho é trabalho informal.
 
-Resumo do bloco três. A estrutura produtiva brasileira é marcada pela predominância dos serviços, pela heterogeneidade estrutural entre setores de alta e baixa produtividade e pelo debate sobre a desindustrialização precoce. Força de trabalho é a soma de ocupados e desocupados; o desocupado não trabalha, procura e está disponível; o desalentado está fora da força de trabalho; e a subutilização é o indicador mais amplo. A informalidade inclui empregados sem carteira, domésticos sem carteira, conta própria e empregadores sem CNPJ e trabalhadores familiares auxiliares, alcança mais de um terço dos ocupados e é desigual entre regiões e grupos. E as mudanças tecnológicas, como automação, inteligência artificial, plataformização e teletrabalho, destroem, criam e transformam ocupações, com efeitos que dependem de qualificação, proteção social e políticas públicas.
+
+PEGADINHAS DO ITEM
+
+Troca de sequência ou de causa. Natalidade caindo antes da mortalidade. Envelhecimento atribuído só à longevidade. Bônus demográfico como garantia.
+
+Números trocados ou desatualizados. Fecundidade acima da reposição. População já em declínio. Nível de reposição diferente de dois vírgula um. Idade de pessoa idosa no Estatuto diferente de sessenta anos.
+
+Troca de definições do IBGE. Desalentado como desocupado. Força de trabalho como população total. Informalidade só sem carteira.
+
+Homogeneização. Regiões homogêneas. Rural homogêneo e só agrícola. Informalidade igual para todos. Efeitos da tecnologia iguais para todos.
+
+Determinismo tecnológico. Tecnologia que sempre destrói emprego, ou que nunca traz riscos.
+
+Detalhes da Política Nacional de Cuidados. Três dimensões do direito: ser cuidado, cuidar e autocuidado. Público prioritário inclui quem cuida. Corresponsabilização.
+
+Leitura de dados. A banca apresenta um número e uma conclusão. Pergunte: o indicador mede o que a conclusão afirma? A queda da desocupação pode ser explicada pelo desalento? A média esconde diferenças? A comparação é entre populações com a mesma definição?
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: troca de sequência ou de causa. Natalidade caindo antes da mortalidade. Envelhecimento atribuído só à longevidade. Bônus demográfico como garantia.
-
-Segunda estratégia: números trocados ou desatualizados. Fecundidade acima da reposição. População já em declínio. Nível de reposição diferente de dois vírgula um. Idade de pessoa idosa no Estatuto diferente de sessenta anos.
-
-Terceira estratégia: troca de definições do IBGE. Desalentado como desocupado. Força de trabalho como população total. Informalidade só sem carteira.
-
-Quarta estratégia: homogeneização. Regiões homogêneas. Rural homogêneo e só agrícola. Informalidade igual para todos. Efeitos da tecnologia iguais para todos.
-
-Quinta estratégia: determinismo tecnológico. Tecnologia que sempre destrói emprego, ou que nunca traz riscos.
-
-Sexta estratégia: detalhes da Política Nacional de Cuidados. Três dimensões do direito: ser cuidado, cuidar e autocuidado. Público prioritário inclui quem cuida. Corresponsabilização.
-
-Sétima estratégia: leitura de dados. A banca apresenta um número e uma conclusão. Pergunte: o indicador mede o que a conclusão afirma? A queda da desocupação pode ser explicada pelo desalento? A média esconde diferenças? A comparação é entre populações com a mesma definição?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-A transição demográfica corresponde à passagem de um regime de altas taxas de natalidade e de mortalidade para um regime de baixas taxas, sendo comum que a mortalidade se reduza antes da natalidade, o que provoca, em uma fase intermediária, acelerado crescimento populacional.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a defasagem entre a queda da mortalidade e a queda da natalidade explica a fase de crescimento acelerado, a chamada explosão demográfica.
-
-Questão dois.
-O envelhecimento da população brasileira decorre exclusivamente do aumento da esperança de vida ao nascer, uma vez que a taxa de fecundidade total do país se mantém acima do nível de reposição populacional.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a principal causa do envelhecimento é a queda da fecundidade, que estreita a base da pirâmide etária. E a fecundidade brasileira está abaixo do nível de reposição: cerca de um vírgula seis filho por mulher em dois mil e vinte e três, ante dois vírgula um.
-
-Questão três.
-Segundo o Censo Demográfico de dois mil e vinte e dois, a taxa média de crescimento anual da população brasileira entre dois mil e dez e dois mil e vinte e dois foi a menor desde o primeiro recenseamento do país, e o índice de envelhecimento, que relaciona as pessoas de sessenta e cinco anos ou mais às crianças de zero a catorze anos, superou cinquenta idosos para cada cem crianças.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a taxa foi de zero vírgula cinquenta e dois por cento ao ano, a menor desde mil oitocentos e setenta e dois, e o índice de envelhecimento chegou a cinquenta e cinco vírgula dois.
-
-Questão quatro.
-O bônus demográfico, período em que a população em idade ativa é proporcionalmente elevada em relação à população dependente, assegura automaticamente o crescimento econômico do país, independentemente das condições de emprego e de educação.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o bônus é uma janela de oportunidade, e não uma garantia. Só se converte em crescimento com emprego produtivo, educação e investimento. E é temporário: com o envelhecimento, a razão de dependência volta a subir.
-
-Questão cinco.
-Nos termos da lei que instituiu a Política Nacional de Cuidados, o direito ao cuidado compreende o direito a ser cuidado, a cuidar e ao autocuidado, e a política deve promover a corresponsabilização social e entre homens e mulheres pela provisão de cuidados.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: são as três dimensões do direito ao cuidado e a lógica de corresponsabilização da Lei quinze mil e sessenta e nove, de dois mil e vinte e quatro.
-
-Questão seis.
-O público prioritário da Política Nacional de Cuidados restringe-se às pessoas idosas que necessitem de apoio para as atividades da vida diária, não abrangendo as trabalhadoras e os trabalhadores do cuidado.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o público prioritário inclui crianças e adolescentes, com atenção à primeira infância, pessoas idosas e pessoas com deficiência que necessitem de apoio, e trabalhadoras e trabalhadores do cuidado, remunerados e não remunerados.
-
-Questão sete.
-A análise de indicadores por grandes regiões deve ser feita com cautela, pois as médias regionais podem ocultar desigualdades significativas entre estados, entre capitais e interior e entre áreas de uma mesma cidade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: as regiões não são blocos homogêneos. A taxa de informalidade, por exemplo, varia muito entre estados, e atribuir às partes a média do todo é a falácia ecológica.
-
-Questão oito.
-O espaço rural brasileiro caracteriza-se pela homogeneidade de suas atividades, todas de natureza agropecuária, e pelo baixo nível tecnológico generalizado, o que o distingue do espaço urbano.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o rural é heterogêneo, com agronegócio altamente tecnológico, agricultura familiar, comunidades tradicionais e atividades não agrícolas. Rural não é sinônimo de agrícola nem de atrasado.
-
-Questão nove.
-Na Pesquisa Nacional por Amostra de Domicílios Contínua, são considerados informais, entre outros, os empregados do setor privado e os trabalhadores domésticos sem carteira de trabalho assinada, os trabalhadores por conta própria e os empregadores sem registro no Cadastro Nacional da Pessoa Jurídica e os trabalhadores familiares auxiliares.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a informalidade não se restringe à falta de carteira assinada: inclui também negócios e trabalhadores autônomos não formalizados.
-
-Questão dez.
-A pessoa que gostaria de trabalhar e estaria disponível, mas deixou de procurar trabalho por acreditar que não conseguiria uma vaga, é classificada pelo IBGE como desocupada e entra no cálculo da taxa de desocupação.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: essa pessoa é desalentada. Como não procurou trabalho, está fora da força de trabalho e não entra na taxa de desocupação; é captada pela taxa de subutilização, por meio da força de trabalho potencial.
-
-Questão onze.
-A noção de heterogeneidade estrutural, associada ao pensamento da CEPAL, refere-se à coexistência, em uma mesma economia, de setores e empresas de alta produtividade com setores e empresas de baixa produtividade, que ocupam parcela expressiva da força de trabalho, o que contribui para explicar a desigualdade de renda e a persistência da informalidade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: os dois polos coexistem e se reproduzem. A heterogeneidade não é uma fase transitória que desaparece sozinha.
-
-Questão doze.
-O trabalho intermediado por plataformas digitais caracteriza-se, necessariamente, por vínculo formal de emprego com plena proteção previdenciária, e a difusão de novas tecnologias, como a automação e a inteligência artificial, implica, necessariamente, a redução do número total de empregos na economia.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: em grande parte dos casos, o trabalhador por plataforma é tratado como autônomo, e a sua proteção social está em debate. E o efeito líquido da tecnologia sobre o emprego não é determinado de antemão: ela destrói, cria e transforma ocupações, com resultados que dependem de qualificação e de políticas públicas.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Transição demográfica: de natalidade e mortalidade altas para baixas. A mortalidade cai primeiro, gerando crescimento acelerado.
 
@@ -378,4 +280,69 @@ Informalidade: cerca de trinta e sete e meio por cento dos ocupados no terceiro 
 
 Tecnologia: automação, inteligência artificial, polarização, destruição criativa, plataformização e teletrabalho. Efeito líquido depende de qualificação, proteção social e políticas.
 
-Fim da aula do item um ponto dois ponto três. Na sequência do edital, o próximo é o item um ponto dois ponto quatro, diversidade e acesso a direitos. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. A transição demográfica corresponde à passagem de um regime de altas taxas de natalidade e de mortalidade para um regime de baixas taxas, sendo comum que a mortalidade se reduza antes da natalidade, o que provoca, em uma fase intermediária, acelerado crescimento populacional.
+
+Gabarito: certo. A defasagem entre a queda da mortalidade e a queda da natalidade explica a fase de crescimento acelerado, a chamada explosão demográfica.
+
+
+Item dois. O envelhecimento da população brasileira decorre exclusivamente do aumento da esperança de vida ao nascer, uma vez que a taxa de fecundidade total do país se mantém acima do nível de reposição populacional.
+
+Gabarito: errado. A principal causa do envelhecimento é a queda da fecundidade, que estreita a base da pirâmide etária. E a fecundidade brasileira está abaixo do nível de reposição: cerca de um vírgula seis filho por mulher em dois mil e vinte e três, ante dois vírgula um.
+
+
+Item três. Segundo o Censo Demográfico de dois mil e vinte e dois, a taxa média de crescimento anual da população brasileira entre dois mil e dez e dois mil e vinte e dois foi a menor desde o primeiro recenseamento do país, e o índice de envelhecimento, que relaciona as pessoas de sessenta e cinco anos ou mais às crianças de zero a catorze anos, superou cinquenta idosos para cada cem crianças.
+
+Gabarito: certo. A taxa foi de zero vírgula cinquenta e dois por cento ao ano, a menor desde mil oitocentos e setenta e dois, e o índice de envelhecimento chegou a cinquenta e cinco vírgula dois.
+
+
+Item quatro. O bônus demográfico, período em que a população em idade ativa é proporcionalmente elevada em relação à população dependente, assegura automaticamente o crescimento econômico do país, independentemente das condições de emprego e de educação.
+
+Gabarito: errado. O bônus é uma janela de oportunidade, e não uma garantia. Só se converte em crescimento com emprego produtivo, educação e investimento. E é temporário: com o envelhecimento, a razão de dependência volta a subir.
+
+
+Item cinco. Nos termos da lei que instituiu a Política Nacional de Cuidados, o direito ao cuidado compreende o direito a ser cuidado, a cuidar e ao autocuidado, e a política deve promover a corresponsabilização social e entre homens e mulheres pela provisão de cuidados.
+
+Gabarito: certo. São as três dimensões do direito ao cuidado e a lógica de corresponsabilização da Lei quinze mil e sessenta e nove, de dois mil e vinte e quatro.
+
+
+Item seis. O público prioritário da Política Nacional de Cuidados restringe-se às pessoas idosas que necessitem de apoio para as atividades da vida diária, não abrangendo as trabalhadoras e os trabalhadores do cuidado.
+
+Gabarito: errado. O público prioritário inclui crianças e adolescentes, com atenção à primeira infância, pessoas idosas e pessoas com deficiência que necessitem de apoio, e trabalhadoras e trabalhadores do cuidado, remunerados e não remunerados.
+
+
+Item sete. A análise de indicadores por grandes regiões deve ser feita com cautela, pois as médias regionais podem ocultar desigualdades significativas entre estados, entre capitais e interior e entre áreas de uma mesma cidade.
+
+Gabarito: certo. As regiões não são blocos homogêneos. A taxa de informalidade, por exemplo, varia muito entre estados, e atribuir às partes a média do todo é a falácia ecológica.
+
+
+Item oito. O espaço rural brasileiro caracteriza-se pela homogeneidade de suas atividades, todas de natureza agropecuária, e pelo baixo nível tecnológico generalizado, o que o distingue do espaço urbano.
+
+Gabarito: errado. O rural é heterogêneo, com agronegócio altamente tecnológico, agricultura familiar, comunidades tradicionais e atividades não agrícolas. Rural não é sinônimo de agrícola nem de atrasado.
+
+
+Item nove. Na Pesquisa Nacional por Amostra de Domicílios Contínua, são considerados informais, entre outros, os empregados do setor privado e os trabalhadores domésticos sem carteira de trabalho assinada, os trabalhadores por conta própria e os empregadores sem registro no Cadastro Nacional da Pessoa Jurídica e os trabalhadores familiares auxiliares.
+
+Gabarito: certo. A informalidade não se restringe à falta de carteira assinada: inclui também negócios e trabalhadores autônomos não formalizados.
+
+
+Item dez. A pessoa que gostaria de trabalhar e estaria disponível, mas deixou de procurar trabalho por acreditar que não conseguiria uma vaga, é classificada pelo IBGE como desocupada e entra no cálculo da taxa de desocupação.
+
+Gabarito: errado. Essa pessoa é desalentada. Como não procurou trabalho, está fora da força de trabalho e não entra na taxa de desocupação; é captada pela taxa de subutilização, por meio da força de trabalho potencial.
+
+
+Item onze. A noção de heterogeneidade estrutural, associada ao pensamento da CEPAL, refere-se à coexistência, em uma mesma economia, de setores e empresas de alta produtividade com setores e empresas de baixa produtividade, que ocupam parcela expressiva da força de trabalho, o que contribui para explicar a desigualdade de renda e a persistência da informalidade.
+
+Gabarito: certo. Os dois polos coexistem e se reproduzem. A heterogeneidade não é uma fase transitória que desaparece sozinha.
+
+
+Item doze. O trabalho intermediado por plataformas digitais caracteriza-se, necessariamente, por vínculo formal de emprego com plena proteção previdenciária, e a difusão de novas tecnologias, como a automação e a inteligência artificial, implica, necessariamente, a redução do número total de empregos na economia.
+
+Gabarito: errado. Em grande parte dos casos, o trabalhador por plataforma é tratado como autônomo, e a sua proteção social está em debate. E o efeito líquido da tecnologia sobre o emprego não é determinado de antemão: ela destrói, cria e transforma ocupações, com resultados que dependem de qualificação e de políticas públicas.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto dois ponto quatro, diversidade e acesso a direitos.

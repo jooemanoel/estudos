@@ -1,31 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.8 DO EDITAL: CONSEQUÊNCIAS E RESPOSTAS À CORRUPÇÃO.
-SUBITEM 1.1.8.1: Efeitos sobre direitos, desigualdades, competição, alocação de recursos, qualidade dos serviços e confiança institucional.
-SUBITEM 1.1.8.2: Relações entre prevenção, detecção, responsabilização e reparação; controles democráticos, participação e capacidades estatais.
-SUBITEM 1.1.8.3: Avaliação crítica das respostas e de seus efeitos não pretendidos, preservados o devido processo e a continuidade de serviços essenciais.
+AUDIOAULA. ITEM UM PONTO UM PONTO OITO DO EDITAL: CONSEQUÊNCIAS E RESPOSTAS À CORRUPÇÃO
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto oito do edital da CGU, chamado consequências e respostas à corrupção. Ele fecha a sequência de três itens sobre corrupção e tem três subitens.
-
-O primeiro, um ponto um ponto oito ponto um, trata dos efeitos da corrupção: sobre direitos, desigualdades, competição, alocação de recursos, qualidade dos serviços e confiança institucional.
-
-O segundo, um ponto um ponto oito ponto dois, trata das respostas: as relações entre prevenção, detecção, responsabilização e reparação, e o papel dos controles democráticos, da participação e das capacidades estatais.
-
-O terceiro, um ponto um ponto oito ponto três, pede uma avaliação crítica das respostas e dos seus efeitos não pretendidos, preservados o devido processo e a continuidade de serviços essenciais.
-
-Vamos organizar a aula em três blocos, um para cada subitem. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Recapitulando a sequência. No item um ponto um ponto seis, vimos o que é corrupção. No um ponto um ponto sete, por que ela se reproduz. Agora, o que ela causa e como responder. E repare no terceiro subitem, porque ele é a marca deste edital: não basta combater a corrupção; é preciso avaliar se o combate funciona e se ele não está produzindo danos que não deveria. O edital pede um olhar maduro, que não confunde rigor com punitivismo, nem garantias com impunidade.
-
-Para o futuro auditor da CGU, este item é praticamente uma descrição do trabalho. A CGU atua na prevenção, com a promoção da integridade e da transparência; na detecção, com a auditoria e a ouvidoria; na responsabilização, com a correição e os processos contra empresas; e na reparação, com os acordos de leniência e o acompanhamento do ressarcimento. Entender como essas funções se relacionam é entender a lógica do próprio órgão.
-
-As bases deste item são de três tipos. Conceituais, sobre os efeitos econômicos e sociais da corrupção. Normativas, com destaque para a Lei Anticorrupção, de dois mil e treze; a lei que protege quem denuncia, de dois mil e dezoito, alterada pelo pacote anticrime de dois mil e dezenove; a Lei de Licitações e Contratos, de dois mil e vinte e um; e a Lei de Introdução às Normas do Direito Brasileiro, nas alterações de dois mil e dezoito. E analíticas, na parte de avaliação crítica. Como sempre, confira os dispositivos no texto oficial do Planalto.
+Este é o item um ponto um ponto oito, consequências e respostas à corrupção. Ele tem três subitens, tratados aqui em três blocos: os efeitos da corrupção; as respostas, com prevenção, detecção, responsabilização e reparação; e a avaliação crítica das respostas e de seus efeitos não pretendidos. A banca costuma cobrar a Lei Anticorrupção, de dois mil e treze, a lei de proteção a quem denuncia, de dois mil e dezoito, alterada pelo pacote anticrime de dois mil e dezenove, a Lei de Licitações e Contratos, de dois mil e vinte e um, e as alterações de dois mil e dezoito na Lei de Introdução às Normas do Direito Brasileiro.
 
 
-BLOCO UM. OS EFEITOS DA CORRUPÇÃO.
+BLOCO UM: OS EFEITOS DA CORRUPÇÃO
 
 O edital lista seis efeitos. Vamos a cada um e, no final, à ligação entre eles.
 
@@ -81,10 +62,8 @@ Agora, uma tese que a banca pode explorar como pegadinha: a tese da graxa nas en
 
 Uma última observação, sobre a medição. Os efeitos da corrupção são difíceis de medir, porque a corrupção é, por natureza, oculta. Os indicadores mais conhecidos, como o Índice de Percepção da Corrupção, medem percepção, e não ocorrência. Outros indicadores medem experiências relatadas, denúncias, casos detectados ou sanções aplicadas, e cada um tem limites. O edital trata disso em detalhe no item sobre leitura de dados e indicadores. Por ora, guarde: percepção, experiência, detecção e sanção são coisas diferentes, e nenhuma delas é um retrato direto da corrupção real.
 
-Resumo do bloco um. A corrupção nega direitos e quebra a igualdade de tratamento. Aprofunda desigualdades, pesando mais sobre os pobres e favorecendo quem já tem poder. Distorce a competição, mesmo quando o preço parece adequado. Distorce a escolha de onde gastar, privilegiando projetos com mais oportunidade de desvio. Piora a qualidade dos serviços. E corrói a confiança, alimentando um círculo vicioso. A tese de que ela seria eficiente é amplamente contestada.
 
-
-BLOCO DOIS. AS RESPOSTAS: PREVENÇÃO, DETECÇÃO, RESPONSABILIZAÇÃO E REPARAÇÃO.
+BLOCO DOIS: AS RESPOSTAS: PREVENÇÃO, DETECÇÃO, RESPONSABILIZAÇÃO E REPARAÇÃO
 
 O edital lista quatro tipos de resposta e pede as relações entre elas. Primeiro, cada uma.
 
@@ -182,10 +161,8 @@ E a ponte com a aula anterior: se a corrupção sistêmica é um problema de aç
 
 Pegadinhas do bloco dois. Dizer que prevenção e responsabilização são excludentes. Dizer que o acordo de leniência exime a empresa de reparar o dano. Trocar a redução de multa de até dois terços por outro valor. Dizer que a identidade do informante pode ser revelada livremente. Trocar o ressarcimento em dobro ou a recompensa de cinco por cento. Dizer que o combate à corrupção depende exclusivamente de órgãos especializados. E dizer que um programa de integridade apenas formal atenua sanções.
 
-Resumo do bloco dois. Prevenção reduz oportunidades e incentivos. Detecção identifica o ilícito, e a proteção ao denunciante é peça-chave. Responsabilização atribui consequências, em várias esferas, com garantias; para empresas, há programa de integridade como atenuante e acordo de leniência, que reduz sanções mas não exime de reparar integralmente o dano. Reparação recompõe o prejuízo e o serviço. As quatro se complementam e formam um ciclo. E dependem de controles democráticos, de participação e de capacidades estatais.
 
-
-BLOCO TRÊS. AVALIAÇÃO CRÍTICA DAS RESPOSTAS E EFEITOS NÃO PRETENDIDOS.
+BLOCO TRÊS: AVALIAÇÃO CRÍTICA DAS RESPOSTAS E EFEITOS NÃO PRETENDIDOS
 
 Este é o subitem que distingue este edital. Ele pede que você avalie as respostas à corrupção com o mesmo espírito crítico com que se avalia qualquer política pública: elas funcionam? A que custo? Com que efeitos colaterais?
 
@@ -261,104 +238,23 @@ A mensagem final do edital é de equilíbrio. Não se trata de escolher entre co
 
 Pegadinhas do bloco três. Dizer que o devido processo é obstáculo ao combate à corrupção. Dizer que preservar a continuidade do contrato significa deixar de responsabilizar. Dizer que mais controle é sempre melhor. Dizer que a efetividade se mede pelo número de punições. Dizer que o aumento de casos detectados prova o aumento da corrupção. E dizer que as respostas à corrupção não produzem efeitos colaterais quando são bem-intencionadas.
 
-Resumo do bloco três. As respostas à corrupção podem gerar efeitos não pretendidos: paralisia decisória, burocratização, interrupção de serviços e obras, destruição de valor econômico, violação de garantias, uso seletivo, deslocamento, leitura enganosa de indicadores e reforço do cinismo. A Lei de Licitações condiciona a suspensão ou a nulidade de contratos ao interesse público, permitindo a continuidade com indenização, sem prejuízo da responsabilização. O devido processo é condição de efetividade. E a avaliação crítica olha para efetividade, proporcionalidade, continuidade, garantias, efeitos distributivos, imparcialidade, sustentabilidade e evidências.
+
+PEGADINHAS DO ITEM
+
+Redução dos efeitos ao dinheiro. A banca diz que a corrupção só causa dano quando há sobrepreço ou prejuízo financeiro. Lembre os efeitos sobre direitos, desigualdade, competição, alocação, qualidade e confiança.
+
+A tese da graxa apresentada como consenso. Ela foi defendida por alguns autores e é amplamente contestada.
+
+Falsa oposição entre respostas. Prevenção contra repressão. Combate à corrupção contra garantias. Responsabilização contra continuidade dos serviços.
+
+Troca de números e de regras. Redução de multa de até dois terços na leniência. Reparação integral não dispensada. Ressarcimento em dobro e recompensa de até cinco por cento ao informante. Identidade revelada só em hipóteses específicas, com comunicação prévia e concordância.
+
+Confusão entre etapas. Indício tratado como conclusão. Detecção tratada como responsabilização.
+
+Leitura ingênua de indicadores. Mais casos detectados igual a mais corrupção. Mais punições igual a mais efetividade.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: redução dos efeitos ao dinheiro. A banca diz que a corrupção só causa dano quando há sobrepreço ou prejuízo financeiro. Lembre os efeitos sobre direitos, desigualdade, competição, alocação, qualidade e confiança.
-
-Segunda estratégia: a tese da graxa apresentada como consenso. Ela foi defendida por alguns autores e é amplamente contestada.
-
-Terceira estratégia: falsa oposição entre respostas. Prevenção contra repressão. Combate à corrupção contra garantias. Responsabilização contra continuidade dos serviços.
-
-Quarta estratégia: troca de números e de regras. Redução de multa de até dois terços na leniência. Reparação integral não dispensada. Ressarcimento em dobro e recompensa de até cinco por cento ao informante. Identidade revelada só em hipóteses específicas, com comunicação prévia e concordância.
-
-Quinta estratégia: confusão entre etapas. Indício tratado como conclusão. Detecção tratada como responsabilização.
-
-Sexta estratégia: leitura ingênua de indicadores. Mais casos detectados igual a mais corrupção. Mais punições igual a mais efetividade.
-
-Sétima estratégia: situação hipotética. Diante de um caso, pergunte. Qual é o efeito da corrupção aqui, além do financeiro? Qual resposta é adequada: prevenir, detectar, responsabilizar ou reparar? A resposta proposta preserva as garantias e a continuidade do serviço? Qual é o efeito não pretendido possível?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-A corrupção tende a afetar de modo mais intenso as pessoas que dependem dos serviços públicos e dispõem de menos recursos, o que permite associá-la tanto à violação de direitos quanto ao aprofundamento de desigualdades sociais.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: os mais pobres dependem mais dos serviços públicos, a pequena corrupção pesa proporcionalmente mais sobre a sua renda, e os benefícios tendem a se concentrar em quem tem poder e acesso.
-
-Questão dois.
-Constitui entendimento consolidado na literatura que a corrupção produz efeitos econômicos líquidos positivos em países com burocracias lentas, por permitir contornar obstáculos e agilizar decisões administrativas.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: essa é a tese da graxa nas engrenagens, defendida por alguns autores nos anos sessenta e amplamente contestada. A corrupção incentiva a criação de mais obstáculos e gera custos sistêmicos que superam ganhos pontuais.
-
-Questão três.
-Em licitação na qual a empresa vencedora tenha pago vantagem indevida a agente público, não se pode falar em distorção da competição se o preço contratado for compatível com os valores de mercado.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a corrupção quebra a igualdade de condições, afasta concorrentes honestos, cria barreiras à entrada e premia relações em vez de eficiência. O dano competitivo não se limita ao sobrepreço de um contrato.
-
-Questão quatro.
-A corrupção pode distorcer a alocação de recursos públicos ao favorecer projetos que oferecem maiores oportunidades de ganhos ilícitos, como obras de grande porte e contratos complexos, em detrimento de gastos socialmente prioritários, como a manutenção de serviços existentes.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a corrupção não só desvia parte dos recursos, mas distorce a escolha de onde gastar, afastando a alocação das prioridades sociais.
-
-Questão cinco.
-O acordo de leniência celebrado com base na Lei Anticorrupção exime a pessoa jurídica da obrigação de reparar o dano causado, em contrapartida à colaboração efetiva com as investigações.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a lei é expressa: o acordo de leniência não exime a pessoa jurídica da obrigação de reparar integralmente o dano causado. A leniência reduz sanções, mas não perdoa o prejuízo.
-
-Questão seis.
-O cumprimento do acordo de leniência pode isentar a pessoa jurídica de determinadas sanções e reduzir em até dois terços o valor da multa aplicável, desde que a colaboração seja efetiva e resulte na identificação dos demais envolvidos, quando couber, e na obtenção célere de informações e documentos que comprovem o ilícito.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: são os requisitos e os benefícios do artigo dezesseis da Lei Anticorrupção. Guarde a redução de até dois terços da multa.
-
-Questão sete.
-Nos termos da legislação que trata do informante de ilícitos contra a administração pública, a sua identidade deve ser preservada, só podendo ser revelada em caso de relevante interesse público ou interesse concreto para a apuração dos fatos, e a prática de retaliação contra ele configura falta disciplinar grave, sujeitando o agente à demissão a bem do serviço público.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: são regras da lei de dois mil e dezoito, incluídas pelo pacote anticrime. A revelação da identidade exige ainda comunicação prévia ao informante e a sua concordância formal. Há também ressarcimento em dobro por danos materiais decorrentes de retaliação.
-
-Questão oito.
-Prevenção e responsabilização constituem estratégias excludentes de enfrentamento da corrupção, de modo que a priorização de medidas preventivas torna dispensável a responsabilização dos agentes envolvidos em ilícitos.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: as respostas se complementam e formam um ciclo. Prevenção sem responsabilização perde credibilidade, e responsabilização sem prevenção não altera as oportunidades que geram novos casos.
-
-Questão nove.
-Constatada irregularidade insanável na execução de contrato de prestação de serviço de saúde, a decisão sobre a suspensão da execução ou sobre a declaração de nulidade somente será adotada se revelar medida de interesse público; caso contrário, o poder público deverá optar pela continuidade do contrato e pela solução da irregularidade por meio de indenização, sem prejuízo da apuração de responsabilidade e da aplicação das penalidades cabíveis.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o artigo cento e quarenta e sete da Lei de Licitações e Contratos. Preservar a continuidade do serviço essencial não significa impunidade: a apuração e as penalidades continuam.
-
-Questão dez.
-As garantias do devido processo legal representam obstáculo à efetividade das respostas à corrupção, razão pela qual a sua flexibilização tende a aumentar a responsabilização dos agentes envolvidos.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o devido processo é condição de legitimidade e de efetividade. Processos conduzidos com violação de garantias podem ser anulados, levando justamente à ausência de responsabilização.
-
-Questão onze.
-O aumento do número de irregularidades detectadas após a ampliação das auditorias e do cruzamento de dados em determinado órgão demonstra que a corrupção nesse órgão aumentou no período.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o aumento pode refletir maior capacidade de detecção, e não maior ocorrência. Detecção e ocorrência são coisas diferentes, e indicadores de casos detectados não são retrato direto da corrupção real.
-
-Questão doze.
-Entre os efeitos não pretendidos de respostas à corrupção, encontra-se a paralisia decisória, em que gestores, temendo ser responsabilizados por erros ou divergências de interpretação, deixam de tomar decisões necessárias ou optam sempre pelos procedimentos mais formais, ainda que menos adequados ao interesse público.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a chamada administração defensiva. A lei de introdução, ao limitar a responsabilidade pessoal a dolo ou erro grosseiro, e a reforma da Lei de Improbidade, ao exigir dolo, buscam reduzir esse efeito sem proteger quem age de má-fé.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Efeitos da corrupção: nega direitos e quebra a igualdade de tratamento; aprofunda desigualdades; distorce a competição, mesmo com preço adequado; distorce a escolha de onde gastar; piora os serviços; corrói a confiança, em círculo vicioso.
 
@@ -380,4 +276,69 @@ Lei de Licitações, artigo cento e quarenta e sete: suspender ou anular só se 
 
 Devido processo é condição de efetividade. Rigor e garantias não são opostos.
 
-Fim da aula do item um ponto um ponto oito, que encerra a sequência sobre corrupção. Na sequência do edital, o próximo é o item um ponto um ponto nove, Estado e modelos de desenvolvimento econômico. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. A corrupção tende a afetar de modo mais intenso as pessoas que dependem dos serviços públicos e dispõem de menos recursos, o que permite associá-la tanto à violação de direitos quanto ao aprofundamento de desigualdades sociais.
+
+Gabarito: certo. Os mais pobres dependem mais dos serviços públicos, a pequena corrupção pesa proporcionalmente mais sobre a sua renda, e os benefícios tendem a se concentrar em quem tem poder e acesso.
+
+
+Item dois. Constitui entendimento consolidado na literatura que a corrupção produz efeitos econômicos líquidos positivos em países com burocracias lentas, por permitir contornar obstáculos e agilizar decisões administrativas.
+
+Gabarito: errado. Essa é a tese da graxa nas engrenagens, defendida por alguns autores nos anos sessenta e amplamente contestada. A corrupção incentiva a criação de mais obstáculos e gera custos sistêmicos que superam ganhos pontuais.
+
+
+Item três. Em licitação na qual a empresa vencedora tenha pago vantagem indevida a agente público, não se pode falar em distorção da competição se o preço contratado for compatível com os valores de mercado.
+
+Gabarito: errado. A corrupção quebra a igualdade de condições, afasta concorrentes honestos, cria barreiras à entrada e premia relações em vez de eficiência. O dano competitivo não se limita ao sobrepreço de um contrato.
+
+
+Item quatro. A corrupção pode distorcer a alocação de recursos públicos ao favorecer projetos que oferecem maiores oportunidades de ganhos ilícitos, como obras de grande porte e contratos complexos, em detrimento de gastos socialmente prioritários, como a manutenção de serviços existentes.
+
+Gabarito: certo. A corrupção não só desvia parte dos recursos, mas distorce a escolha de onde gastar, afastando a alocação das prioridades sociais.
+
+
+Item cinco. O acordo de leniência celebrado com base na Lei Anticorrupção exime a pessoa jurídica da obrigação de reparar o dano causado, em contrapartida à colaboração efetiva com as investigações.
+
+Gabarito: errado. A lei é expressa: o acordo de leniência não exime a pessoa jurídica da obrigação de reparar integralmente o dano causado. A leniência reduz sanções, mas não perdoa o prejuízo.
+
+
+Item seis. O cumprimento do acordo de leniência pode isentar a pessoa jurídica de determinadas sanções e reduzir em até dois terços o valor da multa aplicável, desde que a colaboração seja efetiva e resulte na identificação dos demais envolvidos, quando couber, e na obtenção célere de informações e documentos que comprovem o ilícito.
+
+Gabarito: certo. São os requisitos e os benefícios do artigo dezesseis da Lei Anticorrupção. Guarde a redução de até dois terços da multa.
+
+
+Item sete. Nos termos da legislação que trata do informante de ilícitos contra a administração pública, a sua identidade deve ser preservada, só podendo ser revelada em caso de relevante interesse público ou interesse concreto para a apuração dos fatos, e a prática de retaliação contra ele configura falta disciplinar grave, sujeitando o agente à demissão a bem do serviço público.
+
+Gabarito: certo. São regras da lei de dois mil e dezoito, incluídas pelo pacote anticrime. A revelação da identidade exige ainda comunicação prévia ao informante e a sua concordância formal. Há também ressarcimento em dobro por danos materiais decorrentes de retaliação.
+
+
+Item oito. Prevenção e responsabilização constituem estratégias excludentes de enfrentamento da corrupção, de modo que a priorização de medidas preventivas torna dispensável a responsabilização dos agentes envolvidos em ilícitos.
+
+Gabarito: errado. As respostas se complementam e formam um ciclo. Prevenção sem responsabilização perde credibilidade, e responsabilização sem prevenção não altera as oportunidades que geram novos casos.
+
+
+Item nove. Constatada irregularidade insanável na execução de contrato de prestação de serviço de saúde, a decisão sobre a suspensão da execução ou sobre a declaração de nulidade somente será adotada se revelar medida de interesse público; caso contrário, o poder público deverá optar pela continuidade do contrato e pela solução da irregularidade por meio de indenização, sem prejuízo da apuração de responsabilidade e da aplicação das penalidades cabíveis.
+
+Gabarito: certo. É o artigo cento e quarenta e sete da Lei de Licitações e Contratos. Preservar a continuidade do serviço essencial não significa impunidade: a apuração e as penalidades continuam.
+
+
+Item dez. As garantias do devido processo legal representam obstáculo à efetividade das respostas à corrupção, razão pela qual a sua flexibilização tende a aumentar a responsabilização dos agentes envolvidos.
+
+Gabarito: errado. O devido processo é condição de legitimidade e de efetividade. Processos conduzidos com violação de garantias podem ser anulados, levando justamente à ausência de responsabilização.
+
+
+Item onze. O aumento do número de irregularidades detectadas após a ampliação das auditorias e do cruzamento de dados em determinado órgão demonstra que a corrupção nesse órgão aumentou no período.
+
+Gabarito: errado. O aumento pode refletir maior capacidade de detecção, e não maior ocorrência. Detecção e ocorrência são coisas diferentes, e indicadores de casos detectados não são retrato direto da corrupção real.
+
+
+Item doze. Entre os efeitos não pretendidos de respostas à corrupção, encontra-se a paralisia decisória, em que gestores, temendo ser responsabilizados por erros ou divergências de interpretação, deixam de tomar decisões necessárias ou optam sempre pelos procedimentos mais formais, ainda que menos adequados ao interesse público.
+
+Gabarito: certo. É a chamada administração defensiva. A lei de introdução, ao limitar a responsabilidade pessoal a dolo ou erro grosseiro, e a reforma da Lei de Improbidade, ao exigir dolo, buscam reduzir esse efeito sem proteger quem age de má-fé.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto nove, Estado e modelos de desenvolvimento econômico.

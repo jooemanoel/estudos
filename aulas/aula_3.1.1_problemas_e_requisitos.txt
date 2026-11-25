@@ -1,29 +1,12 @@
-AUDIOAULA. Concurso da CGU, Auditor Federal de Finanças e Controle, especialidade Desenvolvimento de Sistemas.
-Item três, um, um do edital: Problemas e requisitos.
+AUDIOAULA. ITEM TRÊS PONTO UM PONTO UM DO EDITAL: PROBLEMAS E REQUISITOS
 
 
-BLOCO ZERO. ABERTURA.
+ABERTURA
 
-Olá. Esta é a audioaula do item três, um, um do edital da CGU: Problemas e requisitos.
-
-Esse é o tópico que abre o bloco Engenharia de Software e Programação. Ele trata do que vem antes do código: entender o problema, saber quem é afetado e definir o que a solução precisa cumprir.
-
-São cinco subitens, e vamos seguir a ordem do edital.
-
-Primeiro, necessidades de usuários.
-Segundo, requisitos funcionais e não funcionais.
-Terceiro, restrições e critérios de aceitação.
-Quarto, desenho centrado nas pessoas.
-Quinto, as relações entre problema público, processo de trabalho e solução digital.
-
-No final, faremos uma revisão com doze afirmações no estilo Cebraspe, para você julgar como certo ou errado.
-
-O tom do edital neste item é aplicado. Espere situações de um órgão público em que você precisa identificar o problema real, classificar requisitos e julgar se a solução proposta ataca a causa.
-
-Vamos lá.
+Este é o item três ponto um ponto um, problemas e requisitos, que abre o bloco de engenharia de software e programação. Ele tem cinco subitens, tratados aqui em cinco blocos: necessidades de usuários; requisitos funcionais e não funcionais; restrições e critérios de aceitação; desenho centrado nas pessoas; e relações entre problema público, processo de trabalho e solução digital. A banca costuma cobrar situações aplicadas de um órgão público, em que é preciso identificar o problema real, classificar requisitos e julgar se a solução proposta ataca a causa.
 
 
-BLOCO UM. NECESSIDADES DE USUÁRIOS.
+BLOCO UM: NECESSIDADES DE USUÁRIOS
 
 Comece por uma distinção. Necessidade é o problema que a pessoa precisa resolver. Requisito é a tradução dessa necessidade em algo que o sistema deve cumprir.
 
@@ -91,7 +74,7 @@ Volatilidade: os requisitos mudam com o tempo. Mudança é esperada e deve ser g
 E conflito: partes interessadas querem coisas incompatíveis. Isso se resolve com negociação e priorização, e não por decisão isolada do desenvolvedor.
 
 
-BLOCO DOIS. REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS.
+BLOCO DOIS: REQUISITOS FUNCIONAIS E NÃO FUNCIONAIS
 
 A distinção central é esta. O requisito funcional diz o que o sistema faz. O requisito não funcional diz com que qualidade, ou sob quais condições, ele faz.
 
@@ -177,7 +160,7 @@ Verificação e validação. Verificação pergunta: construímos o produto corr
 E a técnica de priorização MoSCoW, que classifica os requisitos em quatro grupos: deve ter, deveria ter, poderia ter e não terá agora.
 
 
-BLOCO TRÊS. RESTRIÇÕES E CRITÉRIOS DE ACEITAÇÃO.
+BLOCO TRÊS: RESTRIÇÕES E CRITÉRIOS DE ACEITAÇÃO
 
 Restrição limita as soluções possíveis. Critério de aceitação define quando um requisito foi atendido. A restrição atua antes de construir. O critério atua na hora de aceitar a entrega.
 
@@ -264,7 +247,7 @@ Existe ainda a definição de preparado, que diz se um item está claro o bastan
 Uma história só está concluída quando atende aos seus critérios de aceitação e também à definição de pronto. As duas coisas.
 
 
-BLOCO QUATRO. DESENHO CENTRADO NAS PESSOAS.
+BLOCO QUATRO: DESENHO CENTRADO NAS PESSOAS
 
 Desenho centrado nas pessoas é projetar a partir do entendimento de quem usa, do que essa pessoa precisa fazer e de onde ela faz, com avaliação repetida junto a usuários reais.
 
@@ -353,7 +336,7 @@ Peça a informação uma vez só. Não exija do cidadão aquilo que a administra
 E uma última ressalva. Envolver usuários não é fazer tudo o que eles pedem. É confrontar as soluções com evidências de uso.
 
 
-BLOCO CINCO. PROBLEMA PÚBLICO, PROCESSO DE TRABALHO E SOLUÇÃO DIGITAL.
+BLOCO CINCO: PROBLEMA PÚBLICO, PROCESSO DE TRABALHO E SOLUÇÃO DIGITAL
 
 A ideia central deste bloco cabe em uma frase. A solução digital é um meio. Ela só gera valor se melhorar um processo de trabalho que, por sua vez, enfrenta um problema público.
 
@@ -454,62 +437,7 @@ Que alternativas existem, inclusive as não digitais e as que já estão prontas
 E como saberemos que deu certo?
 
 
-BLOCO SEIS. REVISÃO NO ESTILO CEBRASPE.
-
-Vamos às afirmações. Depois de cada uma, pense na resposta antes de ouvir o gabarito. Se precisar, pause o áudio.
-
-Afirmação um. No levantamento de requisitos, deve-se registrar fielmente a solução solicitada pelo usuário, pois ele é quem melhor conhece a própria necessidade.
-
-Gabarito: errado. O usuário conhece o problema. A solução que ele pede deve ser investigada até se chegar à necessidade.
-
-Afirmação dois. A observação é técnica adequada quando os usuários têm dificuldade de descrever como executam suas tarefas.
-
-Gabarito: certo. A observação capta o conhecimento tácito e o trabalho real.
-
-Afirmação três. As partes interessadas de um sistema limitam-se aos seus usuários finais.
-
-Gabarito: errado. Incluem também o demandante, o patrocinador, os gestores, as áreas de apoio e os afetados indiretos.
-
-Afirmação quatro. O requisito segundo o qual o sistema deve responder às consultas em até dois segundos é funcional.
-
-Gabarito: errado. É não funcional, de desempenho.
-
-Afirmação cinco. Requisitos não funcionais são menos críticos que os funcionais, pois não afetam o funcionamento do sistema.
-
-Gabarito: errado. Uma falha em requisito não funcional pode inutilizar o sistema inteiro.
-
-Afirmação seis. Validação consiste em verificar se o produto foi construído conforme a especificação.
-
-Gabarito: errado. Isso é verificação. Validação confirma que foi construído o produto certo.
-
-Afirmação sete. Premissa é uma limitação imposta ao projeto, enquanto restrição é uma hipótese assumida como verdadeira.
-
-Gabarito: errado. Os conceitos estão trocados.
-
-Afirmação oito. Critérios de aceitação são específicos de cada história, ao passo que a definição de pronto se aplica a todos os itens.
-
-Gabarito: certo. A diferença está na abrangência.
-
-Afirmação nove. Segundo a norma ISO, usabilidade envolve eficácia, eficiência e satisfação em um contexto de uso específico.
-
-Gabarito: certo. É a definição da norma.
-
-Afirmação dez. A avaliação heurística é realizada por usuários reais executando tarefas no sistema.
-
-Gabarito: errado. A avaliação heurística é feita por especialistas. Com usuários reais, é teste de usabilidade.
-
-Afirmação onze. A implantação do sistema no prazo e no custo previstos demonstra que o problema público foi resolvido.
-
-Gabarito: errado. Isso é produto. Resultado é a mudança no problema.
-
-Afirmação doze. Recomenda-se automatizar o processo tal como ele é executado hoje e simplificá-lo depois, com o sistema em produção.
-
-Gabarito: errado. Primeiro se simplifica, depois se automatiza.
-
-
-BLOCO SETE. ENCERRAMENTO.
-
-Para fechar, as cinco ideias que você deve levar desta aula, uma por subitem.
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Um. O usuário pede soluções. O seu trabalho é chegar à necessidade.
 
@@ -521,4 +449,69 @@ Quatro. Projeto centrado nas pessoas é iterativo, envolve o usuário o tempo to
 
 Cinco. Software é meio. Simplifique o processo antes de automatizar, e meça o resultado, e não a entrega.
 
-Bons estudos, e até a próxima aula.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. No levantamento de requisitos, deve-se registrar fielmente a solução solicitada pelo usuário, pois ele é quem melhor conhece a própria necessidade.
+
+Gabarito: errado. O usuário conhece o problema. A solução que ele pede deve ser investigada até se chegar à necessidade.
+
+
+Item dois. A observação é técnica adequada quando os usuários têm dificuldade de descrever como executam suas tarefas.
+
+Gabarito: certo. A observação capta o conhecimento tácito e o trabalho real.
+
+
+Item três. As partes interessadas de um sistema limitam-se aos seus usuários finais.
+
+Gabarito: errado. Incluem também o demandante, o patrocinador, os gestores, as áreas de apoio e os afetados indiretos.
+
+
+Item quatro. O requisito segundo o qual o sistema deve responder às consultas em até dois segundos é funcional.
+
+Gabarito: errado. É não funcional, de desempenho.
+
+
+Item cinco. Requisitos não funcionais são menos críticos que os funcionais, pois não afetam o funcionamento do sistema.
+
+Gabarito: errado. Uma falha em requisito não funcional pode inutilizar o sistema inteiro.
+
+
+Item seis. Validação consiste em verificar se o produto foi construído conforme a especificação.
+
+Gabarito: errado. Isso é verificação. Validação confirma que foi construído o produto certo.
+
+
+Item sete. Premissa é uma limitação imposta ao projeto, enquanto restrição é uma hipótese assumida como verdadeira.
+
+Gabarito: errado. Os conceitos estão trocados.
+
+
+Item oito. Critérios de aceitação são específicos de cada história, ao passo que a definição de pronto se aplica a todos os itens.
+
+Gabarito: certo. A diferença está na abrangência.
+
+
+Item nove. Segundo a norma ISO, usabilidade envolve eficácia, eficiência e satisfação em um contexto de uso específico.
+
+Gabarito: certo. É a definição da norma.
+
+
+Item dez. A avaliação heurística é realizada por usuários reais executando tarefas no sistema.
+
+Gabarito: errado. A avaliação heurística é feita por especialistas. Com usuários reais, é teste de usabilidade.
+
+
+Item onze. A implantação do sistema no prazo e no custo previstos demonstra que o problema público foi resolvido.
+
+Gabarito: errado. Isso é produto. Resultado é a mudança no problema.
+
+
+Item doze. Recomenda-se automatizar o processo tal como ele é executado hoje e simplificá-lo depois, com o sistema em produção.
+
+Gabarito: errado. Primeiro se simplifica, depois se automatiza.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto um ponto dois, programação e correção.

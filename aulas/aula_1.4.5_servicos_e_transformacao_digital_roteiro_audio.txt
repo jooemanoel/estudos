@@ -1,8 +1,14 @@
-Item um ponto quatro ponto cinco do edital: serviços e transformação digital. O subitem um ponto quatro ponto cinco ponto um reúne quatro temas, que serão tratados em quatro blocos, nesta ordem: orientação ao usuário; simplificação e acessibilidade; coordenação de serviços; e oportunidades e riscos da automação e da inteligência artificial na administração. A banca costuma cobrar a letra do Código de Defesa do Usuário do Serviço Público, as dispensas da lei de desburocratização, o alcance federativo da Lei do Governo Digital e o direito de revisão de decisões automatizadas na Lei Geral de Proteção de Dados.
+AUDIOAULA. ITEM UM PONTO QUATRO PONTO CINCO DO EDITAL: SERVIÇOS E TRANSFORMAÇÃO DIGITAL
+
+
+ABERTURA
+
+Este é o item um ponto quatro ponto cinco, serviços e transformação digital. Ele tem um único subitem, organizado aqui em quatro blocos: orientação ao usuário; simplificação e acessibilidade; coordenação de serviços; e oportunidades e riscos da automação e da inteligência artificial na administração. A banca costuma cobrar a letra do Código de Defesa do Usuário do Serviço Público, as dispensas da lei de desburocratização, o alcance federativo da Lei do Governo Digital e o direito de revisão de decisões automatizadas na Lei Geral de Proteção de Dados.
+
+
+BLOCO UM: ORIENTAÇÃO AO USUÁRIO
 
 O item anterior tratou do orçamento como instrumento de escolha; este trata da ponta da entrega, onde a escolha vira serviço para o cidadão.
-
-Bloco um. Orientação ao usuário.
 
 Orientação ao usuário significa desenhar e avaliar o serviço a partir da necessidade e da experiência de quem o utiliza, e não a partir da estrutura interna do órgão. O cidadão não precisa saber qual secretaria cuida de cada etapa. Ele quer resolver um problema: obter um documento, um benefício, uma licença. Por isso, a literatura de gestão fala em jornada do usuário, que é o caminho completo que a pessoa percorre, do momento em que identifica a necessidade até o resultado final. O desenho de serviços mapeia essa jornada, identifica pontos de atrito e redesenha o processo. Não se trata de tratar o cidadão como cliente no sentido de mercado. O usuário é titular de direitos, e a relação continua regida pelo direito público.
 
@@ -34,7 +40,7 @@ Por fim, a vigência foi escalonada no artigo vinte e cinco: trezentos e sessent
 
 Exemplo prático. Um desenvolvedor da Controladoria recebe a tarefa de criar o formulário de uma nova funcionalidade do Fala Bê Érre. A área de negócio sugere um campo obrigatório de justificativa da manifestação. Esse campo contraria o artigo dez da lei, que veda exigências relativas aos motivos determinantes. O campo pode existir, mas não pode ser obrigatório nem condição para o recebimento.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco um.
 
 Afirmação errada típica: a Lei treze mil quatrocentos e sessenta se aplica apenas à administração pública federal. Correção: aplica-se à administração direta e indireta de todos os entes, conforme o artigo primeiro, parágrafo primeiro.
 
@@ -50,7 +56,8 @@ Afirmação errada típica: a pesquisa de satisfação deve ser feita a cada doi
 
 Afirmação errada típica: os conselheiros de usuários recebem remuneração pela participação. Correção: a participação é serviço relevante e sem remuneração.
 
-Bloco dois. Simplificação e acessibilidade.
+
+BLOCO DOIS: SIMPLIFICAÇÃO E ACESSIBILIDADE
 
 Simplificação é a redução de etapas, exigências e documentos que não agregam valor ou cujo custo supera o risco que pretendem evitar. A lógica é de proporcionalidade: o controle formal custa tempo e dinheiro ao cidadão e ao Estado, e só se justifica quando o risco que ele mitiga é maior do que esse custo. A ideia de presunção de boa-fé atravessa todas as normas do tema. O Estado parte da veracidade do que o cidadão declara e reserva a verificação mais rigorosa para os casos de dúvida fundada ou de risco relevante, com responsabilização de quem declarar falsamente.
 
@@ -82,7 +89,7 @@ Acessibilidade, no sentido do serviço público, vai além da deficiência. Incl
 
 Exemplo prático. Um auditor avalia o sistema de agendamento de um órgão federal. O sistema exige cópia autenticada em cartório do documento de identidade e certidão de nascimento atualizada para emissão de um cadastro. As duas exigências são ilegais: a Lei treze mil setecentos e vinte e seis dispensa a autenticação de cópia, que pode ser atestada pelo agente, e permite substituir a certidão de nascimento por documento de identidade. O achado de auditoria aponta exigência desnecessária, custo para o cidadão e descumprimento de lei.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco dois.
 
 Afirmação errada típica: a Lei treze mil setecentos e vinte e seis aplica-se apenas ao Poder Executivo federal. Correção: aplica-se aos Poderes de todos os entes. Quem é restrito ao Executivo federal é o Decreto nove mil e noventa e quatro.
 
@@ -98,7 +105,8 @@ Afirmação errada típica: desenho universal dispensa a tecnologia assistiva, p
 
 Afirmação errada típica: a acessibilidade de sítios é obrigatória apenas para órgãos de governo. Correção: o artigo sessenta e três alcança também empresas com sede ou representação comercial no país.
 
-Bloco três. Coordenação de serviços.
+
+BLOCO TRÊS: COORDENAÇÃO DE SERVIÇOS
 
 O cidadão enxerga um serviço; o Estado o entrega por meio de vários órgãos, sistemas e entes federativos. Coordenação de serviços é o conjunto de arranjos que faz essas partes funcionarem como um todo para o usuário. Seus instrumentos são: o canal único de acesso, a identidade digital comum, a interoperabilidade entre sistemas, o compartilhamento de dados entre órgãos e a articulação federativa. Um princípio orienta tudo: o cidadão informa o dado uma única vez, e o Estado o reaproveita. A literatura chama isso de princípio do só uma vez.
 
@@ -126,7 +134,7 @@ A articulação federativa e o planejamento da transformação digital têm dois
 
 Exemplo prático. Um desenvolvedor da Controladoria precisa validar se um fornecedor de um convênio tem sócios que são servidores públicos. Em vez de pedir ao fornecedor que apresente declarações e certidões, o sistema consulta, por interface de programação, as bases oficiais de pessoas jurídicas e de vínculos funcionais, usando cê pê éfe e cê ene pê jota como chaves. Isso aplica o princípio do só uma vez e a interoperabilidade, mas o acesso deve estar amparado em competência legal, limitado aos dados necessários e registrado, conforme a Lei Geral de Proteção de Dados e a interpretação do Supremo.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco três.
 
 Afirmação errada típica: a Lei do Governo Digital aplica-se automaticamente a Estados e Municípios. Correção: depende de adoção por atos normativos próprios, conforme o artigo segundo da Lei catorze mil cento e vinte e nove.
 
@@ -140,7 +148,8 @@ Afirmação errada típica: a Estratégia Federal de Governo Digital vincula Est
 
 Afirmação errada típica: a assinatura eletrônica qualificada exige comparecimento presencial a cada interação. Correção: é a que usa certificado da Infraestrutura de Chaves Públicas Brasileira e é admitida em qualquer interação eletrônica com o poder público, nos termos da Lei catorze mil e sessenta e três.
 
-Bloco quatro. Oportunidades e riscos da automação e da inteligência artificial na administração.
+
+BLOCO QUATRO: OPORTUNIDADES E RISCOS DA AUTOMAÇÃO E DA INTELIGÊNCIA ARTIFICIAL NA ADMINISTRAÇÃO
 
 Primeiro, a distinção conceitual. Automação é a execução de tarefas por sistema, sem intervenção humana a cada passo. Pode ser determinística, baseada em regras fixas: se a condição A ocorre, faça B. A automação robótica de processos, que imita as ações de um operador em telas e sistemas, é desse tipo. Inteligência artificial, por sua vez, envolve sistemas que inferem, a partir de dados, como gerar previsões, classificações, recomendações ou conteúdos. O aprendizado de máquina extrai padrões de dados históricos. A inteligência artificial generativa, como os grandes modelos de linguagem, produz texto, imagem ou código. A diferença importa: a automação por regras é previsível e auditável regra a regra; a inteligência artificial é probabilística, pode errar de forma não óbvia e nem sempre explica como chegou ao resultado. Nem toda automação é inteligência artificial.
 
@@ -162,7 +171,7 @@ Da combinação dessas regras resulta a orientação de boas práticas para a ad
 
 Exemplo prático. Uma unidade da Controladoria passa a usar um modelo de linguagem para classificar denúncias recebidas e sugerir arquivamento das que considera sem elementos mínimos. Um servidor, por volume de trabalho, passa a aprovar todas as sugestões sem leitura. Ocorre viés de automação, e a competência para decidir o arquivamento, que é do agente, foi esvaziada na prática. O uso correto é tratar a classificação como apoio, com verificação humana proporcional ao risco, motivação própria do arquivamento e amostragem periódica das denúncias arquivadas para medir erros do modelo.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco quatro.
 
 Afirmação errada típica: a Lei Geral de Proteção de Dados assegura que a revisão de decisão automatizada seja feita por pessoa natural. Correção: a exigência de revisão humana foi vetada; o artigo vinte garante a revisão, sem exigir pessoa natural.
 
@@ -176,7 +185,8 @@ Afirmação errada típica: ao adotar decisão automatizada, a administração t
 
 Afirmação errada típica: toda automação de processos é uma aplicação de inteligência artificial. Correção: a automação por regras fixas, como a automação robótica de processos, é determinística e não envolve inferência a partir de dados.
 
-Pontos para não esquecer.
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 A Lei treze mil quatrocentos e sessenta vale para todos os entes, preserva o Código de Defesa do Consumidor nas relações de consumo e se aplica subsidiariamente a prestadores privados.
 
@@ -198,54 +208,89 @@ O artigo vinte da Lei Geral de Proteção de Dados garante revisão de decisão 
 
 O marco legal da inteligência artificial ainda é projeto; o que vigora são a Lei Geral de Proteção de Dados, a Lei nove mil setecentos e oitenta e quatro e os planos e estratégias de política.
 
-Itens de fixação.
+
+ITENS DE FIXAÇÃO COM GABARITO
 
 Item um. A Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, aplica-se à administração pública direta e indireta da União, dos Estados, do Distrito Federal e dos Municípios, e, subsidiariamente, aos serviços públicos prestados por particular.
+
 Gabarito: certo. É o que dispõem os parágrafos primeiro e terceiro do artigo primeiro da lei.
 
+
 Item dois. Um usuário registrou reclamação na ouvidoria de uma autarquia federal, sem informar a razão pela qual a apresentava. Nessa situação, a ouvidoria poderá deixar de receber a manifestação até que o motivo seja indicado.
+
 Gabarito: errado. São vedadas exigências relativas aos motivos determinantes, e nenhuma manifestação pode ser recusada, conforme os artigos dez e onze da Lei treze mil quatrocentos e sessenta.
 
+
 Item três. A ouvidoria deve apresentar decisão administrativa final no prazo de vinte dias, prorrogável por mais dez dias, mediante justificativa.
+
 Gabarito: errado. O prazo é de trinta dias, prorrogável uma única vez por igual período, no artigo dezesseis da Lei treze mil quatrocentos e sessenta.
 
+
 Item quatro. A avaliação dos serviços públicos prevista no Código de Defesa do Usuário deve ser realizada por pesquisa de satisfação feita, no mínimo, a cada um ano, ou por outro meio que garanta significância estatística, com publicação integral do resultado, inclusive do ranking das entidades com maior incidência de reclamação.
+
 Gabarito: certo. Remete ao artigo vinte e três da Lei treze mil quatrocentos e sessenta.
 
+
 Item cinco. São deveres do usuário de serviços públicos, entre outros, utilizar adequadamente os serviços, procedendo com urbanidade e boa-fé, e preservar as condições dos bens públicos por meio dos quais os serviços lhe são prestados.
+
 Gabarito: certo. Remete ao artigo oitavo da Lei treze mil quatrocentos e sessenta.
 
+
 Item seis. Por força da Lei treze mil setecentos e vinte e seis, de dois mil e dezoito, um Município pode exigir do cidadão, como regra, certidão expedida por outro órgão municipal do mesmo Poder, desde que relacionada ao serviço solicitado.
+
 Gabarito: errado. A exigência é vedada, ressalvadas antecedentes criminais, informações sobre pessoa jurídica e hipóteses legais expressas, no artigo terceiro, parágrafo terceiro.
 
+
 Item sete. Na relação com o cidadão, dispensada a exigência de reconhecimento de firma, cabe ao agente administrativo confrontar a assinatura com a constante do documento de identidade e lavrar sua autenticidade no próprio documento.
+
 Gabarito: certo. Remete ao artigo terceiro, inciso primeiro, da Lei treze mil setecentos e vinte e seis.
 
+
 Item oito. Um órgão do Poder Executivo federal exige que o cidadão apresente cópia de documento cujas informações já constam de base de dados oficial da administração pública federal. Não havendo disposição legal em contrário, a exigência está de acordo com as normas de simplificação do atendimento.
+
 Gabarito: errado. O Decreto nove mil e noventa e quatro, de dois mil e dezessete, veda a exigência e determina que o órgão obtenha a informação diretamente da base oficial.
 
+
 Item nove. A Política Nacional de Linguagem Simples, instituída pela Lei quinze mil duzentos e sessenta e três, de dois mil e vinte e cinco, aplica-se exclusivamente aos órgãos e entidades do Poder Executivo federal.
+
 Gabarito: errado. Aplica-se à administração direta e indireta de todos os Poderes da União, dos Estados, do Distrito Federal e dos Municípios, conforme o artigo primeiro da lei.
 
+
 Item dez. Segundo a Lei Brasileira de Inclusão, desenho universal é a concepção de produtos, ambientes, programas e serviços a serem usados por todas as pessoas, sem necessidade de adaptação ou de projeto específico, o que dispensa os recursos de tecnologia assistiva.
+
 Gabarito: errado. O conceito do artigo terceiro, inciso segundo, da Lei treze mil cento e quarenta e seis inclui os recursos de tecnologia assistiva.
 
+
 Item onze. É obrigatória a acessibilidade nos sítios da internet mantidos por órgãos de governo e por empresas com sede ou representação comercial no país, conforme as melhores práticas e diretrizes de acessibilidade adotadas internacionalmente.
+
 Gabarito: certo. Remete ao artigo sessenta e três da Lei treze mil cento e quarenta e seis.
 
+
 Item doze. As normas da Lei catorze mil cento e vinte e nove, de dois mil e vinte e um, aplicam-se diretamente às administrações dos Estados, do Distrito Federal e dos Municípios, independentemente de ato normativo local.
+
 Gabarito: errado. Para os entes subnacionais, a aplicação depende da adoção dos comandos da lei por atos normativos próprios, conforme o artigo segundo.
 
+
 Item treze. Um órgão federal migrou todos os seus serviços para a plataforma digital e encerrou o atendimento presencial, por entender que o autosserviço é o meio preferencial previsto na Lei do Governo Digital. Essa medida é compatível com a lei.
+
 Gabarito: errado. O autosserviço é preferencial, mas o artigo catorze da Lei catorze mil cento e vinte e nove assegura o direito ao atendimento presencial.
 
+
 Item catorze. O compartilhamento de dados pessoais entre órgãos públicos para execução de políticas públicas deve atender a finalidades específicas e às atribuições legais dos órgãos envolvidos, não sendo suficiente a mera conveniência administrativa.
+
 Gabarito: certo. Remete ao artigo vinte e seis da Lei treze mil setecentos e nove e à interpretação do Supremo sobre o Decreto dez mil e quarenta e seis.
 
+
 Item quinze. A Lei Geral de Proteção de Dados assegura ao titular o direito de solicitar a revisão, por pessoa natural, de decisões tomadas unicamente com base em tratamento automatizado de dados pessoais que afetem seus interesses.
+
 Gabarito: errado. O artigo vinte garante a revisão, mas a exigência de que seja feita por pessoa natural foi vetada na Lei treze mil oitocentos e cinquenta e três.
 
+
 Item dezesseis. Um órgão adotou sistema de inteligência artificial que indefere automaticamente pedidos sem os requisitos mínimos. Nessa situação, como a decisão é do sistema, fica dispensada a motivação do ato, e a responsabilidade por eventual erro recai exclusivamente sobre o fornecedor contratado.
+
 Gabarito: errado. A competência é irrenunciável e o ato que nega direitos exige motivação, conforme os artigos onze e cinquenta da Lei nove mil setecentos e oitenta e quatro.
 
-Próxima aula: item dois ponto um ponto um, governança e responsabilidades.
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto um ponto um, governança e responsabilidades.

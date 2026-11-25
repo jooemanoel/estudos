@@ -1,30 +1,12 @@
-AUDIOAULA. Concurso da CGU, Auditor Federal de Finanças e Controle, especialidade Desenvolvimento de Sistemas.
-Item três, um, dois do edital: Programação e correção.
+AUDIOAULA. ITEM TRÊS PONTO UM PONTO DOIS DO EDITAL: PROGRAMAÇÃO E CORREÇÃO
 
 
-BLOCO ZERO. ABERTURA.
+ABERTURA
 
-Olá. Esta é a audioaula do item três, um, dois do edital da CGU: Programação e correção.
-
-Esse item faz parte do bloco Engenharia de Software e Programação e tem oito subitens. Vamos passar por todos, na ordem do edital.
-
-Primeiro, a linguagem Java: tipos, estruturas de controle, métodos, classes e objetos.
-Segundo, encapsulamento, interfaces, herança e polimorfismo.
-Terceiro, coleções e tipos genéricos.
-Quarto, igualdade de objetos, mutabilidade, exceções e arquivos.
-Quinto, estruturas de dados, algoritmos e pseudocódigo.
-Sexto, leitura, depuração e testes de borda.
-Sétimo, complexidade em decisões de desempenho.
-Oitavo, modularidade e padrões de projeto aplicados à manutenção.
-
-No final, faremos uma revisão com doze afirmações no estilo Cebraspe, para você julgar como certo ou errado.
-
-Um lembrete antes de começar. Na prova de conhecimentos específicos, cada item vale dois pontos, e cada erro desconta dois pontos. Então, em questão com trecho de código, só marque depois de simular a execução inteira.
-
-Vamos lá.
+Este é o item três ponto um ponto dois, programação e correção. Ele tem oito subitens, tratados aqui em oito blocos: linguagem Java, com tipos, estruturas de controle, métodos, classes e objetos; encapsulamento, interfaces, herança e polimorfismo; coleções e tipos genéricos; igualdade de objetos, mutabilidade, exceções e arquivos; estruturas de dados, algoritmos e pseudocódigo; leitura, depuração e testes de borda; complexidade em decisões de desempenho; e modularidade e padrões de projeto aplicados à manutenção.
 
 
-BLOCO UM. LINGUAGEM JAVA: TIPOS, CONTROLE, MÉTODOS, CLASSES E OBJETOS.
+BLOCO UM: LINGUAGEM JAVA: TIPOS, CONTROLE, MÉTODOS, CLASSES E OBJETOS
 
 Java é uma linguagem fortemente tipada. O código é compilado para bytecode, e o bytecode é executado pela máquina virtual, a JVM.
 
@@ -99,7 +81,7 @@ Os níveis de acesso, do mais restrito ao mais aberto. Private: só a própria c
 E dois recursos recentes. O record, do Java 16, declara uma classe de dados imutável, com construtor, acessores, equals, hashCode e toString gerados automaticamente. E a enumeração define um conjunto fechado de instâncias.
 
 
-BLOCO DOIS. ENCAPSULAMENTO, INTERFACES, HERANÇA E POLIMORFISMO.
+BLOCO DOIS: ENCAPSULAMENTO, INTERFACES, HERANÇA E POLIMORFISMO
 
 A ideia central deste bloco é separar o que se decide na compilação do que se decide na execução.
 
@@ -154,7 +136,7 @@ A mesma lógica vale para sobrecarga. Se há um método que recebe Object e outr
 Para encerrar, conversões. Converter de subtipo para supertipo é implícito e sempre seguro. Converter de supertipo para subtipo exige conversão explícita e pode lançar ClassCastException na execução. O operador instanceof testa o tipo antes, e com valor nulo devolve falso.
 
 
-BLOCO TRÊS. COLEÇÕES E TIPOS GENÉRICOS.
+BLOCO TRÊS: COLEÇÕES E TIPOS GENÉRICOS
 
 Para escolher uma coleção, faça quatro perguntas. Existe ordem? Aceita duplicata? Aceita nulo? Quanto custa cada operação?
 
@@ -221,7 +203,7 @@ Uma lista de interrogação extends Number aceita lista de Integer, de Double e 
 Uma lista de interrogação super Integer aceita lista de Integer, de Number ou de Object. Você pode adicionar inteiros, mas só consegue ler como Object.
 
 
-BLOCO QUATRO. IGUALDADE DE OBJETOS, MUTABILIDADE, EXCEÇÕES E ARQUIVOS.
+BLOCO QUATRO: IGUALDADE DE OBJETOS, MUTABILIDADE, EXCEÇÕES E ARQUIVOS
 
 Quatro temas, com algo em comum: erros que compilam sem aviso e só aparecem quando o programa roda.
 
@@ -310,7 +292,7 @@ Os métodos da classe Files usam a codificação UTF-8 por padrão. As classes a
 E, sem fechar o fluxo, os dados que estão no buffer podem não chegar ao disco. Por isso, arquivo se abre com try com recursos.
 
 
-BLOCO CINCO. ESTRUTURAS DE DADOS, ALGORITMOS E PSEUDOCÓDIGO.
+BLOCO CINCO: ESTRUTURAS DE DADOS, ALGORITMOS E PSEUDOCÓDIGO
 
 Aqui o edital pede o conceito, independente de linguagem.
 
@@ -381,7 +363,7 @@ Segunda volta: o meio é quatro mais seis, dividido por dois, que dá cinco. Na 
 Erros que o examinador planta nesse algoritmo. Trocar a condição menor ou igual por apenas menor: o último candidato deixa de ser examinado. E atualizar o início para o meio, em vez de meio mais um: isso pode gerar laço infinito.
 
 
-BLOCO SEIS. LEITURA, DEPURAÇÃO E TESTES DE BORDA.
+BLOCO SEIS: LEITURA, DEPURAÇÃO E TESTES DE BORDA
 
 Este subitem explica a palavra correção no título do tópico. O edital quer que você leia um trecho, diga o que ele faz, encontre o defeito e escolha os testes que o revelam.
 
@@ -440,7 +422,7 @@ Veja por que isso importa. O requisito diz: pode se aposentar a partir de sessen
 Bordas que valem para quase todo código: coleção vazia, com um elemento só e com duplicatas. Valor nulo, texto vazio e texto só com espaços. Zero, negativos e os valores extremos do tipo. Primeiro e último índice. E, em datas, o dia vinte e nove de fevereiro e as viradas de mês e de ano.
 
 
-BLOCO SETE. COMPLEXIDADE EM DECISÕES DE DESEMPENHO.
+BLOCO SETE: COMPLEXIDADE EM DECISÕES DE DESEMPENHO
 
 Complexidade mede como o custo cresce quando a entrada cresce. Não mede tempo em segundos.
 
@@ -486,7 +468,7 @@ E o caso que aparece em sistemas reais: fazer uma consulta ao banco de dados par
 Para fechar, os limites da análise. A notação descreve a tendência para entradas grandes; para entradas pequenas, as constantes podem inverter o resultado. E a boa prática é medir antes de otimizar. Otimização prematura piora a legibilidade sem ganho comprovado.
 
 
-BLOCO OITO. MODULARIDADE E PADRÕES DE PROJETO APLICADOS À MANUTENÇÃO.
+BLOCO OITO: MODULARIDADE E PADRÕES DE PROJETO APLICADOS À MANUTENÇÃO
 
 O recorte do edital é a manutenção: dividir o código de modo que uma mudança afete poucos lugares.
 
@@ -559,62 +541,7 @@ Os sinais de que o código precisa de refatoração são chamados de maus cheiro
 E um alerta final: padrão de projeto não é obrigação. Aplicado sem necessidade, ele aumenta a complexidade e atrapalha a manutenção.
 
 
-BLOCO NOVE. REVISÃO NO ESTILO CEBRASPE.
-
-Vamos às afirmações. Depois de cada uma, pense na resposta antes de ouvir o gabarito. Se precisar, pause o áudio.
-
-Afirmação um. Em Java, objetos são passados por referência, de modo que um método pode fazer a variável do chamador apontar para outro objeto.
-
-Gabarito: errado. A passagem é sempre por valor. O que se copia é a referência.
-
-Afirmação dois. Uma variável local do tipo inteiro, não inicializada, vale zero.
-
-Gabarito: errado. Só atributos têm valor padrão. Usar a variável local sem inicializar é erro de compilação.
-
-Afirmação três. A chamada a um método de instância sobrescrito é resolvida em tempo de execução, conforme o tipo do objeto.
-
-Gabarito: certo. É a ligação dinâmica.
-
-Afirmação quatro. Métodos estáticos podem ser sobrescritos e têm comportamento polimórfico.
-
-Gabarito: errado. Métodos estáticos são ocultados e resolvidos pelo tipo da referência.
-
-Afirmação cinco. A interface Map é subinterface de Collection.
-
-Gabarito: errado. Map tem hierarquia separada.
-
-Afirmação seis. As informações de tipo genérico são verificadas na compilação e apagadas no bytecode.
-
-Gabarito: certo. É o apagamento de tipos.
-
-Afirmação sete. Se dois objetos têm o mesmo hashCode, então o método equals entre eles devolve verdadeiro.
-
-Gabarito: errado. Colisões são permitidas. A implicação vale no sentido contrário: iguais pelo equals, mesmo hashCode.
-
-Afirmação oito. O bloco finally não é executado quando o bloco try contém uma instrução return.
-
-Gabarito: errado. O finally executa antes de o método retornar.
-
-Afirmação nove. A busca binária localiza um elemento em tempo logarítmico em qualquer vetor.
-
-Gabarito: errado. Ela exige que o vetor esteja ordenado.
-
-Afirmação dez. Para um campo que aceita valores de um a cem, os valores zero, um, cem e cento e um atendem à análise de valor limite.
-
-Gabarito: certo. Cada fronteira é testada com um valor válido e um inválido.
-
-Afirmação onze. Um bom projeto modular busca alto acoplamento e baixa coesão.
-
-Gabarito: errado. É o inverso: alta coesão e baixo acoplamento.
-
-Afirmação doze. O padrão Adapter fornece uma interface simplificada para um conjunto de classes de um subsistema.
-
-Gabarito: errado. Essa é a intenção do padrão Facade. O Adapter converte uma interface em outra.
-
-
-BLOCO DEZ. ENCERRAMENTO.
-
-Para fechar, as oito ideias que você deve levar desta aula, uma por subitem.
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Um. Java passa tudo por valor, e variável local não tem valor padrão.
 
@@ -632,4 +559,69 @@ Sete. Escolha a estrutura pelo custo da operação que você mais repete.
 
 Oito. Alta coesão, baixo acoplamento, e padrão de projeto só quando resolve um problema real.
 
-Bons estudos, e até a próxima aula.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em Java, objetos são passados por referência, de modo que um método pode fazer a variável do chamador apontar para outro objeto.
+
+Gabarito: errado. A passagem é sempre por valor. O que se copia é a referência.
+
+
+Item dois. Uma variável local do tipo inteiro, não inicializada, vale zero.
+
+Gabarito: errado. Só atributos têm valor padrão. Usar a variável local sem inicializar é erro de compilação.
+
+
+Item três. A chamada a um método de instância sobrescrito é resolvida em tempo de execução, conforme o tipo do objeto.
+
+Gabarito: certo. É a ligação dinâmica.
+
+
+Item quatro. Métodos estáticos podem ser sobrescritos e têm comportamento polimórfico.
+
+Gabarito: errado. Métodos estáticos são ocultados e resolvidos pelo tipo da referência.
+
+
+Item cinco. A interface Map é subinterface de Collection.
+
+Gabarito: errado. Map tem hierarquia separada.
+
+
+Item seis. As informações de tipo genérico são verificadas na compilação e apagadas no bytecode.
+
+Gabarito: certo. É o apagamento de tipos.
+
+
+Item sete. Se dois objetos têm o mesmo hashCode, então o método equals entre eles devolve verdadeiro.
+
+Gabarito: errado. Colisões são permitidas. A implicação vale no sentido contrário: iguais pelo equals, mesmo hashCode.
+
+
+Item oito. O bloco finally não é executado quando o bloco try contém uma instrução return.
+
+Gabarito: errado. O finally executa antes de o método retornar.
+
+
+Item nove. A busca binária localiza um elemento em tempo logarítmico em qualquer vetor.
+
+Gabarito: errado. Ela exige que o vetor esteja ordenado.
+
+
+Item dez. Para um campo que aceita valores de um a cem, os valores zero, um, cem e cento e um atendem à análise de valor limite.
+
+Gabarito: certo. Cada fronteira é testada com um valor válido e um inválido.
+
+
+Item onze. Um bom projeto modular busca alto acoplamento e baixa coesão.
+
+Gabarito: errado. É o inverso: alta coesão e baixo acoplamento.
+
+
+Item doze. O padrão Adapter fornece uma interface simplificada para um conjunto de classes de um subsistema.
+
+Gabarito: errado. Essa é a intenção do padrão Facade. O Adapter converte uma interface em outra.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto um ponto três, concorrência e processamento.

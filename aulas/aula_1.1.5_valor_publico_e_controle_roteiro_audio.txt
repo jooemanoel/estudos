@@ -1,28 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.5 DO EDITAL: VALOR PÚBLICO E CONTROLE.
-SUBITEM 1.1.5.1: Resultados socialmente relevantes. Legitimidade, confiança e direitos. Controle interno, externo e social em perspectiva institucional. Tensões entre eficiência, equidade e garantias.
+AUDIOAULA. ITEM UM PONTO UM PONTO CINCO DO EDITAL: VALOR PÚBLICO E CONTROLE
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto cinco do edital da CGU, chamado valor público e controle. Ele tem um único subitem, o um ponto um ponto cinco ponto um, com quatro temas.
-
-Primeiro tema: resultados socialmente relevantes.
-Segundo tema: legitimidade, confiança e direitos.
-Terceiro tema: controle interno, externo e social em perspectiva institucional.
-Quarto tema: tensões entre eficiência, equidade e garantias.
-
-Vamos seguir essa ordem, em quatro blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Este item é, de certa forma, a síntese das quatro aulas anteriores, e é também o que mais se aproxima da razão de existir da CGU. Na primeira aula, vimos o que é o Estado e de onde vem a sua legitimidade. Na segunda, como o poder presta contas. Na terceira, como os direitos são entregues. Na quarta, quais são os limites constitucionais. Agora a pergunta é: para que serve tudo isso? A resposta do edital está na expressão valor público. E a pergunta seguinte é: qual é o papel do controle nessa história? O controle é apresentado não como um fim em si mesmo, mas como parte do sistema que ajuda o Estado a gerar valor e a manter a confiança da sociedade.
-
-Sobre as fontes. Este item tem três tipos de base. A primeira é conceitual, com o autor Mark Moore, criador da teoria do valor público. A segunda é normativa: os artigos setenta a setenta e quatro da Constituição, sobre controle, e o decreto federal de governança pública, de dois mil e dezessete, que traz uma definição oficial de valor público. A terceira é analítica: a discussão sobre tensões entre valores, que não tem resposta em lei e é cobrada por interpretação. Como sempre, confira os dispositivos no texto oficial do Planalto.
-
-E uma orientação de estratégia. Repare na expressão em perspectiva institucional, que o edital colocou depois de controle interno, externo e social. Ela indica que a banca não quer, neste ponto, o detalhe das competências de cada órgão, que aparece em outros itens. Quer que você entenda por que esses controles existem, como se relacionam e que função cumprem no conjunto. Ainda assim, as pegadinhas de competência continuam sendo a forma mais fácil de construir um item errado. Então, vamos cuidar das duas coisas.
+Este é o item um ponto um ponto cinco, valor público e controle. Ele tem um único subitem, organizado aqui em quatro blocos: resultados socialmente relevantes; legitimidade, confiança e direitos; controle interno, externo e social em perspectiva institucional; e tensões entre eficiência, equidade e garantias. A banca costuma cobrar a teoria do valor público de Mark Moore, a definição do decreto federal de governança pública, de dois mil e dezessete, e as competências de controle dos artigos setenta a setenta e quatro da Constituição.
 
 
-BLOCO UM. VALOR PÚBLICO E RESULTADOS SOCIALMENTE RELEVANTES.
+BLOCO UM: VALOR PÚBLICO E RESULTADOS SOCIALMENTE RELEVANTES
 
 Comecemos pela origem do conceito.
 
@@ -98,10 +82,8 @@ Primeiro cuidado: valor público não se reduz a resultados medidos em números.
 
 Segundo cuidado: medir resultados é necessário, mas tem limites. Quando uma meta numérica vira o único objetivo, as pessoas passam a trabalhar para o número, e não para o propósito. Uma escola cobrada só pela taxa de aprovação pode simplesmente aprovar mais. Um órgão cobrado pelo número de processos concluídos pode priorizar os mais fáceis. O indicador melhora e o resultado real, não. O edital volta a isso ao falar de leitura crítica de indicadores e de limites das métricas. Item que trate indicadores como retrato completo e neutro do valor gerado merece desconfiança.
 
-Resumo do bloco um. Valor público é aquilo que o Estado gera, preserva ou entrega em resposta efetiva e útil a necessidades de interesse público. Para Moore, exige valor substantivo, legitimidade e apoio, e capacidade operacional. Resultado não é produto. E economicidade, eficiência, eficácia e efetividade são dimensões diferentes.
 
-
-BLOCO DOIS. LEGITIMIDADE, CONFIANÇA E DIREITOS.
+BLOCO DOIS: LEGITIMIDADE, CONFIANÇA E DIREITOS
 
 O edital junta três palavras. Vamos ver cada uma e, principalmente, a relação entre elas.
 
@@ -149,10 +131,8 @@ Há ainda um ponto sutil, que liga direitos e resultados. Um bom resultado médi
 
 É por isso que o edital fala em legitimidade, confiança e direitos na mesma frase. Os três formam um circuito. O Estado que respeita direitos e entrega resultados conquista legitimidade e confiança. Com legitimidade e confiança, tem mais condições de atuar e de entregar. E o controle é uma das engrenagens desse circuito: ele verifica se os recursos viraram resultado, se os direitos foram respeitados e se as contas foram prestadas.
 
-Resumo do bloco dois. Legitimidade tem dimensões de origem, de processo e de resultado. Confiança nas instituições depende de competência e de valores, é resultado e também recurso, e se apoia em controles, não na ausência deles. Direitos são, ao mesmo tempo, conteúdo e limite do valor público.
 
-
-BLOCO TRÊS. CONTROLE INTERNO, EXTERNO E SOCIAL EM PERSPECTIVA INSTITUCIONAL.
+BLOCO TRÊS: CONTROLE INTERNO, EXTERNO E SOCIAL EM PERSPECTIVA INSTITUCIONAL
 
 Controle da administração pública é o conjunto de mecanismos pelos quais se verifica, orienta e corrige a atuação dos órgãos e agentes públicos, para assegurar que ela se mantenha conforme o direito e voltada ao interesse público.
 
@@ -260,10 +240,8 @@ Quarta ideia: quem controla também presta contas. Os órgãos de controle exerc
 
 Há ainda um risco institucional que a literatura aponta: quando muitos órgãos atuam sobre o mesmo objeto sem coordenação, podem surgir sobreposições, exigências contraditórias e lacunas. Por isso o edital fala, em outros pontos, em cooperação e em compartilhamento lícito de informações entre as instituições.
 
-Resumo do bloco três. Controle interno é o de dentro de cada Poder, e a CGU é o órgão central no Executivo federal. Controle externo é do Congresso, com auxílio do Tribunal de Contas da União, que não é Judiciário nem subordinado. Controle social é o da sociedade, e depende de transparência. Em perspectiva institucional, os três se complementam, servem à geração de valor público, devem ser proporcionais ao risco e também se submetem a limites.
 
-
-BLOCO QUATRO. TENSÕES ENTRE EFICIÊNCIA, EQUIDADE E GARANTIAS.
+BLOCO QUATRO: TENSÕES ENTRE EFICIÊNCIA, EQUIDADE E GARANTIAS
 
 Este é o trecho mais analítico do item. O edital reconhece que o Estado persegue vários valores ao mesmo tempo e que eles nem sempre apontam para o mesmo lado.
 
@@ -325,104 +303,21 @@ Pegadinhas deste bloco. Afirmar que a eficiência deve sempre prevalecer por ser
 
 Para fechar, a ligação com os próximos itens do edital. A corrupção, tema das três aulas seguintes, destrói valor público, corrói a confiança e viola a equidade. E as respostas à corrupção também estão sujeitas a essas tensões: medidas de combate podem gerar efeitos não pretendidos, como a paralisia da gestão ou a interrupção de serviços essenciais. O edital pede expressamente uma avaliação crítica dessas respostas. A base conceitual para isso é a que você acabou de estudar.
 
-Resumo do bloco quatro. Eficiência é fazer mais com os recursos. Equidade é distribuir com justiça, considerando as diferenças. Garantias são as proteções que limitam o poder. Elas podem entrar em tensão, mas nem sempre. Não há hierarquia fixa. A solução passa por ponderação, proporcionalidade, motivação e transparência das escolhas.
+
+PEGADINHAS DO ITEM
+
+Troca das dimensões de desempenho. Eficiência por eficácia, eficácia por efetividade, produto por resultado. Use o exemplo da vacinação para se orientar.
+
+Redução do conceito. Valor público reduzido a lucro, a economia de recursos, a satisfação do cliente ou ao cumprimento de metas. Confiança reduzida a ausência de fiscalização. Controle reduzido a punição.
+
+Troca de órgão e de competência. Titular do controle externo. Quem julga as contas. Quem susta ato e quem susta contrato. Quem mantém controle interno. Natureza do Tribunal de Contas.
+
+Falsa hierarquia. Controle interno subordinado ao externo. Tribunal de Contas subordinado ao Congresso. Eficiência acima das garantias. Controle institucional acima do social, ou o contrário.
+
+Relações automáticas. Mais controle, mais confiança. Mais transparência, mais confiança imediata. Mais detecção, mais corrupção. Meta cumprida, valor gerado.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: troca das dimensões de desempenho. Eficiência por eficácia, eficácia por efetividade, produto por resultado. Use o exemplo da vacinação para se orientar.
-
-Segunda estratégia: redução do conceito. Valor público reduzido a lucro, a economia de recursos, a satisfação do cliente ou ao cumprimento de metas. Confiança reduzida a ausência de fiscalização. Controle reduzido a punição.
-
-Terceira estratégia: troca de órgão e de competência. Titular do controle externo. Quem julga as contas. Quem susta ato e quem susta contrato. Quem mantém controle interno. Natureza do Tribunal de Contas.
-
-Quarta estratégia: falsa hierarquia. Controle interno subordinado ao externo. Tribunal de Contas subordinado ao Congresso. Eficiência acima das garantias. Controle institucional acima do social, ou o contrário.
-
-Quinta estratégia: relações automáticas. Mais controle, mais confiança. Mais transparência, mais confiança imediata. Mais detecção, mais corrupção. Meta cumprida, valor gerado.
-
-Sexta estratégia: afirmações absolutas. Sempre, necessariamente, incompatíveis, dispensa, substitui.
-
-Sétima estratégia: situação hipotética. Diante de um caso, pergunte. O que foi entregue é produto ou resultado? Quem ficou de fora do resultado médio? Que valor está sendo sacrificado em favor de qual? O custo desse controle é compatível com o risco?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-O conceito de valor público corresponde, no setor público, à noção de lucro, de modo que uma organização pública gera valor na medida em que reduz as suas despesas e amplia o saldo financeiro disponível ao final do exercício.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a analogia de Moore com o setor privado é de função, não de conteúdo. Valor público refere-se a respostas efetivas e úteis a necessidades de interesse público. Economizar recursos pode contribuir, mas não é o conceito. Uma organização pode poupar muito e não entregar nada de relevante.
-
-Questão dois.
-Na política de governança da administração pública federal, valor público compreende os produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a definição do decreto de governança de dois mil e dezessete. Repare nos três verbos, gerados, preservados ou entregues, e na exigência de respostas efetivas e úteis.
-
-Questão três.
-Segundo o modelo do triângulo estratégico de Mark Moore, a criação de valor público depende exclusivamente da capacidade da organização de produzir resultados substantivos, sendo a legitimidade e o apoio político elementos externos à estratégia do gestor público.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o triângulo tem três vértices que devem estar alinhados: valor substantivo, legitimidade e apoio, e capacidade operacional. Obter e manter legitimidade e apoio faz parte da estratégia.
-
-Questão quatro.
-Um programa governamental cumpriu integralmente a meta de construir cem unidades básicas de saúde no prazo previsto, mas os indicadores de saúde da população atendida não se alteraram. Nessa situação, é correto afirmar que o programa foi eficaz, embora não tenha demonstrado efetividade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: eficácia é o alcance das metas de produto. Efetividade é a produção dos resultados e impactos pretendidos na realidade. Entregar o produto não garante o resultado socialmente relevante.
-
-Questão cinco.
-A percepção de que uma decisão administrativa foi tomada por meio de procedimento imparcial, com oportunidade de manifestação e exposição das razões, tende a favorecer a sua aceitação pelos destinatários, ainda que o conteúdo lhes seja desfavorável, o que evidencia a contribuição das garantias processuais para a confiança nas instituições.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a ideia de justiça procedimental. As garantias não são apenas exigências jurídicas. Elas produzem legitimidade e confiança.
-
-Questão seis.
-O controle externo da administração pública federal é de titularidade do Congresso Nacional e é exercido com o auxílio do Tribunal de Contas da União, órgão que não integra o Poder Judiciário e que dispõe de competências próprias atribuídas pela Constituição Federal.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o titular é o Congresso. O Tribunal auxilia, mas não é subordinado, tem competências constitucionais próprias e, apesar do nome, não pertence ao Judiciário.
-
-Questão sete.
-Por ter a finalidade constitucional de apoiar o controle externo no exercício de sua missão institucional, o sistema de controle interno de cada Poder subordina-se hierarquicamente ao Tribunal de Contas da União.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: apoiar não é subordinar-se. Não há hierarquia entre controle interno e controle externo. Há complementaridade. O controle interno tem ainda outras finalidades próprias, como avaliar o cumprimento de metas e os resultados da gestão.
-
-Questão oito.
-A Constituição Federal impõe a manutenção de sistema de controle interno apenas ao Poder Executivo, cabendo à Controladoria-Geral da União exercê-lo também em relação aos órgãos dos Poderes Legislativo e Judiciário.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: os Poderes Legislativo, Executivo e Judiciário devem manter, de forma integrada, sistema de controle interno. A CGU é o órgão central do sistema de controle interno do Poder Executivo federal.
-
-Questão nove.
-Em perspectiva institucional, o fortalecimento do controle social torna dispensáveis os controles interno e externo, uma vez que a sociedade é a destinatária final das políticas públicas.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: os três controles são complementares. O controle social depende de transparência e não dispõe dos poderes de investigação e de sanção dos controles institucionais, que, por sua vez, se beneficiam das informações vindas da sociedade.
-
-Questão dez.
-Um órgão público substituiu o atendimento presencial por atendimento exclusivamente digital, o que reduziu o custo e o tempo médio de atendimento, mas dificultou o acesso ao serviço por pessoas idosas e por moradores de áreas sem conexão à Internet. Essa situação exemplifica tensão entre eficiência e equidade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: houve ganho de eficiência na média e perda de equidade na distribuição do acesso. O indicador médio melhora e esconde a exclusão de grupos específicos.
-
-Questão onze.
-As garantias processuais asseguradas aos administrados constituem meros custos para a administração pública, razão pela qual devem ceder sempre que a sua observância comprometer a celeridade da atuação estatal.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: as garantias protegem direitos, previnem o arbítrio, permitem o controle e conferem legitimidade às decisões. Não há hierarquia fixa em que a eficiência prevaleça. As tensões se resolvem por ponderação e proporcionalidade.
-
-Questão doze.
-A instituição de um controle cujo custo de operação supere o risco que ele pretende mitigar pode reduzir, em vez de preservar, o valor público, razão pela qual os controles devem ser proporcionais aos riscos envolvidos.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o controle é instrumento, não finalidade. Controle adequado é o proporcional ao risco, e não o máximo possível. Controles puramente formais ou desproporcionais consomem recursos e podem paralisar a gestão.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Valor público: produtos e resultados gerados, preservados ou entregues, que respondam de forma efetiva e útil a necessidades de interesse público.
 
@@ -448,4 +343,69 @@ Controle é instrumento de valor público e deve ser proporcional ao risco.
 
 Eficiência, equidade e garantias podem entrar em tensão, mas não sempre. Não há hierarquia fixa. Pondera-se, motiva-se e dá-se transparência à escolha.
 
-Fim da aula do item um ponto um ponto cinco. Na sequência do edital, o próximo é o item um ponto um ponto seis, corrupção como fenômeno político e social. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. O conceito de valor público corresponde, no setor público, à noção de lucro, de modo que uma organização pública gera valor na medida em que reduz as suas despesas e amplia o saldo financeiro disponível ao final do exercício.
+
+Gabarito: errado. A analogia de Moore com o setor privado é de função, não de conteúdo. Valor público refere-se a respostas efetivas e úteis a necessidades de interesse público. Economizar recursos pode contribuir, mas não é o conceito. Uma organização pode poupar muito e não entregar nada de relevante.
+
+
+Item dois. Na política de governança da administração pública federal, valor público compreende os produtos e resultados gerados, preservados ou entregues pelas atividades de uma organização que representem respostas efetivas e úteis às necessidades ou às demandas de interesse público.
+
+Gabarito: certo. É a definição do decreto de governança de dois mil e dezessete. Repare nos três verbos, gerados, preservados ou entregues, e na exigência de respostas efetivas e úteis.
+
+
+Item três. Segundo o modelo do triângulo estratégico de Mark Moore, a criação de valor público depende exclusivamente da capacidade da organização de produzir resultados substantivos, sendo a legitimidade e o apoio político elementos externos à estratégia do gestor público.
+
+Gabarito: errado. O triângulo tem três vértices que devem estar alinhados: valor substantivo, legitimidade e apoio, e capacidade operacional. Obter e manter legitimidade e apoio faz parte da estratégia.
+
+
+Item quatro. Um programa governamental cumpriu integralmente a meta de construir cem unidades básicas de saúde no prazo previsto, mas os indicadores de saúde da população atendida não se alteraram. Nessa situação, é correto afirmar que o programa foi eficaz, embora não tenha demonstrado efetividade.
+
+Gabarito: certo. Eficácia é o alcance das metas de produto. Efetividade é a produção dos resultados e impactos pretendidos na realidade. Entregar o produto não garante o resultado socialmente relevante.
+
+
+Item cinco. A percepção de que uma decisão administrativa foi tomada por meio de procedimento imparcial, com oportunidade de manifestação e exposição das razões, tende a favorecer a sua aceitação pelos destinatários, ainda que o conteúdo lhes seja desfavorável, o que evidencia a contribuição das garantias processuais para a confiança nas instituições.
+
+Gabarito: certo. É a ideia de justiça procedimental. As garantias não são apenas exigências jurídicas. Elas produzem legitimidade e confiança.
+
+
+Item seis. O controle externo da administração pública federal é de titularidade do Congresso Nacional e é exercido com o auxílio do Tribunal de Contas da União, órgão que não integra o Poder Judiciário e que dispõe de competências próprias atribuídas pela Constituição Federal.
+
+Gabarito: certo. O titular é o Congresso. O Tribunal auxilia, mas não é subordinado, tem competências constitucionais próprias e, apesar do nome, não pertence ao Judiciário.
+
+
+Item sete. Por ter a finalidade constitucional de apoiar o controle externo no exercício de sua missão institucional, o sistema de controle interno de cada Poder subordina-se hierarquicamente ao Tribunal de Contas da União.
+
+Gabarito: errado. Apoiar não é subordinar-se. Não há hierarquia entre controle interno e controle externo. Há complementaridade. O controle interno tem ainda outras finalidades próprias, como avaliar o cumprimento de metas e os resultados da gestão.
+
+
+Item oito. A Constituição Federal impõe a manutenção de sistema de controle interno apenas ao Poder Executivo, cabendo à Controladoria-Geral da União exercê-lo também em relação aos órgãos dos Poderes Legislativo e Judiciário.
+
+Gabarito: errado. Os Poderes Legislativo, Executivo e Judiciário devem manter, de forma integrada, sistema de controle interno. A CGU é o órgão central do sistema de controle interno do Poder Executivo federal.
+
+
+Item nove. Em perspectiva institucional, o fortalecimento do controle social torna dispensáveis os controles interno e externo, uma vez que a sociedade é a destinatária final das políticas públicas.
+
+Gabarito: errado. Os três controles são complementares. O controle social depende de transparência e não dispõe dos poderes de investigação e de sanção dos controles institucionais, que, por sua vez, se beneficiam das informações vindas da sociedade.
+
+
+Item dez. Um órgão público substituiu o atendimento presencial por atendimento exclusivamente digital, o que reduziu o custo e o tempo médio de atendimento, mas dificultou o acesso ao serviço por pessoas idosas e por moradores de áreas sem conexão à Internet. Essa situação exemplifica tensão entre eficiência e equidade.
+
+Gabarito: certo. Houve ganho de eficiência na média e perda de equidade na distribuição do acesso. O indicador médio melhora e esconde a exclusão de grupos específicos.
+
+
+Item onze. As garantias processuais asseguradas aos administrados constituem meros custos para a administração pública, razão pela qual devem ceder sempre que a sua observância comprometer a celeridade da atuação estatal.
+
+Gabarito: errado. As garantias protegem direitos, previnem o arbítrio, permitem o controle e conferem legitimidade às decisões. Não há hierarquia fixa em que a eficiência prevaleça. As tensões se resolvem por ponderação e proporcionalidade.
+
+
+Item doze. A instituição de um controle cujo custo de operação supere o risco que ele pretende mitigar pode reduzir, em vez de preservar, o valor público, razão pela qual os controles devem ser proporcionais aos riscos envolvidos.
+
+Gabarito: certo. O controle é instrumento, não finalidade. Controle adequado é o proporcional ao risco, e não o máximo possível. Controles puramente formais ou desproporcionais consomem recursos e podem paralisar a gestão.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto seis, corrupção como fenômeno político e social.

@@ -1,49 +1,9 @@
 AUDIOAULA. ITEM UM PONTO TRÊS PONTO CINCO DO EDITAL: INTEGRIDADE COMO RESPONSABILIDADE INSTITUCIONAL
-Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
-
-
-GLOSSÁRIO DE PRONÚNCIA
-(Grafia correta dos termos usados na aula e a forma fonética com que aparecem no texto.)
-
-Fala.BR (plataforma de ouvidoria do governo federal) = Fála Bê Érre
-Sitai (Sistema de Integridade, Transparência e Acesso à Informação) = Sitái
-USI (Unidade Setorial de Integridade) = u ésse í
-UGI (antiga Unidade de Gestão da Integridade) = u gê í
-AECI (Assessoria Especial de Controle Interno) = a é cê í
-SeCI (Sistema Eletrônico de Prevenção de Conflito de Interesses) = Séci
-Sipef (antigo Sistema de Integridade Pública do Poder Executivo Federal) = Sipéf
-OCDE (Organização para a Cooperação e Desenvolvimento Econômico) = ó cê dê é
-compliance = complâiens
-deploy (implantação de sistema) = diplói
-software = sóftuér
-Donald Cressey (criminologista, triângulo da fraude) = Dónald Créssi
-Goodhart (economista, lei de Goodhart) = Gúdrart
-Amy Edmondson (pesquisadora, segurança psicológica) = Êimi Édmondsson
 
 
 ABERTURA
 
-Olá! Vamos para mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
-
-Esta é a última aula do bloco um ponto três, de ética e integridade. Até aqui, olhamos principalmente para o indivíduo. No item um ponto três ponto um, vimos os fundamentos da ética pública. No um ponto três ponto dois, os deveres do servidor. No um ponto três ponto três, conflitos de interesses, impedimento e suspeição. E na aula passada, item um ponto três ponto quatro, vimos assédio, discriminação, acolhimento e não retaliação, terminando com a ideia de separar os papéis: acolher, verificar e responsabilizar.
-
-Agora o foco muda. A pergunta deixa de ser "o que o servidor deve fazer?" e passa a ser "o que a organização deve fazer para que o servidor consiga agir com integridade?". É isso que o edital chama de integridade como responsabilidade institucional.
-
-O item tem um único subitem, o um ponto três ponto cinco ponto um, mas ele reúne quatro temas. Primeiro: coerência entre regras e práticas. Segundo: ambiente organizacional e incentivos. Terceiro: canais de orientação e relato. Quarto: o papel do exemplo, da confiança e da prestação de contas.
-
-Por que isso cai na prova? Por três motivos.
-
-Primeiro, porque a base normativa mudou bastante nos últimos anos, e a banca adora mudança. Em dois mil e vinte e três, o Decreto onze mil quinhentos e vinte e nove criou o Sistema de Integridade, Transparência e Acesso à Informação da Administração Pública Federal, o Sitái, e revogou o sistema anterior. E, em novembro de dois mil e vinte e cinco, a CGU publicou a Portaria Normativa duzentos e trinta e quatro, que aprovou o Referencial Técnico da Atividade de Gestão da Integridade e revogou as portarias antigas sobre programas de integridade. Quem estudou por material de dois mil e vinte e dois pode cair em armadilha.
-
-Segundo, porque a CGU é o órgão central desse sistema. Concurso da CGU cobra o que a CGU faz.
-
-Terceiro, porque o tema se presta a questões situacionais e conceituais: "a integridade é responsabilidade exclusiva da unidade de integridade?"; "um programa bem escrito garante integridade?"; "poucas denúncias significam um órgão íntegro?". São perguntas em que o senso comum leva ao erro.
-
-Um aviso sobre o escopo. Programas de integridade, gestão de riscos para a integridade e avaliação de efetividade serão aprofundados no bloco dois ponto um, de governança, riscos e integridade pública e privada. E a ouvidoria, a proteção do denunciante e o acesso à informação voltarão no bloco dois ponto dois. Aqui, vamos ver esses temas pela lente do edital neste ponto: a integridade como algo que a instituição constrói, ou destrói, com suas regras, sua cultura, seus canais e seu exemplo.
-
-A aula terá cinco blocos. Um: a ideia de integridade institucional e a sua base normativa. Dois: coerência entre regras e práticas. Três: ambiente organizacional e incentivos. Quatro: canais de orientação e relato. Cinco: exemplo, confiança e prestação de contas. Depois, pegadinhas, resumo, doze itens de certo ou errado e gabarito comentado.
-
-Vamos lá.
+Este é o item um ponto três ponto cinco, integridade como responsabilidade institucional. Ele tem um único subitem, organizado aqui em cinco blocos: a ideia de integridade institucional e a sua base normativa; coerência entre regras e práticas; ambiente organizacional e incentivos; canais de orientação e relato; e exemplo, confiança e prestação de contas. A banca costuma cobrar as mudanças normativas recentes, como o Decreto onze mil quinhentos e vinte e nove, de dois mil e vinte e três, que criou o Sitái, e a Portaria Normativa duzentos e trinta e quatro, de novembro de dois mil e vinte e cinco, da CGU, que aprovou o Referencial Técnico da Atividade de Gestão da Integridade. Programas de integridade e gestão de riscos serão aprofundados no bloco dois ponto um, e a ouvidoria e a proteção do denunciante, no bloco dois ponto dois.
 
 
 BLOCO UM: O QUE É INTEGRIDADE INSTITUCIONAL E ONDE ELA ESTÁ NA NORMA
@@ -100,8 +60,6 @@ Cinco: a unidade setorial produz um relatório anual de gestão da integridade, 
 
 Por fim, no plano de governo, vale saber que existe o Plano de Integridade e Combate à Corrupção, de dois mil e vinte e cinco a dois mil e vinte e sete, coordenado pela CGU, com mais de duzentas e sessenta ações de mais de cinquenta órgãos, organizadas em cinco eixos: controle da qualidade do uso dos recursos públicos; integridade nas relações entre Estado e setor privado; transparência e governo aberto; combate à corrupção; e fortalecimento institucional para a integridade. Não se preocupe em decorar as ações; guarde a existência do plano e o fato de que ele é monitorado com participação do Conselho de Transparência, Integridade e Combate à Corrupção, que é consultivo e tem representantes da sociedade civil.
 
-Recapitulando o bloco um. Integridade é atributo também das organizações; a ó cê dê é organiza o tema em sistema, cultura e prestação de contas. Decreto nove mil duzentos e três: integridade, confiabilidade e prestação de contas são princípios da governança; liderança inclui integridade, competência, responsabilidade e motivação; o artigo dezenove trouxe os quatro eixos do programa. Decreto onze mil quinhentos e vinte e nove: Sitái, só para a administração direta, autárquica e fundacional; programa de integridade em sentido amplo, incluindo desvios éticos e violação de direitos; plano aprovado pela autoridade máxima; funções de integridade espalhadas por corregedoria, ouvidoria, controle interno, ética e transparência; CGU como órgão central, com supervisão técnica, sem subordinação administrativa; a é cê ís como unidades setoriais nos ministérios; Sipéf revogado. Portaria duzentos e trinta e quatro de dois mil e vinte e cinco: novo referencial, revogou as portarias de dois mil e dezoito e dois mil e dezenove; a integridade é responsabilidade de toda a organização.
-
 
 BLOCO DOIS: COERÊNCIA ENTRE REGRAS E PRÁTICAS
 
@@ -139,8 +97,6 @@ Consequências consistentes. Quando a regra é violada, a resposta precisa vir, 
 
 E revisão periódica. A norma que não funciona deve ser corrigida, e não apenas ignorada.
 
-Recapitulando o bloco dois. Integridade institucional é diminuir a distância entre a camada formal e a camada real. Sinais de incoerência: regra descumprida sem reação, regra inexequível, aplicação seletiva, discurso diferente da decisão e normalização do desvio. Existência documental, implementação e efetividade não se confundem. Coerência se constrói com regras claras e proporcionais, monitoramento, consequências consistentes e revisão.
-
 
 BLOCO TRÊS: AMBIENTE ORGANIZACIONAL E INCENTIVOS
 
@@ -177,8 +133,6 @@ Ambiente é o clima em que as pessoas trabalham: o quanto se sentem respeitadas,
 Por que isso é integridade? Porque, onde não há segurança psicológica, os erros são escondidos em vez de corrigidos, as dúvidas éticas não são levantadas, e os desvios só aparecem quando já são grandes. Uma equipe de desenvolvimento em que ninguém admite ter subido um defeito para produção é uma equipe em que os defeitos ficam mais tempo em produção. O mesmo vale para desvios de conduta.
 
 O ambiente também é moldado por medidas concretas que já estudamos: o Programa Federal de Prevenção e Enfrentamento do Assédio e da Discriminação, do Decreto doze mil cento e vinte e dois, e as capacitações regulares. O referencial da CGU, inclusive, trata a prevenção do assédio como questão emergente que exige resposta tempestiva da gestão da integridade, e recomenda capacitações periódicas para todos, com capacitações diferenciadas para grupos expostos a riscos específicos, como pregoeiros, fiscais de contratos ou quem administra acessos privilegiados a sistemas.
-
-Recapitulando o bloco três. Triângulo da fraude: pressão, oportunidade e racionalização; a organização influencia os três. Incentivos formais e informais moldam comportamento; métricas viram alvo e perdem sentido, como diz a lei de Gúdrart. Bons incentivos: metas equilibradas, reconhecimento de quem aponta problemas, critérios impessoais de nomeação, vedação ao nepotismo. Decreto nove mil duzentos e três, artigo quarto, inciso seis: prevenção antes de processos sancionadores, sem abrir mão da sanção. Segurança psicológica permite que erros e dúvidas apareçam cedo.
 
 
 BLOCO QUATRO: CANAIS DE ORIENTAÇÃO E RELATO
@@ -231,8 +185,6 @@ Exemplo de orientação. Uma desenvolvedora da CGU recebe de um fornecedor de se
 
 Exemplo de relato. Um analista percebe que um colega, que administra o banco de dados de um sistema de benefícios, reduziu a retenção dos registros de acesso de noventa para sete dias, sem nenhuma solicitação formal, logo depois de uma série de consultas a dados de pessoas conhecidas. Ele não sabe se é irregularidade, mas há indícios. O caminho é relatar, pela ouvidoria ou à autoridade competente, preservando as evidências e sem tentar investigar por conta própria, como vimos na distinção entre acolher, verificar e responsabilizar.
 
-Recapitulando o bloco quatro. Orientação é preventiva, antes de agir; relato comunica um fato possivelmente irregular. Canais de orientação: comissões de ética, cuja função começa por orientar e aconselhar, pelo Decreto mil cento e setenta e um; Sistema de Gestão da Ética do Decreto seis mil e vinte e nove; consultas sobre conflito de interesses; unidade setorial de integridade. Canais de relato: ouvidoria e correição, garantidas pelo artigo quarto A da Lei treze mil seiscentos e oito a qualquer pessoa; sistema de ouvidoria do Decreto nove mil quatrocentos e noventa e dois, com a CGU como órgão central e o Fála Bê Érre; chefia, autoridade superior, corregedoria. Canal confiável é acessível, seguro, independente, responde, é integrado e gera aprendizado. Poucas denúncias não provam integridade.
-
 
 BLOCO CINCO: EXEMPLO, CONFIANÇA E PRESTAÇÃO DE CONTAS
 
@@ -276,44 +228,38 @@ Os tipos de accountability, horizontal, vertical e social, já vimos no item um 
 
 E com isso fechamos o bloco de ética e integridade. No próximo item, um ponto quatro ponto um, começamos o bloco de administração pública, com a organização administrativa: administração direta e indireta, descentralização, desconcentração e agentes públicos. Vai ser útil, inclusive, para entender por que o Sitái alcança autarquias e fundações, mas não as estatais.
 
-Recapitulando o bloco cinco. Exemplo: o tom vem do topo; o Decreto nove mil duzentos e três põe a integridade na liderança; o primeiro eixo do programa é o comprometimento da alta administração; o Código de Conduta da Alta Administração Federal tem como finalidade aperfeiçoar padrões éticos a partir do exemplo das autoridades superiores; mas chefias imediatas e pares também formam a cultura. Confiança: da sociedade, protegida pelo programa de integridade e pelo princípio da confiabilidade; interna, que faz os canais funcionarem; presunção de boa-fé convive com controles proporcionais. Prestação de contas: artigo setenta, parágrafo único, da Constituição, para qualquer pessoa que lide com recursos públicos; anda junto com responsabilidade; depende de motivação e de registro; inclui prestar contas da própria integridade.
 
+PEGADINHAS DO ITEM
 
-PEGADINHAS CEBRASPE
+"a gestão da integridade é responsabilidade exclusiva da unidade setorial de integridade". Errado. A unidade coordena, orienta e monitora, mas a integridade é responsabilidade de toda a organização, e os riscos são geridos pelos gestores de cada processo. Desconfie de "exclusiva".
 
-Vamos reunir as armadilhas deste item.
+Conceito restrito de programa de integridade. "O programa de integridade destina-se exclusivamente à prevenção de fraudes e atos de corrupção." Errado à luz do Decreto onze mil quinhentos e vinte e nove, que inclui irregularidades, desvios éticos e de conduta e violação de direitos. O conceito restrito era o do Decreto nove mil duzentos e três.
 
-Pegadinha um: "a gestão da integridade é responsabilidade exclusiva da unidade setorial de integridade". Errado. A unidade coordena, orienta e monitora, mas a integridade é responsabilidade de toda a organização, e os riscos são geridos pelos gestores de cada processo. Desconfie de "exclusiva".
+Alcance do Sitái. "O Sitái abrange toda a administração pública federal, inclusive empresas públicas e sociedades de economia mista." Errado. Abrange a administração direta, autárquica e fundacional. Mas cuidado com a troca inversa: a obrigação de manter unidade de ouvidoria ou correição para relatos, do artigo quarto A da Lei treze mil seiscentos e oito, alcança as estatais e todos os entes.
 
-Pegadinha dois: conceito restrito de programa de integridade. "O programa de integridade destina-se exclusivamente à prevenção de fraudes e atos de corrupção." Errado à luz do Decreto onze mil quinhentos e vinte e nove, que inclui irregularidades, desvios éticos e de conduta e violação de direitos. O conceito restrito era o do Decreto nove mil duzentos e três.
+Relação entre a CGU e as unidades setoriais. "As unidades setoriais do Sitái são subordinadas administrativamente à CGU." Errado. A CGU exerce orientação normativa e supervisão técnica, sem prejuízo da subordinação administrativa ao órgão ou entidade de origem.
 
-Pegadinha três: alcance do Sitái. "O Sitái abrange toda a administração pública federal, inclusive empresas públicas e sociedades de economia mista." Errado. Abrange a administração direta, autárquica e fundacional. Mas cuidado com a troca inversa: a obrigação de manter unidade de ouvidoria ou correição para relatos, do artigo quarto A da Lei treze mil seiscentos e oito, alcança as estatais e todos os entes.
+Quem aprova o plano. "O plano de integridade é aprovado pela própria unidade setorial que o elabora" ou "pela CGU". Errado. A unidade setorial elabora; a autoridade máxima do órgão ou entidade aprova.
 
-Pegadinha quatro: relação entre a CGU e as unidades setoriais. "As unidades setoriais do Sitái são subordinadas administrativamente à CGU." Errado. A CGU exerce orientação normativa e supervisão técnica, sem prejuízo da subordinação administrativa ao órgão ou entidade de origem.
+Quem é a unidade setorial nos ministérios. Na administração direta, são as assessorias especiais de controle interno. Se a banca disser que é a corregedoria ou a ouvidoria, está errado. Corregedoria e ouvidoria exercem funções de integridade, mas não são, por definição do decreto, a unidade setorial na administração direta.
 
-Pegadinha cinco: quem aprova o plano. "O plano de integridade é aprovado pela própria unidade setorial que o elabora" ou "pela CGU". Errado. A unidade setorial elabora; a autoridade máxima do órgão ou entidade aprova.
+Normas revogadas. "O Sistema de Integridade Pública do Poder Executivo Federal, instituído pelo Decreto dez mil setecentos e cinquenta e seis, coordena a gestão da integridade." Desatualizado: revogado pelo Decreto onze mil quinhentos e vinte e nove. E "a Portaria cinquenta e sete, de dois mil e dezenove, disciplina os programas de integridade": revogada pela Portaria Normativa duzentos e trinta e quatro, de dois mil e vinte e cinco.
 
-Pegadinha seis: quem é a unidade setorial nos ministérios. Na administração direta, são as assessorias especiais de controle interno. Se a banca disser que é a corregedoria ou a ouvidoria, está errado. Corregedoria e ouvidoria exercem funções de integridade, mas não são, por definição do decreto, a unidade setorial na administração direta.
+Existência versus efetividade. "A publicação de código de conduta e de plano de integridade assegura a integridade institucional do órgão." Errado. Existência documental não é implementação, e implementação não é efetividade.
 
-Pegadinha sete: normas revogadas. "O Sistema de Integridade Pública do Poder Executivo Federal, instituído pelo Decreto dez mil setecentos e cinquenta e seis, coordena a gestão da integridade." Desatualizado: revogado pelo Decreto onze mil quinhentos e vinte e nove. E "a Portaria cinquenta e sete, de dois mil e dezenove, disciplina os programas de integridade": revogada pela Portaria Normativa duzentos e trinta e quatro, de dois mil e vinte e cinco.
+Orientação versus relato. "Os canais de orientação e de relato se confundem, pois ambos se destinam à apuração de irregularidades." Errado. Orientação é preventiva, para dúvidas sobre como agir; relato comunica fatos possivelmente irregulares. E nenhum dos dois, por si, apura.
 
-Pegadinha oito: existência versus efetividade. "A publicação de código de conduta e de plano de integridade assegura a integridade institucional do órgão." Errado. Existência documental não é implementação, e implementação não é efetividade.
+Comissão de ética só pune. "A comissão de ética tem função exclusivamente punitiva." Errado. Pelo Decreto mil cento e setenta e um, ela é encarregada de orientar e aconselhar sobre a ética profissional, além de conhecer de imputações passíveis de censura.
 
-Pegadinha nove: orientação versus relato. "Os canais de orientação e de relato se confundem, pois ambos se destinam à apuração de irregularidades." Errado. Orientação é preventiva, para dúvidas sobre como agir; relato comunica fatos possivelmente irregulares. E nenhum dos dois, por si, apura.
+Poucas denúncias. "A redução do número de denúncias recebidas pela ouvidoria demonstra, por si só, o fortalecimento da integridade do órgão." Errado. Pode ser baixa detecção: canal desconhecido, medo ou descrença.
 
-Pegadinha dez: comissão de ética só pune. "A comissão de ética tem função exclusivamente punitiva." Errado. Pelo Decreto mil cento e setenta e um, ela é encarregada de orientar e aconselhar sobre a ética profissional, além de conhecer de imputações passíveis de censura.
+Prevenção e punição. "Ao privilegiar ações preventivas, o Decreto nove mil duzentos e três afastou a aplicação de sanções." Errado. O decreto privilegia a prevenção antes de processos sancionadores; não elimina a responsabilização.
 
-Pegadinha onze: poucas denúncias. "A redução do número de denúncias recebidas pela ouvidoria demonstra, por si só, o fortalecimento da integridade do órgão." Errado. Pode ser baixa detecção: canal desconhecido, medo ou descrença.
+Prestação de contas só de agentes públicos. Errado. Pelo artigo setenta, parágrafo único, da Constituição, presta contas qualquer pessoa física ou jurídica, pública ou privada, que lide com dinheiros, bens e valores públicos.
 
-Pegadinha doze: prevenção e punição. "Ao privilegiar ações preventivas, o Decreto nove mil duzentos e três afastou a aplicação de sanções." Errado. O decreto privilegia a prevenção antes de processos sancionadores; não elimina a responsabilização.
+Os princípios do Decreto nove mil duzentos e três. São seis: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência. A banca pode incluir um intruso, como eficiência ou economicidade, que são caros à administração, mas não estão nessa lista.
 
-Pegadinha treze: prestação de contas só de agentes públicos. Errado. Pelo artigo setenta, parágrafo único, da Constituição, presta contas qualquer pessoa física ou jurídica, pública ou privada, que lide com dinheiros, bens e valores públicos.
-
-Pegadinha catorze: os princípios do Decreto nove mil duzentos e três. São seis: capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência. A banca pode incluir um intruso, como eficiência ou economicidade, que são caros à administração, mas não estão nessa lista.
-
-Pegadinha quinze: metas. "Quanto mais metas quantitativas, mais íntegra a organização." Errado. Métricas mal desenhadas geram incentivos perversos; quando a medida vira meta, deixa de ser boa medida.
-
-Dica geral: neste item, a banca troca três coisas. Troca o sujeito, dizendo que a integridade é de uma unidade só. Troca a norma, citando a revogada no lugar da vigente. E troca a forma pela substância, dizendo que ter o documento basta. Pergunte sempre: quem é responsável, qual norma está em vigor, e isso funciona na prática?
+Metas. "Quanto mais metas quantitativas, mais íntegra a organização." Errado. Métricas mal desenhadas geram incentivos perversos; quando a medida vira meta, deixa de ser boa medida.
 
 
 RESUMO FINAL: PONTOS PARA NÃO ESQUECER
@@ -335,64 +281,68 @@ Sete. Canais: orientação é preventiva; relato comunica fatos. Comissão de é
 Oito. Exemplo, confiança e prestação de contas: tom do topo e exemplo das chefias; confiança externa e interna; presunção de boa-fé com controles proporcionais; prestação de contas para qualquer pessoa que lide com recursos públicos, com motivação e registro.
 
 
-ITENS DE FIXAÇÃO, ESTILO CEBRASPE
-
-Julgue os itens a seguir como certo ou errado. Ouça todos, anote suas respostas, e só depois ouça o gabarito.
+ITENS DE FIXAÇÃO COM GABARITO
 
 Item um. Conforme o Decreto onze mil quinhentos e vinte e nove, de dois mil e vinte e três, o programa de integridade compreende mecanismos de prevenção, detecção e remediação não apenas de práticas de corrupção e fraude, mas também de desvios éticos e de conduta e de violação ou desrespeito a direitos que impactem a confiança, a credibilidade e a reputação institucional.
 
+Gabarito: certo. É o conceito do artigo terceiro, inciso um, do Decreto onze mil quinhentos e vinte e nove, mais amplo que o do antigo artigo dezenove do Decreto nove mil duzentos e três.
+
+
 Item dois. O Sistema de Integridade, Transparência e Acesso à Informação da Administração Pública Federal abrange os órgãos e as entidades da administração pública federal direta e indireta, incluídas as empresas públicas e as sociedades de economia mista.
+
+Gabarito: errado. O Sitái alcança a administração pública federal direta, autárquica e fundacional. As empresas estatais não o integram.
+
 
 Item três. As unidades setoriais do Sitái ficam sujeitas à orientação normativa e à supervisão técnica da Controladoria-Geral da União, órgão central do sistema, à qual passam a se subordinar administrativamente.
 
+Gabarito: errado. A primeira parte está correta, mas a supervisão técnica da CGU ocorre sem prejuízo da subordinação administrativa das unidades setoriais ao órgão ou à entidade a que pertencem, conforme o artigo sexto do decreto.
+
+
 Item quatro. O plano de integridade é elaborado pela unidade setorial do Sitái e aprovado pela autoridade máxima do órgão ou da entidade.
+
+Gabarito: certo. É a definição do artigo terceiro, inciso dois, do Decreto onze mil quinhentos e vinte e nove.
+
 
 Item cinco. Um órgão federal publicou código de conduta, aprovou plano de integridade e realizou capacitação inaugural sobre o tema. Nessa situação, a existência desses documentos é suficiente para atestar a efetividade do seu programa de integridade.
 
+Gabarito: errado. Existência documental não se confunde com implementação nem com efetividade. A efetividade depende de as medidas funcionarem na prática e produzirem resultados, o que exige monitoramento e avaliação.
+
+
 Item seis. Em uma coordenação de sistemas, a chefia passou a premiar exclusivamente a quantidade de funcionalidades entregues, o que levou a equipe a dispensar revisões de código e testes de segurança. Essa situação ilustra como um desenho inadequado de incentivos pode fragilizar a integridade institucional, mesmo sem que haja má-fé dos servidores.
+
+Gabarito: certo. Incentivos mal desenhados geram pressão e racionalizações que levam a atalhos, sem necessidade de má-fé. É um problema institucional, ligado ao ambiente e aos incentivos.
+
 
 Item sete. Segundo o Decreto nove mil duzentos e três, de dois mil e dezessete, a gestão da integridade, por privilegiar ações preventivas, afasta a instauração de processos sancionadores contra os agentes públicos que cometerem desvios.
 
+Gabarito: errado. O artigo quarto, inciso seis, do decreto manda privilegiar ações estratégicas de prevenção antes de processos sancionadores. Prevenção vem primeiro, mas a responsabilização continua cabível.
+
+
 Item oito. A comissão de ética prevista no Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal tem função exclusivamente sancionatória, cabendo a outros órgãos a orientação dos servidores sobre dilemas éticos.
+
+Gabarito: errado. Pelo item dezesseis da seção três do Decreto mil cento e setenta e um, a comissão de ética é encarregada de orientar e aconselhar sobre a ética profissional do servidor, além de conhecer de imputações passíveis de censura.
+
 
 Item nove. Nos termos da Lei treze mil seiscentos e oito, de dois mil e dezoito, as empresas públicas e as sociedades de economia mista também devem manter unidade de ouvidoria ou correição, para assegurar a qualquer pessoa o direito de relatar informações sobre ilícitos administrativos ou ações e omissões lesivas ao interesse público.
 
+Gabarito: certo. É o artigo quarto A da Lei treze mil seiscentos e oito, que alcança todos os entes, suas autarquias e fundações, empresas públicas e sociedades de economia mista.
+
+
 Item dez. A redução expressiva do número de denúncias recebidas pela ouvidoria de um órgão, após a reestruturação de sua área de gestão, demonstra, por si só, o fortalecimento da cultura de integridade nesse órgão.
+
+Gabarito: errado. A queda de denúncias pode indicar baixa detecção, como desconhecimento do canal, medo de retaliação ou descrença, e não necessariamente menos irregularidades.
+
 
 Item onze. São princípios da governança pública previstos no Decreto nove mil duzentos e três, de dois mil e dezessete, entre outros, a integridade, a confiabilidade e a prestação de contas e responsabilidade.
 
+Gabarito: certo. O artigo terceiro do decreto lista capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência.
+
+
 Item doze. O dever de prestar contas, previsto na Constituição Federal, restringe-se aos agentes públicos e às entidades da administração pública, não alcançando pessoas jurídicas de direito privado que administrem recursos públicos.
 
-
-GABARITO COMENTADO
-
-Item um: certo. É o conceito do artigo terceiro, inciso um, do Decreto onze mil quinhentos e vinte e nove, mais amplo que o do antigo artigo dezenove do Decreto nove mil duzentos e três.
-
-Item dois: errado. O Sitái alcança a administração pública federal direta, autárquica e fundacional. As empresas estatais não o integram.
-
-Item três: errado. A primeira parte está correta, mas a supervisão técnica da CGU ocorre sem prejuízo da subordinação administrativa das unidades setoriais ao órgão ou à entidade a que pertencem, conforme o artigo sexto do decreto.
-
-Item quatro: certo. É a definição do artigo terceiro, inciso dois, do Decreto onze mil quinhentos e vinte e nove.
-
-Item cinco: errado. Existência documental não se confunde com implementação nem com efetividade. A efetividade depende de as medidas funcionarem na prática e produzirem resultados, o que exige monitoramento e avaliação.
-
-Item seis: certo. Incentivos mal desenhados geram pressão e racionalizações que levam a atalhos, sem necessidade de má-fé. É um problema institucional, ligado ao ambiente e aos incentivos.
-
-Item sete: errado. O artigo quarto, inciso seis, do decreto manda privilegiar ações estratégicas de prevenção antes de processos sancionadores. Prevenção vem primeiro, mas a responsabilização continua cabível.
-
-Item oito: errado. Pelo item dezesseis da seção três do Decreto mil cento e setenta e um, a comissão de ética é encarregada de orientar e aconselhar sobre a ética profissional do servidor, além de conhecer de imputações passíveis de censura.
-
-Item nove: certo. É o artigo quarto A da Lei treze mil seiscentos e oito, que alcança todos os entes, suas autarquias e fundações, empresas públicas e sociedades de economia mista.
-
-Item dez: errado. A queda de denúncias pode indicar baixa detecção, como desconhecimento do canal, medo de retaliação ou descrença, e não necessariamente menos irregularidades. A expressão "por si só" torna o item errado.
-
-Item onze: certo. O artigo terceiro do decreto lista capacidade de resposta, integridade, confiabilidade, melhoria regulatória, prestação de contas e responsabilidade, e transparência.
-
-Item doze: errado. Pelo artigo setenta, parágrafo único, da Constituição, presta contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos.
+Gabarito: errado. Pelo artigo setenta, parágrafo único, da Constituição, presta contas qualquer pessoa física ou jurídica, pública ou privada, que utilize, arrecade, guarde, gerencie ou administre dinheiros, bens e valores públicos.
 
 
 ENCERRAMENTO
 
-Chegamos ao fim da aula e do bloco de ética e integridade. Se você guardar uma única ideia, que seja esta: a integridade de uma instituição se mede pelo que ela faz quando a regra incomoda. Regras coerentes com a prática, incentivos que não premiam o atalho, canais em que as pessoas confiam e lideranças que dão o exemplo e prestam contas.
-
-Na próxima aula, item um ponto quatro ponto um, começamos o bloco de administração pública, com a organização administrativa. Até lá, e bons estudos!
+A próxima aula trata do item um ponto quatro ponto um, organização administrativa.

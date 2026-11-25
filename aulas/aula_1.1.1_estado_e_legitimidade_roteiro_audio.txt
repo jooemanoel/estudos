@@ -1,25 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.1 DO EDITAL: ESTADO E LEGITIMIDADE.
-SUBITEM 1.1.1.1: Estado, governo e administração. Autoridade, legitimidade e poder. Interesse público, pluralismo e conflitos distributivos.
+AUDIOAULA. ITEM UM PONTO UM PONTO UM DO EDITAL: ESTADO E LEGITIMIDADE
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto um do edital da CGU, chamado Estado e legitimidade. Ele tem um único subitem, o um ponto um ponto um ponto um, que reúne nove conceitos em três trios.
-
-Primeiro trio: Estado, governo e administração.
-Segundo trio: autoridade, legitimidade e poder.
-Terceiro trio: interesse público, pluralismo e conflitos distributivos.
-
-Vamos seguir exatamente essa ordem, em três blocos. Em cada bloco eu explico os conceitos, aponto onde a Cebraspe costuma montar as pegadinhas e, no final da aula, resolvemos doze questões de fixação no formato certo ou errado, cada uma com gabarito comentado.
-
-Um aviso antes de começar. Este item é de ciência política e teoria do Estado. Ele não tem uma lei única para decorar. As bases seguras são duas: o texto da Constituição Federal de mil novecentos e oitenta e oito, e os autores clássicos, principalmente Max Weber, Norberto Bobbio, Robert Dahl, Theodore Lowi, Hely Lopes Meirelles, Maria Sylvia Di Pietro e Celso Antônio Bandeira de Mello. Sempre que eu citar um dispositivo da Constituição ou uma lei, vale a pena conferir depois no texto oficial do Planalto. Quando eu citar um autor, vou dizer o nome, porque a banca gosta de trocar a ideia de um autor pela de outro.
-
-Outro ponto de estratégia. Este edital tem uma redação nova, muito voltada a distinguir conceitos e aplicar a situações. Repare nos verbos e expressões que aparecem ao longo do programa: distinção entre, relação entre, tensões entre. Isso indica que a prova tende a cobrar menos definição decorada e mais a capacidade de separar um conceito do seu vizinho. Então, nesta aula, a palavra de ordem é: pares de conceitos. Estado e governo. Governo e administração. Poder e autoridade. Legalidade e legitimidade. Interesse público primário e secundário. Guarde os pares.
+Este é o item um ponto um ponto um, Estado e legitimidade. Ele tem um único subitem, organizado aqui em três blocos: Estado, governo e administração; autoridade, legitimidade e poder; e interesse público, pluralismo e conflitos distributivos. A banca costuma cobrar a distinção entre conceitos vizinhos, como Estado e governo, governo e administração, poder e autoridade, legalidade e legitimidade, e interesse público primário e secundário, além da atribuição correta das ideias a autores como Weber, Bobbio, Dahl e Lowi.
 
 
-BLOCO UM. ESTADO, GOVERNO E ADMINISTRAÇÃO.
+BLOCO UM: ESTADO, GOVERNO E ADMINISTRAÇÃO
 
 Comecemos pelo Estado.
 
@@ -101,10 +88,8 @@ Existe ainda a distinção entre sentido amplo e sentido estrito. Em sentido amp
 
 E lembre do que vimos sobre os Poderes. A função administrativa é típica do Executivo, mas existe administração pública nos três Poderes. Quando um tribunal realiza uma licitação ou quando a Câmara dos Deputados nomeia servidores, há função administrativa. O artigo trinta e sete da Constituição confirma isso ao se dirigir à administração pública direta e indireta de qualquer dos Poderes, em todos os entes da federação. Pegadinha: dizer que a administração pública se restringe ao Poder Executivo. Errado.
 
-Resumo do bloco um, em três frases. O Estado é a organização política permanente, soberana, formada por povo, território e governo. O governo é a direção política transitória, que faz escolhas com independência e responde politicamente por elas. A administração é o aparelho e a atividade que executam essas escolhas de forma neutra, hierarquizada e vinculada à lei e à técnica.
 
-
-BLOCO DOIS. PODER, AUTORIDADE E LEGITIMIDADE.
+BLOCO DOIS: PODER, AUTORIDADE E LEGITIMIDADE
 
 O edital escreve autoridade, legitimidade e poder. Para ficar mais didático, vou começar pelo poder, que é o conceito mais amplo, e depois chegar à autoridade e à legitimidade.
 
@@ -184,10 +169,8 @@ A primeira: Bobbio classifica o poder em três formas, conforme o meio utilizado
 
 A segunda: o poder não aparece só quando alguém vence uma disputa aberta. Ele também aparece quando alguém consegue impedir que um assunto entre na pauta de decisões, e quando alguém consegue moldar o que os outros desejam. Autores como Bachrach, Baratz e Steven Lukes chamaram a atenção para essas faces menos visíveis do poder. Para a prova, basta a ideia geral: controlar a agenda também é exercer poder. Isso volta no edital quando se fala de agenda de políticas públicas e de captura.
 
-Resumo do bloco dois. Poder é impor a vontade, mesmo contra resistência. Autoridade é poder legítimo. Legitimidade é a crença na validade do mando, e Weber aponta três fundamentos típicos: tradição, carisma e legalidade racional. Legalidade e legitimidade se relacionam, mas não se confundem, e a Constituição manda controlar as duas.
 
-
-BLOCO TRÊS. INTERESSE PÚBLICO, PLURALISMO E CONFLITOS DISTRIBUTIVOS.
+BLOCO TRÊS: INTERESSE PÚBLICO, PLURALISMO E CONFLITOS DISTRIBUTIVOS
 
 Este é o trio mais moderno do item e, provavelmente, o que mais rende questões interpretativas.
 
@@ -274,101 +257,16 @@ E aqui mora uma pegadinha de vocabulário. A expressão conflitos distributivos,
 Para fechar, o ponto de encontro dos três conceitos do bloco. Em uma sociedade plural, há muitos interesses legítimos e eles disputam recursos escassos. Esses são os conflitos distributivos. O interesse público não está dado de antemão: ele é construído pela forma como as instituições democráticas arbitram esses conflitos, dentro dos limites da Constituição. Quando esse processo é aberto, motivado e controlável, a decisão ganha legitimidade, mesmo para quem perdeu. Quando é opaco e favorece quem tem mais acesso, perde legitimidade. Perceba como o bloco três volta ao título do item: Estado e legitimidade.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
+PEGADINHAS DO ITEM
 
-Antes das questões, um resumo das estratégias da banca, para você treinar o olhar.
+Troca de conceitos vizinhos. Estado por governo. Soberania por autonomia. Sentido subjetivo por objetivo. Poder por autoridade. Legalidade por legitimidade. Primário por secundário. Pluralismo por pluripartidarismo. Distributiva por redistributiva. Fundamento por objetivo.
 
-Primeira estratégia: troca de conceitos vizinhos. Estado por governo. Soberania por autonomia. Sentido subjetivo por objetivo. Poder por autoridade. Legalidade por legitimidade. Primário por secundário. Pluralismo por pluripartidarismo. Distributiva por redistributiva. Fundamento por objetivo.
+Inversão de atributos. O item descreve corretamente dois conceitos, mas troca as características de um pelas do outro. É o caso de governo e administração.
 
-Segunda estratégia: inversão de atributos. O item descreve corretamente dois conceitos, mas troca as características de um pelas do outro. É o caso de governo e administração.
-
-Terceira estratégia: troca de autores. A ideia está correta, mas é atribuída ao autor errado.
-
-Quarta estratégia: generalização indevida. Palavras como sempre, nunca, apenas, exclusivamente, necessariamente e absoluto. Em ciência política, quase nada é absoluto. Não marque errado automaticamente, mas releia com atenção redobrada.
-
-Quinta estratégia: item longo, correto até a metade, com um trecho final errado, muitas vezes introduzido por expressões como razão pela qual, de modo que ou portanto. Leia até o último ponto. Verifique se a conclusão realmente decorre da premissa.
-
-Sexta estratégia: situação hipotética. O item descreve um caso e pede o enquadramento. Use as perguntas-chave desta aula. Obedece-se por quê? Quem é o sujeito e qual é a atividade? O interesse em jogo é da coletividade ou do caixa do Estado? Quem ganha e quem paga?
+Troca de autores. A ideia está correta, mas é atribuída ao autor errado.
 
 
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-Após as eleições, um novo grupo político assume a chefia do Poder Executivo federal e altera prioridades e diretrizes de diversas políticas. Nessa situação, a mudança de governo implica a substituição do Estado anterior por outro, razão pela qual os compromissos assumidos pela gestão anterior deixam de vincular a nova gestão.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o Estado é permanente e o governo é transitório. A mudança de governo altera a direção política, mas não a pessoa jurídica do Estado, que continua responsável pelas obrigações assumidas. Repare na estrutura do item: uma situação verdadeira seguida de uma conclusão falsa introduzida por razão pela qual.
-
-Questão dois.
-Na federação brasileira, a União é dotada de soberania, ao passo que os Estados, o Distrito Federal e os Municípios são dotados apenas de autonomia.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: soberana é a República Federativa do Brasil. A União, os Estados, o Distrito Federal e os Municípios são todos autônomos, conforme o artigo dezoito da Constituição. A União apenas representa a República nas relações internacionais.
-
-Questão três.
-Em sentido subjetivo, formal ou orgânico, a expressão administração pública designa o conjunto de órgãos, entidades e agentes aos quais a lei atribui o exercício da função administrativa.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: subjetivo, formal e orgânico são sinônimos e respondem à pergunta quem. O sentido objetivo, material ou funcional designa a atividade administrativa em si.
-
-Questão quatro.
-Segundo a doutrina clássica do direito administrativo, o governo caracteriza-se como atividade política e discricionária, de conduta independente, enquanto a administração caracteriza-se como atividade neutra, normalmente vinculada à lei ou à norma técnica, de conduta hierarquizada.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a distinção de Hely Lopes Meirelles. Se a banca inverter os atributos, o item fica errado. Lembre também que a administração tem poder de decisão apenas na sua área de competência, sem a opção política, que é do governo.
-
-Questão cinco.
-Para Max Weber, poder e dominação legítima são conceitos equivalentes, pois ambos pressupõem que aqueles que obedecem reconheçam como válida a ordem recebida.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: para Weber, poder é a probabilidade de impor a própria vontade mesmo contra resistência, seja qual for o fundamento. Não exige reconhecimento. É a dominação legítima, ou autoridade, que se apoia na crença na validade do mando.
-
-Questão seis.
-A concepção weberiana de que o Estado detém o monopólio do uso legítimo da força física é incompatível com a previsão legal da legítima defesa, uma vez que esta autoriza o uso da força por particulares.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o monopólio é do uso legítimo da força. O Estado é a fonte do direito de usá-la e pode admitir que particulares o façam em hipóteses definidas em lei. A legítima defesa só é legítima porque o ordenamento estatal a reconhece. Não há incompatibilidade.
-
-Questão sete.
-Um servidor discorda do conteúdo de uma instrução normativa editada pela autoridade competente do seu órgão, mas a cumpre por reconhecer que ela foi produzida segundo as regras e dentro da competência de quem a editou. Nessa situação, a obediência do servidor exemplifica o tipo de dominação que Weber denomina racional-legal.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: obedece-se à norma impessoal, criada segundo o procedimento previsto e dentro da competência, e não à pessoa de quem manda. É a dominação racional-legal, cuja expressão mais pura é a burocracia.
-
-Questão oito.
-Os tipos de dominação legítima formulados por Weber são tipos ideais, de modo que, nas situações concretas, é comum que elementos de mais de um deles apareçam combinados.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: tipo ideal é um instrumento de análise, não um retrato da realidade nem um modelo desejável. Nos casos reais, os tipos se misturam. Um governante investido segundo as regras legais pode ter também apelo carismático.
-
-Questão nove.
-Ao determinar que a fiscalização da aplicação dos recursos públicos seja exercida quanto à legalidade, à legitimidade e à economicidade, a Constituição Federal trata legalidade e legitimidade como parâmetros distintos, o que permite questionar um ato formalmente conforme à lei quanto ao atendimento do interesse público.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o artigo setenta da Constituição. Legalidade é conformidade com a lei. Legitimidade vai além e alcança a adequação do ato aos valores e finalidades públicas. Um ato pode ser legal e ter a sua legitimidade questionada.
-
-Questão dez.
-O interesse público secundário, entendido como o interesse patrimonial do Estado enquanto pessoa jurídica, deve prevalecer sobre o interesse público primário sempre que estiver em jogo a preservação do erário.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o interesse público primário é o da coletividade, e é ele que justifica a supremacia. O interesse secundário só pode ser validamente perseguido quando coincide com o primário. Observe ainda a palavra sempre, sinal de generalização indevida.
-
-Questão onze.
-O pluralismo político, fundamento da República Federativa do Brasil, corresponde à garantia do pluripartidarismo, não abrangendo a diversidade de opiniões e de formas de organização da sociedade que não tenham natureza partidária.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o pluralismo político, do inciso cinco do artigo primeiro, é mais amplo do que o pluripartidarismo, previsto no artigo dezessete. Abrange a diversidade de ideias, crenças e organizações sociais, como sindicatos, associações e movimentos. O pluripartidarismo é apenas uma de suas manifestações.
-
-Questão doze.
-Na tipologia de Theodore Lowi, as políticas redistributivas tendem a gerar nível de conflito mais elevado do que as políticas distributivas, uma vez que, naquelas, os grupos que arcam com os custos são mais facilmente identificáveis.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: nas políticas distributivas, os benefícios são concentrados e os custos, diluídos por toda a sociedade, o que reduz o conflito. Nas redistributivas, há ganhadores e perdedores visíveis, e o conflito é alto. Não confunda a expressão ampla conflitos distributivos, do edital, com a categoria política distributiva de Lowi.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Estado é permanente e soberano. Governo é transitório e político. Administração executa, de forma neutra, hierarquizada e vinculada à lei e à técnica.
 
@@ -388,4 +286,69 @@ Pluralismo político é fundamento da República e é mais amplo do que pluripar
 
 Conflitos distributivos são disputas sobre quem ganha e quem paga. São inerentes à democracia e legítimos. As instituições existem para processá-los com transparência. Em Lowi, a política distributiva tem baixo conflito, e a redistributiva, alto.
 
-Fim da aula do item um ponto um ponto um. Na sequência do edital, o próximo é o item um ponto um ponto dois, democracia e representação. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Após as eleições, um novo grupo político assume a chefia do Poder Executivo federal e altera prioridades e diretrizes de diversas políticas. Nessa situação, a mudança de governo implica a substituição do Estado anterior por outro, razão pela qual os compromissos assumidos pela gestão anterior deixam de vincular a nova gestão.
+
+Gabarito: errado. O Estado é permanente e o governo é transitório. A mudança de governo altera a direção política, mas não a pessoa jurídica do Estado, que continua responsável pelas obrigações assumidas.
+
+
+Item dois. Na federação brasileira, a União é dotada de soberania, ao passo que os Estados, o Distrito Federal e os Municípios são dotados apenas de autonomia.
+
+Gabarito: errado. Soberana é a República Federativa do Brasil. A União, os Estados, o Distrito Federal e os Municípios são todos autônomos, conforme o artigo dezoito da Constituição. A União apenas representa a República nas relações internacionais.
+
+
+Item três. Em sentido subjetivo, formal ou orgânico, a expressão administração pública designa o conjunto de órgãos, entidades e agentes aos quais a lei atribui o exercício da função administrativa.
+
+Gabarito: certo. Subjetivo, formal e orgânico são sinônimos e respondem à pergunta quem. O sentido objetivo, material ou funcional designa a atividade administrativa em si.
+
+
+Item quatro. Segundo a doutrina clássica do direito administrativo, o governo caracteriza-se como atividade política e discricionária, de conduta independente, enquanto a administração caracteriza-se como atividade neutra, normalmente vinculada à lei ou à norma técnica, de conduta hierarquizada.
+
+Gabarito: certo. É a distinção de Hely Lopes Meirelles. Se a banca inverter os atributos, o item fica errado. Lembre também que a administração tem poder de decisão apenas na sua área de competência, sem a opção política, que é do governo.
+
+
+Item cinco. Para Max Weber, poder e dominação legítima são conceitos equivalentes, pois ambos pressupõem que aqueles que obedecem reconheçam como válida a ordem recebida.
+
+Gabarito: errado. Para Weber, poder é a probabilidade de impor a própria vontade mesmo contra resistência, seja qual for o fundamento. Não exige reconhecimento. É a dominação legítima, ou autoridade, que se apoia na crença na validade do mando.
+
+
+Item seis. A concepção weberiana de que o Estado detém o monopólio do uso legítimo da força física é incompatível com a previsão legal da legítima defesa, uma vez que esta autoriza o uso da força por particulares.
+
+Gabarito: errado. O monopólio é do uso legítimo da força. O Estado é a fonte do direito de usá-la e pode admitir que particulares o façam em hipóteses definidas em lei. A legítima defesa só é legítima porque o ordenamento estatal a reconhece. Não há incompatibilidade.
+
+
+Item sete. Um servidor discorda do conteúdo de uma instrução normativa editada pela autoridade competente do seu órgão, mas a cumpre por reconhecer que ela foi produzida segundo as regras e dentro da competência de quem a editou. Nessa situação, a obediência do servidor exemplifica o tipo de dominação que Weber denomina racional-legal.
+
+Gabarito: certo. Obedece-se à norma impessoal, criada segundo o procedimento previsto e dentro da competência, e não à pessoa de quem manda. É a dominação racional-legal, cuja expressão mais pura é a burocracia.
+
+
+Item oito. Os tipos de dominação legítima formulados por Weber são tipos ideais, de modo que, nas situações concretas, é comum que elementos de mais de um deles apareçam combinados.
+
+Gabarito: certo. Tipo ideal é um instrumento de análise, não um retrato da realidade nem um modelo desejável. Nos casos reais, os tipos se misturam. Um governante investido segundo as regras legais pode ter também apelo carismático.
+
+
+Item nove. Ao determinar que a fiscalização da aplicação dos recursos públicos seja exercida quanto à legalidade, à legitimidade e à economicidade, a Constituição Federal trata legalidade e legitimidade como parâmetros distintos, o que permite questionar um ato formalmente conforme à lei quanto ao atendimento do interesse público.
+
+Gabarito: certo. É o artigo setenta da Constituição. Legalidade é conformidade com a lei. Legitimidade vai além e alcança a adequação do ato aos valores e finalidades públicas. Um ato pode ser legal e ter a sua legitimidade questionada.
+
+
+Item dez. O interesse público secundário, entendido como o interesse patrimonial do Estado enquanto pessoa jurídica, deve prevalecer sobre o interesse público primário sempre que estiver em jogo a preservação do erário.
+
+Gabarito: errado. O interesse público primário é o da coletividade, e é ele que justifica a supremacia. O interesse secundário só pode ser validamente perseguido quando coincide com o primário.
+
+
+Item onze. O pluralismo político, fundamento da República Federativa do Brasil, corresponde à garantia do pluripartidarismo, não abrangendo a diversidade de opiniões e de formas de organização da sociedade que não tenham natureza partidária.
+
+Gabarito: errado. O pluralismo político, do inciso cinco do artigo primeiro, é mais amplo do que o pluripartidarismo, previsto no artigo dezessete. Abrange a diversidade de ideias, crenças e organizações sociais, como sindicatos, associações e movimentos. O pluripartidarismo é apenas uma de suas manifestações.
+
+
+Item doze. Na tipologia de Theodore Lowi, as políticas redistributivas tendem a gerar nível de conflito mais elevado do que as políticas distributivas, uma vez que, naquelas, os grupos que arcam com os custos são mais facilmente identificáveis.
+
+Gabarito: certo. Nas políticas distributivas, os benefícios são concentrados e os custos, diluídos por toda a sociedade, o que reduz o conflito. Nas redistributivas, há ganhadores e perdedores visíveis, e o conflito é alto. Não confunda a expressão ampla conflitos distributivos, do edital, com a categoria política distributiva de Lowi.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto dois, democracia e representação.

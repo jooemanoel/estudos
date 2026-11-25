@@ -1,41 +1,9 @@
 AUDIOAULA. ITEM UM PONTO TRÊS PONTO QUATRO DO EDITAL: RELAÇÕES DE TRABALHO E ATENDIMENTO
-Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
-
-
-GLOSSÁRIO DE PRONÚNCIA
-(Grafia correta dos termos usados na aula e a forma fonética com que aparecem no texto.)
-
-Fala.BR (plataforma de ouvidoria do governo federal) = Fála Bê Érre
-bullying = búlin
-LGBTQIA+ = éle gê bê tê quê í á mais
-deploy (implantação de sistema) = diplói
-software = sóftuér
-Parecer JM-03 = Parecer jota ême zero três
 
 
 ABERTURA
 
-Olá! Vamos para mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
-
-Na aula passada, item um ponto três ponto três, estudamos conflitos de interesses, impedimento e suspeição. Vimos que a lei protege a imparcialidade criando deveres objetivos: comunicar, abster-se, consultar. E na aula um ponto três ponto dois vimos que o respeito, a urbanidade do artigo cento e dezesseis, inciso onze, da Lei oito mil cento e doze, é dever funcional e não mera cortesia. Naquela aula, eu prometi que assédio, discriminação e relações de poder seriam aprofundados aqui. Chegou a hora.
-
-O item um ponto três ponto quatro tem dois subitens.
-
-O subitem um ponto três ponto quatro ponto um trata de dignidade, diversidade e relações de poder; do reconhecimento e da prevenção de assédio e discriminação; e de respeito, escuta e não retaliação.
-
-O subitem um ponto três ponto quatro ponto dois trata da distinção entre acolher uma pessoa, verificar fatos e atribuir responsabilidade.
-
-Por que isso cai na prova? Primeiro, porque o tema ganhou normas novas e muito próprias do governo federal nos últimos anos: a Lei catorze mil quinhentos e quarenta, de dois mil e vinte e três; o Decreto doze mil cento e vinte e dois, de dois mil e vinte e quatro, que criou o Programa Federal de Prevenção e Enfrentamento do Assédio e da Discriminação; e o Guia Lilás, que é um documento da própria Controladoria-Geral da União. Banca que faz concurso para a CGU adora cobrar documento da CGU.
-
-Segundo, porque o assunto se presta a questões situacionais. A banca descreve uma cena no ambiente de trabalho e pergunta: isso é assédio? É ato de gestão? Quem deve agir? O acolhimento já é apuração? Quem pode punir?
-
-E terceiro, porque há armadilhas conceituais clássicas: achar que assédio moral sempre exige repetição, que assédio sexual sempre exige chefia, que a vítima precisa provar tudo para ser acolhida, ou que quem acolhe é quem julga.
-
-Um aviso importante sobre a base normativa. Não existe, na Lei oito mil cento e doze, um artigo que diga "é proibido praticar assédio moral". Também não existe, até onde verifiquei, lei federal que tipifique o assédio moral como crime ou como infração disciplinar autônoma. Há projetos de lei sobre isso em tramitação no Congresso, mas nenhum aprovado. Então a responsabilização é construída a partir de deveres e proibições já existentes no Estatuto, com orientação técnica da CGU. Vou mostrar como.
-
-A aula terá seis blocos. Um: dignidade, diversidade e relações de poder. Dois: assédio moral. Três: assédio sexual e discriminação. Quatro: prevenção, com as normas do programa federal. Cinco: respeito, escuta e não retaliação, inclusive no atendimento ao público. Seis: acolher, verificar e responsabilizar. Depois, pegadinhas, resumo, dezesseis itens de certo ou errado e gabarito comentado.
-
-Vamos lá.
+Este é o item um ponto três ponto quatro, relações de trabalho e atendimento. Ele tem dois subitens, organizados aqui em seis blocos: dignidade, diversidade e relações de poder; assédio moral; assédio sexual e discriminação; prevenção e o programa federal; respeito, escuta e não retaliação; e acolher, verificar e atribuir responsabilidade. A banca costuma cobrar a Lei catorze mil quinhentos e quarenta, de dois mil e vinte e três, o Decreto doze mil cento e vinte e dois, de dois mil e vinte e quatro, que criou o Programa Federal de Prevenção e Enfrentamento do Assédio e da Discriminação, e o Guia Lilás da CGU, além de situações em que é preciso distinguir assédio de ato de gestão e acolhimento de apuração.
 
 
 BLOCO UM: DIGNIDADE, DIVERSIDADE E RELAÇÕES DE PODER
@@ -62,12 +30,12 @@ O Guia Lilás, da CGU, chama atenção para um fenômeno importante: as microvio
 
 Um exemplo. Numa equipe de sistemas, toda vez que uma desenvolvedora sugere uma solução técnica na reunião, ela é interrompida, e a mesma ideia só é aceita quando um colega a repete. Ninguém xingou ninguém. Mas há aí um padrão de desvalorização, possivelmente ligado a gênero, que degrada o ambiente. Reconhecer isso faz parte do que o edital chama de reconhecimento de assédio e discriminação.
 
-Recapitulando o bloco um. Dignidade é fundamento da República; promover o bem de todos sem discriminação é objetivo fundamental; a lei punirá discriminação atentatória a direitos. Diversidade exige postura, não só constatação. O Decreto doze mil cento e vinte e dois protege especialmente grupos historicamente vulnerabilizados. Relações de poder vão além da hierarquia: técnico, de acesso, informal, social, e a do auditor sobre o auditado. Assédio e discriminação se apoiam em assimetrias de poder. Microviolências cotidianas podem iniciar uma escalada.
-
 
 BLOCO DOIS: ASSÉDIO MORAL
 
-Vamos ao conceito. Como não há definição legal federal, usamos a construção da CGU, que aparece no Guia Lilás e foi sistematizada pela Corregedoria-Geral da União na Nota Técnica noventa e três, de dois mil e vinte e quatro.
+Não existe, na Lei oito mil cento e doze, um artigo que diga "é proibido praticar assédio moral". Também não existe, até onde verifiquei, lei federal que tipifique o assédio moral como crime ou como infração disciplinar autônoma; há projetos de lei sobre isso em tramitação no Congresso, mas nenhum aprovado. A responsabilização é construída a partir de deveres e proibições já existentes no Estatuto, com orientação técnica da CGU.
+
+Como não há definição legal federal, usamos a construção da CGU, que aparece no Guia Lilás e foi sistematizada pela Corregedoria-Geral da União na Nota Técnica noventa e três, de dois mil e vinte e quatro.
 
 Essa nota técnica identifica três elementos do assédio moral.
 
@@ -102,8 +70,6 @@ Condutas de menor gravidade, que a nota chama de outras condutas impróprias nas
 E a improbidade? Aqui está uma mudança que a banca adora. Até dois mil e vinte e um, havia entendimento, inclusive no Superior Tribunal de Justiça, de que o assédio moral poderia configurar ato de improbidade por violação a princípios, no artigo onze da Lei oito mil quatrocentos e vinte e nove. Mas a Lei catorze mil duzentos e trinta, de dois mil e vinte e um, tornou o rol do artigo onze taxativo e retirou a hipótese genérica de praticar ato visando fim proibido em lei. Por isso, a Nota Técnica noventa e três concluiu que não é mais juridicamente viável enquadrar o assédio moral como improbidade administrativa. Se a banca afirmar que o assédio moral "configura, por si só, ato de improbidade por violação aos princípios da administração", pense na reforma de dois mil e vinte e um.
 
 E no campo penal? Não há crime de assédio moral como tal. Algumas condutas podem configurar outros crimes, como injúria, ameaça, perseguição, que é o artigo cento e quarenta e sete A do Código Penal, ou a violência psicológica contra a mulher, do artigo cento e quarenta e sete B. Desde dois mil e vinte e quatro, há também o crime de intimidação sistemática, o artigo cento e quarenta e seis A, que pode alcançar algumas formas de búlin. Mas nem todo assédio moral se encaixa nesses tipos. Para a prova, fixe: assédio moral, como categoria geral, não é crime tipificado em lei federal.
-
-Recapitulando o bloco dois. Assédio moral, segundo a CGU: conduta, em geral repetida, que ofende a dignidade e degrada o ambiente de trabalho; intenção específica não é requisito. Repetição é típica, mas não obrigatória. Pode ser descendente, ascendente, horizontal, misto ou organizacional; não exige hierarquia. Ato de gestão feito com respeito não é assédio. Casos graves: artigo cento e dezessete, inciso nove, e artigo cento e trinta e dois, incisos cinco e sete, com demissão. Casos menos graves: artigo cento e dezesseis, incisos dois, nove e onze, ou artigo cento e dezessete, inciso cinco, com advertência ou suspensão. Depois da Lei catorze mil duzentos e trinta, não se enquadra mais como improbidade por violação a princípios.
 
 
 BLOCO TRÊS: ASSÉDIO SEXUAL E DISCRIMINAÇÃO
@@ -145,8 +111,6 @@ Pela nota técnica, a discriminação grave enquadra-se no artigo cento e trinta
 Um detalhe penal que dialoga com o serviço público: a Lei catorze mil quinhentos e trinta e dois, de dois mil e vinte e três, prevê aumento de pena para a injúria racial e o racismo quando praticados por funcionário público no exercício de suas funções ou a pretexto de exercê-las. Ou seja, o servidor que discrimina no exercício do cargo tem tratamento penal mais rigoroso.
 
 Exemplo de atendimento. Um servidor da CGU que atende cidadãos no balcão de ouvidoria faz comentários depreciativos sobre o sotaque e a cor de pele de um cidadão, na frente de outras pessoas, e se recusa a registrar a manifestação dele. Aqui há discriminação no atendimento, possível crime, e infração disciplinar grave.
-
-Recapitulando o bloco três. Crime de assédio sexual, artigo duzentos e dezesseis A: constranger para obter vantagem sexual, prevalecendo-se de superioridade hierárquica ou ascendência; detenção de um a dois anos, com projeto de aumento em análise no Senado. Importunação sexual, artigo duzentos e quinze A, sem hierarquia. No plano disciplinar, pelo Parecer jota ême zero três e pela Nota Técnica três mil duzentos e oitenta e cinco: artigo cento e dezessete, inciso nove, ou artigo cento e trinta e dois, inciso cinco; demissão compulsória; hierarquia não exigida; ato único basta; contato físico não exigido. Condutas sexuais menos graves: artigo cento e dezesseis, incisos três, nove e onze. Discriminação grave: artigo cento e trinta e dois, inciso cinco; menos grave: advertência ou suspensão.
 
 
 BLOCO QUATRO: PREVENÇÃO E O PROGRAMA FEDERAL
@@ -199,8 +163,6 @@ Por fim, uma confusão possível. A Lei catorze mil quatrocentos e cinquenta e s
 
 Exemplo prático de prevenção numa área de tecnologia. A coordenação de sistemas da CGU inclui, no seu plano de trabalho, uma capacitação anual sobre assédio e discriminação para toda a equipe, inclusive terceirizados; revisa a forma de cobrar entregas para evitar exposição pública de quem atrasou; estabelece regras de conduta para grupos de mensagens da equipe; e divulga claramente os canais de acolhimento e denúncia. Tudo isso é prevenção, no sentido do decreto.
 
-Recapitulando o bloco quatro. Lei catorze mil quinhentos e quarenta: assédio sexual e crimes contra a dignidade sexual, toda a administração de todos os entes; dever legal de denunciar para quem tiver conhecimento; apuração de retaliação contra vítimas, testemunhas e auxiliares; registros de capacitação por cinco anos. Decreto doze mil cento e vinte e dois: assédio moral, sexual e discriminação, na administração federal direta, autárquica e fundacional; servidores e empregados públicos, com medidas também para terceirizados; diretrizes de universalidade, transversalidade, confidencialidade e resolutividade; eixos de prevenção, acolhimento e tratamento de denúncias; plano federal do Ministério da Gestão, planos setoriais em cento e vinte dias, comitê gestor do Ministério da Gestão com a CGU; painéis da CGU. Guia Lilás: orientativo, com matriz de gravidade. Convenção cento e noventa: aprovada na Câmara em dois mil e vinte e seis, ainda não ratificada. Comissão de prevenção de acidentes e de assédio: regime celetista.
-
 
 BLOCO CINCO: RESPEITO, ESCUTA E NÃO RETALIAÇÃO
 
@@ -233,8 +195,6 @@ Quarta camada: a própria Lei oito mil cento e doze. O artigo cento e vinte e se
 E quem denuncia de boa-fé um fato que, ao final, não se comprova? Está protegido. A proteção não depende de a denúncia ser julgada procedente. O que a lei pune é a má-fé: a denunciação caluniosa, do artigo trezentos e trinta e nove do Código Penal, exige que o denunciante saiba que o acusado é inocente. Então, cuidado com o item que diga que "a proteção contra retaliação só alcança o denunciante cuja denúncia seja confirmada". Está errado.
 
 Exemplo. Uma desenvolvedora terceirizada relata à ouvidoria que o líder técnico do contrato faz comentários sexuais constantes. Duas semanas depois, o líder pede à empresa que a retire do projeto, alegando "baixo desempenho", sem nenhum registro anterior de problema. O momento e a ausência de fundamento indicam retaliação. Pelo Decreto doze mil cento e vinte e dois, o órgão deve acolher a trabalhadora terceirizada, encaminhar a denúncia à empresa e acompanhar até a medida cabível. E a retaliação, em si, também deve ser apurada.
-
-Recapitulando o bloco cinco. Respeito no atendimento: Lei treze mil quatrocentos e sessenta, com urbanidade, presunção de boa-fé do usuário e vedação de discriminação; Código de Ética, sem preconceito e sem que antipatias e caprichos interfiram no trato com as pessoas. Escuta ativa: tempo, atenção, sem julgamento, sem perguntas culpabilizantes, registro fiel, honestidade sobre caminhos e limites. Não retaliação: Lei treze mil seiscentos e oito, artigos quarto B e quarto C, com retaliação punida com demissão a bem do serviço público e ressarcimento em dobro; Lei catorze mil quinhentos e quarenta; Decreto doze mil cento e vinte e dois; artigo cento e vinte e seis A da Lei oito mil cento e doze; Decreto dez mil cento e cinquenta e três. Boa-fé protege, mesmo sem confirmação; denunciação caluniosa exige saber da inocência.
 
 
 BLOCO SEIS: ACOLHER, VERIFICAR E ATRIBUIR RESPONSABILIDADE
@@ -295,48 +255,42 @@ E quem atribui responsabilidade? A autoridade julgadora, ao fim do processo, com
 
 E se o superior do coordenador, ao saber do caso, decidir por conta própria remover o coordenador para outra unidade "como punição", sem processo? Isso é irregular. Remoção de ofício não é penalidade disciplinar, e usá-la para punir é desvio de finalidade. Se a intenção é proteger a apuração, o instrumento é o afastamento preventivo do artigo cento e quarenta e sete, dentro do processo.
 
-Recapitulando o bloco seis. Acolher: foco na pessoa; escuta, apoio, informação, encaminhamento; sem investigar e sem julgar; não depende de denúncia formal; evitar revitimização; honestidade sobre os limites do sigilo. Verificar: foco nos fatos; ouvidoria recebe e encaminha, corregedoria apura; juízo de admissibilidade; apuração é obrigatória para a autoridade, pelo artigo cento e quarenta e três; denúncia anônima pode desencadear investigação prévia, conforme a Súmula seiscentos e onze; afastamento preventivo do acusado por até sessenta dias, prorrogáveis por igual prazo, com remuneração. Atribuir responsabilidade: só ao fim de processo regular, com contraditório e ampla defesa, pela autoridade competente; esferas independentes; sigilo até a decisão final.
 
+PEGADINHAS DO ITEM
 
-PEGADINHAS CEBRASPE
+"assédio moral sempre exige reiteração". Pelo entendimento da CGU, a repetição é típica, mas um ato isolado grave, com uso do cargo, pode configurar assédio moral.
 
-Vamos reunir as armadilhas deste item.
+"assédio moral pressupõe hierarquia". Errado. Existe assédio horizontal, ascendente, misto e organizacional.
 
-Pegadinha um: "assédio moral sempre exige reiteração". Pelo entendimento da CGU, a repetição é típica, mas um ato isolado grave, com uso do cargo, pode configurar assédio moral. Desconfie de "sempre" e de "nunca".
+Transformar ato de gestão em assédio, ou o contrário. "Toda cobrança de metas que cause desconforto configura assédio moral." Errado. Cobrança respeitosa é ato de gestão. Mas "o que é feito em nome da gestão nunca é assédio" também está errado: a gestão pode ser abusiva, inclusive no assédio organizacional.
 
-Pegadinha dois: "assédio moral pressupõe hierarquia". Errado. Existe assédio horizontal, ascendente, misto e organizacional.
+Misturar o conceito penal e o administrativo de assédio sexual. "Para fins disciplinares, só há assédio sexual se o agente for superior hierárquico da vítima." Errado. A hierarquia é elemento do crime do artigo duzentos e dezesseis A, não do enquadramento disciplinar. A inversão também é pegadinha: "o crime de assédio sexual dispensa superioridade hierárquica ou ascendência". Errado.
 
-Pegadinha três: transformar ato de gestão em assédio, ou o contrário. "Toda cobrança de metas que cause desconforto configura assédio moral." Errado. Cobrança respeitosa é ato de gestão. Mas "o que é feito em nome da gestão nunca é assédio" também está errado: a gestão pode ser abusiva, inclusive no assédio organizacional.
+"o assédio sexual exige contato físico" ou "exige reiteração". Errado nos dois casos. Basta um ato, e pode ser verbal, por gestos ou por mensagens.
 
-Pegadinha quatro: misturar o conceito penal e o administrativo de assédio sexual. "Para fins disciplinares, só há assédio sexual se o agente for superior hierárquico da vítima." Errado. A hierarquia é elemento do crime do artigo duzentos e dezesseis A, não do enquadramento disciplinar. A inversão também é pegadinha: "o crime de assédio sexual dispensa superioridade hierárquica ou ascendência". Errado.
+Dosimetria no assédio sexual. "Configurado o assédio sexual, a autoridade pode aplicar suspensão, considerando os bons antecedentes do servidor." Errado. Pelo parecer vinculante e pela orientação da CGU, a penalidade é a demissão, sem margem para pena mais branda.
 
-Pegadinha cinco: "o assédio sexual exige contato físico" ou "exige reiteração". Errado nos dois casos. Basta um ato, e pode ser verbal, por gestos ou por mensagens.
+Improbidade. "O assédio moral configura ato de improbidade por violação aos princípios da administração, nos termos do artigo onze da Lei oito mil quatrocentos e vinte e nove." Desde a Lei catorze mil duzentos e trinta, de dois mil e vinte e um, a CGU entende que esse enquadramento não é mais viável.
 
-Pegadinha seis: dosimetria no assédio sexual. "Configurado o assédio sexual, a autoridade pode aplicar suspensão, considerando os bons antecedentes do servidor." Errado. Pelo parecer vinculante e pela orientação da CGU, a penalidade é a demissão, sem margem para pena mais branda.
+Troca de alcance entre as normas. A Lei catorze mil quinhentos e quarenta trata de assédio sexual e crimes contra a dignidade sexual, em toda a administração direta e indireta de todos os entes. O Decreto doze mil cento e vinte e dois trata de assédio moral, sexual e discriminação, na administração federal direta, autárquica e fundacional. Se a banca disser que a lei de dois mil e vinte e três trata de assédio moral, ou que o decreto alcança estados e municípios, está errado.
 
-Pegadinha sete: improbidade. "O assédio moral configura ato de improbidade por violação aos princípios da administração, nos termos do artigo onze da Lei oito mil quatrocentos e vinte e nove." Desde a Lei catorze mil duzentos e trinta, de dois mil e vinte e um, a CGU entende que esse enquadramento não é mais viável.
+Os números e as listas do decreto. Diretrizes: universalidade, transversalidade, confidencialidade e resolutividade. Eixos: prevenção, acolhimento e tratamento de denúncias. Plano federal: Ministério da Gestão. Comitê gestor: Ministério da Gestão com a CGU. Planos setoriais: cento e vinte dias. Troca de qualquer desses elementos é item errado.
 
-Pegadinha oito: troca de alcance entre as normas. A Lei catorze mil quinhentos e quarenta trata de assédio sexual e crimes contra a dignidade sexual, em toda a administração direta e indireta de todos os entes. O Decreto doze mil cento e vinte e dois trata de assédio moral, sexual e discriminação, na administração federal direta, autárquica e fundacional. Se a banca disser que a lei de dois mil e vinte e três trata de assédio moral, ou que o decreto alcança estados e municípios, está errado.
+Terceirizados. "Os trabalhadores terceirizados estão excluídos do programa federal." Errado. A administração previne e acolhe também terceirizados; a denúncia contra o terceirizado acusado é encaminhada à empresa empregadora, e a administração acompanha até a medida cabível.
 
-Pegadinha nove: os números e as listas do decreto. Diretrizes: universalidade, transversalidade, confidencialidade e resolutividade. Eixos: prevenção, acolhimento e tratamento de denúncias. Plano federal: Ministério da Gestão. Comitê gestor: Ministério da Gestão com a CGU. Planos setoriais: cento e vinte dias. Troca de qualquer desses elementos é item errado.
+A Convenção cento e noventa. "Já ratificada e em vigor no Brasil." Errado, até a última verificação: aprovada pela Câmara em setembro de dois mil e vinte e seis, pendente no Senado. E também não confunda com a comissão de prevenção de acidentes e de assédio, que é do regime celetista.
 
-Pegadinha dez: terceirizados. "Os trabalhadores terceirizados estão excluídos do programa federal." Errado. A administração previne e acolhe também terceirizados; a denúncia contra o terceirizado acusado é encaminhada à empresa empregadora, e a administração acompanha até a medida cabível.
+Retaliação. "A proteção contra retaliação só alcança o denunciante cuja denúncia seja julgada procedente." Errado. A boa-fé basta. E a retaliação ao informante é falta disciplinar grave, com demissão a bem do serviço público, pela Lei treze mil seiscentos e oito.
 
-Pegadinha onze: a Convenção cento e noventa. "Já ratificada e em vigor no Brasil." Errado, até a última verificação: aprovada pela Câmara em setembro de dois mil e vinte e seis, pendente no Senado. E também não confunda com a comissão de prevenção de acidentes e de assédio, que é do regime celetista.
+Quem acolhe é quem julga. "Cabe ao servidor da rede de acolhimento verificar a veracidade do relato e indicar o responsável." Errado. Acolher não é apurar nem responsabilizar.
 
-Pegadinha doze: retaliação. "A proteção contra retaliação só alcança o denunciante cuja denúncia seja julgada procedente." Errado. A boa-fé basta. E a retaliação ao informante é falta disciplinar grave, com demissão a bem do serviço público, pela Lei treze mil seiscentos e oito.
+Competência da ouvidoria. "A ouvidoria que recebe denúncia de assédio pode aplicar advertência ao acusado." Errado. Ouvidoria recebe, trata e encaminha; apuração e julgamento são da área correcional e da autoridade competente.
 
-Pegadinha treze: quem acolhe é quem julga. "Cabe ao servidor da rede de acolhimento verificar a veracidade do relato e indicar o responsável." Errado. Acolher não é apurar nem responsabilizar.
+Denúncia anônima. "É vedada qualquer apuração a partir de denúncia anônima." Errado. Pela Súmula seiscentos e onze do Superior Tribunal de Justiça, cabe instaurar processo disciplinar a partir dela, desde que motivado e com amparo em investigação ou sindicância prévia. Mas "a denúncia anônima, por si só, autoriza a abertura direta do processo disciplinar" também é arriscado: a súmula exige a investigação prévia.
 
-Pegadinha catorze: competência da ouvidoria. "A ouvidoria que recebe denúncia de assédio pode aplicar advertência ao acusado." Errado. Ouvidoria recebe, trata e encaminha; apuração e julgamento são da área correcional e da autoridade competente.
+Afastamento preventivo. Trocar sessenta por noventa ou cento e vinte dias; dizer que é sem remuneração; dizer que é penalidade; ou dizer que quem é afastado é a vítima. Todos errados. São até sessenta dias, prorrogáveis por igual prazo, sem prejuízo da remuneração, como medida cautelar, e quem é afastado é o acusado.
 
-Pegadinha quinze: denúncia anônima. "É vedada qualquer apuração a partir de denúncia anônima." Errado. Pela Súmula seiscentos e onze do Superior Tribunal de Justiça, cabe instaurar processo disciplinar a partir dela, desde que motivado e com amparo em investigação ou sindicância prévia. Mas "a denúncia anônima, por si só, autoriza a abertura direta do processo disciplinar" também é arriscado: a súmula exige a investigação prévia.
-
-Pegadinha dezesseis: afastamento preventivo. Trocar sessenta por noventa ou cento e vinte dias; dizer que é sem remuneração; dizer que é penalidade; ou dizer que quem é afastado é a vítima. Todos errados. São até sessenta dias, prorrogáveis por igual prazo, sem prejuízo da remuneração, como medida cautelar, e quem é afastado é o acusado.
-
-Pegadinha dezessete: as siglas. No Parecer jota ême zero três, a sigla CGU se refere à Consultoria-Geral da União, órgão da Advocacia-Geral da União. A Controladoria aparece com a Nota Técnica três mil duzentos e oitenta e cinco e com o Guia Lilás.
-
-Dica geral para este item: pergunte sempre três coisas. Qual é o plano: penal, disciplinar ou ético? Qual é o ato: acolher, verificar ou responsabilizar? E qual é a norma: lei de dois mil e vinte e três, decreto de dois mil e vinte e quatro, ou o guia orientativo? A maior parte das pegadinhas troca uma dessas três coisas.
+As siglas. No Parecer jota ême zero três, a sigla CGU se refere à Consultoria-Geral da União, órgão da Advocacia-Geral da União. A Controladoria aparece com a Nota Técnica três mil duzentos e oitenta e cinco e com o Guia Lilás.
 
 
 RESUMO FINAL: PONTOS PARA NÃO ESQUECER
@@ -360,80 +314,88 @@ Oito. Não retaliação: Lei treze mil seiscentos e oito, com demissão a bem do
 Nove. Acolher cuida da pessoa; verificar apura os fatos; responsabilizar exige processo com contraditório e ampla defesa. Afastamento preventivo do acusado: até sessenta dias, prorrogáveis, com remuneração.
 
 
-ITENS DE FIXAÇÃO, ESTILO CEBRASPE
-
-Julgue os itens a seguir como certo ou errado. Ouça todos, anote suas respostas, e só depois ouça o gabarito.
+ITENS DE FIXAÇÃO COM GABARITO
 
 Item um. O Programa Federal de Prevenção e Enfrentamento do Assédio e da Discriminação, instituído pelo Decreto doze mil cento e vinte e dois, de dois mil e vinte e quatro, estrutura-se nos eixos de prevenção, acolhimento e tratamento de denúncias.
 
+Gabarito: certo. É o artigo sétimo do Decreto doze mil cento e vinte e dois: prevenção, acolhimento e tratamento de denúncias.
+
+
 Item dois. Conforme o entendimento da Controladoria-Geral da União, o assédio moral exige sempre a reiteração de condutas, de modo que um ato isolado, por mais grave que seja, nunca poderá ser enquadrado como assédio moral.
+
+Gabarito: errado. Para a CGU, a reiteração é típica, mas não obrigatória. Uma conduta isolada, se muito ofensiva ou degradante e com claro uso indevido do cargo, pode configurar assédio moral.
+
 
 Item três. Uma coordenadora de sistemas, em reunião individual e com linguagem respeitosa, cobra de um desenvolvedor a correção de falhas detectadas na homologação e estabelece novo prazo para a entrega. Ainda que o desenvolvedor se sinta desconfortável, essa conduta, por si só, caracteriza ato de gestão, e não assédio moral.
 
+Gabarito: certo. Cobrar prazos e correções, com respeito e foco no serviço, é ato de gestão. O desconforto, por si só, não transforma a cobrança em assédio.
+
+
 Item quatro. Dois desenvolvedores de mesmo nível hierárquico passam, durante meses, a ridicularizar um colega com deficiência auditiva em reuniões e em grupos de mensagens da equipe. Nessa situação, não há que se falar em assédio moral, pois este pressupõe relação de subordinação entre o agressor e a vítima.
+
+Gabarito: errado. O assédio moral não exige hierarquia. A situação descreve assédio moral horizontal, com agravante discriminatório em razão da deficiência.
+
 
 Item cinco. Para a configuração do crime de assédio sexual previsto no Código Penal, exige-se que o agente se prevaleça de sua condição de superior hierárquico ou de ascendência inerentes ao exercício de emprego, cargo ou função; no âmbito disciplinar da Lei oito mil cento e doze, contudo, a relação hierárquica não é requisito para o enquadramento do assédio sexual.
 
+Gabarito: certo. A hierarquia ou ascendência é elemento do crime do artigo duzentos e dezesseis A. No plano disciplinar, conforme o Parecer jota ême zero três e a Nota Técnica três mil duzentos e oitenta e cinco, o que importa é o papel do cargo na dinâmica da ofensa.
+
+
 Item seis. Caracterizado, em processo administrativo disciplinar, o assédio sexual praticado por servidor público federal, a autoridade julgadora poderá aplicar a penalidade de suspensão, em vez da demissão, caso o servidor possua bons antecedentes funcionais.
+
+Gabarito: errado. Caracterizado o assédio sexual, o enquadramento no artigo cento e dezessete, inciso nove, ou no artigo cento e trinta e dois, inciso cinco, impõe a demissão, sem margem para pena mais branda.
+
 
 Item sete. Após as alterações promovidas pela Lei catorze mil duzentos e trinta, de dois mil e vinte e um, o assédio moral continua a ser enquadrado como ato de improbidade administrativa por violação genérica aos princípios da administração pública.
 
+Gabarito: errado. A Lei catorze mil duzentos e trinta tornou taxativo o rol do artigo onze da Lei oito mil quatrocentos e vinte e nove. Por isso, a CGU entende inviável enquadrar o assédio moral como improbidade por violação a princípios.
+
+
 Item oito. Nos termos da Lei catorze mil quinhentos e quarenta, de dois mil e vinte e três, qualquer pessoa que tiver conhecimento da prática de assédio sexual e demais crimes contra a dignidade sexual tem o dever legal de denunciá-los.
+
+Gabarito: certo. É o artigo quinto, parágrafo primeiro, da Lei catorze mil quinhentos e quarenta.
+
 
 Item nove. O Programa Federal de Prevenção e Enfrentamento do Assédio e da Discriminação aplica-se exclusivamente aos servidores ocupantes de cargo efetivo, razão pela qual a administração não deve adotar medidas de prevenção ou de acolhimento em relação a trabalhadores terceirizados.
 
+Gabarito: errado. O decreto alcança servidores e empregados públicos, e o parágrafo primeiro do artigo terceiro determina prevenção e acolhimento também para terceirizados, com encaminhamento à empresa da denúncia contra o terceirizado acusado e acompanhamento pela administração.
+
+
 Item dez. De acordo com a Lei treze mil seiscentos e oito, de dois mil e dezoito, a prática de ações ou omissões de retaliação contra o informante configura falta disciplinar grave e sujeita o agente à demissão a bem do serviço público.
+
+Gabarito: certo. É o artigo quarto C, parágrafo primeiro, da Lei treze mil seiscentos e oito, incluído pela Lei treze mil novecentos e sessenta e quatro, de dois mil e dezenove.
+
 
 Item onze. Um servidor que integra a rede de acolhimento de seu órgão recebe o relato de uma colega sobre possível assédio praticado pelo chefe dela. Nessa situação, cabe a esse servidor, como parte do acolhimento, confrontar o relato com a versão do chefe e emitir parecer conclusivo sobre a ocorrência do assédio, a fim de evitar denúncias infundadas.
 
+Gabarito: errado. Acolher não é verificar fatos nem atribuir responsabilidade. Quem acolhe escuta, orienta e encaminha. A apuração cabe à área correcional, com contraditório, e a decisão, à autoridade competente. Confrontar o relato com o acusado no acolhimento pode, inclusive, gerar revitimização e expor a vítima à retaliação.
+
+
 Item doze. A unidade de ouvidoria que recebe, pela plataforma Fála Bê Érre, denúncia de assédio moral contra servidor é competente para aplicar-lhe diretamente a penalidade de advertência, quando a conduta for de menor gravidade.
+
+Gabarito: errado. A ouvidoria recebe, trata e encaminha a denúncia, protegendo a identidade do denunciante. A apuração disciplinar e a aplicação de penalidades cabem à unidade correcional e à autoridade competente, mediante processo regular.
+
 
 Item treze. Como medida cautelar e a fim de que o servidor acusado não venha a influir na apuração, a autoridade instauradora do processo disciplinar poderá determinar o seu afastamento do exercício do cargo, pelo prazo de até sessenta dias, prorrogável por igual prazo, sem prejuízo da remuneração.
 
+Gabarito: certo. É o artigo cento e quarenta e sete da Lei oito mil cento e doze: até sessenta dias, prorrogáveis por igual prazo, sem prejuízo da remuneração.
+
+
 Item catorze. Segundo a jurisprudência sumulada do Superior Tribunal de Justiça, desde que devidamente motivada e com amparo em investigação ou sindicância, é permitida a instauração de processo administrativo disciplinar com base em denúncia anônima.
+
+Gabarito: certo. É a Súmula seiscentos e onze do Superior Tribunal de Justiça.
+
 
 Item quinze. Entre as diretrizes do atendimento previstas na Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, incluem-se a presunção de boa-fé do usuário e a igualdade no tratamento, vedado qualquer tipo de discriminação.
 
+Gabarito: certo. São diretrizes do artigo quinto da Lei treze mil quatrocentos e sessenta.
+
+
 Item dezesseis. A Convenção cento e noventa da Organização Internacional do Trabalho, sobre a eliminação da violência e do assédio no mundo do trabalho, já foi ratificada pelo Brasil e encontra-se em vigor no ordenamento jurídico brasileiro.
 
-
-GABARITO COMENTADO
-
-Item um: certo. É o artigo sétimo do Decreto doze mil cento e vinte e dois: prevenção, acolhimento e tratamento de denúncias.
-
-Item dois: errado. Para a CGU, a reiteração é típica, mas não obrigatória. Uma conduta isolada, se muito ofensiva ou degradante e com claro uso indevido do cargo, pode configurar assédio moral. As palavras "sempre" e "nunca" tornam o item errado.
-
-Item três: certo. Cobrar prazos e correções, com respeito e foco no serviço, é ato de gestão. O desconforto, por si só, não transforma a cobrança em assédio.
-
-Item quatro: errado. O assédio moral não exige hierarquia. A situação descreve assédio moral horizontal, com agravante discriminatório em razão da deficiência.
-
-Item cinco: certo. A hierarquia ou ascendência é elemento do crime do artigo duzentos e dezesseis A. No plano disciplinar, conforme o Parecer jota ême zero três e a Nota Técnica três mil duzentos e oitenta e cinco, o que importa é o papel do cargo na dinâmica da ofensa.
-
-Item seis: errado. Caracterizado o assédio sexual, o enquadramento no artigo cento e dezessete, inciso nove, ou no artigo cento e trinta e dois, inciso cinco, impõe a demissão, sem margem para pena mais branda.
-
-Item sete: errado. A Lei catorze mil duzentos e trinta tornou taxativo o rol do artigo onze da Lei oito mil quatrocentos e vinte e nove. Por isso, a CGU entende inviável enquadrar o assédio moral como improbidade por violação a princípios.
-
-Item oito: certo. É o artigo quinto, parágrafo primeiro, da Lei catorze mil quinhentos e quarenta.
-
-Item nove: errado. O decreto alcança servidores e empregados públicos, e o parágrafo primeiro do artigo terceiro determina prevenção e acolhimento também para terceirizados, com encaminhamento à empresa da denúncia contra o terceirizado acusado e acompanhamento pela administração.
-
-Item dez: certo. É o artigo quarto C, parágrafo primeiro, da Lei treze mil seiscentos e oito, incluído pela Lei treze mil novecentos e sessenta e quatro, de dois mil e dezenove.
-
-Item onze: errado. Acolher não é verificar fatos nem atribuir responsabilidade. Quem acolhe escuta, orienta e encaminha. A apuração cabe à área correcional, com contraditório, e a decisão, à autoridade competente. Confrontar o relato com o acusado no acolhimento pode, inclusive, gerar revitimização e expor a vítima à retaliação.
-
-Item doze: errado. A ouvidoria recebe, trata e encaminha a denúncia, protegendo a identidade do denunciante. A apuração disciplinar e a aplicação de penalidades cabem à unidade correcional e à autoridade competente, mediante processo regular.
-
-Item treze: certo. É o artigo cento e quarenta e sete da Lei oito mil cento e doze: até sessenta dias, prorrogáveis por igual prazo, sem prejuízo da remuneração.
-
-Item catorze: certo. É a Súmula seiscentos e onze do Superior Tribunal de Justiça.
-
-Item quinze: certo. São diretrizes do artigo quinto da Lei treze mil quatrocentos e sessenta.
-
-Item dezesseis: errado. Até a última verificação, a convenção havia sido aprovada apenas pela Câmara dos Deputados, em setembro de dois mil e vinte e seis, e aguardava análise do Senado. Ainda não foi ratificada nem está em vigor no Brasil.
+Gabarito: errado. Até a última verificação, a convenção havia sido aprovada apenas pela Câmara dos Deputados, em setembro de dois mil e vinte e seis, e aguardava análise do Senado. Ainda não foi ratificada nem está em vigor no Brasil.
 
 
 ENCERRAMENTO
 
-Chegamos ao fim da aula. Se você guardar uma única ideia, que seja esta: proteger a dignidade no trabalho exige separar os papéis. Acolher com cuidado, verificar com método e responsabilizar com processo.
-
-Na próxima aula, item um ponto três ponto cinco, vamos estudar a integridade como responsabilidade institucional: coerência entre regras e práticas, ambiente organizacional e incentivos, canais de orientação e relato, e o papel do exemplo, da confiança e da prestação de contas. Muito do que vimos hoje sobre canais e não retaliação vai reaparecer lá, agora pelo olhar da organização. Até lá, e bons estudos!
+A próxima aula trata do item um ponto três ponto cinco, integridade como responsabilidade institucional.

@@ -1,22 +1,9 @@
-ROTEIRO DE AUDIOAULA
-Concurso da Controladoria-Geral da União. Cargo de Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
-Item um ponto dois ponto cinco do edital: Desenvolvimento e realidade brasileira.
-Subitem um ponto dois ponto cinco ponto um: Pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; leitura contextual de indicadores e desigualdades.
+AUDIOAULA. ITEM UM PONTO DOIS PONTO CINCO DO EDITAL: DESENVOLVIMENTO E REALIDADE BRASILEIRA
 
 
 ABERTURA
 
-Olá! Seja bem-vindo e bem-vinda a mais uma audioaula da nossa trilha de preparação para a Controladoria-Geral da União.
-
-Hoje fechamos o bloco de realidade social brasileira com um tema muito cobrado e muito traiçoeiro: desenvolvimento e realidade brasileira. O edital pede quatro coisas. Primeira, pobreza, renda e proteção social. Segunda, educação, saúde, saneamento e habitação vistos como problemas públicos. Terceira, sustentabilidade e vulnerabilidade climática. Quarta, a leitura contextual de indicadores e de desigualdades.
-
-Por isso a aula terá quatro blocos, na mesma ordem do edital. No fim, você vai ouvir as estratégias que a Cebraspe costuma usar neste assunto, doze questões de fixação no formato certo ou errado e uma revisão final de um minuto.
-
-Uma nota de estratégia antes de começar. Este item mistura três tipos de conteúdo: conceitos, normas e números. Conceito a banca cobra trocando definições, por exemplo, mitigação por adaptação. Norma ela cobra trocando prazos, percentuais e palavras como "revogou" e "alterou". E número ela cobra invertendo a direção do indicador, como dizer que o índice de Gini mais alto significa menos desigualdade. Fique atento a esses três movimentos.
-
-Uma nota sobre fontes. Os números desta aula vêm da Síntese de Indicadores Sociais do IBGE, divulgada em dezembro de dois mil e vinte e cinco, com dados de dois mil e vinte e quatro, e dos estudos da Fundação João Pinheiro sobre déficit habitacional. As leis citadas são a Lei do Bolsa Família, o Marco Legal do Saneamento e a lei de planos de adaptação climática. Números mudam a cada edição. Na prova, o que mais importa é entender a direção e o sentido do indicador, não decorar a casa decimal.
-
-Vamos lá.
+Este é o item um ponto dois ponto cinco, desenvolvimento e realidade brasileira. Ele tem um único subitem, organizado aqui em quatro blocos: pobreza, renda e proteção social; educação, saúde, saneamento e habitação como problemas públicos; sustentabilidade e vulnerabilidade climática; e leitura contextual de indicadores e desigualdades. A banca costuma cobrar a direção dos indicadores, os dados da Síntese de Indicadores Sociais do IBGE de dezembro de dois mil e vinte e cinco, os prazos e percentuais do Marco Legal do Saneamento e a distinção entre mitigação e adaptação climática.
 
 
 BLOCO UM: POBREZA, RENDA E PROTEÇÃO SOCIAL
@@ -83,8 +70,6 @@ Sexta pegadinha: o BPC "exige que o idoso tenha contribuído para a previdência
 
 Uma palavra sobre o Cadastro Único. Ele é o grande registro das famílias de baixa renda no Brasil, usado para selecionar beneficiários de vários programas. Para quem vai trabalhar com auditoria de sistemas na CGU, o Cadastro Único é um prato cheio: cruzamento de bases, inconsistência de dados, famílias unipessoais artificiais, renda subdeclarada. A qualidade do dado é parte da qualidade da política pública.
 
-Resumo do bloco. Pobreza pode ser absoluta, relativa ou multidimensional. Para Amartya Sen, é privação de capacidades. Em dois mil e vinte e quatro, a pobreza caiu para vinte e três vírgula um por cento e a extrema pobreza para três vírgula cinco por cento, os menores níveis desde dois mil e doze. Sem programas sociais, a extrema pobreza seria quase o triplo. O mercado de trabalho pesou mais na queda da pobreza, e os benefícios pesaram mais na queda da extrema pobreza. O Gini caiu para zero vírgula quinhentos e quatro, e Gini maior significa mais desigualdade. A seguridade reúne saúde universal, previdência contributiva e assistência a quem dela necessitar. O Bolsa Família é transferência condicionada, para famílias do Cadastro Único com renda per capita de até duzentos e dezoito reais.
-
 
 BLOCO DOIS: EDUCAÇÃO, SAÚDE, SANEAMENTO E HABITAÇÃO COMO PROBLEMAS PÚBLICOS
 
@@ -136,8 +121,6 @@ Atenção também à diferença entre déficit e inadequação. O déficit mede 
 
 Por fim, um ponto conceitual que une as quatro áreas: são problemas interligados. Criança em moradia precária, sem esgoto, adoece mais, falta mais à escola e aprende menos, o que reduz sua renda futura. Por isso se fala em políticas intersetoriais, que articulam várias áreas ao mesmo tempo, e em focalização territorial, que concentra ações nos lugares onde as carências se sobrepõem.
 
-Resumo do bloco. Problema público é construção social e política, e entra na agenda quando problema, solução e política convergem, segundo Kingdon. A educação básica é obrigatória e gratuita dos quatro aos dezessete anos. A saúde é universal, e o Sistema Único de Saúde tem como diretrizes descentralização, integralidade e participação. O novo Marco do Saneamento alterou, e não revogou, a Lei onze mil quatrocentos e quarenta e cinco, e fixou noventa e nove por cento de água e noventa por cento de coleta e tratamento de esgoto até o fim de dois mil e trinta e três. O déficit habitacional é calculado pela Fundação João Pinheiro, foi de cerca de seis vírgula dois milhões em dois mil e vinte e dois, e seu principal componente é o ônus excessivo com aluguel urbano.
-
 
 BLOCO TRÊS: SUSTENTABILIDADE E VULNERABILIDADE CLIMÁTICA
 
@@ -177,8 +160,6 @@ Pegadinha: "a vulnerabilidade climática depende apenas das características fí
 
 Mais uma ligação útil: saneamento, habitação e clima estão juntos. A drenagem urbana é um dos quatro componentes do saneamento básico, e a ocupação irregular de áreas de risco é um problema habitacional. Um bom planejamento de adaptação passa por essas duas políticas.
 
-Resumo do bloco. Desenvolvimento sustentável, pelo Relatório Brundtland, atende ao presente sem comprometer as gerações futuras. A Constituição protege o meio ambiente para as presentes e futuras gerações, no artigo duzentos e vinte e cinco. Mitigação reduz emissões; adaptação reduz danos e vulnerabilidade. A Política Nacional sobre Mudança do Clima é a Lei doze mil cento e oitenta e sete, de dois mil e nove, e a Lei catorze mil novecentos e quatro, de dois mil e vinte e quatro, traz diretrizes para os planos de adaptação, com articulação federativa. Risco combina perigo, exposição e vulnerabilidade, e a vulnerabilidade tem forte componente social, o que fundamenta as ideias de justiça climática e de racismo ambiental.
-
 
 BLOCO QUATRO: LEITURA CONTEXTUAL DE INDICADORES E DESIGUALDADES
 
@@ -214,106 +195,25 @@ E, por fim, regra dez: contexto. Um mesmo número pode significar coisas diferen
 
 Para quem vai trabalhar com desenvolvimento de sistemas na CGU, tudo isso tem uma tradução direta. Painéis de dados e sistemas de monitoramento precisam deixar claro o que cada indicador mede, sua fonte, sua periodicidade, sua metodologia e suas quebras de série. Um painel que mostra só a média nacional, sem desagregação, pode esconder justamente a desigualdade que a política quer enfrentar.
 
-Resumo do bloco. Conheça a direção do indicador: Gini alto é pior, IDH alto é melhor. O IDH tem três dimensões: saúde, educação e renda. Proporção e número absoluto podem andar em direções diferentes. A média esconde a distribuição, e a mediana mostra a pessoa típica. Desagregue por região, cor, sexo e idade. Verifique a comparabilidade metodológica. Correlação não é causalidade, e avaliação de impacto exige contrafactual. Não confunda indicador de produto com indicador de resultado ou de impacto.
 
+PEGADINHAS DO ITEM
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
+Inverter a direção de um indicador. Dizer que o Gini maior indica menos desigualdade, ou que o IDH menor indica mais desenvolvimento.
 
-Estratégia um: inverter a direção de um indicador. Dizer que o Gini maior indica menos desigualdade, ou que o IDH menor indica mais desenvolvimento.
-
-Estratégia dois: inverter as explicações da SIS. Dizer que os benefícios sociais explicam mais a queda da pobreza e o mercado de trabalho explica mais a queda da extrema pobreza. É o contrário.
+Inverter as explicações da SIS. Dizer que os benefícios sociais explicam mais a queda da pobreza e o mercado de trabalho explica mais a queda da extrema pobreza. É o contrário.
 
 Estratégia três: trocar a natureza dos ramos da seguridade. Dizer que a assistência social exige contribuição, ou que a saúde é restrita aos contribuintes, ou que o BPC é aposentadoria.
 
-Estratégia quatro: alterar números e verbos de normas. No saneamento, trocar noventa e nove e noventa, mudar o prazo de dois mil e trinta e três, retirar a palavra "tratamento", ou dizer que a Lei catorze mil e vinte e seis revogou a Lei onze mil quatrocentos e quarenta e cinco. No Bolsa Família, chamar o programa de incondicionado ou trocar a linha de elegibilidade.
+Alterar números e verbos de normas. No saneamento, trocar noventa e nove e noventa, mudar o prazo de dois mil e trinta e três, retirar a palavra "tratamento", ou dizer que a Lei catorze mil e vinte e seis revogou a Lei onze mil quatrocentos e quarenta e cinco. No Bolsa Família, chamar o programa de incondicionado ou trocar a linha de elegibilidade.
 
-Estratégia cinco: trocar mitigação por adaptação, ou dizer que a Lei catorze mil novecentos e quatro trata de redução de emissões.
+Trocar mitigação por adaptação, ou dizer que a Lei catorze mil novecentos e quatro trata de redução de emissões.
 
-Estratégia seis: apresentar a vulnerabilidade como fenômeno puramente físico, ignorando a dimensão social, ou dizer que problema público é definido apenas por critérios técnicos.
+Apresentar a vulnerabilidade como fenômeno puramente físico, ignorando a dimensão social, ou dizer que problema público é definido apenas por critérios técnicos.
 
-Estratégia sete: falhas de interpretação estatística. Concluir número absoluto a partir de proporção, causalidade a partir de correlação, características individuais a partir de médias, ou comparar séries com metodologias diferentes. E, em avaliação, chamar produto de impacto.
-
-Dica geral: neste item, palavras absolutas como "apenas", "exclusivamente", "necessariamente" e "sempre" são fortes sinais de erro, principalmente nas questões de indicadores.
+Falhas de interpretação estatística. Concluir número absoluto a partir de proporção, causalidade a partir de correlação, características individuais a partir de médias, ou comparar séries com metodologias diferentes. E, em avaliação, chamar produto de impacto.
 
 
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze questões no formato certo ou errado. Ouça o enunciado, pause se quiser, decida e só então ouça o gabarito.
-
-Questão um.
-Segundo a Síntese de Indicadores Sociais do IBGE divulgada em dois mil e vinte e cinco, o índice de Gini do rendimento domiciliar per capita do Brasil atingiu, em dois mil e vinte e quatro, o menor valor da série histórica iniciada em dois mil e doze, o que indica redução da desigualdade de renda, já que, nesse índice, valores mais próximos de um representam maior desigualdade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o Gini caiu de zero vírgula quinhentos e dezessete, em dois mil e vinte e três, para zero vírgula quinhentos e quatro, em dois mil e vinte e quatro, o menor valor da série. E, de fato, quanto mais perto de um, maior a desigualdade.
-
-Questão dois.
-De acordo com o IBGE, entre dois mil e vinte e três e dois mil e vinte e quatro, os benefícios de programas sociais foram o fator mais importante para explicar a redução da pobreza, ao passo que o dinamismo do mercado de trabalho foi mais relevante para explicar a redução da extrema pobreza.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a afirmação inverte a conclusão do IBGE. O mercado de trabalho foi mais importante para a queda da pobreza, e os benefícios sociais foram mais importantes para a queda da extrema pobreza. Na simulação sem programas, a extrema pobreza quase triplicaria, de três vírgula cinco para dez por cento.
-
-Questão três.
-Nos termos da Lei catorze mil seiscentos e um, de dois mil e vinte e três, são elegíveis ao Programa Bolsa Família as famílias inscritas no Cadastro Único cuja renda familiar per capita mensal seja igual ou inferior a duzentos e dezoito reais, e o Benefício de Renda de Cidadania é pago por integrante da família.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é exatamente a regra de elegibilidade do artigo quinto: Cadastro Único e renda por pessoa de até duzentos e dezoito reais. O Benefício de Renda de Cidadania é de cento e quarenta e dois reais por integrante.
-
-Questão quatro.
-Por integrar a seguridade social, a assistência social somente é prestada a quem tiver contribuído previamente para o seu custeio, à semelhança do que ocorre com a previdência social.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: pelo artigo duzentos e três da Constituição, a assistência social é prestada a quem dela necessitar, independentemente de contribuição à seguridade social. O caráter contributivo é da previdência.
-
-Questão cinco.
-O novo Marco Legal do Saneamento Básico, instituído pela Lei catorze mil e vinte e seis, de dois mil e vinte, revogou integralmente a Lei onze mil quatrocentos e quarenta e cinco, de dois mil e sete, passando a ser o único diploma de diretrizes nacionais para o setor.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a Lei catorze mil e vinte e seis alterou a Lei onze mil quatrocentos e quarenta e cinco, e outras leis, mas não a revogou. A Lei onze mil quatrocentos e quarenta e cinco segue em vigor, com nova redação.
-
-Questão seis.
-O novo Marco Legal do Saneamento estabelece que os contratos de prestação dos serviços devem prever metas que garantam o atendimento de noventa e nove por cento da população com água potável e de noventa por cento com coleta e tratamento de esgotos até trinta e um de dezembro de dois mil e trinta e três.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: são exatamente as metas de universalização, com possibilidade de prorrogação até primeiro de janeiro de dois mil e quarenta nos casos admitidos em lei.
-
-Questão sete.
-Segundo a metodologia da Fundação João Pinheiro, o principal componente do déficit habitacional brasileiro é o ônus excessivo com aluguel urbano, que se refere a famílias de baixa renda que comprometem parcela elevada de sua renda com aluguel.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o ônus excessivo com aluguel urbano é o principal componente desde dois mil e onze e respondeu por mais da metade do déficit em dois mil e vinte e dois, cerca de três vírgula dois milhões de um total de cerca de seis vírgula dois milhões de domicílios.
-
-Questão oito.
-A Lei catorze mil novecentos e quatro, de dois mil e vinte e quatro, tem como objeto central a fixação de metas de redução das emissões de gases de efeito estufa pelos setores econômicos, caracterizando-se como instrumento típico de mitigação climática.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a Lei catorze mil novecentos e quatro estabelece diretrizes para planos de adaptação à mudança do clima, com o objetivo de reduzir a vulnerabilidade e a exposição a riscos. Redução de emissões é mitigação.
-
-Questão nove.
-A vulnerabilidade climática de uma população não depende apenas das características físicas dos eventos extremos, mas também de fatores sociais e econômicos, como renda, condições de moradia e capacidade de adaptação, razão pela qual grupos que menos contribuem para as emissões podem estar entre os mais afetados.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o risco combina perigo, exposição e vulnerabilidade, e esta tem forte componente social. Essa constatação fundamenta a ideia de justiça climática.
-
-Questão dez.
-Se a proporção de pessoas em situação de pobreza em um país diminuiu entre dois anos, conclui-se, necessariamente, que o número absoluto de pessoas pobres também diminuiu no mesmo período.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: proporção e número absoluto podem andar em direções diferentes. Se a população crescer o suficiente, a proporção pode cair e o número absoluto subir. A palavra "necessariamente" é o sinal do erro.
-
-Questão onze.
-Na abordagem das capacidades, de Amartya Sen, a pobreza é compreendida exclusivamente como insuficiência de renda monetária, razão pela qual a linha de pobreza baseada em renda é suficiente para captar todas as privações relevantes.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: para Sen, pobreza é privação de capacidades, ou seja, das liberdades reais de levar a vida que se valoriza. A renda é um meio importante, mas não esgota o conceito. Essa ideia inspirou o Índice de Desenvolvimento Humano e as medidas de pobreza multidimensional.
-
-Questão doze.
-Conforme a Constituição Federal, a educação básica é obrigatória e gratuita dos quatro aos dezessete anos de idade, assegurada inclusive sua oferta gratuita para todos os que a ela não tiveram acesso na idade própria.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a redação do artigo duzentos e oito, inciso primeiro, dada pela Emenda Constitucional cinquenta e nove, de dois mil e nove.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Pobreza pode ser absoluta, relativa ou multidimensional; para Amartya Sen, é privação de capacidades.
 
@@ -336,10 +236,68 @@ Clima: mitigação reduz emissões, adaptação reduz danos. A Lei catorze mil n
 Indicadores: veja a direção, separe proporção de número absoluto, desagregue, cheque a comparabilidade, não confunda correlação com causalidade nem produto com impacto.
 
 
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Segundo a Síntese de Indicadores Sociais do IBGE divulgada em dois mil e vinte e cinco, o índice de Gini do rendimento domiciliar per capita do Brasil atingiu, em dois mil e vinte e quatro, o menor valor da série histórica iniciada em dois mil e doze, o que indica redução da desigualdade de renda, já que, nesse índice, valores mais próximos de um representam maior desigualdade.
+
+Gabarito: certo. O Gini caiu de zero vírgula quinhentos e dezessete, em dois mil e vinte e três, para zero vírgula quinhentos e quatro, em dois mil e vinte e quatro, o menor valor da série. E, de fato, quanto mais perto de um, maior a desigualdade.
+
+
+Item dois. De acordo com o IBGE, entre dois mil e vinte e três e dois mil e vinte e quatro, os benefícios de programas sociais foram o fator mais importante para explicar a redução da pobreza, ao passo que o dinamismo do mercado de trabalho foi mais relevante para explicar a redução da extrema pobreza.
+
+Gabarito: errado. A afirmação inverte a conclusão do IBGE. O mercado de trabalho foi mais importante para a queda da pobreza, e os benefícios sociais foram mais importantes para a queda da extrema pobreza. Na simulação sem programas, a extrema pobreza quase triplicaria, de três vírgula cinco para dez por cento.
+
+
+Item três. Nos termos da Lei catorze mil seiscentos e um, de dois mil e vinte e três, são elegíveis ao Programa Bolsa Família as famílias inscritas no Cadastro Único cuja renda familiar per capita mensal seja igual ou inferior a duzentos e dezoito reais, e o Benefício de Renda de Cidadania é pago por integrante da família.
+
+Gabarito: certo. É exatamente a regra de elegibilidade do artigo quinto: Cadastro Único e renda por pessoa de até duzentos e dezoito reais. O Benefício de Renda de Cidadania é de cento e quarenta e dois reais por integrante.
+
+
+Item quatro. Por integrar a seguridade social, a assistência social somente é prestada a quem tiver contribuído previamente para o seu custeio, à semelhança do que ocorre com a previdência social.
+
+Gabarito: errado. Pelo artigo duzentos e três da Constituição, a assistência social é prestada a quem dela necessitar, independentemente de contribuição à seguridade social. O caráter contributivo é da previdência.
+
+
+Item cinco. O novo Marco Legal do Saneamento Básico, instituído pela Lei catorze mil e vinte e seis, de dois mil e vinte, revogou integralmente a Lei onze mil quatrocentos e quarenta e cinco, de dois mil e sete, passando a ser o único diploma de diretrizes nacionais para o setor.
+
+Gabarito: errado. A Lei catorze mil e vinte e seis alterou a Lei onze mil quatrocentos e quarenta e cinco, e outras leis, mas não a revogou. A Lei onze mil quatrocentos e quarenta e cinco segue em vigor, com nova redação.
+
+
+Item seis. O novo Marco Legal do Saneamento estabelece que os contratos de prestação dos serviços devem prever metas que garantam o atendimento de noventa e nove por cento da população com água potável e de noventa por cento com coleta e tratamento de esgotos até trinta e um de dezembro de dois mil e trinta e três.
+
+Gabarito: certo. São exatamente as metas de universalização, com possibilidade de prorrogação até primeiro de janeiro de dois mil e quarenta nos casos admitidos em lei.
+
+
+Item sete. Segundo a metodologia da Fundação João Pinheiro, o principal componente do déficit habitacional brasileiro é o ônus excessivo com aluguel urbano, que se refere a famílias de baixa renda que comprometem parcela elevada de sua renda com aluguel.
+
+Gabarito: certo. O ônus excessivo com aluguel urbano é o principal componente desde dois mil e onze e respondeu por mais da metade do déficit em dois mil e vinte e dois, cerca de três vírgula dois milhões de um total de cerca de seis vírgula dois milhões de domicílios.
+
+
+Item oito. A Lei catorze mil novecentos e quatro, de dois mil e vinte e quatro, tem como objeto central a fixação de metas de redução das emissões de gases de efeito estufa pelos setores econômicos, caracterizando-se como instrumento típico de mitigação climática.
+
+Gabarito: errado. A Lei catorze mil novecentos e quatro estabelece diretrizes para planos de adaptação à mudança do clima, com o objetivo de reduzir a vulnerabilidade e a exposição a riscos. Redução de emissões é mitigação.
+
+
+Item nove. A vulnerabilidade climática de uma população não depende apenas das características físicas dos eventos extremos, mas também de fatores sociais e econômicos, como renda, condições de moradia e capacidade de adaptação, razão pela qual grupos que menos contribuem para as emissões podem estar entre os mais afetados.
+
+Gabarito: certo. O risco combina perigo, exposição e vulnerabilidade, e esta tem forte componente social. Essa constatação fundamenta a ideia de justiça climática.
+
+
+Item dez. Se a proporção de pessoas em situação de pobreza em um país diminuiu entre dois anos, conclui-se, necessariamente, que o número absoluto de pessoas pobres também diminuiu no mesmo período.
+
+Gabarito: errado. Proporção e número absoluto podem andar em direções diferentes. Se a população crescer o suficiente, a proporção pode cair e o número absoluto subir.
+
+
+Item onze. Na abordagem das capacidades, de Amartya Sen, a pobreza é compreendida exclusivamente como insuficiência de renda monetária, razão pela qual a linha de pobreza baseada em renda é suficiente para captar todas as privações relevantes.
+
+Gabarito: errado. Para Sen, pobreza é privação de capacidades, ou seja, das liberdades reais de levar a vida que se valoriza. A renda é um meio importante, mas não esgota o conceito. Essa ideia inspirou o Índice de Desenvolvimento Humano e as medidas de pobreza multidimensional.
+
+
+Item doze. Conforme a Constituição Federal, a educação básica é obrigatória e gratuita dos quatro aos dezessete anos de idade, assegurada inclusive sua oferta gratuita para todos os que a ela não tiveram acesso na idade própria.
+
+Gabarito: certo. É a redação do artigo duzentos e oito, inciso primeiro, dada pela Emenda Constitucional cinquenta e nove, de dois mil e nove.
+
+
 ENCERRAMENTO
 
-Com esta aula, fechamos o item um ponto dois, sobre sociedade e realidade brasileira. Na próxima audioaula, entramos no item um ponto três, Ética pública e responsabilidade profissional, começando pelo subitem um ponto três ponto um, Fundamentos da ética pública: interesse público, dignidade, justiça e responsabilidade, a relação entre deveres, consequências e virtudes profissionais e os conflitos entre valores nas decisões públicas.
-
-Até lá, revise os números-chave desta aula e refaça as questões que errou.
-
-Bons estudos.
+A próxima aula trata do item um ponto três ponto um, fundamentos da ética pública.

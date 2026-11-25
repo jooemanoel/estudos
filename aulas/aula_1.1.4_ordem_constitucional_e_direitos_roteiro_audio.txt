@@ -1,28 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.4 DO EDITAL: ORDEM CONSTITUCIONAL E DIREITOS.
-SUBITEM 1.1.4.1: Fundamentos e objetivos da República. Direitos fundamentais, sociais e políticos. Igualdade, devido processo e limites ao exercício do poder. Princípios da administração pública.
+AUDIOAULA. ITEM UM PONTO UM PONTO QUATRO DO EDITAL: ORDEM CONSTITUCIONAL E DIREITOS
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto quatro do edital da CGU, chamado ordem constitucional e direitos. Ele tem um único subitem, o um ponto um ponto quatro ponto um, com quatro grupos de temas.
-
-Primeiro grupo: fundamentos e objetivos da República.
-Segundo grupo: direitos fundamentais, sociais e políticos.
-Terceiro grupo: igualdade, devido processo e limites ao exercício do poder.
-Quarto grupo: princípios da administração pública.
-
-Vamos seguir essa ordem, em quatro blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Este é o item mais jurídico de toda a parte de Estado e democracia. Nas três aulas anteriores, a Constituição apareceu como apoio. Aqui, ela é o centro. Isso muda a forma de estudar. Neste item, a letra da Constituição importa muito, e a banca constrói pegadinhas trocando uma palavra, um verbo ou um item de uma lista. Por isso, vou citar muitos dispositivos e sugerir recursos de memorização. Depois da aula, vale ler no texto oficial do Planalto os artigos primeiro a quinto, sexto, quatorze a dezesseis e trinta e sete.
-
-Ao mesmo tempo, o edital não pediu um curso completo de direito constitucional. Repare na redação: igualdade, devido processo e limites ao exercício do poder. O foco é a Constituição como limite e como direção para quem exerce poder público. Para o auditor, isso é o dia a dia: todo ato de controle afeta alguém e precisa respeitar garantias. Guarde essa ideia, porque ela ajuda nas questões interpretativas.
-
-Um aviso sobre o comando das questões. Em direito constitucional, preste atenção em como o item começa. Se disser nos termos da Constituição ou segundo o texto constitucional, vale a letra do dispositivo. Se disser segundo o entendimento do Supremo Tribunal Federal, vale a jurisprudência, que às vezes amplia ou restringe a letra. Vou sinalizar os pontos em que isso faz diferença.
+Este é o item um ponto um ponto quatro, ordem constitucional e direitos. Ele tem um único subitem, organizado aqui em quatro blocos: fundamentos e objetivos da República; direitos fundamentais, sociais e políticos; igualdade, devido processo e limites ao exercício do poder; e princípios da administração pública. A banca costuma cobrar a letra dos artigos primeiro a sexto, quatorze a dezesseis e trinta e sete da Constituição, trocando uma palavra, um verbo ou um elemento de lista, e diferencia o texto constitucional do entendimento do Supremo Tribunal Federal.
 
 
-BLOCO UM. FUNDAMENTOS E OBJETIVOS DA REPÚBLICA.
+BLOCO UM: FUNDAMENTOS E OBJETIVOS DA REPÚBLICA
 
 O Título Um da Constituição, chamado dos princípios fundamentais, tem quatro artigos. O artigo primeiro traz os fundamentos. O artigo segundo, a separação dos Poderes. O artigo terceiro, os objetivos fundamentais. O artigo quarto, os princípios que regem as relações internacionais.
 
@@ -74,10 +58,8 @@ A República rege-se nas suas relações internacionais pelos seguintes princíp
 
 A troca mais perigosa é entre soberania e independência nacional. As ideias são parecidas, mas soberania é fundamento, do artigo primeiro, e independência nacional é princípio das relações internacionais, do artigo quarto. Outra troca comum: colocar a prevalência dos direitos humanos ou a defesa da paz na lista de fundamentos ou de objetivos.
 
-Resumo do bloco um. Fundamentos, artigo primeiro: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político. Objetivos, artigo terceiro: construir, garantir, erradicar e reduzir, promover. Princípios das relações internacionais, artigo quarto, em lista separada. A banca mistura as três.
 
-
-BLOCO DOIS. DIREITOS FUNDAMENTAIS, SOCIAIS E POLÍTICOS.
+BLOCO DOIS: DIREITOS FUNDAMENTAIS, SOCIAIS E POLÍTICOS
 
 Comecemos pela organização. O Título Dois da Constituição chama-se dos direitos e garantias fundamentais e tem cinco capítulos: direitos e deveres individuais e coletivos, no artigo quinto; direitos sociais, dos artigos sexto ao onze; nacionalidade; direitos políticos, dos artigos quatorze a dezesseis; e partidos políticos.
 
@@ -191,10 +173,8 @@ Três palavras, três situações. Cassação é a retirada arbitrária, por ato
 
 E o artigo dezesseis, o princípio da anualidade eleitoral: a lei que alterar o processo eleitoral entrará em vigor na data de sua publicação, não se aplicando à eleição que ocorra até um ano da data de sua vigência. A pegadinha está na diferença entre vigência e aplicação. A lei entra em vigor imediatamente. O que fica adiado é a sua aplicação. A finalidade é impedir mudanças casuísticas das regras do jogo às vésperas da eleição.
 
-Resumo do bloco dois. Direitos fundamentais são o gênero. As dimensões são liberdade, igualdade e fraternidade, e se acumulam. Nenhum direito é absoluto. As normas de direitos fundamentais têm aplicação imediata, o rol é aberto, e tratados de direitos humanos aprovados por três quintos, em dois turnos, em cada Casa, equivalem a emendas. Direitos sociais estão no artigo sexto. Direitos políticos: o analfabeto vota, mas não é elegível, e a cassação é vedada.
 
-
-BLOCO TRÊS. IGUALDADE, DEVIDO PROCESSO E LIMITES AO EXERCÍCIO DO PODER.
+BLOCO TRÊS: IGUALDADE, DEVIDO PROCESSO E LIMITES AO EXERCÍCIO DO PODER
 
 Este bloco é o coração do item para quem vai trabalhar com controle.
 
@@ -274,10 +254,8 @@ Sétimo limite: as cláusulas pétreas, que limitam até o poder de emendar a Co
 
 Por fim, o conceito que nomeia a violação desses limites: o abuso de poder. Ele tem duas formas. No excesso de poder, o agente atua fora dos limites da sua competência. No desvio de poder, ou desvio de finalidade, o agente atua dentro da sua competência, mas para alcançar um fim diferente do previsto em lei, por exemplo, remover um servidor para puni-lo, quando a remoção serve para atender à necessidade do serviço. Pegadinha: inverter as duas definições.
 
-Resumo do bloco três. A Constituição consagra a igualdade formal e a material, e admite tratamento diferenciado justificado, como as ações afirmativas. O devido processo legal tem sentido formal e material, e o contraditório e a ampla defesa valem no processo judicial e no administrativo. E o poder público é limitado pela legalidade, pelos direitos fundamentais, pela proporcionalidade, pela segurança jurídica e pelos controles.
 
-
-BLOCO QUATRO. PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA.
+BLOCO QUATRO: PRINCÍPIOS DA ADMINISTRAÇÃO PÚBLICA
 
 O ponto de partida é o caput do artigo trinta e sete: a administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência.
 
@@ -335,104 +313,25 @@ A responsabilidade civil do Estado. O parágrafo sexto diz que as pessoas juríd
 
 Para fechar, a ideia que o edital desenvolve no item seguinte, sobre valor público e controle. Os princípios podem entrar em tensão. Eficiência com legalidade, quando o caminho mais rápido não é o previsto. Publicidade com proteção da intimidade, quando divulgar expõe dados pessoais. A solução não é escolher um princípio e eliminar o outro, mas ponderá-los no caso concreto. Item que afirme hierarquia rígida entre os princípios do artigo trinta e sete tende a estar errado.
 
-Resumo do bloco quatro. Princípios expressos no caput do artigo trinta e sete: legalidade, impessoalidade, moralidade, publicidade e eficiência, esta última incluída pela Emenda dezenove. A moralidade é autônoma em relação à legalidade. A improbidade gera suspensão dos direitos políticos, perda da função pública, indisponibilidade dos bens e ressarcimento ao erário. A publicidade é regra, com exceções. E há princípios implícitos, como razoabilidade, proporcionalidade, motivação e autotutela.
+
+PEGADINHAS DO ITEM
+
+Mistura de listas. Fundamentos com objetivos e com princípios das relações internacionais. Direitos sociais com direitos individuais. Princípios expressos do artigo trinta e sete com princípios implícitos.
+
+Troca de uma palavra. Erradicar no lugar de reduzir as desigualdades. Desenvolvimento econômico no lugar de nacional. Cassação ou perda no lugar de suspensão dos direitos políticos. Suspensão no lugar de perda da função pública. Revogar no lugar de anular.
+
+Troca de números. Três quintos em dois turnos. Idades mínimas de trinta e cinco, trinta, vinte e um e dezoito. Parentesco até o terceiro grau. Um ano na anualidade eleitoral.
+
+Letra da Constituição contra jurisprudência. Leia o comando. Segundo o texto constitucional, ou segundo o Supremo.
+
+Restrição indevida de garantias. Contraditório só no processo judicial. Direitos fundamentais só para brasileiros. Princípios do artigo trinta e sete só para o Executivo ou só para a administração direta.
+
+Afirmações absolutas. Direito absoluto. Publicidade sem exceções. Igualdade que proíbe qualquer diferenciação. Eficiência acima da legalidade.
+
+Situação hipotética que pede o princípio violado. Nome de autoridade em propaganda oficial: impessoalidade. Nomeação de parente para cargo em comissão: moralidade e impessoalidade. Punição sem oportunidade de defesa: devido processo, contraditório e ampla defesa. Ato praticado com finalidade diversa da prevista em lei: desvio de finalidade.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: mistura de listas. Fundamentos com objetivos e com princípios das relações internacionais. Direitos sociais com direitos individuais. Princípios expressos do artigo trinta e sete com princípios implícitos.
-
-Segunda estratégia: troca de uma palavra. Erradicar no lugar de reduzir as desigualdades. Desenvolvimento econômico no lugar de nacional. Cassação ou perda no lugar de suspensão dos direitos políticos. Suspensão no lugar de perda da função pública. Revogar no lugar de anular.
-
-Terceira estratégia: troca de números. Três quintos em dois turnos. Idades mínimas de trinta e cinco, trinta, vinte e um e dezoito. Parentesco até o terceiro grau. Um ano na anualidade eleitoral.
-
-Quarta estratégia: letra da Constituição contra jurisprudência. Leia o comando. Segundo o texto constitucional, ou segundo o Supremo.
-
-Quinta estratégia: restrição indevida de garantias. Contraditório só no processo judicial. Direitos fundamentais só para brasileiros. Princípios do artigo trinta e sete só para o Executivo ou só para a administração direta.
-
-Sexta estratégia: afirmações absolutas. Direito absoluto. Publicidade sem exceções. Igualdade que proíbe qualquer diferenciação. Eficiência acima da legalidade.
-
-Sétima estratégia: situação hipotética que pede o princípio violado. Nome de autoridade em propaganda oficial: impessoalidade. Nomeação de parente para cargo em comissão: moralidade e impessoalidade. Punição sem oportunidade de defesa: devido processo, contraditório e ampla defesa. Ato praticado com finalidade diversa da prevista em lei: desvio de finalidade.
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-Constituem fundamentos da República Federativa do Brasil, nos termos da Constituição Federal, a soberania, a cidadania, a dignidade da pessoa humana, a independência nacional e o pluralismo político.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: independência nacional é princípio das relações internacionais, do artigo quarto. O fundamento que falta na lista é o dos valores sociais do trabalho e da livre iniciativa. É a típica mistura de listas.
-
-Questão dois.
-O objetivo fundamental de erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais, embora tenha caráter programático, possui força normativa, orienta a atuação do legislador e do administrador e pode servir de fundamento a políticas de ação afirmativa.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: os objetivos do artigo terceiro são normas que vinculam os poderes públicos e orientam a interpretação. Repare também na redação correta dos verbos: erradicar a pobreza e a marginalização, reduzir as desigualdades.
-
-Questão três.
-Os direitos sociais, classificados como direitos de segunda dimensão, caracterizam-se por exigir prestações do Estado e, por corresponderem a estágio mais avançado de proteção, substituíram os direitos de primeira dimensão no constitucionalismo contemporâneo.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a primeira parte está correta. O erro está no final: as dimensões de direitos se acumulam e se complementam, não se substituem. É o item longo com o erro na conclusão.
-
-Questão quatro.
-Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o parágrafo terceiro do artigo quinto. Guarde os três elementos: cada Casa, dois turnos, três quintos. Os tratados de direitos humanos aprovados sem esse rito têm posição supralegal, segundo o Supremo Tribunal Federal.
-
-Questão cinco.
-A moradia, a alimentação e o transporte integram o rol de direitos sociais previsto na Constituição Federal, tendo sido nele incluídos por emendas constitucionais.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: os três estão no artigo sexto e foram acrescentados por emendas, nos anos dois mil, dois mil e dez e dois mil e quinze, respectivamente.
-
-Questão seis.
-De acordo com a Constituição Federal, o alistamento eleitoral e o voto são facultativos para os analfabetos, os quais, contudo, são inelegíveis.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o analfabeto pode votar, se quiser, mas não pode ser votado. Tem capacidade eleitoral ativa, mas não passiva. São inelegíveis os inalistáveis e os analfabetos.
-
-Questão sete.
-A condenação por ato de improbidade administrativa pode acarretar, entre outras consequências previstas na Constituição Federal, a cassação dos direitos políticos do agente público.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a Constituição veda a cassação de direitos políticos. A improbidade administrativa importa a suspensão dos direitos políticos, além da perda da função pública, da indisponibilidade dos bens e do ressarcimento ao erário.
-
-Questão oito.
-Por estabelecerem tratamento diferenciado entre candidatos, as políticas de reserva de vagas em concursos públicos para grupos historicamente discriminados são incompatíveis com o princípio da igualdade, que veda distinções de qualquer natureza.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a Constituição consagra também a igualdade material, que admite tratamento diferenciado quando há justificativa razoável e finalidade constitucional. O Supremo Tribunal Federal considerou constitucionais as cotas em concursos públicos.
-
-Questão nove.
-As garantias do contraditório e da ampla defesa aplicam-se aos processos administrativos, de modo que a imposição de penalidade a servidor público sem que lhe tenha sido dada oportunidade de se manifestar sobre os fatos que lhe são imputados viola o devido processo legal.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a Constituição assegura contraditório e ampla defesa aos litigantes em processo judicial ou administrativo e aos acusados em geral. Sanção administrativa exige processo com defesa.
-
-Questão dez.
-Em decorrência do princípio da legalidade, ao administrador público é permitido fazer tudo aquilo que a lei não proíbe.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: essa é a regra do particular. A administração pública só pode fazer o que a lei autoriza ou determina. É a diferença entre a legalidade para o indivíduo e a legalidade para a administração.
-
-Questão onze.
-São princípios expressos no caput do artigo trinta e sete da Constituição Federal a legalidade, a impessoalidade, a moralidade, a publicidade, a eficiência e a razoabilidade.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o caput traz apenas cinco princípios: legalidade, impessoalidade, moralidade, publicidade e eficiência. A razoabilidade é princípio implícito na Constituição, embora esteja expressa na lei do processo administrativo federal.
-
-Questão doze.
-A veiculação, em campanha publicitária de órgão público sobre obra recém-inaugurada, do nome e da imagem do chefe do Poder Executivo, de modo a caracterizar sua promoção pessoal, viola o princípio da impessoalidade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o parágrafo primeiro do artigo trinta e sete exige que a publicidade oficial tenha caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal. O dispositivo fala em publicidade, mas o princípio protegido é a impessoalidade.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Fundamentos: soberania, cidadania, dignidade da pessoa humana, valores sociais do trabalho e da livre iniciativa, pluralismo político.
 
@@ -460,4 +359,69 @@ Artigo trinta e sete: legalidade, impessoalidade, moralidade, publicidade e efic
 
 Anula-se o ato ilegal. Revoga-se o ato inconveniente.
 
-Fim da aula do item um ponto um ponto quatro. Na sequência do edital, o próximo é o item um ponto um ponto cinco, valor público e controle. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Constituem fundamentos da República Federativa do Brasil, nos termos da Constituição Federal, a soberania, a cidadania, a dignidade da pessoa humana, a independência nacional e o pluralismo político.
+
+Gabarito: errado. Independência nacional é princípio das relações internacionais, do artigo quarto. O fundamento que falta na lista é o dos valores sociais do trabalho e da livre iniciativa. É a típica mistura de listas.
+
+
+Item dois. O objetivo fundamental de erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais, embora tenha caráter programático, possui força normativa, orienta a atuação do legislador e do administrador e pode servir de fundamento a políticas de ação afirmativa.
+
+Gabarito: certo. Os objetivos do artigo terceiro são normas que vinculam os poderes públicos e orientam a interpretação. Repare também na redação correta dos verbos: erradicar a pobreza e a marginalização, reduzir as desigualdades.
+
+
+Item três. Os direitos sociais, classificados como direitos de segunda dimensão, caracterizam-se por exigir prestações do Estado e, por corresponderem a estágio mais avançado de proteção, substituíram os direitos de primeira dimensão no constitucionalismo contemporâneo.
+
+Gabarito: errado. A primeira parte está correta. O erro está no final: as dimensões de direitos se acumulam e se complementam, não se substituem. É o item longo com o erro na conclusão.
+
+
+Item quatro. Os tratados e convenções internacionais sobre direitos humanos que forem aprovados, em cada Casa do Congresso Nacional, em dois turnos, por três quintos dos votos dos respectivos membros, serão equivalentes às emendas constitucionais.
+
+Gabarito: certo. É o parágrafo terceiro do artigo quinto. Guarde os três elementos: cada Casa, dois turnos, três quintos. Os tratados de direitos humanos aprovados sem esse rito têm posição supralegal, segundo o Supremo Tribunal Federal.
+
+
+Item cinco. A moradia, a alimentação e o transporte integram o rol de direitos sociais previsto na Constituição Federal, tendo sido nele incluídos por emendas constitucionais.
+
+Gabarito: certo. Os três estão no artigo sexto e foram acrescentados por emendas, nos anos dois mil, dois mil e dez e dois mil e quinze, respectivamente.
+
+
+Item seis. De acordo com a Constituição Federal, o alistamento eleitoral e o voto são facultativos para os analfabetos, os quais, contudo, são inelegíveis.
+
+Gabarito: certo. O analfabeto pode votar, se quiser, mas não pode ser votado. Tem capacidade eleitoral ativa, mas não passiva. São inelegíveis os inalistáveis e os analfabetos.
+
+
+Item sete. A condenação por ato de improbidade administrativa pode acarretar, entre outras consequências previstas na Constituição Federal, a cassação dos direitos políticos do agente público.
+
+Gabarito: errado. A Constituição veda a cassação de direitos políticos. A improbidade administrativa importa a suspensão dos direitos políticos, além da perda da função pública, da indisponibilidade dos bens e do ressarcimento ao erário.
+
+
+Item oito. Por estabelecerem tratamento diferenciado entre candidatos, as políticas de reserva de vagas em concursos públicos para grupos historicamente discriminados são incompatíveis com o princípio da igualdade, que veda distinções de qualquer natureza.
+
+Gabarito: errado. A Constituição consagra também a igualdade material, que admite tratamento diferenciado quando há justificativa razoável e finalidade constitucional. O Supremo Tribunal Federal considerou constitucionais as cotas em concursos públicos.
+
+
+Item nove. As garantias do contraditório e da ampla defesa aplicam-se aos processos administrativos, de modo que a imposição de penalidade a servidor público sem que lhe tenha sido dada oportunidade de se manifestar sobre os fatos que lhe são imputados viola o devido processo legal.
+
+Gabarito: certo. A Constituição assegura contraditório e ampla defesa aos litigantes em processo judicial ou administrativo e aos acusados em geral. Sanção administrativa exige processo com defesa.
+
+
+Item dez. Em decorrência do princípio da legalidade, ao administrador público é permitido fazer tudo aquilo que a lei não proíbe.
+
+Gabarito: errado. Essa é a regra do particular. A administração pública só pode fazer o que a lei autoriza ou determina. É a diferença entre a legalidade para o indivíduo e a legalidade para a administração.
+
+
+Item onze. São princípios expressos no caput do artigo trinta e sete da Constituição Federal a legalidade, a impessoalidade, a moralidade, a publicidade, a eficiência e a razoabilidade.
+
+Gabarito: errado. O caput traz apenas cinco princípios: legalidade, impessoalidade, moralidade, publicidade e eficiência. A razoabilidade é princípio implícito na Constituição, embora esteja expressa na lei do processo administrativo federal.
+
+
+Item doze. A veiculação, em campanha publicitária de órgão público sobre obra recém-inaugurada, do nome e da imagem do chefe do Poder Executivo, de modo a caracterizar sua promoção pessoal, viola o princípio da impessoalidade.
+
+Gabarito: certo. O parágrafo primeiro do artigo trinta e sete exige que a publicidade oficial tenha caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal. O dispositivo fala em publicidade, mas o princípio protegido é a impessoalidade.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto cinco, valor público e controle.

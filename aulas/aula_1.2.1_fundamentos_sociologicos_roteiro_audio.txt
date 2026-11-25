@@ -1,31 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.2.1 DO EDITAL: FUNDAMENTOS SOCIOLÓGICOS.
-SUBITEM 1.2.1.1: Instituições, socialização e ação coletiva; estratificação e mobilidade social; redes, poder, discriminação e reprodução das desigualdades.
+AUDIOAULA. ITEM UM PONTO DOIS PONTO UM DO EDITAL: FUNDAMENTOS SOCIOLÓGICOS
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto dois ponto um do edital da CGU, chamado fundamentos sociológicos. Com ele começa um novo bloco do edital, o um ponto dois, sociedade brasileira, desigualdades, diversidade e desenvolvimento.
-
-O item tem um único subitem, o um ponto dois ponto um ponto um, com três grupos de conceitos.
-
-Primeiro grupo: instituições, socialização e ação coletiva.
-Segundo grupo: estratificação e mobilidade social.
-Terceiro grupo: redes, poder, discriminação e reprodução das desigualdades.
-
-Vamos seguir essa ordem, em três blocos. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Uma palavra sobre o lugar deste item. Ele é a base conceitual de todo o bloco um ponto dois. Os itens seguintes tratam da formação social brasileira, de população e trabalho, de diversidade e acesso a direitos, e de desenvolvimento. Para entendê-los, você precisa das ferramentas desta aula: o que são instituições, como as pessoas aprendem a viver em sociedade, como as desigualdades se organizam e, principalmente, por que elas tendem a se reproduzir de uma geração para outra.
-
-E por que isso importa para um auditor de tecnologia da informação? Por três razões. Primeiro, porque as políticas públicas que a CGU avalia atuam justamente sobre desigualdades. Segundo, porque o próprio Estado é uma instituição que pode reduzir ou reproduzir desigualdades, por exemplo, por meio de barreiras de acesso a serviços. E terceiro, porque sistemas de informação e modelos de inteligência artificial podem incorporar e ampliar discriminações presentes nos dados. O edital volta a esses pontos mais adiante.
-
-Os autores de referência são os clássicos da sociologia, Émile Durkheim, Max Weber e Karl Marx, e autores contemporâneos como Peter Berger e Thomas Luckmann, Douglass North, Mancur Olson, Pierre Bourdieu, Mark Granovetter e Charles Tilly. No Brasil, destacam-se José Pastore, Carlos Hasenbalg e Nelson do Valle Silva. Na parte normativa, o Estatuto da Igualdade Racial e a legislação sobre crimes de discriminação. Como sempre, confira os dispositivos no texto oficial do Planalto.
-
-Uma orientação de estratégia. Em sociologia, a Cebraspe costuma cobrar três coisas: a definição precisa dos conceitos, a atribuição correta aos autores e a capacidade de reconhecer o conceito em uma situação concreta. Preste atenção especial aos pares que a banca troca: socialização primária e secundária, mobilidade intergeracional e intrageracional, mobilidade estrutural e de circulação, preconceito e discriminação, laços fortes e fracos.
+Este é o item um ponto dois ponto um, fundamentos sociológicos, que abre o bloco sobre sociedade brasileira, desigualdades, diversidade e desenvolvimento. Ele tem um único subitem, organizado aqui em três blocos: instituições, socialização e ação coletiva; estratificação e mobilidade social; e redes, poder, discriminação e reprodução das desigualdades. A banca costuma cobrar a atribuição correta dos conceitos aos autores e a distinção entre pares como socialização primária e secundária, mobilidade intergeracional e intrageracional, mobilidade estrutural e de circulação, preconceito e discriminação, e laços fortes e fracos.
 
 
-BLOCO UM. INSTITUIÇÕES, SOCIALIZAÇÃO E AÇÃO COLETIVA.
+BLOCO UM: INSTITUIÇÕES, SOCIALIZAÇÃO E AÇÃO COLETIVA
 
 Comecemos pelos fundadores, porque os conceitos do edital nascem deles.
 
@@ -107,10 +88,8 @@ E a conexão com as desigualdades: grupos com mais recursos, mais redes e mais o
 
 Pegadinhas do bloco um. Dizer que o fato social é a soma de comportamentos individuais. Trocar os tipos de ação social de Weber. Atribuir a Weber a ideia de tratar os fatos sociais como coisas, ou a Durkheim a sociologia compreensiva. Dizer que instituições são apenas as regras formais escritas. Dizer que instituições e organizações são sinônimos. Dizer que a socialização se encerra na infância. E dizer que a socialização determina completamente o comportamento.
 
-Resumo do bloco um. Para Durkheim, o fato social é exterior, coercitivo e geral. Para Weber, a ação social tem sentido e se divide em racional com relação a fins, racional com relação a valores, afetiva e tradicional. Instituições são padrões estáveis de comportamento e, para North, regras do jogo, formais e informais, distintas das organizações. A socialização é primária, na infância, e secundária, ao longo da vida, e reproduz instituições e desigualdades sem ser totalmente determinista. E a ação coletiva enfrenta o problema do carona, sendo mais fácil para grupos com recursos, redes e identidade.
 
-
-BLOCO DOIS. ESTRATIFICAÇÃO E MOBILIDADE SOCIAL.
+BLOCO DOIS: ESTRATIFICAÇÃO E MOBILIDADE SOCIAL
 
 Estratificação social é a divisão da sociedade em camadas, ou estratos, hierarquicamente organizados, com acesso desigual a recursos socialmente valorizados, como renda, riqueza, poder, prestígio e educação. A palavra vem da geologia: como as camadas de uma rocha, os grupos sociais se sobrepõem em níveis.
 
@@ -180,10 +159,8 @@ Isso conecta com o debate sobre meritocracia. O mérito, como critério de sele�
 
 Pegadinhas do bloco dois. Dizer que a sociedade de classes garante igualdade de oportunidades. Dizer que, para Weber, a estratificação é apenas econômica. Trocar mobilidade intergeracional e intrageracional. Dizer que mobilidade estrutural é a que ocorre independentemente de mudanças na estrutura ocupacional. Dizer que alta mobilidade ascendente prova igualdade de oportunidades. Dizer que a desigualdade racial no Brasil se explica apenas pela origem de classe ou apenas pela herança da escravidão. E dizer que a escola é sempre um mecanismo neutro de mobilidade.
 
-Resumo do bloco dois. Estratificação é a hierarquização persistente de grupos com acesso desigual a recursos. Os sistemas são castas, estamentos e classes. Marx define classes pela posição nos meios de produção. Weber distingue classe, estamento e partido. Bourdieu fala em capitais econômico, cultural, social e simbólico, e em habitus. A mobilidade pode ser vertical ou horizontal, intergeracional ou intrageracional, estrutural ou de circulação, e é preciso distinguir mobilidade absoluta de fluidez. No Brasil, Pastore mostrou mobilidade sobretudo estrutural, e Hasenbalg e Valle Silva demonstraram desvantagens raciais que se renovam no presente. E a escola pode tanto promover mobilidade quanto reproduzir desigualdades.
 
-
-BLOCO TRÊS. REDES, PODER, DISCRIMINAÇÃO E REPRODUÇÃO DAS DESIGUALDADES.
+BLOCO TRÊS: REDES, PODER, DISCRIMINAÇÃO E REPRODUÇÃO DAS DESIGUALDADES
 
 Redes.
 
@@ -281,104 +258,23 @@ E, para você que vai atuar com tecnologia, um alerta que o edital retoma adiant
 
 Pegadinhas do bloco três. Inverter a tese de Granovetter. Tratar estereótipo, preconceito e discriminação como sinônimos. Dizer que discriminação exige intenção. Dizer que o caráter estrutural da discriminação afasta a responsabilidade individual. Dizer que a população negra abrange só os que se declaram pretos. Dizer que a injúria racial deixou de ser crime ou continua fora da Lei do Crime Racial. E dizer que a reprodução das desigualdades é um destino inevitável.
 
-Resumo do bloco três. Para Granovetter, os laços fracos dão acesso a informações novas e a empregos. O capital social é recurso individual, para Bourdieu, e atributo coletivo, para Putnam, e as redes, por homofilia, tendem a reproduzir desigualdades. O poder inclui o poder simbólico de definir o que é legítimo. Estereótipo é ideia, preconceito é atitude, discriminação é ação; e a discriminação pode ser direta, indireta, institucional ou estrutural, sem exigir intenção. O Estatuto da Igualdade Racial define discriminação e desigualdade racial, população negra e ações afirmativas. O racismo é crime inafiançável e imprescritível, a injúria racial passou à Lei do Crime Racial e a homotransfobia foi enquadrada pelo Supremo. E as desigualdades se reproduzem por mecanismos combinados, que podem ser enfrentados por políticas públicas.
+
+PEGADINHAS DO ITEM
+
+Troca de autores. Fato social e coisas, Durkheim. Ação social e sociologia compreensiva, Weber. Classes pelos meios de produção, Marx. Classe, estamento e partido, Weber. Capitais e habitus, Bourdieu. Laços fracos, Granovetter. Regras do jogo, North. Construção social da realidade, Berger e Luckmann. Mobilidade estrutural no Brasil, Pastore. Desvantagens raciais cumulativas, Hasenbalg e Valle Silva.
+
+Troca de pares conceituais. Ação racional com relação a valores e ação tradicional. Socialização primária e secundária. Instituição e organização. Mobilidade intergeracional e intrageracional. Estrutural e de circulação. Absoluta e relativa. Laços fortes e fracos. Preconceito e discriminação.
+
+Reducionismo. Estratificação só econômica. Desigualdade racial só de classe ou só herança do passado. Instituições só formais. Discriminação só intencional.
+
+Determinismo. Socialização que determina tudo. Reprodução inevitável. Herança cultural imutável.
+
+Falsa equivalência entre mobilidade e igualdade. Muita mobilidade ascendente apresentada como prova de igualdade de oportunidades.
+
+Detalhes normativos. Pretos e pardos. Estado e iniciativa privada nas ações afirmativas. Racismo inafiançável e imprescritível. Injúria racial na Lei do Crime Racial desde dois mil e vinte e três.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: troca de autores. Fato social e coisas, Durkheim. Ação social e sociologia compreensiva, Weber. Classes pelos meios de produção, Marx. Classe, estamento e partido, Weber. Capitais e habitus, Bourdieu. Laços fracos, Granovetter. Regras do jogo, North. Construção social da realidade, Berger e Luckmann. Mobilidade estrutural no Brasil, Pastore. Desvantagens raciais cumulativas, Hasenbalg e Valle Silva.
-
-Segunda estratégia: troca de pares conceituais. Ação racional com relação a valores e ação tradicional. Socialização primária e secundária. Instituição e organização. Mobilidade intergeracional e intrageracional. Estrutural e de circulação. Absoluta e relativa. Laços fortes e fracos. Preconceito e discriminação.
-
-Terceira estratégia: reducionismo. Estratificação só econômica. Desigualdade racial só de classe ou só herança do passado. Instituições só formais. Discriminação só intencional.
-
-Quarta estratégia: determinismo. Socialização que determina tudo. Reprodução inevitável. Herança cultural imutável.
-
-Quinta estratégia: falsa equivalência entre mobilidade e igualdade. Muita mobilidade ascendente apresentada como prova de igualdade de oportunidades.
-
-Sexta estratégia: detalhes normativos. Pretos e pardos. Estado e iniciativa privada nas ações afirmativas. Racismo inafiançável e imprescritível. Injúria racial na Lei do Crime Racial desde dois mil e vinte e três.
-
-Sétima estratégia: situação hipotética. Pergunte. É uma comparação entre pais e filhos, ou na vida da mesma pessoa? A mudança decorre da estrutura ou da troca de posições? O tratamento desigual é explícito, ou resulta de regra aparentemente neutra? Há intenção, ou há efeito?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-Para Émile Durkheim, os fatos sociais caracterizam-se pela exterioridade em relação às consciências individuais, pela coercitividade que exercem sobre os indivíduos e pela generalidade no âmbito do grupo.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: são as três características clássicas do fato social. Durkheim propôs, ainda, que os fatos sociais fossem tratados como coisas, isto é, estudados de forma objetiva.
-
-Questão dois.
-Na tipologia de Max Weber, a ação racional com relação a valores é aquela determinada por costumes arraigados e pelo hábito, sem reflexão sobre os seus fundamentos.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o item descreve a ação tradicional. A ação racional com relação a valores é orientada por convicções éticas, religiosas ou políticas conscientes, independentemente das consequências.
-
-Questão três.
-O processo de socialização encerra-se com o fim da infância, de modo que, após esse período, o indivíduo deixa de incorporar novas normas, valores e papéis sociais.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: além da socialização primária, que ocorre na infância, há a socialização secundária, que acompanha toda a vida, na escola, no trabalho e em outras organizações.
-
-Questão quatro.
-Max Weber concebeu a estratificação social de forma multidimensional, distinguindo a classe, ligada à ordem econômica e à situação de mercado, o estamento, ligado à honra social e ao estilo de vida, e o partido, ligado à disputa pelo poder.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a visão multidimensional de Weber. As três dimensões se relacionam, mas não coincidem, ao contrário da visão de Marx, que define as classes pela posição em relação aos meios de produção.
-
-Questão cinco.
-O filho de um trabalhador rural sem escolaridade que se torna engenheiro em uma grande empresa exemplifica um caso de mobilidade social intrageracional ascendente.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a comparação entre a posição do filho e a do pai caracteriza mobilidade intergeracional. A mobilidade intrageracional compara posições da mesma pessoa ao longo da sua vida.
-
-Questão seis.
-A mobilidade estrutural decorre de mudanças na distribuição das posições sociais, como as provocadas pela industrialização e pela urbanização, razão pela qual uma sociedade pode apresentar elevada mobilidade ascendente sem que se reduza, necessariamente, a desigualdade de oportunidades entre pessoas de origens sociais distintas.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: muita mobilidade absoluta, de natureza estrutural, pode conviver com baixa fluidez social. Foi o que os estudos de Pastore identificaram no Brasil do século vinte.
-
-Questão sete.
-Segundo os estudos de Carlos Hasenbalg e Nelson do Valle Silva, as desigualdades entre brancos e negros no Brasil explicam-se exclusivamente pela origem de classe e pela herança da escravidão, tendendo a desaparecer com a modernização da sociedade.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: esses autores mostraram que pretos e pardos têm menores chances de mobilidade ascendente mesmo quando comparados a brancos de mesma origem social, o que indica que a desigualdade racial é renovada no presente por mecanismos de discriminação, em um ciclo de desvantagens cumulativas.
-
-Questão oito.
-De acordo com Mark Granovetter, os laços fracos, mantidos com conhecidos e contatos menos próximos, tendem a ser especialmente úteis para o acesso a informações novas, como oportunidades de emprego, por conectarem o indivíduo a círculos sociais distintos do seu.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a tese da força dos laços fracos. Os laços fortes tendem a circular nos mesmos ambientes e a trazer informações redundantes.
-
-Questão nove.
-Para Pierre Bourdieu, o sistema escolar pode contribuir para a reprodução das desigualdades sociais ao valorizar, como se fossem qualidades naturais e méritos individuais, o capital cultural de que dispõem os estudantes oriundos das classes dominantes.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a tese de A Reprodução, de Bourdieu e Passeron. A escola, ao tratar como universais critérios particulares, exerce o que Bourdieu chamou de violência simbólica.
-
-Questão dez.
-Preconceito e discriminação são conceitos equivalentes, uma vez que ambos se referem a atos que produzem tratamento desigual, e somente se configuram quando há intenção deliberada de prejudicar o grupo discriminado.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: preconceito é uma atitude, um julgamento prévio; discriminação é o ato que produz tratamento desigual. E a discriminação não exige intenção: as formas indireta, institucional e estrutural se caracterizam pelo efeito.
-
-Questão onze.
-Configura discriminação indireta a adoção de regra ou prática aparentemente neutra que, embora não faça menção a nenhum grupo específico, produza efeitos desproporcionalmente negativos sobre determinado grupo social.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: na discriminação indireta, o problema não está no texto da regra, mas nos seus efeitos. Um serviço disponível apenas por meio digital, por exemplo, pode excluir desproporcionalmente pessoas idosas ou sem acesso à internet.
-
-Questão doze.
-Mesmo após as alterações legislativas de dois mil e vinte e três, a injúria racial permanece tipificada exclusivamente no Código Penal como crime contra a honra, distinto dos crimes de racismo previstos na Lei do Crime Racial.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a lei de dois mil e vinte e três alterou a Lei do Crime Racial e o Código Penal para tipificar a injúria racial como crime de racismo. Lembre que, pela Constituição, a prática do racismo é crime inafiançável e imprescritível.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Durkheim: fato social exterior, coercitivo e geral; tratar como coisas; solidariedade mecânica e orgânica; anomia.
 
@@ -408,4 +304,69 @@ Racismo: crime inafiançável e imprescritível. Injúria racial é racismo desd
 
 Reprodução das desigualdades por capitais, socialização, escola, redes, discriminação, território e instituições. Tilly: desigualdades categoriais. Reprodução não é destino.
 
-Fim da aula do item um ponto dois ponto um. Na sequência do edital, o próximo é o item um ponto dois ponto dois, formação social e cidadania no Brasil. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Para Émile Durkheim, os fatos sociais caracterizam-se pela exterioridade em relação às consciências individuais, pela coercitividade que exercem sobre os indivíduos e pela generalidade no âmbito do grupo.
+
+Gabarito: certo. São as três características clássicas do fato social. Durkheim propôs, ainda, que os fatos sociais fossem tratados como coisas, isto é, estudados de forma objetiva.
+
+
+Item dois. Na tipologia de Max Weber, a ação racional com relação a valores é aquela determinada por costumes arraigados e pelo hábito, sem reflexão sobre os seus fundamentos.
+
+Gabarito: errado. O item descreve a ação tradicional. A ação racional com relação a valores é orientada por convicções éticas, religiosas ou políticas conscientes, independentemente das consequências.
+
+
+Item três. O processo de socialização encerra-se com o fim da infância, de modo que, após esse período, o indivíduo deixa de incorporar novas normas, valores e papéis sociais.
+
+Gabarito: errado. Além da socialização primária, que ocorre na infância, há a socialização secundária, que acompanha toda a vida, na escola, no trabalho e em outras organizações.
+
+
+Item quatro. Max Weber concebeu a estratificação social de forma multidimensional, distinguindo a classe, ligada à ordem econômica e à situação de mercado, o estamento, ligado à honra social e ao estilo de vida, e o partido, ligado à disputa pelo poder.
+
+Gabarito: certo. É a visão multidimensional de Weber. As três dimensões se relacionam, mas não coincidem, ao contrário da visão de Marx, que define as classes pela posição em relação aos meios de produção.
+
+
+Item cinco. O filho de um trabalhador rural sem escolaridade que se torna engenheiro em uma grande empresa exemplifica um caso de mobilidade social intrageracional ascendente.
+
+Gabarito: errado. A comparação entre a posição do filho e a do pai caracteriza mobilidade intergeracional. A mobilidade intrageracional compara posições da mesma pessoa ao longo da sua vida.
+
+
+Item seis. A mobilidade estrutural decorre de mudanças na distribuição das posições sociais, como as provocadas pela industrialização e pela urbanização, razão pela qual uma sociedade pode apresentar elevada mobilidade ascendente sem que se reduza, necessariamente, a desigualdade de oportunidades entre pessoas de origens sociais distintas.
+
+Gabarito: certo. Muita mobilidade absoluta, de natureza estrutural, pode conviver com baixa fluidez social. Foi o que os estudos de Pastore identificaram no Brasil do século vinte.
+
+
+Item sete. Segundo os estudos de Carlos Hasenbalg e Nelson do Valle Silva, as desigualdades entre brancos e negros no Brasil explicam-se exclusivamente pela origem de classe e pela herança da escravidão, tendendo a desaparecer com a modernização da sociedade.
+
+Gabarito: errado. Esses autores mostraram que pretos e pardos têm menores chances de mobilidade ascendente mesmo quando comparados a brancos de mesma origem social, o que indica que a desigualdade racial é renovada no presente por mecanismos de discriminação, em um ciclo de desvantagens cumulativas.
+
+
+Item oito. De acordo com Mark Granovetter, os laços fracos, mantidos com conhecidos e contatos menos próximos, tendem a ser especialmente úteis para o acesso a informações novas, como oportunidades de emprego, por conectarem o indivíduo a círculos sociais distintos do seu.
+
+Gabarito: certo. É a tese da força dos laços fracos. Os laços fortes tendem a circular nos mesmos ambientes e a trazer informações redundantes.
+
+
+Item nove. Para Pierre Bourdieu, o sistema escolar pode contribuir para a reprodução das desigualdades sociais ao valorizar, como se fossem qualidades naturais e méritos individuais, o capital cultural de que dispõem os estudantes oriundos das classes dominantes.
+
+Gabarito: certo. É a tese de A Reprodução, de Bourdieu e Passeron. A escola, ao tratar como universais critérios particulares, exerce o que Bourdieu chamou de violência simbólica.
+
+
+Item dez. Preconceito e discriminação são conceitos equivalentes, uma vez que ambos se referem a atos que produzem tratamento desigual, e somente se configuram quando há intenção deliberada de prejudicar o grupo discriminado.
+
+Gabarito: errado. Preconceito é uma atitude, um julgamento prévio; discriminação é o ato que produz tratamento desigual. E a discriminação não exige intenção: as formas indireta, institucional e estrutural se caracterizam pelo efeito.
+
+
+Item onze. Configura discriminação indireta a adoção de regra ou prática aparentemente neutra que, embora não faça menção a nenhum grupo específico, produza efeitos desproporcionalmente negativos sobre determinado grupo social.
+
+Gabarito: certo. Na discriminação indireta, o problema não está no texto da regra, mas nos seus efeitos. Um serviço disponível apenas por meio digital, por exemplo, pode excluir desproporcionalmente pessoas idosas ou sem acesso à internet.
+
+
+Item doze. Mesmo após as alterações legislativas de dois mil e vinte e três, a injúria racial permanece tipificada exclusivamente no Código Penal como crime contra a honra, distinto dos crimes de racismo previstos na Lei do Crime Racial.
+
+Gabarito: errado. A lei de dois mil e vinte e três alterou a Lei do Crime Racial e o Código Penal para tipificar a injúria racial como crime de racismo. Lembre que, pela Constituição, a prática do racismo é crime inafiançável e imprescritível.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto dois ponto dois, formação social e cidadania no Brasil.

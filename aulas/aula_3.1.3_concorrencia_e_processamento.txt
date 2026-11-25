@@ -1,40 +1,12 @@
-AUDIOAULA. Concurso da CGU, Auditor Federal de Finanças e Controle, especialidade Desenvolvimento de Sistemas.
-Item três, um, três do edital: Concorrência e processamento.
+AUDIOAULA. ITEM TRÊS PONTO UM PONTO TRÊS DO EDITAL: CONCORRÊNCIA E PROCESSAMENTO
 
 
-BLOCO ZERO. ABERTURA.
+ABERTURA
 
-Olá. Esta é a audioaula do item três, um, três do edital da CGU: Concorrência e processamento.
-
-Esse tópico pertence ao bloco Engenharia de Software e Programação. Ele trata do que muda quando várias tarefas, ou várias requisições, executam ao mesmo tempo: o que pode dar errado, como proteger os dados e quanto isso custa em desempenho.
-
-São quatro subitens, e vamos seguir a ordem do edital.
-
-Primeiro, concorrência, paralelismo e assincronia.
-Segundo, condições de corrida e sincronização.
-Terceiro, compartilhamento de estado, bloqueios e falhas.
-Quarto, correção e desempenho sob requisições concorrentes.
-
-Ao fim de cada bloco, vou destacar as pegadinhas e a estratégia para enfrentá-las. E, no final da aula, teremos dezesseis questões de fixação, no estilo certo ou errado.
-
-Antes de começar, cinco estratégias que a banca usa neste tema. Guarde, porque elas se repetem.
-
-Primeira: a troca de par conceitual. A definição de um conceito é atribuída ao vizinho. Concorrência por paralelismo. Deadlock por livelock. Otimista por pessimista.
-
-Segunda: a garantia exagerada. Palavras como garante, elimina, sempre e qualquer, aplicadas a um mecanismo que resolve só uma parte do problema.
-
-Terceira: a meia verdade no final. O item é longo e correto, e o erro está na última oração. Leia até o ponto final.
-
-Quarta: o código curto com saída supostamente fixa. O item afirma que o programa sempre imprime certo valor. Em código com disputa entre threads, a resposta quase nunca é sempre.
-
-Quinta: a ideia de que mais é melhor. Mais threads, mais isolamento, mais sincronização. Em concorrência, toda escolha tem custo.
-
-E lembre: na prova de conhecimentos específicos, cada erro desconta dois pontos. Em item de concorrência, pergunte sempre três coisas. O que é compartilhado? Quem altera? E o que protege?
-
-Vamos lá.
+Este é o item três ponto um ponto três, concorrência e processamento. Ele tem quatro subitens, tratados aqui em quatro blocos: concorrência, paralelismo e assincronia; condições de corrida e sincronização; compartilhamento de estado, bloqueios e falhas; e correção e desempenho sob requisições concorrentes. A banca costuma trocar pares conceituais, como concorrência e paralelismo, deadlock e livelock, ou controle otimista e pessimista, e atribuir garantias absolutas a mecanismos que resolvem só parte do problema.
 
 
-BLOCO UM. CONCORRÊNCIA, PARALELISMO E ASSINCRONIA.
+BLOCO UM: CONCORRÊNCIA, PARALELISMO E ASSINCRONIA
 
 São três ideias diferentes, e a banca cobra, antes de tudo, que você não as confunda.
 
@@ -130,7 +102,7 @@ A anotação Async do Spring executa um método em outra thread. Ela funciona po
 
 E no JavaScript, a palavra await suspende a função, e não a thread. A thread continua livre para atender outros eventos.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco null.
 
 Concorrência exige múltiplos núcleos. Errado. Isso é paralelismo.
 
@@ -144,10 +116,8 @@ Threads virtuais aceleram cálculo intensivo. Errado. O ganho é em tarefas que 
 
 O método sleep libera o bloqueio. Errado. Quem libera é o wait.
 
-Estratégia para este bloco: quando ler concorrente, paralelo ou assíncrono, troque mentalmente a palavra pelas outras duas. Se a frase só fizer sentido com outra palavra, o item está errado.
 
-
-BLOCO DOIS. CONDIÇÕES DE CORRIDA E SINCRONIZAÇÃO.
+BLOCO DOIS: CONDIÇÕES DE CORRIDA E SINCRONIZAÇÃO
 
 Existe condição de corrida quando o resultado depende da ordem em que as threads se intercalam.
 
@@ -253,7 +223,7 @@ E a lista sincronizada, obtida pela classe Collections, usa um único bloqueio p
 
 A pegadinha aqui é fina. Uma coleção segura para threads garante cada operação isolada. A composição de operações continua sendo responsabilidade de quem usa. Verificar se a chave existe e depois inserir é uma corrida, mesmo com o mapa concorrente. A forma correta é usar o método que faz as duas coisas de uma vez, de forma atômica.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco null.
 
 Volatile torna o incremento seguro. Errado. Dá visibilidade, não atomicidade.
 
@@ -265,10 +235,8 @@ Com o mapa concorrente, verificar e inserir é atômico. Errado.
 
 Sincronizar todos os métodos elimina qualquer problema de concorrência. Errado. Operações compostas entre chamadas continuam em corrida, e ainda surge o risco de deadlock.
 
-Estratégia para este bloco: diante de um mecanismo, pergunte qual das três garantias o cenário exige. Volatile cobre visibilidade. As atômicas cobrem uma operação. O bloqueio cobre um trecho inteiro.
 
-
-BLOCO TRÊS. COMPARTILHAMENTO DE ESTADO, BLOQUEIOS E FALHAS.
+BLOCO TRÊS: COMPARTILHAMENTO DE ESTADO, BLOQUEIOS E FALHAS
 
 Comece por esta frase: só existe problema de concorrência quando há estado mutável e compartilhado. Retire um dos dois adjetivos, e o problema desaparece.
 
@@ -359,7 +327,7 @@ Quando rejeita, a política padrão lança uma exceção. Há outras políticas:
 
 E o risco operacional mais grave: todas as threads ficarem presas esperando um serviço externo lento. A aplicação inteira para. As defesas são: prazo limite em toda chamada externa, filas limitadas, pools separados por dependência e disjuntor.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco null.
 
 Componentes singleton do Spring são seguros para threads por serem gerenciados. Errado.
 
@@ -375,10 +343,8 @@ O synchronized garante exclusão mútua entre instâncias em um cluster. Errado.
 
 Variáveis locais precisam de sincronização. Errado. Elas ficam na pilha de cada thread.
 
-Estratégia para este bloco: em cenário de aplicação web, procure o atributo de instância mutável dentro de um componente. Em cenário de travamento, pergunte se as threads estão paradas ou trabalhando sem avançar.
 
-
-BLOCO QUATRO. CORREÇÃO E DESEMPENHO SOB REQUISIÇÕES CONCORRENTES.
+BLOCO QUATRO: CORREÇÃO E DESEMPENHO SOB REQUISIÇÕES CONCORRENTES
 
 Em uma aplicação web, a concorrência que mais causa defeitos não está nas threads. Está nos dados. Duas requisições leem o mesmo registro, decidem com base nele e gravam.
 
@@ -504,7 +470,7 @@ Teste de resistência mantém a carga por muito tempo, e revela vazamentos de me
 
 E a observação mais importante sobre testes neste tema. Defeito de concorrência é não determinístico. Pode não aparecer em mil execuções e surgir em produção. Um teste que passa não prova que não há corrida. A correção vem do projeto: estado confinado, operações atômicas e restrições no banco.
 
-Pegadinhas deste bloco.
+Pegadinhas do bloco null.
 
 O bloqueio otimista impede que duas transações leiam o mesmo registro. Errado. Ele detecta o conflito ao gravar.
 
@@ -520,81 +486,8 @@ O nível serializável aumenta a correção e a vazão. Errado. Reduz a vazão.
 
 Teste de estresse avalia a carga normal. Errado. Isso é teste de carga.
 
-Estratégia para este bloco: em cenário com duas requisições e um registro, localize a leitura, a decisão e a gravação. Se houver intervalo entre elas sem bloqueio, sem versão e sem instrução atômica, há corrida.
 
-
-BLOCO CINCO. QUESTÕES DE FIXAÇÃO.
-
-Vamos às questões. São dezesseis, quatro por subitem. Depois de cada afirmação, pense na resposta antes de ouvir o gabarito. Se precisar, pause o áudio.
-
-Questão um. Em um computador com um único núcleo de processamento, é possível haver execução concorrente de tarefas, mas não execução paralela.
-
-Gabarito: certo. Um núcleo intercala tarefas. Paralelismo exige mais de um.
-
-Questão dois. Em Java, a invocação direta do método run de um objeto Thread faz que o código seja executado na thread chamadora, sem a criação de nova thread.
-
-Gabarito: certo. Só o método start cria a nova thread.
-
-Questão três. De acordo com a Lei de Amdahl, se oitenta por cento de um programa for paralelizável, o ganho máximo de desempenho será de cinco vezes, qualquer que seja o número de núcleos.
-
-Gabarito: certo. O limite é um dividido pela parte sequencial. Um dividido por zero vírgula dois dá cinco.
-
-Questão quatro. As threads virtuais do Java são mapeadas uma a uma para threads do sistema operacional, o que as torna indicadas para tarefas de uso intensivo de processador.
-
-Gabarito: errado. Muitas threads virtuais compartilham poucas threads reais, e o ganho está nas tarefas de entrada e saída.
-
-Questão cinco. Um contador do tipo inteiro atômico, incrementado por várias threads, dispensa o uso de synchronized para que a contagem seja correta.
-
-Gabarito: certo. O incremento da classe atômica é uma operação atômica.
-
-Questão seis. É adequado declarar como volatile uma variável booleana usada como sinal de parada, gravada por uma thread e lida por outra.
-
-Gabarito: certo. O caso exige visibilidade, e não há operação composta.
-
-Questão sete. Se uma classe possui dois métodos de instância sincronizados, duas threads podem executá-los ao mesmo tempo sobre o mesmo objeto, desde que cada uma chame um método diferente.
-
-Gabarito: errado. Os dois métodos disputam o bloqueio do mesmo objeto.
-
-Questão oito. Em uma lista sincronizada obtida pela classe Collections, a iteração dispensa sincronização adicional.
-
-Gabarito: errado. A iteração exige um bloco sincronizado sobre a lista.
-
-Questão nove. Em um serviço Spring de escopo singleton, as variáveis locais declaradas nos métodos são compartilhadas entre as requisições simultâneas.
-
-Gabarito: errado. Variáveis locais ficam na pilha de cada thread. Compartilhados são os atributos.
-
-Questão dez. Impor uma ordem global para a aquisição de bloqueios elimina a condição de espera circular e, com isso, previne o deadlock.
-
-Gabarito: certo. Basta eliminar uma das quatro condições.
-
-Questão onze. Em um executor de pool de threads configurado com fila sem limite de capacidade, o número de threads cresce até o máximo configurado à medida que a carga aumenta.
-
-Gabarito: errado. Threads acima do tamanho básico só são criadas quando a fila enche, e uma fila sem limite nunca enche.
-
-Questão doze. Ocorre inanição quando uma thread permanece indefinidamente sem acesso a um recurso, embora as demais continuem progredindo.
-
-Gabarito: certo. No deadlock, ninguém progride. Na inanição, as outras progridem.
-
-Questão treze. Em JPA, quando duas transações leem a mesma entidade com controle de versão e ambas tentam alterá-la, a segunda a gravar recebe uma exceção de bloqueio otimista.
-
-Gabarito: certo. A atualização com a versão antiga não altera nenhuma linha.
-
-Questão catorze. Pelo padrão SQL, o nível de leitura repetível impede leituras sujas e não repetíveis, mas admite leituras fantasmas.
-
-Gabarito: certo. Fantasmas só são impedidos no nível serializável.
-
-Questão quinze. O reenvio automático de uma requisição POST após o esgotamento do prazo de resposta é seguro, pois o protocolo HTTP garante o descarte de requisições duplicadas.
-
-Gabarito: errado. O POST não é idempotente, e a proteção depende da aplicação, por exemplo com chave de idempotência.
-
-Questão dezesseis. Aumentar o tamanho do pool de conexões com o banco de dados sempre eleva a vazão da aplicação.
-
-Gabarito: errado. Além da capacidade do banco, mais conexões aumentam a disputa e pioram o desempenho. E desconfie da palavra sempre.
-
-
-BLOCO SEIS. ENCERRAMENTO.
-
-Para fechar, as quatro ideias que você deve levar desta aula, uma por subitem.
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Um. Concorrência é lidar com várias tarefas. Paralelismo é executar várias ao mesmo tempo. Assincronia é não ficar esperando. E mais threads não significa mais velocidade.
 
@@ -604,4 +497,89 @@ Três. O problema é o estado mutável e compartilhado. Componente singleton nã
 
 Quatro. Entre instâncias, quem garante a correção é o banco. Otimista detecta, pessimista bloqueia. E desempenho se mede por percentil, e não pela média.
 
-Bons estudos, e até a próxima aula.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Em um computador com um único núcleo de processamento, é possível haver execução concorrente de tarefas, mas não execução paralela.
+
+Gabarito: certo. Um núcleo intercala tarefas. Paralelismo exige mais de um.
+
+
+Item dois. Em Java, a invocação direta do método run de um objeto Thread faz que o código seja executado na thread chamadora, sem a criação de nova thread.
+
+Gabarito: certo. Só o método start cria a nova thread.
+
+
+Item três. De acordo com a Lei de Amdahl, se oitenta por cento de um programa for paralelizável, o ganho máximo de desempenho será de cinco vezes, qualquer que seja o número de núcleos.
+
+Gabarito: certo. O limite é um dividido pela parte sequencial. Um dividido por zero vírgula dois dá cinco.
+
+
+Item quatro. As threads virtuais do Java são mapeadas uma a uma para threads do sistema operacional, o que as torna indicadas para tarefas de uso intensivo de processador.
+
+Gabarito: errado. Muitas threads virtuais compartilham poucas threads reais, e o ganho está nas tarefas de entrada e saída.
+
+
+Item cinco. Um contador do tipo inteiro atômico, incrementado por várias threads, dispensa o uso de synchronized para que a contagem seja correta.
+
+Gabarito: certo. O incremento da classe atômica é uma operação atômica.
+
+
+Item seis. É adequado declarar como volatile uma variável booleana usada como sinal de parada, gravada por uma thread e lida por outra.
+
+Gabarito: certo. O caso exige visibilidade, e não há operação composta.
+
+
+Item sete. Se uma classe possui dois métodos de instância sincronizados, duas threads podem executá-los ao mesmo tempo sobre o mesmo objeto, desde que cada uma chame um método diferente.
+
+Gabarito: errado. Os dois métodos disputam o bloqueio do mesmo objeto.
+
+
+Item oito. Em uma lista sincronizada obtida pela classe Collections, a iteração dispensa sincronização adicional.
+
+Gabarito: errado. A iteração exige um bloco sincronizado sobre a lista.
+
+
+Item nove. Em um serviço Spring de escopo singleton, as variáveis locais declaradas nos métodos são compartilhadas entre as requisições simultâneas.
+
+Gabarito: errado. Variáveis locais ficam na pilha de cada thread. Compartilhados são os atributos.
+
+
+Item dez. Impor uma ordem global para a aquisição de bloqueios elimina a condição de espera circular e, com isso, previne o deadlock.
+
+Gabarito: certo. Basta eliminar uma das quatro condições.
+
+
+Item onze. Em um executor de pool de threads configurado com fila sem limite de capacidade, o número de threads cresce até o máximo configurado à medida que a carga aumenta.
+
+Gabarito: errado. Threads acima do tamanho básico só são criadas quando a fila enche, e uma fila sem limite nunca enche.
+
+
+Item doze. Ocorre inanição quando uma thread permanece indefinidamente sem acesso a um recurso, embora as demais continuem progredindo.
+
+Gabarito: certo. No deadlock, ninguém progride. Na inanição, as outras progridem.
+
+
+Item treze. Em JPA, quando duas transações leem a mesma entidade com controle de versão e ambas tentam alterá-la, a segunda a gravar recebe uma exceção de bloqueio otimista.
+
+Gabarito: certo. A atualização com a versão antiga não altera nenhuma linha.
+
+
+Item catorze. Pelo padrão SQL, o nível de leitura repetível impede leituras sujas e não repetíveis, mas admite leituras fantasmas.
+
+Gabarito: certo. Fantasmas só são impedidos no nível serializável.
+
+
+Item quinze. O reenvio automático de uma requisição POST após o esgotamento do prazo de resposta é seguro, pois o protocolo HTTP garante o descarte de requisições duplicadas.
+
+Gabarito: errado. O POST não é idempotente, e a proteção depende da aplicação, por exemplo com chave de idempotência.
+
+
+Item dezesseis. Aumentar o tamanho do pool de conexões com o banco de dados sempre eleva a vazão da aplicação.
+
+Gabarito: errado. Além da capacidade do banco, mais conexões aumentam a disputa e pioram o desempenho.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto um ponto quatro, interfaces e experiência do usuário.

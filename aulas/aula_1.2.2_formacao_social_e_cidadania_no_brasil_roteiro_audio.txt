@@ -1,29 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.2.2 DO EDITAL: FORMAÇÃO SOCIAL E CIDADANIA NO BRASIL.
-SUBITEM 1.2.2.1: Heranças da escravidão, hierarquias sociais e construção da cidadania; transformações nas relações entre Estado e sociedade; mecanismos de inclusão e exclusão institucional.
+AUDIOAULA. ITEM UM PONTO DOIS PONTO DOIS DO EDITAL: FORMAÇÃO SOCIAL E CIDADANIA NO BRASIL
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto dois ponto dois do edital da CGU, chamado formação social e cidadania no Brasil. Ele tem um único subitem, o um ponto dois ponto dois ponto um, com três grupos de temas.
-
-Primeiro grupo: heranças da escravidão, hierarquias sociais e construção da cidadania.
-Segundo grupo: transformações nas relações entre Estado e sociedade.
-Terceiro grupo: mecanismos de inclusão e exclusão institucional.
-
-Para fins didáticos, vamos dividir o primeiro grupo em dois blocos, porque ele é muito denso. Ficam, então, quatro blocos. Bloco um: as heranças da escravidão. Bloco dois: hierarquias sociais e as grandes interpretações do Brasil. Bloco três: a construção da cidadania e as transformações nas relações entre Estado e sociedade. Bloco quatro: mecanismos de inclusão e exclusão institucional. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Na aula anterior, você aprendeu as ferramentas gerais da sociologia: instituições, socialização, estratificação, mobilidade, discriminação e reprodução das desigualdades. Agora vamos aplicá-las à história brasileira. A pergunta central desta aula é: por que, em um país que proclama a igualdade de todos perante a lei, o acesso efetivo aos direitos continua tão desigual? A resposta passa pela forma como a sociedade brasileira se formou, pela maneira como os direitos foram conquistados ou concedidos, e pelos mecanismos institucionais que incluem uns e excluem outros.
-
-Para o auditor, este item tem uma utilidade prática direta. Quando a CGU avalia uma política pública, ela precisa perguntar quem está sendo alcançado e quem está ficando de fora. E muitos dos mecanismos de exclusão que vamos estudar hoje continuam operando nos serviços públicos: exigências documentais, barreiras de acesso, critérios de elegibilidade e desenho de sistemas.
-
-Os autores de referência são os grandes intérpretes do Brasil, como Gilberto Freyre, Sérgio Buarque de Holanda, Raymundo Faoro, Victor Nunes Leal e Florestan Fernandes; e os estudiosos da cidadania, como o britânico Thomas Humphrey Marshall, José Murilo de Carvalho, Wanderley Guilherme dos Santos e Roberto DaMatta. Na parte histórica, as leis do processo abolicionista e as constituições brasileiras. Como sempre, confira os dispositivos legais no texto oficial do Planalto.
-
-Uma orientação de estratégia. Este item mistura história, sociologia e ciência política. A Cebraspe tende a cobrar três tipos de coisa: a cronologia correta, com datas e leis; a atribuição correta das teses aos autores; e a interpretação, por exemplo, reconhecendo que a abolição formal não significou integração, ou que a existência de um direito na lei não garante o seu acesso. Desconfie de itens que apresentem a história brasileira como uma linha reta de progresso, ou que neguem qualquer avanço.
+Este é o item um ponto dois ponto dois, formação social e cidadania no Brasil. Ele tem um único subitem, organizado aqui em quatro blocos: as heranças da escravidão; hierarquias sociais e as grandes interpretações do Brasil; a construção da cidadania e as transformações nas relações entre Estado e sociedade; e mecanismos de inclusão e exclusão institucional. A banca costuma cobrar a cronologia das leis do processo abolicionista e das constituições, a atribuição das teses a autores como Gilberto Freyre, Sérgio Buarque de Holanda, Raymundo Faoro, Marshall e José Murilo de Carvalho, e a distinção entre o direito previsto em lei e o acesso efetivo a ele.
 
 
-BLOCO UM. AS HERANÇAS DA ESCRAVIDÃO.
+BLOCO UM: AS HERANÇAS DA ESCRAVIDÃO
 
 Comecemos pelos fatos, porque a dimensão da escravidão no Brasil é parte essencial da explicação.
 
@@ -73,10 +56,8 @@ E o racismo institucional e estrutural, que você estudou na aula anterior.
 
 Atenção à pegadinha de interpretação. Falar em herança da escravidão não significa que toda a desigualdade racial atual seja apenas um resíduo do passado, que desapareceria sozinho com o tempo. Como mostraram Hasenbalg e Valle Silva, a discriminação renova as desvantagens no presente. A herança explica a origem; a discriminação atual explica a persistência.
 
-Resumo do bloco um. A escravidão durou mais de três séculos, o Brasil recebeu a maior parcela dos africanos escravizados para as Américas e foi o último país do continente a abolir. A abolição foi gradual: Eusébio de Queirós em mil oitocentos e cinquenta, Ventre Livre em mil oitocentos e setenta e um, Sexagenários em mil oitocentos e oitenta e cinco e Áurea em mil oitocentos e oitenta e oito, com protagonismo também dos escravizados e dos abolicionistas. A Lei de Terras, de mil oitocentos e cinquenta, tornou a compra a forma de acesso à terra. A abolição não foi acompanhada de integração, e Florestan Fernandes mostrou o abandono do negro na sociedade de classes e criticou o mito da democracia racial.
 
-
-BLOCO DOIS. HIERARQUIAS SOCIAIS E AS GRANDES INTERPRETAÇÕES DO BRASIL.
+BLOCO DOIS: HIERARQUIAS SOCIAIS E AS GRANDES INTERPRETAÇÕES DO BRASIL
 
 O edital fala em hierarquias sociais. Para entendê-las, a banca costuma recorrer aos autores conhecidos como intérpretes do Brasil, que, sobretudo nas décadas de mil novecentos e trinta a sessenta, tentaram explicar as características da sociedade brasileira. Você não precisa ler essas obras, mas precisa conhecer as teses centrais e não confundi-las.
 
@@ -106,10 +87,8 @@ O antropólogo norte-americano James Holston, estudando o Brasil, usou a express
 
 Pegadinhas do bloco dois. Dizer que o homem cordial é o homem polido e bondoso. Atribuir a Faoro a tese do coronelismo, ou a Leal a do estamento burocrático. Dizer que o coronelismo expressava a força crescente do poder privado. Tratar coronelismo e clientelismo como sinônimos. Dizer que a pergunta você sabe com quem está falando expressa o igualitarismo. E dizer que a interpretação da democracia racial é consenso atual nas ciências sociais.
 
-Resumo do bloco dois. Freyre valorizou a mistura, mas a sua obra foi associada ao mito da democracia racial. Para Sérgio Buarque, o homem cordial age pelo coração e confunde o público com o privado. Para Faoro, o Estado brasileiro é patrimonialista e dominado por um estamento burocrático. Para Victor Nunes Leal, o coronelismo foi um compromisso entre o poder privado decadente dos coronéis e o poder público fortalecido. Para DaMatta, você sabe com quem está falando revela a convivência entre a lógica da pessoa e a do indivíduo. E a combinação de igualdade formal com hierarquia prática produz uma cidadania diferenciada.
 
-
-BLOCO TRÊS. A CONSTRUÇÃO DA CIDADANIA E AS TRANSFORMAÇÕES NAS RELAÇÕES ENTRE ESTADO E SOCIEDADE.
+BLOCO TRÊS: A CONSTRUÇÃO DA CIDADANIA E AS TRANSFORMAÇÕES NAS RELAÇÕES ENTRE ESTADO E SOCIEDADE
 
 Comecemos pelo conceito de cidadania que serve de referência para toda a literatura: o do sociólogo britânico Thomas Humphrey Marshall, em uma conferência de mil novecentos e quarenta e nove, publicada em mil novecentos e cinquenta com o título Cidadania, Classe Social e Status.
 
@@ -171,10 +150,8 @@ Ou seja, houve uma passagem, ainda incompleta, de uma relação de tutela, em qu
 
 Pegadinhas do bloco três. Trocar a ordem e os séculos da sequência de Marshall. Dizer que a sequência de Marshall é universal. Dizer que, no Brasil, os direitos civis vieram primeiro. Dizer que a cidadania regulada era universal. Dizer que os analfabetos votavam desde a Primeira República; eles só obtiveram esse direito em mil novecentos e oitenta e cinco. Dizer que o voto feminino surgiu com a Constituição de mil novecentos e oitenta e oito; ele veio com o Código Eleitoral de mil novecentos e trinta e dois. E dizer que, após mil novecentos e oitenta e oito, o acesso à saúde pública continuou condicionado à contribuição previdenciária.
 
-Resumo do bloco três. Para Marshall, a cidadania inglesa avançou dos direitos civis, no século dezoito, aos políticos, no dezenove, e aos sociais, no vinte. Para José Murilo de Carvalho, no Brasil a sequência foi invertida: os direitos sociais vieram primeiro, em período de supressão dos direitos políticos, gerando a estadania. Para Wanderley Guilherme dos Santos, a cidadania regulada vinculava os direitos à ocupação reconhecida em lei, excluindo rurais, domésticos e informais. A relação entre Estado e sociedade passou das oligarquias à tutela trabalhista de Vargas, ao autoritarismo militar e à Constituição Cidadã, que universalizou direitos e criou canais de participação.
 
-
-BLOCO QUATRO. MECANISMOS DE INCLUSÃO E EXCLUSÃO INSTITUCIONAL.
+BLOCO QUATRO: MECANISMOS DE INCLUSÃO E EXCLUSÃO INSTITUCIONAL
 
 Este bloco junta tudo o que vimos. A história brasileira mostra que as instituições, isto é, as regras, os critérios e os procedimentos do Estado, foram e continuam sendo mecanismos poderosos tanto de exclusão quanto de inclusão.
 
@@ -230,104 +207,23 @@ E um alerta para quem vai trabalhar com sistemas. Quando um serviço é digitali
 
 Pegadinhas do bloco quatro. Dizer que a exclusão institucional só ocorre por meio de leis explícitas. Dizer que a previsão constitucional de direitos universais eliminou a exclusão. Dizer que universalização e focalização são incompatíveis. Dizer que a exclusão administrativa pressupõe intenção de discriminar. E dizer que a digitalização de serviços é sempre inclusiva.
 
-Resumo do bloco quatro. A exclusão institucional pode ser formal, por lei explícita; por critério de elegibilidade, como na cidadania regulada; ou de fato, por barreiras administrativas, documentais, territoriais, digitais e de acesso à justiça. O direito formal não garante o direito efetivo. A inclusão se faz por universalização, focalização, ações afirmativas, busca ativa, simplificação, acessibilidade, participação e reconhecimento de direitos coletivos. E o Estado pode reproduzir ou reduzir desigualdades, conforme o desenho das suas regras e sistemas.
+
+PEGADINHAS DO ITEM
+
+Cronologia. Mil oitocentos e cinquenta, fim do tráfico e Lei de Terras. Mil oitocentos e setenta e um, Ventre Livre. Mil oitocentos e oitenta e cinco, Sexagenários. Mil oitocentos e oitenta e oito, Áurea. Mil novecentos e trinta e dois, voto feminino e voto secreto. Mil novecentos e quarenta e três, CLT. Mil novecentos e oitenta e cinco, voto dos analfabetos. Mil novecentos e oitenta e oito, Constituição Cidadã.
+
+Troca de autores. Freyre, Casa-Grande e Senzala. Sérgio Buarque, homem cordial. Faoro, estamento burocrático. Victor Nunes Leal, coronelismo. Florestan Fernandes, integração do negro e crítica ao mito da democracia racial. DaMatta, você sabe com quem está falando. Marshall, sequência dos direitos. José Murilo de Carvalho, inversão e estadania. Wanderley Guilherme dos Santos, cidadania regulada.
+
+Sentido falso de palavras. Cordial como gentil. Democracia racial como fato. Coronelismo como força do poder privado.
+
+História linear. A abolição como integração. A Constituição como fim da exclusão. A sequência inglesa como universal.
+
+Protagonismo único. A abolição como dádiva da Coroa. Os direitos como concessão exclusiva do Estado, sem papel dos movimentos sociais.
+
+Formal versus efetivo. Direito na lei tratado como direito acessível.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: cronologia. Mil oitocentos e cinquenta, fim do tráfico e Lei de Terras. Mil oitocentos e setenta e um, Ventre Livre. Mil oitocentos e oitenta e cinco, Sexagenários. Mil oitocentos e oitenta e oito, Áurea. Mil novecentos e trinta e dois, voto feminino e voto secreto. Mil novecentos e quarenta e três, CLT. Mil novecentos e oitenta e cinco, voto dos analfabetos. Mil novecentos e oitenta e oito, Constituição Cidadã.
-
-Segunda estratégia: troca de autores. Freyre, Casa-Grande e Senzala. Sérgio Buarque, homem cordial. Faoro, estamento burocrático. Victor Nunes Leal, coronelismo. Florestan Fernandes, integração do negro e crítica ao mito da democracia racial. DaMatta, você sabe com quem está falando. Marshall, sequência dos direitos. José Murilo de Carvalho, inversão e estadania. Wanderley Guilherme dos Santos, cidadania regulada.
-
-Terceira estratégia: sentido falso de palavras. Cordial como gentil. Democracia racial como fato. Coronelismo como força do poder privado.
-
-Quarta estratégia: história linear. A abolição como integração. A Constituição como fim da exclusão. A sequência inglesa como universal.
-
-Quinta estratégia: protagonismo único. A abolição como dádiva da Coroa. Os direitos como concessão exclusiva do Estado, sem papel dos movimentos sociais.
-
-Sexta estratégia: formal versus efetivo. Direito na lei tratado como direito acessível.
-
-Sétima estratégia: situação hipotética. Pergunte. A exclusão é por lei, por critério ou de fato? O direito está sendo concedido como tutela ou garantido como cidadania? Quem está ficando de fora?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-O Brasil foi o último país das Américas a abolir a escravidão, o que ocorreu em mil oitocentos e oitenta e oito, após um processo gradual que incluiu a proibição efetiva do tráfico de africanos escravizados, em mil oitocentos e cinquenta, pela Lei Eusébio de Queirós.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a abolição foi lenta: fim do tráfico em mil oitocentos e cinquenta, Ventre Livre em mil oitocentos e setenta e um, Sexagenários em mil oitocentos e oitenta e cinco e Lei Áurea em mil oitocentos e oitenta e oito.
-
-Questão dois.
-A Lei Áurea foi acompanhada de políticas públicas de integração dos libertos, como a distribuição de terras e o acesso à educação, o que permitiu a rápida inserção da população negra no mercado de trabalho formal em condições de igualdade com os imigrantes europeus.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a abolição não foi acompanhada de políticas de integração. Ao mesmo tempo, o Estado estimulou a imigração europeia. Florestan Fernandes descreveu o abandono do negro na formação da sociedade de classes.
-
-Questão três.
-A Lei de Terras, de mil oitocentos e cinquenta, estabeleceu a compra como forma de acesso às terras devolutas, o que contribuiu para dificultar o acesso à propriedade da terra por libertos, imigrantes pobres e trabalhadores livres e favoreceu a concentração fundiária.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a coincidência com o fim do tráfico não é acaso. A terra passou a ter preço justamente quando o fim da escravidão se anunciava.
-
-Questão quatro.
-Em sua obra sobre a integração do negro na sociedade de classes, Florestan Fernandes confirmou a tese de que o Brasil constituía uma democracia racial, sem preconceito ou discriminação significativos, graças à miscigenação.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: Florestan Fernandes foi um dos principais críticos do mito da democracia racial, mostrando que o preconceito e a discriminação eram reais e produziam desigualdades persistentes.
-
-Questão cinco.
-Na obra Raízes do Brasil, Sérgio Buarque de Holanda caracteriza o brasileiro como homem cordial, expressão que designa a polidez, as boas maneiras e a bondade natural que favorecem a construção de um Estado impessoal e burocrático.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: cordial vem de coração. O homem cordial age movido por afetos e relações pessoais, o que dificulta a separação entre o público e o privado e a construção de um Estado impessoal.
-
-Questão seis.
-Segundo José Murilo de Carvalho, a sequência de expansão dos direitos descrita por Marshall para a Inglaterra, com os direitos civis no século dezoito, os políticos no dezenove e os sociais no vinte, foi invertida no Brasil, onde os direitos sociais foram implantados primeiro, em período de supressão dos direitos políticos e de redução dos direitos civis.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a tese central de Cidadania no Brasil: o longo caminho. Os direitos sociais vieram com Vargas, e o autor associa essa inversão à cultura que chamou de estadania.
-
-Questão sete.
-Na concepção de cidadania regulada, formulada por Wanderley Guilherme dos Santos, o acesso aos direitos sociais esteve vinculado ao exercício de ocupações reconhecidas e regulamentadas por lei, o que excluiu, por longo período, trabalhadores rurais, domésticos e informais.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a carteira de trabalho e o sindicato reconhecido pelo Estado eram as marcas dessa cidadania. Quem não tinha ocupação regulamentada ficava de fora.
-
-Questão oito.
-Os analfabetos tiveram o direito de voto assegurado desde a Constituição republicana de mil oitocentos e noventa e um, que eliminou todas as restrições ao sufrágio existentes no Império.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a Constituição de mil oitocentos e noventa e um eliminou o critério de renda, mas manteve a exclusão dos analfabetos, que só obtiveram o direito de voto por emenda constitucional de mil novecentos e oitenta e cinco.
-
-Questão nove.
-Na interpretação de Victor Nunes Leal, o coronelismo da Primeira República consistia em um sistema de compromisso entre o poder privado decadente dos chefes locais e o poder público progressivamente fortalecido, no qual o controle dos votos era trocado por apoio governamental e acesso a cargos e recursos públicos.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o detalhe essencial é a decadência do poder privado: o coronel dependia do governo. E o coronelismo é um fenômeno histórico específico, que não se confunde com o conceito geral de clientelismo.
-
-Questão dez.
-A Constituição Federal de mil novecentos e oitenta e oito rompeu, em parte, com a lógica da cidadania regulada ao estabelecer a saúde como direito de todos e dever do Estado, com acesso universal, independentemente de contribuição previdenciária ou de vínculo formal de trabalho.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a criação da seguridade social e do Sistema Único de Saúde universal desvinculou o acesso à saúde da condição de trabalhador formal contribuinte. A assistência social também passou a ser prestada a quem dela necessitar.
-
-Questão onze.
-A exclusão institucional ocorre apenas quando a lei nega expressamente direitos a determinados grupos, razão pela qual a previsão de direitos universais na Constituição de mil novecentos e oitenta e oito foi suficiente para eliminá-la.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: além da exclusão formal, há a exclusão por critérios de elegibilidade e a exclusão de fato, por barreiras documentais, territoriais, administrativas e digitais. O direito formal não garante o direito efetivo.
-
-Questão doze.
-O ritual expresso na pergunta você sabe com quem está falando, analisado por Roberto DaMatta, manifesta a adesão da sociedade brasileira ao princípio da igualdade de todos perante a lei.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a pergunta é usada para escapar da regra que vale para todos, invocando posição ou relações pessoais. Revela a convivência entre a lógica da pessoa, hierárquica, e a do indivíduo, sujeito à lei universal.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Escravidão por mais de três séculos. O Brasil recebeu a maior parcela dos africanos escravizados para as Américas e foi o último país do continente a abolir.
 
@@ -347,4 +243,69 @@ Exclusão formal, por critério de elegibilidade e de fato. Direito formal não 
 
 Inclusão por universalização, focalização, ações afirmativas, busca ativa, simplificação, acessibilidade, participação e direitos coletivos.
 
-Fim da aula do item um ponto dois ponto dois. Na sequência do edital, o próximo é o item um ponto dois ponto três, população, território e trabalho. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. O Brasil foi o último país das Américas a abolir a escravidão, o que ocorreu em mil oitocentos e oitenta e oito, após um processo gradual que incluiu a proibição efetiva do tráfico de africanos escravizados, em mil oitocentos e cinquenta, pela Lei Eusébio de Queirós.
+
+Gabarito: certo. A abolição foi lenta: fim do tráfico em mil oitocentos e cinquenta, Ventre Livre em mil oitocentos e setenta e um, Sexagenários em mil oitocentos e oitenta e cinco e Lei Áurea em mil oitocentos e oitenta e oito.
+
+
+Item dois. A Lei Áurea foi acompanhada de políticas públicas de integração dos libertos, como a distribuição de terras e o acesso à educação, o que permitiu a rápida inserção da população negra no mercado de trabalho formal em condições de igualdade com os imigrantes europeus.
+
+Gabarito: errado. A abolição não foi acompanhada de políticas de integração. Ao mesmo tempo, o Estado estimulou a imigração europeia. Florestan Fernandes descreveu o abandono do negro na formação da sociedade de classes.
+
+
+Item três. A Lei de Terras, de mil oitocentos e cinquenta, estabeleceu a compra como forma de acesso às terras devolutas, o que contribuiu para dificultar o acesso à propriedade da terra por libertos, imigrantes pobres e trabalhadores livres e favoreceu a concentração fundiária.
+
+Gabarito: certo. A coincidência com o fim do tráfico não é acaso. A terra passou a ter preço justamente quando o fim da escravidão se anunciava.
+
+
+Item quatro. Em sua obra sobre a integração do negro na sociedade de classes, Florestan Fernandes confirmou a tese de que o Brasil constituía uma democracia racial, sem preconceito ou discriminação significativos, graças à miscigenação.
+
+Gabarito: errado. Florestan Fernandes foi um dos principais críticos do mito da democracia racial, mostrando que o preconceito e a discriminação eram reais e produziam desigualdades persistentes.
+
+
+Item cinco. Na obra Raízes do Brasil, Sérgio Buarque de Holanda caracteriza o brasileiro como homem cordial, expressão que designa a polidez, as boas maneiras e a bondade natural que favorecem a construção de um Estado impessoal e burocrático.
+
+Gabarito: errado. Cordial vem de coração. O homem cordial age movido por afetos e relações pessoais, o que dificulta a separação entre o público e o privado e a construção de um Estado impessoal.
+
+
+Item seis. Segundo José Murilo de Carvalho, a sequência de expansão dos direitos descrita por Marshall para a Inglaterra, com os direitos civis no século dezoito, os políticos no dezenove e os sociais no vinte, foi invertida no Brasil, onde os direitos sociais foram implantados primeiro, em período de supressão dos direitos políticos e de redução dos direitos civis.
+
+Gabarito: certo. É a tese central de Cidadania no Brasil: o longo caminho. Os direitos sociais vieram com Vargas, e o autor associa essa inversão à cultura que chamou de estadania.
+
+
+Item sete. Na concepção de cidadania regulada, formulada por Wanderley Guilherme dos Santos, o acesso aos direitos sociais esteve vinculado ao exercício de ocupações reconhecidas e regulamentadas por lei, o que excluiu, por longo período, trabalhadores rurais, domésticos e informais.
+
+Gabarito: certo. A carteira de trabalho e o sindicato reconhecido pelo Estado eram as marcas dessa cidadania. Quem não tinha ocupação regulamentada ficava de fora.
+
+
+Item oito. Os analfabetos tiveram o direito de voto assegurado desde a Constituição republicana de mil oitocentos e noventa e um, que eliminou todas as restrições ao sufrágio existentes no Império.
+
+Gabarito: errado. A Constituição de mil oitocentos e noventa e um eliminou o critério de renda, mas manteve a exclusão dos analfabetos, que só obtiveram o direito de voto por emenda constitucional de mil novecentos e oitenta e cinco.
+
+
+Item nove. Na interpretação de Victor Nunes Leal, o coronelismo da Primeira República consistia em um sistema de compromisso entre o poder privado decadente dos chefes locais e o poder público progressivamente fortalecido, no qual o controle dos votos era trocado por apoio governamental e acesso a cargos e recursos públicos.
+
+Gabarito: certo. O detalhe essencial é a decadência do poder privado: o coronel dependia do governo. E o coronelismo é um fenômeno histórico específico, que não se confunde com o conceito geral de clientelismo.
+
+
+Item dez. A Constituição Federal de mil novecentos e oitenta e oito rompeu, em parte, com a lógica da cidadania regulada ao estabelecer a saúde como direito de todos e dever do Estado, com acesso universal, independentemente de contribuição previdenciária ou de vínculo formal de trabalho.
+
+Gabarito: certo. A criação da seguridade social e do Sistema Único de Saúde universal desvinculou o acesso à saúde da condição de trabalhador formal contribuinte. A assistência social também passou a ser prestada a quem dela necessitar.
+
+
+Item onze. A exclusão institucional ocorre apenas quando a lei nega expressamente direitos a determinados grupos, razão pela qual a previsão de direitos universais na Constituição de mil novecentos e oitenta e oito foi suficiente para eliminá-la.
+
+Gabarito: errado. Além da exclusão formal, há a exclusão por critérios de elegibilidade e a exclusão de fato, por barreiras documentais, territoriais, administrativas e digitais. O direito formal não garante o direito efetivo.
+
+
+Item doze. O ritual expresso na pergunta você sabe com quem está falando, analisado por Roberto DaMatta, manifesta a adesão da sociedade brasileira ao princípio da igualdade de todos perante a lei.
+
+Gabarito: errado. A pergunta é usada para escapar da regra que vale para todos, invocando posição ou relações pessoais. Revela a convivência entre a lógica da pessoa, hierárquica, e a do indivíduo, sujeito à lei universal.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto dois ponto três, população, território e trabalho.

@@ -1,30 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.6 DO EDITAL: CORRUPÇÃO COMO FENÔMENO POLÍTICO E SOCIAL.
-SUBITEM 1.1.6.1: Abuso do poder confiado e apropriação de decisões públicas em benefício particular; dimensões política, administrativa e público-privada.
-SUBITEM 1.1.6.2: Distinções entre corrupção, falha de gestão, conflito de interesses e ilícitos específicos; relações e diferenças entre clientelismo, patronagem, nepotismo e captura.
+AUDIOAULA. ITEM UM PONTO UM PONTO SEIS DO EDITAL: CORRUPÇÃO COMO FENÔMENO POLÍTICO E SOCIAL
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto seis do edital da CGU, chamado corrupção como fenômeno político e social. Diferentemente dos itens anteriores, este tem dois subitens.
-
-O primeiro, um ponto um ponto seis ponto um, trata do conceito de corrupção e das suas dimensões: abuso do poder confiado, apropriação de decisões públicas em benefício particular, e as dimensões política, administrativa e público-privada.
-
-O segundo, um ponto um ponto seis ponto dois, trata das distinções: entre corrupção, falha de gestão, conflito de interesses e ilícitos específicos; e entre clientelismo, patronagem, nepotismo e captura.
-
-Vamos organizar a aula em três blocos. Bloco um: o conceito e as dimensões. Bloco dois: corrupção, falha de gestão, conflito de interesses e ilícitos específicos. Bloco três: clientelismo, patronagem, nepotismo e captura. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Este item abre uma sequência de três sobre corrupção. Este, o um ponto um ponto seis, responde à pergunta: o que é corrupção e o que não é. O seguinte, o um ponto um ponto sete, trata de por que ela acontece e se reproduz. E o um ponto um ponto oito trata das consequências e das respostas.
-
-Repare em duas coisas no título. Primeiro, a expressão fenômeno político e social. O edital não trata a corrupção apenas como crime, nem apenas como falha moral de indivíduos. Trata como algo que tem causas institucionais, relações de poder e efeitos sobre toda a sociedade. Segundo, a palavra distinções, que aparece no segundo subitem. Este é, provavelmente, o item do bloco de conhecimentos básicos em que a banca mais vai cobrar a capacidade de separar conceitos parecidos. A maioria das questões vai descrever uma situação e perguntar: isto é corrupção, falha de gestão, conflito de interesses, clientelismo, patronagem, nepotismo ou captura?
-
-Para o auditor, essa capacidade não é acadêmica. Chamar de corrupção o que é falha de gestão é injusto com o gestor e leva a respostas erradas. Chamar de falha de gestão o que é corrupção deixa o problema sem resposta. O edital volta a isso em vários itens adiante.
-
-Sobre as fontes. A definição de corrupção mais usada vem da organização Transparência Internacional. As bases legais são a Lei de Conflito de Interesses, de dois mil e treze; a Lei de Improbidade Administrativa, de mil novecentos e noventa e dois, com a reforma de dois mil e vinte e um; a Lei Anticorrupção, de dois mil e treze, que trata das empresas; o Código Penal; e a súmula vinculante do Supremo sobre nepotismo. Os autores de referência são Robert Klitgaard, George Stigler, Edson Nunes, Max Weber e Raymundo Faoro. Como sempre, confira os dispositivos legais no texto oficial do Planalto.
+Este é o item um ponto um ponto seis, corrupção como fenômeno político e social. Ele tem dois subitens, organizados aqui em três blocos: o conceito de corrupção e as suas dimensões; corrupção, falha de gestão, conflito de interesses e ilícitos específicos; e clientelismo, patronagem, nepotismo e captura. A banca costuma descrever uma situação e pedir o enquadramento entre esses conceitos, com base na Lei de Conflito de Interesses, na Lei de Improbidade Administrativa, na Lei Anticorrupção, no Código Penal e na súmula vinculante do Supremo sobre nepotismo.
 
 
-BLOCO UM. O CONCEITO DE CORRUPÇÃO E AS SUAS DIMENSÕES.
+BLOCO UM: O CONCEITO DE CORRUPÇÃO E AS SUAS DIMENSÕES
 
 Comecemos pela definição.
 
@@ -98,10 +80,8 @@ Uma consequência institucional importante dessa dimensão: o Brasil tem uma lei
 
 Pegadinhas sobre as dimensões. Trocar as definições: chamar de corrupção política a propina paga a um fiscal, ou de administrativa a compra de votos. Dizer que a corrupção público-privada envolve apenas o agente público, sendo o particular sempre vítima. E dizer que as três dimensões são estanques. Na prática, elas se combinam: um esquema pode começar no financiamento de campanha, que é político, passar pelo direcionamento de contratos, que é administrativo, e envolver empresas, que é público-privado.
 
-Resumo do bloco um. Corrupção é o abuso do poder confiado para ganho privado. O benefício pode ser de terceiros e não precisa ser dinheiro. Também é corrupção a apropriação de decisões públicas por interesses particulares. Não há uma definição jurídica única: o sentido amplo do edital abrange muitos ilícitos com nomes próprios. A corrupção é fenômeno institucional, não só moral. E tem dimensões política, administrativa e público-privada, que costumam se combinar.
 
-
-BLOCO DOIS. CORRUPÇÃO, FALHA DE GESTÃO, CONFLITO DE INTERESSES E ILÍCITOS ESPECÍFICOS.
+BLOCO DOIS: CORRUPÇÃO, FALHA DE GESTÃO, CONFLITO DE INTERESSES E ILÍCITOS ESPECÍFICOS
 
 Este é o bloco mais importante para a sua prova e para a sua futura atuação. Vamos a cada distinção.
 
@@ -181,10 +161,8 @@ A ideia central: um mesmo fato pode gerar responsabilização em várias esferas
 
 Pegadinhas sobre ilícitos específicos. Usar a palavra corrupção do edital como se fosse o crime de corrupção passiva, com todos os seus elementos. Confundir concussão com corrupção passiva. Dizer que a corrupção ativa é praticada pelo servidor. Dizer que a improbidade é crime. Ou dizer que o conceito amplo de corrupção se limita aos crimes do Código Penal.
 
-Resumo do bloco dois. Falha de gestão é erro sem intenção de favorecer interesses particulares; pode gerar correção e, se grosseira, responsabilização, mas não é corrupção, e a improbidade exige dolo. Conflito de interesses é situação de risco, que independe de dano ou vantagem e deve ser prevenida; corrupção é o abuso efetivo. E os ilícitos específicos são as figuras jurídicas, em várias esferas independentes, nas quais as condutas corruptas se enquadram.
 
-
-BLOCO TRÊS. CLIENTELISMO, PATRONAGEM, NEPOTISMO E CAPTURA.
+BLOCO TRÊS: CLIENTELISMO, PATRONAGEM, NEPOTISMO E CAPTURA
 
 O edital pede relações e diferenças. Então vamos ver cada conceito, depois o que eles têm em comum e o que os separa.
 
@@ -274,104 +252,25 @@ O que une todos: o abandono de critérios universais e impessoais em favor de le
 
 E a relação com a corrupção: todos podem ser formas, veículos ou portas de entrada para a corrupção, mas nenhum deles é, por definição, idêntico à corrupção em todos os casos. Por isso o edital fala em relações e diferenças.
 
-Resumo do bloco três. Clientelismo é troca de favores por apoio político. Patronagem é distribuição de cargos como recurso político, nem sempre ilegal. Nepotismo é favorecimento por parentesco, vedado até o terceiro grau, inclusive de forma cruzada. Captura é a apropriação das próprias regras e decisões por grupos particulares, que pode ocorrer por meios lícitos. Todos são formas de particularismo, opostas ao universalismo de procedimentos.
+
+PEGADINHAS DO ITEM
+
+Situação hipotética para classificar. A banca descreve um caso e pergunta qual é o fenômeno. Use as perguntas-chave. Houve intenção de favorecer interesse particular? Se não, pense em falha de gestão. Há apenas uma situação de risco, sem abuso efetivo? Pense em conflito de interesses. O que foi trocado? Favores por votos: clientelismo. Cargos por apoio: patronagem. Cargo por parentesco: nepotismo. A própria regra foi moldada por um grupo: captura.
+
+Exigência indevida de elementos. Corrupção só com dinheiro. Corrupção só com benefício para o próprio agente. Conflito de interesses só com dano ou vantagem. Captura só com propina.
+
+Equivalência indevida de conceitos. Corrupção igual a falha de gestão. Conflito de interesses igual a corrupção. Clientelismo igual a nepotismo. Patronagem igual a crime. Corrupção no sentido amplo igual ao crime de corrupção passiva.
+
+Troca de verbos nos crimes. Exigir é concussão. Solicitar, receber ou aceitar promessa é corrupção passiva. Oferecer ou prometer é corrupção ativa. Apropriar-se ou desviar é peculato.
+
+Troca de dimensões. Política, administrativa e público-privada.
+
+Troca de autores. Stigler na captura. Klitgaard na fórmula. Edson Nunes nas gramáticas. Faoro no patrimonialismo. Victor Nunes Leal no coronelismo.
+
+Afirmações absolutas. Toda falha é corrupção. Todo prejuízo é corrupção. Toda nomeação política é ilegal. Toda influência de grupos é captura. Corrupção explicada exclusivamente por cultura ou exclusivamente por caráter individual.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: situação hipotética para classificar. A banca descreve um caso e pergunta qual é o fenômeno. Use as perguntas-chave. Houve intenção de favorecer interesse particular? Se não, pense em falha de gestão. Há apenas uma situação de risco, sem abuso efetivo? Pense em conflito de interesses. O que foi trocado? Favores por votos: clientelismo. Cargos por apoio: patronagem. Cargo por parentesco: nepotismo. A própria regra foi moldada por um grupo: captura.
-
-Segunda estratégia: exigência indevida de elementos. Corrupção só com dinheiro. Corrupção só com benefício para o próprio agente. Conflito de interesses só com dano ou vantagem. Captura só com propina.
-
-Terceira estratégia: equivalência indevida de conceitos. Corrupção igual a falha de gestão. Conflito de interesses igual a corrupção. Clientelismo igual a nepotismo. Patronagem igual a crime. Corrupção no sentido amplo igual ao crime de corrupção passiva.
-
-Quarta estratégia: troca de verbos nos crimes. Exigir é concussão. Solicitar, receber ou aceitar promessa é corrupção passiva. Oferecer ou prometer é corrupção ativa. Apropriar-se ou desviar é peculato.
-
-Quinta estratégia: troca de dimensões. Política, administrativa e público-privada.
-
-Sexta estratégia: troca de autores. Stigler na captura. Klitgaard na fórmula. Edson Nunes nas gramáticas. Faoro no patrimonialismo. Victor Nunes Leal no coronelismo.
-
-Sétima estratégia: afirmações absolutas. Toda falha é corrupção. Todo prejuízo é corrupção. Toda nomeação política é ilegal. Toda influência de grupos é captura. Corrupção explicada exclusivamente por cultura ou exclusivamente por caráter individual.
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-Na concepção de corrupção como abuso do poder confiado para ganho privado, o benefício obtido não precisa destinar-se ao próprio agente que pratica o ato, podendo favorecer terceiros, como familiares, empresas ou grupos políticos.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o que caracteriza a corrupção é o uso do poder confiado em favor de interesse particular, e não do interesse público. O beneficiário pode ser o próprio agente ou terceiros.
-
-Questão dois.
-Para que determinada conduta seja caracterizada como corrupção, é indispensável a ocorrência de transferência de recursos financeiros ao agente público e de prejuízo econômico mensurável ao erário.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a vantagem pode ser um cargo, um favor, uma informação ou um voto, e o dano pode estar na quebra da impessoalidade e da confiança, sem prejuízo financeiro imediato.
-
-Questão três.
-O pagamento de vantagem indevida a um fiscal para que deixe de lavrar auto de infração constitui exemplo típico da dimensão política da corrupção, ao passo que a compra de votos em período eleitoral exemplifica a sua dimensão administrativa.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: as dimensões estão trocadas. Propina a fiscal, na aplicação de regras, é corrupção administrativa. Compra de votos, que atinge o processo de acesso ao poder, é corrupção política.
-
-Questão quatro.
-Um servidor, por falta de capacitação, calculou de forma equivocada o valor estimado de uma contratação, o que resultou em pagamento acima do preço de mercado, sem que houvesse qualquer intenção de favorecer o contratado. Nessa situação, o fato caracteriza falha de gestão, e não corrupção, o que não impede a adoção de medidas corretivas.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: sem intenção de favorecer interesse particular, não há corrupção, ainda que haja prejuízo. A falha pode exigir correção, recomendações e, se configurado erro grosseiro, responsabilização. E, após a reforma de dois mil e vinte e um, a improbidade exige dolo.
-
-Questão cinco.
-Nos termos da Lei de Conflito de Interesses, somente se configura conflito de interesses quando houver efetiva lesão ao patrimônio público ou recebimento de vantagem pelo agente público ou por terceiro.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a lei define conflito de interesses como situação que possa comprometer o interesse coletivo ou influenciar indevidamente a função pública, e a sua configuração independe de lesão ao patrimônio público ou do recebimento de vantagem. É uma situação de risco, a ser prevenida.
-
-Questão seis.
-Uma servidora foi designada para analisar pedido apresentado por empresa da qual o seu irmão é sócio. Ainda que ela venha a decidir de forma tecnicamente correta, a situação caracteriza potencial conflito de interesses, recomendando-se que ela comunique o fato e se abstenha de atuar no caso.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o conflito de interesses é a situação de risco, e não depende do resultado da decisão. A resposta adequada é preventiva: declarar e abster-se. Se houvesse favorecimento em troca de vantagem, haveria corrupção.
-
-Questão sete.
-O funcionário público que, em razão da função, exige de particular vantagem indevida para emitir um alvará pratica o crime de corrupção passiva.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o verbo exigir caracteriza a concussão. A corrupção passiva tem os verbos solicitar, receber ou aceitar promessa. Essa troca de verbos é uma das pegadinhas mais comuns em crimes contra a administração pública.
-
-Questão oito.
-O clientelismo caracteriza-se por relações pessoais e assimétricas de troca de bens, serviços ou favores por apoio político, ao passo que a patronagem diz respeito à distribuição de cargos e empregos públicos como recurso político.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: no clientelismo, o foco é a troca com o cliente, em geral o eleitor. Na patronagem, o foco é a ocupação dos cargos por membros da rede política. Na prática, as duas costumam se combinar.
-
-Questão nove.
-A nomeação, pelo prefeito, de seu sobrinho para cargo em comissão de assessoramento na prefeitura viola a Constituição Federal, conforme entendimento do Supremo Tribunal Federal, independentemente da edição de lei específica que proíba o nepotismo.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: o sobrinho é parente colateral de terceiro grau, alcançado pela súmula vinculante sobre nepotismo, e a vedação decorre diretamente dos princípios da impessoalidade e da moralidade. A ressalva jurisprudencial para cargos de natureza política, como secretário municipal, não se aplica a cargo de assessoramento.
-
-Questão dez.
-Por representar desvio da impessoalidade, a patronagem configura, em qualquer hipótese, prática ilícita, de modo que toda nomeação de aliado político para cargo em comissão caracteriza corrupção.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a nomeação de pessoas de confiança para cargos de direção política é prevista na Constituição e é parte normal do funcionamento democrático. A patronagem se torna problemática quando ignora critérios de competência, invade áreas técnicas ou serve ao desvio de recursos.
-
-Questão onze.
-A captura de órgãos ou políticas públicas por interesses particulares pressupõe, necessariamente, o pagamento de propina aos agentes públicos responsáveis pelas decisões.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a captura pode ocorrer por meios formalmente lícitos, como assimetria de informação, porta giratória, captura cognitiva e acesso desproporcional a quem decide. A propina é apenas uma das formas possíveis.
-
-Questão doze.
-Diferentemente da corrupção administrativa, que se manifesta tipicamente na aplicação de regras a casos concretos, a captura pode incidir sobre a própria formulação de normas e políticas, de modo que agentes que aplicam corretamente uma regra capturada podem, sem o saber, executar favorecimento a determinado grupo.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a captura atua sobre o conteúdo das regras e das decisões, e não apenas sobre a sua aplicação. Por isso, pode ser mais difícil de detectar e ocorrer sem nenhum ilícito na ponta.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Corrupção é o abuso do poder confiado para ganho privado. O benefício pode ser de terceiros e não precisa ser dinheiro. Também é apropriação de decisões públicas por interesses particulares.
 
@@ -391,4 +290,69 @@ Clientelismo: favores por apoio político. Patronagem: cargos como recurso polí
 
 Todos são particularismos, opostos ao universalismo de procedimentos.
 
-Fim da aula do item um ponto um ponto seis. Na sequência do edital, o próximo é o item um ponto um ponto sete, mecanismos de reprodução e captura. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na concepção de corrupção como abuso do poder confiado para ganho privado, o benefício obtido não precisa destinar-se ao próprio agente que pratica o ato, podendo favorecer terceiros, como familiares, empresas ou grupos políticos.
+
+Gabarito: certo. O que caracteriza a corrupção é o uso do poder confiado em favor de interesse particular, e não do interesse público. O beneficiário pode ser o próprio agente ou terceiros.
+
+
+Item dois. Para que determinada conduta seja caracterizada como corrupção, é indispensável a ocorrência de transferência de recursos financeiros ao agente público e de prejuízo econômico mensurável ao erário.
+
+Gabarito: errado. A vantagem pode ser um cargo, um favor, uma informação ou um voto, e o dano pode estar na quebra da impessoalidade e da confiança, sem prejuízo financeiro imediato.
+
+
+Item três. O pagamento de vantagem indevida a um fiscal para que deixe de lavrar auto de infração constitui exemplo típico da dimensão política da corrupção, ao passo que a compra de votos em período eleitoral exemplifica a sua dimensão administrativa.
+
+Gabarito: errado. As dimensões estão trocadas. Propina a fiscal, na aplicação de regras, é corrupção administrativa. Compra de votos, que atinge o processo de acesso ao poder, é corrupção política.
+
+
+Item quatro. Um servidor, por falta de capacitação, calculou de forma equivocada o valor estimado de uma contratação, o que resultou em pagamento acima do preço de mercado, sem que houvesse qualquer intenção de favorecer o contratado. Nessa situação, o fato caracteriza falha de gestão, e não corrupção, o que não impede a adoção de medidas corretivas.
+
+Gabarito: certo. Sem intenção de favorecer interesse particular, não há corrupção, ainda que haja prejuízo. A falha pode exigir correção, recomendações e, se configurado erro grosseiro, responsabilização. E, após a reforma de dois mil e vinte e um, a improbidade exige dolo.
+
+
+Item cinco. Nos termos da Lei de Conflito de Interesses, somente se configura conflito de interesses quando houver efetiva lesão ao patrimônio público ou recebimento de vantagem pelo agente público ou por terceiro.
+
+Gabarito: errado. A lei define conflito de interesses como situação que possa comprometer o interesse coletivo ou influenciar indevidamente a função pública, e a sua configuração independe de lesão ao patrimônio público ou do recebimento de vantagem. É uma situação de risco, a ser prevenida.
+
+
+Item seis. Uma servidora foi designada para analisar pedido apresentado por empresa da qual o seu irmão é sócio. Ainda que ela venha a decidir de forma tecnicamente correta, a situação caracteriza potencial conflito de interesses, recomendando-se que ela comunique o fato e se abstenha de atuar no caso.
+
+Gabarito: certo. O conflito de interesses é a situação de risco, e não depende do resultado da decisão. A resposta adequada é preventiva: declarar e abster-se. Se houvesse favorecimento em troca de vantagem, haveria corrupção.
+
+
+Item sete. O funcionário público que, em razão da função, exige de particular vantagem indevida para emitir um alvará pratica o crime de corrupção passiva.
+
+Gabarito: errado. O verbo exigir caracteriza a concussão. A corrupção passiva tem os verbos solicitar, receber ou aceitar promessa. Essa troca de verbos é uma das pegadinhas mais comuns em crimes contra a administração pública.
+
+
+Item oito. O clientelismo caracteriza-se por relações pessoais e assimétricas de troca de bens, serviços ou favores por apoio político, ao passo que a patronagem diz respeito à distribuição de cargos e empregos públicos como recurso político.
+
+Gabarito: certo. No clientelismo, o foco é a troca com o cliente, em geral o eleitor. Na patronagem, o foco é a ocupação dos cargos por membros da rede política. Na prática, as duas costumam se combinar.
+
+
+Item nove. A nomeação, pelo prefeito, de seu sobrinho para cargo em comissão de assessoramento na prefeitura viola a Constituição Federal, conforme entendimento do Supremo Tribunal Federal, independentemente da edição de lei específica que proíba o nepotismo.
+
+Gabarito: certo. O sobrinho é parente colateral de terceiro grau, alcançado pela súmula vinculante sobre nepotismo, e a vedação decorre diretamente dos princípios da impessoalidade e da moralidade. A ressalva jurisprudencial para cargos de natureza política, como secretário municipal, não se aplica a cargo de assessoramento.
+
+
+Item dez. Por representar desvio da impessoalidade, a patronagem configura, em qualquer hipótese, prática ilícita, de modo que toda nomeação de aliado político para cargo em comissão caracteriza corrupção.
+
+Gabarito: errado. A nomeação de pessoas de confiança para cargos de direção política é prevista na Constituição e é parte normal do funcionamento democrático. A patronagem se torna problemática quando ignora critérios de competência, invade áreas técnicas ou serve ao desvio de recursos.
+
+
+Item onze. A captura de órgãos ou políticas públicas por interesses particulares pressupõe, necessariamente, o pagamento de propina aos agentes públicos responsáveis pelas decisões.
+
+Gabarito: errado. A captura pode ocorrer por meios formalmente lícitos, como assimetria de informação, porta giratória, captura cognitiva e acesso desproporcional a quem decide. A propina é apenas uma das formas possíveis.
+
+
+Item doze. Diferentemente da corrupção administrativa, que se manifesta tipicamente na aplicação de regras a casos concretos, a captura pode incidir sobre a própria formulação de normas e políticas, de modo que agentes que aplicam corretamente uma regra capturada podem, sem o saber, executar favorecimento a determinado grupo.
+
+Gabarito: certo. A captura atua sobre o conteúdo das regras e das decisões, e não apenas sobre a sua aplicação. Por isso, pode ser mais difícil de detectar e ocorrer sem nenhum ilícito na ponta.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto sete, mecanismos de reprodução e captura.

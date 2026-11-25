@@ -1,30 +1,12 @@
-ROTEIRO DE AUDIOAULA
-CONCURSO CGU. AUDITOR FEDERAL DE FINANÇAS E CONTROLE. TECNOLOGIA DA INFORMAÇÃO, DESENVOLVIMENTO DE SISTEMAS.
-CONHECIMENTOS BÁSICOS. ITEM 1.1.7 DO EDITAL: MECANISMOS DE REPRODUÇÃO E CAPTURA.
-SUBITEM 1.1.7.1: Assimetrias de poder e informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento.
-SUBITEM 1.1.7.2: Captura de políticas e influência indevida; distinção entre representação legítima de interesses e favorecimento.
+AUDIOAULA. ITEM UM PONTO UM PONTO SETE DO EDITAL: MECANISMOS DE REPRODUÇÃO E CAPTURA
 
 
 ABERTURA
 
-Olá. Esta é a audioaula do item um ponto um ponto sete do edital da CGU, chamado mecanismos de reprodução e captura. Ele tem dois subitens.
-
-O primeiro, um ponto um ponto sete ponto um, trata dos mecanismos que explicam por que a corrupção surge e se mantém: assimetrias de poder e de informação, incentivos e oportunidades; relações principal-agente e problemas de ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento.
-
-O segundo, um ponto um ponto sete ponto dois, trata da captura de políticas e da influência indevida, e da distinção entre a representação legítima de interesses e o favorecimento.
-
-Vamos organizar a aula em quatro blocos. Bloco um: assimetrias, incentivos e oportunidades. Bloco dois: principal-agente e ação coletiva. Bloco três: normas sociais, tolerância organizacional e redes de favorecimento. Bloco quatro: captura, influência indevida e representação legítima de interesses. Depois, as estratégias da Cebraspe, doze questões de fixação com gabarito comentado e uma revisão final.
-
-Na aula anterior, respondemos à pergunta: o que é corrupção e o que não é. Esta aula responde a outra: por que a corrupção acontece e, principalmente, por que ela se reproduz, isto é, persiste e se repete mesmo depois de escândalos, punições e reformas. Repare na palavra reprodução, do título. O edital não pergunta apenas por que uma pessoa se corrompe. Pergunta por que a corrupção continua existindo em uma organização ou em uma sociedade, mesmo quando as pessoas mudam.
-
-Essa pergunta é essencial para o auditor por um motivo prático. Se você entende os mecanismos, sabe onde olhar. As auditorias baseadas em risco, que o edital trata adiante, procuram exatamente os lugares em que esses mecanismos estão presentes: muita assimetria de informação, muita discricionariedade, pouca transparência, pouca segregação de funções, redes de relações repetidas entre os mesmos atores.
-
-Este item é quase todo teórico, com autores de economia, ciência política e sociologia das organizações. Os principais são Gary Becker, Donald Cressey, Michael Jensen e William Meckling, Mancur Olson, Anna Persson, Bo Rothstein e Jan Teorell, Blake Ashforth e Vikas Anand, e George Stigler. Na parte final, há também uma base normativa: a Lei de Conflito de Interesses e o decreto federal sobre agendas públicas. Como sempre, confira os dispositivos no texto oficial do Planalto.
-
-Uma orientação de estratégia. As questões deste item tendem a ser de dois tipos. O primeiro é a troca de autores e de teorias: atribuir a um autor a ideia de outro. O segundo, e mais sofisticado, é o da explicação incompleta: o item apresenta um único mecanismo como se ele explicasse sozinho a corrupção, ou uma única resposta como se ela resolvesse sozinha o problema. A mensagem do edital é que a corrupção tem causas múltiplas, que se combinam. Desconfie de itens com as palavras apenas, exclusivamente, basta, suficiente.
+Este é o item um ponto um ponto sete, mecanismos de reprodução e captura. Ele tem dois subitens, organizados aqui em quatro blocos: assimetrias, incentivos e oportunidades; principal-agente e ação coletiva; normas sociais, tolerância organizacional e redes de favorecimento; e captura, influência indevida e representação legítima de interesses. A banca costuma cobrar a atribuição correta das teorias a autores como Gary Becker, Donald Cressey, Jensen e Meckling, Mancur Olson e George Stigler, e apresentar um único mecanismo ou uma única resposta como suficiente para explicar ou resolver a corrupção.
 
 
-BLOCO UM. ASSIMETRIAS DE PODER E DE INFORMAÇÃO, INCENTIVOS E OPORTUNIDADES.
+BLOCO UM: ASSIMETRIAS DE PODER E DE INFORMAÇÃO, INCENTIVOS E OPORTUNIDADES
 
 Comecemos pelas assimetrias.
 
@@ -92,10 +74,8 @@ Um ponto de prova: dos três elementos do triângulo, a oportunidade é aquele s
 
 Pegadinhas do bloco um. Dizer que a assimetria de informação é, em si, uma irregularidade. Dizer que a corrupção se explica apenas por desvios de caráter, ignorando incentivos e oportunidades. Dizer que aumentar penas é suficiente. Trocar seleção adversa e risco moral. Atribuir o triângulo da fraude a Becker, ou a economia do crime a Cressey. E dizer que, segundo o triângulo, basta a presença de um dos elementos para que a fraude ocorra.
 
-Resumo do bloco um. A assimetria de informação gera seleção adversa, antes, e risco moral, depois, e é inerente à delegação. A assimetria de poder cria espaço para extorsão e para o silêncio. Para Becker, a decisão ilícita pode ser vista como cálculo de benefício e custo esperado, e a certeza da punição pesa muito. Oportunidades surgem de controles frágeis, discricionariedade sem motivação e opacidade. E o triângulo de Cressey combina pressão, oportunidade e racionalização.
 
-
-BLOCO DOIS. RELAÇÕES PRINCIPAL-AGENTE E PROBLEMAS DE AÇÃO COLETIVA.
+BLOCO DOIS: RELAÇÕES PRINCIPAL-AGENTE E PROBLEMAS DE AÇÃO COLETIVA
 
 Este bloco traz o debate teórico mais importante do item. Há duas grandes formas de explicar a corrupção, e cada uma leva a respostas diferentes.
 
@@ -137,10 +117,8 @@ Terceiro cuidado: a teoria principal-agente não se aplica só ao setor privado.
 
 E uma última ponte, que leva ao bloco quatro. O problema de ação coletiva também explica por que a captura acontece. Lembre Olson: grupos pequenos, com interesses concentrados, se organizam com facilidade. Grupos grandes, com interesses difusos, não. Os milhões de consumidores ou contribuintes que perdem um pouco cada um com um privilégio não se mobilizam para combatê-lo, porque o custo de se organizar é alto e o ganho individual é pequeno. Quem ganha muito, se mobiliza. Essa assimetria de mobilização é uma das raízes da captura.
 
-Resumo do bloco dois. Na teoria principal-agente, de Jensen e Meckling, a corrupção decorre do desalinhamento de interesses e da assimetria de informação entre quem delega e quem executa, e as respostas são monitoramento, incentivos, transparência e punição. Persson, Rothstein e Teorell sustentam que, na corrupção sistêmica, o problema se parece mais com ação coletiva: depende de expectativas sobre o comportamento dos outros, e as respostas precisam mudar essas expectativas de forma coordenada. As duas visões se complementam, e nenhuma delas elimina a responsabilidade individual.
 
-
-BLOCO TRÊS. NORMAS SOCIAIS, TOLERÂNCIA ORGANIZACIONAL E REDES DE FAVORECIMENTO.
+BLOCO TRÊS: NORMAS SOCIAIS, TOLERÂNCIA ORGANIZACIONAL E REDES DE FAVORECIMENTO
 
 Se o bloco dois falou de expectativas, este bloco fala de onde elas vêm e de como se mantêm: as normas, a cultura das organizações e as redes de relações.
 
@@ -204,10 +182,8 @@ Para quem trabalha com dados, um ponto de interesse. Como as redes se revelam ma
 
 Pegadinhas do bloco três. Dizer que as normas sociais são irrelevantes quando há lei formal. Dizer que a corrupção no Brasil se explica exclusivamente por cultura, sendo inútil mudar instituições. Dizer que a existência formal de código de ética demonstra a ausência de tolerância organizacional. Dizer que as redes de favorecimento exigem trocas simultâneas e explícitas. E dizer que qualquer relação pessoal entre agentes públicos e privados caracteriza rede de favorecimento.
 
-Resumo do bloco três. Normas sociais, descritivas e injuntivas, moldam o comportamento além da lei, e a percepção do que os outros fazem alimenta a corrupção. Organizações podem normalizar a corrupção por institucionalização, racionalização e socialização, segundo Ashforth e Anand, e a existência formal de normas não garante a sua efetividade. Redes de favorecimento operam por reciprocidade diferida, confiança e proteção mútua, o que dificulta a detecção e permite a reprodução.
 
-
-BLOCO QUATRO. CAPTURA DE POLÍTICAS, INFLUÊNCIA INDEVIDA E REPRESENTAÇÃO LEGÍTIMA DE INTERESSES.
+BLOCO QUATRO: CAPTURA DE POLÍTICAS, INFLUÊNCIA INDEVIDA E REPRESENTAÇÃO LEGÍTIMA DE INTERESSES
 
 Na aula anterior, vimos o conceito de captura: a apropriação sistemática de decisões, políticas ou órgãos públicos por interesses particulares, formalizada na teoria de George Stigler sobre a regulação. Agora o edital avança em duas direções: a captura de políticas e a distinção entre influência legítima e indevida.
 
@@ -271,104 +247,23 @@ Terceiro: a atividade de lobby, em si, não é proibida no Brasil. O que se disc
 
 Pegadinhas do bloco quatro. Dizer que a captura ocorre apenas em agências reguladoras, ou apenas por empresas. Dizer que toda atuação de grupos de interesse é ilegítima. Dizer que agentes públicos não podem se reunir com representantes do setor privado. Dizer que o registro da reunião em agenda pública impede, por si só, qualquer favorecimento. Dizer que o resultado favorável a um grupo prova a captura. E trocar os prazos ou os órgãos da quarentena.
 
-Resumo do bloco quatro. A captura pode atingir qualquer fase do ciclo de políticas e ser praticada por empresas, corporações profissionais ou outros grupos, por meio de assimetrias de informação e de mobilização, porta giratória, captura cognitiva, financiamento político e, nos casos graves, corrupção. A representação de interesses é legítima e decorre do pluralismo. A influência se torna indevida quando é oculta, envolve vantagens, é desproporcional, envolve conflito de interesses ou leva a decisões não motivadas pelo interesse público. O critério principal é o processo, não o resultado. E a Lei de Conflito de Interesses e o decreto das agendas públicas são as bases federais de prevenção.
+
+PEGADINHAS DO ITEM
+
+Troca de autores e de teorias. Becker na economia do crime. Cressey no triângulo da fraude. Jensen e Meckling na teoria da agência. Olson na ação coletiva. Persson, Rothstein e Teorell na corrupção sistêmica como ação coletiva. Ashforth e Anand na normalização. Stigler na captura.
+
+Explicação única. A corrupção se explica apenas pelo caráter, apenas pela cultura, apenas pelos incentivos econômicos, apenas pela falta de controle. Todas incompletas.
+
+Solução única. Basta aumentar as penas. Basta criar um código de ética. Basta monitorar os agentes. Basta registrar as agendas.
+
+Troca de conceitos vizinhos. Seleção adversa e risco moral. Norma descritiva e norma injuntiva. Principal-agente e ação coletiva. Representação de interesses e favorecimento.
+
+Transformar risco em prova. Assimetria de informação como irregularidade. Vínculo pessoal como rede de favorecimento. Reunião com empresa como influência indevida. Resultado favorável como captura.
+
+Afastar a responsabilidade individual. Por ser fenômeno coletivo ou cultural, ninguém responderia. Errado.
 
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
-
-Primeira estratégia: troca de autores e de teorias. Becker na economia do crime. Cressey no triângulo da fraude. Jensen e Meckling na teoria da agência. Olson na ação coletiva. Persson, Rothstein e Teorell na corrupção sistêmica como ação coletiva. Ashforth e Anand na normalização. Stigler na captura.
-
-Segunda estratégia: explicação única. A corrupção se explica apenas pelo caráter, apenas pela cultura, apenas pelos incentivos econômicos, apenas pela falta de controle. Todas incompletas.
-
-Terceira estratégia: solução única. Basta aumentar as penas. Basta criar um código de ética. Basta monitorar os agentes. Basta registrar as agendas.
-
-Quarta estratégia: troca de conceitos vizinhos. Seleção adversa e risco moral. Norma descritiva e norma injuntiva. Principal-agente e ação coletiva. Representação de interesses e favorecimento.
-
-Quinta estratégia: transformar risco em prova. Assimetria de informação como irregularidade. Vínculo pessoal como rede de favorecimento. Reunião com empresa como influência indevida. Resultado favorável como captura.
-
-Sexta estratégia: afastar a responsabilidade individual. Por ser fenômeno coletivo ou cultural, ninguém responderia. Errado.
-
-Sétima estratégia: situação hipotética. Pergunte. Quais elementos do triângulo estão presentes? Há um principal interessado em controlar, ou a expectativa geral é de corrupção? A norma está só no papel ou é aplicada? A influência foi transparente, equilibrada, sem vantagens e com decisão motivada?
-
-
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze itens no estilo Cebraspe. Julgue cada um como certo ou errado. Depois de cada enunciado, pause o áudio, decida, e então ouça o gabarito comentado.
-
-Questão um.
-Na perspectiva da economia do crime, associada a Gary Becker, a decisão de praticar um ato ilícito pode ser analisada como escolha racional, em que o agente compara o benefício esperado da conduta com o custo esperado, este último dependente da probabilidade de detecção e punição e da severidade da sanção.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a formulação central de Becker. Daí decorre que aumentar a probabilidade de detecção pode ser tão ou mais importante do que aumentar a severidade das penas.
-
-Questão dois.
-A assimetria de informação entre o agente público e quem o designou constitui irregularidade a ser eliminada pelos órgãos de controle, uma vez que configura, por si só, uso oportunista da função pública.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a assimetria de informação é inerente a toda relação de delegação. O risco está no seu uso oportunista quando faltam transparência, verificação e prestação de contas, e não na sua mera existência.
-
-Questão três.
-Segundo o modelo do triângulo da fraude, formulado por Donald Cressey, a fraude tende a ocorrer quando se combinam pressão, oportunidade e racionalização, sendo a oportunidade o elemento sobre o qual os controles internos de uma organização atuam de forma mais direta.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: os três elementos se combinam. Controles como segregação de funções, trilhas de auditoria e supervisão reduzem principalmente a oportunidade, embora metas realistas e ambiente ético também influenciem a pressão e a racionalização.
-
-Questão quatro.
-De acordo com a análise de Persson, Rothstein e Teorell, reformas anticorrupção baseadas exclusivamente no modelo principal-agente tendem a fracassar em contextos de corrupção sistêmica, nos quais o fenômeno se assemelha mais a um problema de ação coletiva, pois não se pode presumir a existência de principais incorruptíveis dispostos a controlar os agentes.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o argumento central do artigo de dois mil e treze. Quando a expectativa geral é de corrupção, monitorar e punir indivíduos não basta: é preciso mudar as expectativas de forma coordenada.
-
-Questão cinco.
-Por caracterizar-se como problema de ação coletiva, a corrupção sistêmica afasta a responsabilização individual dos agentes que dela participam, os quais atuam em conformidade com as expectativas do meio em que estão inseridos.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: explicar as causas coletivas da corrupção não elimina a responsabilidade de quem pratica o ato ilícito. A visão de ação coletiva orienta o desenho das respostas, mas não funciona como excludente de responsabilidade.
-
-Questão seis.
-Em contextos de corrupção sistêmica, o aumento da severidade das penas previstas em lei é, isoladamente, suficiente para reverter o fenômeno, uma vez que eleva o custo esperado da conduta ilícita para todos os agentes.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: penas severas, mas raramente aplicadas, dissuadem pouco, e na corrupção sistêmica as expectativas e as normas sociais sustentam o comportamento. São necessárias medidas combinadas: detecção, transparência, mudança de expectativas, liderança e redução de oportunidades.
-
-Questão sete.
-Em determinado órgão, há código de ética formalmente instituído e canal de denúncias disponível, mas os dirigentes ignoram as regras, as punições são raras e seletivas e os servidores que denunciaram irregularidades foram removidos de suas funções. Essa situação exemplifica tolerância organizacional, evidenciando que a existência formal de normas não assegura a sua efetividade.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a distância entre o papel e a prática, a falta de exemplo da liderança e a retaliação a denunciantes são sinais típicos de tolerância organizacional e de normalização da corrupção.
-
-Questão oito.
-As redes de favorecimento caracterizam-se, frequentemente, por relações de reciprocidade continuada, em que favores prestados em um momento são retribuídos posteriormente, de forma diversa e por outros membros da rede, o que dificulta a identificação de uma troca explícita entre vantagem e ato e contribui para a reprodução dessas práticas.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: a reciprocidade diferida, a confiança entre os membros e a proteção mútua fazem as redes persistirem e dificultam a detecção baseada em atos isolados.
-
-Questão nove.
-A atuação organizada de grupos de interesse junto a agentes públicos, para apresentar argumentos e informações sobre políticas que os afetam, é incompatível com o interesse público e caracteriza, por si só, influência indevida.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a representação de interesses é legítima em uma democracia plural e decorre do pluralismo político, da liberdade de associação e do direito de petição. A influência se torna indevida quando é oculta, desproporcional, envolve vantagens ou conflito de interesses, ou leva a decisões não motivadas pelo interesse público.
-
-Questão dez.
-A captura de políticas públicas restringe-se à atuação de agências reguladoras e ocorre exclusivamente na fase de formulação das normas, por iniciativa de empresas do setor regulado.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a captura pode ocorrer em qualquer órgão e em qualquer fase do ciclo de políticas, da agenda à avaliação, e pode ser promovida por diferentes grupos, inclusive corporações profissionais e grupos de servidores, não apenas por empresas.
-
-Questão onze.
-Nos termos da Lei de Conflito de Interesses, configura conflito de interesses após o exercício de cargo no Poder Executivo federal divulgar ou fazer uso, a qualquer tempo, de informação privilegiada obtida em razão das atividades exercidas, sendo que outras situações nela previstas são vedadas pelo período de seis meses contado do desligamento, salvo autorização da Comissão de Ética Pública ou da Controladoria-Geral da União, conforme o caso.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a regra da quarentena, que enfrenta parte do problema da porta giratória. Informação privilegiada, a qualquer tempo. Demais situações, seis meses, salvo autorização.
-
-Questão doze.
-Se uma decisão de órgão público beneficiar determinado setor econômico cujos representantes tenham participado de audiência com a autoridade responsável, devidamente registrada em agenda pública, estará caracterizada influência indevida, independentemente da motivação apresentada para a decisão.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o resultado favorável, por si só, não prova captura nem influência indevida. O critério principal é o processo: transparência, ausência de vantagens, equilíbrio de acesso, ausência de conflito de interesses e motivação da decisão com base no interesse público.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Reprodução é a persistência da corrupção mesmo quando as pessoas mudam.
 
@@ -394,4 +289,69 @@ Representação de interesses é legítima. Influência indevida é oculta, desp
 
 Quarentena: informação privilegiada, a qualquer tempo; demais situações, seis meses, salvo autorização. Agendas públicas no e-Agendas.
 
-Fim da aula do item um ponto um ponto sete. Na sequência do edital, o próximo é o item um ponto um ponto oito, consequências e respostas à corrupção. Bons estudos.
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na perspectiva da economia do crime, associada a Gary Becker, a decisão de praticar um ato ilícito pode ser analisada como escolha racional, em que o agente compara o benefício esperado da conduta com o custo esperado, este último dependente da probabilidade de detecção e punição e da severidade da sanção.
+
+Gabarito: certo. É a formulação central de Becker. Daí decorre que aumentar a probabilidade de detecção pode ser tão ou mais importante do que aumentar a severidade das penas.
+
+
+Item dois. A assimetria de informação entre o agente público e quem o designou constitui irregularidade a ser eliminada pelos órgãos de controle, uma vez que configura, por si só, uso oportunista da função pública.
+
+Gabarito: errado. A assimetria de informação é inerente a toda relação de delegação. O risco está no seu uso oportunista quando faltam transparência, verificação e prestação de contas, e não na sua mera existência.
+
+
+Item três. Segundo o modelo do triângulo da fraude, formulado por Donald Cressey, a fraude tende a ocorrer quando se combinam pressão, oportunidade e racionalização, sendo a oportunidade o elemento sobre o qual os controles internos de uma organização atuam de forma mais direta.
+
+Gabarito: certo. Os três elementos se combinam. Controles como segregação de funções, trilhas de auditoria e supervisão reduzem principalmente a oportunidade, embora metas realistas e ambiente ético também influenciem a pressão e a racionalização.
+
+
+Item quatro. De acordo com a análise de Persson, Rothstein e Teorell, reformas anticorrupção baseadas exclusivamente no modelo principal-agente tendem a fracassar em contextos de corrupção sistêmica, nos quais o fenômeno se assemelha mais a um problema de ação coletiva, pois não se pode presumir a existência de principais incorruptíveis dispostos a controlar os agentes.
+
+Gabarito: certo. É o argumento central do artigo de dois mil e treze. Quando a expectativa geral é de corrupção, monitorar e punir indivíduos não basta: é preciso mudar as expectativas de forma coordenada.
+
+
+Item cinco. Por caracterizar-se como problema de ação coletiva, a corrupção sistêmica afasta a responsabilização individual dos agentes que dela participam, os quais atuam em conformidade com as expectativas do meio em que estão inseridos.
+
+Gabarito: errado. Explicar as causas coletivas da corrupção não elimina a responsabilidade de quem pratica o ato ilícito. A visão de ação coletiva orienta o desenho das respostas, mas não funciona como excludente de responsabilidade.
+
+
+Item seis. Em contextos de corrupção sistêmica, o aumento da severidade das penas previstas em lei é, isoladamente, suficiente para reverter o fenômeno, uma vez que eleva o custo esperado da conduta ilícita para todos os agentes.
+
+Gabarito: errado. Penas severas, mas raramente aplicadas, dissuadem pouco, e na corrupção sistêmica as expectativas e as normas sociais sustentam o comportamento. São necessárias medidas combinadas: detecção, transparência, mudança de expectativas, liderança e redução de oportunidades.
+
+
+Item sete. Em determinado órgão, há código de ética formalmente instituído e canal de denúncias disponível, mas os dirigentes ignoram as regras, as punições são raras e seletivas e os servidores que denunciaram irregularidades foram removidos de suas funções. Essa situação exemplifica tolerância organizacional, evidenciando que a existência formal de normas não assegura a sua efetividade.
+
+Gabarito: certo. A distância entre o papel e a prática, a falta de exemplo da liderança e a retaliação a denunciantes são sinais típicos de tolerância organizacional e de normalização da corrupção.
+
+
+Item oito. As redes de favorecimento caracterizam-se, frequentemente, por relações de reciprocidade continuada, em que favores prestados em um momento são retribuídos posteriormente, de forma diversa e por outros membros da rede, o que dificulta a identificação de uma troca explícita entre vantagem e ato e contribui para a reprodução dessas práticas.
+
+Gabarito: certo. A reciprocidade diferida, a confiança entre os membros e a proteção mútua fazem as redes persistirem e dificultam a detecção baseada em atos isolados.
+
+
+Item nove. A atuação organizada de grupos de interesse junto a agentes públicos, para apresentar argumentos e informações sobre políticas que os afetam, é incompatível com o interesse público e caracteriza, por si só, influência indevida.
+
+Gabarito: errado. A representação de interesses é legítima em uma democracia plural e decorre do pluralismo político, da liberdade de associação e do direito de petição. A influência se torna indevida quando é oculta, desproporcional, envolve vantagens ou conflito de interesses, ou leva a decisões não motivadas pelo interesse público.
+
+
+Item dez. A captura de políticas públicas restringe-se à atuação de agências reguladoras e ocorre exclusivamente na fase de formulação das normas, por iniciativa de empresas do setor regulado.
+
+Gabarito: errado. A captura pode ocorrer em qualquer órgão e em qualquer fase do ciclo de políticas, da agenda à avaliação, e pode ser promovida por diferentes grupos, inclusive corporações profissionais e grupos de servidores, não apenas por empresas.
+
+
+Item onze. Nos termos da Lei de Conflito de Interesses, configura conflito de interesses após o exercício de cargo no Poder Executivo federal divulgar ou fazer uso, a qualquer tempo, de informação privilegiada obtida em razão das atividades exercidas, sendo que outras situações nela previstas são vedadas pelo período de seis meses contado do desligamento, salvo autorização da Comissão de Ética Pública ou da Controladoria-Geral da União, conforme o caso.
+
+Gabarito: certo. É a regra da quarentena, que enfrenta parte do problema da porta giratória. Informação privilegiada, a qualquer tempo. Demais situações, seis meses, salvo autorização.
+
+
+Item doze. Se uma decisão de órgão público beneficiar determinado setor econômico cujos representantes tenham participado de audiência com a autoridade responsável, devidamente registrada em agenda pública, estará caracterizada influência indevida, independentemente da motivação apresentada para a decisão.
+
+Gabarito: errado. O resultado favorável, por si só, não prova captura nem influência indevida. O critério principal é o processo: transparência, ausência de vantagens, equilíbrio de acesso, ausência de conflito de interesses e motivação da decisão com base no interesse público.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item um ponto um ponto oito, consequências e respostas à corrupção.

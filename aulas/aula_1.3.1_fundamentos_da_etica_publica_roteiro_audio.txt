@@ -1,24 +1,9 @@
-ROTEIRO DE AUDIOAULA
-Concurso da Controladoria-Geral da União. Cargo de Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
-Item um ponto três ponto um do edital: Fundamentos da ética pública.
-Subitem um ponto três ponto um ponto um: Interesse público, dignidade, justiça e responsabilidade; relações entre deveres, consequências e virtudes profissionais; conflitos entre valores em decisões públicas.
+AUDIOAULA. ITEM UM PONTO TRÊS PONTO UM DO EDITAL: FUNDAMENTOS DA ÉTICA PÚBLICA
 
 
 ABERTURA
 
-Olá! Seja bem-vindo e bem-vinda a mais uma audioaula da nossa trilha para a Controladoria-Geral da União.
-
-Hoje começamos um novo eixo do edital, o item um ponto três, Ética pública e responsabilidade profissional. E começamos pelos fundamentos. Este é um tema em que muita gente acha que vai acertar "no bom senso" e acaba errando, porque a Cebraspe cobra conceitos precisos de filosofia moral e textos normativos que têm palavras muito específicas.
-
-O edital pede três coisas. Primeira, os valores básicos da ética pública: interesse público, dignidade, justiça e responsabilidade. Segunda, as relações entre deveres, consequências e virtudes profissionais, ou seja, as três grandes tradições da ética: a deontologia, o consequencialismo e a ética das virtudes. Terceira, os conflitos entre valores nas decisões públicas, os chamados dilemas.
-
-Por isso a aula terá três blocos. No primeiro, os valores. No segundo, as três teorias e como elas aparecem nos códigos de ética do serviço público federal. No terceiro, os conflitos entre valores e as ferramentas para decidir. Depois, as estratégias da banca, doze questões de fixação no formato certo ou errado e a revisão final.
-
-Uma nota de estratégia: neste item, a Cebraspe adora três movimentos. Atribuir a um autor a ideia de outro, por exemplo, dar a Kant uma frase de utilitarista. Transformar uma relação de complementaridade em exclusão, como dizer que Weber manda abandonar a ética da convicção. E trocar palavras de normas, como dizer que a comissão de ética pode demitir.
-
-Uma nota sobre fontes: os trechos de normas vêm do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, aprovado pelo Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, e do Decreto seis mil e vinte e nove, de dois mil e sete, que instituiu o Sistema de Gestão da Ética do Poder Executivo Federal. Os autores clássicos são citados pelas ideias, não por frases literais.
-
-Vamos lá.
+Este é o item um ponto três ponto um, fundamentos da ética pública, que abre o bloco de ética pública e responsabilidade profissional. Ele tem um único subitem, organizado aqui em três blocos: interesse público, dignidade, justiça e responsabilidade; deveres, consequências e virtudes profissionais; e conflitos entre valores em decisões públicas. A banca costuma cobrar a atribuição correta das ideias da deontologia, do consequencialismo e da ética das virtudes aos seus autores e a letra do Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, do Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, e do Decreto seis mil e vinte e nove, de dois mil e sete.
 
 
 BLOCO UM: INTERESSE PÚBLICO, DIGNIDADE, JUSTIÇA E RESPONSABILIDADE
@@ -59,11 +44,9 @@ Quarto valor: responsabilidade. Responsabilidade tem dois sentidos. Um olha para
 
 Aqui entra o sociólogo alemão Max Weber, na conferência A política como vocação, de mil novecentos e dezenove. Weber distingue a ética da convicção e a ética da responsabilidade. Quem age pela ética da convicção faz o que considera certo segundo seus princípios e entrega o resultado, como diz a imagem religiosa, nas mãos de Deus. Quem age pela ética da responsabilidade responde pelas consequências previsíveis de seus atos.
 
-Agora, atenção máxima, porque esta é talvez a pegadinha mais repetida do tema. Weber não diz que a ética da convicção não tem responsabilidade, nem que a ética da responsabilidade não tem convicção. E ele não manda abandonar uma delas. No final da conferência, ele afirma que as duas não são opostas de modo absoluto, mas se completam, e que só quem reúne as duas tem verdadeira vocação para a política. O político maduro age com responsabilidade pelas consequências, mas, em algum momento, diz: "aqui eu paro, não posso agir de outro modo".
+Weber não diz que a ética da convicção não tem responsabilidade, nem que a ética da responsabilidade não tem convicção. E ele não manda abandonar uma delas. No final da conferência, ele afirma que as duas não são opostas de modo absoluto, mas se completam, e que só quem reúne as duas tem verdadeira vocação para a política. O político maduro age com responsabilidade pelas consequências, mas, em algum momento, diz: "aqui eu paro, não posso agir de outro modo".
 
 Uma referência complementar: o filósofo Hans Jonas, em O princípio responsabilidade, de mil novecentos e setenta e nove, defende uma ética voltada para o futuro, diante do poder da tecnologia. Ele propõe agir de modo que os efeitos da ação sejam compatíveis com a permanência de uma vida humana autêntica na Terra. Isso conversa com a aula passada, sobre sustentabilidade e gerações futuras, e também com o desenvolvimento de sistemas: quem constrói tecnologia tem responsabilidade pelos efeitos que ela pode produzir.
-
-Resumo do bloco. Moral é prática, ética é reflexão, e direito é coercitivo; legal não é sinônimo de ético. Interesse público primário é o da coletividade; secundário, o do Estado como pessoa jurídica; prevalece o primário. A dignidade é fundamento da República e, em Kant, significa tratar a pessoa sempre como fim, nunca apenas como meio. Justiça: em Aristóteles, distributiva e corretiva; em Rawls, véu da ignorância e princípio da diferença. Responsabilidade: prestar contas e cuidar do futuro; em Weber, ética da convicção e ética da responsabilidade se completam.
 
 
 BLOCO DOIS: DEVERES, CONSEQUÊNCIAS E VIRTUDES PROFISSIONAIS
@@ -136,8 +119,6 @@ Pegadinha: "o Código de Conduta da Alta Administração Federal foi aprovado po
 
 Por fim, o processo ético é instaurado de ofício ou por denúncia fundamentada, sempre respeitando o contraditório e a ampla defesa. E as comissões podem propor o Acordo de Conduta Pessoal e Profissional, conhecido pela sigla A C P P, como medida para evitar ou sanar desvios éticos.
 
-Resumo do bloco. Deontologia, de Kant: a ação vale pelo dever e pela intenção, com o imperativo categórico. Consequencialismo, de Bentham e Mill: a ação vale pelos resultados, pela maior felicidade do maior número. Ética das virtudes, de Aristóteles: o caráter, a virtude como meio-termo adquirido pelo hábito e a prudência como sabedoria prática. As três se complementam na ética profissional. No Decreto mil cento e setenta e um: dignidade, decoro, zelo, eficácia e consciência dos princípios morais, no cargo ou fora dele; decidir principalmente entre o honesto e o desonesto; pena de censura. O Decreto seis mil e vinte e nove criou o Sistema de Gestão da Ética, com a Comissão de Ética Pública, as comissões setoriais e as demais.
-
 
 BLOCO TRÊS: CONFLITOS ENTRE VALORES EM DECISÕES PÚBLICAS
 
@@ -181,106 +162,25 @@ Quarta ferramenta, e talvez a mais importante na administração: o processo. De
 
 Por fim, um ponto ligado ao seu cargo. Sistemas de informação também carregam escolhas éticas. Um algoritmo que prioriza fiscalizações, concede benefícios ou seleciona auditorias pode reproduzir vieses dos dados históricos, discriminar grupos e ser opaco para o cidadão. Aí os mesmos valores voltam: dignidade, para não tratar a pessoa como mero número; justiça, para não distribuir encargos de forma desigual; e responsabilidade, para que alguém responda pelas decisões automatizadas e para que elas possam ser explicadas e revistas.
 
-Resumo do bloco. Tentação é certo contra errado; dilema é certo contra certo. O pluralismo de valores, de Isaiah Berlin, explica por que os conflitos são inevitáveis. Conflitos típicos: transparência e privacidade, eficiência e equidade, legalidade e resultado, lealdade e interesse público. O problema das mãos sujas mostra escolhas trágicas. Para decidir: ponderação e proporcionalidade, em Alexy, com adequação, necessidade e proporcionalidade estrita; o artigo vinte da Lei de Introdução, que exige considerar as consequências práticas; testes práticos; e bom processo decisório.
 
+PEGADINHAS DO ITEM
 
-COMO A CEBRASPE PODE COBRAR ESTE ITEM
+Trocar autores e conceitos. Dar a Kant a ideia de que importam as consequências, dar a Bentham a ideia de dever incondicional, dar a Aristóteles o véu da ignorância ou a Rawls o meio-termo.
 
-Estratégia um: trocar autores e conceitos. Dar a Kant a ideia de que importam as consequências, dar a Bentham a ideia de dever incondicional, dar a Aristóteles o véu da ignorância ou a Rawls o meio-termo.
-
-Estratégia dois: transformar complementaridade em exclusão. Dizer que, para Weber, o político deve abandonar a ética da convicção, ou que as três teorias éticas não podem ser usadas em conjunto.
+Transformar complementaridade em exclusão. Dizer que, para Weber, o político deve abandonar a ética da convicção, ou que as três teorias éticas não podem ser usadas em conjunto.
 
 Estratégia três: confundir ética com legalidade. Afirmar que basta cumprir a lei para agir eticamente, ou que o Código de Ética manda decidir somente entre o legal e o ilegal.
 
-Estratégia quatro: trocar palavras do Código de Ética. Trocar eficácia por eficiência, dizer que os primados valem só no exercício do cargo, ou que a comissão de ética aplica advertência, suspensão ou demissão.
+Trocar palavras do Código de Ética. Trocar eficácia por eficiência, dizer que os primados valem só no exercício do cargo, ou que a comissão de ética aplica advertência, suspensão ou demissão.
 
-Estratégia cinco: trocar a natureza dos atos normativos. Dizer que o Código de Conduta da Alta Administração foi aprovado por lei, ou confundir a Comissão de Ética Pública, que cuida da alta administração, com as comissões setoriais.
+Trocar a natureza dos atos normativos. Dizer que o Código de Conduta da Alta Administração foi aprovado por lei, ou confundir a Comissão de Ética Pública, que cuida da alta administração, com as comissões setoriais.
 
-Estratégia seis: confundir interesse público primário com secundário, ou tratar a supremacia do interesse público como autorização ilimitada para sacrificar direitos.
+Confundir interesse público primário com secundário, ou tratar a supremacia do interesse público como autorização ilimitada para sacrificar direitos.
 
-Estratégia sete: confundir dilema com tentação, regra com princípio, e exagerar o conteúdo do artigo vinte da Lei de Introdução, dizendo que ele proíbe valores abstratos.
-
-Dica geral: desconfie das palavras "somente", "exclusivamente", "nunca" e "sempre" nas questões de ética. Quase toda teoria ética séria tem nuances, e a banca explora isso.
+Confundir dilema com tentação, regra com princípio, e exagerar o conteúdo do artigo vinte da Lei de Introdução, dizendo que ele proíbe valores abstratos.
 
 
-QUESTÕES DE FIXAÇÃO
-
-Agora, doze questões no formato certo ou errado. Ouça, pause se quiser, decida e só depois ouça o gabarito.
-
-Questão um.
-Na doutrina administrativista, o interesse público primário corresponde ao interesse da coletividade, enquanto o interesse público secundário corresponde ao interesse do Estado como pessoa jurídica, sendo este último legítimo apenas quando coincidente com o primário.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a distinção atribuída a Renato Alessi e difundida no Brasil por Celso Antônio Bandeira de Mello. O interesse secundário só se legitima quando serve ao primário.
-
-Questão dois.
-Na conferência A política como vocação, Max Weber sustenta que a ética da convicção e a ética da responsabilidade são inconciliáveis, devendo o político abandonar a primeira para adotar exclusivamente a segunda.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: Weber distingue as duas, mas conclui que elas se completam e que só quem as reúne tem verdadeira vocação para a política.
-
-Questão três.
-Na ética deontológica de Immanuel Kant, a correção moral de uma ação é determinada exclusivamente pelas consequências que ela produz para o bem-estar do maior número de pessoas.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: essa é a lógica do utilitarismo de Bentham e Mill. Para Kant, a ação tem valor moral quando é praticada por dever, segundo o imperativo categórico, independentemente das consequências.
-
-Questão quatro.
-Para Aristóteles, a virtude moral é uma disposição de caráter adquirida pelo hábito, que consiste em um meio-termo entre dois vícios, sendo a prudência a sabedoria prática que permite deliberar bem em situações concretas.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o núcleo da ética das virtudes na Ética a Nicômaco: hábito, meio-termo e prudência, ou "phrónesis".
-
-Questão cinco.
-Conforme o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, a dignidade, o decoro, o zelo, a eficácia e a consciência dos princípios morais são primados maiores que devem nortear o servidor público, seja no exercício do cargo ou função, ou fora dele.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a primeira regra deontológica do Código aprovado pelo Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro. Atenção a "eficácia", e não "eficiência", e a "ou fora dele".
-
-Questão seis.
-De acordo com o Código de Ética Profissional do servidor federal, o servidor deve decidir somente entre o legal e o ilegal, pois a observância estrita da legalidade é suficiente para assegurar a moralidade de sua conduta.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: o Código diz que o servidor não terá de decidir somente entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, o oportuno e o inoportuno, mas principalmente entre o honesto e o desonesto.
-
-Questão sete.
-Constatada falta ética, a Comissão de Ética instituída nos termos do Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, é competente para aplicar ao servidor as penalidades de suspensão e de demissão.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a penalidade aplicável pela comissão de ética é a censura. Suspensão e demissão são penalidades disciplinares, aplicadas em processo disciplinar. A comissão pode encaminhar o caso à Controladoria-Geral da União ou à unidade de correição competente.
-
-Questão oito.
-Integram o Sistema de Gestão da Ética do Poder Executivo Federal a Comissão de Ética Pública, as Comissões de Ética de que trata o Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, e as demais Comissões de Ética e equivalentes nos órgãos e entidades do Poder Executivo Federal.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é a composição prevista no artigo segundo do Decreto seis mil e vinte e nove, de dois mil e sete.
-
-Questão nove.
-Na teoria da justiça de John Rawls, as desigualdades sociais e econômicas podem ser admitidas desde que beneficiem os menos favorecidos e estejam vinculadas a posições abertas a todos em condições de igualdade equitativa de oportunidades.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o segundo princípio de justiça de Rawls, que inclui o princípio da diferença, escolhido sob o véu da ignorância.
-
-Questão dez.
-Um dilema ético, no âmbito da administração pública, caracteriza-se necessariamente pela escolha entre uma conduta correta e outra incorreta, cabendo ao agente apenas resistir à tentação de agir mal.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: escolher entre certo e errado é tentação. O dilema ético envolve o conflito entre valores igualmente legítimos, como transparência e privacidade, ou eficiência e equidade.
-
-Questão onze.
-Nos termos da Lei de Introdução às Normas do Direito Brasileiro, nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.
-Pense. Certo ou errado?
-Gabarito: certo.
-Comentário: é o artigo vinte, incluído pela Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito. Ele não proíbe valores abstratos; exige que as consequências práticas sejam consideradas.
-
-Questão doze.
-A dignidade da pessoa humana figura, na Constituição Federal de mil novecentos e oitenta e oito, entre os objetivos fundamentais da República Federativa do Brasil, ao lado da construção de uma sociedade livre, justa e solidária.
-Pense. Certo ou errado?
-Gabarito: errado.
-Comentário: a dignidade da pessoa humana é fundamento da República, no artigo primeiro, inciso terceiro. A construção de uma sociedade livre, justa e solidária é objetivo, no artigo terceiro.
-
-
-REVISÃO FINAL EM UM MINUTO
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
 
 Moral é prática, ética é reflexão; legal não é sinônimo de ético.
 
@@ -301,10 +201,68 @@ Decreto seis mil e vinte e nove: Sistema de Gestão da Ética, com a Comissão d
 Dilema é certo contra certo; tentação é certo contra errado. Princípios se ponderam; regras se aplicam no tudo ou nada. Proporcionalidade: adequação, necessidade e proporcionalidade estrita. Lei de Introdução, artigo vinte: considerar as consequências práticas.
 
 
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na doutrina administrativista, o interesse público primário corresponde ao interesse da coletividade, enquanto o interesse público secundário corresponde ao interesse do Estado como pessoa jurídica, sendo este último legítimo apenas quando coincidente com o primário.
+
+Gabarito: certo. É a distinção atribuída a Renato Alessi e difundida no Brasil por Celso Antônio Bandeira de Mello. O interesse secundário só se legitima quando serve ao primário.
+
+
+Item dois. Na conferência A política como vocação, Max Weber sustenta que a ética da convicção e a ética da responsabilidade são inconciliáveis, devendo o político abandonar a primeira para adotar exclusivamente a segunda.
+
+Gabarito: errado. Weber distingue as duas, mas conclui que elas se completam e que só quem as reúne tem verdadeira vocação para a política.
+
+
+Item três. Na ética deontológica de Immanuel Kant, a correção moral de uma ação é determinada exclusivamente pelas consequências que ela produz para o bem-estar do maior número de pessoas.
+
+Gabarito: errado. Essa é a lógica do utilitarismo de Bentham e Mill. Para Kant, a ação tem valor moral quando é praticada por dever, segundo o imperativo categórico, independentemente das consequências.
+
+
+Item quatro. Para Aristóteles, a virtude moral é uma disposição de caráter adquirida pelo hábito, que consiste em um meio-termo entre dois vícios, sendo a prudência a sabedoria prática que permite deliberar bem em situações concretas.
+
+Gabarito: certo. É o núcleo da ética das virtudes na Ética a Nicômaco: hábito, meio-termo e prudência, ou "phrónesis".
+
+
+Item cinco. Conforme o Código de Ética Profissional do Servidor Público Civil do Poder Executivo Federal, a dignidade, o decoro, o zelo, a eficácia e a consciência dos princípios morais são primados maiores que devem nortear o servidor público, seja no exercício do cargo ou função, ou fora dele.
+
+Gabarito: certo. É a primeira regra deontológica do Código aprovado pelo Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro. Atenção a "eficácia", e não "eficiência", e a "ou fora dele".
+
+
+Item seis. De acordo com o Código de Ética Profissional do servidor federal, o servidor deve decidir somente entre o legal e o ilegal, pois a observância estrita da legalidade é suficiente para assegurar a moralidade de sua conduta.
+
+Gabarito: errado. O Código diz que o servidor não terá de decidir somente entre o legal e o ilegal, o justo e o injusto, o conveniente e o inconveniente, o oportuno e o inoportuno, mas principalmente entre o honesto e o desonesto.
+
+
+Item sete. Constatada falta ética, a Comissão de Ética instituída nos termos do Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, é competente para aplicar ao servidor as penalidades de suspensão e de demissão.
+
+Gabarito: errado. A penalidade aplicável pela comissão de ética é a censura. Suspensão e demissão são penalidades disciplinares, aplicadas em processo disciplinar. A comissão pode encaminhar o caso à Controladoria-Geral da União ou à unidade de correição competente.
+
+
+Item oito. Integram o Sistema de Gestão da Ética do Poder Executivo Federal a Comissão de Ética Pública, as Comissões de Ética de que trata o Decreto mil cento e setenta e um, de mil novecentos e noventa e quatro, e as demais Comissões de Ética e equivalentes nos órgãos e entidades do Poder Executivo Federal.
+
+Gabarito: certo. É a composição prevista no artigo segundo do Decreto seis mil e vinte e nove, de dois mil e sete.
+
+
+Item nove. Na teoria da justiça de John Rawls, as desigualdades sociais e econômicas podem ser admitidas desde que beneficiem os menos favorecidos e estejam vinculadas a posições abertas a todos em condições de igualdade equitativa de oportunidades.
+
+Gabarito: certo. É o segundo princípio de justiça de Rawls, que inclui o princípio da diferença, escolhido sob o véu da ignorância.
+
+
+Item dez. Um dilema ético, no âmbito da administração pública, caracteriza-se necessariamente pela escolha entre uma conduta correta e outra incorreta, cabendo ao agente apenas resistir à tentação de agir mal.
+
+Gabarito: errado. Escolher entre certo e errado é tentação. O dilema ético envolve o conflito entre valores igualmente legítimos, como transparência e privacidade, ou eficiência e equidade.
+
+
+Item onze. Nos termos da Lei de Introdução às Normas do Direito Brasileiro, nas esferas administrativa, controladora e judicial, não se decidirá com base em valores jurídicos abstratos sem que sejam consideradas as consequências práticas da decisão.
+
+Gabarito: certo. É o artigo vinte, incluído pela Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito. Ele não proíbe valores abstratos; exige que as consequências práticas sejam consideradas.
+
+
+Item doze. A dignidade da pessoa humana figura, na Constituição Federal de mil novecentos e oitenta e oito, entre os objetivos fundamentais da República Federativa do Brasil, ao lado da construção de uma sociedade livre, justa e solidária.
+
+Gabarito: errado. A dignidade da pessoa humana é fundamento da República, no artigo primeiro, inciso terceiro. A construção de uma sociedade livre, justa e solidária é objetivo, no artigo terceiro.
+
+
 ENCERRAMENTO
 
-Na próxima audioaula, seguimos no item um ponto três com o subitem um ponto três ponto dois, conforme o conteúdo do edital.
-
-Até lá, revise os autores e as frases-chave dos códigos, porque é aí que a banca costuma armar as pegadinhas.
-
-Bons estudos.
+A próxima aula trata do item um ponto três ponto dois, deveres profissionais.

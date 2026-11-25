@@ -1,16 +1,9 @@
 AUDIOAULA. ITEM UM PONTO QUATRO PONTO UM DO EDITAL: ORGANIZAÇÃO ADMINISTRATIVA. PARTE DOIS DE DUAS
-Concurso da Controladoria-Geral da União. Auditor Federal de Finanças e Controle, área de Tecnologia da Informação, Desenvolvimento de Sistemas. Banca Cebraspe.
 
 
-ABERTURA DA PARTE DOIS
+ABERTURA
 
-Olá de novo! Esta é a parte dois da aula sobre organização administrativa, item um ponto quatro ponto um do edital.
-
-Uma recapitulação rápida da parte um. A administração direta é a União agindo por meio de órgãos, que não têm personalidade jurídica; a indireta é formada por autarquias, fundações públicas, empresas públicas e sociedades de economia mista, que têm personalidade própria e são vinculadas, e não subordinadas, ao ministério da área. Desconcentração distribui competências entre órgãos de uma mesma pessoa, com hierarquia; descentralização passa competências para outra pessoa, com controle finalístico. Vimos as regras de delegação e avocação da Lei nove mil setecentos e oitenta e quatro, as agências reguladoras e executivas, as fundações de direito público e privado e as diferenças entre as estatais.
-
-Agora, três blocos. Quatro: agentes públicos. Cinco: funções da administração pública, que o edital lista como formulação, execução, regulação e controle. Seis: arranjos de cooperação com entes federativos e com entidades não estatais. Depois, as pegadinhas, o resumo, os dezesseis itens de certo ou errado e o gabarito, cobrindo as duas partes.
-
-Vamos lá.
+Esta é a parte dois do item um ponto quatro ponto um, organização administrativa, com três blocos: agentes públicos; funções da administração pública, que o edital lista como formulação, execução, regulação e controle; e arranjos de cooperação com entes federativos e com entidades não estatais.
 
 
 BLOCO QUATRO: AGENTES PÚBLICOS
@@ -61,8 +54,6 @@ E uma menção, com ressalva. Em dois mil e vinte e quatro, foi editada a Lei ca
 
 Um exemplo prático. Você está auditando o Portal da Transparência, ou um sistema de gestão de pessoal, e percebe que vários ocupantes de funções comissionadas executivas não têm cargo efetivo. Pelo artigo trinta e sete, inciso cinco, da Constituição, isso é irregular: função de confiança é exclusiva de servidor efetivo. Um teste automatizado, cruzando a base de funções com a base de vínculos efetivos, é exatamente o tipo de trilha de auditoria que um desenvolvedor da CGU pode construir. Mas cuidado: antes de concluir, verifique se o caso não é de cargo em comissão, que admite pessoas sem vínculo, e se a base não tem erro de cadastro. Achado precisa de evidência suficiente.
 
-Recapitulando o bloco quatro. Agente público é o gênero, inclusive transitório e sem remuneração. Lei oito mil quatrocentos e vinte e nove, artigo segundo, na redação de dois mil e vinte e um: inclui expressamente o agente político, o servidor e qualquer pessoa com mandato, cargo, emprego ou função; e alcança particulares que recebem recursos públicos por convênio, contrato de gestão, termo de parceria e ajustes equivalentes. Espécies: agentes políticos, servidores estatutários, empregados públicos, temporários, militares e particulares em colaboração. Cargo é estatutário; emprego é celetista; função é atribuição sem cargo ou emprego. Funções de confiança exclusivamente para efetivos; cargos em comissão com percentual mínimo para servidores de carreira; ambos só para direção, chefia e assessoramento. Lei catorze mil duzentos e quatro criou os cargos e funções comissionados executivos. á dê í dois mil cento e trinta e cinco, de dois mil e vinte e quatro: fim da obrigatoriedade do regime jurídico único, com efeitos para o futuro. Tema mil e vinte e dois: dispensa de empregado concursado de estatal precisa ser motivada.
-
 
 BLOCO CINCO: FUNÇÕES DA ADMINISTRAÇÃO PÚBLICA. FORMULAÇÃO, EXECUÇÃO, REGULAÇÃO E CONTROLE
 
@@ -107,8 +98,6 @@ Há o controle social, exercido pela sociedade.
 E, dentro da própria administração, há dois controles que vêm da organização administrativa e que a banca adora confrontar. A autotutela, que é o poder de a administração rever os próprios atos, anulando os ilegais e revogando os inconvenientes ou inoportunos, conforme a Súmula quatrocentos e setenta e três do ésse tê éfe e o artigo cinquenta e três da Lei nove mil setecentos e oitenta e quatro. E a tutela, ou supervisão ministerial, que é o controle finalístico do ente sobre as entidades da indireta, que vimos no bloco dois. Pegadinha: autotutela é sobre os próprios atos; tutela é sobre outra pessoa jurídica. Não confunda.
 
 Repare como as quatro funções se distribuem pela estrutura. Formulação, sobretudo no núcleo da administração direta. Execução, espalhada pela direta, pela indireta, por outros entes e por parceiros privados. Regulação, sobretudo em autarquias especiais. Controle, em órgãos próprios, como a CGU, o tê cê u e as unidades de controle interno, e também em cada gestor. Uma boa organização administrativa separa essas funções quando há risco de conflito. Por exemplo: quem executa um programa não deve ser o único a avaliá-lo; quem é regulado não deve capturar o regulador. É a mesma lógica da segregação de funções, só que em escala institucional.
-
-Recapitulando o bloco cinco. As quatro funções são uma organização conceitual, com bases normativas próprias. Formulação: núcleo estratégico, ministérios, planejamento. Execução: direta ou indireta, por entidades, outros entes e parceiros. Regulação: Constituição, artigo cento e setenta e quatro, planejamento determinante para o setor público e indicativo para o privado; agências com poder normativo técnico; análise de impacto regulatório e consulta pública na Lei treze mil oitocentos e quarenta e oito e na Lei da Liberdade Econômica. Controle: interno, externo e social; a CGU, pela ésse éfe cê, é órgão central do controle interno do Executivo federal; autotutela é sobre os próprios atos, tutela é sobre entidades da indireta. O pê dê érre á é dividiu o Estado em núcleo estratégico, atividades exclusivas, serviços não exclusivos e produção para o mercado.
 
 
 BLOCO SEIS: ARRANJOS DE COOPERAÇÃO COM ENTES FEDERATIVOS E ENTIDADES NÃO ESTATAIS
@@ -163,54 +152,48 @@ E, para completar o quadro, há a cooperação com o setor privado com fins lucr
 
 Um exemplo para amarrar. Imagine que você recebe a tarefa de construir um painel para a CGU que mostre todos os recursos federais que chegam a um município. Você vai precisar cruzar dados de várias fontes: transferências constitucionais e legais, fundo a fundo da saúde, convênios e contratos de repasse no Transferegóv, transferências especiais de emendas, repasses a consórcios públicos de que o município participa, e parcerias federais com organizações da sociedade civil que atuam ali. Cada um desses fluxos tem uma natureza jurídica diferente, regras diferentes de prestação de contas e responsáveis diferentes. Se o seu modelo de dados tratar tudo como "convênio", o painel vai induzir o auditor a erro. Organização administrativa, aqui, vira modelagem de dados.
 
-Recapitulando o bloco seis. Cooperação federativa: Constituição, artigos vinte e três, parágrafo único, e duzentos e quarenta e um. Consórcio público, Lei onze mil cento e sete: protocolo de intenções ratificado por lei; associação pública de direito público, que integra a indireta de todos os consorciados, ou pessoa de direito privado com regras públicas e pessoal celetista; contrato de rateio a cada exercício; contrato de programa; União só se consorcia com municípios se os estados respectivos também participarem. Convênio é cooperação, com interesses convergentes; contrato de repasse usa instituição financeira oficial; Decreto onze mil quinhentos e trinta e um, de dois mil e vinte e três; Transferegóv; Lei catorze mil cento e trinta e três, artigo cento e oitenta e quatro, aplica-se no que couber. Transferências fundo a fundo e transferências especiais. tê é dê é descentralização de crédito dentro da União. Terceiro setor não integra a administração indireta. Sistema Ésse: direito privado, controle do tê cê u, sem concurso obrigatório. Organização social: contrato de gestão, qualificação discricionária, poder público no conselho. Oscípi: termo de parceria, qualificação vinculada pelo Ministério da Justiça. Marco regulatório, Lei treze mil e dezenove: termo de colaboração, termo de fomento e acordo de cooperação, com chamamento público como regra. Concessões, permissões e pê pê pês: delegação ao setor privado; pê pê pê com mínimo de dez milhões de reais e prazo de cinco a trinta e cinco anos.
 
+PEGADINHAS DO ITEM
 
-PEGADINHAS CEBRASPE
+Desconcentração por descentralização. "A criação de uma autarquia federal é exemplo de desconcentração administrativa." Errado. Criação de outra pessoa jurídica é descentralização. Desconcentração cria órgãos dentro da mesma pessoa. Pergunte sempre: surgiu uma nova pessoa jurídica?
 
-Vamos reunir as armadilhas deste item. Elas seguem quatro padrões: troca de conceito, generalização com palavras como "sempre" e "exclusivamente", inversão entre regra e exceção, e confusão entre normas parecidas.
+Hierarquia na descentralização. "Entre a União e as autarquias federais há relação de subordinação hierárquica." Errado. Há vinculação e controle finalístico, ou supervisão ministerial. Hierarquia existe na desconcentração.
 
-Pegadinha um: desconcentração por descentralização. "A criação de uma autarquia federal é exemplo de desconcentração administrativa." Errado. Criação de outra pessoa jurídica é descentralização. Desconcentração cria órgãos dentro da mesma pessoa. Pergunte sempre: surgiu uma nova pessoa jurídica?
+Órgãos só na direta. "Órgãos públicos existem apenas na administração direta." Errado. A Lei nove mil setecentos e oitenta e quatro diz que órgão integra a estrutura da administração direta e da indireta. E desconcentração também ocorre dentro de entidades.
 
-Pegadinha dois: hierarquia na descentralização. "Entre a União e as autarquias federais há relação de subordinação hierárquica." Errado. Há vinculação e controle finalístico, ou supervisão ministerial. Hierarquia existe na desconcentração.
+Órgão com personalidade. "Os ministérios possuem personalidade jurídica própria." Errado. Órgão não tem personalidade jurídica. Mas cuidado com a exceção: alguns órgãos têm personalidade judiciária para defender prerrogativas, como as câmaras de vereadores.
 
-Pegadinha três: órgãos só na direta. "Órgãos públicos existem apenas na administração direta." Errado. A Lei nove mil setecentos e oitenta e quatro diz que órgão integra a estrutura da administração direta e da indireta. E desconcentração também ocorre dentro de entidades.
+Criada versus autorizada. "Empresa pública e sociedade de economia mista são criadas por lei específica." Errado. Só a autarquia é criada por lei específica. As demais têm a instituição autorizada por lei. Variação: "toda fundação pública é criada por lei". Errado para a fundação de direito privado.
 
-Pegadinha quatro: órgão com personalidade. "Os ministérios possuem personalidade jurídica própria." Errado. Órgão não tem personalidade jurídica. Mas cuidado com a exceção: alguns órgãos têm personalidade judiciária para defender prerrogativas, como as câmaras de vereadores.
+Fundação sempre de direito privado. Errado. Pode ser de direito público, a fundação autárquica, ou de direito privado, conforme o tema quinhentos e quarenta e cinco do ésse tê éfe.
 
-Pegadinha cinco: criada versus autorizada. "Empresa pública e sociedade de economia mista são criadas por lei específica." Errado. Só a autarquia é criada por lei específica. As demais têm a instituição autorizada por lei. Variação: "toda fundação pública é criada por lei". Errado para a fundação de direito privado.
+Diferenças entre estatais. Troca de forma societária, de capital e de foro. Empresa pública: capital integralmente público, qualquer forma, foro federal quando federal. Sociedade de economia mista: capital misto com maioria votante pública, sociedade anônima, foro estadual. Se a banca disser que a sociedade de economia mista federal tem foro na Justiça Federal, desconfie. E que empresa pública deve ter sempre um único sócio, também.
 
-Pegadinha seis: fundação sempre de direito privado. Errado. Pode ser de direito público, a fundação autárquica, ou de direito privado, conforme o tema quinhentos e quarenta e cinco do ésse tê éfe.
+Agência executiva como nova entidade. "Agência executiva é espécie de entidade da administração indireta criada por lei." Errado. É qualificação conferida, por ato do Presidente, a autarquia ou fundação que tenha plano estratégico e contrato de gestão.
 
-Pegadinha sete: diferenças entre estatais. Troca de forma societária, de capital e de foro. Empresa pública: capital integralmente público, qualquer forma, foro federal quando federal. Sociedade de economia mista: capital misto com maioria votante pública, sociedade anônima, foro estadual. Se a banca disser que a sociedade de economia mista federal tem foro na Justiça Federal, desconfie. E que empresa pública deve ter sempre um único sócio, também.
+Mandato nas agências reguladoras. "Os dirigentes de agências reguladoras têm mandato de quatro anos, admitida uma recondução." Errado, desde a Lei treze mil oitocentos e quarenta e oito: mandato de cinco anos, vedada a recondução.
 
-Pegadinha oito: agência executiva como nova entidade. "Agência executiva é espécie de entidade da administração indireta criada por lei." Errado. É qualificação conferida, por ato do Presidente, a autarquia ou fundação que tenha plano estratégico e contrato de gestão.
+Delegação e hierarquia. "A delegação de competência somente é admitida em favor de órgão hierarquicamente subordinado." Errado. O artigo doze permite delegar mesmo a quem não é subordinado. Já a avocação, sim, só de órgão hierarquicamente inferior. Variação: "É possível delegar a decisão de recursos administrativos." Errado: artigo treze.
 
-Pegadinha nove: mandato nas agências reguladoras. "Os dirigentes de agências reguladoras têm mandato de quatro anos, admitida uma recondução." Errado, desde a Lei treze mil oitocentos e quarenta e oito: mandato de cinco anos, vedada a recondução.
+Funções de confiança e cargos em comissão. "Funções de confiança e cargos em comissão podem ser ocupados por pessoas sem vínculo com a administração." Metade certa, metade errada, portanto errado. Função de confiança é exclusiva de servidor efetivo. Cargo em comissão admite pessoa sem vínculo, respeitado o percentual mínimo para servidores de carreira. E nenhum dos dois serve para atividade técnica ou operacional.
 
-Pegadinha dez: delegação e hierarquia. "A delegação de competência somente é admitida em favor de órgão hierarquicamente subordinado." Errado. O artigo doze permite delegar mesmo a quem não é subordinado. Já a avocação, sim, só de órgão hierarquicamente inferior. Variação: "É possível delegar a decisão de recursos administrativos." Errado: artigo treze.
+Terceiro setor na indireta. "Organizações sociais e serviços sociais autônomos integram a administração indireta." Errado. São entidades privadas, paraestatais, que cooperam com o Estado. Não confunda receber recurso público e estar sujeito a controle com integrar a administração.
 
-Pegadinha onze: funções de confiança e cargos em comissão. "Funções de confiança e cargos em comissão podem ser ocupados por pessoas sem vínculo com a administração." Metade certa, metade errada, portanto errado. Função de confiança é exclusiva de servidor efetivo. Cargo em comissão admite pessoa sem vínculo, respeitado o percentual mínimo para servidores de carreira. E nenhum dos dois serve para atividade técnica ou operacional.
+Ó ésse versus oscípi. Troca de instrumento e de natureza da qualificação. Organização social: contrato de gestão, qualificação discricionária. Oscípi: termo de parceria, qualificação vinculada pelo Ministério da Justiça. E nenhuma das duas segue os termos de colaboração e fomento do marco regulatório.
 
-Pegadinha doze: terceiro setor na indireta. "Organizações sociais e serviços sociais autônomos integram a administração indireta." Errado. São entidades privadas, paraestatais, que cooperam com o Estado. Não confunda receber recurso público e estar sujeito a controle com integrar a administração.
+Termo de colaboração versus termo de fomento. "O termo de fomento é usado quando a proposta da parceria parte da administração pública." Errado. Proposta da administração: termo de colaboração. Proposta da organização: termo de fomento. Sem repasse de recursos financeiros: acordo de cooperação.
 
-Pegadinha treze: ó ésse versus oscípi. Troca de instrumento e de natureza da qualificação. Organização social: contrato de gestão, qualificação discricionária. Oscípi: termo de parceria, qualificação vinculada pelo Ministério da Justiça. E nenhuma das duas segue os termos de colaboração e fomento do marco regulatório.
+Consórcio com a União. "A União pode celebrar consórcio público diretamente com municípios, independentemente da participação dos estados." Errado. Só se os estados em cujos territórios estão os municípios também participarem. E outra: "o consórcio público, qualquer que seja a sua natureza, integra a administração indireta". Errado: a lei diz isso expressamente apenas da associação pública.
 
-Pegadinha catorze: termo de colaboração versus termo de fomento. "O termo de fomento é usado quando a proposta da parceria parte da administração pública." Errado. Proposta da administração: termo de colaboração. Proposta da organização: termo de fomento. Sem repasse de recursos financeiros: acordo de cooperação.
+Tê é dê como transferência a municípios. Errado. O termo de execução descentralizada é para descentralização de créditos entre órgãos e entidades da própria União. Transferências voluntárias a outros entes usam convênio ou contrato de repasse.
 
-Pegadinha quinze: consórcio com a União. "A União pode celebrar consórcio público diretamente com municípios, independentemente da participação dos estados." Errado. Só se os estados em cujos territórios estão os municípios também participarem. E outra: "o consórcio público, qualquer que seja a sua natureza, integra a administração indireta". Errado: a lei diz isso expressamente apenas da associação pública.
+Autotutela versus tutela. "Pela autotutela, o ministério supervisor pode anular atos ilegais praticados por autarquia vinculada." Errado no rótulo. Autotutela é o controle sobre os próprios atos. O controle do ministério sobre a autarquia é a tutela, ou supervisão ministerial, que é limitada à lei e às finalidades da entidade.
 
-Pegadinha dezesseis: tê é dê como transferência a municípios. Errado. O termo de execução descentralizada é para descentralização de créditos entre órgãos e entidades da própria União. Transferências voluntárias a outros entes usam convênio ou contrato de repasse.
+Normas e decisões recentes. "O regime jurídico único é de adoção obrigatória pelos entes federativos para os servidores da administração direta, autárquica e fundacional." Segundo o julgamento de mérito da á dê í dois mil cento e trinta e cinco, em dois mil e vinte e quatro, essa obrigatoriedade não subsiste mais. E "o empregado de empresa pública pode ser dispensado sem qualquer motivação": errado, pelo tema mil e vinte e dois, para empregados admitidos por concurso.
 
-Pegadinha dezessete: autotutela versus tutela. "Pela autotutela, o ministério supervisor pode anular atos ilegais praticados por autarquia vinculada." Errado no rótulo. Autotutela é o controle sobre os próprios atos. O controle do ministério sobre a autarquia é a tutela, ou supervisão ministerial, que é limitada à lei e às finalidades da entidade.
+Responsabilidade objetiva para toda estatal. Errado. Pelo artigo trinta e sete, parágrafo sexto, a responsabilidade objetiva alcança pessoas de direito público e as de direito privado prestadoras de serviços públicos. A estatal que explora atividade econômica responde pelo regime comum.
 
-Pegadinha dezoito: normas e decisões recentes. "O regime jurídico único é de adoção obrigatória pelos entes federativos para os servidores da administração direta, autárquica e fundacional." Segundo o julgamento de mérito da á dê í dois mil cento e trinta e cinco, em dois mil e vinte e quatro, essa obrigatoriedade não subsiste mais. E "o empregado de empresa pública pode ser dispensado sem qualquer motivação": errado, pelo tema mil e vinte e dois, para empregados admitidos por concurso.
-
-Pegadinha dezenove: responsabilidade objetiva para toda estatal. Errado. Pelo artigo trinta e sete, parágrafo sexto, a responsabilidade objetiva alcança pessoas de direito público e as de direito privado prestadoras de serviços públicos. A estatal que explora atividade econômica responde pelo regime comum.
-
-Pegadinha vinte: decreto que cria órgão. "O Presidente da República pode, mediante decreto, criar órgão público, desde que não haja aumento de despesa." Errado. O artigo oitenta e quatro, inciso seis, alínea "a", permite dispor sobre organização e funcionamento, sem aumento de despesa e sem criação ou extinção de órgãos. Criar ou extinguir órgão exige lei.
-
-Dica geral: neste item, faça sempre quatro perguntas. Há uma nova pessoa jurídica? Se sim, é descentralização. Ela é de direito público ou privado? Isso define bens, foro, pessoal e responsabilidade. Ela integra a administração ou só coopera com ela? E qual é o instrumento: lei, contrato de gestão, termo de parceria, termo de colaboração, termo de fomento, convênio, contrato de repasse, consórcio ou tê é dê?
+Decreto que cria órgão. "O Presidente da República pode, mediante decreto, criar órgão público, desde que não haja aumento de despesa." Errado. O artigo oitenta e quatro, inciso seis, alínea "a", permite dispor sobre organização e funcionamento, sem aumento de despesa e sem criação ou extinção de órgãos. Criar ou extinguir órgão exige lei.
 
 
 RESUMO FINAL: PONTOS PARA NÃO ESQUECER
@@ -236,80 +219,88 @@ Nove. Cooperação federativa: consórcios públicos da Lei onze mil cento e set
 Dez. Terceiro setor não integra a administração. Organização social com contrato de gestão; oscípi com termo de parceria; organizações da sociedade civil com termo de colaboração, termo de fomento ou acordo de cooperação, pelo marco regulatório; Sistema Ésse sem concurso obrigatório, mas com controle do tê cê u.
 
 
-ITENS DE FIXAÇÃO, ESTILO CEBRASPE
-
-Julgue os itens a seguir como certo ou errado. Ouça todos, anote suas respostas e só depois ouça o gabarito.
+ITENS DE FIXAÇÃO COM GABARITO
 
 Item um. A criação, por lei, de uma autarquia federal para executar serviço antes prestado diretamente por ministério constitui exemplo de desconcentração administrativa, uma vez que a atividade permanece no âmbito da administração pública federal.
 
+Gabarito: errado. A criação de uma nova pessoa jurídica, como uma autarquia, é descentralização por outorga. Desconcentração é a distribuição interna de competências entre órgãos de uma mesma pessoa jurídica. Permanecer na administração pública não transforma descentralização em desconcentração.
+
+
 Item dois. De acordo com a Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, órgão é a unidade de atuação integrante da estrutura da administração direta e da estrutura da administração indireta, ao passo que entidade é a unidade de atuação dotada de personalidade jurídica.
+
+Gabarito: certo. É a literalidade do artigo primeiro, parágrafo segundo, incisos um e dois, da Lei nove mil setecentos e oitenta e quatro. Note que a lei admite órgãos também na administração indireta.
+
 
 Item três. Entre a União e as entidades da administração indireta a ela vinculadas, há relação de subordinação hierárquica, que permite ao ministro supervisor rever livremente as decisões técnicas dessas entidades.
 
+Gabarito: errado. Entre a União e a administração indireta há vinculação, com controle finalístico, também chamado de tutela ou supervisão ministerial, limitado à lei e às finalidades da entidade. Não há hierarquia.
+
+
 Item quatro. Conforme a Constituição Federal, somente por lei específica poderá ser criada autarquia e autorizada a instituição de empresa pública, de sociedade de economia mista e de fundação.
+
+Gabarito: certo. É o artigo trinta e sete, inciso dezenove, da Constituição. A autarquia é criada por lei específica; as demais entidades têm a instituição autorizada por lei, e a lei complementar define as áreas de atuação das fundações.
+
 
 Item cinco. Um secretário de um ministério, para dar mais agilidade ao trabalho, editou portaria delegando ao coordenador-geral de sua equipe a competência para decidir os recursos administrativos interpostos contra decisões desse mesmo coordenador. Nessa situação, a delegação é válida, pois o coordenador é hierarquicamente subordinado ao secretário.
 
+Gabarito: errado. Pelo artigo treze da Lei nove mil setecentos e oitenta e quatro, não pode ser objeto de delegação a decisão de recursos administrativos. A existência de hierarquia não supre a vedação. Além disso, o coordenador estaria revendo as próprias decisões, o que fere a lógica do recurso.
+
+
 Item seis. A delegação de competência, nos termos da Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, pode ser feita a órgãos ou titulares que não sejam hierarquicamente subordinados ao delegante, quando conveniente em razão de circunstâncias de índole técnica, social, econômica, jurídica ou territorial.
+
+Gabarito: certo. É o artigo doze da Lei nove mil setecentos e oitenta e quatro. A delegação não exige subordinação hierárquica. A avocação, sim, só ocorre em relação a órgão hierarquicamente inferior.
+
 
 Item sete. A sociedade de economia mista distingue-se da empresa pública por ter capital integralmente público e por poder adotar qualquer forma societária admitida em direito.
 
+Gabarito: errado. As características estão invertidas. É a empresa pública que tem capital integralmente público e pode adotar qualquer forma societária. A sociedade de economia mista tem capital público e privado, com maioria votante pública, e deve ser sociedade anônima.
+
+
 Item oito. Agência executiva é a qualificação que pode ser conferida pelo Poder Executivo a autarquia ou fundação que tenha plano estratégico de reestruturação e de desenvolvimento institucional em andamento e tenha celebrado contrato de gestão com o ministério supervisor.
+
+Gabarito: certo. É o artigo cinquenta e um da Lei nove mil seiscentos e quarenta e nove, de mil novecentos e noventa e oito. A agência executiva não é nova entidade, mas qualificação conferida por ato do Presidente da República.
+
 
 Item nove. Segundo a lei geral das agências reguladoras federais, a natureza especial dessas autarquias caracteriza-se, entre outros aspectos, pela ausência de tutela ou de subordinação hierárquica e pela investidura a termo de seus dirigentes, que exercem mandato de cinco anos, vedada a recondução.
 
+Gabarito: certo. O artigo terceiro da Lei treze mil oitocentos e quarenta e oito, de dois mil e dezenove, descreve a natureza especial; e a Lei nove mil novecentos e oitenta e seis, alterada por ela, fixa mandato de cinco anos, vedada a recondução.
+
+
 Item dez. As funções de confiança e os cargos em comissão podem ser ocupados por pessoas sem vínculo efetivo com a administração, desde que destinados às atribuições de direção, chefia e assessoramento.
+
+Gabarito: errado. Pelo artigo trinta e sete, inciso cinco, da Constituição, as funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo. Apenas os cargos em comissão admitem pessoas sem vínculo, respeitado o percentual mínimo reservado a servidores de carreira.
+
 
 Item onze. Para os efeitos da Lei de Improbidade Administrativa, com a redação dada em dois mil e vinte e um, considera-se agente público, entre outros, aquele que exerce, ainda que transitoriamente ou sem remuneração, mandato, cargo, emprego ou função nas entidades abrangidas pela lei, incluindo-se expressamente o agente político.
 
+Gabarito: certo. É o artigo segundo da Lei oito mil quatrocentos e vinte e nove, com a redação da Lei catorze mil duzentos e trinta, de dois mil e vinte e um, que menciona expressamente o agente político.
+
+
 Item doze. Uma empresa pública federal de tecnologia da informação, prestadora de serviços à administração, dispensou sem qualquer justificativa um empregado admitido por concurso público. Nessa situação, como os empregados das estatais não gozam da estabilidade prevista na Constituição, a dispensa sem motivação é válida, segundo o entendimento atual do Supremo Tribunal Federal.
+
+Gabarito: errado. É verdade que os empregados de estatais não têm a estabilidade do artigo quarenta e um, mas, pelo tema mil e vinte e dois da repercussão geral, julgado em dois mil e vinte e quatro, a dispensa sem justa causa de empregados admitidos por concurso em empresas públicas e sociedades de economia mista deve ser motivada, ainda que sem processo administrativo formal.
+
 
 Item treze. Os serviços sociais autônomos e as organizações sociais, por receberem recursos públicos e se submeterem ao controle do Tribunal de Contas da União, integram a administração pública indireta.
 
+Gabarito: errado. Serviços sociais autônomos e organizações sociais são pessoas jurídicas de direito privado que cooperam com o Estado, as chamadas paraestatais. Receber recursos públicos e estar sujeito ao controle do tê cê u não as torna integrantes da administração indireta.
+
+
 Item catorze. Uma organização da sociedade civil apresentou a um ministério proposta de projeto de inclusão digital em comunidades rurais, a ser executado com recursos federais. Aceita a proposta, nos termos do marco regulatório das organizações da sociedade civil, a parceria deverá ser formalizada por termo de fomento.
+
+Gabarito: certo. Pela Lei treze mil e dezenove, de dois mil e catorze, o termo de fomento é usado para parcerias propostas pela organização da sociedade civil, com transferência de recursos. Se a proposta partisse da administração, seria termo de colaboração; sem recursos financeiros, acordo de cooperação. Lembre que a regra de seleção é o chamamento público, ressalvadas as hipóteses legais de dispensa e inexigibilidade.
+
 
 Item quinze. A União pode constituir consórcio público com municípios de determinado estado sem a participação desse estado, desde que haja interesse comum na gestão associada de serviços públicos.
 
+Gabarito: errado. Pelo artigo primeiro, parágrafo segundo, da Lei onze mil cento e sete, de dois mil e cinco, a União somente participará de consórcios públicos em que também façam parte todos os estados em cujos territórios estejam situados os municípios consorciados.
+
+
 Item dezesseis. O consórcio público constituído como associação pública possui personalidade jurídica de direito público e integra a administração indireta de todos os entes da Federação consorciados.
 
-
-GABARITO COMENTADO
-
-Item um: errado. A criação de uma nova pessoa jurídica, como uma autarquia, é descentralização por outorga. Desconcentração é a distribuição interna de competências entre órgãos de uma mesma pessoa jurídica. Permanecer na administração pública não transforma descentralização em desconcentração.
-
-Item dois: certo. É a literalidade do artigo primeiro, parágrafo segundo, incisos um e dois, da Lei nove mil setecentos e oitenta e quatro. Note que a lei admite órgãos também na administração indireta.
-
-Item três: errado. Entre a União e a administração indireta há vinculação, com controle finalístico, também chamado de tutela ou supervisão ministerial, limitado à lei e às finalidades da entidade. Não há hierarquia.
-
-Item quatro: certo. É o artigo trinta e sete, inciso dezenove, da Constituição. A autarquia é criada por lei específica; as demais entidades têm a instituição autorizada por lei, e a lei complementar define as áreas de atuação das fundações.
-
-Item cinco: errado. Pelo artigo treze da Lei nove mil setecentos e oitenta e quatro, não pode ser objeto de delegação a decisão de recursos administrativos. A existência de hierarquia não supre a vedação. Além disso, o coordenador estaria revendo as próprias decisões, o que fere a lógica do recurso.
-
-Item seis: certo. É o artigo doze da Lei nove mil setecentos e oitenta e quatro. A delegação não exige subordinação hierárquica. A avocação, sim, só ocorre em relação a órgão hierarquicamente inferior.
-
-Item sete: errado. As características estão invertidas. É a empresa pública que tem capital integralmente público e pode adotar qualquer forma societária. A sociedade de economia mista tem capital público e privado, com maioria votante pública, e deve ser sociedade anônima.
-
-Item oito: certo. É o artigo cinquenta e um da Lei nove mil seiscentos e quarenta e nove, de mil novecentos e noventa e oito. A agência executiva não é nova entidade, mas qualificação conferida por ato do Presidente da República.
-
-Item nove: certo. O artigo terceiro da Lei treze mil oitocentos e quarenta e oito, de dois mil e dezenove, descreve a natureza especial; e a Lei nove mil novecentos e oitenta e seis, alterada por ela, fixa mandato de cinco anos, vedada a recondução.
-
-Item dez: errado. Pelo artigo trinta e sete, inciso cinco, da Constituição, as funções de confiança são exercidas exclusivamente por servidores ocupantes de cargo efetivo. Apenas os cargos em comissão admitem pessoas sem vínculo, respeitado o percentual mínimo reservado a servidores de carreira.
-
-Item onze: certo. É o artigo segundo da Lei oito mil quatrocentos e vinte e nove, com a redação da Lei catorze mil duzentos e trinta, de dois mil e vinte e um, que menciona expressamente o agente político.
-
-Item doze: errado. É verdade que os empregados de estatais não têm a estabilidade do artigo quarenta e um, mas, pelo tema mil e vinte e dois da repercussão geral, julgado em dois mil e vinte e quatro, a dispensa sem justa causa de empregados admitidos por concurso em empresas públicas e sociedades de economia mista deve ser motivada, ainda que sem processo administrativo formal.
-
-Item treze: errado. Serviços sociais autônomos e organizações sociais são pessoas jurídicas de direito privado que cooperam com o Estado, as chamadas paraestatais. Receber recursos públicos e estar sujeito ao controle do tê cê u não as torna integrantes da administração indireta.
-
-Item catorze: certo. Pela Lei treze mil e dezenove, de dois mil e catorze, o termo de fomento é usado para parcerias propostas pela organização da sociedade civil, com transferência de recursos. Se a proposta partisse da administração, seria termo de colaboração; sem recursos financeiros, acordo de cooperação. Lembre que a regra de seleção é o chamamento público, ressalvadas as hipóteses legais de dispensa e inexigibilidade.
-
-Item quinze: errado. Pelo artigo primeiro, parágrafo segundo, da Lei onze mil cento e sete, de dois mil e cinco, a União somente participará de consórcios públicos em que também façam parte todos os estados em cujos territórios estejam situados os municípios consorciados.
-
-Item dezesseis: certo. É o artigo sexto, inciso um e parágrafo primeiro, da Lei onze mil cento e sete. A afirmação não vale, nos mesmos termos, para o consórcio constituído como pessoa jurídica de direito privado.
+Gabarito: certo. É o artigo sexto, inciso um e parágrafo primeiro, da Lei onze mil cento e sete. A afirmação não vale, nos mesmos termos, para o consórcio constituído como pessoa jurídica de direito privado.
 
 
 ENCERRAMENTO
 
-Chegamos ao fim da aula. Se você guardar uma única ideia, que seja esta: antes de avaliar qualquer política ou contrato, descubra quem é quem. Qual é a pessoa jurídica, de que natureza, ligada a quem, por qual instrumento. Desconcentrar é espalhar dentro de casa; descentralizar é passar para outra casa. Entidade da indireta não é subordinada, é vinculada. E quem coopera com o Estado, como uma organização social, não passa a ser o Estado por receber dinheiro público, mas passa a responder por ele.
-
-Na próxima aula, item um ponto quatro ponto dois, vamos ver os modelos de administração: burocracia e profissionalização, gestão orientada a resultados, participação e governança, e os limites e contribuições de cada modelo na realidade brasileira. Vai ser a hora de entender por que figuras como agências executivas, contratos de gestão e organizações sociais surgiram. Até lá, e bons estudos!
+A próxima aula trata do item um ponto quatro ponto dois, modelos de administração.
