@@ -1,0 +1,228 @@
+AUDIOAULA. ITEM TRÊS PONTO TRÊS PONTO UM DO EDITAL: MODELAGEM E PERSISTÊNCIA. PARTE UM DE DUAS
+
+
+ABERTURA
+
+Este é o item três ponto três ponto um, modelagem e persistência, que abre o tema de persistência, integração e proteção de dados. Ele tem nove subitens, divididos em duas partes, e esta parte um tem cinco blocos: modelagem relacional, normalização e integridade; bancos documentais, chave-valor e vetoriais; quéchi e busca textual; escolha de armazenamento conforme o uso; e transações, concorrência, consistência e evolução de esquemas. A parte dois trata da persistência em Java com jota pê á, das estratégias de carregamento, do Sprín Data jota pê á e da integração da persistência às regras de negócio. A banca costuma explorar as formas normais, as ações da chave estrangeira, as estratégias de quéchi, as anomalias que escapam ao isolamento de instantâneo e a evolução de esquemas sem interrupção.
+
+
+BLOCO UM: MODELAGEM RELACIONAL, NORMALIZAÇÃO E INTEGRIDADE
+
+A modelagem passa por três níveis. O modelo conceitual descreve o negócio, sem depender de tecnologia, em geral com o modelo entidade-relacionamento, proposto por Peter Tchén em mil novecentos e setenta e seis: entidades, atributos e relacionamentos, com suas cardinalidades. O modelo lógico traduz isso para a estrutura do banco, como tabelas, colunas e chaves no modelo relacional. E o modelo físico acrescenta o que depende do produto: tipos de dados, índices, particionamento e armazenamento.
+
+O modelo relacional foi proposto por Edgar Códd em mil novecentos e setenta. Os dados ficam em relações, que os produtos chamam de tabelas. Cada linha é uma tupla, e cada coluna, um atributo com seu domínio de valores. Na teoria, a relação é um conjunto: as linhas não têm ordem, e a ordem do resultado de uma consulta só é garantida com cláusula de ordenação.
+
+Chaves.
+
+Superchave é qualquer conjunto de atributos que identifica uma linha. Chave candidata é a superchave mínima, da qual não se pode tirar nenhum atributo. A chave primária é a candidata escolhida: única e sem valores nulos. As demais candidatas viram chaves alternativas, protegidas por restrição de unicidade. E a chave estrangeira é a coluna que referencia a chave primária, ou uma chave única, de outra tabela.
+
+A chave natural vem do negócio, como o cê pê éfe ou o número do processo. A chave substituta é gerada pelo banco e não tem significado, como uma sequência ou um identificador universal. A prática mais comum é a substituta como primária e a natural como restrição de unicidade: a substituta nunca muda e é compacta, e a natural continua protegida contra duplicação. Usar o cê pê éfe como chave primária, além disso, espalha um dado pessoal por todas as tabelas que o referenciam.
+
+Duas normas recentes afetam essas colunas. A Lei catorze mil quinhentos e trinta e quatro, de dois mil e vinte e três, no artigo primeiro, estabeleceu o número de inscrição no cê pê éfe como número único e suficiente para identificação do cidadão nos bancos de dados de serviços públicos. E a Instrução Normativa dois mil duzentos e vinte e nove, de dois mil e vinte e quatro, da Receita Federal, criou o cê ene pê jota alfanumérico, atribuído às novas inscrições desde julho de dois mil e vinte e seis. Ele continua com catorze posições: as doze primeiras admitem letras e números, e os dois dígitos verificadores seguem numéricos. Os números antigos não mudam, e os dois formatos convivem. Sistemas que guardam o cê ene pê jota em coluna numérica, ou que validam só algarismos, precisam mudar; e a coluna numérica já era um erro, porque descarta os zeros à esquerda.
+
+Os identificadores universais da versão quatro são aleatórios e espalham as inserções por todo o índice da chave primária. A versão sete, padronizada pela érre éfe cê nove mil quinhentos e sessenta e dois, de dois mil e vinte e quatro, começa pelo instante de criação e mantém as inserções em ordem.
+
+Os relacionamentos. No um para um, a chave estrangeira fica em um dos lados, com restrição de unicidade. No um para muitos, fica no lado muitos: cada item de contrato aponta para o seu contrato. No muitos para muitos, cria-se uma tabela associativa com duas chaves estrangeiras. Se a associação tem atributos próprios, como a data em que um servidor entrou em uma comissão, ela é uma entidade do modelo.
+
+Normalização.
+
+A normalização elimina a redundância e as anomalias que ela causa. Anomalia de inserção: não se consegue registrar um fato sem outro, como cadastrar uma unidade que ainda não tem servidores. Anomalia de atualização: o mesmo fato repetido em várias linhas precisa ser alterado em todas, e a alteração parcial deixa o banco contraditório. Anomalia de exclusão: apagar uma linha apaga junto um fato que deveria continuar, como o nome da unidade ao remover o seu último servidor.
+
+A ferramenta é a dependência funcional: um atributo determina outro quando cada valor do primeiro corresponde a um único valor do segundo. A matrícula determina o nome do servidor.
+
+Primeira forma normal: todo atributo é atômico, sem grupos repetidos nem listas em uma coluna. Uma coluna com vários telefones separados por vírgula viola a primeira forma.
+
+Segunda forma normal: estar na primeira e não ter dependência parcial, ou seja, nenhum atributo não chave depende de só uma parte de uma chave composta. Na tabela de itens de contrato, com chave formada pelo contrato e pelo item, a descrição do item depende só do item e vai para a tabela de itens. Uma tabela na primeira forma com chave de um único atributo já está na segunda.
+
+Terceira forma normal: estar na segunda e não ter dependência transitiva, ou seja, atributo não chave que depende de outro atributo não chave. Na tabela de servidores, o nome da unidade depende do código da unidade, e não da matrícula, e vai para a tabela de unidades. A frase de William Kent resume as três: cada atributo depende da chave, da chave inteira e de nada além da chave.
+
+A forma normal de Bóice-Códd é mais rigorosa que a terceira: todo determinante precisa ser chave candidata. A diferença aparece quando há chaves candidatas compostas que se sobrepõem. A quarta forma normal trata das dependências multivaloradas, como os idiomas e as habilidades de um servidor, que são independentes entre si e não devem ser combinados na mesma tabela. E a quinta trata das dependências de junção.
+
+Normalizar favorece a integridade e a manutenção, mas não necessariamente o desempenho, porque as consultas passam a exigir junções. A desnormalização é a redundância deliberada para leitura, comum em relatórios e em bases analíticas. Ela só se justifica com ganho medido e com um mecanismo que mantenha as cópias coerentes.
+
+Integridade.
+
+A integridade de entidade exige chave primária única e não nula. A integridade referencial exige que toda chave estrangeira aponte para uma linha existente, ou seja nula, se a coluna admitir. A integridade de domínio vem dos tipos, da restrição de não nulo, dos valores padrão e das restrições de verificação, como a data final não anterior à inicial.
+
+Quando se tenta apagar ou alterar a linha referenciada, a chave estrangeira define a ação. Nenhuma ação, que é o padrão, e restringir impedem a operação enquanto houver referências; a diferença entre as duas é o momento da verificação. Em cascata propaga: apagar o contrato apaga os itens. Definir nulo e definir padrão desligam as referências, gravando nulo ou o valor padrão. A cascata na exclusão é perigosa em dados com histórico: apagar um fornecedor não pode levar junto contratos e pagamentos.
+
+Regras de negócio também viram restrições. Um índice único parcial, por exemplo, garante uma única designação ativa por servidor para a mesma função. A restrição no banco é a última linha de defesa, porque vale para todas as aplicações e para todas as requisições concorrentes. Verificar na aplicação e depois inserir deixa a janela de corrida vista no item três ponto um ponto três; a restrição de unicidade fecha essa janela.
+
+Pegadinhas do bloco um.
+
+Uma tabela na primeira forma normal com chave primária de um único atributo pode violar a segunda forma normal. Errado. A dependência parcial exige chave composta.
+
+A terceira forma normal admite dependência transitiva entre atributos não chave, desde que todos dependam da chave. Errado. É exatamente essa dependência que a terceira forma elimina.
+
+Toda tabela na terceira forma normal está na forma normal de Bóice-Códd. Errado. Vale o inverso; a de Bóice-Códd é mais rigorosa.
+
+A normalização sempre melhora o desempenho das consultas. Errado. Reduz redundância e anomalias, mas pode exigir mais junções.
+
+A chave estrangeira não pode receber valor nulo. Errado. Pode, se a coluna admitir; a integridade referencial vale para os valores preenchidos.
+
+
+BLOCO DOIS: BANCOS DOCUMENTAIS, CHAVE-VALOR E VETORIAIS
+
+Os bancos chamados não relacionais, ou nô ésse quê éle, trocam parte das garantias e da flexibilidade de consulta do modelo relacional por outro modelo de dados, por escala horizontal mais simples ou por desempenho em um padrão de acesso específico. As quatro famílias principais são a documental, a chave-valor, a de colunas largas e a de grafos. Muitos seguem o modelo bêise, de basicamente disponível, estado flexível e consistência eventual, em contraste com o á cê í dê; a consistência eventual e o teorema cáp foram vistos no item três ponto dois ponto três.
+
+Bancos documentais.
+
+Os bancos documentais, como o Mongo dê bê, guardam documentos semiestruturados, em formato próximo do djêisson, com objetos aninhados e listas. A estrutura não precisa ser declarada antes: cada documento pode ter campos diferentes, e o esquema é aplicado na leitura, pela aplicação, e não na escrita, pelo banco. A validação de esquema no banco existe, mas é opcional.
+
+A modelagem parte dos padrões de acesso, e não das entidades. A decisão central é embutir ou referenciar. Embute-se o que é lido junto, pertence ao documento pai e tem tamanho limitado, como os endereços de um fornecedor. Referencia-se o que é compartilhado, cresce sem limite ou é atualizado de forma independente, como os pagamentos de um contrato, que se acumulam por anos. No Mongo dê bê, cada documento tem limite de dezesseis megabaites, e uma lista que cresce sem fim chega a esse limite.
+
+A atomicidade natural é a do documento: alterar vários campos de um mesmo documento é atômico. Transações com vários documentos existem no Mongo dê bê desde a versão quatro, de dois mil e dezoito, mas custam mais, e precisar delas o tempo todo indica modelagem relacional disfarçada. A duplicação de dados entre documentos é comum, e a aplicação passa a responder pela coerência das cópias.
+
+Bancos relacionais também guardam documentos. O Póstgres tem o tipo djêisson bê, binário e indexável, que permite colunas flexíveis dentro do modelo relacional, como os campos que variam conforme o tipo de manifestação.
+
+Bancos chave-valor.
+
+Os bancos chave-valor, como o Rédis, guardam um valor associado a uma chave e oferecem, basicamente, ler, gravar e apagar pela chave. Não se consulta pelo conteúdo do valor. Em troca, a leitura leva frações de milissegundo. O Rédis mantém os dados em memória, oferece estruturas como listas, conjuntos, conjuntos ordenados e mapas, e permite expirar cada chave após um tempo de vida. Como executa um comando de cada vez, comandos como o de incremento são atômicos, o que serve a contadores e à limitação de taxa.
+
+A gravação em disco é opcional: fotografias periódicas, que perdem o que mudou desde a última, ou um registro de cada comando, que perde menos e custa mais. Por isso o Rédis serve a quéchi, sessões, contadores e filas leves, e não é o único lugar de dados que não podem ser perdidos.
+
+Colunas largas e grafos.
+
+Os bancos de colunas largas, como o Cassandra, distribuem os dados por uma chave de partição e os ordenam, dentro dela, por colunas de agrupamento. Cada tabela é desenhada para uma consulta, e uma consulta nova costuma exigir uma tabela nova. Os bancos de grafos, como o Neo quatro djêi, guardam nós e arestas e percorrem relações em profundidade com custo proporcional ao caminho percorrido, e não ao tamanho da base.
+
+Exemplo prático. Para encontrar empresas licitantes ligadas por sócios, endereços ou telefones em comum, percorrer quatro ou cinco níveis de vínculos em um banco relacional exige junções sucessivas sobre tabelas enormes. Em um banco de grafos, a mesma pergunta é um percurso direto a partir da empresa investigada.
+
+Bancos vetoriais.
+
+Representações vetoriais, métricas de similaridade e índices de busca aproximada foram vistos no item três ponto dois ponto quatro. Aqui interessa onde guardar os vetores. A extensão vetorial de um banco existente, como o pê guê véctor no Póstgres, mantém vetores, texto, metadados e permissões no mesmo lugar, com transações, junções e uma única política de cópias. O banco vetorial dedicado escala para bilhões de vetores e tem recursos próprios, ao custo de mais uma tecnologia para operar e sincronizar.
+
+Três cuidados. O filtro por metadados: se é aplicado só depois da busca aproximada, uma condição seletiva, como unidade e ano, pode descartar quase todos os vizinhos encontrados e devolver menos resultados que o pedido; o filtro precisa participar da busca. A troca de modelo: vetores gerados por modelos diferentes não são comparáveis, e mudar o modelo de representação obriga a recalcular os vetores da coleção inteira. E o espaço: os índices ocupam muita memória, e a quantização reduz esse espaço ao custo de alguma precisão.
+
+Pegadinhas do bloco dois.
+
+Nos bancos documentais, o esquema precisa ser declarado e validado pelo banco antes da gravação. Errado. O esquema costuma ser aplicado na leitura, e a validação no banco é opcional.
+
+Em banco documental, dados que crescem sem limite devem ser embutidos no documento pai. Errado. Crescimento sem limite pede referência, e o documento tem tamanho máximo.
+
+Bancos chave-valor permitem consultas eficientes por qualquer campo do valor armazenado. Errado. O acesso é pela chave.
+
+Por manter os dados em memória, o Rédis dispensa preocupação com perda de dados em falhas. Errado. A memória é volátil, e a gravação em disco é opcional e pode perder as últimas mudanças.
+
+Trocar o modelo de representação vetorial exige recalcular só os vetores dos documentos novos. Errado. Vetores de modelos diferentes não se comparam; recalcula-se a coleção inteira.
+
+
+BLOCO TRÊS: QUÉCHI E BUSCA TEXTUAL
+
+Quéchi é uma cópia de dados em um local mais rápido, para não repetir uma consulta, um cálculo ou uma chamada remota. Existe em várias camadas: no navegador, na rede de distribuição de conteúdo, na aplicação e no próprio banco. Na aplicação, o quéchi local fica na memória de cada instância e é o mais rápido, mas cada instância tem a sua cópia. O distribuído, como o Rédis, é compartilhado por todas as instâncias, ao custo de uma ida à rede.
+
+Padrões de leitura e escrita.
+
+No quéchi ao lado, em inglês quéchi asáid, o mais comum, a aplicação procura no quéchi e, se não acha, lê do banco e grava no quéchi. Na leitura através, o próprio quéchi busca no banco quando não tem o dado. Na escrita através, cada gravação vai ao quéchi e ao banco na mesma operação. E na escrita adiada, a gravação vai ao quéchi e chega ao banco depois, de forma assíncrona: é a mais rápida e a única que pode perder gravações já confirmadas ao usuário, se o quéchi falhar.
+
+A dificuldade é a invalidação. A frase atribuída a Fil Cárlton diz que há só duas coisas difíceis em computação: invalidar quéchi e dar nomes às coisas. As ferramentas são o tempo de vida, que expira a entrada e limita por quanto tempo um dado pode ficar desatualizado, e a remoção explícita quando o dado muda. No quéchi ao lado, a ordem recomendada na alteração é gravar no banco e depois remover a entrada, em vez de atualizá-la, para que a próxima leitura traga o valor novo. Quando o espaço acaba, a política de descarte escolhe o que sai: o usado há mais tempo, o menos usado ou o mais antigo.
+
+Três problemas clássicos. A avalanche: uma entrada muito acessada expira, e centenas de requisições simultâneas vão ao banco ao mesmo tempo; as defesas são deixar uma só requisição recarregar enquanto as outras esperam, renovar antes do vencimento e variar aleatoriamente os tempos de vida. As consultas por chaves inexistentes, que passam sempre pelo quéchi e chegam ao banco; a defesa é guardar também o resultado vazio, por pouco tempo. E a divergência entre instâncias no quéchi local: uma alteração invalida só a cópia da instância que a recebeu.
+
+O erro de segurança mais grave é a chave do quéchi não incluir o contexto do usuário. Se a resposta depende de quem pergunta, como a lista de processos visíveis para cada perfil, uma chave formada só pelos parâmetros da consulta entrega a um usuário o que foi calculado para outro.
+
+Quéchi no agá tê tê pê.
+
+As regras de quéchi do agá tê tê pê estão na érre éfe cê nove mil cento e onze, de dois mil e vinte e dois, e a política vem no cabeçalho quéchi contról. A diretiva nou stór proíbe guardar a resposta e é a indicada para dados sensíveis. A nou quéchi permite guardar, mas exige revalidar com o servidor antes de cada uso. A práivet restringe a resposta ao quéchi do próprio navegador, fora dos intermediários compartilhados, e a máx êidj fixa o tempo de validade. A revalidação usa o identificador da versão do recurso, o í tég: o cliente o reenvia e, se nada mudou, o servidor responde trezentos e quatro, sem corpo.
+
+Quéchi no Sprín.
+
+A abstração de quéchi do Sprín é ativada por arroba inêibol quéchin. O arroba quéchábol, no método, devolve o valor guardado, se houver, e, senão, executa o método e guarda o resultado. O arroba quéchi pút sempre executa e atualiza a entrada, e o arroba quéchi ivíct remove entradas. A chave padrão é formada pelos parâmetros do método, e o mecanismo funciona por próxi, como o arroba transácheonal. O atributo de sincronização do arroba quéchábol faz uma só thread carregar a entrada ausente, enquanto as outras esperam. Sem provedor configurado, o Sprín Búti usa um mapa simples em memória, sem expiração nem limite de tamanho, inadequado para produção; os provedores usuais são o Quéfin, local, e o Rédis, distribuído.
+
+Busca textual.
+
+A consulta com o operador láique e curinga no início, como procurar a palavra licitação em qualquer posição da descrição, não aproveita o índice comum e lê a tabela inteira. Além disso, não ordena por relevância, não reconhece variações da palavra e depende de acentos e de maiúsculas.
+
+A busca de texto completo resolve isso em duas fases. Na indexação, o texto passa por análise: é dividido em termos, convertido para minúsculas, tem os acentos removidos, perde as palavras vazias, como artigos e preposições, e é reduzido ao radical, de modo que licitação e licitações virem o mesmo termo. Os termos vão para o índice invertido, visto no item três ponto dois ponto quatro, que também ordena por relevância. Na consulta, o texto procurado passa pela mesma análise. Se a análise da consulta for diferente da usada na indexação, os termos não se encontram.
+
+No Póstgres, a busca textual usa um vetor de termos e uma consulta de termos, com configuração para o português, índice do tipo djín e funções de relevância. A extensão de trigramas acelera buscas aproximadas e o próprio láique com curinga, e a extensão de remoção de acentos resolve a acentuação.
+
+Os motores de busca, como o Elástic Sârtch e o Ôpen Sârtch, ambos construídos sobre a biblioteca Lúcin, acrescentam analisadores por idioma, busca aproximada por distância de edição, que tolera erros de digitação, destaque dos trechos encontrados e contagens por categoria. Duas características pesam no projeto. O índice do motor é uma cópia derivada: a fonte da verdade continua no banco, e a sincronização vem por captura de mudanças ou pela caixa de saída transacional, vista no item três ponto dois ponto três. E a busca é quase em tempo real: o documento indexado só aparece nas pesquisas após a próxima atualização do índice, por padrão a cada segundo. Mudar a análise de um campo já indexado exige reindexar.
+
+Pegadinhas do bloco três.
+
+A diretiva nou quéchi impede que a resposta seja armazenada. Errado. Ela exige revalidação antes do uso; quem proíbe guardar é a nou stór.
+
+Na escrita através, as gravações chegam ao banco de forma assíncrona. Errado. Isso é a escrita adiada; na escrita através, vão ao quéchi e ao banco na mesma operação.
+
+No quéchi ao lado, ao alterar um dado, atualiza-se o quéchi antes de gravar no banco. Errado. Grava-se no banco e remove-se a entrada.
+
+O quéchi local em memória garante a mesma visão dos dados em todas as instâncias da aplicação. Errado. Cada instância tem a sua cópia.
+
+A consulta com láique e curinga no início aproveita o índice comum da coluna. Errado. Lê a tabela inteira; usa-se índice de texto ou de trigramas.
+
+
+BLOCO QUATRO: ESCOLHA DE ARMAZENAMENTO CONFORME USO
+
+Não existe banco melhor em abstrato. A escolha parte de perguntas sobre o uso. Como os dados se relacionam e quanto variam de estrutura. Quais são os padrões de acesso: busca pela chave, filtros combinados, agregações sobre grandes volumes, palavras ou proximidade de sentido. Que garantias são necessárias: transação envolvendo várias entidades, consistência imediata ou eventual. Qual o volume, o crescimento e a latência exigida. E o que a equipe e o órgão conseguem operar com segurança, incluindo cópias, monitoramento, custo e as regras de hospedagem vistas no item três ponto dois ponto cinco.
+
+As correspondências típicas. Registros transacionais com regras de integridade, como contratos, empenhos e pagamentos: relacional. Estruturas variáveis lidas de uma vez, como formulários com campos diferentes por tipo de manifestação: documental, ou coluna djêisson bê no relacional. Sessões, contadores e quéchi: chave-valor. Redes de vínculos: grafos. Medições ao longo do tempo, como métricas: banco de séries temporais. Busca por palavras com relevância: motor de busca. Proximidade de sentido: índice vetorial. E arquivos, como pê dê éfes e imagens: armazenamento de objetos, com o banco guardando só os metadados e a referência ao arquivo, para não inflar o banco e as suas cópias de segurança.
+
+Outra divisão é entre processamento transacional e analítico. O transacional, em inglês ô éle tê pê, faz muitas operações pequenas sobre poucas linhas, e os bancos relacionais guardam os dados por linha. O analítico, ô éle á pê, lê milhões de linhas para agregar poucas colunas, e os bancos analíticos guardam os dados por coluna, o que reduz a leitura e comprime melhor. Relatórios pesados sobre o banco transacional disputam recursos com o atendimento; o caminho é uma réplica de leitura ou uma base analítica, alimentada pelos fluxos do item três ponto três ponto três.
+
+Usar vários tipos de armazenamento no mesmo sistema é a persistência poliglota, ideia popularizada por Mártin Fáuler e Pramod Sadalage. Ela tem custo: cada tecnologia exige operação, cópias e monitoramento, e manter os dados sincronizados entre elas traz de volta o problema da escrita dupla, visto no item três ponto dois ponto três. A regra prática é começar pelo relacional, que atende à maioria dos casos, inclusive com djêisson bê, busca de texto completo e extensão vetorial, e acrescentar um armazenamento especializado quando uma necessidade medida o justificar. E é preciso definir a fonte da verdade: quéchi, índice de busca, índice vetorial e bases analíticas são derivados e devem poder ser reconstruídos a partir dela.
+
+Quando um servidor não basta, os dados são particionados. O particionamento de uma tabela por intervalo de datas, dentro do mesmo banco, facilita as consultas por período e o descarte de dados antigos, que se faz apagando partições inteiras. A fragmentação entre servidores, em inglês xárding, distribui os dados por uma chave. A escolha dessa chave decide se a carga se espalha ou se concentra em um fragmento, e consultas e transações que atravessam fragmentos ficam caras.
+
+Exemplo prático. Um sistema de recebimento de denúncias guarda manifestações, fluxo de tratamento e prazos no relacional; os anexos, em armazenamento de objetos; o texto, também em um índice de busca, para pesquisa por palavras; e as listas de órgãos e de assuntos, em quéchi. O relacional é a fonte da verdade, e o índice de busca pode ser refeito a partir dele.
+
+Pegadinhas do bloco quatro.
+
+A persistência poliglota dispensa sincronização, porque cada banco guarda dados independentes. Errado. Dados presentes em mais de um armazenamento exigem sincronização, com o problema da escrita dupla.
+
+Bancos analíticos orientados a colunas são os mais indicados para muitas transações curtas que alteram linhas individuais. Errado. Eles servem a leituras agregadas; o transacional é orientado a linhas.
+
+O índice de busca, por ser consultado com mais frequência, deve ser a fonte da verdade do sistema. Errado. Ele é derivado e reconstruível a partir do armazenamento principal.
+
+
+BLOCO CINCO: TRANSAÇÕES, CONCORRÊNCIA, CONSISTÊNCIA E EVOLUÇÃO DE ESQUEMAS
+
+As anomalias de leitura, os quatro níveis de isolamento do padrão ésse quê éle, os padrões de cada banco e os bloqueios otimista e pessimista foram vistos no item três ponto um ponto três. O teorema cáp, a consistência eventual, as migrações versionadas e a técnica de expandir e contrair, no item três ponto dois ponto três. Aqui entram as garantias de uma transação, como os bancos as implementam, as anomalias que o padrão não descreve e a evolução de esquemas no nível do banco.
+
+As garantias.
+
+A sigla á cê í dê foi proposta por Theo Hérder e Andreas Róiter em mil novecentos e oitenta e três. Atomicidade: a transação acontece inteira ou não acontece, e o banco desfaz o que foi feito em caso de falha. Consistência: a transação leva o banco de um estado válido a outro, respeitando as restrições; parte dela depende da aplicação, que define as regras. Isolamento: transações concorrentes não interferem umas nas outras além do que o nível escolhido permite. Durabilidade: depois da confirmação, a mudança sobrevive a uma queda.
+
+A durabilidade vem do registro antecipado de escrita. Cada mudança é gravada primeiro em um registro sequencial, e só depois aplicada aos arquivos de dados. Na confirmação, basta que esse registro esteja em disco; após uma queda, o banco o reaplica.
+
+O controle de concorrência por múltiplas versões, usado pelo Póstgres, pelo Oracle e por outros bancos, guarda versões das linhas. Cada transação lê um instantâneo coerente: leitores não bloqueiam escritores, e escritores não bloqueiam leitores; só gravações na mesma linha esperam umas pelas outras. O custo é limpar as versões antigas, e uma transação longa impede essa limpeza, o que incha as tabelas ou esgota o espaço de desfazer. É mais um motivo para transações curtas.
+
+As anomalias que o padrão não descreve.
+
+O isolamento de instantâneo foi descrito por Berenson e colegas em mil novecentos e noventa e cinco, em uma crítica às definições do padrão. Nele, cada transação enxerga o banco como estava no seu início. No Póstgres, é o que se obtém no nível de leitura repetível, que impede também a leitura fantasma e vai além do mínimo do padrão. Mas o instantâneo admite uma anomalia que o padrão não lista: a distorção de escrita, em inglês ráit skiú.
+
+Na distorção de escrita, duas transações leem o mesmo conjunto de dados, decidem com base nele e gravam linhas diferentes, sem que uma veja a gravação da outra. Exemplo prático. A regra exige que pelo menos um auditor fique de plantão. Dois auditores pedem dispensa ao mesmo tempo; cada transação confere que há outro de plantão e grava a própria dispensa. As duas confirmam, e ninguém fica. Como as linhas gravadas são diferentes, não há conflito de escrita para detectar.
+
+As defesas são três. O nível serializável de verdade: no Póstgres, ele usa o isolamento de instantâneo serializável, que detecta o padrão perigoso e aborta uma das transações com falha de serialização. O bloqueio explícito das linhas que sustentam a decisão, com a seleção para atualização. Ou materializar o conflito em uma linha que as duas transações precisem alterar. No Oracle, o nível chamado serializável é, na prática, isolamento de instantâneo, e admite a distorção de escrita.
+
+A atualização perdida é mais simples. Duas transações leem o mesmo saldo, cada uma calcula o novo valor na aplicação e grava, e a segunda sobrescreve a primeira. Ela acontece no nível de leitura confirmada. As defesas são a atualização atômica, que faz a conta dentro do próprio comando de atualização, o controle de versão e o bloqueio pessimista.
+
+Sobre bloqueios no banco. A seleção para atualização com a opção de pular linhas bloqueadas permite que vários processadores de uma fila de tarefas peguem linhas diferentes, sem esperar uns pelos outros. A opção de não esperar falha na hora se a linha estiver bloqueada. O impasse entre transações, já visto, é evitado alterando as linhas sempre na mesma ordem. E falhas de serialização e vítimas de impasse são transitórias: repete-se a transação inteira, desde o início, sem efeitos externos no meio dela.
+
+Evolução de esquemas no banco.
+
+Primeiro, o comportamento transacional das mudanças de estrutura. No Póstgres, os comandos de definição de dados participam da transação, e uma migração que falha no meio é desfeita inteira. No Mai ésse quê éle e no Oracle, cada comando de definição confirma a transação implicitamente, e uma migração que falha no meio deixa o esquema pela metade, exigindo correção manual.
+
+Segundo, os bloqueios. Alterar uma tabela exige, em geral, bloqueio exclusivo, ainda que por um instante. Se uma transação longa está usando a tabela, a alteração espera, e todas as consultas que chegam depois ficam na fila atrás dela: um comando de milissegundos pode parar a aplicação inteira. Por isso as migrações definem um prazo curto de espera por bloqueio e são repetidas se ele estourar.
+
+Terceiro, o custo de cada operação. No Póstgres, desde a versão onze, acrescentar coluna com valor padrão constante é instantâneo, sem reescrever a tabela. Mudar o tipo de uma coluna costuma reescrever a tabela inteira. Acrescentar uma restrição de verificação ou de chave estrangeira em tabela grande obriga a conferir todas as linhas; a forma segura é criar a restrição sem validar os dados existentes, o que já protege as gravações novas, e validá-la depois, em etapa separada, que bloqueia menos.
+
+Quarto, a geração automática de esquema. O Ribérneit pode criar ou alterar tabelas a partir das entidades, conforme a propriedade de geração de esquema: nenhuma ação, validar, atualizar, criar, ou criar e apagar ao encerrar. O Sprín Búti usa criar e apagar para bancos embutidos quando não encontra ferramenta de migração, e nenhuma ação nos demais casos. Em produção, o esquema é das migrações versionadas, e o máximo que se pede ao Ribérneit é validar o mapeamento contra o banco. A opção de atualizar não remove colunas, não reconhece renomeações e pode criar tipos inadequados.
+
+E nos bancos documentais, sem esquema declarado, documentos de versões diferentes convivem. A prática é gravar a versão do esquema em cada documento e converter na leitura, migrando aos poucos, quando o documento for gravado de novo, ou em lote.
+
+Pegadinhas do bloco cinco.
+
+O isolamento de instantâneo impede todas as anomalias de concorrência, inclusive a distorção de escrita. Errado. A distorção de escrita escapa, porque as transações gravam linhas diferentes.
+
+A atualização perdida só ocorre no nível de leitura não confirmada. Errado. Ela ocorre também na leitura confirmada, quando a conta é feita na aplicação.
+
+A durabilidade exige que os arquivos de dados sejam gravados em disco no momento da confirmação. Errado. Basta o registro antecipado de escrita estar em disco.
+
+No Mai ésse quê éle, uma migração com vários comandos de definição de dados que falha no meio é desfeita automaticamente. Errado. Cada comando confirma implicitamente; a definição transacional é característica do Póstgres.
+
+Em produção, a geração automática de esquema na opção de atualizar é a forma recomendada de evoluir o banco. Errado. Usam-se migrações versionadas, e o Ribérneit, no máximo, valida.
+
+
+ENCERRAMENTO
+
+A parte dois trata da persistência em Java com jota pê á, das estratégias de carregamento, do Sprín Data jota pê á e da integração da persistência às regras de negócio.

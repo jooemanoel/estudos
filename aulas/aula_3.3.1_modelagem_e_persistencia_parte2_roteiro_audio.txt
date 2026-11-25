@@ -1,0 +1,313 @@
+AUDIOAULA. ITEM TRÊS PONTO TRÊS PONTO UM DO EDITAL: MODELAGEM E PERSISTÊNCIA. PARTE DOIS DE DUAS
+
+
+ABERTURA
+
+Esta é a parte dois do item três ponto três ponto um, modelagem e persistência, com quatro blocos: persistência em Java com jota pê á, que reúne mapeamento de entidades e relacionamentos, ciclo de vida das entidades, contexto de persistência, consultas e transações; estratégias de carregamento e seus efeitos sobre correção e desempenho; Sprín Data jota pê á, com repositórios, consultas e paginação; e integração da camada de persistência às regras de negócio. A banca costuma explorar o lado dono dos relacionamentos, os estados das entidades, os carregamentos padrão, o problema das ene mais uma consultas, a diferença entre página e fatia e as regras de propagação e de reversão do arroba transácheonal.
+
+
+BLOCO SEIS: PERSISTÊNCIA EM JAVA COM JOTA PÊ Á
+
+O jota pê á é a especificação de persistência do Java, hoje chamada Djacarta Persístens e mantida pela Fundação Eclipse. Desde a versão três, de dois mil e vinte, os pacotes se chamam djacarta, e não mais djávax, e o Sprín Búti exige o nome novo desde a sua versão três. É só uma especificação: quem a executa é o provedor, e o mais usado, padrão no Sprín Búti, é o Ribérneit. A versão três ponto dois, de abril de dois mil e vinte e quatro, integra o Djacarta í í onze e é a usada pelo Sprín Búti quatro, com o Ribérneit sete.
+
+O jota pê á faz o mapeamento objeto-relacional: liga classes a tabelas e objetos a linhas, e resolve as diferenças entre os dois mundos, como herança, associações navegáveis em um só sentido e identidade.
+
+Mapeamento de entidades.
+
+A classe anotada com arroba éntiti precisa de um identificador, marcado com arroba ái dí, e de um construtor sem argumentos, público ou protegido. A classe não pode ser final, porque o provedor cria subclasses para o carregamento sob demanda. Por isso os récords não servem como entidades. Desde a versão três ponto dois, servem como classes embutidas, que representam valores sem identidade própria, como um endereço ou um período, gravados em colunas da tabela da entidade.
+
+A geração do identificador tem quatro estratégias. Identidade usa a coluna autoincrementada do banco; como o valor só existe depois da inserção, o Ribérneit precisa inserir na hora e não consegue agrupar inserções em lote. Sequência usa um objeto de sequência do banco e reserva vários valores de uma vez; o tamanho de alocação padrão é cinquenta e precisa ser coerente com o incremento definido na sequência do banco. Tabela simula uma sequência e é a mais lenta. E, desde a versão três ponto um, há a geração de identificador universal.
+
+Enumerações são gravadas, por padrão, pela posição da constante. Reordenar as constantes, ou inserir uma no meio, muda o significado dos dados já gravados. O recomendado é gravar pelo nome, com a opção de texto, e a versão três ponto dois permite indicar um campo da enumeração como valor gravado. Outras anotações comuns: arroba cólum, com nome, tamanho e nulidade da coluna, usados na geração de esquema; arroba tránsient, para atributos que não vão ao banco; e arroba vérsion, do bloqueio otimista visto no item três ponto um ponto três.
+
+A identidade merece cuidado. Dentro de um contexto de persistência, a mesma linha corresponde a um único objeto. Mas igualdade e código de dispersão baseados no identificador gerado falham: antes de persistir, o identificador é nulo, e depois muda, e um objeto guardado em um conjunto de dispersão antes de ser persistido deixa de ser encontrado, como visto no item três ponto um ponto dois. As saídas são usar uma chave natural imutável ou comparar pelo identificador com um código de dispersão constante para a classe.
+
+Relacionamentos.
+
+São quatro anotações: muitos para um, um para muitos, um para um e muitos para muitos. No relacionamento bidirecional, um dos lados é o dono: o que tem a chave estrangeira, indicada com arroba djóin cólum, e só as mudanças feitas nele chegam ao banco. O outro lado, o inverso, declara o atributo mépd bái, apontando o atributo dono. No par entre contrato e itens, o dono é o item, do lado muitos. Acrescentar o item só à lista do contrato, sem atribuir o contrato ao item, não grava a chave estrangeira. Por isso a entidade pai costuma ter métodos que atualizam os dois lados juntos.
+
+Dois avisos. O um para muitos unidirecional, sem coluna de junção, faz o Ribérneit criar uma tabela de associação desnecessária. E o muitos para muitos mapeado com lista faz o Ribérneit apagar e reinserir todas as linhas da associação a cada mudança; usa-se conjunto ou, se a associação tem atributos, uma entidade própria.
+
+A cascata propaga operações do pai aos filhos: persistir, mesclar, remover, atualizar a partir do banco, desanexar, ou todas. A remoção de órfãos apaga o filho retirado da coleção do pai. As duas fazem sentido na composição, quando o filho não existe sem o pai, como os itens de um contrato. São um erro em associações com entidades independentes: a cascata de remoção em um muitos para um ou em um muitos para muitos apaga uma entidade que outras ainda usam.
+
+Herança tem três estratégias. Tabela única, a padrão: toda a hierarquia em uma tabela, com uma coluna discriminadora; é a mais rápida, mas as colunas das subclasses precisam aceitar nulo. Junção: uma tabela por classe, ligadas pela chave; é normalizada, mas cada consulta faz junções. E tabela por classe concreta: cada subclasse com todas as colunas, o que torna caras as consultas polimórficas. A superclasse mapeada, com arroba mépd supercléss, só compartilha mapeamentos e não pode ser consultada como entidade.
+
+Ciclo de vida das entidades.
+
+A entidade tem quatro estados. Nova, ou transiente: criada com o operador níu, sem relação com o contexto. Gerenciada: associada a um contexto de persistência, que acompanha as suas mudanças. Desanexada: já foi gerenciada, mas o contexto foi fechado ou limpo, e as mudanças nela deixam de ser acompanhadas. E removida: marcada para exclusão na próxima sincronização.
+
+As transições. Persistir leva a nova para gerenciada. Buscar e consultar devolvem gerenciadas. Remover leva a gerenciada para removida. Fechar, limpar ou desanexar torna desanexada. Mesclar recebe uma desanexada e devolve uma cópia gerenciada; o objeto passado continua desanexado, e quem segue alterando o objeto original perde as mudanças. Persistir uma entidade desanexada gera exceção. E atualizar a partir do banco recarrega o estado, descartando mudanças não gravadas.
+
+Buscar pelo identificador consulta o contexto e, se preciso, o banco, e devolve nulo se a linha não existe. Obter uma referência devolve um próxi sem consultar o banco, útil para preencher uma chave estrangeira sem carregar o objeto; se a linha não existir, a exceção só aparece no primeiro acesso. Os métodos de retorno do ciclo de vida, como antes de persistir, antes de atualizar e depois de carregar, executam código nesses momentos, e os ouvintes de entidade reúnem esse código fora da classe. É assim que se preenchem datas de criação e de alteração.
+
+Contexto de persistência.
+
+É o conjunto de entidades gerenciadas por um gerenciador de entidades, e funciona como quéchi de primeiro nível: dentro dele, buscar duas vezes o mesmo identificador devolve o mesmo objeto, com uma só consulta. É também a unidade de trabalho. O provedor guarda uma fotografia de cada entidade carregada e, na sincronização, compara o estado atual com a fotografia e gera os comandos de atualização. É a verificação de sujeira, em inglês dârti tchéquin. Entidade gerenciada alterada dentro de uma transação é gravada sem nenhuma chamada de salvar.
+
+A sincronização, em inglês flâch, envia os comandos ao banco, mas não confirma a transação, que ainda pode ser desfeita. No modo automático, o padrão, ela acontece antes da confirmação e antes das consultas que possam ser afetadas por mudanças pendentes; também pode ser chamada explicitamente.
+
+A fábrica de gerenciadores de entidades é cara, segura para uso concorrente e única por unidade de persistência. O gerenciador de entidades é leve e não é seguro para uso concorrente: usa-se um por transação. No Sprín, o gerenciador injetado é um próxi que entrega a cada thread o gerenciador da transação corrente. E, em processamentos de grande volume, o contexto cresce a cada entidade carregada: sincroniza-se e limpa-se o contexto a cada lote.
+
+Consultas.
+
+A linguagem de consulta do jota pê á, a djêi pí quiú éle, é orientada a objetos: usa nomes de entidades e de atributos, e não de tabelas e colunas, e o provedor a traduz para o dialeto de cada banco. Os parâmetros, nomeados ou posicionais, são vinculados pelo provedor, o que impede a injeção de ésse quê éle; montar a consulta concatenando o texto digitado pelo usuário abre essa falha. O Ribérneit valida as consultas nomeadas na inicialização. A á pê í de critérios monta consultas por código, com verificação de tipos, e serve a filtros dinâmicos. A consulta nativa usa o ésse quê éle do banco, para recursos específicos, ao custo da portabilidade.
+
+Comandos de atualização ou exclusão em massa na linguagem de consulta vão direto ao banco, sem passar pelo contexto. As entidades já carregadas ficam desatualizadas, os métodos de ciclo de vida não executam, não há cascata, e a versão do bloqueio otimista não é incrementada, a menos que o comando o faça.
+
+Transações.
+
+Fora de servidores de aplicação, o jota pê á usa transações locais do recurso, controladas pelo gerenciador de entidades. Nos servidores de aplicação, pode usar transações globais, coordenadas pelo jota tê á, a especificação de transações do Java, que envolvem vários recursos. No Sprín, o gerenciador de transações do jota pê á e o arroba transácheonal fazem esse controle. Persistir, mesclar e remover exigem transação ativa. E, depois de uma reversão, as entidades do contexto ficam desanexadas e com estado possivelmente incoerente com o banco; não devem ser reaproveitadas.
+
+Pegadinhas do bloco seis.
+
+No relacionamento bidirecional um para muitos, as alterações feitas apenas na coleção do lado um são gravadas no banco. Errado. Só o lado dono, que tem a chave estrangeira, determina a gravação.
+
+O método de mesclar torna gerenciado o próprio objeto desanexado que recebe. Errado. Ele devolve uma cópia gerenciada, e o objeto passado continua desanexado.
+
+A sincronização do contexto de persistência confirma a transação. Errado. Ela envia os comandos; a confirmação é outra etapa.
+
+A estratégia de identidade permite ao Ribérneit agrupar inserções em lote. Errado. Ela exige a inserção imediata para obter o identificador.
+
+Por padrão, o jota pê á grava as enumerações pelo nome da constante. Errado. O padrão é a posição; o recomendado é o nome.
+
+Comandos de atualização em massa atualizam também as entidades já carregadas no contexto. Errado. Vão direto ao banco e deixam o contexto desatualizado.
+
+
+BLOCO SETE: ESTRATÉGIAS DE CARREGAMENTO E SEUS EFEITOS SOBRE CORREÇÃO E DESEMPENHO
+
+O jota pê á tem dois tipos de carregamento. O ansioso, em inglês íguer, traz a associação junto com a entidade. O sob demanda, em inglês lêizi, adia a carga até o primeiro acesso. Os padrões da especificação: muitos para um e um para um são ansiosos; um para muitos e muitos para muitos são sob demanda. Pela especificação, o ansioso é obrigatório, e o sob demanda é só uma dica ao provedor, que o Ribérneit respeita nas associações.
+
+Ansioso no mapeamento não significa junção nas consultas. Ao executar uma consulta da djêi pí quiú éle, o Ribérneit traz as entidades pedidas e, em seguida, faz consultas extras para cada associação ansiosa que a consulta não trouxe. E o ansioso, uma vez mapeado, vale para todos os casos de uso e não pode ser desligado em uma consulta. A recomendação é mapear todas as associações como sob demanda e decidir, em cada consulta, o que carregar.
+
+O sob demanda funciona com próxis, nas associações com uma entidade, e com coleções próprias do provedor, nas associações com muitas. O primeiro acesso dispara a consulta, e só funciona com o contexto de persistência aberto. Fora dele, o Ribérneit lança a exceção de inicialização sob demanda, a lêizi inicializêichon ecsépchon. O caso típico é a conversão da entidade para djêisson no controlador, depois que a transação do serviço terminou.
+
+O problema das ene mais uma consultas.
+
+Uma consulta traz cem processos, e o código percorre a lista acessando o responsável de cada um. Cada acesso dispara uma consulta: cem mais uma. Em desenvolvimento, com poucos dados, ninguém percebe; em produção, a latência cresce com o tamanho da lista. O sinal é uma sequência de consultas iguais, mudando só o parâmetro, no registro de ésse quê éle, nas estatísticas do Ribérneit ou nos rastros vistos no item três ponto dois ponto cinco. Testes podem contar as consultas executadas e falhar quando o número cresce.
+
+As soluções. A junção com carga, em inglês djóin fétch, na própria consulta: uma única consulta traz processos e responsáveis. O grafo de entidades, declarado por anotação ou na consulta, diz quais atributos carregar. No grafo de busca, os atributos listados são carregados e os demais ficam sob demanda; no grafo de carga, os não listados seguem o mapeamento. A carga em lote, configurada por anotação ou de forma global, faz o Ribérneit buscar as associações de vários pais de uma vez, com uma lista de identificadores, e transforma cem mais uma em poucas consultas. E a projeção em objeto de transferência, que seleciona só as colunas necessárias.
+
+A junção com carga de coleções tem três armadilhas. A multiplicação de linhas: no resultado do banco, cada pai se repete uma vez por filho; desde a versão seis, o Ribérneit elimina sozinho, na memória, as entidades repetidas. A carga simultânea de duas coleções do tipo lista gera produto cartesiano, e o Ribérneit a recusa com a exceção de múltiplas bolsas; usa-se conjunto ou carregam-se as coleções em consultas separadas. E a paginação: com junção com carga de coleção, o banco não consegue limitar os pais, porque cada pai ocupa várias linhas, e o Ribérneit traz tudo e pagina na memória, registrando um aviso. Em tabela grande, isso derruba a aplicação. A solução é paginar primeiro os identificadores e, em uma segunda consulta, carregar os pais e as coleções desses identificadores.
+
+Sessão aberta na visão.
+
+A sessão aberta na visão, em inglês ôupen séchon in viú, mantém o contexto de persistência aberto até o fim da requisição, para que o carregamento sob demanda funcione no controlador e na conversão para djêisson. No Sprín Búti, ela vem ligada por padrão e, sem configuração explícita, gera um aviso na partida; a mudança desse padrão foi discutida para a versão quatro e adiada. O custo são consultas escondidas na camada web, ene mais uma consultas fora do controle do serviço e conexões presas por mais tempo. A recomendação é desligá-la e carregar, no serviço, tudo de que a resposta precisa.
+
+Quéchi de segundo nível.
+
+O quéchi de segundo nível do Ribérneit é compartilhado por todos os contextos e guarda entidades por identificador, com estratégias de concorrência como somente leitura e leitura e escrita. Serve a dados de referência que mudam pouco, como a lista de órgãos. O quéchi de consultas guarda só os identificadores do resultado e depende do segundo nível para as entidades. Alterações feitas no banco por outro sistema, sem passar pelo Ribérneit, deixam esses quéchis desatualizados.
+
+Carregar para só ler também custa: cada entidade gerenciada ganha uma fotografia para a verificação de sujeira. Em transações marcadas como somente leitura, o Sprín ajusta o Ribérneit para não sincronizar nem guardar essas fotografias. Para telas de listagem e relatórios, a projeção é o caminho mais eficiente: a consulta seleciona só as colunas necessárias e monta objetos de transferência, como récords, por uma expressão de construtor. Esses objetos não são gerenciados, não têm fotografia, não disparam carregamento sob demanda e não expõem a entidade.
+
+Os efeitos sobre a correção. Carregar sob demanda fora da transação original lê os dados de outro momento, e a tela pode misturar estados diferentes do mesmo processo. Converter para djêisson entidades com associações bidirecionais leva à recursão infinita, cada lado convertendo o outro. E carregar uma coleção inteira para contar ou verificar existência traz milhares de objetos para responder um número; usa-se consulta de contagem ou de existência.
+
+Pegadinhas do bloco sete.
+
+Por padrão, o relacionamento muitos para um é carregado sob demanda. Errado. Muitos para um e um para um são ansiosos por padrão.
+
+Mapear a associação como ansiosa evita o problema das ene mais uma consultas. Errado. Nas consultas da djêi pí quiú éle, o ansioso gera consultas extras para cada entidade.
+
+A junção com carga de coleção combinada com paginação limita as linhas no próprio banco. Errado. O Ribérneit traz tudo e pagina na memória.
+
+Manter ligada a sessão aberta na visão é a prática recomendada, por evitar a exceção de inicialização sob demanda. Errado. Ela esconde consultas na camada web e prende conexões.
+
+No grafo de busca, os atributos não listados seguem o carregamento definido no mapeamento. Errado. Isso é o grafo de carga; no grafo de busca, os não listados ficam sob demanda.
+
+
+BLOCO OITO: SPRÍN DATA JOTA PÊ Á: REPOSITÓRIOS, CONSULTAS E PAGINAÇÃO
+
+O Sprín Data jota pê á gera, em tempo de execução, a implementação de interfaces de repositório. A interface estende uma das interfaces básicas, informando a entidade e o tipo do identificador. A raiz é a repósitori, sem métodos. A crúd repósitori acrescenta salvar, buscar pelo identificador, listar, contar e apagar, e a líst crúd repósitori faz o mesmo devolvendo listas. A páging end sórting repósitori acrescenta paginação e ordenação e, desde a versão três do Sprín Data, não estende mais a de operações básicas. E a djêi pê á repósitori reúne tudo e acrescenta operações do jota pê á, como sincronizar, salvar e sincronizar, e obter referência pelo identificador.
+
+A implementação padrão é transacional: os métodos de leitura rodam em transação somente leitura, e os de gravação, em transação comum. Cada chamada ao repositório é uma transação separada, a menos que o serviço abra uma transação que envolva várias chamadas, como visto no item três ponto dois ponto um.
+
+O método salvar decide entre persistir e mesclar. Se a entidade é nova, persiste; senão, mescla e devolve a instância gerenciada, que é a que deve ser usada dali em diante. A entidade é considerada nova quando o identificador é nulo, ou zero nos tipos primitivos, ou, se houver atributo de versão, quando a versão é nula. Se a aplicação atribui o identificador antes de salvar, a entidade parece não nova, e o salvar consulta o banco antes de inserir, para mesclar. A saída é usar o atributo de versão ou implementar a interface persístabol, que informa se a entidade é nova.
+
+Consultas.
+
+As consultas derivadas do nome do método são interpretadas pelo Sprín Data: buscar por número, buscar por situação e data de abertura posterior a, contar por, existe por, apagar por, com palavras-chave como contendo, começando com, entre, em, é nulo, ignorando maiúsculas e ordenado por. Um nome com atributo inexistente faz a aplicação falhar na partida, o que revela o erro cedo. Nomes muito longos indicam que é hora de usar consulta explícita.
+
+A anotação arroba quéri declara a consulta, na djêi pí quiú éle ou, com a opção nativa, em ésse quê éle, com parâmetros nomeados. Consultas de alteração ou exclusão exigem também arroba módifáing e transação. Como comandos em massa, passam ao largo do contexto, e a anotação tem opções para sincronizar antes e limpar o contexto depois.
+
+Projeções. Uma interface com os métodos de leitura dos campos desejados, ou um récord com esses campos, pode ser o tipo de retorno do repositório, e a consulta seleciona só as colunas necessárias. Se a interface usa expressões calculadas, a projeção é aberta, e a entidade inteira é carregada. A projeção dinâmica recebe o tipo desejado como parâmetro.
+
+Filtros dinâmicos, como uma tela de pesquisa com campos opcionais, usam especificações, que montam predicados da á pê í de critérios combináveis entre si, ou a consulta por exemplo, que filtra a partir de um objeto preenchido com os valores procurados. Nos métodos do repositório, a anotação de grafo de entidades indica as associações a carregar, e a anotação de bloqueio pede o bloqueio otimista ou pessimista.
+
+Paginação.
+
+O método recebe um paginável, criado com o número da página, que começa em zero, o tamanho e a ordenação. O retorno pode ser página, fatia ou lista. A página traz o conteúdo, o total de elementos e o total de páginas, e para isso executa uma consulta de contagem extra, que em tabelas grandes pode custar mais que a própria busca. A fatia só sabe se existe próxima página: busca um elemento a mais que o tamanho pedido e dispensa a contagem. Em consultas explícitas complexas, a contagem derivada pode falhar ou ficar lenta, e informa-se uma consulta de contagem própria.
+
+A paginação por deslocamento tem dois problemas. O banco precisa percorrer e descartar todas as linhas anteriores, e a página cinco mil custa muito mais que a primeira. E, se registros entram ou saem entre uma página e outra, itens se repetem ou são pulados. A paginação por chave, ou por cursor, filtra a partir do último valor visto, como os processos com data anterior à do último exibido, e usa o índice diretamente. Desde a versão três ponto um, o Sprín Data oferece a rolagem por janelas, com posição por deslocamento ou por chave. Em qualquer caso, a ordenação precisa ser determinística, com um critério de desempate único, como o identificador; ordenar só pela data deixa instável a fronteira entre páginas quando várias linhas têm a mesma data.
+
+Na camada web, o Sprín Data converte os parâmetros de página, tamanho e ordenação da requisição em paginável e limita o tamanho da página, por padrão a dois mil elementos. Esse limite deve ser reduzido em á pê ís públicas, porque um cliente pode pedir páginas enormes. E a ordenação vinda do usuário só deve aceitar atributos conhecidos.
+
+Pegadinhas do bloco oito.
+
+No Sprín Data jota pê á, a numeração das páginas começa em um. Errado. Começa em zero.
+
+A fatia executa consulta de contagem para informar o total de páginas. Errado. Ela só sabe se há próxima página; quem conta é a página.
+
+O método salvar sempre executa inserção direta quando o identificador é atribuído pela aplicação. Errado. Com o identificador preenchido, a entidade parece não nova, e o salvar consulta antes, para mesclar.
+
+Consultas de alteração com arroba quéri dispensam o arroba módifáing. Errado. Ele é exigido, além da transação.
+
+A paginação por deslocamento tem custo constante, qualquer que seja a página pedida. Errado. O banco percorre e descarta as linhas anteriores.
+
+
+BLOCO NOVE: INTEGRAÇÃO DA CAMADA DE PERSISTÊNCIA ÀS REGRAS DE NEGÓCIO
+
+A separação em camadas, o arroba transácheonal na camada de serviço, os objetos de transferência na á pê í e a tradução de exceções do arroba repósitori foram vistos no item três ponto dois ponto um; a caixa de saída transacional e o ouvinte de eventos transacional, no item três ponto dois ponto três. Aqui entram os padrões que ligam domínio e persistência, o lugar das regras e o comportamento das transações.
+
+Padrões.
+
+Os padrões catalogados por Mártin Fáuler em dois mil e dois. O repositório oferece ao domínio uma interface parecida com uma coleção de objetos e esconde como eles são guardados. O mapeador de dados separa os objetos do banco, e é o que o jota pê á faz. O registro ativo, em inglês áctiv récord, põe a persistência no próprio objeto, que sabe se gravar. A unidade de trabalho acompanha o que mudou em uma transação de negócio e grava tudo junto, e o mapa de identidade garante um objeto por linha; o contexto de persistência cumpre esses dois papéis. E o objeto de acesso a dados, o dê á ô, é orientado à tabela e à operação técnica, enquanto o repositório é orientado ao domínio.
+
+O desenho dirigido pelo domínio, de Eric Évans, de dois mil e três, acrescenta o agregado: um conjunto de entidades tratado como unidade de consistência, com uma raiz pela qual passa todo acesso. Um contrato, com seus itens e aditivos, é um agregado, e o contrato é a raiz. As regras práticas são três. Um repositório por raiz de agregado, e não por tabela. Referências a outros agregados pelo identificador, e não por associação de objetos, o que limita o grafo carregado e impede cascatas entre agregados. E cada transação altera um único agregado, com os demais atualizados por eventos, em consistência eventual.
+
+No Sprín Data, a raiz do agregado pode registrar eventos de domínio, que o repositório publica quando se chama salvar ou apagar. A publicação depende dessa chamada: a gravação só pela verificação de sujeira não publica os eventos registrados.
+
+Onde ficam as regras.
+
+No modelo anêmico, criticado por Fáuler, as entidades só têm atributos e métodos de acesso, e as regras ficam espalhadas nos serviços, que alteram campos soltos. No modelo rico, a entidade protege as próprias invariantes: em vez de um método que troca a situação para arquivado, um método arquivar, que verifica se o processo pode ser arquivado. O serviço coordena: abre a transação, carrega o agregado, chama o comportamento e cuida das integrações.
+
+Exemplo prático. O artigo cento e vinte e cinco da Lei catorze mil cento e trinta e três, de dois mil e vinte e um, limita os acréscimos e supressões unilaterais a vinte e cinco por cento do valor inicial atualizado do contrato e, em reforma de edifício ou de equipamento, os acréscimos a cinquenta por cento. O método aditivar da entidade contrato soma os aditivos e recusa o que passa do limite. Mas dois aditivos registrados ao mesmo tempo podem caber, cada um, no limite e, juntos, ultrapassá-lo: é a distorção de escrita vista na parte um. A defesa é tratar o contrato como agregado com controle de versão: os dois aditivos alteram a raiz, por exemplo o valor atualizado, e a segunda transação falha e é repetida com o total novo.
+
+A validação tem camadas. Na entrada, a validação de formato dos objetos de transferência devolve quatrocentos ao cliente. No domínio, as invariantes, como o limite de aditivos. No banco, as restrições, a última defesa. A unicidade é o caso típico: consultar se já existe e depois inserir deixa a janela de corrida; a restrição de unicidade decide, e a exceção de violação de integridade, traduzida pelo Sprín, vira uma resposta de conflito, quatrocentos e nove, com mensagem de negócio.
+
+O arroba transácheonal em detalhe.
+
+A propagação define o que acontece quando um método transacional chama outro. Requerida, a padrão: participa da transação existente ou cria uma. Requer nova: suspende a atual e abre outra, independente, que confirma ou desfaz sozinha, como o registro de uma tentativa que precisa sobreviver à falha da operação principal; ela usa uma segunda conexão, e muitas chamadas simultâneas podem esgotar o pool. Obrigatória: exige transação existente e falha sem ela. Suporta: participa se houver, e roda sem transação se não houver. Não suportada: suspende a existente. Nunca: falha se houver transação. E aninhada: cria um ponto de salvamento dentro da mesma transação e desfaz só a parte interna, se o gerenciador de transações der suporte.
+
+A reversão. Por padrão, a transação é desfeita em exceções não verificadas e em erros, e não em exceções verificadas, como visto no item três ponto um ponto três; os atributos de reverter para e de não reverter para mudam isso. A armadilha clássica: um método interno, com propagação requerida, lança exceção e marca a transação inteira para reversão; o método externo captura a exceção e segue em frente; na confirmação, o Sprín encontra a marca, desfaz tudo e lança a exceção de reversão inesperada. Capturar a exceção não apaga a marca.
+
+O próxi tem limites. Chamar um método transacional a partir de outro método da mesma classe não passa pelo próxi, e a anotação é ignorada: sem transação nova e sem propagação diferente. Métodos privados nunca são interceptados. As saídas são mover o método para outro bín ou usar a transação programática, com o modelo de transação do Sprín.
+
+Somente leitura é uma otimização: o Ribérneit deixa de sincronizar e de guardar fotografias, e o dráiver pode encaminhar a conexão a uma réplica. Não é controle de segurança; quem não pode gravar não deve ter a permissão no banco.
+
+Efeitos externos, como enviar mensagem ao cidadão ou chamar outro sistema, não ficam no meio da transação, porque, se ela for desfeita, o efeito já aconteceu. Vão para depois da confirmação, pela caixa de saída ou pelo ouvinte transacional. E a transação não deve esperar por rede nem por usuário.
+
+Rastreabilidade.
+
+O Sprín Data preenche automaticamente quem criou, quando criou, quem alterou por último e quando, com as anotações de auditoria e um componente que informa o usuário atual, obtido do contexto de segurança. Para o histórico completo, o Ribérneit Énvers grava cada versão da entidade em tabelas de revisão, com o autor e o momento. A exclusão lógica, que marca o registro em vez de apagá-lo, tem anotação própria no Ribérneit desde a versão seis ponto quatro e exige que todas as consultas ignorem os registros marcados. Em sistemas públicos, esse histórico sustenta a prestação de contas, que a Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, adota como princípio no artigo sexto, inciso dez, quando há dados pessoais. A retenção e o descarte desses registros são tema do item três ponto três ponto quatro.
+
+Pegadinhas do bloco nove.
+
+Chamar, de dentro da mesma classe, um método anotado com propagação requer nova abre uma transação independente. Errado. A chamada interna não passa pelo próxi, e a anotação é ignorada.
+
+Se o método externo captura a exceção lançada por um método interno com propagação requerida, o restante da transação é confirmado normalmente. Errado. A transação já foi marcada para reversão, e a confirmação lança a exceção de reversão inesperada.
+
+A transação somente leitura substitui o controle de permissões de gravação no banco. Errado. É otimização; a proteção é a permissão no banco.
+
+Verificar a existência do registro antes de inseri-lo dispensa a restrição de unicidade no banco. Errado. Entre a verificação e a inserção há janela de corrida; a restrição decide.
+
+No desenho dirigido pelo domínio, deve haver um repositório para cada tabela do banco. Errado. Há um por raiz de agregado.
+
+Os eventos registrados na raiz do agregado são publicados sempre que a entidade é alterada, mesmo sem chamada ao repositório. Errado. A publicação ocorre ao chamar salvar ou apagar.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Modelagem relacional. Modelos conceitual, lógico e físico; chave substituta como primária e natural como única. Cê pê éfe como número único e suficiente nos bancos de dados de serviços públicos, pela Lei catorze mil quinhentos e trinta e quatro; cê ene pê jota alfanumérico nas novas inscrições desde julho de dois mil e vinte e seis. Anomalias de inserção, atualização e exclusão; dependência funcional como base das formas normais. Integridade de entidade, referencial e de domínio, com ações da chave estrangeira e restrições que fecham a janela de corrida.
+
+Documentais, chave-valor e vetoriais. Documentos modelados pelo padrão de acesso, com atomicidade por documento. Chave-valor com expiração e comandos atômicos. Colunas largas por consulta; grafos para vínculos. Extensão vetorial no banco existente ou banco dedicado; filtro dentro da busca.
+
+Quéchi e busca textual. Quéchi ao lado, leitura através, escrita através e escrita adiada; tempo de vida, remoção explícita e descarte. Avalanche, chaves inexistentes e chave sem contexto do usuário. Nou stór, práivet, máx êidj e revalidação por í tég. Arroba quéchábol com sincronização; provedor real em produção. Texto completo com análise igual na indexação e na consulta; motor de busca como cópia derivada, quase em tempo real.
+
+Escolha de armazenamento. Estrutura, padrão de acesso, garantias, volume e capacidade de operação. Ô éle tê pê por linhas, ô éle á pê por colunas. Arquivos em armazenamento de objetos. Relacional como ponto de partida e fonte da verdade definida; particionamento por datas e fragmentação por chave.
+
+Transações e esquemas. Á cê í dê, registro antecipado de escrita e múltiplas versões. Isolamento de instantâneo na leitura repetível do Póstgres; distorção de escrita e atualização perdida, com serializável, seleção para atualização ou atualização atômica. Pular linhas bloqueadas para filas; repetir a transação inteira. Prazo de espera por bloqueio nas migrações; coluna com padrão constante sem reescrita; restrição criada sem validar e validada depois.
+
+Jota pê á. Djacarta Persístens três ponto dois, com récords como classes embutidas. Construtor sem argumentos e classe não final. Sequência com alocação coerente; igualdade que não dependa do identificador gerado. Métodos que sincronizam os dois lados do relacionamento; cascata e remoção de órfãos só na composição. Herança em tabela única, junção ou tabela por classe. Estados nova, gerenciada, desanexada e removida. Contexto como quéchi de primeiro nível e unidade de trabalho; verificação de sujeira; parâmetros vinculados contra injeção.
+
+Carregamento. Sob demanda como regra, carga decidida por consulta. Junção com carga, grafos de busca e de carga, carga em lote e projeções. Duas listas geram a exceção de múltiplas bolsas. Segundo nível para dados de referência; somente leitura sem fotografias.
+
+Sprín Data jota pê á. Hierarquia de repositórios; leitura em transação somente leitura. Salvar persiste o novo e mescla o existente, devolvendo a instância a usar. Consultas derivadas validadas na partida; arroba quéri com arroba módifáing para alterações. Projeções fechadas, especificações e consulta por exemplo. Página, fatia ou lista; paginação por chave com desempate único; limite de tamanho na web.
+
+Integração às regras. Repositório, mapeador de dados, registro ativo, unidade de trabalho e mapa de identidade. Agregado com raiz, referência por identificador e uma transação por agregado. Modelo rico protege invariantes; limite de aditivos da Lei catorze mil cento e trinta e três com controle de versão na raiz. Propagações, regras de reversão e limites do próxi. Efeitos externos depois da confirmação. Auditoria, histórico de revisões e exclusão lógica.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Uma relação está na terceira forma normal quando, estando na segunda, nenhum atributo não chave depende transitivamente da chave primária por meio de outro atributo não chave.
+
+Gabarito: certo. É a definição da terceira forma normal.
+
+Item dois. Em uma relação na primeira forma normal cuja chave primária é formada por um único atributo, podem ocorrer dependências parciais que a impedem de estar na segunda forma normal.
+
+Gabarito: errado. Dependência parcial exige chave composta; com chave simples, a relação já está na segunda forma.
+
+Item três. Nas inscrições feitas a partir de julho de dois mil e vinte e seis, o cê ene pê jota admite letras nas doze primeiras posições, mantidos numéricos os dois dígitos verificadores, o que torna inadequado armazená-lo em coluna de tipo numérico.
+
+Gabarito: certo. É o formato definido pela Instrução Normativa dois mil duzentos e vinte e nove, de dois mil e vinte e quatro, da Receita Federal.
+
+Item quatro. Em banco documental, os pagamentos de um contrato, que se acumulam sem limite ao longo dos anos, devem ser embutidos no documento do contrato, para leitura em uma única operação.
+
+Gabarito: errado. Crescimento sem limite pede referência, e o documento tem tamanho máximo.
+
+Item cinco. Em índice vetorial, aplicar o filtro por metadados somente após a busca aproximada pode fazer a consulta devolver menos resultados que o número solicitado.
+
+Gabarito: certo. O filtro seletivo descarta vizinhos já encontrados; ele precisa participar da busca.
+
+Item seis. A diretiva nou quéchi do cabeçalho quéchi contról proíbe que a resposta seja armazenada por navegadores e intermediários.
+
+Gabarito: errado. Ela exige revalidação antes do uso; a proibição de armazenar é da nou stór.
+
+Item sete. Em quéchi compartilhado de respostas que dependem do perfil do usuário, a chave formada apenas pelos parâmetros da consulta pode entregar a um usuário dados calculados para outro.
+
+Gabarito: certo. A chave precisa incluir o contexto de quem pergunta.
+
+Item oito. Na persistência poliglota, quéchis e índices de busca são armazenamentos derivados, que devem poder ser reconstruídos a partir da fonte da verdade.
+
+Gabarito: certo. A fonte da verdade é definida, e os derivados são refeitos a partir dela.
+
+Item nove. O isolamento de instantâneo impede a distorção de escrita, pois cada transação enxerga um estado coerente do banco.
+
+Gabarito: errado. As transações gravam linhas diferentes, e o conflito não é detectado; exige-se serializável, bloqueio explícito ou materialização do conflito.
+
+Item dez. No Póstgres, os comandos de definição de dados participam da transação, de modo que uma migração que falha no meio pode ser desfeita integralmente.
+
+Gabarito: certo. No Mai ésse quê éle e no Oracle, ao contrário, a definição de dados confirma a transação implicitamente.
+
+Item onze. Em produção, a atualização automática do esquema pelo Ribérneit é a forma recomendada de evoluir o banco, por remover colunas obsoletas e tratar renomeações.
+
+Gabarito: errado. Ela não remove colunas nem reconhece renomeações; usam-se migrações versionadas.
+
+Item doze. No relacionamento bidirecional entre contrato e itens, mapeado com mépd bái no lado do contrato, incluir o item apenas na coleção do contrato é suficiente para gravar a chave estrangeira.
+
+Gabarito: errado. O dono é o item; é preciso atribuir o contrato ao item.
+
+Item treze. Uma entidade gerenciada alterada dentro de uma transação tem a alteração gravada na sincronização do contexto de persistência, ainda que nenhum método de salvar seja chamado.
+
+Gabarito: certo. É a verificação de sujeira.
+
+Item catorze. O método de mesclar do gerenciador de entidades torna gerenciada a própria instância desanexada recebida como argumento.
+
+Gabarito: errado. Ele devolve uma cópia gerenciada, e a instância recebida continua desanexada.
+
+Item quinze. Pela especificação do jota pê á, os relacionamentos muitos para um e um para um têm carregamento ansioso por padrão.
+
+Gabarito: certo. Um para muitos e muitos para muitos são sob demanda por padrão.
+
+Item dezesseis. Combinar junção com carga de coleção e paginação faz o banco limitar o número de entidades pai devolvidas, sem custo adicional de memória para a aplicação.
+
+Gabarito: errado. O Ribérneit traz todas as linhas e pagina na memória.
+
+Item dezessete. No Sprín Data jota pê á, o retorno do tipo fatia dispensa a consulta de contagem e informa apenas se existe uma próxima página.
+
+Gabarito: certo. A fatia busca um elemento a mais que o tamanho pedido.
+
+Item dezoito. Quando a aplicação atribui o identificador antes de chamar o método salvar do Sprín Data jota pê á, a operação resulta sempre em inserção direta, sem consulta prévia ao banco.
+
+Gabarito: errado. A entidade parece não nova, e o salvar mescla, consultando antes; usa-se o atributo de versão ou a interface persístabol.
+
+Item dezenove. A chamada de um método anotado com arroba transácheonal e propagação requer nova, feita a partir de outro método da mesma classe, inicia uma transação independente.
+
+Gabarito: errado. A chamada interna não passa pelo próxi, e a anotação é ignorada.
+
+Item vinte. Se um método interno com propagação requerida lança exceção não verificada e o método externo a captura e prossegue, a tentativa de confirmação ao final resulta na reversão da transação inteira.
+
+Gabarito: certo. A transação foi marcada para reversão, e o Sprín lança a exceção de reversão inesperada.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto três ponto dois, ésse quê éle e desempenho.
