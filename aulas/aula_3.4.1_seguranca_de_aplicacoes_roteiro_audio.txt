@@ -1,0 +1,335 @@
+AUDIOAULA. ITEM TRÊS PONTO QUATRO PONTO UM DO EDITAL: SEGURANÇA DE APLICAÇÕES
+
+
+ABERTURA
+
+Este é o item três ponto quatro ponto um, segurança de aplicações, que abre o tema de desenvolvimento seguro, qualidade e gestão da entrega. Ele tem seis subitens, tratados em seis blocos: ameaças e vulnerabilidades em aplicações e interfaces; validação de entradas e controles de acesso; proteção de segredos e dependências; testes de segurança autorizados; prevenção de vazamentos; e registros, preservação de evidências e tratamento de falhas de segurança, inclusive em integrações com inteligência artificial. A banca costuma explorar as categorias da lista do ôuásp, as famílias de injeção, a revogação de segredos vazados, a autorização para testes, a cadeia de custódia e o tratamento de incidentes.
+
+
+BLOCO UM: AMEAÇAS E VULNERABILIDADES EM APLICAÇÕES E INTERFACES
+
+As categorias de autorização da lista de riscos de á pê ís foram vistas no item três ponto dois ponto dois, e a modelagem de ameaças à privacidade, no três ponto três ponto quatro. Aqui entram os conceitos, os catálogos, as listas do ôuásp e a modelagem de ameaças de segurança.
+
+Os conceitos seguem a família de normas ízo vinte e sete mil. Ameaça é a causa potencial de um incidente indesejado, como um atacante ou uma falha de energia. Vulnerabilidade é a fraqueza de um ativo ou de um controle que pode ser explorada por uma ameaça, como uma consulta montada por concatenação. Risco combina a probabilidade de a ameaça explorar a vulnerabilidade e o impacto que isso causa. A superfície de ataque é o conjunto de pontos por onde a aplicação recebe dados ou comandos: endpóintis, formulários, arquivos enviados, filas, interfaces administrativas e as próprias dependências.
+
+Três catálogos se complementam. O cê vê é identifica uma vulnerabilidade específica em um produto específico, com número próprio. O cê dábliu é classifica o tipo de fraqueza, como injeção de ésse quê éle ou falta de autorização, independentemente do produto. E a gravidade é medida pelo cê vê ésse ésse, numa escala de zero a dez, cuja versão quatro é de novembro de dois mil e vinte e três. Gravidade não é prioridade. O é pê ésse ésse estima a probabilidade de exploração nos trinta dias seguintes, e a agência norte-americana de cibersegurança mantém um catálogo das vulnerabilidades já exploradas na prática. A ordem de correção combina gravidade, probabilidade de exploração, exposição do sistema e criticidade do ativo.
+
+A lista dos dez riscos mais críticos de aplicações web do ôuásp, na edição de dois mil e vinte e cinco, ficou assim. Primeiro, quebra de controle de acesso, que incorporou a falsificação de requisição do lado do servidor. Segundo, configuração incorreta de segurança, que subiu do quinto lugar. Terceiro, falhas na cadeia de suprimento de software, que amplia a antiga categoria de componentes vulneráveis e desatualizados para dependências, sistemas de construção e infraestrutura de distribuição. Quarto, falhas criptográficas. Quinto, injeção. Sexto, projeto inseguro. Sétimo, falhas de autenticação. Oitavo, falhas de integridade de software ou de dados. Nono, falhas de registro e de alerta de segurança, nome que passou a destacar o alerta. E décimo, a categoria nova de tratamento inadequado de condições excepcionais, que reúne erros de tratamento de exceção, falhas de lógica e falhar aberto.
+
+O projeto inseguro merece atenção. É a falha de desenho, e não de implementação: um fluxo de recuperação de senha baseado em perguntas cujas respostas estão em redes sociais continua inseguro, por mais correto que seja o código. Corrige-se mudando o desenho.
+
+Para á pê ís, a lista de dois mil e vinte e três traz, além das três categorias de autorização, riscos próprios. Consumo irrestrito de recursos: sem limite de tamanho de requisição, de página ou de taxa, a á pê í fica sujeita a negação de serviço e a custo descontrolado. Acesso irrestrito a fluxos de negócio sensíveis: um fluxo legítimo, como uma consulta pública, automatizado em massa para extrair a base inteira. Gestão inadequada de inventário: versões antigas e ambientes de teste esquecidos, ainda expostos. E consumo inseguro de á pê ís: confiar sem validação nos dados devolvidos por á pê ís de terceiros.
+
+Nas interfaces com o usuário, os riscos clássicos são a injeção de scrípti entre sítios, conhecida pela sigla xis ésse ésse, tratada no bloco dois; a falsificação de requisição entre sítios, vista no item três ponto dois ponto dois; o redirecionamento aberto, em que o sistema redireciona para um endereço recebido em parâmetro, útil para golpes de captura de credenciais; e o sequestro de clique, em que uma página maliciosa embute a aplicação de forma invisível e induz o usuário a clicar, evitado por cabeçalhos que impedem a página de ser embutida por outra origem.
+
+A modelagem de ameaças encontra esses problemas antes do código. A medida dezesseis ponto catorze do Programa de Privacidade e Segurança da Informação do governo federal, visto no item três ponto três ponto quatro, manda realizá-la para identificar falhas de desenho antes que o código seja criado. O método se resume em quatro perguntas: o que estamos construindo, o que pode dar errado, o que vamos fazer a respeito e se fizemos um bom trabalho. Desenha-se o fluxo de dados, com as fronteiras de confiança, e cada elemento que cruza uma fronteira é examinado pelo modelo stráid, que associa cada ameaça à propriedade violada. Falsificação de identidade viola a autenticidade. Adulteração viola a integridade. Repúdio, negar ter feito algo, viola o não repúdio. Divulgação de informação viola a confidencialidade. Negação de serviço viola a disponibilidade. E elevação de privilégio viola a autorização.
+
+Exemplo prático. Uma á pê í pública permite consultar se uma empresa tem sanções vigentes. A modelagem aponta falsificação de identidade dos sistemas parceiros, tratada com autenticação do cliente; repúdio, tratado com registro de cada consulta; divulgação de dados pessoais de sócios, tratada com respostas mínimas; negação de serviço e extração em massa da base, tratadas com cotas por cliente, limite de taxa e paginação com teto; e elevação de privilégio pelos endpóintis administrativos, tratada com separação em outro serviço, sem exposição pública.
+
+Pegadinhas do bloco um.
+
+Ameaça e vulnerabilidade são sinônimos. Errado. Ameaça é a causa potencial do incidente; vulnerabilidade é a fraqueza que ela explora.
+
+Na lista de dois mil e vinte e cinco do ôuásp, a falsificação de requisição do lado do servidor continua como categoria própria. Errado. Foi incorporada à quebra de controle de acesso.
+
+A nota cê vê ésse ésse, sozinha, define a ordem de correção das vulnerabilidades. Errado. Combina-se com a probabilidade de exploração, a exposição e a criticidade do ativo.
+
+Projeto inseguro se corrige com implementação mais cuidadosa. Errado. A falha é do desenho, que precisa mudar.
+
+No modelo stráid, o repúdio viola a confidencialidade. Errado. Viola o não repúdio; a confidencialidade é violada pela divulgação de informação.
+
+
+BLOCO DOIS: VALIDAÇÃO DE ENTRADAS E CONTROLES DE ACESSO
+
+A autorização por objeto, por propriedade e por função, a negação por padrão e a falsificação de requisição entre sítios foram vistas no item três ponto dois ponto dois; o córs e a validação no navegador, no três ponto um ponto quatro; a validação de bíns com arroba válid, no três ponto dois ponto um; os parâmetros vinculados no jota pê á, no três ponto três ponto um; e a entidade externa do xis ême éle, no três ponto três ponto três. Aqui entram os princípios de validação, as famílias de injeção, a codificação da saída, a falsificação de requisição do lado do servidor, arquivos, desserialização e os controles de sessão.
+
+Toda entrada é não confiável: corpo, parâmetros, cabeçalhos, cúquis, arquivos, mensagens de filas, respostas de outras á pê ís e até a saída de um modelo de linguagem. A validação acontece no servidor, na fronteira de confiança, em dois níveis. O sintático confere tipo, formato, tamanho e faixa. O semântico confere a regra de negócio, como data final posterior à inicial. Prefere-se a lista de permissão, que define o que é aceito, à lista de bloqueio, que tenta enumerar o que é perigoso e é contornada por codificações alternativas. E a entrada é normalizada antes de validada: decodificada, com os caracteres normalizados e os caminhos resolvidos, porque validar antes de decodificar deixa passar a forma codificada do ataque. Quando a entrada é inválida, rejeita-se; corrigir automaticamente a entrada costuma criar novos caminhos de ataque.
+
+Injeção é a quinta categoria da lista. A causa é sempre a mesma: dado do usuário misturado ao texto de um comando que um interpretador executa. A defesa também: separar comando e dado.
+
+No banco, a consulta parametrizada envia o valor separado do texto do comando, e o valor nunca é interpretado como instrução. Mas identificadores, como o nome da coluna de ordenação ou da tabela, não podem ser parâmetros: o valor recebido é mapeado por lista de permissão para um nome fixo.
+
+Nos comandos do sistema operacional, não se chama o interpretador de comandos com texto montado: passa-se o programa e cada argumento separadamente, e, de preferência, usa-se uma biblioteca em vez do comando externo.
+
+Em bancos de documentos, a injeção usa operadores: onde se espera um texto, o atacante envia um objeto com operador de comparação que torna a condição sempre verdadeira. A defesa é exigir o tipo esperado.
+
+Nos modelos de página e nas linguagens de expressão, como a do Sprín, avaliar texto do usuário como expressão permite executar código no servidor. Nunca se avalia entrada como expressão ou como modelo.
+
+Nos logs, a quebra de linha na entrada permite forjar linhas falsas, o que se evita com log estruturado, que codifica o conteúdo de cada campo.
+
+A injeção de scrípti entre sítios é a injeção no navegador. Tem três formas. Refletida: o scrípti vem na requisição e volta na resposta. Armazenada: o scrípti é gravado, por exemplo num comentário, e executa para todos que abrem a página. E baseada no documento: o próprio código da página insere a entrada no documento sem tratamento. A defesa principal é a codificação da saída conforme o contexto, porque escapar para o corpo da página não protege um atributo, um trecho de scrípti ou um endereço. Os freimuórquis escapam por padrão: no Táimlíf, o atributo de texto escapa a marcação, e o de texto sem escape não; no Viú, como visto no item três ponto um ponto quatro, a diretiva vê agá tê ême éle insere marcação crua. Quando é preciso aceitar formatação rica, usa-se um sanitizador de agá tê ême éle com lista de permissão de marcas. E a política de segurança de conteúdo, enviada em cabeçalho, é a defesa complementar: restringe de onde a página pode carregar e executar scrípts e bloqueia scrípts embutidos. O Sprín Secúriti envia por padrão vários cabeçalhos de segurança, mas não essa política, que depende de cada aplicação.
+
+A falsificação de requisição do lado do servidor ocorre quando a aplicação busca um endereço informado pelo usuário, como num recurso de importar documento por link ou de pré-visualizar imagem. O atacante informa um endereço interno, e o servidor, de dentro da rede, acessa serviços que o atacante não alcançaria, como o serviço de metadados da nuvem, que pode entregar credenciais. A validação textual do endereço não basta, porque codificações alternativas, redirecionamentos e nomes que resolvem para endereços internos a contornam. As defesas são: lista de destinos permitidos; resolução do nome e bloqueio de faixas internas, de retorno local e de enlace local, conferidos de novo a cada redirecionamento, ou com redirecionamentos desligados; restrição de saída na rede; e o uso da versão do serviço de metadados que exige tôquen de sessão.
+
+Arquivos têm cuidados próprios. Na leitura de caminhos, o caminho é normalizado e conferido contra o diretório base, para impedir a travessia de diretórios com ponto ponto barra. No envio, limita-se o tamanho, confere-se o tipo pelo conteúdo, e não pela extensão ou pelo tipo declarado, renomeia-se o arquivo, guarda-se fora da área pública e, quando cabível, passa-se por antivírus. Na extração de arquivos compactados, confere-se cada caminho interno, contra a escrita fora do diretório, e o tamanho descompactado, contra a bomba de compressão.
+
+A desserialização de dados não confiáveis é perigosa. A serialização nativa do Java pode instanciar classes arbitrárias e encadear chamadas até executar código; se for indispensável, usam-se os filtros de desserialização. Em djêisson, o risco aparece quando a biblioteca aceita que o próprio conteúdo indique a classe a instanciar, a tipagem polimórfica aberta. O seguro são dê tê ôs com tipos explícitos.
+
+Duas armadilhas menores. A expressão regular com quantificadores aninhados, aplicada a entrada longa e maliciosa, pode consumir a capacidade de processamento por minutos, a negação de serviço por expressão regular. E toda coleção, texto e corpo recebido precisa de limite de tamanho e de profundidade.
+
+Nos controles de acesso, além do que foi visto na á pê í, há a sessão. O identificador de sessão é trocado no login, para impedir a fixação de sessão, em que o atacante planta um identificador conhecido antes da autenticação; o Sprín Secúriti faz isso por padrão. O cúqui de sessão leva três atributos: o que impede a leitura por scrípti, o que exige conexão cifrada e o de mesmo sítio, que limita o envio em requisições vindas de outros sítios. A sessão expira por inatividade e é invalidada no servidor ao sair. Arquivos em armazenamento de objetos são servidos por link assinado de curta duração ou pela própria aplicação, depois da autorização, e nunca por repositório público. E fluxos sensíveis têm limite por identidade, contra a automação em massa.
+
+Exemplo prático. Um sistema de acompanhamento de auditorias permite anexar documento informando um link. Um usuário informa o endereço do serviço de metadados da nuvem, e a resposta, com credenciais temporárias da máquina, é gravada como anexo. A correção restringe os destinos aos domínios oficiais cadastrados, resolve o nome e bloqueia faixas internas antes de cada conexão, desliga redirecionamentos, adota a versão do serviço de metadados que exige tôquen e restringe a saída de rede do serviço.
+
+Pegadinhas do bloco dois.
+
+Lista de bloqueio de caracteres perigosos é a forma preferida de validar entradas. Errado. Prefere-se a lista de permissão; bloqueios são contornados por codificações alternativas.
+
+A consulta parametrizada também protege o nome da coluna usado na ordenação. Errado. Identificadores não são parâmetros; usa-se mapeamento por lista de permissão.
+
+Escapar a saída para o corpo da página protege qualquer contexto. Errado. O escape depende do contexto: corpo, atributo, scrípti ou endereço.
+
+Conferir a extensão do arquivo enviado garante que o conteúdo é do tipo declarado. Errado. Confere-se o conteúdo, limita-se o tamanho e guarda-se fora da área pública.
+
+Recusar entradas que contenham o texto do endereço do serviço de metadados impede a falsificação de requisição do lado do servidor. Errado. Codificações, redirecionamentos e nomes que resolvem para endereços internos contornam o filtro textual.
+
+
+BLOCO TRÊS: PROTEÇÃO DE SEGREDOS E DEPENDÊNCIAS
+
+Segredos fora do código, em variáveis de ambiente ou cofres, foram vistos no item três ponto dois ponto um; o sícret do Cubernétis e o despejo de memória com segredos, no três ponto dois ponto cinco; a gestão de chaves em envelope, no três ponto três ponto quatro; e a mediação de versões do Méiven, no três ponto dois ponto cinco. Aqui entram o ciclo de vida dos segredos e a gestão das dependências.
+
+Segredo é qualquer valor que concede acesso: senha de banco, chave de á pê í, tôquen, chave privada, chave de assinatura. Seu ciclo de vida tem cinco etapas.
+
+Geração, com aleatoriedade forte e comprimento adequado.
+
+Guarda em cofre de segredos ou serviço de chaves, com injeção na aplicação durante a execução, e nunca no código, na imagem do contêiner, no repositório de configuração, nos logs ou no código que roda no cliente. Todo segredo embutido em aplicativo de navegador ou de celular é público, porque o usuário inspeciona o código; minificar ou ofuscar não muda isso.
+
+Acesso por identidade de cada serviço, com menor privilégio: o serviço de relatórios não lê o segredo do serviço de pagamentos.
+
+Rotação periódica e automática, também quando muda quem tinha acesso. Para trocar sem interrupção, a aplicação aceita a credencial antiga e a nova durante a transição.
+
+E revogação imediata quando há vazamento. Apagar o cômit não resolve: o segredo continua no histórico, nas cópias locais, nas bifurcações e nos quéchis. O procedimento é revogar e trocar a credencial e, depois, examinar nos registros se ela foi usada.
+
+A tendência é eliminar segredos de longa duração. Credenciais dinâmicas são emitidas pelo cofre sob demanda, com validade curta, e uma por instância. E a identidade da carga de trabalho, em que a plataforma comprova quem é o serviço e o provedor de nuvem troca essa prova por credencial temporária, dispensa guardar chaves de nuvem na aplicação.
+
+A detecção completa o quadro: varredura de segredos no repositório, inclusive no histórico, antes do envio e no servidor de código, e também nas imagens de contêiner e nos pacotes do código do cliente.
+
+Dependências. A maior parte do código de uma aplicação vem de terceiros, e boa parte chega de forma transitiva, trazida por outras bibliotecas. As medidas dezesseis ponto quatro e dezesseis ponto cinco do programa federal mandam manter inventário atualizado dos componentes de terceiros, com seus riscos, e usar só componentes atualizados e confiáveis, obtidos de fontes confiáveis ou avaliados antes do uso.
+
+O inventário moderno é a lista de materiais de software, em inglês ésse bôm, gerada a cada construção, nos formatos sáiclôun dí éks e ésse pê dê xis, este último também norma ízo. Ferramentas de análise de composição de software cruzam a lista com as bases de vulnerabilidades e apontam as afetadas. Para priorizar, além da gravidade e da probabilidade de exploração do bloco um, pesa a alcançabilidade: se o trecho vulnerável é usado pela aplicação.
+
+A atualização precisa de rotina. No Sprín Búti, as versões das bibliotecas são gerenciadas em conjunto, e a forma preferida de corrigir é subir a versão do próprio Sprín Búti; em urgência, sobrescreve-se a versão gerenciada de uma biblioteca específica, com teste. Componente sem manutenção, que não recebe mais correções, entra no inventário como risco a substituir.
+
+Três ataques à cadeia aparecem em prova. O pacote com nome parecido, publicado para aproveitar erros de digitação. A confusão de dependências, em que alguém publica num repositório público um pacote com o mesmo nome de um pacote interno, e a ferramenta de construção baixa o público; a defesa é resolver nomes internos só no repositório interno. E a tomada de pacote legítimo, pela invasão da conta do mantenedor ou por mantenedor novo mal-intencionado. A integridade da construção e da distribuição é tema do item três ponto quatro ponto três.
+
+Exemplo prático. Em dezembro de dois mil e vinte e um, uma vulnerabilidade de nota dez na biblioteca de log Lóg quatro djêi dois, apelidada de Lóg quatro Chél, permitiu executar código remotamente apenas fazendo a aplicação registrar um texto preparado. Muitas aplicações não declaravam a biblioteca e a recebiam de forma transitiva. Órgãos com lista de materiais responderam em horas onde ela estava; os demais varreram servidores por dias. As aplicações Sprín Búti, que usam por padrão o Lógbéc, só eram afetadas se tivessem trocado o sistema de log padrão pelo Lóg quatro djêi dois.
+
+Pegadinhas do bloco três.
+
+Removido do repositório o cômit com a senha, o segredo volta a ser seguro. Errado. Ele permanece em histórico, cópias e quéchis; revoga-se e troca-se a credencial.
+
+Chave de á pê í embutida em aplicativo de celular fica protegida se o código for ofuscado. Errado. Todo segredo no cliente é público.
+
+Só as dependências declaradas no arquivo do projeto precisam ser acompanhadas. Errado. As transitivas também, e a lista de materiais as revela.
+
+A confusão de dependências explora erros de digitação no nome do pacote. Errado. Esse é o ataque de nome parecido; a confusão explora o nome interno publicado em repositório público.
+
+
+BLOCO QUATRO: TESTES DE SEGURANÇA AUTORIZADOS
+
+Testes de invasão e ferramentas de análise dinâmica para achar falhas de autorização foram vistos no item três ponto dois ponto dois. A análise estática e a revisão de código, como práticas de qualidade, são tema do item três ponto quatro ponto dois. Aqui entram os tipos de teste de segurança, a autorização e as regras de engajamento.
+
+Os tipos. O teste estático de segurança de aplicações analisa o código-fonte ou o binário, sem executá-lo; pega cedo padrões como concatenação em consultas, mas gera falsos positivos e não vê a configuração em execução. O teste dinâmico ataca a aplicação em execução pelo lado de fora, sem ver o código; acha falhas de configuração e de execução, mas não aponta a linha. O teste interativo instrumenta a aplicação enquanto ela é exercitada e combina as duas visões. A análise de composição examina as dependências, como visto no bloco três. O teste de entradas aleatórias, em inglês fâzing, envia dados malformados em grande volume, em busca de falhas e travamentos. E o teste de intrusão, ou péntest, é feito por especialista que encadeia falhas como um atacante faria, nas modalidades caixa preta, sem informação prévia; caixa cinza, com credenciais de usuário; e caixa branca, com acesso ao código. A medida dezesseis ponto doze do programa federal manda usar análise estática e dinâmica no ciclo de vida da aplicação, e a dezesseis ponto treze observa que, em aplicações críticas, o teste de intrusão autenticado, manual, é mais adequado que as ferramentas automáticas para achar falhas de codificação e de lógica de negócio.
+
+Há também a equipe vermelha, que simula um adversário com objetivo definido, por longo período e de forma discreta, para testar também a detecção e a resposta. E os programas abertos a pesquisadores externos: o programa de divulgação de vulnerabilidades oferece canal, escopo e garantia de não perseguição a quem relata de boa-fé; o de recompensa paga por falhas válidas. A medida dezesseis ponto dois do programa federal manda manter processo para receber e tratar notificações de vulnerabilidades, inclusive pela equipe de tratamento de incidentes. E o arquivo secúriti tékst, da érre éfe cê nove mil cento e dezesseis, de dois mil e vinte e dois, publica num caminho padronizado do sítio o contato para relatos.
+
+Referências técnicas. O padrão de verificação de segurança de aplicações do ôuásp, o á ésse vê ésse, teve a versão cinco publicada em maio de dois mil e vinte e cinco, com dezessete capítulos e três níveis cumulativos de verificação, conforme o risco da aplicação. E o guia de testes de segurança web do ôuásp descreve como testar cada categoria.
+
+A autorização é o que separa o teste do crime. O artigo cento e cinquenta e quatro-A do Código Penal, incluído pela Lei doze mil setecentos e trinta e sete, de dois mil e doze, tipifica a invasão de dispositivo informático. Com a redação da Lei catorze mil cento e cinquenta e cinco, de dois mil e vinte e um, o crime é invadir dispositivo informático de uso alheio, conectado ou não à rede, com o fim de obter, adulterar ou destruir dados ou informações sem autorização expressa ou tácita do usuário do dispositivo, ou de instalar vulnerabilidades para obter vantagem ilícita. A lei de dois mil e vinte e um retirou a exigência de violação indevida de mecanismo de segurança e elevou a pena para reclusão de um a quatro anos, e multa. Incorre na mesma pena quem produz, oferece, distribui, vende ou difunde programa com o intuito de permitir a conduta. Por isso, testar o sistema de outro órgão ou de um fornecedor, mesmo com boa intenção, sem autorização de quem responde por ele, é ilícito.
+
+A autorização é formal, escrita e dada por quem tem competência sobre o sistema, e vem acompanhada das regras de engajamento. A medida dezoito ponto um do programa federal lista o que o programa de testes deve considerar: escopo, como rede, aplicação web e á pê í; frequência; limitações, como horários aceitáveis e tipos de ataque excluídos; contatos; e o encaminhamento das descobertas e as lições aprendidas. Na prática, as regras definem ainda o ambiente, preferindo homologação equivalente à produção; as técnicas proibidas, como negação de serviço e engenharia social, salvo previsão expressa; a exclusão de sistemas de terceiros, como o provedor de identidade ou a nuvem de outro contratante, que dependem de autorização própria; o tratamento mínimo dos dados acessados, sem cópia de dados pessoais e com eliminação ao fim; o procedimento de interrupção imediata; e o aviso à equipe de monitoramento, para que o teste não seja tratado como ataque real. Com empresa contratada, o contrato inclui sigilo e as cláusulas de operador de dados pessoais.
+
+Depois do teste vem o relatório, com evidência, passos para reproduzir, gravidade e recomendação. A medida dezoito ponto três manda corrigir com cronograma e esforço definidos pelo impacto e pela prioridade de cada descoberta, e a dezoito ponto quatro manda validar as medidas de segurança depois de cada teste. A correção só se encerra com o reteste.
+
+Exemplo prático. A Controladoria contrata teste de intrusão para um portal novo. O termo de autorização é assinado pelo gestor do sistema e fixa o escopo, com os endereços do portal em homologação, as contas de teste e duas semanas de janela; exclui negação de serviço e o provedor de identidade federal, que não pertence ao órgão. O testador encontra acesso a processos de outra unidade trocando o identificador, registra a prova com dados fictícios, aciona o contato e entrega o relatório. A equipe corrige, e o testador confirma a correção no reteste.
+
+Pegadinhas do bloco quatro.
+
+Teste de intrusão feito de boa-fé no sistema de outro órgão dispensa autorização, por buscar o interesse público. Errado. Sem autorização do usuário do dispositivo, configura a invasão do artigo cento e cinquenta e quatro-A do Código Penal.
+
+Após a Lei catorze mil cento e cinquenta e cinco, o crime de invasão de dispositivo exige violação de mecanismo de segurança. Errado. A exigência foi retirada.
+
+O teste estático exige a aplicação em execução. Errado. Ele analisa o código; o dinâmico é que exige a aplicação rodando.
+
+Em aplicações críticas, ferramentas automáticas dispensam o teste manual. Errado. O teste autenticado manual é mais adequado para falhas de lógica de negócio.
+
+Terminado o teste, a empresa testadora pode manter os dados pessoais acessados como evidência. Errado. O tratamento é mínimo, e os dados são eliminados ao fim, conforme as regras de engajamento.
+
+
+BLOCO CINCO: PREVENÇÃO DE VAZAMENTOS
+
+A exposição excessiva de dados nas respostas e os dê tê ôs de saída foram vistos no item três ponto dois ponto dois, assim como o tôquen no endereço e a mensagem de erro genérica no login; os logs sem segredos nem dados pessoais desnecessários, no três ponto dois ponto cinco; e a revelação do contexto por modelos de linguagem, no três ponto dois ponto quatro. Aqui entram as demais fontes de vazamento e os controles.
+
+A maior parte dos vazamentos não vem de ataques sofisticados, mas de configuração e de exposição acidental. Há oito fontes recorrentes.
+
+Erros detalhados. A pilha de chamadas, a consulta que falhou, a versão do servidor e da biblioteca entregam mapa ao atacante. O tratamento centralizado de exceções devolve o formato padronizado de problema, sem detalhes internos, com um identificador de correlação que liga a resposta ao log completo. No Sprín Búti, a pilha de chamadas e a mensagem da exceção não são incluídas na resposta de erro por padrão, e assim devem ficar em produção.
+
+Existência revelada. Responder proibido a quem pede um recurso de outro usuário confirma que ele existe; responder não encontrado não confirma. Tempos de resposta diferentes para usuário existente e inexistente também revelam informação.
+
+Quéchis. Respostas com dados pessoais levam o cabeçalho de controle de quéchi com a diretiva de não armazenar. Sem isso, um quéchi compartilhado, como uma rede de distribuição de conteúdo ou um intermediário, pode guardar a página de um usuário e entregá-la a outro.
+
+O cliente. Tôquens no armazenamento local do navegador ficam ao alcance de qualquer scrípti injetado, e por isso o cúqui protegido contra leitura por scrípti é preferível. Mapas de código-fonte publicados em produção, comentários e chaves no pacote do código do cliente revelam o que deveria ficar no servidor.
+
+Arquivos e interfaces esquecidos. O diretório oculto do controle de versão publicado junto com o sítio, cópias de segurança e arquivos de configuração na pasta pública, listagem de diretórios ligada, consoles de banco e endpóintis de diagnóstico abertos, documentação de á pê ís internas acessível pela internet e versões antigas de á pê ís nunca desligadas, a gestão inadequada de inventário do bloco um. E repositórios de objetos configurados como públicos.
+
+Exportações e relatórios. A planilha exportada traz mais colunas do que a tela mostra, e a tela não é o controle: o controle é o que o servidor entrega.
+
+Documentos. Metadados de autoria e histórico de revisões vão junto com o arquivo. E a tarja desenhada sobre o texto de um pê dê éfe não remove o texto, que continua selecionável e pesquisável por baixo.
+
+E a saída do endereço. O cabeçalho de origem envia o endereço da página anterior ao sítio seguinte, com os parâmetros que ele tiver; a política de referência limita o que é enviado.
+
+Os controles organizacionais completam os técnicos: a classificação da informação; a ferramenta de prevenção de perda de dados, prevista na medida três ponto treze do programa federal para identificar dados críticos processados, transmitidos ou armazenados; a restrição da saída de rede; e o monitoramento de volume. Um usuário que baixa em uma hora mil vezes mais registros que a média é sinal de extração, mesmo que cada acesso, isoladamente, seja permitido. Todo vazamento de dados pessoais é incidente de segurança e segue o tratamento do bloco seis.
+
+Exemplo prático. A Controladoria publica um relatório de auditoria em pê dê éfe com os nomes de servidores investigados cobertos por retângulos pretos desenhados no editor. Um jornalista copia o trecho e cola em outro programa, e os nomes aparecem. A forma correta usa a função de tarjamento, que remove o texto e a imagem por baixo da marca, depois limpa os metadados e o histórico do arquivo e, por fim, confere o resultado buscando no arquivo final os termos que deveriam ter sido removidos.
+
+Pegadinhas do bloco cinco.
+
+A tarja preta desenhada sobre o texto de um pê dê éfe remove a informação do documento. Errado. O texto continua no arquivo; usa-se o tarjamento que remove o conteúdo e se limpam os metadados.
+
+Responder proibido a quem pede recurso de outro usuário é sempre a melhor prática. Errado. Responder não encontrado evita confirmar que o recurso existe.
+
+Em produção, exibir a pilha de chamadas ao usuário facilita o suporte e não traz risco. Errado. Ela revela estrutura, versões e consultas.
+
+Se a tela não exibe um campo, a á pê í não o entrega. Errado. O que vaza é a resposta do servidor; a tela não é controle.
+
+
+BLOCO SEIS: REGISTROS, PRESERVAÇÃO DE EVIDÊNCIAS E TRATAMENTO DE FALHAS DE SEGURANÇA, INCLUSIVE EM INTEGRAÇÕES COM INTELIGÊNCIA ARTIFICIAL
+
+Log estruturado, níveis e o que não registrar foram vistos no item três ponto dois ponto cinco; retenção e proteção dos registros, no três ponto três ponto quatro; a comunicação de incidente com dados pessoais à agência em três dias úteis e a análise pós-incidente sem culpa, no três ponto um ponto cinco; e os registros exigidos na supervisão de agentes de inteligência artificial, no três ponto dois ponto quatro. Aqui entram o registro de segurança, as falhas de tratamento de exceções, o tratamento de incidentes, a preservação de evidências e as particularidades das integrações com inteligência artificial.
+
+O registro de segurança cobre os eventos que importam numa investigação: autenticações bem e malsucedidas, mudanças de senha e de fatores, negações de autorização, falhas de validação em volume anormal, ações administrativas, acessos a dados sensíveis, mudanças de configuração e exceções de segurança. Cada evento responde quando, em horário sincronizado; onde, com aplicação, instância e endpóinti; quem, com usuário, sistema chamador e origem; o quê, com ação e objeto; e o resultado; mais o identificador de correlação. O programa federal manda centralizar os logs de auditoria, retê-los pelo período definido pela organização e revisá-los semanalmente ou em intervalos menores, nas medidas oito ponto nove a oito ponto onze. E registrar sem alertar não basta: a nona categoria da lista do ôuásp passou a se chamar falhas de registro e de alerta, porque o log que ninguém lê não detecta nada.
+
+A décima categoria trata das condições excepcionais. O erro clássico é falhar aberto: a verificação de permissão lança exceção, o bloco que a captura devolve verdadeiro, e o acesso é concedido; ou o serviço de autorização não responde, e a aplicação libera. A regra é falhar fechado, como no exemplo de continuidade do item três ponto dois ponto cinco: na dúvida, nega. Também entram aqui a exceção engolida sem registro, o estado inconsistente após falha parcial sem reversão da transação e a exceção que vaza detalhes, do bloco cinco.
+
+O tratamento de incidentes começa pela definição. Pelo Decreto dez mil setecentos e quarenta e oito, de dois mil e vinte e um, incidente cibernético é a ocorrência que compromete, real ou potencialmente, a disponibilidade, a integridade, a confidencialidade ou a autenticidade de sistema de informação ou das informações que ele trata, e que pode se caracterizar também pela tentativa de explorar vulnerabilidade com violação de norma ou de política de segurança. Nem todo evento é incidente, e a medida dezessete ponto nove do programa federal manda manter critérios para distinguir um do outro.
+
+O mesmo decreto instituiu a Rede Federal de Gestão de Incidentes Cibernéticos. A participação é obrigatória para os órgãos e as entidades da administração pública federal direta, autárquica e fundacional, e voluntária, por adesão, para as empresas públicas e sociedades de economia mista. A coordenação é do Gabinete de Segurança Institucional, por meio do Centro de Prevenção, Tratamento e Resposta a Incidentes Cibernéticos de Governo, o cê tê í érre gov. Cada órgão institui sua equipe de prevenção, tratamento e resposta a incidentes cibernéticos e deve comunicar imediatamente ao centro as vulnerabilidades e os incidentes que afetem seus serviços. Quando há dados pessoais, soma-se a comunicação à agência e aos titulares, e o regulamento de comunicação de incidentes, de dois mil e vinte e quatro, exige manter o registro de todo incidente, comunicado ou não, por no mínimo cinco anos.
+
+As fases. O guia de resposta a incidentes do Níst, na revisão dois, de dois mil e doze, consagrou quatro fases: preparação; detecção e análise; contenção, erradicação e recuperação; e atividade pós-incidente. A revisão três, de abril de dois mil e vinte e cinco, substituiu a anterior e reorganizou a resposta pelas funções do arcabouço de cibersegurança dois ponto zero: governar, identificar e proteger sustentam a preparação, de forma ampla; detectar, responder e recuperar formam a resposta; e as lições aprendidas alimentam a melhoria contínua de todas as funções.
+
+Na aplicação, a contenção tem ferramentas próprias: revogar e trocar credenciais e tôquens; desligar a funcionalidade afetada pela chave de funcionalidade; bloquear contas e origens; isolar a instância. Mas conter não pode destruir a prova.
+
+Preservação de evidências. A regra é preservar antes de remediar, sempre que o dano em curso permitir. A ordem segue a volatilidade, como recomenda a érre éfe cê três mil duzentos e vinte e sete: primeiro a memória, os processos e as conexões ativas, que se perdem ao desligar; depois os arquivos temporários; o disco; os logs remotos; e as cópias arquivadas. Em contêineres, a instância comprometida não é simplesmente destruída: antes, exportam-se os logs, o sistema de arquivos da instância e, se necessário, o despejo de memória, que contém segredos e precisa de guarda restrita; registra-se o resumo da imagem em execução; tiram-se instantâneos de volumes e do banco; preservam-se os registros do provedor de nuvem; e suspende-se a rotação automática que apagaria logs antigos.
+
+A integridade se garante com o resumo criptográfico calculado na coleta, o trabalho sobre cópias e o armazenamento sem regravação. E tudo se documenta: quem coletou, quando, como, onde ficou e cada acesso posterior. É a cadeia de custódia, definida no artigo cento e cinquenta e oito-A do Código de Processo Penal, incluído pela Lei treze mil novecentos e sessenta e quatro, de dois mil e dezenove: o conjunto de todos os procedimentos usados para manter e documentar a história cronológica do vestígio coletado, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte. O artigo cento e cinquenta e oito-B lista dez etapas: reconhecimento, isolamento, fixação, coleta, acondicionamento, transporte, recebimento, processamento, armazenamento e descarte. A regra é do processo penal, mas o mesmo rigor sustenta a prova em processos disciplinares e de responsabilização. As referências técnicas são a norma ízo í é cê vinte e sete mil e trinta e sete, sobre identificação, coleta, aquisição e preservação de evidência digital, e a Norma Complementar vinte e um do gê ésse í, sobre registro de eventos e coleta e preservação de evidências de incidentes.
+
+Integrações com inteligência artificial. O que registrar: o modelo e sua versão exata; a versão da instrução de sistema; a entrada do usuário, com o mascaramento de dados pessoais que a finalidade permitir; os identificadores dos trechos recuperados e seus rótulos de acesso; cada chamada de ferramenta, com argumentos e resultado; as decisões dos filtros de segurança; quem aprovou cada ação; a resposta entregue; e o identificador de correlação com os logs da aplicação. Como o modelo não é determinístico, repetir a pergunta não reproduz o incidente: o registro é a evidência. O provedor pode guardar pouco ou nada, especialmente em contratos sem retenção de dados, e por isso o órgão mantém o próprio registro e, havendo incidente, pede de imediato os registros do provedor. E esses registros contêm dados pessoais, com a retenção e a proteção do item três ponto três ponto quatro.
+
+Os incidentes típicos são a injeção de instruções bem-sucedida, com exfiltração de dados ou ação indevida de ferramenta; a revelação da instrução de sistema ou de dados de outros usuários; o envenenamento da base de recuperação ou dos dados de treinamento; o uso de resposta incorreta em decisão; o consumo abusivo, que gera custo e indisponibilidade; e o comprometimento de componente da cadeia, como modelo ou extensão de terceiros. A contenção usa uma chave de desligamento das ferramentas ou do agente, a revogação das credenciais que ele usava, a retirada dos documentos envenenados do índice, o retorno à versão anterior do modelo ou da instrução e limites de uso mais estreitos. Depois, o ataque vira caso de teste no conjunto de avaliação e entra na modelagem de ameaças. Como referências, além da lista do ôuásp para modelos de linguagem, há a base Máitre Átlas, que cataloga táticas de ataque contra sistemas de inteligência artificial. E não há lei específica de inteligência artificial em vigor: o projeto aprovado pelo Senado em dezembro de dois mil e vinte e quatro ainda tramitava na Câmara em outubro de dois mil e vinte e seis, e valem a Lei Geral de Proteção de Dados e as normas de incidentes cibernéticos.
+
+Exemplo prático. O assistente de resumo de denúncias da Controladoria passa a incluir, nas respostas, imagens cujo endereço carrega trechos de outras denúncias, efeito de instruções escondidas em um anexo. A equipe desliga a ferramenta de exibição de imagens externas, preserva os registros das interações, com o anexo, os trechos recuperados e as respostas, e calcula seus resumos criptográficos. Pelos registros, identifica quais denúncias vazaram e para qual servidor, revoga os tôquens do assistente e comunica o centro de governo. Como há dados pessoais e risco relevante, o encarregado comunica a agência e os titulares no prazo. Depois, o anexo vira caso de teste, e a interface passa a bloquear imagens de origens externas.
+
+Pegadinhas do bloco seis.
+
+Diante de um incidente, a primeira providência é reiniciar o servidor afetado para restabelecer o serviço. Errado. Antes se preserva o que é volátil; reiniciar apaga memória, processos e conexões.
+
+A cadeia de custódia começa quando a evidência chega ao laboratório de perícia. Errado. Começa no reconhecimento do vestígio, primeira das etapas do artigo cento e cinquenta e oito-B.
+
+Falhar aberto, liberando o acesso quando o serviço de autorização não responde, é a prática recomendada para preservar a disponibilidade. Errado. Falha-se fechado; falhar aberto está na categoria nova da lista de dois mil e vinte e cinco.
+
+Como o modelo de linguagem não é determinístico, o registro das interações é dispensável, porque não permite reproduzir o incidente. Errado. Justamente por isso o registro é a principal evidência.
+
+Incidentes não comunicados à agência dispensam registro. Errado. O regulamento de dois mil e vinte e quatro exige registrar todos por no mínimo cinco anos.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Ameaças e vulnerabilidades. Risco combina probabilidade e impacto; superfície de ataque inclui filas, arquivos, interfaces administrativas e dependências. Cê vê é identifica a vulnerabilidade, cê dábliu é o tipo de fraqueza, cê vê ésse ésse quatro a gravidade. Ôuásp de dois mil e vinte e cinco: acesso, configuração, cadeia de suprimento, criptografia, injeção, projeto, autenticação, integridade, registro e alerta, condições excepcionais. Á pê ís: consumo irrestrito, fluxos sensíveis, inventário e consumo inseguro. Quatro perguntas da modelagem; stráid examina o que cruza fronteiras de confiança.
+
+Validação e acesso. Validação no servidor, sintática e semântica, depois de normalizar. Injeção separa-se com parâmetros; comandos com argumentos separados; tipo exigido em bancos de documentos; nunca avaliar entrada como expressão. Xis ésse ésse refletida, armazenada e no documento; sanitizador para formatação rica; política de segurança de conteúdo não vem por padrão no Sprín Secúriti. Falsificação do lado do servidor: lista de destinos, bloqueio de faixas internas a cada redirecionamento e restrição de saída. Caminho normalizado contra o diretório base; dê tê ôs explícitos contra desserialização. Sessão trocada no login; links assinados de curta duração.
+
+Segredos e dependências. Gerar, guardar, dar acesso, rotacionar e revogar; credenciais dinâmicas e identidade da carga de trabalho. Varredura no histórico, nas imagens e no código do cliente. Lista de materiais a cada construção; alcançabilidade na priorização; subir a versão do Sprín Búti. Tomada de pacote legítimo pela conta do mantenedor.
+
+Testes autorizados. Estático, dinâmico, interativo, composição, fâzing e intrusão em caixa preta, cinza ou branca; equipe vermelha testa também a resposta. Divulgação de vulnerabilidades e recompensa; secúriti tékst. Á ésse vê ésse cinco, de maio de dois mil e vinte e cinco. Regras de engajamento: ambiente, técnicas proibidas, terceiros excluídos, dados mínimos, interrupção e aviso ao monitoramento. Correção priorizada e reteste.
+
+Vazamentos. Erro padronizado com identificador de correlação; não armazenar em quéchi respostas pessoais; cúqui protegido em vez de armazenamento local; diretório do controle de versão, cópias, consoles e versões antigas expostos; política de referência. Prevenção de perda de dados e monitoramento de volume.
+
+Registros, evidências e falhas. Quando, onde, quem, o quê e resultado, com correlação; centralizar, reter e revisar semanalmente. Rede federal coordenada pelo cê tê í érre gov, com comunicação imediata. Níst: quatro fases na revisão dois; revisão três de dois mil e vinte e cinco pelas funções do arcabouço dois ponto zero. Ordem de volatilidade; resumo na coleta, cópias e armazenamento sem regravação; ízo vinte e sete mil e trinta e sete e Norma Complementar vinte e um. Em inteligência artificial: modelo, instrução, trechos, ferramentas, filtros e aprovações registrados; chave de desligamento; marco legal ainda em tramitação.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na edição de dois mil e vinte e cinco da lista do ôuásp, a quebra de controle de acesso permanece em primeiro lugar e passou a abranger a falsificação de requisição do lado do servidor.
+
+Gabarito: certo. A categoria incorporou esse risco, antes listado à parte.
+
+Item dois. No modelo stráid, a ameaça de elevação de privilégio corresponde à violação da integridade.
+
+Gabarito: errado. Corresponde à autorização; a integridade é violada pela adulteração.
+
+Item três. A nota cê vê ésse ésse mede a gravidade de uma vulnerabilidade, enquanto o é pê ésse ésse estima a probabilidade de sua exploração, e as duas informações se complementam na priorização das correções.
+
+Gabarito: certo. Gravidade não é prioridade; somam-se exploração, exposição e criticidade.
+
+Item quatro. A validação por lista de bloqueio é preferível à validação por lista de permissão, por admitir mais entradas legítimas.
+
+Gabarito: errado. Prefere-se a lista de permissão, que não depende de prever todas as formas de ataque.
+
+Item cinco. Na consulta parametrizada, o valor fornecido pelo usuário é enviado separado do texto do comando, de modo que não é interpretado como parte da instrução.
+
+Gabarito: certo. É a separação entre comando e dado.
+
+Item seis. Em funcionalidade que baixa documento de endereço informado pelo usuário, basta verificar que o endereço começa com agá tê tê pê ésse para evitar a falsificação de requisição do lado do servidor.
+
+Gabarito: errado. Exigem-se lista de destinos, bloqueio de faixas internas após a resolução e restrição de saída na rede.
+
+Item sete. A política de segurança de conteúdo é defesa complementar contra a injeção de scrípti entre sítios, ao restringir as origens de onde a página pode carregar e executar scrípts.
+
+Gabarito: certo. A defesa principal continua sendo a codificação da saída conforme o contexto.
+
+Item oito. Detectada senha de banco publicada no repositório, basta reescrever o histórico para remover o cômit.
+
+Gabarito: errado. Revoga-se e troca-se a credencial, e verifica-se o uso nos registros.
+
+Item nove. A lista de materiais de software relaciona os componentes da aplicação, inclusive os transitivos, e permite localizar rapidamente os sistemas afetados por uma vulnerabilidade divulgada.
+
+Gabarito: certo. É o inventário previsto na medida dezesseis ponto quatro do programa federal.
+
+Item dez. Um segredo embutido no código de aplicação executada no navegador permanece protegido se o código for minificado.
+
+Gabarito: errado. Todo segredo no cliente é público.
+
+Item onze. Pelo Código Penal, invadir dispositivo informático de uso alheio, com o fim de obter dados, sem autorização expressa ou tácita do usuário do dispositivo, é crime, ainda que não haja violação de mecanismo de segurança.
+
+Gabarito: certo. Artigo cento e cinquenta e quatro-A, com a redação da Lei catorze mil cento e cinquenta e cinco, de dois mil e vinte e um.
+
+Item doze. O teste estático de segurança de aplicações examina a aplicação em execução, enviando requisições maliciosas aos seus endpóintis.
+
+Gabarito: errado. Isso é o teste dinâmico; o estático analisa o código.
+
+Item treze. As regras de engajamento de um teste de intrusão definem, entre outros pontos, o escopo, os horários aceitáveis, os tipos de ataque excluídos e os contatos.
+
+Gabarito: certo. Medida dezoito ponto um do programa federal.
+
+Item catorze. Desenhar um retângulo preto sobre o texto de um pê dê éfe remove a informação do documento.
+
+Gabarito: errado. O texto permanece no arquivo.
+
+Item quinze. Responder não encontrado, em vez de proibido, a quem pede um recurso a que não tem acesso evita revelar que o recurso existe.
+
+Gabarito: certo. A resposta proibida confirma a existência.
+
+Item dezesseis. Em produção, exibir ao usuário a pilha de chamadas da exceção é recomendável, por facilitar o diagnóstico sem expor informação sensível.
+
+Gabarito: errado. A pilha revela estrutura, versões e consultas; ela fica no log, ligada por identificador de correlação.
+
+Item dezessete. Pelo Código de Processo Penal, cadeia de custódia é o conjunto de todos os procedimentos utilizados para manter e documentar a história cronológica do vestígio coletado, para rastrear sua posse e manuseio a partir de seu reconhecimento até o descarte.
+
+Gabarito: certo. Artigo cento e cinquenta e oito-A.
+
+Item dezoito. A participação dos órgãos da administração pública federal direta, autárquica e fundacional na Rede Federal de Gestão de Incidentes Cibernéticos é voluntária, mediante adesão.
+
+Gabarito: errado. É obrigatória; a adesão voluntária é prevista para empresas públicas e sociedades de economia mista.
+
+Item dezenove. Diante de contêiner comprometido, o correto é destruí-lo imediatamente e subir outro, pois a imagem original constitui evidência suficiente.
+
+Gabarito: errado. Antes se preservam logs, sistema de arquivos da instância e memória, quando necessária.
+
+Item vinte. Em integrações com modelos de linguagem, o registro das entradas, dos trechos recuperados, das chamadas de ferramentas e das versões de modelo e de instrução é a principal evidência para investigar um incidente, dado o comportamento não determinístico do modelo.
+
+Gabarito: certo. Repetir a interação não reproduz o resultado.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto quatro ponto dois, testes e qualidade.
