@@ -1,0 +1,292 @@
+AUDIOAULA. ITEM TRÊS PONTO QUATRO PONTO QUATRO DO EDITAL: GESTÃO DE PRODUTOS E GOVERNANÇA
+
+
+ABERTURA
+
+Este é o item três ponto quatro ponto quatro, gestão de produtos e governança. Ele tem cinco subitens, tratados em cinco blocos: descoberta de necessidades, entrega e ciclo de vida de produtos digitais; Scrâm e Cânban; priorização, critérios de aceitação e indicadores de resultado; pê dê tê í cê, plano de transformação digital e plano de dados abertos aplicados a produtos e integrações; e riscos, responsabilidades e evidências de efetividade de controles. A banca costuma explorar os papéis e eventos do Scrâm, as métricas de fluxo do Cânban, a diferença entre produto e resultado, o conteúdo mínimo dos planos no decreto de dois mil e vinte e quatro e a diferença entre controle desenhado e controle efetivo.
+
+
+BLOCO UM: DESCOBERTA DE NECESSIDADES, ENTREGA E CICLO DE VIDA DE PRODUTOS DIGITAIS
+
+As técnicas de levantamento de necessidades, o desenho centrado nas pessoas, o duplo diamante e a prototipagem foram vistos no item três ponto um ponto um; a avaliação com usuários, no três ponto um ponto quatro; e a separação entre implantar e liberar, no três ponto um ponto cinco. Aqui entram a gestão por produto, a descoberta contínua, a entrega incremental e o ciclo de vida.
+
+Projeto e produto não se confundem. O projeto tem começo, fim e escopo definidos, e a equipe se desfaz na entrega. O produto tem ciclo de vida: uma equipe estável o evolui continuamente, e o sucesso se mede pelos resultados que ele produz para os usuários e para a organização, e não por entregar um escopo no prazo. Um serviço público digital é produto: depois do lançamento, precisa de evolução, de correções de segurança, de suporte e de medição.
+
+Na gestão por produto, descoberta e entrega correm em paralelo. A descoberta reduz a incerteza sobre o que construir; a entrega constrói com qualidade. Márti Kêigan resume a descoberta em quatro riscos a reduzir antes de construir em escala. O risco de valor: as pessoas vão usar, ou escolher, a solução? O de usabilidade: conseguem entender como usá-la? O de viabilidade técnica: a equipe consegue construí-la com o tempo, as habilidades e a tecnologia disponíveis? E o de viabilidade para a organização: a solução funciona para o órgão, considerando base legal, orçamento, operação, atendimento e proteção de dados?
+
+Três ferramentas de descoberta merecem atenção. A ideia dos trabalhos a fazer, de Clêiton Crístensen, pergunta que progresso a pessoa quer fazer numa situação, e não que funcionalidade ela pede: o gestor municipal não quer consultar sanções, quer pagar o fornecedor com segurança. A árvore de oportunidades e soluções, de Teresa Torres, de dois mil e vinte e um, parte do resultado desejado, desdobra-o nas oportunidades, isto é, necessidades e dores observadas, liga a cada oportunidade algumas soluções possíveis e testa as hipóteses mais arriscadas de cada solução antes de construí-la. E o produto mínimo viável, de Érik Ráis, de dois mil e onze, é a versão que permite completar o ciclo construir, medir e aprender com o menor esforço; o objetivo é o aprendizado validado, e não lançar algo incompleto e malfeito. Às vezes, o produto mínimo é um processo manual por trás de uma interface simples, para testar se há demanda antes de automatizar.
+
+A entrega é incremental e iterativa: cada incremento é utilizável, e o seguinte se ajusta ao que se aprendeu. O mapa de histórias, de Djéf Pétton, organiza na horizontal as atividades do usuário, na ordem em que ele as faz, e na vertical os detalhes de cada uma. As fatias horizontais definem as liberações: a primeira percorre de ponta a ponta as atividades principais, ainda que de forma simples, em vez de terminar uma etapa inteira antes de começar a seguinte. E o roteiro do produto se organiza por resultados e horizontes, como agora, próximo e depois, e não por uma lista de funcionalidades com datas fixas.
+
+O ciclo de vida do produto passa por concepção e descoberta, primeiro incremento e lançamento, crescimento e evolução, maturidade e sustentação, declínio e descontinuação. Cada fase pede investimento e métricas diferentes, e o custo de sustentar costuma superar o de construir, tema do item três ponto quatro ponto cinco. A descontinuação também se planeja: aviso com antecedência e indicação da alternativa; período de convivência; migração ou arquivamento dos dados, conforme a tabela de temporalidade vista no item três ponto três ponto quatro; encerramento das integrações, com aviso aos sistemas consumidores; revogação de contas e credenciais; atualização dos inventários de ativos e de software; e desligamento da infraestrutura, com registro da decisão.
+
+Exemplo prático. A Controladoria planejava um aplicativo para gestores municipais consultarem sanções de fornecedores. As entrevistas mostraram que o gestor consulta no momento de liquidar a despesa, no sistema de contabilidade do município, e não abriria um aplicativo a mais. O produto mínimo virou uma á pê í de verificação integrada a dois sistemas de contabilidade usados por muitos municípios, testada com dez prefeituras. O indicador acompanhado foi a proporção de pagamentos verificados antes da liquidação, e não o número de instalações do aplicativo, que nunca foi construído.
+
+Pegadinhas do bloco um.
+
+Produto mínimo viável é a primeira versão completa do sistema, com todas as funcionalidades essenciais. Errado. É o menor esforço que permite aprender com usuários reais, e pode até ser manual.
+
+Na gestão por produto, o sucesso se mede pela entrega do escopo no prazo. Errado. Mede-se pelos resultados para usuários e organização.
+
+A descoberta termina quando o desenvolvimento começa. Errado. Ela é contínua e corre em paralelo com a entrega.
+
+O risco de viabilidade para a organização é a capacidade técnica da equipe de construir a solução. Errado. Esse é o risco de viabilidade técnica; o outro envolve base legal, orçamento, operação e proteção de dados.
+
+Descontinuar um produto digital se resume a desligar os servidores. Errado. Inclui aviso, convivência, dados, integrações, credenciais e inventários.
+
+
+BLOCO DOIS: SCRÂM E CÂNBAN
+
+As histórias de usuário, os critérios de aceitação e a definição de pronto foram vistos no item três ponto um ponto um; a lei de Lítol, no três ponto dois ponto cinco; e os limites da velocidade como métrica, no três ponto quatro ponto dois. Aqui entram o Guia do Scrâm, o Guia do Cânban e a comparação entre eles.
+
+O Scrâm é um arcabouço leve para gerar valor por meio de soluções adaptativas para problemas complexos. O guia oficial, de Quén Chuêiber e Djéf Sâderland, está na edição de novembro de dois mil e vinte, ainda vigente. Ele se apoia no empirismo e no pensamento enxuto, com três pilares, transparência, inspeção e adaptação, e cinco valores: comprometimento, foco, abertura, respeito e coragem.
+
+O time de Scrâm é pequeno, em geral com dez pessoas ou menos, multifuncional e autogerenciado: decide internamente quem faz o quê, quando e como. A edição de dois mil e vinte trocou autorganizado por autogerenciado, acabou com a expressão time de desenvolvimento, para haver um único time, e passou a falar em responsabilidades, e não em papéis. São três.
+
+O dono do produto é responsável por maximizar o valor do produto e pela gestão do béclog do produto: desenvolver e comunicar a meta do produto, criar e ordenar os itens e garantir que o béclog seja transparente e compreendido. É uma pessoa, e não um comitê; representa as necessidades das partes interessadas, e as decisões dele são respeitadas pela organização.
+
+O Scrâm Máster é responsável pela eficácia do time: ajuda o time, o dono do produto e a organização a entender e aplicar o Scrâm e remove impedimentos. Não é gerente de projeto nem distribui tarefas.
+
+Os desenvolvedores criam o plano da sprínt, o béclog da sprínt; asseguram a qualidade aderindo à definição de pronto; adaptam o plano a cada dia rumo à meta da sprínt; e se responsabilizam uns perante os outros.
+
+Os eventos são cinco, todos com duração máxima. A sprínt, de duração fixa de um mês ou menos, é o contêiner dos demais; durante ela, não se fazem mudanças que ponham em risco a meta da sprínt, e a qualidade não diminui. O planejamento da sprínt responde por que a sprínt vale a pena, o que pode ser feito e como, em até oito horas para uma sprínt de um mês. A reunião diária, de quinze minutos, é dos desenvolvedores, para inspecionar o progresso rumo à meta da sprínt e adaptar o plano. A revisão da sprínt, de até quatro horas, inspeciona o resultado com as partes interessadas e decide adaptações; é sessão de trabalho, e não apresentação. E a retrospectiva, de até três horas, planeja formas de aumentar a qualidade e a eficácia. O refinamento do béclog é atividade contínua, e não evento. Só o dono do produto pode cancelar a sprínt, o que pode ocorrer quando a meta da sprínt se torna obsoleta.
+
+Os artefatos são três, cada um com um compromisso. O béclog do produto tem a meta do produto. O béclog da sprínt tem a meta da sprínt. E o incremento tem a definição de pronto. Podem ser gerados vários incrementos numa sprínt e liberados antes da revisão: a revisão não é portão para entregar valor.
+
+O que o guia não prescreve também cai em prova: pontos de história, velocidade, gráfico de queima, as três perguntas da reunião diária, que a edição de dois mil e vinte removeu, e a definição de preparado. São práticas complementares, e não regras do Scrâm.
+
+O Cânban, no guia de Daniel Vacânti e Djón Côulman, cuja versão atual é de maio de dois mil e vinte e cinco, é uma estratégia para otimizar o fluxo de valor por meio de um processo. Usa três práticas em conjunto: definir e visualizar o fluxo de trabalho, gerir ativamente os itens no fluxo e melhorar o fluxo.
+
+A definição do fluxo de trabalho tem seis elementos mínimos: o que é a unidade de valor que flui, o item de trabalho; quando um item começa e quando termina; um ou mais estados entre o começo e o fim; como o trabalho em andamento é controlado, em geral com limites explícitos por estado ou para o sistema todo; políticas explícitas de como os itens passam por cada estado; e a expectativa de nível de serviço, uma previsão de quanto tempo um item deve levar do começo ao fim, com uma probabilidade, como oitenta e cinco por cento dos itens prontos em oito dias ou menos.
+
+As quatro métricas obrigatórias são o trabalho em andamento, os itens começados e não terminados; a vazão, os itens terminados por unidade de tempo; a idade do item, o tempo desde que um item começou até agora; e o tempo de ciclo, o tempo entre o começo e o fim de um item. Pela lei de Lítol, vista no item três ponto dois ponto cinco, o tempo médio de ciclo é o trabalho em andamento dividido pela vazão. Por isso, limitar o trabalho em andamento encurta o tempo de ciclo: o sistema puxa trabalho novo quando há capacidade, em vez de empurrar tudo de uma vez. A idade do item serve de alerta precoce: um item muito mais velho que a expectativa de nível de serviço pede atenção antes de atrasar.
+
+A comparação mais cobrada. O Scrâm trabalha em sprínts de duração fixa, com três responsabilidades e cinco eventos definidos e compromisso com a meta da sprínt. O Cânban não prescreve iterações nem papéis, trabalha em fluxo contínuo, admite entrada de trabalho a qualquer momento conforme a capacidade e mede o fluxo. Os dois se combinam: times de Scrâm podem usar as práticas do Cânban dentro da sprínt, há guia oficial para isso, e a combinação costuma ser chamada de Scrâmban. A escolha depende do trabalho: evolução de produto com metas planejáveis combina com sprínts; sustentação e atendimento de demandas imprevisíveis combinam com fluxo contínuo. A contratação com métodos ágeis é tema do item três ponto quatro ponto cinco.
+
+Exemplo prático. A equipe de sustentação de um sistema da Controladoria tinha vinte demandas em andamento e entregava cinco por semana, o que, pela lei de Lítol, dá tempo médio de ciclo de quatro semanas. Com o limite de dez itens em andamento e a mesma vazão, o tempo médio de ciclo caiu para duas semanas, sem ninguém trabalhar mais: as demandas passaram a esperar na fila de entrada, visível e priorizada, e não pela metade no meio do fluxo.
+
+Pegadinhas do bloco dois.
+
+O Scrâm Máster é o gerente do projeto e distribui as tarefas aos desenvolvedores. Errado. Ele responde pela eficácia do time, e os desenvolvedores se autogerenciam.
+
+O dono do produto pode ser um comitê formado pelas áreas interessadas. Errado. É uma pessoa, que representa as partes interessadas.
+
+A reunião diária serve para os desenvolvedores reportarem o andamento ao Scrâm Máster. Errado. Ela é dos desenvolvedores, para inspecionar o progresso rumo à meta da sprínt e adaptar o plano.
+
+O Guia do Scrâm exige estimativa em pontos de história e acompanhamento da velocidade. Errado. O guia não prescreve nenhum dos dois.
+
+No Cânban, aumentar o trabalho em andamento reduz o tempo de ciclo, porque mais itens são trabalhados ao mesmo tempo. Errado. Com a vazão constante, mais trabalho em andamento aumenta o tempo de ciclo.
+
+A revisão da sprínt é o único momento em que o incremento pode ser liberado aos usuários. Errado. Podem ser liberados vários incrementos antes da revisão.
+
+
+BLOCO TRÊS: PRIORIZAÇÃO, CRITÉRIOS DE ACEITAÇÃO E INDICADORES DE RESULTADO
+
+A técnica MoSCoW, a sigla INVEST, os três cês, os critérios de aceitação e a definição de pronto foram vistos no item três ponto um ponto um; o modelo lógico, com insumos, atividades, produtos, resultados e impactos, no um ponto quatro ponto três; a avaliação dos serviços pelo Código de Defesa do Usuário, no um ponto quatro ponto cinco; e os limites das métricas, no três ponto quatro ponto dois. Aqui entram a priorização por valor e por custo do atraso, os critérios de aceitação dos aspectos não funcionais e os indicadores de resultado de produtos.
+
+Priorizar é decidir o que não fazer agora. Quatro técnicas complementam a MoSCoW.
+
+O custo do atraso, de Dôn Ráinertsen, é o valor perdido por unidade de tempo enquanto algo não é entregue. Dividido pela duração do trabalho, dá a regra de fazer primeiro o que tem alto custo do atraso e curta duração. A versão usada no arcabouço Séif, chamada trabalho mais curto ponderado primeiro, soma no numerador o valor para o negócio e o usuário, a criticidade do prazo e a redução de riscos ou abertura de oportunidades, e divide pelo tamanho.
+
+O método ráis multiplica alcance, impacto e confiança e divide pelo esforço. A confiança é o ponto que o distingue: uma ideia de impacto alto, mas sem evidência, perde pontos.
+
+O modelo de Kano, de Noriaqui Cano, classifica as características pela reação do usuário. As obrigatórias não encantam quando presentes, mas causam insatisfação quando ausentes, como o comprovante de um pedido. As de desempenho satisfazem mais quanto melhores, como a rapidez. As atrativas encantam quando presentes e não frustram quando ausentes, como o preenchimento automático com dados que o Estado já tem. E há as indiferentes. Com o tempo, o atrativo vira obrigatório.
+
+E a matriz de valor e esforço separa ganhos rápidos, grandes apostas, tarefas de preenchimento e o que não vale fazer.
+
+No setor público, a priorização tem restrições próprias. Prazos legais e decisões judiciais não se negociam. Riscos a direitos e à segurança pesam mais que conveniência. A inclusão importa: quem fica de fora de uma solução só digital. E a prioridade pela opinião de quem tem mais poder, sem evidência, é o erro clássico que as técnicas tentam evitar.
+
+Os critérios de aceitação de cada item, vistos no item três ponto um ponto um, convivem com critérios gerais na definição de pronto, que é onde entram os aspectos não funcionais: acessibilidade no nível duplo A, verificação de segurança, requisitos de privacidade, desempenho medido, registros e métricas de observabilidade e documentação. A definição de preparado, usada por alguns times para dizer quando um item pode entrar na sprínt, não consta do Guia do Scrâm e, usada como portão rígido, atrasa o fluxo.
+
+Indicadores de resultado. A distinção central é entre o produto entregue, como a nova tela; o resultado, a mudança no comportamento ou na situação do usuário, como concluir o pedido sem ajuda; e o impacto, o efeito de longo prazo na sociedade. Produto se conta; resultado se mede no usuário.
+
+Três modelos organizam os indicadores. Os objetivos e resultados-chave, em inglês ó quêi ár, criados por Endi Grôuv na Intel e difundidos por Djón Dôr no Google: o objetivo é qualitativo e mobilizador; os resultados-chave, em geral de três a cinco, são medidas de resultado, com linha de base e meta, e não lista de tarefas. O modelo rárt, do Google, olha cinco dimensões da experiência: felicidade, engajamento, adoção, retenção e sucesso na tarefa, e as liga a objetivos, sinais e métricas. E a métrica estrela-guia é o indicador único que melhor representa o valor entregue ao usuário, acompanhado de outros.
+
+Bons indicadores combinam sinais antecedentes, que se movem cedo, como a taxa de conclusão de um passo, e consequentes, que confirmam depois, como a redução de reclamações; têm métricas de proteção, que impedem melhorar um número piorando outro; e evitam as métricas de vaidade, como acessos e cadastros, que crescem sem dizer se o serviço funciona. Para serviços públicos digitais, os indicadores típicos são a taxa de conclusão sem ajuda, o tempo para obter o serviço, a satisfação medida na avaliação do serviço, o volume de pedidos de ajuda e de reclamações, o custo por atendimento e a proporção de pessoas atendidas por canais alternativos. As recorrências em manifestações como sinal de problema são tema do item dois ponto dois ponto quatro.
+
+Exemplo prático. Para a á pê í de verificação de sanções do bloco um, o objetivo é tornar a verificação de fornecedores simples e confiável para os municípios. Os resultados-chave são: subir de quarenta para setenta por cento a proporção de pagamentos verificados antes da liquidação nos municípios integrados; reduzir de dez minutos para dois o tempo médio de verificação; e cortar pela metade as manifestações de dúvida sobre o tema. Entregar a integração com mais três sistemas de contabilidade é produto, e por isso vai para o plano de ações, e não para a lista de resultados-chave.
+
+Pegadinhas do bloco três.
+
+No modelo de Kano, as características atrativas causam insatisfação quando ausentes. Errado. Elas encantam quando presentes e não frustram quando ausentes; as obrigatórias é que frustram quando faltam.
+
+Pelo custo do atraso dividido pela duração, priorizam-se primeiro os itens de maior duração. Errado. Priorizam-se os de maior razão: alto custo do atraso e curta duração.
+
+Os resultados-chave de um objetivo listam as entregas planejadas, como a nova tela e o novo relatório. Errado. Eles medem resultados; entregas são produtos.
+
+O número de acessos ao portal é indicador de resultado suficiente para um serviço digital. Errado. É métrica de vaidade; resultado é a tarefa concluída, o tempo e a satisfação.
+
+A definição de preparado é um dos compromissos do Guia do Scrâm. Errado. Os compromissos são a meta do produto, a meta da sprínt e a definição de pronto.
+
+
+BLOCO QUATRO: PÊ DÊ TÊ Í CÊ, PLANO DE TRANSFORMAÇÃO DIGITAL E PLANO DE DADOS ABERTOS APLICADOS A PRODUTOS E INTEGRAÇÕES
+
+A Estratégia Federal de Governo Digital, do Decreto doze mil cento e noventa e oito, de dois mil e vinte e quatro, com sua execução por planos de transformação digital, foi vista no item um ponto quatro ponto cinco; a política de dados abertos, o Decreto oito mil setecentos e setenta e sete e a coordenação pela Controladoria, no três ponto dois ponto quatro. Aqui entram o conteúdo de cada plano e a tradução deles em produtos e integrações.
+
+O artigo sexto do Decreto doze mil cento e noventa e oito manda os órgãos e entidades elaborarem três instrumentos de planejamento.
+
+O Plano de Transformação Digital, que conterá, no mínimo, ações de quatro tipos: serviços digitais e melhoria da qualidade; unificação de canais digitais; governança e gestão de dados; e segurança e privacidade.
+
+O Plano Diretor de Tecnologia da Informação e Comunicação, o pê dê tê í cê, que conterá, no mínimo: inventário de necessidades priorizado; plano de metas e ações, com a unidade demandante e a unidade responsável pela execução; plano de gestão de pessoas; plano orçamentário; e plano de gestão de riscos.
+
+E o Plano de Dados Abertos, nos termos do Decreto oito mil setecentos e setenta e sete.
+
+Os três são aprovados pelo Comitê de Governança Digital do órgão, ou colegiado equivalente, que o artigo quinto manda instituir. O Plano de Transformação Digital é pactuado pela Secretaria-Executiva do Ministério da Gestão e da Inovação em Serviços Públicos em conjunto com a Secretaria de Governo Digital, que apoia, acompanha e monitora a sua execução. A secretaria pode detalhar em ato próprio o conteúdo mínimo do plano de transformação e do pê dê tê í cê, e órgãos podem elaborar planos de transformação em conjunto, por área temática ou por função de governo. O mesmo decreto instituiu a Infraestrutura Nacional de Dados, conjunto de normas, políticas, arquiteturas, padrões, ferramentas tecnológicas e ativos de informação coordenado pela Secretaria de Governo Digital, cujas ações são implementadas nos planos de transformação. E a portaria do programa federal de privacidade e segurança, de dois mil e vinte e cinco, manda vincular ao pê dê tê í cê as ações que exijam contratação de solução de tecnologia da informação.
+
+O Plano de Dados Abertos tem conteúdo mínimo no artigo quinto, parágrafo segundo, do Decreto oito mil setecentos e setenta e sete: inventários e catálogos corporativos de dados; mecanismos transparentes de priorização na abertura das bases, segundo critérios da infraestrutura nacional de dados abertos; cronograma de abertura, atualização e melhoria das bases; papéis e responsabilidades das unidades; processos de engajamento dos cidadãos; e outros mecanismos de promoção e uso dos dados. A autoridade de monitoramento da Lei de Acesso à Informação, a do artigo quarenta dessa lei, assegura a publicação e a atualização do plano. A Resolução três, de dois mil e dezessete, do comitê gestor da infraestrutura nacional de dados abertos, fixa vigência de dois anos e detalha a elaboração, com matriz de priorização e participação da sociedade. E, pelo artigo sexto do decreto, as solicitações de abertura de bases seguem os prazos e os procedimentos dos pedidos de acesso à informação; a recusa por custo adicional desproporcional deve analisar a inclusão da base numa edição futura do plano.
+
+Aplicados a produtos e integrações, os planos funcionam em quatro sentidos.
+
+Rastreabilidade. Cada iniciativa de produto se liga a uma necessidade e a uma meta do pê dê tê í cê e, se for serviço, a uma ação do plano de transformação. É essa ligação que justifica orçamento, pessoas e contratação. O que não está nos planos passa pela governança, que revisa o plano, antes de ser construído, e não depois.
+
+O plano de transformação vira requisitos de produto. Serviço digital de ponta a ponta, e não formulário para imprimir. Identificação pela conta gov ponto bê érre, no nível de confiabilidade adequado, visto no item três ponto dois ponto dois. Acesso pelo canal unificado. Dados que o Estado já tem obtidos por integração, e não pedidos de novo ao cidadão. Medição da qualidade pela avaliação do serviço. E os controles de segurança e privacidade do programa federal.
+
+O plano de dados abertos vira béclog. Cada base do cronograma é um item de produto: extração automatizada, como nos fluxos do item três ponto três ponto três; dicionário de dados e metadados; formato aberto e, quando cabível, á pê í; atualização automática na periodicidade prometida; verificação de qualidade; tratamento de dados pessoais, do item três ponto três ponto quatro; e publicação no portal federal de dados abertos. Sistemas novos nascem com a exportação de dados abertos prevista no desenho, para que a abertura não dependa de esforço manual a cada ciclo.
+
+E as integrações seguem os padrões da Infraestrutura Nacional de Dados, com catálogo de á pê ís e acordos de compartilhamento, como visto nos itens três ponto um ponto cinco e três ponto três ponto quatro.
+
+Exemplo prático. A Controladoria vai construir um sistema para os órgãos responderem às recomendações de auditoria. No pê dê tê í cê, ele atende à necessidade priorizada de acompanhar recomendações, com meta, unidade demandante, unidade executora, orçamento e riscos. No plano de transformação, entra como ação de serviço digital: o gestor responde pelo sistema, identificado pela conta gov ponto bê érre, em vez de ofício. E, como o plano de dados abertos prevê a publicação da situação das recomendações, o desenho já inclui a base aberta, gerada automaticamente toda semana, sem os campos sigilosos, e uma á pê í de consulta.
+
+Pegadinhas do bloco quatro.
+
+Pelo Decreto doze mil cento e noventa e oito, o Plano de Transformação Digital é aprovado pela Secretaria de Governo Digital. Errado. É aprovado pelo Comitê de Governança Digital do órgão e pactuado pela Secretaria-Executiva do ministério com a secretaria.
+
+O pê dê tê í cê dispensa plano de gestão de riscos, assunto do programa de segurança. Errado. O plano de gestão de riscos está no seu conteúdo mínimo.
+
+O Plano de Dados Abertos tem vigência indeterminada e só é revisto quando surgem bases novas. Errado. A vigência é de dois anos.
+
+As solicitações de abertura de bases seguem prazos próprios, definidos em cada Plano de Dados Abertos. Errado. Seguem os prazos e procedimentos dos pedidos de acesso à informação.
+
+O Plano de Transformação Digital deve tratar de serviços digitais, mas não de segurança e privacidade, que ficam no pê dê tê í cê. Errado. Segurança e privacidade estão entre as ações mínimas do plano de transformação.
+
+
+BLOCO CINCO: RISCOS, RESPONSABILIDADES E EVIDÊNCIAS DE EFETIVIDADE DE CONTROLES
+
+Risco, causa, consequência e controle, a segregação de funções e o risco residual são tema do item dois ponto um ponto dois; a diferença entre existência documental, implementação e efetividade, do dois ponto um ponto quatro; a diferença entre baixa ocorrência e baixa detecção, do dois ponto um ponto cinco; a qualidade da evidência, do dois ponto cinco ponto três; o modelo das três linhas foi visto no item um ponto um ponto cinco; e a modelagem de ameaças, no três ponto quatro ponto um. Aqui entram a gestão de riscos no ciclo do produto, a atribuição de responsabilidades e a produção de evidência de que os controles funcionam.
+
+A referência de processo é a norma ízo trinta e um mil, de dois mil e dezoito, ainda vigente, com uma terceira edição em elaboração. O processo de gestão de riscos tem comunicação e consulta; escopo, contexto e critérios; avaliação de riscos, com identificação, análise e avaliação; tratamento; monitoramento e análise crítica; e registro e relato. O tratamento pode evitar o risco, deixando de iniciar ou de continuar a atividade; assumir ou aumentar o risco para buscar uma oportunidade; remover a fonte; mudar a probabilidade; mudar as consequências; compartilhar o risco; ou retê-lo por decisão informada.
+
+No produto, os riscos aparecem em todas as fases: os quatro riscos da descoberta, do bloco um; as ameaças da arquitetura; os riscos à privacidade, do relatório de impacto; os de dependência de fornecedores e tecnologias, tema do item três ponto quatro ponto cinco; os de operação e continuidade; e os de conformidade com a Lei Geral de Proteção de Dados, a Lei de Acesso à Informação e as regras de acessibilidade. Cada produto mantém um registro de riscos vivo, com o evento, a causa, a consequência, o responsável, a probabilidade, o impacto, a resposta, os controles, o risco residual e a próxima revisão. As ações de tratamento entram no béclog e disputam prioridade com as funcionalidades, à vista de todos, em vez de ficarem num documento que ninguém abre. E o risco residual é aceito pela autoridade competente, com registro da decisão, e não pela equipe de desenvolvimento por omissão.
+
+Responsabilidades. A matriz de responsabilidades, conhecida pela sigla ráci, atribui a cada atividade quem executa; quem responde por ela e a aprova, que deve ser uma única pessoa; quem é consultado, em comunicação de duas vias; e quem é informado, em comunicação de uma via. Os defeitos típicos são vários aprovadores, ninguém aprovando e todos executando. Num produto público, os papéis costumam se distribuir assim: o gestor do serviço, na área de negócio, responde pelas regras e pela aceitação dos riscos do serviço; o dono do produto responde pelo valor e pelo béclog; a equipe executa a construção e a qualidade; a operação executa a produção; o gestor de segurança da informação responde pelo processo de segurança; e o encarregado atende aos titulares de dados pessoais. Na relação com fornecedores, o órgão é controlador e o fornecedor, operador, como visto no item três ponto dois ponto quatro.
+
+Evidências de efetividade. Um controle precisa ser bem desenhado, isto é, capaz de reduzir o risco se funcionar como previsto, e operar de forma consistente durante todo o período. Desenho adequado não prova operação. A operação se verifica por quatro procedimentos, do mais fraco ao mais forte: a indagação aos responsáveis; a observação do controle sendo executado; a inspeção dos registros que ele gera; e a reexecução, em que o avaliador executa o controle de forma independente e compara o resultado. Como um controle pode funcionar num dia e falhar noutro, os registros são examinados em amostras ao longo do período.
+
+O controle automatizado tem regra própria. Testa-se a lógica uma vez, mas a conclusão só vale para o período se os controles gerais de tecnologia da informação garantirem que a regra não mudou: gestão de mudanças, acesso ao código e à produção e operação. Se qualquer pessoa altera a regra sem revisão, o teste de hoje não diz nada sobre ontem.
+
+Um produto bem construído gera a própria evidência, de forma contínua: os registros da esteira, com revisão, testes e aprovação de cada mudança, vistos no item três ponto quatro ponto três; as revisões de acesso, com as permissões efetivamente retiradas; os testes de restauração de cópias; os testes periódicos dos alertas; o tempo de correção das vulnerabilidades dentro do prazo definido; e os logs de acesso a dados críticos. A evidência gerada pelo sistema, com data e hora e guardada sem possibilidade de alteração, vale mais que uma captura de tela. E indicadores de controle tornam a efetividade visível: proporção de mudanças revisadas, tempo para revogar acessos após movimentação de pessoal, proporção de restaurações bem-sucedidas.
+
+Exemplo prático. Uma auditoria avalia o controle de revisão de acessos de um sistema de pagamentos. A política existe, e a ferramenta de revisão também: o controle está documentado e implementado. Os registros mostram revisões trimestrais concluídas no prazo, mas nenhuma permissão retirada em dois anos, período em que quarenta usuários mudaram de unidade. O auditor reexecuta o controle: cruza a lista de acessos com as movimentações registradas no sistema de pessoal e encontra doze acessos que deveriam ter sido retirados. O controle existe e é executado, mas não é efetivo. A recomendação ataca a causa: alimentar a revisão com as movimentações de pessoal e revogar automaticamente os acessos na mudança de unidade.
+
+Pegadinhas do bloco cinco.
+
+Na matriz de responsabilidades, várias pessoas podem aprovar a mesma atividade, para dividir a responsabilidade. Errado. Há um único responsável final, que aprova, por atividade.
+
+Um controle bem desenhado é, por isso, efetivo. Errado. A efetividade exige operação consistente no período, comprovada por evidência.
+
+A indagação aos responsáveis é o procedimento mais forte para comprovar a operação de um controle. Errado. É o mais fraco; a reexecução é o mais forte.
+
+Testado uma vez, um controle automatizado dispensa novas verificações. Errado. Só se os controles gerais de mudança e de acesso garantirem que a regra não foi alterada.
+
+A aceitação do risco residual de um produto cabe à equipe de desenvolvimento. Errado. Cabe à autoridade competente, com registro da decisão.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Descoberta, entrega e ciclo de vida. Projeto tem fim; produto tem ciclo de vida e equipe estável. Riscos de valor, usabilidade, viabilidade técnica e viabilidade para a organização. Trabalhos a fazer; árvore de oportunidades e soluções; produto mínimo viável para o aprendizado validado. Mapa de histórias com fatias de ponta a ponta; roteiro por resultados e horizontes. Sustentar custa mais que construir.
+
+Scrâm e Cânban. Guia de dois mil e vinte, vigente: pilares, valores, time autogerenciado de dez ou menos. Desenvolvedores criam o béclog da sprínt e aderem à definição de pronto. Sprínt de um mês ou menos; planejamento de oito horas, diária de quinze minutos, revisão de quatro e retrospectiva de três, para sprínt de um mês. Meta do produto, meta da sprínt e definição de pronto. Só o dono do produto cancela a sprínt. Guia do Cânban de maio de dois mil e vinte e cinco: três práticas, seis elementos da definição do fluxo, expectativa de nível de serviço com probabilidade e quatro métricas de fluxo. Fluxo contínuo e sem papéis prescritos; Scrâmban.
+
+Priorização, aceitação e indicadores. Trabalho mais curto ponderado primeiro: valor, criticidade do prazo e redução de risco sobre o tamanho. Ráis: alcance, impacto e confiança sobre esforço. Kano: obrigatórias, desempenho, atrativas e indiferentes; o atrativo vira obrigatório. Prazos legais não se negociam. Aspectos não funcionais na definição de pronto. Ó quêi ár com objetivo qualitativo e resultados com linha de base e meta; rárt; estrela-guia; métricas de proteção.
+
+Planos. Decreto doze mil cento e noventa e oito, artigo sexto: plano de transformação com serviços digitais e qualidade, unificação de canais, governança e gestão de dados e segurança e privacidade; pê dê tê í cê com inventário de necessidades priorizado, metas e ações, pessoas, orçamento e riscos; plano de dados abertos nos termos do Decreto oito mil setecentos e setenta e sete. Pactuação pela Secretaria-Executiva com a Secretaria de Governo Digital; Infraestrutura Nacional de Dados. Plano de dados abertos com inventários, priorização, cronograma, papéis, engajamento e promoção do uso. Planos viram rastreabilidade, requisitos, béclog e padrões de integração.
+
+Riscos, responsabilidades e evidências. Ízo trinta e um mil de dois mil e dezoito: comunicação, contexto, avaliação, tratamento, monitoramento e registro; sete formas de tratamento. Registro de riscos vivo, com ações no béclog. Matriz ráci: executa, aprova, consultado e informado. Desenho e operação; indagação, observação, inspeção e reexecução, com amostras no período. Controles gerais de mudança, acesso e operação. Evidência gerada pelo sistema, com data e sem alteração; indicadores de controle.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na descoberta de produto, os riscos a reduzir antes de construir em escala incluem os de valor, de usabilidade, de viabilidade técnica e de viabilidade para a organização.
+
+Gabarito: certo. São os quatro riscos da descoberta de produto.
+
+Item dois. O produto mínimo viável corresponde à primeira versão com todas as funcionalidades essenciais, entregue de uma só vez a todos os usuários.
+
+Gabarito: errado. É o menor esforço que permite completar o ciclo de construir, medir e aprender.
+
+Item três. No mapa de histórias, a primeira fatia de liberação percorre de ponta a ponta as atividades principais do usuário, ainda que de forma simples.
+
+Gabarito: certo. Evita-se terminar uma etapa inteira antes de começar a seguinte.
+
+Item quatro. Na gestão por produto, a equipe é desmobilizada assim que o escopo inicial é entregue.
+
+Gabarito: errado. O produto tem ciclo de vida e equipe estável.
+
+Item cinco. Segundo o Guia do Scrâm, o dono do produto pode ser substituído por um comitê das áreas interessadas.
+
+Gabarito: errado. O dono do produto é uma pessoa, que representa as partes interessadas.
+
+Item seis. Segundo o Guia do Scrâm, somente o dono do produto pode cancelar a sprínt, o que pode ocorrer quando a meta da sprínt se torna obsoleta.
+
+Gabarito: certo. É a regra do guia de dois mil e vinte.
+
+Item sete. No Cânban, mantida a vazão, a redução do trabalho em andamento reduz o tempo médio de ciclo.
+
+Gabarito: certo. É a consequência da lei de Lítol.
+
+Item oito. A expectativa de nível de serviço do Cânban é um prazo contratual de atendimento definido pelo cliente.
+
+Gabarito: errado. É uma previsão de quanto tempo um item deve levar, associada a uma probabilidade.
+
+Item nove. No modelo de Kano, uma característica atrativa gera satisfação quando presente e não causa insatisfação quando ausente.
+
+Gabarito: certo. A ausência que frustra é a das características obrigatórias.
+
+Item dez. Pelo critério do custo do atraso dividido pela duração, priorizam-se os itens de maior duração.
+
+Gabarito: errado. Priorizam-se os de maior razão, com alto custo do atraso e curta duração.
+
+Item onze. Resultados-chave adequados para um objetivo de produto são as entregas previstas, como novas telas e relatórios.
+
+Gabarito: errado. Resultados-chave medem resultados; entregas são produtos.
+
+Item doze. A taxa de conclusão de um serviço digital sem pedido de ajuda é indicador de resultado, enquanto o número de telas entregues é indicador de produto.
+
+Gabarito: certo. Resultado se mede no usuário.
+
+Item treze. Pelo Decreto doze mil cento e noventa e oito, de dois mil e vinte e quatro, o pê dê tê í cê deve conter, no mínimo, inventário de necessidades priorizado, plano de metas e ações, plano de gestão de pessoas, plano orçamentário e plano de gestão de riscos.
+
+Gabarito: certo. Artigo sexto, inciso dois.
+
+Item catorze. Pelo mesmo decreto, os planos de transformação digital são aprovados pela Secretaria de Governo Digital.
+
+Gabarito: errado. São aprovados pelo Comitê de Governança Digital do órgão e pactuados pela Secretaria-Executiva com a secretaria.
+
+Item quinze. As solicitações de abertura de bases de dados seguem prazos próprios, definidos em cada Plano de Dados Abertos.
+
+Gabarito: errado. Aplicam-se os prazos e procedimentos dos pedidos de acesso à informação, artigo sexto do Decreto oito mil setecentos e setenta e sete.
+
+Item dezesseis. O Plano de Dados Abertos deve dispor, entre outros tópicos, sobre inventários e catálogos corporativos de dados, mecanismos transparentes de priorização e cronograma de abertura das bases.
+
+Gabarito: certo. Artigo quinto, parágrafo segundo, do Decreto oito mil setecentos e setenta e sete.
+
+Item dezessete. Na matriz de responsabilidades, recomenda-se atribuir a aprovação de uma mesma atividade a várias pessoas, para compartilhar a responsabilidade.
+
+Gabarito: errado. Há um único responsável final por atividade.
+
+Item dezoito. A reexecução do controle pelo avaliador oferece evidência mais forte de sua efetividade do que a indagação aos responsáveis.
+
+Gabarito: certo. A indagação é o procedimento mais fraco.
+
+Item dezenove. Comprovado o funcionamento de um controle automatizado em um teste, dispensam-se verificações sobre os controles de mudança e de acesso ao sistema.
+
+Gabarito: errado. São esses controles que garantem que a regra testada não mudou.
+
+Item vinte. A ausência de incidentes registrados não comprova, por si só, a efetividade dos controles, porque pode refletir baixa capacidade de detecção.
+
+Gabarito: certo. Baixa ocorrência e baixa detecção se confundem nos números.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto quatro ponto cinco, contratação e fiscalização de soluções.
