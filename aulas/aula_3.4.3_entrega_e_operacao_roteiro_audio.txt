@@ -1,0 +1,309 @@
+AUDIOAULA. ITEM TRÊS PONTO QUATRO PONTO TRÊS DO EDITAL: ENTREGA E OPERAÇÃO
+
+
+ABERTURA
+
+Este é o item três ponto quatro ponto três, entrega e operação. Ele tem seis subitens, tratados em seis blocos: versionamento, integração e entrega contínuas; Dév Séc Óps e segurança da cadeia de dependências; automação de construção, teste e implantação; configuração e segregação de ambientes; mudanças, reversão e observabilidade; e manutenção da continuidade durante entregas e incidentes. A banca costuma explorar a diferença entre entrega e implantação contínuas, as estratégias de ramificação, a integridade dos artefatos, a separação entre ambientes e a classificação das mudanças na norma do gê ésse í.
+
+
+BLOCO UM: VERSIONAMENTO, INTEGRAÇÃO E ENTREGA CONTÍNUAS
+
+O versionamento semântico foi visto no item três ponto um ponto quatro; a ramificação por abstração no tronco, no três ponto um ponto cinco; e a revisão no pedido de integração, no três ponto quatro ponto dois. Aqui entram o controle de versão, as estratégias de ramificação e a integração, a entrega e a implantação contínuas.
+
+O controle de versão mais usado, o guít, é distribuído: cada cópia do repositório tem o histórico completo. O cômit é um retrato do conjunto de arquivos, com autor, data, mensagem e um resumo criptográfico que o identifica. O ramo é um ponteiro móvel para uma sequência de cômits. A mesclagem junta dois ramos e preserva o histórico de ambos. O ribêis reaplica os cômits de um ramo sobre outra base e produz histórico linear, mas reescreve os cômits e muda seus identificadores; por isso não se aplica a ramos que outras pessoas já usam. E a etiqueta marca uma versão liberada. Cômits e etiquetas podem ser assinados, o que comprova a autoria, tema do bloco dois.
+
+Versiona-se tudo o que define o sistema: código, testes, a definição da esteira, a infraestrutura, a configuração, as migrações de banco e a documentação. Só os segredos ficam fora, no cofre. É o princípio de tudo como código, que dá revisão, histórico, reprodução e trilha de auditoria. No versionamento semântico, vale um detalhe: a versão zero ponto alguma coisa indica desenvolvimento inicial, em que qualquer coisa pode mudar a qualquer momento.
+
+Três estratégias de ramificação aparecem em prova.
+
+No desenvolvimento baseado no tronco, todos integram ao ramo principal pelo menos uma vez por dia, direto ou por ramos de vida curta, de horas ou de um ou dois dias. O trabalho incompleto entra escondido, por chave de funcionalidade ou por ramificação por abstração.
+
+O Guít flôu, proposto por Vincent Drísen em dois mil e dez, mantém dois ramos permanentes, o principal e o de desenvolvimento, e ramos de funcionalidade, de preparação de versão e de correção urgente. Serve a produtos com várias versões em uso ao mesmo tempo, mas pesa na entrega contínua; o próprio autor, em dois mil e vinte, recomendou fluxos mais simples para software entregue continuamente.
+
+E o fluxo do Guít Râb: o principal está sempre pronto para implantar; cada mudança nasce num ramo curto, passa por pedido de integração e revisão, entra no principal e é implantada.
+
+Ramos de vida longa adiam a integração e acumulam conflitos. E o ramo principal é protegido: só recebe mudanças por pedido de integração, com aprovação de alguém além do autor e verificações automáticas aprovadas, e não aceita reescrita forçada do histórico.
+
+A integração contínua, na formulação de Martin Fáuler, é uma prática, e não uma ferramenta. Seus elementos: um ramo principal único; construção automatizada e que testa a si mesma; cada desenvolvedor integra ao principal pelo menos diariamente; cada integração dispara a construção e os testes; construção quebrada é corrigida imediatamente, antes de qualquer outra tarefa; a etapa principal é rápida, da ordem de dez minutos; e os resultados ficam visíveis para todos. Ter um servidor de integração e ramos que passam semanas sem chegar ao principal não é integração contínua.
+
+A entrega contínua, sistematizada por Djéz Hâmbol e Deivid Fárlei em dois mil e dez, vai além: o software fica sempre em condição de ser liberado, toda mudança que passa pela esteira é candidata a produção, e a ida à produção é uma decisão, tomada com um comando. Na implantação contínua, toda mudança que passa pela esteira vai para produção automaticamente, sem etapa manual. As duas dependem da integração contínua e de uma esteira de implantação, a sequência automatizada de etapas que leva o cômit até a produção, com as verificações mais rápidas primeiro.
+
+Exemplo prático. Uma equipe da Controladoria integra ao tronco várias vezes por dia, e um painel novo fica escondido por uma chave de funcionalidade enquanto não está pronto. A esteira constrói, testa e gera o artefato em cerca de dez minutos e o implanta sozinha em homologação. A implantação em produção é feita quando o dono do produto decide, com um comando. É entrega contínua, e não implantação contínua.
+
+Pegadinhas do bloco um.
+
+Entrega contínua e implantação contínua são sinônimos. Errado. Na entrega, a ida à produção depende de decisão; na implantação contínua, é automática.
+
+Ter servidor de integração contínua configurado caracteriza a prática, ainda que os ramos passem semanas sem integrar ao principal. Errado. A prática exige integrar ao principal pelo menos diariamente.
+
+O ribêis é indicado para reorganizar ramos compartilhados por várias pessoas. Errado. Ele reescreve o histórico e muda os identificadores dos cômits.
+
+No desenvolvimento baseado no tronco, a funcionalidade só pode ser integrada quando estiver completa. Errado. Ela entra escondida por chave de funcionalidade ou por ramificação por abstração.
+
+Construção quebrada no ramo principal pode esperar a próxima entrega para ser corrigida. Errado. A correção é prioridade imediata.
+
+
+BLOCO DOIS: DÉV SÉC ÓPS E SEGURANÇA DA CADEIA DE DEPENDÊNCIAS
+
+A lista de materiais de software, a análise de composição, os ataques de nome parecido, de confusão de dependências e de tomada de pacote, a categoria de falhas na cadeia de suprimento da lista do ôuásp e os testes estático e dinâmico foram vistos no item três ponto quatro ponto um. Aqui entram a segurança integrada à esteira e a integridade da construção e da distribuição.
+
+Dév Séc Óps é a segurança integrada ao desenvolvimento e à operação, como responsabilidade de todos e automatizada na esteira, desde o início do ciclo e durante a operação, e não um portão de uma equipe separada no fim. A medida dezesseis ponto um do Programa de Privacidade e Segurança da Informação do governo federal pede um processo de desenvolvimento seguro que aborde padrões de desenho seguro, privacidade desde a concepção, práticas de codificação segura, treinamento, gestão de vulnerabilidades, segurança de código de terceiros e procedimentos de teste de segurança. E o arcabouço de desenvolvimento seguro de software do Níst, a publicação especial oitocentos e duzentos e dezoito, de dois mil e vinte e dois, organiza as práticas em quatro grupos: preparar a organização, proteger o software, produzir software bem protegido e responder a vulnerabilidades.
+
+Na esteira, os controles automáticos se distribuem pelas etapas: varredura de segredos e análise estática a cada cômit; análise de composição, com lista de materiais e verificação de licenças, na construção; varredura da imagem de contêiner e do código de infraestrutura, que acusa configurações inseguras antes de existirem; e teste dinâmico contra a homologação. Cada achado acima do limite de gravidade barra a esteira, e a exceção é registrada, com responsável e prazo.
+
+A própria esteira é alvo valioso: guarda segredos, tem acesso de escrita à produção e assina os artefatos. A lista do ôuásp de riscos de integração e entrega contínuas, de dois mil e vinte e dois, destaca, entre outros: controle de fluxo insuficiente, quando alguém consegue levar código à produção sem revisão; a execução envenenada da esteira, quando uma contribuição externa altera o arquivo da esteira ou um scrípt de construção e roda com as credenciais da esteira, motivo pelo qual pedidos vindos de bifurcações externas rodam sem segredos; higiene de credenciais insuficiente, com segredos de longa duração em variáveis e impressos nos logs; validação inadequada da integridade dos artefatos; abuso da cadeia de dependências; e uso não governado de serviços de terceiros.
+
+Componentes de terceiros da esteira, como as ações do Guít Râb, são dependências. Em março de dois mil e vinte e cinco, a ação tê djêi ékchons tchêindjd fáils, usada por milhares de repositórios, foi comprometida: as etiquetas de versão foram movidas para um cômit malicioso que imprimia os segredos da esteira nos logs, e a agência norte-americana de cibersegurança emitiu alerta. A lição é referenciar ações de terceiros pelo resumo completo do cômit, que não pode ser movido, e não pela etiqueta; dar à credencial da esteira só as permissões necessárias; e, diante do comprometimento, revogar e trocar os segredos expostos.
+
+Dois casos ensinam a integridade da construção. Em dois mil e vinte, no caso Sólar Uínds, atacantes inseriram código malicioso no próprio sistema de construção de um fornecedor, e as atualizações saíram assinadas com o certificado legítimo da empresa: a assinatura provava quem assinou, e não que a construção estava limpa. Em março de dois mil e vinte e quatro, no caso xis zê iútils, um mantenedor que ganhara a confiança do projeto ao longo de anos inseriu uma porta dos fundos cuja parte que a ativava estava só no pacote distribuído, e não no código do repositório; foi descoberta por acaso, por um engenheiro que investigava lentidão no acesso remoto. Daí duas práticas: construir a partir do código verificado, em plataforma controlada, e conferir se o pacote distribuído corresponde ao repositório.
+
+O arcabouço sálsa, níveis da cadeia de suprimento para artefatos de software, mantido pela fundação aberta de segurança, gradua essas proteções na trilha de construção. Nível um: existe proveniência, o registro de como o pacote foi construído, que pode ser incompleta e sem assinatura; protege contra erros e documenta. Nível dois: proveniência assinada, gerada por plataforma de construção hospedada; protege contra adulteração depois da construção. Nível três: plataforma de construção endurecida, com construções isoladas entre si e segredos de assinatura fora do alcance dos passos da construção; protege contra adulteração durante a construção. A versão um ponto um, de abril de dois mil e vinte e cinco, manteve só essa trilha, e a um ponto dois, de novembro de dois mil e vinte e cinco, acrescentou a trilha do código-fonte, com histórico, revisão e proteção dos ramos.
+
+Na prática, cada artefato e cada imagem são assinados pela esteira, com ferramentas como o Sígstor, que emite certificado de curta duração ligado à identidade da esteira e registra a assinatura num registro público de transparência. A proveniência e a lista de materiais seguem como atestados. E, na implantação, uma política de admissão confere a assinatura e a proveniência: só roda em produção a imagem construída pela esteira oficial, a partir do ramo principal.
+
+Exemplo prático. A esteira de um sistema da Controladoria usava uma ação de terceiros referenciada pela etiqueta de versão. Com o alerta de março de dois mil e vinte e cinco, a equipe procurou nos logs das execuções e encontrou um tôquen de publicação impresso. Revogou e trocou o tôquen e as demais credenciais da esteira, conferiu nos registros do repositório de artefatos se houve publicação indevida, passou a fixar todas as ações pelo resumo do cômit e reduziu as permissões padrão da esteira para leitura.
+
+Pegadinhas do bloco dois.
+
+Artefato assinado com o certificado legítimo do fornecedor prova que a construção não foi adulterada. Errado. Prova quem assinou; no caso Sólar Uínds, atualizações maliciosas saíram assinadas.
+
+Referenciar ação de terceiros pela etiqueta de versão garante que o código executado não muda. Errado. Etiquetas podem ser movidas; fixa-se o resumo do cômit.
+
+No nível um de construção do sálsa, a proveniência precisa ser assinada por plataforma hospedada. Errado. Isso é o nível dois; no um, ela pode ser incompleta e sem assinatura.
+
+Dév Séc Óps consiste em uma equipe de segurança que aprova cada versão antes da produção. Errado. É segurança integrada e automatizada ao longo do ciclo, com responsabilidade compartilhada.
+
+Pedidos de integração vindos de bifurcações externas devem rodar a esteira com os mesmos segredos dos ramos internos. Errado. Seria a execução envenenada da esteira; eles rodam sem segredos.
+
+
+BLOCO TRÊS: AUTOMAÇÃO DE CONSTRUÇÃO, TESTE E IMPLANTAÇÃO
+
+As camadas de execução dos testes e os testes instáveis foram vistos no item três ponto quatro ponto dois; a imagem construída em múltiplos estágios e referenciada por resumo e a infraestrutura imutável, no três ponto dois ponto cinco; e as migrações do Fláiuei com a técnica de expandir e contrair, no três ponto dois ponto três. Aqui entram a construção, a esteira, a infraestrutura como código e a implantação declarativa.
+
+No Méiven, o ciclo de vida padrão tem fases em sequência, e pedir uma fase executa todas as anteriores: validar, compilar, testar, em que o plugin Shurfáier roda os testes unitários, empacotar, testes de integração e verificar, em que o plugin Fêilséif roda os testes de integração, instalar, que copia o artefato para o repositório local, e implantar, em inglês diplói, que publica o artefato no repositório remoto. Atenção ao nome: a fase de implantação do Méiven publica no repositório de artefatos, e não instala a aplicação em servidor algum.
+
+A construção reproduzível gera, a partir do mesmo código e das mesmas ferramentas, um artefato idêntico bit a bit. Exige versões fixas de dependências e de plugins e carimbo de tempo fixo, que o Méiven permite configurar. É o que permite a qualquer um conferir que o artefato distribuído veio daquele código, a lição do bloco dois.
+
+O artefato é construído uma vez e promovido. O mesmo artefato, identificado pelo mesmo resumo, passa de teste para homologação e para produção; só a configuração muda, injetada por ambiente. Reconstruir para cada ambiente quebra a garantia de que o testado é o que roda. O repositório de artefatos guarda versões liberadas como imutáveis: a versão um ponto quatro ponto dois nunca é sobrescrita; as versões instantâneas, em inglês snépshot, servem só ao desenvolvimento.
+
+A esteira é definida como código, no próprio repositório, e revisada como código. As etapas vão das mais rápidas às mais lentas, com tarefas em paralelo e quéchi de dependências, e falham cedo. Ela produz o artefato, a lista de materiais, a assinatura e os relatórios de teste. E a esteira é também a trilha de auditoria: registra quem pediu, quem mudou, quem revisou, quais testes passaram, qual artefato foi implantado, quando e por quem.
+
+A infraestrutura como código descreve servidores, redes, bancos e permissões em arquivos versionados. Há dois estilos. No declarativo, descreve-se o estado desejado, e a ferramenta calcula as ações para chegar a ele, como no Térraform e nos manifestos do Cubernétis. No imperativo, descreve-se a sequência de comandos. Três ideias caem em prova. Idempotência: aplicar duas vezes produz o mesmo estado. Plano antes de aplicar: a ferramenta mostra o que vai criar, alterar e destruir, e o plano é revisado no pedido de integração. E o arquivo de estado, que liga o declarado aos recursos reais, pode conter segredos e precisa de guarda protegida e de trava contra aplicações simultâneas. Mudanças feitas à mão no console criam deriva, a diferença entre o código e o real, que se detecta e se elimina. Em dois mil e vinte e três, a mudança de licença do Térraform para um modelo não aberto levou à criação do Ôpen Tôfu, alternativa aberta mantida pela fundação Linux.
+
+O guít ópis aplica a mesma lógica à implantação, com quatro princípios: o estado desejado é declarativo, fica versionado e imutável no repositório, é puxado automaticamente e é reconciliado continuamente. Um agente dentro do clâster, como o Árgo cê dê ou o Flâks, compara o que está no repositório com o que está rodando e corrige as diferenças. Implantar é aprovar uma mudança no repositório do ambiente; reverter é desfazer o cômit. Como o agente puxa as mudanças, as credenciais do clâster não precisam sair dele, ao contrário da esteira que empurra com credencial de administrador.
+
+A implantação automatizada encadeia os passos: aplica as migrações compatíveis do banco, na fase de expansão; atualiza a aplicação de forma progressiva; roda os testes de fumaça; e, se algo falha, reverte, tema do bloco cinco.
+
+Exemplo prático. Uma equipe reconstruía o artefato em cada ambiente. Uma dependência declarada com faixa de versões, sem número fixo, trouxe na construção de produção uma versão nova, publicada dois dias depois da homologação, e o sistema passou a falhar na geração de relatórios, defeito que nunca apareceu nos testes. A correção fixou todas as versões, passou a construir uma única vez e a promover a mesma imagem, identificada pelo resumo, até a produção.
+
+Pegadinhas do bloco três.
+
+A fase de implantação do Méiven instala a aplicação no servidor de produção. Errado. Ela publica o artefato no repositório remoto.
+
+Reconstruir o artefato para cada ambiente é boa prática, porque incorpora a configuração específica. Errado. Constrói-se uma vez e promove-se o mesmo artefato; a configuração vem do ambiente.
+
+Na infraestrutura como código declarativa, descreve-se a sequência de comandos a executar. Errado. Descreve-se o estado desejado, e a ferramenta calcula as ações.
+
+No guít ópis, a esteira de integração empurra as mudanças ao clâster com credencial de administrador. Errado. Um agente no clâster puxa o estado desejado e reconcilia.
+
+O arquivo de estado da infraestrutura como código pode ficar público, porque só descreve recursos. Errado. Pode conter segredos e precisa de guarda protegida e de trava.
+
+
+BLOCO QUATRO: CONFIGURAÇÃO E SEGREGAÇÃO DE AMBIENTES
+
+A configuração externalizada do Sprín Búti, com a ordem de precedência e os perfis, foi vista no item três ponto dois ponto um; a configuração no ambiente, da aplicação de doze fatores, e o cônfig mép, no três ponto dois ponto cinco; os segredos, no três ponto quatro ponto um; e a separação entre produção e não produção, com dados de teste mascarados, no três ponto quatro ponto dois. Aqui entram a gestão da configuração, a paridade e a segregação dos ambientes.
+
+A configuração é tratada como código, com revisão e histórico. A norma ízo í é cê vinte e sete mil e dois, de dois mil e vinte e dois, no controle oito ponto nove, pede que as configurações, inclusive as de segurança, de equipamentos, software, serviços e redes sejam estabelecidas, documentadas, implementadas, monitoradas e analisadas criticamente. A medida quatro ponto um do programa federal pede um processo de configuração segura para ativos e soluções de software, revisto anualmente, e o programa remete aos guias de configuração segura do cís como referência de endurecimento.
+
+Três tipos de configuração convivem. A do ambiente, como endereços, tamanhos de pool e limites. A de comportamento, como as chaves de funcionalidade. E os segredos, que ficam no cofre. Nenhuma delas fica dentro do artefato, que é o mesmo em todos os ambientes.
+
+A configuração errada deve falhar cedo. No Sprín Búti, as classes de propriedades anotadas com arroba configuréichon própertis podem ser validadas na partida: falta de propriedade obrigatória ou valor inválido impedem a aplicação de subir, e a falha aparece na implantação, e não na primeira requisição de um usuário. Um servidor central de configuração, como o Sprín Cláud Cônfig, pode servir as propriedades a partir de um repositório versionado. E o servidor ajustado à mão, que ninguém sabe reproduzir, é o servidor floco de neve: o remédio é recriá-lo a partir do código.
+
+Os ambientes típicos são desenvolvimento, integração ou testes, homologação, também chamada pré-produção, que reproduz a produção em configuração e topologia, e produção. Ganham espaço os ambientes efêmeros, criados para cada pedido de integração e destruídos depois da mesclagem.
+
+A aplicação de doze fatores pede paridade entre desenvolvimento e produção em três lacunas: de tempo, implantando logo o que foi escrito; de pessoas, com quem desenvolve participando da implantação e da operação; e de ferramentas, com os mesmos serviços de apoio em todos os ambientes, o mesmo banco, e não um banco em memória no desenvolvimento. O funciona na minha máquina nasce dessas lacunas.
+
+A segregação tem seis camadas. Isolamento: contas, projetos ou clâsteres separados por ambiente, ou ao menos espaços de nomes com políticas de rede. Credenciais próprias de cada ambiente, de modo que a credencial de teste não abre a produção. Rede: os ambientes inferiores não alcançam o banco de produção. Dados: só mascarados ou sintéticos fora da produção. Acesso: desenvolvedores não têm acesso de escrita à produção, e as mudanças chegam pela esteira; o acesso emergencial existe, com justificativa registrada no momento, alerta e revisão posterior. E identidades de esteira separadas por ambiente, com menor privilégio, e implantação em produção condicionada à aprovação em ambiente protegido.
+
+Na entrega, a segregação de funções vista no item três ponto dois ponto dois se traduz em que o autor da mudança não é quem a aprova e em que a esteira impõe essa regra, inclusive para mudanças na própria esteira.
+
+Exemplo prático. Um sistema promovido de homologação para produção usa a mesma imagem nos dois ambientes. Na produção, o cônfig mép trazia por engano o endereço do banco de homologação. A validação na partida não detectaria o erro, porque o endereço era válido, mas a segregação sim: a rede de produção não alcança o banco de homologação, e a credencial de produção não funciona nele. A aplicação não conseguiu subir, a atualização gradual parou porque as instâncias novas nunca ficaram prontas, e as antigas continuaram atendendo enquanto a configuração era corrigida pelo repositório.
+
+Pegadinhas do bloco quatro.
+
+O ambiente de homologação pode usar o banco de produção, para ter dados realistas. Errado. Os ambientes são separados, e fora da produção usam-se dados mascarados ou sintéticos.
+
+Ajustes manuais nos servidores de produção são aceitáveis quando registrados depois em planilha. Errado. As mudanças passam pela esteira; o ajuste manual cria deriva, e o acesso emergencial é registrado no momento.
+
+A falta de configuração obrigatória deve ser detectada na primeira requisição que a usar. Errado. Valida-se na partida, para a falha aparecer na implantação.
+
+A paridade entre desenvolvimento e produção se resume a usar o mesmo sistema operacional. Errado. Envolve tempo, pessoas e ferramentas, inclusive os mesmos serviços de apoio.
+
+Usar as mesmas credenciais em todos os ambientes simplifica a operação sem trazer risco. Errado. Uma credencial vazada de teste abriria a produção.
+
+
+BLOCO CINCO: MUDANÇAS, REVERSÃO E OBSERVABILIDADE
+
+Os tipos de mudança do ítil quatro, a diferença entre implantar e liberar, as chaves de funcionalidade, as implantações azul e verde, canário e gradual e as quatro métricas do dora foram vistos no item três ponto um ponto cinco; os sinais de ouro, o orçamento de erros e o diagnóstico a partir do que mudou, no três ponto dois ponto cinco; e a mudança de esquema em etapas compatíveis, no três ponto dois ponto três. Aqui entram a norma federal de gestão de mudanças, a reversão e a observação das mudanças.
+
+A gestão de mudanças nos aspectos de segurança da informação é um dos processos obrigatórios da Instrução Normativa número três, de dois mil e vinte e um, do gê ésse í, tratada no capítulo cinco e apoiada nos relatórios de gestão de riscos. O artigo vinte e nove classifica as mudanças em três tipos. Emergencial: mudança não prevista de alto impacto, que ocorre, em geral, por incidente grave ou alteração de risco com alto impacto, por alteração normativa de aplicação imediata ou por necessidade de modificação significativa imediata nos ativos de informação. Rotineira: mudança em que a equipe técnica já tem elevado grau de conhecimento para realizar a atividade, como atualizações da infraestrutura e serviços de periodicidade habitual. E proativa: mudança que busca trazer maior eficiência, como ampliação do parque computacional, obsolescência prevista e adoção de novas tecnologias.
+
+Os instrumentos são dois. O documento de descrição da mudança, elaborado e aprovado pelos titulares das unidades demandantes, traz no mínimo o agente demandante, a unidade de origem, a descrição, o tipo, os objetivos com os fatores que levaram à necessidade e os benefícios esperados. O documento de avaliação e aprovação traz no mínimo as alternativas de implementação, as recomendações em ordem de prioridade, a relação com outras mudanças simultâneas, a análise de risco dos ativos afetados, a avaliação do impacto do adiamento, a definição da alternativa ou o indeferimento pela alta administração e a análise crítica das consequências de mudanças não previstas, com as ações de mitigação. O gestor de segurança da informação coordena o processo, designa o agente responsável dentre os servidores efetivos e encaminha a avaliação à alta administração, a quem cabe aprovar ou indeferir. O agente responsável pode propor um grupo técnico de mudança, acompanha testes e implementação e assegura o registro de auditoria com as informações relevantes da mudança. O programa federal cobra esse processo na medida zero ponto quinze, e a norma vinte e sete mil e dois trata do tema no controle oito ponto trinta e dois.
+
+A esteira ajuda a cumprir a exigência de registro, porque guarda o pedido, a mudança, a revisão, os testes, o artefato e a implantação. E a pesquisa do dora associou aprovações externas pesadas, exigidas para cada pequena mudança, a pior desempenho de entrega, sem redução das falhas: revisão por pares e verificações automáticas são, elas mesmas, controles da mudança.
+
+O livro de engenharia de confiabilidade do Google estima que cerca de setenta por cento das interrupções decorrem de mudanças num sistema em funcionamento. Daí três exigências: implantação progressiva, detecção rápida e precisa de problemas e reversão segura. E mudança de configuração é mudança: causa incidentes e passa por versionamento, revisão e implantação progressiva, como o código.
+
+Reverter é voltar à versão anterior; avançar é implantar uma correção por cima. No incidente, mitiga-se primeiro, em geral revertendo ou desligando a chave de funcionalidade, e corrige-se depois. Avança-se quando a reversão não é possível ou é mais arriscada, como depois de uma migração que transformou dados. Por isso as operações irreversíveis, como apagar dados, enviar notificações externas e publicar dados abertos, pedem cuidado redobrado: cópia antes, etapas compatíveis e, quando cabível, um período de convivência.
+
+A reversão pode ser automática. Na implantação canário com análise automática, a versão nova é comparada com a estável nos indicadores de erro e de latência; se piora além do limite definido, a implantação é interrompida e revertida sem esperar decisão humana.
+
+Observar a mudança exige ligar o sinal à versão. Cada implantação gera uma marca nos painéis; a versão da aplicação entra como atributo nas métricas, nos rastros e nos logs, para comparar a nova com a antiga durante a atualização. Os alertas sobre objetivos de nível de serviço usam a taxa de consumo do orçamento de erros: consumo rápido aciona o plantão imediatamente, e consumo lento abre um chamado, ambos antes de o orçamento acabar.
+
+As métricas do dora mudaram. O relatório de dois mil e vinte e quatro acrescentou uma quinta métrica, a taxa de retrabalho, a proporção de implantações não planejadas feitas para corrigir problemas percebidos pelos usuários, e o tempo de recuperação passou a se referir às implantações com falha. O relatório de dois mil e vinte e cinco mudou de nome, passou a tratar do desenvolvimento assistido por inteligência artificial e substituiu os grupos de desempenho baixo, médio, alto e elite por perfis de equipe.
+
+Exemplo prático. A nova versão do sistema de consulta de processos sai como canário para cinco por cento do tráfego. A análise automática compara as duas versões e, em doze minutos, aponta taxa de erros três vezes maior na nova, concentrada numa consulta que deixou de usar um índice. A ferramenta interrompe a implantação e devolve todo o tráfego à versão estável. O painel mostra a marca da implantação e a reversão; o orçamento de erros consumido foi mínimo, e a correção segue no fluxo normal.
+
+Pegadinhas do bloco cinco.
+
+A Instrução Normativa três do gê ésse í classifica as mudanças em padrão, normal e emergencial. Errado. Classifica em emergencial, rotineira e proativa; padrão, normal e emergencial é a classificação do ítil.
+
+Pela Instrução Normativa três, a decisão de aprovar ou indeferir a mudança cabe ao agente responsável pela gestão de mudanças. Errado. Cabe à alta administração.
+
+Mudanças de configuração dispensam o controle aplicado às mudanças de código. Errado. Elas causam incidentes e seguem versionamento, revisão e implantação progressiva.
+
+Durante um incidente, avançar com uma correção é sempre preferível a reverter. Errado. Mitiga-se primeiro, em geral revertendo; avança-se quando a reversão não é possível.
+
+O alerta sobre o orçamento de erros só deve disparar quando o orçamento se esgota. Errado. Alerta-se pela taxa de consumo, antes do esgotamento.
+
+
+BLOCO SEIS: MANUTENÇÃO DA CONTINUIDADE DURANTE ENTREGAS E INCIDENTES
+
+A tensão entre continuidade e atualidade, a janela de manutenção com aviso e a análise pós-incidente sem culpa foram vistas no item três ponto um ponto cinco; as sondas, o desligamento gracioso, a engenharia do caos e os planos de continuidade e recuperação, no três ponto dois ponto cinco; e o tratamento de incidentes cibernéticos, no três ponto quatro ponto um. Aqui entram a implantação sem interrupção, o calendário de mudanças e a organização da resposta.
+
+A implantação sem interrupção tem cinco condições. Várias instâncias e atualização gradual configurada com zero instâncias indisponíveis e um excedente, para que a nova suba antes de a antiga sair. A sonda de prontidão, que só envia tráfego à instância pronta, e o desligamento gracioso, com a drenagem das conexões no balanceador. Compatibilidade entre as versões nova e antiga, que atendem ao mesmo tempo: á pê ís com mudanças aditivas, mensagens nos modos de compatibilidade, banco em etapas de expandir e contrair, sessões fora da instância e entradas de quéchi que as duas versões entendam. O orçamento de interrupção de pódes, que limita quantas instâncias podem ficar fora ao mesmo tempo em interrupções voluntárias, como a manutenção de uma máquina do clâster. E tarefas agendadas com trava, porque durante a atualização duas versões podem executar a mesma rotina ao mesmo tempo.
+
+O calendário de mudanças protege os períodos críticos. Em datas como o fechamento da folha de pagamento ou o último dia de entrega de uma declaração, as mudanças não urgentes são congeladas, e só seguem as emergenciais, pelo rito próprio. Implantações em fim de expediente, sem plantão para reagir, também se evitam.
+
+Durante o incidente, a prioridade é restaurar o serviço. A investigação da causa raiz vem depois, com as evidências preservadas, como visto no item três ponto quatro ponto um. As mudanças sem relação com a mitigação ficam congeladas, porque cada mudança nova confunde o diagnóstico.
+
+A resposta se organiza com papéis, no modelo de gestão de incidentes do Google, inspirado no sistema de comando de incidentes. O comandante do incidente coordena, delega, decide e mantém a visão do todo, sem executar ele mesmo as correções. O responsável pelas operações é o único que altera os sistemas, com a sua equipe. O responsável pela comunicação informa as partes interessadas e os usuários, em intervalos regulares, por exemplo numa página de situação. E o responsável pelo planejamento registra a linha do tempo, abre as pendências e organiza as passagens de turno. O incidente é declarado cedo, tem um canal único e muda de comando por passagem explícita.
+
+A preparação decide a resposta. Cada alerta tem um roteiro operacional, com os passos de diagnóstico e de mitigação. O plantão tem rodízio, escalonamento definido e carga sustentável. Os alertas avisam sobre sintomas que afetam o usuário, e não sobre cada causa possível, para evitar o cansaço de alertas. E a equipe treina em exercícios simulados de incidente, além dos testes de recuperação de desastres e dos experimentos de caos. Depois do incidente, as ações da análise pós-incidente têm responsável e prazo e são acompanhadas até o fim; a causa que gerou o incidente vira um problema, no sentido do ítil.
+
+Exemplo prático. No último dia de entrega de declarações de bens, com as mudanças congeladas, o envio passa a falhar para quem tem mais de cinquenta bens declarados. O incidente é declarado: o comandante convoca a equipe, o responsável pela comunicação publica aviso na página de situação, e o de operações confirma que a falha veio de um limite de tamanho alterado na configuração do balanceador na véspera, uma mudança fora do calendário. A configuração anterior é restaurada pelo repositório, como mudança emergencial registrada, e o serviço volta em vinte minutos. Na análise pós-incidente, a equipe decide que mudanças de configuração do balanceador também passam pela esteira e respeitam o congelamento.
+
+Pegadinhas do bloco seis.
+
+Na atualização gradual, a versão nova não convive com a antiga, e por isso a compatibilidade entre elas é dispensável. Errado. As duas atendem ao mesmo tempo; á pê ís, mensagens, banco, sessões e quéchi precisam funcionar com ambas.
+
+Durante um incidente, a prioridade é encontrar a causa raiz antes de qualquer mitigação. Errado. Restaura-se primeiro; a causa é investigada depois, com as evidências preservadas.
+
+No período de congelamento, nenhuma mudança pode ser feita, nem mesmo a correção de falha grave. Errado. As mudanças emergenciais seguem, pelo rito próprio.
+
+O comandante do incidente executa pessoalmente as correções nos sistemas. Errado. Ele coordena e delega; quem altera os sistemas é o responsável pelas operações.
+
+Tarefas agendadas dispensam cuidados na atualização gradual. Errado. Duas versões podem executá-las ao mesmo tempo; usa-se trava.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Versionamento, integração e entrega contínuas. Cômit, ramo, mesclagem e etiqueta; tudo como código, menos os segredos. Versão zero ponto alguma coisa sem garantia de compatibilidade. Guít flôu para produtos com várias versões; fluxo do Guít Râb com o principal sempre implantável. Ramo principal protegido, sem reescrita forçada. Esteira de implantação com as verificações rápidas primeiro.
+
+Dév Séc Óps e cadeia de dependências. Medida dezesseis ponto um do programa federal; quatro grupos do arcabouço do Níst. Varredura de segredos, estática, composição, imagem, código de infraestrutura e dinâmica, com exceção registrada. Riscos da esteira: controle de fluxo, credenciais, integridade de artefatos e terceiros não governados. Xis zê iútils: porta dos fundos só no pacote distribuído. Sálsa nível três com construções isoladas e segredos de assinatura fora do alcance; versão um ponto dois com trilha de código-fonte. Assinatura e proveniência conferidas na admissão.
+
+Automação. Ciclo do Méiven: validar, compilar, testar, empacotar, verificar, instalar e implantar; Shurfáier para unitários e Fêilséif para integração. Construção reproduzível. Versões liberadas imutáveis no repositório. Esteira como código e como trilha de auditoria. Idempotência, plano antes de aplicar e deriva. Guít ópis: estado desejado no repositório, reversão por desfazer o cômit. Ôpen Tôfu, alternativa aberta.
+
+Configuração e ambientes. Controle oito ponto nove da vinte e sete mil e dois; medida quatro ponto um do programa federal; guias de configuração segura do cís. Servidor central de configuração versionado; servidor floco de neve se recria pelo código. Ambientes efêmeros por pedido de integração. Isolamento, rede e identidades de esteira separados por ambiente; aprovação protegida para produção; autor diferente de aprovador.
+
+Mudanças, reversão e observabilidade. Gestão de mudanças é processo obrigatório da Instrução Normativa três; descrição com demandante, unidade, tipo, objetivos e benefícios; avaliação com alternativas, prioridades, mudanças simultâneas, riscos, impacto do adiamento e consequências não previstas; registro de auditoria; medida zero ponto quinze; controle oito ponto trinta e dois. Aprovações externas pesadas não reduzem falhas. Cerca de setenta por cento das interrupções vêm de mudanças. Canário com análise automática. Versão como atributo de métricas, rastros e logs. Dora: taxa de retrabalho em dois mil e vinte e quatro; perfis de equipe em dois mil e vinte e cinco.
+
+Continuidade. Zero indisponíveis com excedente, prontidão, drenagem e orçamento de interrupção de pódes. Congelamento em datas críticas. Comandante, operações, comunicação e planejamento; canal único e passagem explícita. Roteiros operacionais, plantão com escalonamento, alertas por sintoma e exercícios simulados; ações pós-incidente com responsável e prazo.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Na entrega contínua, toda alteração aprovada na esteira é implantada automaticamente em produção, sem decisão humana.
+
+Gabarito: errado. Isso é a implantação contínua; na entrega, a ida à produção depende de decisão.
+
+Item dois. Na integração contínua, os desenvolvedores integram seu trabalho ao ramo principal com frequência, ao menos diariamente, e cada integração dispara construção e testes automatizados.
+
+Gabarito: certo. A prática não se resume a ter um servidor de integração.
+
+Item três. O ribêis é a forma recomendada de integrar alterações em ramos compartilhados, por preservar os identificadores dos cômits.
+
+Gabarito: errado. Ele reescreve os cômits e muda seus identificadores.
+
+Item quatro. No desenvolvimento baseado no tronco, a funcionalidade incompleta pode ser integrada ao ramo principal escondida por chave de funcionalidade.
+
+Gabarito: certo. Também se usa a ramificação por abstração.
+
+Item cinco. No nível dois de construção do sálsa, a proveniência é assinada e gerada por plataforma de construção hospedada, o que protege contra adulteração posterior à construção.
+
+Gabarito: certo. O nível três acrescenta a plataforma endurecida, contra adulteração durante a construção.
+
+Item seis. A assinatura de um pacote com o certificado legítimo do fornecedor comprova que o processo de construção não foi comprometido.
+
+Gabarito: errado. A assinatura prova quem assinou, não a integridade da construção.
+
+Item sete. Referenciar uma ação de terceiros na esteira pela etiqueta de versão garante que o código executado será sempre o mesmo.
+
+Gabarito: errado. Etiquetas podem ser movidas; fixa-se o resumo completo do cômit.
+
+Item oito. No Méiven, a fase de implantação, em inglês diplói, instala a aplicação no servidor de produção.
+
+Gabarito: errado. Ela publica o artefato no repositório remoto.
+
+Item nove. Construir o artefato uma única vez e promovê-lo entre os ambientes garante que o que foi testado é o que será executado em produção, variando apenas a configuração.
+
+Gabarito: certo. Reconstruir por ambiente quebra essa garantia.
+
+Item dez. No guít ópis, um agente compara continuamente o estado declarado no repositório com o estado real do ambiente e corrige as diferenças.
+
+Gabarito: certo. O estado desejado é puxado e reconciliado.
+
+Item onze. Para assegurar testes realistas, o ambiente de homologação pode se conectar ao banco de dados de produção.
+
+Gabarito: errado. Os ambientes são separados, inclusive na rede e nas credenciais.
+
+Item doze. A validação das propriedades de configuração na partida da aplicação faz a implantação falhar quando falta configuração obrigatória, em vez de a falha aparecer em produção na primeira requisição.
+
+Gabarito: certo. A configuração errada deve falhar cedo.
+
+Item treze. A paridade entre desenvolvimento e produção, na aplicação de doze fatores, refere-se apenas à versão do sistema operacional.
+
+Gabarito: errado. Abrange as lacunas de tempo, de pessoas e de ferramentas.
+
+Item catorze. Segundo a Instrução Normativa número três, de dois mil e vinte e um, do gê ésse í, as mudanças classificam-se em emergenciais, rotineiras e proativas.
+
+Gabarito: certo. Artigo vinte e nove.
+
+Item quinze. Pela mesma instrução normativa, cabe ao agente responsável pela gestão de mudanças aprovar ou indeferir as mudanças.
+
+Gabarito: errado. A decisão cabe à alta administração, conforme o artigo trinta e cinco.
+
+Item dezesseis. Na análise automática de uma implantação canário, a versão nova é comparada com a estável nos indicadores de erro e de latência, e a implantação é interrompida e revertida se piorar além do limite definido.
+
+Gabarito: certo. A reversão não depende de decisão humana.
+
+Item dezessete. Mudanças de configuração, por não alterarem o código, dispensam versionamento e implantação progressiva.
+
+Gabarito: errado. Configuração é mudança e segue o mesmo controle.
+
+Item dezoito. Durante uma atualização gradual, as versões nova e antiga atendem simultaneamente, o que exige compatibilidade entre elas em á pê ís, mensagens e banco de dados.
+
+Gabarito: certo. A convivência é inerente à atualização gradual.
+
+Item dezenove. Na organização da resposta a incidentes, o comandante do incidente executa pessoalmente as mudanças nos sistemas afetados.
+
+Gabarito: errado. Ele coordena e delega; as mudanças são do responsável pelas operações.
+
+Item vinte. Durante um incidente, a prioridade é restaurar o serviço, por exemplo revertendo a versão ou desligando a funcionalidade, deixando a investigação da causa raiz para depois, com as evidências preservadas.
+
+Gabarito: certo. Mitigação antes da causa raiz.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto quatro ponto quatro, gestão de produtos e governança.
