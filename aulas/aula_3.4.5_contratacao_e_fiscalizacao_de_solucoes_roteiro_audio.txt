@@ -1,0 +1,359 @@
+AUDIOAULA. ITEM TRÊS PONTO QUATRO PONTO CINCO DO EDITAL: CONTRATAÇÃO E FISCALIZAÇÃO DE SOLUÇÕES
+
+
+ABERTURA
+
+Este é o item três ponto quatro ponto cinco, contratação e fiscalização de soluções. Ele tem seis subitens, tratados em seis blocos: necessidade, estudo técnico preliminar e termo de referência; comparação entre desenvolvimento próprio, contratação e compartilhamento; viabilidade, dimensionamento, custo total de propriedade e pesquisa de preços; qualidade, níveis de serviço e entregas verificáveis; fiscalização e pagamento; e propriedade intelectual, portabilidade, acesso a código e dados, dependência tecnológica e plano de saída. A base é a Lei catorze mil cento e trinta e três, de dois mil e vinte e um, a Instrução Normativa noventa e quatro, de dois mil e vinte e dois, da Secretaria de Governo Digital, e a Portaria setecentos e cinquenta, de dois mil e vinte e três, sobre serviços de software. A banca costuma explorar os elementos obrigatórios do estudo técnico preliminar, os parâmetros da pesquisa de preços, a remuneração vinculada a resultados, os papéis da equipe de fiscalização e a cessão dos direitos sobre o software desenvolvido.
+
+
+BLOCO UM: NECESSIDADE, ESTUDO TÉCNICO PRELIMINAR E TERMO DE REFERÊNCIA
+
+A formulação de problemas e o levantamento de requisitos foram vistos no item três ponto um ponto um, e o pê dê tê í cê, no três ponto quatro ponto quatro. Aqui entram o marco das contratações de tecnologia, a formalização da necessidade, o estudo técnico preliminar e o termo de referência.
+
+Desde trinta de dezembro de dois mil e vinte e três, a Lei catorze mil cento e trinta e três é o único regime geral de licitações e contratos da administração direta, autárquica e fundacional, com a revogação da Lei oito mil seiscentos e sessenta e seis e da Lei do Pregão. Nos órgãos do Sistema de Administração dos Recursos de Tecnologia da Informação, o Sísp, as contratações de soluções de tecnologia da informação e comunicação seguem a Instrução Normativa noventa e quatro, da Secretaria de Governo Digital, em vigor desde primeiro de fevereiro de dois mil e vinte e três, que revogou a Instrução Normativa um, de dois mil e dezenove. Abaixo do valor da dispensa de licitação do artigo setenta e cinco, inciso dois, da lei, a aplicação da instrução normativa é facultativa, exceto quanto aos artigos sexto e vinte e quatro, que tratam do alinhamento ao planejamento e do índice de reajuste.
+
+A instrução normativa organiza a contratação em três fases, no artigo oitavo: planejamento da contratação, seleção do fornecedor e gestão do contrato, com gerenciamento de riscos nas três. Pelo artigo sexto, a contratação deve estar em consonância com o pê dê tê í cê, alinhada à Estratégia de Governo Digital e, quando ofertar serviço público digital, integrada ao gov ponto bê erre; pelo sétimo, deve constar do plano de contratações anual, regulado pelo Decreto dez mil novecentos e quarenta e sete, de dois mil e vinte e dois.
+
+A necessidade nasce na área requisitante, com o documento de formalização da demanda, que a registra no plano de contratações anual. Ele contém, no mínimo, a justificativa da necessidade, a descrição sucinta do objeto, a quantidade, uma estimativa preliminar do valor, a data pretendida, o grau de prioridade e a vinculação com outras demandas. Normas anteriores falavam em documento de oficialização da demanda; a atual usa formalização, alinhada ao decreto do plano anual.
+
+Pelo artigo décimo, a área requisitante envia a demanda à área de tecnologia e indica o integrante requisitante; a área de tecnologia avalia o alinhamento ao pê dê tê í cê e ao plano anual e indica o integrante técnico; e a área administrativa indica o integrante administrativo, colhe a decisão motivada da autoridade competente sobre o prosseguimento e publica o ato que institui a equipe de planejamento da contratação. Os papéis não se acumulam, salvo requisitante e técnico, em caso excepcional, com justificativa nos autos e aprovação do Comitê de Governança Digital do órgão.
+
+A necessidade se descreve como problema, e não como produto. O artigo dezoito, parágrafo primeiro, inciso um, da lei, exige a descrição da necessidade considerado o problema a ser resolvido sob a perspectiva do interesse público. Pedir um sistema de gestão documental com determinado módulo já é escolher a solução. Descrever que os processos levam trinta dias para tramitar entre unidades, e que parte deles se perde, abre espaço para comparar alternativas.
+
+O estudo técnico preliminar é definido no artigo sexto, inciso vinte, da lei: documento constitutivo da primeira etapa do planejamento, que caracteriza o interesse público envolvido e a sua melhor solução e dá base ao anteprojeto, ao termo de referência ou ao projeto básico, caso se conclua pela viabilidade da contratação. O artigo dezoito, parágrafo primeiro, lista treze elementos, e o parágrafo segundo torna obrigatórios cinco: a descrição da necessidade, no inciso um; as estimativas das quantidades, com memórias de cálculo, no inciso quatro; a estimativa do valor, no inciso seis; as justificativas para o parcelamento ou não da contratação, no inciso oito; e o posicionamento conclusivo sobre a adequação da contratação, no inciso treze. Os demais, como requisitos, levantamento de mercado, descrição da solução como um todo, resultados pretendidos, providências prévias, inclusive a capacitação de servidores para a fiscalização, contratações correlatas e impactos ambientais, podem ser omitidos com justificativa.
+
+Na instrução normativa, o estudo é feito pelos integrantes técnico e requisitante e compreende, pelo artigo onze, cinco tarefas: definir as necessidades de negócio e tecnológicas e os requisitos, com o quantitativo e a forma de cálculo; a análise comparativa de soluções, do bloco dois; a análise comparativa de custos, do bloco três; a estimativa do custo total da contratação; e a declaração de viabilidade. O estudo é aprovado e assinado pelos integrantes técnico e requisitante e pela autoridade máxima da área de tecnologia; se essa autoridade compuser a equipe, assina a autoridade superior a ela.
+
+O artigo nono, parágrafo primeiro, torna obrigatórias todas as etapas do planejamento, inclusive na inexigibilidade, na dispensa, na formação e na adesão a ata de registro de preços, nas contratações com recursos de organismos nacionais ou internacionais e na contratação de empresas públicas de tecnologia. O estudo técnico preliminar é facultativo, pelo parágrafo nono, nas contratações abaixo do valor da dispensa; em guerra, estado de defesa, estado de sítio, intervenção federal ou grave perturbação da ordem; em emergência ou calamidade pública; e na contratação de remanescente após rescisão. E é dispensado, pelo parágrafo décimo, quando a contratação mantém todas as condições de licitação realizada há menos de um ano que ficou sem interessados ou sem propostas válidas, ou que só recebeu preços manifestamente superiores aos de mercado.
+
+Pelo artigo trinta e quatro, o estudo técnico preliminar e o termo de referência são publicados em sítio eletrônico até a publicação do edital ou, na contratação direta, até a do extrato. E o artigo trinta e oito exige o mapa de gerenciamento de riscos, atualizado nas três fases e juntado aos autos ao fim do termo de referência, ao fim da seleção do fornecedor, uma vez por ano durante a gestão e após eventos relevantes.
+
+O termo de referência é definido no artigo sexto, inciso vinte e três, da lei, com dez elementos: a definição do objeto, com natureza, quantitativos, prazo do contrato e possibilidade de prorrogação; a fundamentação, que remete ao estudo técnico preliminar; a descrição da solução como um todo, considerado todo o ciclo de vida do objeto; os requisitos da contratação; o modelo de execução do objeto, isto é, como o contrato deve produzir os resultados do início ao encerramento; o modelo de gestão do contrato, isto é, como a execução será acompanhada e fiscalizada; os critérios de medição e de pagamento; a forma e os critérios de seleção do fornecedor; as estimativas do valor, com preços unitários e memórias de cálculo, em documento separado e classificado; e a adequação orçamentária.
+
+Na instrução normativa, o termo é elaborado pela equipe de planejamento a partir do estudo, conforme o artigo doze. O objeto deve ser preciso, suficiente e claro, vedadas especificações excessivas, irrelevantes ou desnecessárias que limitem a competição, pelo artigo treze. A justificativa demonstra o alinhamento ao planejamento, a relação entre a necessidade e os volumes, a forma de cálculo dos quantitativos e os resultados esperados, pelo artigo quinze. O termo é assinado pela equipe e pela autoridade máxima da área de tecnologia, aprovado pela autoridade competente e pode ir a consulta ou audiência pública.
+
+O artigo dezesseis divide os requisitos. O integrante requisitante, com apoio do técnico, define os de negócio, que independem de tecnologia, e os de capacitação, legais, de manutenção, temporais, sociais, ambientais e culturais. O integrante técnico especifica os tecnológicos: arquitetura, projeto e implementação, implantação, garantia e manutenção, experiência e formação da equipe da contratada e metodologia de trabalho. Os requisitos de segurança da informação e privacidade são definidos pelos dois em conjunto.
+
+Duas regras fecham o bloco. O artigo terceiro, inciso um, veda reunir mais de uma solução de tecnologia em um único contrato. E o artigo doze, parágrafo segundo, manda avaliar o parcelamento da solução em tantos itens quantos forem tecnicamente viáveis e economicamente vantajosos, e justificar a decisão de parcelar ou não. Juntar, num só lote, desenvolvimento, sustentação, infraestrutura e licenças restringe a competição e aumenta a dependência de um único fornecedor.
+
+Exemplo prático. A ouvidoria de um órgão pede um assistente com inteligência artificial para atender cidadãos. No estudo técnico preliminar, a necessidade é reescrita como problema: quatro em cada dez manifestações chegam incompletas e voltam para complementação, o que atrasa a resposta. Descrito assim, o problema admite comparar um formulário com validação e campos guiados, a evolução do sistema existente e o assistente conversacional. E o quantitativo ganha memória de cálculo, a partir do volume anual de manifestações e do pico mensal registrado.
+
+Pegadinhas do bloco um.
+
+A fase de planejamento começa com a elaboração do termo de referência. Errado. Começa com a instituição da equipe de planejamento, depois da formalização da demanda, e o estudo técnico preliminar vem antes do termo.
+
+Na contratação de empresa pública de tecnologia por dispensa, o estudo técnico preliminar é dispensado. Errado. O artigo nono, parágrafo primeiro, da instrução normativa exige todas as etapas do planejamento também na dispensa, na inexigibilidade e na contratação de empresas públicas de tecnologia.
+
+O estudo técnico preliminar deve conter obrigatoriamente os treze elementos do artigo dezoito. Errado. São obrigatórios cinco: necessidade, quantidades, valor, parcelamento e posicionamento conclusivo; a omissão dos demais exige justificativa.
+
+Na equipe de planejamento, o acúmulo dos papéis de integrante requisitante e técnico é aprovado pela autoridade máxima da área de tecnologia. Errado. A aprovação é do Comitê de Governança Digital.
+
+Basta justificar a contratação pela necessidade de modernizar o ambiente tecnológico. Errado. O artigo quinze veda justificativas genéricas, incapazes de demonstrar as reais necessidades.
+
+
+BLOCO DOIS: COMPARAÇÃO ENTRE DESENVOLVIMENTO PRÓPRIO, CONTRATAÇÃO E COMPARTILHAMENTO
+
+A dispensa de licitação para contratar empresas públicas como Sérpro e Dataprév foi citada no item um ponto quatro ponto um, a ê ping, no três ponto um ponto cinco, e a interoperabilidade, no três ponto três ponto três. Aqui entram a análise comparativa exigida no estudo técnico preliminar e os critérios para escolher entre construir, contratar e compartilhar.
+
+A comparação de alternativas é obrigação legal. O artigo dezoito, parágrafo primeiro, inciso cinco, da lei, exige o levantamento de mercado, que consiste na análise das alternativas possíveis e na justificativa técnica e econômica da escolha do tipo de solução. A instrução normativa detalha, no artigo onze, inciso dois: a análise comparativa considera, além do aspecto econômico, os aspectos qualitativos, em termos de benefícios para os objetivos da contratação.
+
+O mesmo inciso lista o que observar: necessidades similares em outros órgãos e as soluções que eles adotaram; as alternativas do mercado; os softwares disponíveis conforme a Portaria quarenta e seis, de dois mil e dezesseis, que trata do software público brasileiro; as políticas e padrões de governo, como a ê ping, o modelo de acessibilidade ê mág, os padrões web em governo eletrônico, o sistema de dizáin do governo, a Infraestrutura de Chaves Públicas Brasileira e o modelo de requisitos para gestão arquivística, o ê árque Brasil; as adequações necessárias no ambiente do órgão; os diferentes modelos de prestação do serviço; os diferentes tipos de solução; a possibilidade de adquirir bens ou contratar serviço; a ampliação ou substituição da solução já implantada; e as diferentes métricas de prestação e de pagamento.
+
+O software público brasileiro é o software que a administração compartilha sem ônus, por meio de um portal oficial, com outros órgãos, outros entes e a sociedade, nos termos da Portaria quarenta e seis. E o artigo trinta e sete da instrução normativa manda catalogar os produtos de software resultantes de serviços de desenvolvimento, observadas as normas do órgão central do Sísp sobre software público.
+
+Três caminhos se comparam. No desenvolvimento próprio, servidores constroem e mantêm a solução, e o órgão controla o produto, as prioridades e o conhecimento. Os limites são capacidade, prazo, escala e continuidade, porque a sustentação consome a equipe que deveria evoluir o sistema. Na comparação de custos, o tempo dos servidores também entra, para que a solução interna não pareça gratuita.
+
+Na contratação, há variações. O software pronto, por licença ou assinatura, inclusive como serviço em nuvem, atende bem a necessidades comuns, como correio eletrônico e ferramentas de escritório, mas o órgão adapta processos ao produto e depende do roteiro do fornecedor. A fábrica de software, isto é, o serviço contratado de desenvolvimento e sustentação, entrega solução sob medida, de propriedade do órgão. E a empresa pública de tecnologia pode ser contratada por dispensa, pelo artigo setenta e cinco, inciso nove, da lei, quando integra a administração pública, foi criada para esse fim específico e o preço contratado é compatível com o de mercado.
+
+No compartilhamento, o órgão aproveita o que já existe na administração. Pode receber de outro órgão o código de uma solução, em geral por acordo de cooperação técnica, e adaptá-lo. Pode usar plataformas comuns, como a identificação, a assinatura eletrônica e os componentes do gov ponto bê erre. E pode participar de contratações compartilhadas, como a ata de registro de preços formada em conjunto, as compras centralizadas e os catálogos de soluções de tecnologia com condições padronizadas, publicados pelo órgão central do Sísp para softwares de uso disseminado, com base no artigo quarenta e três, parágrafo segundo, da lei. Pelo artigo nono, parágrafo sexto, da instrução normativa, se a solução escolhida tem item no catálogo, os documentos de planejamento usam todos os seus elementos, como especificações, níveis de serviço e preço máximo.
+
+Na adesão a ata de outro órgão, o chamado carona, o artigo nono, parágrafo terceiro, exige registrar no estudo técnico preliminar o ganho de eficiência, a viabilidade e a economicidade da adesão. E a lei limita as adesões, no artigo oitenta e seis: cada órgão aderente contrata até a metade dos quantitativos registrados para o gerenciador e os participantes, e o total das adesões não passa do dobro desses quantitativos.
+
+Há o que não se terceiriza. O artigo terceiro, inciso dois, da instrução normativa veda contratar os serviços do artigo terceiro do Decreto nove mil quinhentos e sete, de dois mil e dezoito, inclusive a gestão de processos de tecnologia e a gestão de segurança da informação. O decreto exclui da execução indireta os serviços que envolvam tomada de decisão ou posicionamento institucional em planejamento, coordenação, supervisão e controle; os estratégicos, cuja terceirização ponha em risco o controle de processos, conhecimentos e tecnologias; os ligados a poder de polícia, regulação, outorga de serviços públicos e aplicação de sanção; e os inerentes às categorias funcionais do plano de cargos do órgão. O parágrafo único da instrução normativa admite contratar apoio técnico aos processos de gestão, de planejamento e de avaliação da qualidade, sob supervisão exclusiva de servidores. Na prática, o órgão pode contratar quem escreve o código, mas não quem decide o que o produto deve fazer nem quem aceita a entrega em seu nome.
+
+Os critérios de escolha se combinam. Quanto mais comum a necessidade, mais o mercado ou o compartilhamento tende a vencer; quanto mais específica a regra de negócio e mais estratégica a solução, mais pesa o controle do órgão sobre o produto e o código. Pesam também a capacidade interna, o prazo, o custo no ciclo de vida, a competição no mercado, a sensibilidade dos dados e o risco de dependência. Um arranjo frequente combina os três caminhos: o órgão mantém a gestão do produto, a arquitetura e o repositório; contrata a capacidade de desenvolvimento; e reaproveita plataformas comuns.
+
+Exemplo prático. Um órgão precisa de um sistema para os processos de correição e descobre que outro órgão, de porte semelhante, tem sistema próprio. A análise compara receber o código por acordo de cooperação e adaptá-lo com equipe contratada, contratar solução de mercado como serviço e desenvolver do zero. A reutilização tem o menor custo de aquisição, mas exige avaliar a qualidade do código, a documentação, a compatibilidade com o ambiente e quem fará a evolução, e esses custos entram no custo total de propriedade.
+
+Pegadinhas do bloco dois.
+
+Software disponível sem custo no portal do software público não gera custo para o órgão que o adota. Errado. Não há custo de licença, mas há adaptação, hospedagem, suporte, treinamento e manutenção.
+
+O órgão pode contratar a gestão de segurança da informação, desde que sob supervisão de servidor. Errado. É vedada pelo artigo terceiro, inciso dois; a supervisão exclusiva de servidores é condição para o apoio técnico à gestão, ao planejamento e à avaliação da qualidade.
+
+A análise comparativa pode se limitar às soluções de mercado. Errado. Deve considerar as soluções de outros órgãos para necessidades similares e os softwares disponíveis como software público.
+
+Na dispensa para contratar empresa pública de tecnologia, o preço não precisa ser comparado ao de mercado. Errado. O artigo setenta e cinco, inciso nove, exige preço compatível com o praticado no mercado.
+
+A adesão a ata de outro órgão dispensa o estudo técnico preliminar. Errado. A adesão está no rol do artigo nono, parágrafo primeiro, e o estudo registra o ganho de eficiência, a viabilidade e a economicidade.
+
+
+BLOCO TRÊS: VIABILIDADE, DIMENSIONAMENTO, CUSTO TOTAL DE PROPRIEDADE E PESQUISA DE PREÇOS
+
+A pesquisa de preços mal feita como fonte de prejuízo ao erário foi citada no item um ponto um ponto seis, e as medidas de tamanho funcional, no três ponto quatro ponto dois. Aqui entram a declaração de viabilidade, o dimensionamento da demanda, o custo total de propriedade e as regras da pesquisa de preços.
+
+O estudo técnico preliminar termina com uma conclusão. A lei exige o posicionamento conclusivo sobre a adequação da contratação ao atendimento da necessidade, e a instrução normativa, no artigo onze, inciso cinco, exige a declaração da viabilidade, com a justificativa da solução escolhida e a identificação dos benefícios em termos de eficácia, eficiência, efetividade e economicidade.
+
+A viabilidade tem três faces. Técnica: a solução atende aos requisitos e cabe no ambiente do órgão. Econômica: os benefícios justificam o custo no ciclo de vida, e há orçamento; o artigo cento e cinquenta da lei veda contratação sem a caracterização adequada do objeto e sem a indicação dos créditos orçamentários, sob pena de nulidade e de responsabilização de quem lhe der causa. E de gestão: o órgão precisa ter quem fiscalize, com qualificação e tempo, e o modelo de gestão prevê esses recursos humanos.
+
+O dimensionamento é a estimativa das quantidades, acompanhada das memórias de cálculo e dos documentos de suporte, considerando as interdependências com outras contratações, para obter economia de escala, conforme o artigo dezoito, parágrafo primeiro, inciso quatro, da lei. Quantidade sem memória de cálculo é palpite. Para licenças, o cálculo parte dos usuários por perfil e do tipo de licença; para nuvem, do volume atual e do crescimento observado; para sustentação, do histórico de chamados. Superdimensionar paga licenças e capacidade ociosas; subdimensionar leva a aditivos, que têm limite legal, ou a nova contratação às pressas.
+
+No desenvolvimento e na sustentação de software, o dimensionamento depende do modelo de remuneração. A Portaria setecentos e cinquenta, de dois mil e vinte e três, da Secretaria de Governo Digital, é de observância obrigatória no Sísp para esses serviços; adotar outro modelo exige justificativa e aprovação prévia da secretaria. Ela prefere métodos ágeis e prevê quatro modalidades, no artigo quinto: pontos de função e horas de serviço técnico, vinculados a resultados e a níveis mínimos de serviço; valor fixo por sprínt, vinculado a níveis mínimos de serviço; alocação de profissionais de tecnologia, vinculada a resultados e a níveis mínimos de serviço; e valor fixo mensal por portfólio de software, para a sustentação, vinculado a níveis mínimos de serviço.
+
+Pelo artigo sexto da portaria, os valores de referência partem de pesquisa salarial dos perfis profissionais, multiplicada por um fator que cobre encargos, custos indiretos, tributos e lucro, o fator cá, com parâmetros no anexo dois, atualizados por portarias posteriores. Pontos de função medem o tamanho funcional do que o usuário recebe, independentemente da tecnologia, com regras de contagem no roteiro de métricas do Sísp; as horas de serviço técnico cobrem atividades que não se medem assim, sempre ligadas a um produto definido.
+
+O custo total de propriedade, em inglês tê cê ó, soma os custos da solução em todo o ciclo de vida, e não só o preço de aquisição. A instrução normativa o exige no artigo onze, inciso três: a análise comparativa de custos considera apenas as soluções técnica e funcionalmente viáveis, com o cálculo dos custos inerentes ao ciclo de vida, a exemplo de aquisição dos ativos, insumos, garantia técnica estendida, manutenção, migração e treinamento, e com memória de cálculo que permita verificar a origem dos dados. As soluções inviáveis são registradas no estudo, sem cálculo de custo total, pelo parágrafo primeiro.
+
+A lei acolhe a mesma lógica. O artigo onze, inciso um, põe entre os objetivos da licitação selecionar a proposta mais vantajosa, inclusive quanto ao ciclo de vida do objeto. E o artigo trinta e quatro, parágrafo primeiro, permite considerar, no julgamento por menor preço ou maior desconto, os custos indiretos de manutenção, utilização, reposição, depreciação e impacto ambiental, sempre que objetivamente mensuráveis, para definir o menor dispêndio.
+
+Em software, o custo total costuma ser dominado pelo que vem depois da implantação: sustentação, correções de segurança, atualização de plataformas, consumo de nuvem, suporte e, no fim, a migração para a solução seguinte. A comparação só é justa no mesmo horizonte e com os mesmos itens para todas as alternativas, inclusive o custo de sair, que na nuvem inclui a transferência de dados para fora do provedor.
+
+A pesquisa de preços está no artigo vinte e três da lei. O valor estimado deve ser compatível com os preços de mercado, considerados os bancos de dados públicos, as quantidades e a economia de escala. Para bens e serviços em geral, o parágrafo primeiro lista cinco parâmetros, usados de forma combinada ou não: a composição de custos unitários menores ou iguais à mediana do item no painel de preços do Portal Nacional de Contratações Públicas; contratações similares da administração, concluídas ou em execução no ano anterior; dados de mídia especializada, tabelas de referência oficiais e sítios eletrônicos especializados, com data e hora de acesso; pesquisa direta com no mínimo três fornecedores, com justificativa da escolha e orçamentos com no máximo seis meses de antecedência da divulgação do edital; e a base nacional de notas fiscais eletrônicas.
+
+A Instrução Normativa sessenta e cinco, de dois mil e vinte e um, da Secretaria de Gestão, regulamenta o procedimento. Ela manda priorizar o painel de preços e as contratações similares, com justificativa quando não for possível. O preço estimado é a média, a mediana ou o menor valor de um conjunto de três ou mais preços, desconsiderados os inexequíveis, os inconsistentes e os excessivamente elevados, com análise crítica quando houver grande variação; menos de três preços só com justificativa aprovada pela autoridade competente.
+
+Na tecnologia, o artigo vinte da Instrução Normativa noventa e quatro atribui a estimativa ao integrante técnico, com apoio do administrativo, em orçamento detalhado por preços unitários. A estimativa baseada só em propostas de fornecedores exige justificativa e só cabe quando não for possível obter preços de contratações similares de outros entes públicos ou do painel de preços. Para itens dos catálogos com condições padronizadas, vale o preço máximo de compra de item de tecnologia, adotado pelos órgãos do Sísp em todo o território nacional.
+
+Duas regras completam o bloco. Na contratação direta, quando não for possível estimar o valor pelos parâmetros, o contratado comprova previamente que seus preços são compatíveis com os de contratações semelhantes, com notas fiscais emitidas para outros contratantes no ano anterior ou por outro meio idôneo, pelo artigo vinte e três, parágrafo quarto. E o artigo vinte e quatro permite, com justificativa, orçamento estimado sigiloso, sem prejuízo da divulgação dos quantitativos e das informações necessárias às propostas; o sigilo não prevalece para os órgãos de controle interno e externo.
+
+Exemplo prático. Na contratação de licenças de uma ferramenta de análise de dados, a equipe pede cotação a três revendas e usa a média. Os parâmetros prioritários, porém, são o painel de preços e as contratações similares de outros órgãos, e a cotação exclusiva com fornecedores exige justificativa. Além disso, o custo total precisa somar, em cinco anos, licenças, renovações, suporte, treinamento, infraestrutura e a migração dos painéis existentes. Comparada assim, uma ferramenta de licença mais cara pode sair mais barata, por dispensar infraestrutura própria.
+
+Pegadinhas do bloco três.
+
+Na tecnologia, a pesquisa direta com fornecedores é o parâmetro preferencial. Errado. Prioriza-se o painel de preços e as contratações similares; a estimativa só com propostas de fornecedores exige justificativa.
+
+Na pesquisa direta, valem orçamentos de qualquer data, desde que de três fornecedores. Errado. Os orçamentos não podem ter mais de seis meses de antecedência da divulgação do edital.
+
+O custo total de propriedade deve ser calculado para todas as soluções levantadas. Errado. Só para as técnica e funcionalmente viáveis; as inviáveis são registradas sem o cálculo.
+
+No julgamento por menor preço, só o preço de aquisição pode ser considerado. Errado. O artigo trinta e quatro, parágrafo primeiro, admite os custos indiretos do ciclo de vida, quando objetivamente mensuráveis.
+
+Com orçamento sigiloso, nem os órgãos de controle conhecem o valor estimado até o fim da licitação. Errado. O sigilo não prevalece para o controle interno e externo.
+
+
+BLOCO QUATRO: QUALIDADE, NÍVEIS DE SERVIÇO E ENTREGAS VERIFICÁVEIS
+
+Os modelos de qualidade, os testes e a definição de pronto foram vistos nos itens três ponto quatro ponto dois e três ponto quatro ponto quatro, os objetivos de nível de serviço, no três ponto dois ponto cinco, e o Programa de Privacidade e Segurança da Informação, no três ponto três ponto quatro. Aqui entram a tradução desses conceitos em cláusulas: remuneração por resultado, critérios de aceitação, níveis mínimos de serviço e procedimentos de inspeção.
+
+O ponto de partida é a remuneração por resultado. A Súmula duzentos e sessenta e nove do Tribunal de Contas da União estabelece que, nas contratações de serviços de tecnologia da informação, a remuneração deve estar vinculada a resultados ou ao atendimento de níveis de serviço, admitido o pagamento por hora trabalhada ou por posto de serviço somente quando as características do objeto não o permitirem, com a excepcionalidade prévia e adequadamente justificada. Pagar por hora remunera o esforço, e não o resultado: a ineficiência aumenta a fatura.
+
+A instrução normativa segue a súmula. O artigo dezoito, inciso quatro, manda que o pagamento seja efetuado em função dos resultados obtidos. E o artigo quinto veda, entre outras práticas: adotar a métrica homem-hora ou equivalente, salvo com justificativa e sempre vinculada à entrega de produtos com prazos e qualidade previamente definidos; contratar por postos de trabalho alocados, salvo em casos justificados, com comprovação obrigatória de resultados compatíveis com o posto; e definir o pagamento por exclusivo reembolso dos salários pagos. O mesmo artigo veda ainda a subordinação dos empregados da contratada a servidores, a indicação nominal de quem executará o objeto e a exigência de que a licitante tenha, antes da contratação, profissionais certificados na solução.
+
+A lei permite ir além. O artigo cento e quarenta e quatro admite remuneração variável vinculada ao desempenho do contratado, com base em metas, padrões de qualidade, critérios de sustentabilidade ambiental e prazos de entrega definidos no edital e no contrato. Ela deve ser motivada e respeitar o limite orçamentário fixado para a contratação.
+
+Critérios de aceitação são, pela definição do artigo segundo da instrução normativa, parâmetros objetivos e mensuráveis utilizados para verificar se um bem ou serviço recebido está em conformidade com os requisitos especificados. O modelo de gestão do contrato, no artigo dezenove, inciso um, fixa esses critérios, abrangendo métricas, indicadores e níveis mínimos de serviço com os valores aceitáveis para os principais elementos da solução. Eles constam do termo de referência, antes da execução.
+
+Entrega verificável é a que um terceiro consegue conferir sem depender da palavra de quem entregou. Em software, isso significa, por exemplo: o código no repositório do órgão, com histórico; a funcionalidade implantada em ambiente de homologação, com os critérios de aceitação das histórias verificados pelo requisitante; os testes automatizados e a análise estática executados na esteira de integração do órgão, com resultado registrado; a documentação atualizada como parte da entrega; e a conformidade com os requisitos de acessibilidade e de segurança. A definição de pronto vira cláusula contratual. Um relatório de horas não é entrega.
+
+Os níveis mínimos de serviço são indicadores com meta. Cada um precisa de nome, fórmula de cálculo, fonte dos dados, periodicidade de apuração, meta e consequência do descumprimento. Em contratos de software, são comuns o prazo de entrega das ordens de serviço, a taxa de defeitos encontrados em homologação e em produção, o prazo de correção por severidade, a disponibilidade mensal do sistema sustentado e o índice de retrabalho. A consequência típica é uma faixa de redução do pagamento proporcional ao desvio; o descumprimento reiterado pode levar a sanção.
+
+O artigo dezenove, inciso dois, exige procedimentos de teste e inspeção para avaliar o cumprimento das exigências técnicas: metodologia de avaliação da qualidade e da adequação às especificações; inspeção por amostragem ou total; ferramentas para acompanhar os indicadores; origem e forma de obtenção das informações; listas de verificação e roteiros de testes para os fiscais; e previsão de inspeções e diligências. Listas de verificação são, pelo artigo segundo, documentos ou ferramentas estruturadas com os elementos que os fiscais acompanham, para registro padronizado e objetivo.
+
+A qualidade também pode ser verificada antes do contrato. O artigo dezessete, parágrafo terceiro, da lei permite, se previsto no edital, exigir do licitante provisoriamente vencedor homologação de amostras, exame de conformidade e prova de conceito, para comprovar a aderência às especificações; e a instrução normativa exige que os procedimentos e critérios objetivos de avaliação da amostra constem do termo de referência. A segurança também se contrata: a medida quinze ponto quatro do programa de privacidade e segurança manda incluir nos contratos com provedores requisitos como segurança do software, resposta a incidentes, criptografia e descarte de dados.
+
+A garantia técnica completa a qualidade: defeitos no que foi entregue e aceito são corrigidos sem custo durante o prazo de garantia definido no contrato. Na instrução normativa, o fiscal técnico encaminha à contratada as correções cobertas por garantia, e o gestor, as não cobertas.
+
+Exemplo prático. Um contrato paga valor fixo por sprínt, e a cláusula de nível de serviço diz apenas que as entregas devem ter qualidade. Na fiscalização, nada pode ser glosado, porque não há métrica. A versão verificável define: histórias aceitas pelo dono do produto do órgão, com critérios de aceitação escritos antes da sprínt; código no repositório do órgão, com testes e análise estática executados na esteira; nenhuma vulnerabilidade crítica aberta na entrega; e taxa máxima de defeitos em produção nos noventa dias seguintes. Cada indicador tem fonte, periodicidade e faixa de redução do pagamento.
+
+Pegadinhas do bloco quatro.
+
+Nas contratações de tecnologia, a remuneração por hora trabalhada é a regra, e a por resultado, a exceção. Errado. A Súmula duzentos e sessenta e nove inverte: resultado ou nível de serviço é a regra; hora ou posto, exceção prévia e adequadamente justificada.
+
+Contratar por postos de trabalho alocados é vedado em qualquer hipótese. Errado. É admitido em casos justificados, com comprovação obrigatória de resultados compatíveis com o posto.
+
+Os critérios de aceitação podem ser fixados pelo fiscal técnico ao longo da execução. Errado. São fixados no modelo de gestão, dentro do termo de referência, e devem ser objetivos e mensuráveis.
+
+O edital pode exigir que a licitante já tenha, em seus quadros, profissionais certificados na solução. Errado. O artigo quinto veda essa exigência antes da contratação.
+
+
+BLOCO CINCO: FISCALIZAÇÃO E PAGAMENTO
+
+A vedação de designar o mesmo agente para funções mais suscetíveis a riscos, do artigo sétimo da lei, foi vista no item três ponto dois ponto dois. Aqui entram a designação dos fiscais, a equipe de fiscalização do Sísp, o fluxo de recebimento, a glosa e as regras de pagamento.
+
+O artigo cento e dezessete da lei manda que a execução seja acompanhada e fiscalizada por um ou mais fiscais, representantes da administração especialmente designados, ou por seus substitutos. Os requisitos da designação estão no artigo sétimo: ser preferencialmente servidor efetivo ou empregado público dos quadros permanentes; ter atribuições ligadas a licitações e contratos, formação compatível ou certificação de escola de governo; e não ser cônjuge ou companheiro de licitantes ou contratados habituais, nem ter com eles parentesco até o terceiro grau ou vínculo técnico, comercial, econômico, financeiro, trabalhista ou civil. O Decreto onze mil duzentos e quarenta e seis, de dois mil e vinte e dois, regulamenta a atuação de gestores e fiscais no âmbito federal.
+
+Os parágrafos do artigo cento e dezessete trazem os deveres. O fiscal anota em registro próprio todas as ocorrências da execução e determina o necessário para regularizar faltas ou defeitos. Informa aos superiores, em tempo hábil, o que ultrapassar a sua competência. É auxiliado pela assessoria jurídica e pelo controle interno, que esclarecem dúvidas e o subsidiam com informações para prevenir riscos. E pode ser assistido por terceiro contratado, que assume responsabilidade civil objetiva pela veracidade e precisão das informações, firma termo de confidencialidade e não pode exercer atribuição própria e exclusiva de fiscal; a contratação do terceiro não exime o fiscal de responsabilidade, nos limites das informações recebidas.
+
+A instrução normativa acrescenta, no artigo quarto: quando a avaliação, a mensuração ou o apoio à fiscalização forem contratados, a empresa que fornece a solução não pode ser a mesma que a avalia, mensura ou apoia a fiscalização. Quem conta os pontos de função entregues não pode ser quem os entrega.
+
+No Sísp, a fase de gestão começa com a assinatura do contrato e a nomeação do gestor e da equipe de fiscalização, pelo artigo vinte e nove. O gestor é servidor com atribuições gerenciais, preferencialmente da área requisitante, que coordena a gestão e a fiscalização. O fiscal técnico, da área de tecnologia, fiscaliza tecnicamente. O fiscal requisitante, da área requisitante, fiscaliza do ponto de vista do negócio e da funcionalidade. O fiscal administrativo, da área administrativa, cuida dos aspectos administrativos. E o fiscal setorial, quando necessário, acompanha a execução em setores distintos ou unidades desconcentradas.
+
+As regras de acumulação são cobradas. Os fiscais podem ser os mesmos servidores que fizeram o planejamento. O gestor não acumula papel de fiscal. Os papéis de fiscal não se acumulam, salvo requisitante e técnico, em caso excepcional, com justificativa e aprovação da autoridade máxima da área de tecnologia. E essa autoridade não pode ser fiscal, salvo em caso excepcional, com justificativa e aprovação do Comitê de Governança Digital.
+
+O contrato começa com reunião inicial registrada em ata, na qual a contratada apresenta o preposto e entrega o termo de compromisso de sigilo e respeito às normas de segurança, assinado pelo representante legal, e os termos de ciência, assinados pelos empregados envolvidos, pelo artigo trinta e um. As demandas seguem por ordens de serviço emitidas pelo gestor, com especificação, volume estimado nas métricas do contrato, cronograma e responsável pela solicitação, pelo artigo trinta e dois.
+
+O recebimento segue o artigo cento e quarenta da lei. Em serviços, é provisório, pelo responsável pelo acompanhamento e fiscalização, mediante termo detalhado, quando verificado o cumprimento das exigências de caráter técnico; e definitivo, por servidor ou comissão designada pela autoridade competente, mediante termo detalhado que comprove o atendimento das exigências contratuais. Em compras, o provisório é sumário, com verificação posterior da conformidade. O objeto pode ser rejeitado, no todo ou em parte. E o recebimento não exclui a responsabilidade civil pela solidez e segurança do serviço nem a ético-profissional pela perfeita execução do contrato.
+
+Na instrução normativa, o fluxo tem papéis definidos no artigo trinta e três. O fiscal técnico confecciona e assina o termo de recebimento provisório, com apoio do fiscal requisitante, quando da entrega do objeto da ordem de serviço. Os fiscais técnico e requisitante avaliam a qualidade com as listas de verificação e os critérios de aceitação e identificam as não conformidades. O gestor confecciona e assina o termo de recebimento definitivo, com base no provisório, na avaliação da qualidade e na aderência ao contrato, com apoio dos fiscais técnico, setorial e requisitante; encaminha a indicação de glosas e sanções à área administrativa; e autoriza o faturamento com base no termo definitivo. O fiscal administrativo acompanha prazos, aditivos, garantias e glosas e verifica a regularidade fiscal, trabalhista e previdenciária para o pagamento.
+
+O gestor também mantém o histórico de gestão do contrato, com as ocorrências positivas e negativas em ordem histórica, e registra a avaliação de desempenho da contratada, com base em indicadores objetivos, para o cadastro de atesto de cumprimento de obrigações. O fiscal requisitante verifica se continuam presentes a necessidade, a economicidade e a oportunidade da contratação.
+
+A glosa é o desconto no pagamento pela entrega que não atingiu o contratado. Pelo artigo dezenove, inciso três, os valores e procedimentos de retenção ou glosa são fixados no modelo de gestão, sem prejuízo das sanções, e a glosa só ocorre quando a contratada não atinge os valores mínimos dos critérios de aceitação, não produz os resultados ou deixa de executar as atividades, ou quando deixa de usar os materiais e as pessoas exigidos ou os usa em qualidade ou quantidade inferior. O pagamento é feito descontadas as glosas e as sanções.
+
+As sanções seguem os artigos cento e cinquenta e cinco a cento e sessenta e três da lei. São quatro, no artigo cento e cinquenta e seis: advertência; multa, entre meio por cento e trinta por cento do valor do contrato; impedimento de licitar e contratar no ente que a aplicou, por até três anos; e declaração de inidoneidade para licitar ou contratar com todos os entes, de três a seis anos. O modelo de gestão descreve as situações de cada uma, com proporcionalidade ao prejuízo.
+
+O pagamento depende da liquidação. Pela Lei quatro mil trezentos e vinte, de mil novecentos e sessenta e quatro, a despesa só é paga após a verificação do direito do credor, com base no contrato, na nota de empenho e nos comprovantes da efetiva prestação do serviço; em tecnologia, o comprovante central é o termo de recebimento definitivo. A Lei catorze mil cento e trinta e três exige, no artigo cento e quarenta e um, ordem cronológica de pagamentos para cada fonte diferenciada de recursos, subdividida em quatro categorias: fornecimento de bens, locações, prestação de serviços e obras. A ordem só pode ser alterada com justificativa prévia e comunicação posterior ao controle interno e ao tribunal de contas, em situações listadas, entre elas o pagamento de serviços necessários ao funcionamento dos sistemas estruturantes, quando demonstrado risco de descontinuidade.
+
+O pagamento antecipado é vedado como regra, pelo artigo cento e quarenta e cinco. A exceção exige sensível economia de recursos ou condição indispensável para obter o bem ou o serviço, com justificativa prévia no processo e previsão expressa no edital ou no instrumento da contratação direta. A administração pode exigir garantia adicional, e o valor antecipado é devolvido se o objeto não for executado no prazo. Assinaturas anuais de software cobradas no início do período são o caso típico que exige essa justificativa.
+
+Dois pontos fecham o bloco. O reajuste de serviços de tecnologia por índice usa obrigatoriamente o índice de custos de tecnologia da informação, o í cê tê í, mantido pelo Ipéa, pelo artigo vinte e quatro da instrução normativa. E a prorrogação de serviços contínuos, que a lei admite até a vigência máxima de dez anos, exige que o gestor envie a documentação à área administrativa com pelo menos sessenta dias de antecedência do término, com base no histórico de gestão e na manutenção da necessidade, da economicidade e da oportunidade; a pesquisa de preços da prorrogação cabe ao fiscal técnico, com apoio do administrativo.
+
+Exemplo prático. Numa auditoria de contrato de desenvolvimento, a equipe da Controladoria cruza as ordens de serviço com os termos de recebimento e com o histórico do repositório. Encontra ordens abertas depois do primeiro cômit da funcionalidade, termos provisório e definitivo assinados no mesmo dia com texto idêntico, e contagens de pontos de função feitas só pela contratada. Os três achados apontam a mesma falha: o recebimento virou formalidade, sem verificação independente da entrega.
+
+Pegadinhas do bloco cinco.
+
+No Sísp, o fiscal técnico que assina o termo de recebimento provisório assina também o definitivo. Errado. O definitivo é do gestor, que não acumula papel de fiscal.
+
+Contratado um terceiro para apoiar a fiscalização, a responsabilidade pelas informações passa a ser exclusivamente dele. Errado. O terceiro responde objetivamente pela veracidade, mas o fiscal não fica eximido, nos limites das informações recebidas.
+
+A glosa é espécie de sanção e depende do juízo do fiscal sobre a execução. Errado. É ajuste do pagamento ao que foi entregue, nas hipóteses fixadas no modelo de gestão, sem prejuízo das sanções.
+
+O pagamento antecipado é vedado sem exceção. Errado. É admitido com sensível economia ou condição indispensável, justificado previamente e previsto no edital.
+
+A ordem cronológica de pagamentos é única para todos os contratos do órgão. Errado. É por fonte diferenciada de recursos, em quatro categorias de contratos.
+
+
+BLOCO SEIS: PROPRIEDADE INTELECTUAL, PORTABILIDADE, ACESSO A CÓDIGO E DADOS, DEPENDÊNCIA TECNOLÓGICA E PLANO DE SAÍDA
+
+A devolução integral dos dados ao fim dos contratos de nuvem, do artigo dezenove da Instrução Normativa cinco do gê ésse í, foi vista no item três ponto dois ponto cinco, e o versionamento e as esteiras de implantação, no três ponto quatro ponto três. Aqui entram a titularidade do software contratado, o acesso ao código e aos dados, a portabilidade, a dependência tecnológica e a transição ao fim do contrato.
+
+A regra central é o artigo noventa e três da lei. Nas contratações de projetos ou de serviços técnicos especializados, inclusive o desenvolvimento de programas e aplicações e a respectiva documentação técnica, o autor deve ceder todos os direitos patrimoniais à administração, que pode utilizá-los e alterá-los livremente em outras ocasiões, sem nova autorização do autor. Quando o projeto for obra imaterial de caráter tecnológico, insuscetível de privilégio, a cessão inclui o fornecimento de todos os dados, documentos e elementos de informação sobre a tecnologia de concepção, desenvolvimento, fixação em suporte e aplicação da obra. A administração pode deixar de exigir a cessão quando o objeto envolver pesquisa e desenvolvimento de caráter científico, tecnológico ou de inovação, considerados os princípios da Lei de Inovação, a Lei dez mil novecentos e setenta e três, de dois mil e quatro. E, se a administração alterar o projeto depois, o autor é comunicado, e os registros são promovidos nos órgãos competentes.
+
+A Lei do Software, a Lei nove mil seiscentos e nove, de mil novecentos e noventa e oito, aponta na mesma direção. Pelo artigo quarto, salvo estipulação em contrário, pertencem exclusivamente ao empregador, ao contratante de serviços ou ao órgão público os direitos sobre o programa desenvolvido durante o contrato ou o vínculo estatutário, quando o vínculo for destinado ao desenvolvimento, quando a atividade estiver prevista ou quando ela decorrer da natureza dos encargos.
+
+A instrução normativa transforma isso em cláusula. Pelo artigo dezessete, o termo de referência prevê que os direitos de propriedade intelectual e autorais sobre os artefatos criados ou alterados pertencem à administração, incluindo a documentação, o código-fonte, os modelos de dados e as bases de dados, justificando os casos em que isso não ocorrer; e, entre as obrigações da contratada, estão ceder esses direitos e fazer a transição contratual.
+
+Em software adquirido por licença ou assinatura, não há cessão: a administração compra o direito de uso, e o código continua do fabricante. A proteção, então, é contratual: exportação dos dados em formato aberto e documentado, a qualquer tempo e ao fim do contrato; regras de preço na renovação; e, em soluções críticas, depósito do código-fonte em custódia de terceiro, liberado em caso de falência do fornecedor ou descontinuidade do produto. A instrução normativa também veda, no artigo quinto, referências no edital ou no contrato a regras externas de fabricantes que permitam à contratada alterar o contrato unilateralmente, como uma mudança de política de licenciamento.
+
+Ter o direito não é ter o acesso. A cessão no papel não adianta se o código está no repositório da contratada, se a geração do sistema depende do ambiente dela ou se só os empregados dela sabem implantá-lo. Por isso, o acesso se garante desde o primeiro dia: o código vive no repositório do órgão, com o histórico completo dos cômits; a esteira de integração e implantação roda no ambiente do órgão, e o sistema pode ser gerado a partir do código-fonte sem a contratada; as credenciais e os segredos são do órgão; e a documentação de arquitetura, de implantação e de operação é entregue e aceita a cada ciclo, como qualquer funcionalidade.
+
+Os dados pertencem à administração. O contrato deve garantir a extração completa, em formato aberto, com dicionário de dados e relacionamentos, sem custo adicional e em prazo definido; a vedação de uso secundário; e a eliminação, com evidência, depois da transferência. Exportações periódicas testadas mostram que a extração funciona antes que ela seja indispensável.
+
+Portabilidade é a capacidade de levar a solução e os dados para outro fornecedor, outro provedor ou a própria equipe, com custo e prazo razoáveis. Ela vem de padrões abertos, interfaces documentadas, formatos de dados abertos e arquitetura que isola o que é específico de um provedor, com contêineres e infraestrutura descrita em código. Usar recurso exclusivo de um provedor de nuvem é escolha a registrar, com o custo de saída estimado.
+
+A dependência tecnológica, também chamada aprisionamento, tem quatro formas: tecnológica, quando a solução usa tecnologia proprietária sem alternativa; de dados, quando os dados estão em formato fechado ou o volume torna a transferência cara; de conhecimento, quando só a equipe da contratada entende o sistema; e contratual, com prazos longos, renovações automáticas e multas de saída.
+
+A inexigibilidade por fornecedor exclusivo, do artigo setenta e quatro, inciso um, da lei, exige que a administração demonstre a inviabilidade de competição com atestado de exclusividade, contrato de exclusividade, declaração do fabricante ou outro documento idôneo, vedada a preferência por marca específica. E a instrução normativa veda aceitar autodeclarações de exclusividade, isto é, cartas da própria proponente afirmando que seu produto é exclusivo no mercado.
+
+Prazos longos aumentam a dependência. O artigo cento e catorze da lei admite vigência de até quinze anos para contratos de operação continuada de sistemas estruturantes de tecnologia da informação, regra repetida no artigo treze da instrução normativa. Sistemas estruturantes são os que sustentam atividades comuns a todos os órgãos, como pessoal, orçamento, administração financeira e contabilidade, sob coordenação central. Contra a dependência, valem a transferência de conhecimento contínua, e não só no fim; servidores participando das decisões de arquitetura; o parcelamento; padrões abertos; e o plano de saída.
+
+O plano de saída nasce no planejamento, porque a transição contratual é obrigação da contratada prevista no termo de referência. O artigo trinta e cinco da instrução normativa lista o que a transição e o encerramento devem observar: a manutenção dos recursos materiais e humanos necessários à continuidade do negócio pela administração; a entrega das versões finais dos produtos e da documentação; a transferência final de conhecimentos sobre a execução e a manutenção da solução; a devolução de recursos; a revogação de perfis de acesso; a eliminação de caixas postais; e outras que se apliquem.
+
+O programa de privacidade e segurança vai na mesma linha: a medida quinze ponto sete manda encerrar o contrato com segurança, desativando as contas de usuário e de serviço usadas no contrato, encerrando os fluxos de dados e descartando com segurança os dados do órgão nos sistemas do provedor. Um bom plano de saída traz ainda o inventário do que será transferido, como código, dados, documentação, ambientes, credenciais, licenças e integrações; o cronograma, com período de convivência entre a equipe que sai e a que entra; critérios para considerar o conhecimento transferido, como a nova equipe executar sozinha uma implantação; e a migração dos dados com conferência de totais.
+
+Exemplo prático. Ao fim de cinco anos de sustentação, um órgão descobre que o código está no repositório da contratada, que a implantação depende de uma esteira mantida por ela e que a documentação parou no segundo ano. A cessão de direitos está no contrato, mas o órgão não consegue exercer o que tem no papel, e a nova contratada leva meses para entender o sistema. Um plano de saída desde o início teria exigido código e esteira no ambiente do órgão, documentação como entrega com critério de aceitação, exportação periódica e testada dos dados e um período de convivência entre as equipes antes do encerramento.
+
+Pegadinhas do bloco seis.
+
+Na contratação de desenvolvimento de software, a administração recebe licença de uso, e os direitos patrimoniais permanecem com a contratada. Errado. O artigo noventa e três exige a cessão de todos os direitos patrimoniais, com livre utilização e alteração.
+
+Basta prever a entrega do código-fonte ao fim do contrato. Errado. O código deve estar no repositório do órgão desde o início, com a esteira e a documentação que permitam gerar e operar o sistema sem a contratada.
+
+O plano de saída é elaborado quando se decide não prorrogar o contrato. Errado. A transição é obrigação prevista no termo de referência e se planeja desde a contratação.
+
+Declaração da própria empresa de que seu produto é exclusivo basta para fundamentar a inexigibilidade. Errado. A instrução normativa veda aceitar autodeclarações de exclusividade, e a lei exige documento idôneo.
+
+No encerramento do contrato, basta receber a documentação e devolver os equipamentos. Errado. O artigo trinta e cinco inclui a continuidade do negócio, a transferência final de conhecimentos, a revogação de acessos e a eliminação de caixas postais.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Necessidade, estudo e termo. Lei catorze mil cento e trinta e três como regime geral único desde dezembro de dois mil e vinte e três; Instrução Normativa noventa e quatro no Sísp, facultativa abaixo do valor da dispensa, salvo alinhamento e índice de reajuste. Planejamento, seleção e gestão, com riscos nas três. Documento de formalização da demanda; integrantes requisitante, técnico e administrativo. Necessidade descrita como problema. Estudo facultativo em emergência, calamidade e remanescente; dispensado ao repetir, há menos de um ano, licitação deserta ou fracassada. Termo com dez elementos. Requisitos de negócio pelo requisitante, tecnológicos pelo técnico, segurança pelos dois. Uma solução por contrato; parcelamento justificado.
+
+Construir, contratar ou compartilhar. Comparação econômica e qualitativa, com os padrões de governo. Desenvolvimento próprio dá controle e cobra capacidade; software pronto serve a necessidades comuns; fábrica de software entrega código do órgão. Itens de catálogo usam seus elementos. Adesão limitada à metade por aderente e ao dobro no total. Não se terceirizam decisão, atividades estratégicas, poder de polícia e atribuições de cargos.
+
+Viabilidade, dimensionamento, custo e preço. Eficácia, eficiência, efetividade e economicidade. Sem créditos orçamentários, contratação nula. Quantidades com memória de cálculo. Portaria setecentos e cinquenta: obrigatória no Sísp, quatro modalidades ligadas a níveis mínimos, pesquisa salarial e fator cá. Custo total no mesmo horizonte para todas as alternativas. Cinco parâmetros; média, mediana ou menor de três ou mais preços; na contratação direta, notas fiscais do ano anterior; preço máximo nos catálogos.
+
+Qualidade e níveis de serviço. Homem-hora só justificado e vinculado a produtos; vedado o reembolso de salários. Remuneração variável motivada e dentro do orçamento. Indicador com nome, fórmula, fonte, periodicidade, meta e consequência. Entrega conferível por terceiro. Inspeção por amostragem ou total, listas de verificação e roteiros de testes. Prova de conceito prevista no edital. Segurança nos contratos; garantia sem custo.
+
+Fiscalização e pagamento. Fiscal preferencialmente efetivo e sem vínculos com o contratado; registra ocorrências e conta com jurídico e controle interno. Fornecedor da solução não a mede. Gestor não acumula; acúmulo de requisitante e técnico aprovado pela autoridade de tecnologia, que só é fiscal com aprovação do comitê. Termos de compromisso e de ciência; ordens de serviço. Recebimento não exclui responsabilidades. Quatro sanções; multa de meio a trinta por cento. Liquidação antes do pagamento; sistemas estruturantes entre as exceções à ordem cronológica. Í cê tê í; prorrogação instruída sessenta dias antes, até dez anos.
+
+Propriedade, dados e saída. Cessão com dados e documentos da tecnologia; autor comunicado se o projeto for alterado. Lei do Software atribui os direitos ao contratante, salvo estipulação em contrário. Termo prevê titularidade de documentação, código, modelos e bases de dados. Em licença, exportação, custódia do código e vedação de regras externas de fabricantes. Dados em formato aberto, com eliminação comprovada. Quatro formas de dependência; até quinze anos para sistemas estruturantes. Encerramento seguro: contas desativadas, fluxos encerrados, dados descartados, convivência entre equipes.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Segundo a Lei catorze mil cento e trinta e três, o estudo técnico preliminar deve conter ao menos a descrição da necessidade, a estimativa das quantidades, a estimativa do valor, as justificativas para o parcelamento ou não da contratação e o posicionamento conclusivo sobre a adequação da contratação.
+
+Gabarito: certo. Artigo dezoito, parágrafo segundo; a omissão dos demais elementos exige justificativa.
+
+Item dois. Pela Instrução Normativa noventa e quatro, de dois mil e vinte e dois, a contratação de empresa pública de tecnologia da informação por dispensa de licitação torna desnecessária a elaboração do estudo técnico preliminar.
+
+Gabarito: errado. Artigo nono, parágrafo primeiro: todas as etapas do planejamento são obrigatórias também nesse caso.
+
+Item três. O termo de referência deve conter o modelo de execução do objeto, o modelo de gestão do contrato e os critérios de medição e de pagamento.
+
+Gabarito: certo. Artigo sexto, inciso vinte e três, da Lei catorze mil cento e trinta e três.
+
+Item quatro. No estudo técnico preliminar, a descrição da necessidade parte da solução tecnológica indicada pela área requisitante, cabendo à equipe demonstrar a vantagem dessa solução.
+
+Gabarito: errado. A necessidade é descrita a partir do problema a ser resolvido sob a perspectiva do interesse público, artigo dezoito, parágrafo primeiro, inciso um; a solução resulta da comparação de alternativas.
+
+Item cinco. Órgão integrante do Sísp pode contratar empresa especializada para executar a gestão de segurança da informação, desde que a execução seja supervisionada por servidor.
+
+Gabarito: errado. Artigo terceiro, inciso dois, da Instrução Normativa noventa e quatro.
+
+Item seis. A análise comparativa de soluções no estudo técnico preliminar deve considerar as soluções adotadas por outros órgãos para necessidades similares e os softwares disponibilizados como software público brasileiro.
+
+Gabarito: certo. Artigo onze, inciso dois, da Instrução Normativa noventa e quatro.
+
+Item sete. É dispensável a licitação para a contratação, por pessoa jurídica de direito público interno, de serviços prestados por entidade da administração pública criada para esse fim específico, desde que o preço contratado seja compatível com o praticado no mercado.
+
+Gabarito: certo. Artigo setenta e cinco, inciso nove, da Lei catorze mil cento e trinta e três.
+
+Item oito. Na pesquisa direta com fornecedores, admitem-se orçamentos de qualquer data, desde que obtidos de pelo menos três fornecedores, com justificativa da escolha.
+
+Gabarito: errado. Artigo vinte e três, parágrafo primeiro, inciso quatro: no máximo seis meses de antecedência da divulgação do edital.
+
+Item nove. Os custos indiretos relacionados à manutenção, à utilização, à reposição, à depreciação e ao impacto ambiental do objeto podem ser considerados na definição do menor dispêndio, sempre que objetivamente mensuráveis.
+
+Gabarito: certo. Artigo trinta e quatro, parágrafo primeiro, da Lei catorze mil cento e trinta e três.
+
+Item dez. O cálculo do custo total de propriedade deve abranger todas as soluções identificadas na análise comparativa, inclusive as consideradas inviáveis, para demonstrar a vantagem da escolhida.
+
+Gabarito: errado. Artigo onze, parágrafo primeiro, da Instrução Normativa noventa e quatro.
+
+Item onze. No custo total de propriedade, consideram-se custos do ciclo de vida como aquisição dos ativos, insumos, garantia técnica estendida, manutenção, migração e treinamento.
+
+Gabarito: certo. Artigo onze, inciso três, da Instrução Normativa noventa e quatro.
+
+Item doze. Nas contratações de serviços de tecnologia da informação, a remuneração por hora trabalhada ou por posto de serviço é a regra, admitida a remuneração por resultados quando o objeto permitir mensuração.
+
+Gabarito: errado. Súmula duzentos e sessenta e nove do Tribunal de Contas da União.
+
+Item treze. Critérios de aceitação são parâmetros objetivos e mensuráveis utilizados para verificar se um bem ou serviço recebido está em conformidade com os requisitos especificados.
+
+Gabarito: certo. Definição do artigo segundo da Instrução Normativa noventa e quatro.
+
+Item catorze. A glosa no pagamento pode ser aplicada pelo fiscal sempre que ele julgar insatisfatória a execução, independentemente do que preveja o modelo de gestão do contrato.
+
+Gabarito: errado. Artigo dezenove, inciso três, da Instrução Normativa noventa e quatro.
+
+Item quinze. O pagamento antecipado é admitido quando propiciar sensível economia de recursos ou representar condição indispensável para a obtenção do bem ou do serviço, desde que previamente justificado e expressamente previsto no edital ou no instrumento de contratação direta.
+
+Gabarito: certo. Artigo cento e quarenta e cinco, parágrafo primeiro, da Lei catorze mil cento e trinta e três.
+
+Item dezesseis. Contratado terceiro para assistir o fiscal do contrato, o fiscal fica eximido de responsabilidade, que passa a ser integralmente da empresa contratada para assisti-lo.
+
+Gabarito: errado. Artigo cento e dezessete, parágrafo quarto.
+
+Item dezessete. Por economia, a empresa que desenvolve o software pode ser contratada também para mensurar os pontos de função entregues e apoiar a fiscalização do contrato.
+
+Gabarito: errado. Artigo quarto da Instrução Normativa noventa e quatro.
+
+Item dezoito. Nas contratações que envolvam o desenvolvimento de software, o autor deve ceder todos os direitos patrimoniais à administração, que poderá utilizá-los e alterá-los livremente em outras ocasiões, sem nova autorização.
+
+Gabarito: certo. Artigo noventa e três da Lei catorze mil cento e trinta e três.
+
+Item dezenove. A cessão dos direitos patrimoniais sobre o software desenvolvido é exigência da qual a administração não pode abrir mão em nenhuma hipótese.
+
+Gabarito: errado. Pode deixar de exigi-la quando o objeto envolver pesquisa e desenvolvimento de caráter científico, tecnológico ou de inovação, artigo noventa e três, parágrafo segundo.
+
+Item vinte. As atividades de transição e de encerramento contratual incluem a transferência final de conhecimentos, a entrega das versões finais dos produtos e da documentação, a revogação de perfis de acesso e a eliminação de caixas postais.
+
+Gabarito: certo. Artigo trinta e cinco da Instrução Normativa noventa e quatro.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto um ponto um, governança e responsabilidades.
