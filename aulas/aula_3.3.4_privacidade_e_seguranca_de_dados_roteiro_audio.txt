@@ -1,0 +1,319 @@
+AUDIOAULA. ITEM TRÊS PONTO TRÊS PONTO QUATRO DO EDITAL: PRIVACIDADE E SEGURANÇA DE DADOS
+
+
+ABERTURA
+
+Este é o item três ponto três ponto quatro, privacidade e segurança de dados, que fecha o tema de persistência, integração e proteção de dados. Ele tem seis subitens, tratados em seis blocos: minimização, finalidade, acesso e segregação; criptografia em trânsito e em repouso; pseudonimização e risco de reidentificação; retenção, descarte e proteção de cópias e registros; compartilhamento e publicação com salvaguardas; e proteção de dados pessoais desde a concepção da aplicação. A banca costuma explorar a diferença entre dado pseudonimizado e anonimizado, o que cada camada de criptografia protege, as hipóteses de conservação depois do término do tratamento, as regras do compartilhamento pelo poder público e a privacidade desde a concepção e por padrão.
+
+
+BLOCO UM: MINIMIZAÇÃO, FINALIDADE, ACESSO E SEGREGAÇÃO
+
+A lista dos princípios da Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, foi vista no item um ponto três ponto dois; o menor privilégio e a segregação de funções, no três ponto dois ponto dois; e a segurança em nível de linha, no três ponto três ponto dois. Aqui entram a aplicação desses princípios ao desenho dos dados, o acesso por finalidade e a segregação de dados e de ambientes.
+
+Três princípios do artigo sexto funcionam em cadeia. A finalidade, no inciso um, exige propósitos legítimos, específicos, explícitos e informados ao titular, sem possibilidade de tratamento posterior incompatível com eles. A adequação, no inciso dois, exige compatibilidade do tratamento com as finalidades informadas. E a necessidade, no inciso três, limita o tratamento ao mínimo necessário para a finalidade, com dados pertinentes, proporcionais e não excessivos. Primeiro se define o propósito; depois, os dados compatíveis com ele; por fim, o mínimo desses dados.
+
+Por isso, finalidade genérica não serve. Melhorar os serviços ou possível uso futuro não são propósitos específicos. E o uso posterior para outro fim precisa ser compatível com o original; se não for, exige nova avaliação de base legal e de finalidade.
+
+Na aplicação, minimizar tem quatro dimensões. Campos: coletar só o que a regra de negócio usa, sem o campo para o caso de um dia precisar. Granularidade: se a regra só verifica a maioridade, basta a confirmação, e não a data de nascimento completa; se a análise é regional, basta o município, e não o endereço. Prazo: guardar só enquanto for necessário, tema do bloco quatro. E cópias: cada extração, planilha, quéchi, registro de log e ambiente de teste multiplica o dado e o risco. O dado que não foi coletado não vaza.
+
+O acesso também se minimiza. O perfil diz o que a pessoa pode fazer no sistema; a finalidade diz para quê. Em dados sensíveis, um bom desenho vincula o acesso a uma demanda atribuída ao usuário, como um processo sob sua responsabilidade, em vez de liberar a consulta a qualquer registro. O acesso emergencial existe, mas exige justificativa registrada, gera alerta e passa por revisão posterior. Analistas não consultam o banco de produção diretamente: usam visões com as colunas permitidas ou cópias pseudonimizadas. E os acessos são revistos periodicamente, para retirar permissões que sobraram de funções anteriores.
+
+No governo federal, o Programa de Privacidade e Segurança da Informação, na versão dois ponto zero, instituída pela Portaria nove mil quinhentos e onze, de outubro de dois mil e vinte e cinco, da Secretaria de Governo Digital, organiza essas exigências em controles. O segmento de segurança adota integralmente os controles do cís, versão oito ponto um, e o segmento de privacidade é construído sobre a Lei Geral de Proteção de Dados. No controle de proteção de dados, a medida três ponto catorze manda registrar o acesso aos dados críticos, incluindo modificação e descarte.
+
+A segregação separa o que não deve ficar junto. A medida três ponto doze do mesmo programa manda segmentar o processamento e o armazenamento de dados com base na criticidade e não processar dados críticos em ativos destinados a dados de menor criticidade. Na prática, há cinco separações. Ambientes: dados reais de produção não vão para desenvolvimento e teste sem mascaramento, tema dos itens três ponto quatro ponto dois e três ponto quatro ponto três. Dados por sensibilidade: campos sensíveis em tabela ou esquema próprio, com permissões e criptografia próprias. Identidade e conteúdo: quem analisa o conteúdo não precisa ver quem é a pessoa. Chaves e dados: a chave de criptografia não fica onde está o dado cifrado, tema do bloco dois. E a tabela que desfaz a pseudonimização fica apartada da base pseudonimizada, tema do bloco três.
+
+Exemplo prático. Um sistema de ouvidoria recebe denúncias com a identidade do denunciante. A equipe de triagem precisa da identidade para eventuais contatos; a equipe que analisa padrões de irregularidades precisa do conteúdo, e não do nome. O desenho guarda a identidade em tabela separada, cifrada e acessível só à triagem; os analistas trabalham sobre o conteúdo com um identificador sem significado; e qualquer acesso à identidade é registrado com o motivo.
+
+Pegadinhas do bloco um.
+
+O princípio da necessidade se cumpre quando os dados coletados são pertinentes à finalidade, ainda que excessivos. Errado. Os dados devem ser pertinentes, proporcionais e não excessivos, no mínimo necessário.
+
+Uma finalidade como melhorar os serviços prestados atende ao princípio da finalidade. Errado. A finalidade deve ser legítima, específica, explícita e informada ao titular.
+
+Copiar a base de produção para o ambiente de testes é adequado, porque os testes exigem dados reais. Errado. Usam-se dados mascarados ou sintéticos; dado real em teste é dado pessoal fora do ambiente protegido.
+
+Ter perfil de acesso ao sistema autoriza consultar quaisquer dados pessoais nele contidos. Errado. O acesso segue a necessidade e a finalidade, e não a mera existência do perfil.
+
+
+BLOCO DOIS: CRIPTOGRAFIA EM TRÂNSITO E EM REPOUSO
+
+O armazenamento de senhas com sal e função lenta, a autenticação mútua com certificados e o djóti foram vistos no item três ponto dois ponto dois, e os erros de certificado, no três ponto dois ponto cinco. Aqui entram o que cada camada de criptografia protege, a gestão de chaves e as mudanças recentes.
+
+O programa federal tem duas medidas específicas: cifrar os dados críticos em trânsito, na medida três ponto dez, e em repouso, nos servidores, sistemas e bancos de dados, na medida três ponto onze, considerando a Norma Complementar nove do gê ésse í, sobre o uso de recursos criptográficos. E a criptografia tem efeito direto na lei: pelo artigo quarenta e oito, parágrafo terceiro, da Lei Geral de Proteção de Dados, a gravidade de um incidente considera se foram adotadas medidas técnicas que tornem os dados afetados ininteligíveis para terceiros não autorizados.
+
+Algumas bases. Dados são cifrados com algoritmo simétrico, como o á é ésse; os algoritmos assimétricos, como o érre ésse á e as curvas elípticas, servem para a troca de chaves e a assinatura. O modo de operação importa. O modo autenticado, como o gê cê ême, garante sigilo e integridade, mas exige que o número de uso único nunca se repita com a mesma chave; a repetição quebra a proteção. O modo é cê bê, que cifra cada bloco de forma independente, revela padrões, porque blocos iguais geram cifras iguais. E criptografia não se implementa à mão: usam-se bibliotecas consolidadas.
+
+Em trânsito, a proteção é o tê éle ésse. As versões um ponto zero e um ponto um foram descontinuadas pela érre éfe cê oito mil novecentos e noventa e seis, de dois mil e vinte e um. Usa-se a um ponto dois, com conjuntos fortes, ou a um ponto três, da érre éfe cê oito mil quatrocentos e quarenta e seis, de dois mil e dezoito. A um ponto três só admite troca de chaves efêmera, o que torna obrigatório o sigilo futuro: se a chave privada do servidor vazar depois, as sessões gravadas antes continuam protegidas. Ela também eliminou algoritmos fracos e encurtou a negociação. A retomada com dados já na primeira mensagem, a chamada zero érre tê tê, admite reenvio malicioso, e por isso só serve a requisições idempotentes.
+
+Na web, o cabeçalho agá ésse tê ésse informa ao navegador que o domínio só deve ser acessado com conexão cifrada durante um período, o que impede que um intermediário rebaixe a conexão. E a cifra vale também dentro da rede, pelo princípio de confiança zero visto no item três ponto dois ponto um: entre serviços, com filas e com o banco.
+
+Na conexão com o banco, há uma armadilha. O modo padrão do cliente do Póstgres prefere cifrar, mas aceita conexão sem cifra se o servidor não oferecer. E o modo que apenas exige cifra não garante que o servidor seja o legítimo. Só o modo de verificação completa confere a autoridade certificadora e o nome do servidor, e só ele impede a interceptação por um intermediário.
+
+Mudança recente nos certificados. Em abril de dois mil e vinte e cinco, o fórum que reúne autoridades certificadoras e fabricantes de navegadores aprovou a redução gradual da validade máxima dos certificados públicos de tê éle ésse. Ela caiu de trezentos e noventa e oito para duzentos dias em quinze de março de dois mil e vinte e seis, cai para cem dias em março de dois mil e vinte e sete e chega a quarenta e sete dias em março de dois mil e vinte e nove. Renovação manual deixa de ser viável: emissão e renovação precisam ser automáticas e monitoradas.
+
+Em repouso, há três camadas, e cada uma protege contra ameaças diferentes.
+
+A criptografia do disco ou do volume, inclusive a oferecida pelo provedor de nuvem, protege a mídia: o disco furtado, o descartado sem limpeza. É transparente para o sistema: quem tem acesso ao servidor ou ao banco lê tudo em claro.
+
+A criptografia transparente do banco cifra os arquivos de dados, os registros de transação e as cópias de segurança. Protege contra quem obtém esses arquivos fora do banco. Mas é transparente para qualquer usuário autorizado do banco e para a aplicação, e por isso não protege contra injeção de ésse quê éle, contra a aplicação comprometida nem contra o administrador do banco.
+
+A criptografia de campo, feita pela aplicação antes de gravar, protege colunas específicas, como o cê pê éfe ou dados de saúde. O banco e seu administrador só veem texto cifrado, e cópias e réplicas vazadas não revelam o conteúdo. O custo é funcional: o banco não indexa, não ordena e não filtra por faixa um campo cifrado. A cifra determinística, que gera sempre o mesmo resultado para o mesmo valor, permite busca por igualdade, mas revela quais registros têm valores iguais. A alternativa comum é guardar, ao lado do campo cifrado, um resumo agá mác do valor, calculado com chave secreta, e buscar por ele. Quanto mais alta a camada, mais ameaças cobre e mais funcionalidade custa.
+
+A gestão de chaves decide se a criptografia funciona. A chave não fica no código nem junto do dado. O padrão é a cifra em envelope: cada conjunto de dados é cifrado com uma chave de dados, e a chave de dados é cifrada com uma chave mestra guardada em um serviço de gerenciamento de chaves ou em um módulo de segurança de hardware, o agá ésse ême. A troca periódica da chave mestra só exige recifrar as chaves de dados. O acesso às chaves é controlado e registrado à parte, de modo que quem administra o banco não administra as chaves. E destruir uma chave torna ilegível tudo o que foi cifrado com ela, recurso usado no descarte, tema do bloco quatro.
+
+A ameaça quântica. Um computador quântico de grande porte quebraria o érre ésse á e as curvas elípticas, mas não o á é ésse com chave de duzentos e cinquenta e seis bits, que continua adequado. O risco já existe hoje, pela estratégia de colher agora e decifrar depois: o tráfego gravado hoje poderá ser lido quando a máquina existir, o que pesa para dados com sigilo longo, como as informações pessoais que a Lei de Acesso à Informação restringe por até cem anos. O instituto norte-americano de padrões, o Níst, publicou em agosto de dois mil e vinte e quatro os primeiros padrões pós-quânticos, entre eles o ême éle quém, para troca de chaves, e o ême éle dê ésse á, para assinatura. Em outubro de dois mil e vinte e seis, fixou o cronograma: os algoritmos de chave pública vulneráveis ficam descontinuados depois de dois mil e trinta e proibidos depois de dois mil e trinta e cinco. Navegadores e grandes provedores já usam troca de chaves híbrida no tê éle ésse um ponto três, que combina a curva elíptica com o ême éle quém. E o Java incluiu os dois algoritmos na versão vinte e quatro, presentes na vinte e cinco, de suporte longo.
+
+Exemplo prático. Retomando a ouvidoria do bloco um, agora em nuvem: o provedor cifra os discos, o que protege a mídia, mas não impede a leitura por quem consulta o banco. Por isso, os campos de identidade do denunciante são cifrados pela aplicação, com chave de dados protegida por chave mestra no serviço de chaves do órgão. O administrador do banco vê só texto cifrado, e a busca por cê pê éfe usa o resumo agá mác.
+
+Pegadinhas do bloco dois.
+
+A criptografia do disco protege os dados contra o administrador do banco e contra injeção de ésse quê éle. Errado. Ela protege a mídia e é transparente para quem acessa o sistema.
+
+No tê éle ésse um ponto três, o vazamento posterior da chave privada do servidor permite decifrar as sessões gravadas antes. Errado. A troca de chaves efêmera garante o sigilo futuro.
+
+Exigir cifra na conexão com o banco garante que a aplicação fala com o servidor legítimo. Errado. Só a verificação do certificado e do nome do servidor garante a identidade.
+
+A computação quântica torna inseguros todos os algoritmos atuais, inclusive o á é ésse de duzentos e cinquenta e seis bits. Errado. A ameaça principal é à criptografia de chave pública; o á é ésse duzentos e cinquenta e seis continua adequado.
+
+Desde março de dois mil e vinte e seis, certificados públicos de tê éle ésse podem valer até trezentos e noventa e oito dias. Errado. O máximo passou a duzentos dias e continua caindo.
+
+
+BLOCO TRÊS: PSEUDONIMIZAÇÃO E RISCO DE REIDENTIFICAÇÃO
+
+Que o dado pseudonimizado continua sendo pessoal foi visto no item três ponto dois ponto quatro, e o tarjamento de documentos em pedidos de acesso é tema do item dois ponto dois ponto dois. Aqui entram as definições legais, as técnicas e os ataques de reidentificação.
+
+As definições. Pelo artigo quinto, inciso três, dado anonimizado é o relativo a titular que não possa ser identificado, considerando os meios técnicos razoáveis e disponíveis na ocasião do tratamento; e anonimização, no inciso onze, é o uso desses meios para que o dado perca a possibilidade de associação, direta ou indireta, a um indivíduo. Já a pseudonimização está definida no artigo treze, parágrafo quarto, dentro da regra sobre estudos em saúde pública: é o tratamento pelo qual o dado perde a possibilidade de associação a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador, em ambiente controlado e seguro.
+
+O artigo doze fixa a consequência. Dados anonimizados não são dados pessoais, salvo quando a anonimização for revertida com meios próprios ou puder ser revertida com esforços razoáveis. Pelo parágrafo primeiro, o razoável considera fatores objetivos, como o custo e o tempo para reverter, conforme as tecnologias disponíveis, e o uso exclusivo de meios próprios. Pelo parágrafo segundo, podem ser considerados pessoais os dados usados para formar o perfil comportamental de pessoa identificada. E, pelo parágrafo terceiro, a autoridade nacional pode fixar padrões e técnicas de anonimização. Essa autoridade foi transformada em agência reguladora pela Medida Provisória mil trezentos e dezessete, de setembro de dois mil e vinte e cinco, convertida na Lei quinze mil trezentos e cinquenta e dois, de fevereiro de dois mil e vinte e seis: passou a se chamar Agência Nacional de Proteção de Dados, manteve a sigla á ene pê dê e é vinculada ao Ministério da Justiça e Segurança Pública. Em dois mil e vinte e quatro, ela submeteu a consulta pública um guia de anonimização e pseudonimização com abordagem baseada em risco.
+
+Duas consequências práticas. A anonimização é relativa: depende dos meios razoáveis e disponíveis, que mudam com a tecnologia e com cada nova base publicada por alguém. Por isso, uma base anonimizada hoje precisa ser reavaliada. E a anonimização é medida de risco residual, e não garantia absoluta.
+
+Os identificadores se dividem em dois grupos. Os diretos identificam sozinhos: nome, cê pê éfe, matrícula, e-mail, telefone. Os quase identificadores não identificam sozinhos, mas combinados, sim: data de nascimento, sexo, cê é pê, município, cargo, unidade de lotação, a data de um evento. Latanya Suíni mostrou, em dois mil, que cerca de oitenta e sete por cento da população dos Estados Unidos podia ser identificada só pelo código postal, pelo sexo e pela data de nascimento. Em dois mil e oito, avaliações de filmes publicadas sem nome pela Nétflix foram reidentificadas por cruzamento com avaliações públicas assinadas em outro sítio.
+
+O grupo europeu de autoridades de proteção de dados descreveu, em dois mil e catorze, três riscos que a anonimização precisa afastar. A singularização: isolar o registro de uma pessoa. A vinculação: ligar registros da mesma pessoa em bases diferentes. E a inferência: deduzir, com alta probabilidade, um atributo da pessoa. Remover o nome não afasta nenhum dos três.
+
+As técnicas de pseudonimização são quatro. O resumo criptográfico simples do cê pê éfe não serve: como há só cerca de um bilhão de combinações possíveis para os nove primeiros dígitos, calcula-se o resumo de todas em pouco tempo e recupera-se o número; e, como o mesmo cê pê éfe gera o mesmo resumo em qualquer base, ele ainda permite vincular bases. O resumo agá mác, com chave secreta, não é revertido sem a chave, e usar chaves diferentes para cada destinatário impede que dois destinatários liguem suas bases. O tôquen aleatório, com tabela de correspondência guardada à parte, é a forma mais literal do artigo treze. E a cifra do identificador é reversível por quem tem a chave. Em todas, os quase identificadores continuam lá.
+
+As técnicas de anonimização trabalham sobre a base inteira. Supressão remove campos ou registros. Generalização reduz a precisão: idade em faixas, data em mês ou ano, cê é pê em município. Agregação publica totais em vez de registros. Perturbação acrescenta ruído ou troca valores entre registros.
+
+Há modelos para medir o resultado. No cá-anonimato, cada combinação de quase identificadores aparece em pelo menos cá registros, o que impede a singularização. Mas, se todos os registros de um grupo têm o mesmo valor sensível, o valor é inferido; a éle-diversidade exige valores sensíveis variados em cada grupo, e a tê-proximidade exige que a distribuição em cada grupo seja próxima da distribuição geral. A privacidade diferencial atua nas respostas: acrescenta ruído calibrado aos resultados das consultas, de modo que a presença ou a ausência de uma pessoa quase não altere o resultado. O parâmetro épsilon mede a perda de privacidade, e cada consulta consome parte de um orçamento. O censo dos Estados Unidos de dois mil e vinte a adotou. E os dados sintéticos, gerados para reproduzir as estatísticas da base real, ainda podem vazar casos extremos.
+
+Dois cuidados comuns no setor público. O cê pê éfe parcialmente mascarado ao lado do nome continua identificando a pessoa. E, se cada publicação esconde dígitos diferentes do mesmo cê pê éfe, juntar as publicações reconstrói o número inteiro; por isso a máscara precisa ser padronizada. Para avaliar o risco, usa-se o teste do intruso motivado, proposto pela autoridade britânica: alguém sem conhecimento prévio, mas com acesso a fontes públicas e meios razoáveis, consegue reidentificar alguém?
+
+Exemplo prático. Um órgão publica, como dado aberto, a lista de beneficiários de um programa, trocando o cê pê éfe pelo resumo chá duzentos e cinquenta e seis, sem chave, e mantendo município e data de nascimento. Em minutos, um programa calcula o resumo de todos os cê pê éfes possíveis e recupera os números. Mesmo sem o resumo, município e data de nascimento singularizariam boa parte dos beneficiários de cidades pequenas. A base não estava anonimizada.
+
+Pegadinhas do bloco três.
+
+Pela Lei Geral de Proteção de Dados, a pseudonimização exige destruir a informação que permite reassociar o dado ao titular. Errado. Essa informação é mantida separadamente pelo controlador, em ambiente controlado e seguro.
+
+Substituir o cê pê éfe pelo resumo chá duzentos e cinquenta e seis, sem chave, anonimiza a base, porque a função é irreversível. Errado. O número se recupera por enumeração, e o resumo igual permite vincular bases.
+
+Remover nome e cê pê éfe é suficiente para anonimizar uma base. Errado. Os quase identificadores combinados singularizam pessoas.
+
+O cá-anonimato impede a inferência de atributos sensíveis. Errado. Se todo o grupo tem o mesmo valor sensível, ele é inferido.
+
+Uma base anonimizada permanece anonimizada indefinidamente. Errado. Os meios razoáveis e disponíveis mudam, e a avaliação precisa ser refeita.
+
+
+BLOCO QUATRO: RETENÇÃO, DESCARTE E PROTEÇÃO DE CÓPIAS E REGISTROS
+
+A regra três, dois, um, as cópias imutáveis e a diferença entre réplica e cópia de segurança foram vistas no item três ponto dois ponto cinco, assim como a guarda de registros exigida do provedor de nuvem; a eliminação após o término do tratamento foi mencionada no três ponto dois ponto três. Aqui entram o término e a conservação, a eliminação de documentos públicos, o descarte seguro e a proteção das cópias e dos registros.
+
+O artigo quinze lista quando o tratamento termina: quando a finalidade foi alcançada ou os dados deixaram de ser necessários ou pertinentes a ela; no fim do período de tratamento; por comunicação do titular, inclusive na revogação do consentimento, resguardado o interesse público; e por determinação da autoridade nacional, quando houver violação da lei.
+
+O artigo dezesseis manda eliminar os dados após o término, mas autoriza a conservação em quatro hipóteses: cumprimento de obrigação legal ou regulatória pelo controlador; estudo por órgão de pesquisa, garantida, sempre que possível, a anonimização; transferência a terceiro, respeitados os requisitos da lei; e uso exclusivo do controlador, vedado o acesso por terceiro, desde que os dados estejam anonimizados. Entre os direitos do artigo dezoito estão a anonimização, o bloqueio ou a eliminação de dados desnecessários, excessivos ou tratados em desconformidade, e a eliminação dos dados tratados com consentimento, ressalvadas as hipóteses do artigo dezesseis.
+
+No setor público, a obrigação legal de guarda mais comum vem da Lei oito mil cento e cinquenta e nove, de mil novecentos e noventa e um, a lei de arquivos. Pelo artigo nono, a eliminação de documentos produzidos por instituições públicas depende de autorização da instituição arquivística pública na sua esfera de competência. Os prazos de guarda de cada tipo de documento e a destinação final, eliminação ou guarda permanente, estão na tabela de temporalidade. O procedimento está na Resolução quarenta, de dois mil e catorze, do Conselho Nacional de Arquivos, alterada em dois mil e vinte: listagem de eliminação aprovada pela autoridade do órgão, edital de ciência publicado e termo de eliminação. E o artigo vinte e cinco da lei de arquivos responsabiliza penal, civil e administrativamente quem destrói documento de valor permanente. Por isso, o pedido de eliminação de um titular não apaga um processo administrativo: a guarda é obrigação legal.
+
+O programa federal traduz isso em duas medidas. A três ponto quatro manda reter os dados conforme o processo de gestão de dados e a legislação, com prazos mínimos e máximos: o mínimo vem da obrigação de guarda, e o máximo, da necessidade. A três ponto cinco manda descartar com segurança, em meio físico ou lógico, com método compatível com a criticidade dos dados.
+
+Na aplicação, a retenção vira código. Cada categoria de dado tem uma regra de retenção, com o evento que inicia a contagem, como o encerramento do processo, e o prazo. Um trabalho agendado, como os do Sprín Bétch vistos no item três ponto três ponto três, elimina ou anonimiza o que venceu e registra o que fez, em quantidades e identificadores, e não em conteúdo. E há a suspensão por necessidade jurídica: dados ligados a um litígio ou a uma apuração em curso não são eliminados até o fim dela.
+
+O descarte seguro tem referência técnica no guia de sanitização de mídias do Níst, cuja revisão dois saiu em setembro de dois mil e vinte e cinco. Ele organiza três métodos, conforme a sensibilidade. Limpar: sobrescrever pelas interfaces normais, contra recuperação simples. Expurgar: tornar a recuperação inviável mesmo com técnicas de laboratório, por comandos de apagamento seguro do próprio dispositivo ou pelo apagamento criptográfico, que destrói a chave de mídias cifradas. E destruir: triturar, desintegrar ou derreter a mídia. A revisão passou a tratar da sanitização lógica, necessária na nuvem, onde o cliente não tem acesso aos discos físicos.
+
+Apagar no banco não é eliminar. A linha excluída continua nos arquivos de dados até ser sobrescrita, no registro de transações, nas réplicas, nas cópias de segurança, nos índices de busca, nos quéchis, nas extrações para análise e nos logs. Saber onde o dado está exige o inventário e o mapa dos fluxos de dados, que também são medidas do programa federal.
+
+As cópias de segurança não se editam, e a eliminação precisa conviver com isso. Três práticas. As cópias expiram dentro do prazo máximo de retenção, de modo que o dado eliminado em produção desaparece das cópias no ciclo seguinte. As exclusões feitas desde a cópia são registradas e reaplicadas após qualquer restauração. E o apagamento criptográfico por titular ou por categoria: cada grupo de dados é cifrado com sua própria chave, e destruir a chave torna ilegíveis todas as cópias de uma vez. Enquanto existirem, as cópias são cifradas com chaves guardadas fora do armazenamento das cópias, e seu acesso é restrito e registrado. O artigo quarenta e sete reforça: quem participa do tratamento deve garantir a segurança dos dados mesmo após o seu término.
+
+Os registros, isto é, os logs e as trilhas de auditoria, contêm dados pessoais e precisam de prazo e de proteção. Pelo artigo quarenta da Lei Geral de Proteção de Dados, a autoridade nacional pode dispor sobre o tempo de guarda dos registros. Para provedores de internet, o Marco Civil da Internet, a Lei doze mil novecentos e sessenta e cinco, de dois mil e catorze, fixa prazos mínimos: um ano para os registros de conexão, no artigo treze, e seis meses para os registros de acesso a aplicações, no artigo quinze, este para o provedor organizado como pessoa jurídica com fins econômicos. E o Decreto oito mil setecentos e setenta e um, de dois mil e dezesseis, no artigo treze, lista padrões de segurança para guardar esses registros: controle estrito de acesso, autenticação que individualize o responsável, como a dupla autenticação, inventário detalhado dos acessos aos registros, com momento, duração, identidade e arquivo acessado, e técnicas que garantam a inviolabilidade, como a encriptação. A integridade se reforça com armazenamento só de acréscimo e encadeamento de resumos, que torna visível qualquer alteração. E, quando um dado é eliminado, a trilha de auditoria guarda o fato, quem, quando e qual registro, e não o conteúdo eliminado.
+
+Exemplo prático. Um titular pede a eliminação de dados de um cadastro opcional, tratados com consentimento. O sistema elimina os dados em produção, nos índices e nas extrações, registra o pedido e a execução na trilha de auditoria e inclui o identificador na lista de exclusões a reaplicar. As cópias de segurança anteriores não são editadas: seguem cifradas e com acesso restrito até expirarem no ciclo de retenção, e uma restauração reaplica a lista. Se o mesmo titular pedisse a eliminação de dados de um processo de contratação, a resposta seria outra: o processo é documento público com prazo de guarda.
+
+Pegadinhas do bloco quatro.
+
+Encerrado o tratamento, a eliminação dos dados é obrigatória em qualquer caso. Errado. O artigo dezesseis autoriza a conservação, como para cumprimento de obrigação legal ou regulatória.
+
+O órgão público pode eliminar documentos por decisão própria, assim que vencido o prazo de guarda. Errado. A eliminação depende de autorização da instituição arquivística pública, pelo artigo nono da lei de arquivos.
+
+Excluir o registro no banco de produção elimina o dado de todas as cópias. Errado. Ele permanece em réplicas, cópias de segurança, registros de transação, índices e extrações.
+
+Destruir a chave que cifrou os dados não serve como descarte, porque as cópias cifradas continuam existindo. Errado. O apagamento criptográfico é técnica de expurgo reconhecida.
+
+O dever de segurança dos agentes de tratamento termina com o fim do tratamento. Errado. Pelo artigo quarenta e sete, ele continua após o término.
+
+
+BLOCO CINCO: COMPARTILHAMENTO E PUBLICAÇÃO COM SALVAGUARDAS
+
+O tratamento pelo poder público, do artigo vinte e três, o uso compartilhado do artigo vinte e seis, com as exceções do parágrafo primeiro, e a decisão do Supremo sobre o Decreto dez mil e quarenta e seis foram vistos no item um ponto quatro ponto cinco, e a reutilização de dados de acesso público, no três ponto dois ponto quatro. Aqui entram as demais regras do compartilhamento, as salvaguardas técnicas e a publicação.
+
+Duas regras completam o quadro legal. Pelo artigo vinte e seis, parágrafo segundo, os contratos e convênios que amparam a transferência a entidades privadas, nas exceções do parágrafo primeiro, devem ser comunicados à autoridade nacional. E, pelo artigo vinte e sete, a comunicação ou o uso compartilhado de dados pessoais de pessoa jurídica de direito público a pessoa de direito privado será informado à autoridade nacional e dependerá de consentimento do titular, exceto nas hipóteses de dispensa de consentimento da lei, nos casos de uso compartilhado com a publicidade exigida pelo artigo vinte e três e nas exceções do parágrafo primeiro do artigo vinte e seis.
+
+Em outubro de dois mil e vinte e cinco, a agência submeteu a consulta pública a minuta do regulamento desses dois artigos. Não tenho certeza se a versão final já foi publicada.
+
+No programa federal, o controle de contratos, acordos e instrumentos congêneres exige estabelecer as obrigações dos agentes, avaliar as medidas de proteção que eles aplicam e encerrar o instrumento de forma segura: pedir a anonimização, a devolução ou o descarte seguro dos dados e encerrar o fluxo de dados. E o controle de compartilhamento exige verificar se o compartilhamento com outro órgão atende a finalidades específicas de políticas públicas e atribuições legais, e informar a autoridade quando o destinatário for pessoa jurídica de direito privado.
+
+O instrumento de compartilhamento traduz as salvaguardas em cláusulas: finalidade específica e base legal; lista dos dados, campo a campo; vedação de uso para outra finalidade e de repasse a terceiros; prazo de guarda e destino dos dados no fim; medidas de segurança; registro dos acessos; comunicação de incidentes; direito de auditoria; e os responsáveis de cada lado.
+
+As salvaguardas técnicas formam uma escala de exposição crescente. A verificação: o parceiro pergunta, e a á pê í responde só o necessário, como consta ou não consta, sem entregar a base. A consulta por identificador, com autenticação, escopos e registro de cada chamada. O extrato com os campos mínimos e com pseudônimo próprio para cada destinatário, gerado por agá mác com chave exclusiva, para que destinatários diferentes não liguem suas bases. E o ambiente seguro, em que o analista trabalha sobre os dados sem poder retirá-los, e os resultados são conferidos antes de saírem. O modelo das cinco salvaguardas, em inglês fáiv sêifs, usado por institutos de estatística, resume as perguntas: o projeto é legítimo, as pessoas são autorizadas, o ambiente é seguro, os dados são os mínimos e os resultados podem ser divulgados sem expor ninguém?
+
+A publicação segue outra lógica: o dado sai para todos, e não há como recolhê-lo. A transparência pode exigir a publicação de dados pessoais. O Supremo Tribunal Federal, no tema quatrocentos e oitenta e três de repercussão geral, julgado em dois mil e quinze, considerou legítima a publicação, inclusive em sítio eletrônico oficial, dos nomes dos servidores e dos valores de suas remunerações. A ponderação entre acesso e proteção é tema do item dois ponto dois ponto dois. As salvaguardas decidem como publicar: só o que a finalidade da publicação exige, sem dados de contato, endereço, cê pê éfe completo ou dados bancários, e com a máscara padronizada vista no bloco três.
+
+Para estatísticas, as tabelas agregadas também identificam. Uma célula com uma ou duas pessoas, como o único servidor de certo cargo em um município pequeno, revela o dado individual. Suprimem-se as células abaixo de um mínimo de pessoas, e a supressão precisa ser complementar: se a tabela traz o total, a célula suprimida se recupera pela diferença, e outras células têm de ser suprimidas ou os totais, ajustados. Também se usam arredondamento, ruído e generalização. E, antes de publicar, confere-se o que já está publicado em outras bases, porque o cruzamento é o ataque.
+
+Exemplo prático. Um órgão parceiro precisa saber se os fornecedores que contrata têm sócios com sanções registradas na base da Controladoria. Entregar a base de sanções inteira multiplicaria cópias fora do controle do órgão. O desenho adequado é uma á pê í de verificação: o parceiro envia o cê ene pê jota, recebe se há ou não sanção vigente e o tipo, e cada consulta fica registrada com a identidade do sistema chamador e a finalidade declarada no acordo.
+
+Pegadinhas do bloco cinco.
+
+O uso compartilhado de dados pessoais de órgão público com entidade privada depende apenas de consentimento do titular, dispensada a comunicação à autoridade nacional. Errado. O artigo vinte e sete exige informar a autoridade e, como regra, o consentimento, salvo as exceções.
+
+Na divulgação de tabelas estatísticas, suprimir as células com poucas pessoas basta para impedir a identificação. Errado. Sem supressão complementar, a célula se recupera pela diferença dos totais.
+
+Entregar a base inteira ao parceiro é mais seguro que oferecer consulta, porque evita conexões externas. Errado. A verificação expõe o mínimo; a cópia multiplica o risco e sai do controle do órgão.
+
+Segundo o Supremo, a publicação nominal da remuneração de servidores em sítio oficial viola o direito à privacidade. Errado. O tema quatrocentos e oitenta e três a considera legítima.
+
+Ao fim do acordo de compartilhamento, o parceiro pode manter os dados recebidos para usos futuros. Errado. O encerramento seguro prevê devolução, eliminação ou anonimização e o fim do fluxo.
+
+
+BLOCO SEIS: PROTEÇÃO DE DADOS PESSOAIS DESDE A CONCEPÇÃO DA APLICAÇÃO
+
+O artigo quarenta e seis, parágrafo segundo, que manda observar as medidas de segurança desde a fase de concepção do produto ou do serviço até a sua execução, foi visto no item três ponto dois ponto um. Aqui entram os princípios da privacidade desde a concepção, os instrumentos da lei e do programa federal e as práticas de projeto.
+
+A ideia foi sistematizada por Ann Cavúkian, então comissária de privacidade de Ontário, no Canadá, em sete princípios. Proativa, e não reativa: prevenir, e não remediar. Privacidade como configuração padrão. Privacidade incorporada ao projeto, e não acrescentada depois. Funcionalidade total, em soma positiva, e não em soma zero: privacidade e funcionalidade juntas, sem falsa troca. Segurança de ponta a ponta, em todo o ciclo de vida do dado, da coleta à eliminação. Visibilidade e transparência. E respeito ao usuário, com foco nele.
+
+Privacidade por padrão significa que a proteção máxima vem sem que o usuário faça nada: compartilhamento opcional desligado, perfil com visibilidade mínima, prazo de guarda mais curto. O regulamento europeu de proteção de dados exige proteção de dados desde a concepção e por padrão. No Brasil, o Estatuto Digital da Criança e do Adolescente, a Lei quinze mil duzentos e onze, de dois mil e vinte e cinco, em vigor desde março de dois mil e vinte e seis, exige que produtos e serviços digitais direcionados a crianças e adolescentes, ou de acesso provável por eles, adotem por padrão, desde a concepção, a configuração mais protetiva disponível de privacidade e proteção de dados.
+
+Os instrumentos da Lei Geral de Proteção de Dados. O artigo quarenta e nove exige que os sistemas usados no tratamento sejam estruturados para atender aos requisitos de segurança, aos padrões de boas práticas e de governança e aos princípios da lei. O artigo trinta e sete exige que controlador e operador mantenham registro das operações de tratamento, o inventário que é ponto de partida de tudo. O relatório de impacto à proteção de dados pessoais, definido no artigo quinto, inciso dezessete, documenta os processos de tratamento que podem gerar riscos às liberdades civis e aos direitos fundamentais, com as medidas, salvaguardas e mecanismos de mitigação. Pelo artigo trinta e oito, a autoridade pode determinar que o controlador o elabore, e o conteúdo mínimo inclui a descrição dos tipos de dados coletados, a metodologia de coleta e de garantia da segurança e a análise das medidas, salvaguardas e mecanismos de mitigação adotados. E, pelo artigo trinta e dois, a autoridade pode solicitar a agentes do poder público a publicação desses relatórios.
+
+O programa federal transforma isso em processo. A medida vinte ponto quatro exige um processo para promover a privacidade desde a concepção até a execução, aplicado a novas iniciativas, projetos ou programas que envolvam novas operações de tratamento. A medida vinte e três ponto três exige o relatório de impacto para as operações que possam gerar riscos às liberdades civis e aos direitos fundamentais, avaliadas uma a uma a partir do registro das operações. E o programa se refere à norma ízo í é cê vinte e sete mil setecentos e um, que em outubro de dois mil e vinte e cinco ganhou edição nova e passou a ser norma independente de sistema de gestão da privacidade, sem depender da implantação da vinte e sete mil e um.
+
+Para encontrar ameaças à privacidade, existe a modelagem de ameaças própria, como o método Líndun, cujas categorias são vinculação, identificação, não repúdio, detecção, divulgação de dados, desconhecimento e falta de intervenção do titular, e não conformidade. Ela complementa a modelagem de ameaças de segurança, tema do item três ponto quatro ponto um.
+
+Na prática do projeto, oito decisões fazem diferença. Um inventário por campo, com finalidade, base legal, prazo de retenção, sensibilidade e quem acessa; campo sem finalidade não entra. Identificadores internos sem significado: o cê pê éfe é guardado uma vez, protegido, e as tabelas se relacionam por chave substituta, em vez de espalhar o cê pê éfe por chaves estrangeiras, logs e endereços. Nada de dado pessoal no endereço da requisição, porque endereços vão para históricos e registros. Identidade separada do conteúdo e campos sensíveis cifrados. Retenção implementada como rotina, e não como intenção. Dados de teste mascarados ou sintéticos. Configurações protetivas por padrão. E suporte aos direitos do titular desde o início: localizar todos os dados de uma pessoa em todos os armazenamentos, corrigi-los, informar com quem foram compartilhados e entregar a declaração completa, que o artigo dezenove manda fornecer em até quinze dias do requerimento.
+
+Exemplo prático. Um sistema vai receber as declarações de bens dos agentes públicos, dado financeiro de alto risco. Desde a concepção: o registro das operações descreve finalidade, base legal e prazo; o relatório de impacto avalia os riscos e as salvaguardas; o formulário coleta só o exigido pela norma da declaração; os valores e a identidade ficam cifrados em campo; o acesso dos auditores é vinculado a uma análise atribuída e registrado; os relatórios gerenciais usam dados agregados; e a retenção segue a tabela de temporalidade. Tudo decidido antes da primeira linha de código.
+
+Pegadinhas do bloco seis.
+
+Privacidade desde a concepção significa revisar a conformidade com a lei pouco antes da implantação. Errado. É incorporar a proteção desde a concepção até a execução, de forma proativa; a revisão ao final é reativa.
+
+Na privacidade por padrão, cabe ao usuário ativar as opções de proteção que desejar. Errado. A configuração mais protetiva vem sem ação do usuário.
+
+O relatório de impacto à proteção de dados pessoais só pode ser exigido de controladores privados. Errado. A autoridade pode solicitar sua publicação a agentes do poder público, pelo artigo trinta e dois.
+
+Usar o cê pê éfe como chave primária em todas as tabelas favorece a proteção, por ser identificador único. Errado. Espalha o identificador por chaves estrangeiras, logs e endereços; usa-se chave substituta.
+
+O princípio da funcionalidade total admite sacrificar a privacidade quando ela atrapalha a funcionalidade. Errado. É soma positiva: as duas juntas, sem troca.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Minimização, finalidade, acesso e segregação. Finalidade, adequação e necessidade em cadeia: propósito, dados compatíveis e mínimo. Minimizar campos, granularidade, prazo e cópias. Acesso vinculado à demanda; acesso emergencial com justificativa, alerta e revisão; registro do acesso a dados críticos, inclusive alteração e descarte. Segmentação por criticidade e identidade separada do conteúdo.
+
+Criptografia. Modo autenticado com número de uso único que não se repete; é cê bê revela padrões. Tê éle ésse um ponto zero e um ponto um descontinuados; agá ésse tê ésse contra rebaixamento; zero érre tê tê só para requisições idempotentes. Cifra de campo protege contra o administrador do banco, mas impede índice e ordenação; a determinística revela valores iguais; busca por agá mác. Envelope com chave mestra em serviço de chaves ou agá ésse ême. Padrões pós-quânticos de dois mil e vinte e quatro; descontinuação depois de dois mil e trinta e proibição depois de dois mil e trinta e cinco. Artigo quarenta e oito, parágrafo terceiro: dados ininteligíveis pesam na gravidade do incidente.
+
+Pseudonimização e reidentificação. Razoável considera custo, tempo, tecnologia disponível e meios próprios; dados de perfil comportamental podem ser pessoais. Singularização, vinculação e inferência. Agá mác com chave por destinatário impede ligar bases. Privacidade diferencial: ruído calibrado e orçamento épsilon. Máscara padronizada e teste do intruso motivado. Agência Nacional de Proteção de Dados desde a Lei quinze mil trezentos e cinquenta e dois.
+
+Retenção, descarte, cópias e registros. Término: finalidade alcançada, fim do período, comunicação do titular, determinação da autoridade. Prazo mínimo e máximo de retenção. Tabela de temporalidade; listagem, edital de ciência e termo de eliminação; destruir documento permanente gera responsabilidade. Limpar, expurgar e destruir; sanitização lógica na nuvem. Exclusões reaplicadas após restauração. Marco Civil: um ano para conexão, seis meses para aplicações. Registros com acesso individualizado, inventário de acessos e inviolabilidade.
+
+Compartilhamento e publicação. Contratos e convênios das exceções do artigo vinte e seis comunicados à autoridade. Cláusulas: finalidade, campos, vedação de repasse, prazo, segurança, registro, incidentes e auditoria. Escala: verificação, consulta, extrato pseudonimizado e ambiente seguro. Cinco salvaguardas: projeto, pessoas, ambiente, dados e resultados. Publicação só do que a finalidade exige.
+
+Desde a concepção. Sete princípios de Cavúkian. Estatuto Digital da Criança e do Adolescente: configuração mais protetiva por padrão. Artigo quarenta e nove: sistemas estruturados para segurança, boas práticas, governança e princípios. Registro das operações, artigo trinta e sete; conteúdo mínimo do relatório de impacto, artigo trinta e oito. Programa federal: processo de privacidade desde a concepção e relatório para operações de risco. Ízo vinte e sete mil setecentos e um de dois mil e vinte e cinco independente. Líndun. Declaração completa ao titular em quinze dias.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Pelo princípio da necessidade, o tratamento de dados pessoais limita-se ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes, proporcionais e não excessivos.
+
+Gabarito: certo. Artigo sexto, inciso três, da Lei treze mil setecentos e nove.
+
+Item dois. Um sistema que coleta a data de nascimento completa de todos os usuários, quando a regra de negócio só precisa verificar a maioridade, atende ao princípio da necessidade, desde que o campo seja protegido por criptografia.
+
+Gabarito: errado. A segurança não supre o excesso; bastaria confirmar a maioridade.
+
+Item três. No framework do Programa de Privacidade e Segurança da Informação do governo federal, prevê-se segmentar o processamento e o armazenamento de dados com base na criticidade, sem processar dados críticos em ativos destinados a dados de menor criticidade.
+
+Gabarito: certo. Medida três ponto doze do controle de proteção de dados.
+
+Item quatro. A criptografia transparente do banco de dados protege os dados pessoais contra a leitura por usuários autorizados do banco e contra ataques de injeção de ésse quê éle.
+
+Gabarito: errado. Ela é transparente para quem acessa o banco; protege arquivos, registros de transação e cópias.
+
+Item cinco. No tê éle ésse um ponto três, a troca de chaves é sempre efêmera, de modo que o comprometimento posterior da chave privada do servidor não permite decifrar sessões gravadas anteriormente.
+
+Gabarito: certo. É o sigilo futuro, obrigatório nessa versão.
+
+Item seis. Na conexão da aplicação com o banco de dados, o modo que apenas exige criptografia assegura que o cliente se comunica com o servidor legítimo.
+
+Gabarito: errado. A identidade do servidor só é assegurada com a verificação do certificado e do nome.
+
+Item sete. No juízo de gravidade de um incidente de segurança, será avaliada eventual comprovação de que foram adotadas medidas técnicas adequadas que tornem os dados pessoais afetados ininteligíveis para terceiros não autorizados a acessá-los.
+
+Gabarito: certo. Artigo quarenta e oito, parágrafo terceiro.
+
+Item oito. Segundo a Lei Geral de Proteção de Dados, pseudonimização é o tratamento por meio do qual um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo, senão pelo uso de informação adicional mantida separadamente pelo controlador em ambiente controlado e seguro.
+
+Gabarito: certo. Artigo treze, parágrafo quarto.
+
+Item nove. Substituir o cê pê éfe pelo seu resumo chá duzentos e cinquenta e seis, sem chave secreta, torna a base anonimizada, porque a função de dispersão é irreversível.
+
+Gabarito: errado. O número se recupera por enumeração, e o resumo igual vincula bases.
+
+Item dez. Pela Lei Geral de Proteção de Dados, dados anonimizados são considerados dados pessoais em qualquer hipótese.
+
+Gabarito: errado. Não são pessoais, salvo se a anonimização for revertida com meios próprios ou puder sê-lo com esforços razoáveis, conforme o artigo doze.
+
+Item onze. Uma base que atende ao cá-anonimato pode ainda permitir a inferência de um atributo sensível, quando todos os registros de um mesmo grupo compartilham o valor desse atributo.
+
+Gabarito: certo. É a limitação tratada pela éle-diversidade.
+
+Item doze. Terminado o tratamento, a Lei Geral de Proteção de Dados obriga a eliminação dos dados pessoais, sem exceções.
+
+Gabarito: errado. O artigo dezesseis autoriza a conservação, por exemplo, para cumprimento de obrigação legal ou regulatória.
+
+Item treze. A eliminação de documentos produzidos por instituições públicas depende de autorização da instituição arquivística pública, na sua específica esfera de competência.
+
+Gabarito: certo. Artigo nono da Lei oito mil cento e cinquenta e nove, de mil novecentos e noventa e um.
+
+Item catorze. Excluído o registro no banco de produção, o dado pessoal deixa de existir nas cópias de segurança, que refletem o estado atual da base.
+
+Gabarito: errado. As cópias guardam o estado anterior; expiram pelo ciclo de retenção, e as exclusões são reaplicadas após restauração.
+
+Item quinze. A comunicação de dados pessoais de órgão público a entidade privada dispensa informar a autoridade nacional, desde que haja consentimento do titular.
+
+Gabarito: errado. O artigo vinte e sete exige informar a autoridade e, como regra, o consentimento.
+
+Item dezesseis. Segundo o Supremo Tribunal Federal, é legítima a publicação, inclusive em sítio eletrônico mantido pela administração pública, dos nomes dos seus servidores e do valor dos correspondentes vencimentos e vantagens pecuniárias.
+
+Gabarito: certo. Tema quatrocentos e oitenta e três de repercussão geral.
+
+Item dezessete. Na divulgação de tabelas estatísticas com totais, a supressão das células com poucas pessoas basta para impedir a identificação.
+
+Gabarito: errado. Sem supressão complementar, a célula se recupera pela diferença dos totais.
+
+Item dezoito. As medidas de segurança, técnicas e administrativas, aptas a proteger os dados pessoais devem ser observadas desde a fase de concepção do produto ou do serviço até a sua execução.
+
+Gabarito: certo. Artigo quarenta e seis, parágrafo segundo.
+
+Item dezenove. Na privacidade por padrão, cabe ao usuário ativar as configurações de proteção que desejar.
+
+Gabarito: errado. A configuração mais protetiva vem sem ação do usuário.
+
+Item vinte. A autoridade nacional poderá solicitar a agentes do poder público a publicação de relatórios de impacto à proteção de dados pessoais.
+
+Gabarito: certo. Artigo trinta e dois.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto quatro ponto um, segurança de aplicações.
