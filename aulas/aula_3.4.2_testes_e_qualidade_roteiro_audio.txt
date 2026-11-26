@@ -1,0 +1,298 @@
+AUDIOAULA. ITEM TRÊS PONTO QUATRO PONTO DOIS DO EDITAL: TESTES E QUALIDADE
+
+
+ABERTURA
+
+Este é o item três ponto quatro ponto dois, testes e qualidade. Ele tem cinco subitens, tratados em cinco blocos: testes unitários, de integração, de contrato e de aceitação; análise estática, cobertura e revisão de código; automação e dados de teste; limites das métricas de qualidade; e verificação de requisitos funcionais, segurança, desempenho e acessibilidade. A banca costuma explorar os princípios do teste, os tipos de dublê, a hierarquia dos critérios de cobertura, as formas de revisão e o que cada métrica deixa de medir.
+
+
+BLOCO UM: TESTES UNITÁRIOS, DE INTEGRAÇÃO, DE CONTRATO E DE ACEITAÇÃO
+
+A partição de equivalência e a análise de valor limite foram vistas no item três ponto um ponto dois; verificação e validação e os critérios de aceitação no formato dado, quando, então, no três ponto um ponto um; os testes de caracterização e de regressão, no três ponto um ponto cinco; e a ideia dos testes de contrato orientados ao consumidor, no três ponto dois ponto dois. Aqui entram os princípios, os níveis, os dublês e as ferramentas do ecossistema Java.
+
+O programa de certificação de testadores mais adotado, o í ésse tê quiú bê, na versão quatro do nível fundamental, de dois mil e vinte e três, lista sete princípios. O teste mostra a presença de defeitos, e não a sua ausência. O teste exaustivo é impossível, e por isso se escolhem casos por técnica e por risco. Testar cedo economiza tempo e dinheiro, porque o defeito achado no requisito custa menos que o achado em produção. Os defeitos se agrupam: poucos módulos concentram a maior parte deles. Os testes se desgastam: repetidos sem mudança, deixam de achar defeitos novos e precisam ser revistos. O teste depende do contexto: um sistema de pagamentos e um protótipo pedem estratégias diferentes. E a falácia da ausência de defeitos: um sistema sem defeitos conhecidos pode não atender à necessidade do usuário, o que é a diferença entre verificação e validação.
+
+Os níveis de teste, no mesmo programa, são cinco: componente, também chamado unitário; integração de componentes; sistema; integração de sistemas; e aceitação. Dois tipos se confundem com frequência. O teste de confirmação, ou reteste, verifica se o defeito corrigido foi de fato corrigido. O teste de regressão verifica se a mudança quebrou o que funcionava.
+
+A pirâmide de testes, proposta por Máic Côun, organiza a proporção: muitos testes unitários na base, rápidos e baratos; menos testes de integração no meio; e poucos testes de ponta a ponta no topo, lentos e frágeis. O desenho invertido, com muitos testes manuais e de interface e poucos unitários, é o antipadrão da casquinha de sorvete: lento, caro e instável. Há variações que dão mais peso à integração em aplicações web, mas a lógica é a mesma: equilibrar custo, velocidade e confiança.
+
+O teste unitário verifica uma unidade, como um método ou uma classe, isolada de rede, banco e arquivos. Os bons testes unitários seguem cinco qualidades resumidas em inglês na palavra fêrst: rápidos, independentes entre si, repetíveis em qualquer ambiente, autovalidáveis, porque dizem sozinhos se passaram ou falharam, e oportunos, escritos junto com o código. A estrutura é preparar, agir e verificar, e cada teste verifica um comportamento, com nome que o descreve.
+
+No desenvolvimento orientado a testes, proposto por Quént Béc, o ciclo é vermelho, verde, refatorar: escreve-se um teste que falha, depois o mínimo de código que o faz passar, e então se melhora o código com o teste protegendo.
+
+Para isolar a unidade, usam-se dublês de teste, na classificação de Djérard Mesáros. O fictício só preenche um parâmetro que não será usado. O stâb devolve respostas prontas. O espião é um stâb que registra as chamadas recebidas, para consulta posterior. O móc é programado com expectativas e verifica se as interações aconteceram como esperado. E o falso é uma implementação funcional simplificada, como um repositório em memória. Na biblioteca Mokíto, configurar a resposta de um método é usar o dublê como stâb; conferir que um método foi chamado é usá-lo como móc. Dois cuidados: excesso de mócs prende o teste à implementação, e qualquer refatoração o quebra; e não se cria móc de biblioteca de terceiros diretamente, mas de uma interface própria que a encapsula.
+
+O teste de integração verifica a colaboração entre componentes ou com a infraestrutura real: banco, mensageria, á pê ís externas. Bancos em memória diferem do banco de produção em dialeto, restrições e travas, e por isso escondem defeitos. A biblioteca Tést contêiners sobe o banco real em um contêiner durante o teste, e o Sprín Búti configura a conexão sozinho com a anotação arroba sérvis conécchon. Á pê ís externas são simuladas por servidores de virtualização de serviços, como o Uáier móc, que também simulam erros e prazos esgotados, difíceis de provocar no serviço real.
+
+O teste de contrato entra quando há vários serviços. O consumidor escreve um teste contra um fornecedor simulado, e esse teste gera o contrato com as interações esperadas. O contrato vai para um repositório central, e o fornecedor o verifica na sua própria esteira. Antes de implantar qualquer lado, uma verificação confirma que a versão nova é compatível com as versões em produção do outro. O teste de contrato verifica o formato e o significado das interações, e não toda a regra de negócio do fornecedor, e substitui boa parte dos testes de ponta a ponta entre serviços, que são lentos e frágeis.
+
+O teste de aceitação verifica se o sistema atende às necessidades do negócio e apoia a decisão de aceitar a entrega. O programa de certificação lista cinco formas: aceitação pelo usuário; aceitação operacional, feita pela equipe de operação, que verifica instalação, cópias de segurança, recuperação e monitoramento; aceitação contratual e regulatória, contra os critérios do contrato e as normas aplicáveis, como as de acessibilidade; alfa, com usuários no ambiente do desenvolvedor; e beta, com usuários no próprio ambiente deles. A aceitação pode ser automatizada pelo desenvolvimento orientado a comportamento: os cenários escritos na linguagem Guérquin, com dado, quando e então, são executados por ferramentas como o Kiúcâmber. E os testes de ponta a ponta pela interface, com ferramentas que comandam o navegador, ficam restritos aos fluxos críticos.
+
+No ecossistema Java, duas mudanças recentes. O Djêi Iúnit seis, de trinta de setembro de dois mil e vinte e cinco, exige Java dezessete, unificou o número de versão dos módulos, adotou as anotações de nulidade djêi spécifai e descontinuou o motor de compatibilidade com os testes do Djêi Iúnit quatro. E o Sprín Búti quatro removeu as anotações arroba móc bín e arroba spái bín, descontinuadas desde a versão três ponto quatro, em favor de arroba Mokíto bín e arroba Mokíto spái bín, do Sprín freimuórqui. A mesma versão criou um iniciador de testes para cada tecnologia e recomenda o novo cliente de testes rést tést cláient no lugar do antigo tést rést témpleit. E, desde a versão três ponto quatro, os testes da camada web recebem configurado o móc ême vê cê téster, com verificações fluentes. Os testes de fatia continuam: arroba uéb ême vê cê tést carrega só a camada web, e arroba déita jota pê á tést carrega só a persistência, enquanto arroba Sprín Búti tést carrega o contexto inteiro.
+
+Exemplo prático. Um serviço calcula a atualização de uma multa contratual consultando um índice de correção em uma á pê í externa e, ao final, notifica o fiscal do contrato. No teste unitário, a á pê í do índice é um stâb que devolve um valor fixo; o serviço de notificação é um móc, que confirma que o fiscal foi avisado uma vez; e o repositório é um falso, em memória. No teste de integração, o Uáier móc simula a á pê í do índice com prazo esgotado, e o teste confirma que o serviço usa o último índice gravado e registra o alerta.
+
+Pegadinhas do bloco um.
+
+Uma suíte de testes sem falhas demonstra que o software não tem defeitos. Errado. O teste mostra a presença de defeitos, não a ausência.
+
+Stâb e móc são sinônimos. Errado. O stâb devolve respostas prontas; o móc verifica as interações esperadas.
+
+O teste de confirmação verifica se a mudança quebrou outras partes do sistema. Errado. Isso é regressão; a confirmação verifica se o defeito corrigido foi corrigido.
+
+Na pirâmide de testes, os testes de ponta a ponta formam a base, por darem mais confiança. Errado. A base é de testes unitários; os de ponta a ponta ficam no topo, em pequeno número.
+
+No Sprín Búti quatro, os dublês continuam declarados com arroba móc bín. Errado. Essa anotação foi removida; usa-se arroba Mokíto bín, do Sprín freimuórqui.
+
+O teste de aceitação operacional é feito pelos usuários finais em seu ambiente. Errado. Esse é o teste beta; o operacional verifica instalação, cópias, recuperação e monitoramento.
+
+
+BLOCO DOIS: ANÁLISE ESTÁTICA, COBERTURA E REVISÃO DE CÓDIGO
+
+A complexidade ciclomática e as métricas de acoplamento foram vistas no item três ponto um ponto cinco, e o teste estático de segurança, no três ponto quatro ponto um. Aqui entram os tipos de análise estática, os critérios de cobertura, o teste de mutação e as formas de revisão.
+
+A análise estática examina o código sem executá-lo. Há várias camadas. Avisos do compilador, que podem ser tratados como erro. Estilo e convenções, com ferramentas como o Tchéc stáil. Padrões de defeito, com ferramentas como o Spót bágs e o Érror Proun, que acusam acesso a referência nula, recurso não fechado, igualdade sem o código de dispersão correspondente e retorno ignorado. Duplicação, complexidade e más práticas, com plataformas como o Sônar Kiúb. Nulidade: com as anotações djêi spécifai, adotadas pelo Sprín freimuórqui sete e pelo Djêi Iúnit seis, verificadores como o Nâl auêi impedem a construção quando um valor que pode ser nulo é usado sem verificação. Regras de arquitetura escritas como teste, com o Árch iúnit: controlador não acessa repositório diretamente, e não há ciclo entre pacotes. E segurança, vista no item anterior.
+
+Os resultados se juntam num portão de qualidade: a esteira barra a mudança que não atende às condições definidas. A prática mais eficaz exige qualidade do código novo e alterado, em vez de cobrar de uma vez a correção de todo o legado. Os limites são dois: falsos positivos, que cansam a equipe e devem ser suprimidos com justificativa registrada, e falsos negativos, porque a ferramenta não prova a ausência de defeitos nem entende a regra de negócio.
+
+A cobertura mede quanto do código os testes executaram, e tem critérios de rigor crescente.
+
+Cobertura de comandos: cada comando foi executado pelo menos uma vez.
+
+Cobertura de decisões, ou de ramos: cada decisão assumiu os resultados verdadeiro e falso. Ela inclui a de comandos: cem por cento de decisões implica cem por cento de comandos, mas não o contrário. Um se sem senão, testado só com a condição verdadeira, executa todos os comandos e deixa de testar o caminho falso.
+
+Cobertura de condições: cada condição atômica, dentro de uma decisão composta, assumiu verdadeiro e falso. Ela não garante a de decisões. Na decisão a e b, os testes com a verdadeiro e b falso e com a falso e b verdadeiro cobrem as duas condições, mas a decisão é falsa nos dois.
+
+Cobertura de condição e decisão modificada: cada condição mostra, isoladamente, efeito sobre o resultado da decisão. É a exigida para o software mais crítico da aviação, na norma dê ó cento e setenta e oito cê.
+
+E cobertura de caminhos: todos os caminhos possíveis, que crescem de forma exponencial e, com laços, ficam ilimitados.
+
+No Java, o Djacôco mede instruções, ramos, linhas e métodos. E a cobertura mede execução, e não verificação: um teste sem nenhuma verificação cobre o código que chama. A cobertura baixa aponta o que não foi testado; a alta não prova que os testes são bons.
+
+Quem mede a força dos testes é o teste de mutação. A ferramenta, como o Pít para Java, cria mutantes: pequenas alterações no código, como trocar maior por maior ou igual, inverter uma condição ou remover uma chamada. Roda os testes contra cada mutante. Se algum teste falha, o mutante morreu; se todos passam, sobreviveu, e os testes não perceberiam aquele defeito. O escore de mutação é a proporção de mutantes mortos, descontados os equivalentes, que se comportam como o original e não podem ser mortos. O custo é alto, e por isso se aplica ao código alterado ou aos módulos críticos.
+
+A revisão de código é análise estática feita por pessoas. A norma ízo í é cê vinte mil duzentos e quarenta e seis, de dois mil e dezessete, e o programa de certificação descrevem quatro tipos, do menos ao mais formal. A revisão informal, sem processo definido, como a de um colega ao lado. O passo a passo, em inglês uók trú, conduzido pelo autor, que apresenta o trabalho e colhe comentários, também com fim didático. A revisão técnica, entre pares com conhecimento técnico, para chegar a consenso sobre decisões e achar defeitos. E a inspeção, a mais formal, sistematizada por Máicol Fêigan na Í bê ême nos anos setenta: papéis definidos, como moderador, autor, revisores e registrador; critérios de entrada e de saída; listas de verificação; e coleta de métricas. Na inspeção, o autor não conduz a reunião. A programação em par é revisão contínua.
+
+A revisão moderna acontece no pedido de integração, em inglês púl ricuést. Boas práticas: mudanças pequenas, com descrição do objetivo; verificações automáticas antes da revisão humana, para que as pessoas cuidem de lógica, desenho, testes, tratamento de erros e segurança, e não de estilo; lista de verificação; comentários sobre o código, e não sobre a pessoa; e pelo menos um revisor além do autor, regra que a esteira pode impor, tema do item três ponto quatro ponto três. A eficácia cai com o tamanho: revisões de poucas centenas de linhas por vez acham mais defeitos que revisões gigantes. E código gerado por assistentes de inteligência artificial passa pela mesma revisão, com atenção a funções inventadas, padrões inseguros e testes que só confirmam o que o código já faz; o assistente pode ajudar a revisar, mas a responsabilidade continua de quem aprova.
+
+Exemplo prático. Uma função de validação de cê pê éfe tem cem por cento de cobertura de linhas. O teste de mutação troca, no cálculo do dígito verificador, uma comparação de diferente por igual, e o mutante sobrevive: os testes chamavam a função com cê pê éfes válidos e conferiam só que nenhuma exceção era lançada, sem nunca testar um número inválido. A cobertura estava completa, e os testes quase não verificavam nada.
+
+Pegadinhas do bloco dois.
+
+Cem por cento de cobertura de comandos garante cem por cento de cobertura de decisões. Errado. É o contrário: a de decisões inclui a de comandos.
+
+A cobertura de condições garante a cobertura de decisões. Errado. As condições podem variar sem que a decisão assuma os dois resultados.
+
+Alta cobertura comprova que os testes verificam bem o comportamento. Errado. Cobertura mede execução; a força dos testes se mede com mutação.
+
+A análise estática pode provar que o código não tem defeitos. Errado. Ela tem falsos negativos, além de falsos positivos.
+
+No passo a passo, a reunião é conduzida por moderador independente, com papéis formais e coleta de métricas. Errado. Isso é a inspeção; o passo a passo é conduzido pelo autor.
+
+Mutante que sobrevive indica defeito no código de produção. Errado. Indica teste fraco, salvo se o mutante for equivalente.
+
+
+BLOCO TRÊS: AUTOMAÇÃO E DADOS DE TESTE
+
+A proibição de levar dados reais de produção ao teste sem mascaramento e a pseudonimização foram vistas no item três ponto três ponto quatro; os defeitos de concorrência não determinísticos, no três ponto um ponto três; e a integração e a entrega contínuas são tema do item três ponto quatro ponto três. Aqui entram o que automatizar, a estabilidade dos testes e a gestão dos dados de teste.
+
+Automatizar custa: o teste automatizado é código e precisa de manutenção. Compensa nas verificações repetidas: regressão, cálculos críticos de negócio, contratos e a verificação rápida depois de cada implantação, chamada teste de fumaça. Não compensa na exploração, na avaliação de usabilidade e em conferências pontuais.
+
+A execução se organiza em camadas de tempo. A cada cômit, testes unitários e de integração rápidos, em minutos. Na integração ao ramo principal ou à noite, a integração mais ampla e os testes de ponta a ponta. Antes da liberação, aceitação e regressão completa. Falha vermelha barra a esteira, e ninguém se acostuma com ela.
+
+O teste precisa ser determinístico: mesmo código, mesmo resultado. Quatro fontes de variação se controlam. O tempo: a aplicação recebe um relógio injetado, a classe Clóc do Java, em vez de consultar a hora do sistema, e o teste fixa a data. O acaso: geradores aleatórios com semente fixa. O ambiente: fuso horário e localidade explícitos, porque a vírgula decimal e o horário de Brasília mudam resultados. E a ordem: nenhum teste depende de outro ter rodado antes.
+
+Testes instáveis passam e falham sem mudança no código. As causas mais comuns são espera por tempo fixo em operações assíncronas, estado compartilhado entre testes, concorrência, dependência de serviço externo ou da hora real e dados que colidem. A espera correta é pela condição, com prazo máximo, como faz a biblioteca Auêitíliti, e não um intervalo fixo. O tratamento é identificar pelo histórico, isolar em quarentena com responsável e prazo e corrigir a causa. Repetir automaticamente o teste até passar esconde o problema e pode esconder um defeito real intermitente, como os de concorrência.
+
+Nos testes com banco, cada teste cria os seus dados. No Sprín, a anotação transacional na classe de teste desfaz, ao final, o que o teste gravou, mas só quando o código roda na mesma thread do teste. Se o teste sobe o servidor em porta aleatória e chama a aplicação por agá tê tê pê, a requisição roda em outra thread e em outra transação, e nada é desfeito; os dados vazam para o teste seguinte. Nesse caso, limpa-se explicitamente ou se usam dados exclusivos por teste. As migrações do Fláiuei aplicadas no próprio teste garantem que o esquema testado é o de produção.
+
+Os dados de teste têm quatro origens. Dados sintéticos criados pelos testes, com o padrão construtor de dados de teste, que parte de valores padrão válidos e muda só o que interessa ao caso, ou com a mãe de objetos, que oferece exemplos nomeados, como contrato vencido. Dados gerados em volume, por bibliotecas de nomes e endereços fictícios, ou pelos testes baseados em propriedades, que geram centenas de entradas, verificam uma propriedade que deve valer para todas e, ao achar uma falha, reduzem a entrada ao menor caso que ainda falha. Cópias de produção, só mascaradas e em subconjunto que preserve as relações entre tabelas. E dados de referência, como a tabela de municípios, versionados com o código.
+
+No mascaramento de cópias, a mesma pessoa precisa receber o mesmo pseudônimo em todas as tabelas, senão as junções se perdem; e a máscara não pode ser reversível. A norma ízo í é cê vinte e sete mil e dois, de dois mil e vinte e dois, manda, no controle oito ponto trinta e três, que as informações de teste sejam adequadamente selecionadas, protegidas e gerenciadas, e, no oito ponto trinta e um, que os ambientes de desenvolvimento, teste e produção sejam separados. O programa federal de privacidade e segurança tem a mesma regra na medida dezesseis ponto oito: manter ambientes separados para produção e não produção.
+
+Dois cuidados práticos. Um cê pê éfe gerado aleatoriamente, com dígitos verificadores válidos, pode pertencer a uma pessoa real; dados sintéticos com identificadores válidos não são, por isso, fictícios. E o ambiente de teste nunca envia notificação real: e-mail e mensagem de celular vão para um servidor falso, que captura as mensagens para o teste conferir.
+
+Exemplo prático. A suíte do sistema de prazos falha só em algumas madrugadas. O cálculo de prazo de recurso usa a data atual do servidor, que roda no fuso universal, enquanto o teste espera a data no horário de Brasília. Entre vinte e uma horas e meia-noite de Brasília, as datas divergem e o teste falha. A correção injeta um relógio na aplicação, fixa nos testes data, hora e fuso de Brasília e acrescenta casos exatamente nas viradas de dia, que antes nunca eram testadas de propósito.
+
+Pegadinhas do bloco três.
+
+Repetir automaticamente os testes que falham resolve a instabilidade da suíte. Errado. Esconde a causa e pode esconder defeitos reais intermitentes.
+
+Aguardar um intervalo fixo é a forma recomendada de sincronizar testes com operações assíncronas. Errado. Espera-se pela condição, com prazo máximo.
+
+Em testes do Sprín com servidor real em porta aleatória, a anotação transacional no teste desfaz o que as requisições gravaram. Errado. A requisição roda em outra thread e em outra transação.
+
+Mascarar cada tabela de forma independente preserva as relações da base copiada. Errado. A mesma pessoa precisa do mesmo pseudônimo em todas as tabelas.
+
+Cê pê éfes gerados com dígitos verificadores válidos são fictícios por definição. Errado. Podem pertencer a pessoas reais.
+
+
+BLOCO QUATRO: LIMITES DAS MÉTRICAS DE QUALIDADE
+
+A lei de Goodhart, pela qual a medida que vira meta deixa de ser boa medida, foi vista no item um ponto três ponto cinco, e o modelo de qualidade da norma vinte e cinco mil e dez, na edição de dois mil e onze, no três ponto um ponto um. Aqui entram o que cada métrica deixa de medir, a revisão da norma e o uso responsável das métricas.
+
+Métrica é indicador, e não a qualidade em si. Uma boa métrica tem validade, porque mede o que diz medir; confiabilidade, porque dá o mesmo resultado medida de novo; custo razoável de coleta; e não induz comportamento indesejado. As métricas de qualidade de software falham em pelo menos um desses pontos.
+
+A cobertura mede execução, como visto no bloco dois. Quando vira meta, aparecem testes sem verificação e testes de métodos triviais, e o número sobe enquanto a proteção não muda.
+
+A contagem de defeitos depende do esforço de detecção. Mais teste acha mais defeitos; pouco teste acha poucos. Uma equipe com poucos defeitos registrados pode ter software bom ou teste fraco, e o número sozinho não diz qual. Mais informativa é a taxa de escape, a proporção de defeitos encontrados só em produção, ponderada pela gravidade.
+
+A complexidade e as contagens de problemas da análise estática têm limites arbitrários. Um seletor longo com dezenas de casos simples tem complexidade ciclomática alta e é fácil de ler; a métrica de complexidade cognitiva tenta corrigir essa distorção. E a contagem de problemas cai com supressões, sem que o código melhore.
+
+Linhas de código não medem produtividade nem valor. Refatorar remove linhas e melhora o sistema; a métrica premiaria o contrário.
+
+A velocidade em pontos de história é relativa a cada equipe e não serve para comparar equipes; usada como meta, os pontos inflam. Medidas de tamanho funcional, como pontos de função, usadas em contratos, medem tamanho, e não qualidade; os indicadores de entrega, como frequência de implantação e taxa de falha de mudanças, são temas dos itens três ponto quatro ponto três e três ponto quatro ponto quatro.
+
+E há as métricas melancia, verdes por fora e vermelhas por dentro: o acordo de nível de serviço cumprido no painel, enquanto os usuários não conseguem concluir o serviço. Elas medem o que é fácil, e não o que importa. Os testes que sempre passam, pelo desgaste visto no bloco um, e a falácia da ausência de defeitos completam o quadro.
+
+A própria noção de qualidade é multidimensional. A norma ízo í é cê vinte e cinco mil e dez ganhou segunda edição em novembro de dois mil e vinte e três, que substituiu a de dois mil e onze. O modelo passou a ter nove características: adequação funcional, eficiência de desempenho, compatibilidade, capacidade de interação, confiabilidade, segurança, manutenibilidade, flexibilidade e a nova proteção contra danos, em inglês sêifti, que trata de riscos à vida, à saúde, ao patrimônio e ao ambiente. A usabilidade passou a se chamar capacidade de interação, e a portabilidade, flexibilidade. Nas subcaracterísticas, a acessibilidade foi dividida em inclusividade e assistência ao usuário, a maturidade virou ausência de falhas, a estética da interface virou engajamento do usuário, e entraram a autodescrição, na capacidade de interação, a resistência, na segurança, e a escalabilidade, na flexibilidade. Métricas de código falam sobretudo de manutenibilidade; as outras características pedem outras evidências.
+
+O uso responsável começa pelo objetivo. O método objetivo, pergunta e métrica, de Víctor Basíli, define primeiro o objetivo, depois as perguntas que revelam se ele está sendo alcançado e só então as métricas que respondem a essas perguntas. Usam-se métricas em conjunto, que se equilibram, como velocidade de entrega junto com estabilidade; tendências, mais que valores absolutos; contexto; e evidência qualitativa, como relatos de usuários e análises de incidentes. O modelo Spêis, de dois mil e vinte e um, resume a mesma ideia para a produtividade de desenvolvimento: ela tem cinco dimensões, satisfação e bem-estar, desempenho, atividade, comunicação e colaboração, e eficiência e fluxo, e nenhuma métrica isolada a representa. E métrica fácil de manipular não deve definir avaliação individual nem pagamento.
+
+Exemplo prático. Um contrato de desenvolvimento exigia oitenta por cento de cobertura, e o fornecedor sempre entregou acima disso. Os defeitos em produção, porém, cresciam. O teste de mutação mostrou escore de quinze por cento: boa parte dos testes chamava os métodos e não verificava nada. A auditoria recomendou trocar a meta isolada por critérios combinados: cenários críticos de aceitação definidos pelo órgão, escore de mutação nos módulos de cálculo, taxa de escape de defeitos e revisão amostral dos testes.
+
+Pegadinhas do bloco quatro.
+
+Poucos defeitos registrados nos testes demonstram alta qualidade do software. Errado. A contagem depende do esforço de detecção; pode indicar teste fraco.
+
+Complexidade ciclomática alta prova que o código é difícil de manter. Errado. É indicador; um seletor longo e simples tem complexidade alta e é legível.
+
+Na edição de dois mil e vinte e três da norma vinte e cinco mil e dez, a usabilidade continua como característica de primeiro nível. Errado. Passou a se chamar capacidade de interação.
+
+A velocidade em pontos de história permite comparar a produtividade de equipes diferentes. Errado. Os pontos são relativos a cada equipe.
+
+
+BLOCO CINCO: VERIFICAÇÃO DE REQUISITOS FUNCIONAIS, SEGURANÇA, DESEMPENHO E ACESSIBILIDADE
+
+A rastreabilidade e a diferença entre verificação e validação foram vistas no item três ponto um ponto um; os tipos de teste de desempenho, no três ponto um ponto três; latência por percentis, no três ponto dois ponto um; os testes de segurança e o padrão á ésse vê ésse, no três ponto quatro ponto um; e os critérios de acessibilidade, com a combinação de verificações automáticas e manuais, no três ponto um ponto quatro. Aqui entra como transformar cada tipo de requisito em verificação.
+
+Requisitos funcionais. A matriz de rastreabilidade liga cada requisito e cada critério de aceitação aos testes que o verificam e aos resultados. Dela sai a cobertura de requisitos, que é outra medida: o código pode ter cobertura total e um requisito nunca ter sido testado. Além da partição de equivalência e do valor limite, três técnicas de caixa-preta caem em prova.
+
+A tabela de decisão organiza combinações de condições e as ações esperadas. As linhas são condições e ações; cada coluna, chamada regra, é um caso de teste. Três condições binárias geram até oito regras, e as que levam ao mesmo resultado podem ser fundidas.
+
+O teste de transição de estados parte do diagrama de estados: um processo vai de aberto para em análise e de em análise para concluído. Testam-se as transições válidas e também as inválidas, como reabrir um processo concluído sem o evento previsto, que o sistema deve recusar.
+
+E o teste de casos de uso e de cenários percorre o fluxo principal e os alternativos.
+
+Há ainda as técnicas baseadas em experiência: a suposição de erros, que testa onde a experiência diz que costuma haver defeito; o teste por lista de verificação; e o teste exploratório, em que o testador aprende, desenha e executa testes ao mesmo tempo, guiado pelo que descobre. O exploratório não é teste sem planejamento: organizado em sessões, tem missão definida, tempo delimitado e registro do que foi feito e encontrado, e acha o que os roteiros não previram.
+
+Requisitos de segurança vêm da modelagem de ameaças e do nível do á ésse vê ésse escolhido para a aplicação, e viram verificações de quatro modos. Casos de abuso, que descrevem como um atacante usaria mal uma funcionalidade, viram testes negativos. Cada vulnerabilidade corrigida ganha um teste de regressão, para que não volte. A matriz de acesso vira testes de autorização por papel e por endpóinti, como visto no item três ponto dois ponto dois. E o teste dinâmico roda contra o ambiente de homologação na esteira. A norma vinte e sete mil e dois trata do tema no controle oito ponto vinte e nove: processos de teste de segurança definidos e implementados no ciclo de desenvolvimento, incluindo a aceitação.
+
+Requisitos de desempenho só são verificáveis se forem mensuráveis. O sistema deve ser rápido não é requisito testável. O sistema deve responder à consulta de processos em até oitocentos milissegundos no percentil noventa e cinco, com duzentas requisições por segundo e a base com o volume previsto para três anos, é. A verificação tem cinco cuidados. Modelo de carga realista: a mistura de operações, os intervalos entre ações dos usuários e o volume de dados. Ambiente equivalente ao de produção, ou, se menor, extrapolação feita com cautela. Aquecimento antes de medir, porque o compilador em tempo de execução do Java e os quéchis mudam o desempenho nos primeiros minutos. Monitoramento dos recursos do servidor durante o teste, para localizar o gargalo. E atenção à omissão coordenada: o gerador que só envia a próxima requisição depois de receber a anterior reduz a taxa de chegada quando o sistema fica lento e, com isso, esconde justamente as piores latências; o correto é manter uma taxa de chegada constante, independente das respostas. Um teste curto de desempenho na esteira, comparado com uma linha de base, detecta regressões cedo.
+
+Acessibilidade. Ela regride a cada mudança de interface, e por isso a verificação automática entra na suíte: bibliotecas de verificação embutidas nos testes de ponta a ponta acusam, a cada execução, falhas como imagem sem texto alternativo, campo sem rótulo e contraste insuficiente. A verificação manual cobre o que a ferramenta não julga: navegação só por teclado, leitor de tela, ampliação, mensagens de erro e ordem de foco. E a avaliação com pessoas com deficiência fecha o ciclo. Para declarar conformidade de um sítio inteiro, a metodologia de avaliação do consórcio dábliu três cê define o escopo, explora o sítio, seleciona uma amostra representativa de páginas, audita a amostra e relata o resultado. Em contratações, a acessibilidade entra nos critérios da aceitação contratual e regulatória do bloco um.
+
+Exemplo prático. O teste de carga da consulta de processos indicou percentil noventa e cinco de trezentos milissegundos, bem abaixo do requisito. Mas o gerador esperava cada resposta antes de enviar a seguinte, e, quando o banco ficava lento, a taxa de requisições caía pela metade sem ninguém perceber. Refeito com taxa de chegada constante de duzentas requisições por segundo, o percentil noventa e cinco foi a dois segundos e meio, e o monitoramento mostrou o pool de conexões esgotado. Corrigido o pool e criado um índice, o requisito foi atendido.
+
+Pegadinhas do bloco cinco.
+
+Cem por cento de cobertura de código garante que todos os requisitos foram verificados. Errado. Cobertura de requisitos é outra medida, obtida pela rastreabilidade.
+
+O requisito de que o sistema seja rápido pode ser verificado por teste de carga. Errado. Sem critério mensurável, não há como verificá-lo.
+
+Na tabela de decisão, cada linha corresponde a um caso de teste. Errado. As linhas são condições e ações; cada coluna, ou regra, é um caso.
+
+Teste exploratório é teste sem planejamento. Errado. Tem missão, tempo delimitado e registro.
+
+Um gerador que envia cada requisição só depois de receber a resposta anterior mede fielmente a latência sob carga. Errado. Quando o sistema fica lento, ele reduz a taxa de chegada e esconde as piores latências.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Testes unitários, de integração, de contrato e de aceitação. Princípios do í ésse tê quiú bê: teste exaustivo impossível, testar cedo, defeitos agrupados, testes que se desgastam e dependência do contexto. Níveis: componente, integração de componentes, sistema, integração de sistemas e aceitação. Testes unitários rápidos, independentes, repetíveis, autovalidáveis e oportunos; preparar, agir e verificar. Vermelho, verde, refatorar. Dublês: fictício, stâb, espião, móc e falso; móc de interface própria, e não de biblioteca de terceiros. Banco real em contêiner com conexão automática; virtualização de serviços para erros e prazos. Contrato gerado pelo consumidor, verificado pelo fornecedor e conferido antes da implantação. Aceitação pelo usuário, operacional, contratual e regulatória, alfa e beta. Djêi Iúnit seis com Java dezessete; iniciador de testes por tecnologia e rést tést cláient no Sprín Búti quatro.
+
+Análise estática, cobertura e revisão. Compilador, estilo, padrões de defeito, nulidade com djêi spécifai, regras de arquitetura como teste; portão de qualidade no código novo; supressão com justificativa. Condição e decisão modificada: cada condição com efeito independente. Caminhos crescem exponencialmente. Escore de mutação desconta os equivalentes. Revisão informal, passo a passo, técnica e inspeção, norma vinte mil duzentos e quarenta e seis; no pedido de integração, mudança pequena, automação antes da pessoa e revisor além do autor. Código gerado por inteligência artificial passa pela mesma revisão.
+
+Automação e dados de teste. Automatizar regressão, cálculos críticos, contratos e teste de fumaça. Relógio injetado, semente fixa, fuso e localidade explícitos, ordem irrelevante. Quarentena com responsável e prazo. Construtor de dados de teste, mãe de objetos e testes baseados em propriedades. Vinte e sete mil e dois: informações de teste no oito ponto trinta e três, separação de ambientes no oito ponto trinta e um; medida dezesseis ponto oito do programa federal. Notificações do ambiente de teste vão para servidor falso.
+
+Limites das métricas. Validade, confiabilidade, custo e efeito no comportamento. Taxa de escape ponderada pela gravidade. Complexidade cognitiva corrige o seletor simples. Linhas de código penalizam a refatoração. Métricas melancia. Vinte e cinco mil e dez de dois mil e vinte e três: nove características, com flexibilidade e a nova proteção contra danos. Objetivo, pergunta e métrica; métricas que se equilibram; Spêis com cinco dimensões.
+
+Verificação de requisitos. Matriz de rastreabilidade. Transições inválidas recusadas; cenários com fluxos alternativos; suposição de erros e lista de verificação. Casos de abuso, regressão por vulnerabilidade corrigida e controle oito ponto vinte e nove. Desempenho com modelo de carga realista, ambiente equivalente, aquecimento, recursos monitorados e linha de base na esteira. Acessibilidade verificada a cada execução da suíte, manualmente e com usuários; avaliação de conformidade por amostra.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Segundo o princípio do desgaste dos testes, a repetição dos mesmos testes tende a deixar de encontrar defeitos novos, o que exige revisá-los e escrever testes novos.
+
+Gabarito: certo. É um dos sete princípios do nível fundamental do í ésse tê quiú bê.
+
+Item dois. Um dublê de teste do tipo stâb verifica se determinados métodos foram chamados com os argumentos esperados.
+
+Gabarito: errado. Essa verificação é do móc; o stâb devolve respostas prontas.
+
+Item três. No desenvolvimento orientado a testes, escreve-se primeiro um teste que falha, em seguida o mínimo de código que o faz passar e, depois, refatora-se o código.
+
+Gabarito: certo. É o ciclo vermelho, verde, refatorar.
+
+Item quatro. No teste de contrato orientado ao consumidor, o fornecedor escreve o contrato, e o consumidor apenas o executa.
+
+Gabarito: errado. O consumidor registra as expectativas, e o fornecedor verifica o contrato na sua esteira.
+
+Item cinco. Cem por cento de cobertura de comandos implica cem por cento de cobertura de decisões.
+
+Gabarito: errado. A cobertura de decisões inclui a de comandos, e não o contrário.
+
+Item seis. No teste de mutação, um mutante que sobrevive à execução da suíte indica que os testes não detectaram aquela alteração do código, salvo se o mutante for equivalente ao original.
+
+Gabarito: certo. Mutante sobrevivente revela teste fraco.
+
+Item sete. A inspeção é o tipo de revisão menos formal, conduzida pelo próprio autor para apresentar o trabalho aos colegas.
+
+Gabarito: errado. É a mais formal, com moderador, papéis e métricas; quem conduz a apresentação é o autor no passo a passo.
+
+Item oito. Regras de arquitetura, como a proibição de controladores acessarem repositórios diretamente, podem ser verificadas por testes automatizados que analisam as dependências entre pacotes.
+
+Gabarito: certo. É análise estática escrita como teste.
+
+Item nove. Para sincronizar um teste com uma operação assíncrona, a prática recomendada é aguardar um intervalo fixo suficientemente longo.
+
+Gabarito: errado. Espera-se pela condição, com prazo máximo.
+
+Item dez. Injetar um relógio na aplicação permite fixar data e hora nos testes, eliminando resultados que variam conforme o momento da execução.
+
+Gabarito: certo. O tempo é uma das fontes de não determinismo.
+
+Item onze. Em testes do Sprín com servidor real em porta aleatória, a anotação transacional na classe de teste desfaz automaticamente os dados gravados pelas requisições.
+
+Gabarito: errado. As requisições rodam em outra thread e em outra transação.
+
+Item doze. Segundo a norma ízo í é cê vinte e sete mil e dois, de dois mil e vinte e dois, as informações de teste devem ser adequadamente selecionadas, protegidas e gerenciadas.
+
+Gabarito: certo. Controle oito ponto trinta e três.
+
+Item treze. Um número baixo de defeitos registrados durante os testes demonstra a alta qualidade do software.
+
+Gabarito: errado. A contagem depende do esforço de detecção.
+
+Item catorze. Na edição de dois mil e vinte e três da norma ízo í é cê vinte e cinco mil e dez, a usabilidade passou a se chamar capacidade de interação, e foi incluída a característica de proteção contra danos.
+
+Gabarito: certo. A edição substituiu a de dois mil e onze e tem nove características.
+
+Item quinze. A velocidade medida em pontos de história permite comparar a produtividade de equipes diferentes da mesma organização.
+
+Gabarito: errado. Os pontos são relativos a cada equipe.
+
+Item dezesseis. No método objetivo, pergunta e métrica, as métricas são escolhidas a partir das perguntas que avaliam um objetivo previamente definido.
+
+Gabarito: certo. A métrica vem por último.
+
+Item dezessete. Na tabela de decisão, cada linha corresponde a um caso de teste.
+
+Gabarito: errado. Cada coluna, ou regra, é um caso de teste.
+
+Item dezoito. No teste de transição de estados, devem ser testadas também as transições inválidas, para verificar se o sistema as recusa.
+
+Gabarito: certo. Testar só as válidas deixa de fora a proteção do fluxo.
+
+Item dezenove. Um gerador de carga que envia a próxima requisição apenas após receber a resposta anterior mede de forma fiel a latência sob carga, mesmo quando as respostas ficam lentas.
+
+Gabarito: errado. É a omissão coordenada; usa-se taxa de chegada constante.
+
+Item vinte. O teste exploratório combina aprendizado, desenho e execução de testes ao mesmo tempo e pode ser organizado em sessões com missão e tempo delimitado.
+
+Gabarito: certo. Não é teste sem planejamento.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item três ponto quatro ponto três, entrega e operação.
