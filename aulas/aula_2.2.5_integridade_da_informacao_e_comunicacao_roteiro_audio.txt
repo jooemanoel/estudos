@@ -1,0 +1,237 @@
+AUDIOAULA. ITEM DOIS PONTO DOIS PONTO CINCO DO EDITAL: INTEGRIDADE DA INFORMAÇÃO E COMUNICAÇÃO
+
+
+ABERTURA
+
+Este é o item dois ponto dois ponto cinco, integridade da informação e comunicação. Ele tem quatro subitens, um por bloco: confiabilidade e contexto das fontes, com a distinção entre fato, alegação e interpretação; desinformação e seus efeitos sobre políticas públicas, com a comunicação de incertezas e a correção de erros; liberdade de expressão e pluralismo; e a distinção entre crítica legítima e desinformação. A banca costuma cobrar a vedação constitucional da censura, o direito de resposta, a decisão do Supremo Tribunal Federal de dois mil e vinte e cinco sobre a responsabilidade das plataformas e a ideia de que crítica dura, mesmo injusta, não é desinformação.
+
+
+BLOCO UM: CONFIABILIDADE E CONTEXTO DAS FONTES; FATO, ALEGAÇÃO E INTERPRETAÇÃO
+
+A distinção entre receber um relato, apurar fatos e decidir sobre responsabilidade foi vista no item dois ponto dois ponto três, e os limites da informação publicada em portais e dados abertos, no dois ponto dois ponto quatro. Aqui entram os critérios para avaliar uma fonte, a importância do contexto e a separação, em qualquer texto, entre o que é fato, o que é alegação e o que é interpretação.
+
+Integridade da informação é a qualidade de um ambiente informacional em que as pessoas conseguem encontrar informação exata, confiável e plural, e distinguir o que é verificado do que não é. As Nações Unidas publicaram, em junho de dois mil e vinte e quatro, os Princípios Globais para a Integridade da Informação, organizados em cinco eixos: confiança social e resiliência; incentivos saudáveis; empoderamento do público; mídia independente, livre e plural; e transparência e pesquisa. O documento não é norma vinculante, mas mostra o enquadramento do tema: ele se apoia nos direitos humanos, inclusive na liberdade de expressão, e não na ideia de um árbitro estatal da verdade.
+
+Avaliar uma fonte é responder a algumas perguntas. Quem produziu a informação e com que autoridade sobre o assunto? A fonte é primária, isto é, produziu ou presenciou o dado, como o sistema que registrou o pagamento ou a testemunha do fato, ou é secundária, que relata o que outro produziu? Qual é o interesse da fonte no tema, e esse interesse pode distorcer o que ela diz? O método é conhecido e pode ser reproduzido? A informação é atual, ou foi produzida em outro momento? E ela é corroborada por fontes independentes entre si?
+
+A independência das fontes merece um cuidado especial. Dez sites repetindo a mesma notícia não são dez fontes: se todos copiaram o mesmo texto, há uma fonte só, repetida dez vezes. Corroborar é encontrar a mesma informação por caminhos diferentes, como um documento oficial, um registro de sistema e um depoimento.
+
+Uma técnica útil é a leitura lateral. Em vez de passar muito tempo dentro do próprio texto, avaliando a aparência, quem verifica sai dele e procura o que outras fontes dizem sobre a fonte e sobre o fato: quem é o autor, quem mantém o site, se o documento citado existe e diz o que se afirma que diz.
+
+Contexto é a outra metade da confiabilidade. Uma informação verdadeira pode enganar se for apresentada fora do contexto. Uma foto real de uma enchente de cinco anos atrás, publicada como se fosse de hoje. Um número correto de reclamações sem a base de atendimentos, como visto no item anterior. Uma frase verdadeira de um gestor, cortada antes da ressalva que a explicava. Um gráfico com eixo vertical que não começa em zero, que faz uma variação pequena parecer enorme. Por isso, a pergunta não é só se a informação é verdadeira, mas se o recorte, a data, a comparação e a escala estão corretos.
+
+O controle governamental tem critérios próprios para a qualidade da informação que usa. O Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, aprovado pela Instrução Normativa número três, de dois mil e dezessete, da Secretaria Federal de Controle Interno, exige que as informações que sustentam os resultados do trabalho sejam suficientes, confiáveis, relevantes e úteis. São critérios que valem para qualquer comunicação pública que pretenda ser íntegra.
+
+A distinção entre fato, alegação e interpretação é a ferramenta mais prática do item. Fato é o que aconteceu e pode ser verificado por evidência: o contrato foi assinado em tal data, o pagamento de tal valor foi feito a tal empresa. Alegação é uma afirmação atribuída a alguém e ainda não verificada: o denunciante afirma que o serviço não foi prestado. Interpretação é um juízo sobre o significado dos fatos: o preço pago foi excessivo, a contratação foi desnecessária, a política fracassou. A interpretação pode ser bem ou mal fundamentada, mas não é verdadeira ou falsa no mesmo sentido de um fato.
+
+As três categorias convivem em quase todo texto, e o problema surge quando uma se apresenta como outra. A alegação se disfarça de fato quando se omite quem a fez: o serviço não foi prestado, em vez de o denunciante afirma que o serviço não foi prestado. A interpretação se disfarça de fato quando se apresenta como constatação: houve superfaturamento, em vez de o preço ficou trinta por cento acima da mediana de referência, o que indica possível sobrepreço. E o fato se mistura com a interpretação quando o adjetivo carrega o juízo: um aumento absurdo de gastos.
+
+Na comunicação pública, essa distinção tem efeitos jurídicos e práticos. Atribuir uma alegação a quem a fez protege a presunção de inocência de quem é citado. Separar o fato da interpretação permite que o leitor discorde do juízo sem negar a evidência. E a linguagem marca o estatuto de cada afirmação: verbos de atribuição, como afirma, relata e alega, para alegações; expressões como indica, sugere e é compatível com, para interpretações com incerteza; e afirmação direta só para o que está comprovado.
+
+Exemplo prático. Um auditor redige a nota de imprensa sobre um relatório de avaliação de um programa. O primeiro rascunho diz que o programa desviou recursos e beneficiou quem não precisava. A revisão separa as camadas. Fato: quatro por cento dos benefícios pagos no período foram para pessoas com renda declarada acima do limite, segundo o cruzamento de bases. Interpretação: o resultado indica falha no controle de elegibilidade. E o que não foi verificado: se houve fraude ou erro de cadastro, o que depende de apuração. A palavra desvio sai, porque afirma intenção que o trabalho não comprovou.
+
+Pegadinhas do bloco um.
+
+"Uma informação repetida por muitos veículos de comunicação é, por isso, confiável." Errado. Repetição não é corroboração; se todos reproduziram a mesma origem, há uma única fonte.
+
+"Informação verdadeira não pode ser enganosa." Errado. Dado verdadeiro fora de contexto, com recorte, data ou escala inadequados, pode levar a conclusão falsa.
+
+"Na comunicação pública, a alegação de um denunciante pode ser apresentada como fato se for verossímil." Errado. Alegação é atribuída a quem a fez até ser verificada; apresentá-la como fato fere a presunção de inocência.
+
+"Interpretação é o mesmo que opinião sem fundamento." Errado. Interpretação é juízo sobre o significado dos fatos e pode ser bem fundamentada; o que a diferencia do fato é não ser verificável do mesmo modo.
+
+"Os Princípios Globais das Nações Unidas para a Integridade da Informação são norma vinculante que autoriza o Estado a definir o que é verdade." Errado. São diretrizes não vinculantes, ancoradas nos direitos humanos, inclusive na liberdade de expressão.
+
+
+BLOCO DOIS: DESINFORMAÇÃO E EFEITOS SOBRE POLÍTICAS PÚBLICAS; COMUNICAÇÃO DE INCERTEZAS E CORREÇÃO DE ERROS
+
+Os critérios de confiabilidade e a distinção entre fato e interpretação foram vistos no bloco anterior. Aqui entram as formas de desordem informacional, os mecanismos que a espalham, os seus efeitos sobre as políticas públicas e as duas respostas que dependem do próprio Estado: comunicar bem o que não se sabe e corrigir o que se errou.
+
+A tipologia mais usada é a de Claire Wardle e Hossein Derakhshan, em relatório de dois mil e dezessete para o Conselho da Europa, que fala em desordem informacional. Ela cruza dois eixos, falsidade e intenção de causar dano, e chega a três tipos. Informação incorreta é o conteúdo falso compartilhado sem intenção de enganar, como a pessoa que repassa um boato acreditando nele. Desinformação é o conteúdo falso ou enganoso criado ou difundido deliberadamente para enganar ou causar dano. E má informação é o conteúdo verdadeiro usado para causar dano, como a divulgação de dados pessoais reais para expor ou perseguir alguém.
+
+A distinção importa porque a resposta muda. A informação incorreta se combate com informação melhor e mais acessível, porque quem a espalha quer acertar. A desinformação exige também entender quem a produz e como circula, porque há intenção e, muitas vezes, organização. E a má informação é, antes de tudo, problema de proteção de pessoas e de dados, e não de verdade.
+
+A desinformação tem formatos recorrentes. Conteúdo inteiramente fabricado. Conteúdo verdadeiro com contexto falso. Conteúdo manipulado, como imagens editadas e áudios ou vídeos sintéticos produzidos por inteligência artificial que imitam pessoas reais. Conteúdo impostor, que usa o nome ou a identidade visual de uma instituição sem ser dela. E conexões falsas, como manchetes que não correspondem ao texto.
+
+A circulação depende de mecanismos que vão além do conteúdo. A desinformação costuma explorar emoções fortes, como medo e indignação, que aumentam o compartilhamento. Aproveita lacunas de informação: quando a fonte oficial demora ou fala de modo incompreensível, o vazio é ocupado. Usa redes artificiais, com contas automatizadas ou coordenadas que simulam um apoio que não existe. E se beneficia de sistemas de recomendação que privilegiam o engajamento. O Supremo Tribunal Federal, ao julgar o regime de responsabilidade das plataformas em dois mil e vinte e cinco, tema do bloco três, tratou de forma específica os anúncios e impulsionamentos pagos e as redes artificiais de distribuição.
+
+Os efeitos sobre as políticas públicas são concretos. Na saúde, boatos sobre vacinas reduzem a cobertura vacinal e favorecem o retorno de doenças controladas. Na assistência social, sites e mensagens falsos anunciam benefícios inexistentes ou pedem dados e pagamentos para liberar benefícios reais, o que produz golpes, filas e sobrecarga de atendimento. Em emergências, informação falsa sobre abrigos, rotas ou doações atrapalha o socorro. Na arrecadação, boatos sobre novas tributações provocam corridas a serviços e mudanças de comportamento. E, de modo geral, a desinformação corrói a confiança nas instituições, o que torna mais cara qualquer política que dependa da adesão das pessoas.
+
+Há também efeitos sobre a própria máquina pública. Ouvidorias recebem ondas de manifestações motivadas por boatos, o que distorce a leitura das recorrências vista no item anterior. Servidores e equipes técnicas passam a ser alvo de ataques pessoais. E gestores podem ser pressionados a decidir em resposta a uma percepção falsa, e não à evidência.
+
+A primeira resposta que depende do Estado é a comunicação de incertezas. Políticas públicas são decididas com informação incompleta: estimativas, projeções, avaliações preliminares. Comunicar a incerteza com honestidade aumenta a confiança no longo prazo, e escondê-la cobra um preço quando a estimativa muda. Boas práticas: dizer o que se sabe, o que não se sabe e o que está sendo feito para saber; apresentar intervalos e cenários, e não um número único com falsa precisão; explicar de onde vêm os números e quais são suas limitações; avisar com antecedência que a orientação pode mudar se a evidência mudar; e usar linguagem simples, sem jargão. A Política Nacional de Linguagem Simples, vista no item um ponto quatro ponto cinco, é a base normativa para essa forma de comunicar.
+
+A comunicação pública também tem limite constitucional. O artigo trinta e sete, parágrafo primeiro, da Constituição diz que a publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deverá ter caráter educativo, informativo ou de orientação social, sem nomes, símbolos ou imagens que caracterizem promoção pessoal de autoridades ou servidores. Comunicação institucional que vira propaganda pessoal perde credibilidade e contribui para a mesma desconfiança que alimenta a desinformação.
+
+A segunda resposta é a correção de erros. Toda organização que publica informação erra. A integridade se mede pela forma de corrigir. Boas práticas: corrigir rápido e de forma visível, com o mesmo destaque do erro; manter o registro do que foi corrigido, com data e motivo, em vez de alterar silenciosamente; avisar quem usou a informação errada, como a imprensa e os usuários de uma base de dados; e explicar a causa, quando ela for útil para quem lê. Nos dados abertos, isso significa versionar as bases e documentar as revisões, coerente com o princípio do Decreto oito mil setecentos e setenta e sete de descrever as bases com informação sobre qualidade e integridade.
+
+Corrigir o próprio erro não se confunde com desmentir o boato alheio. No desmentido, a literatura sobre comunicação recomenda começar pelo fato correto, mencionar o boato só uma vez e de forma breve, explicar por que ele é falso e repetir o fato correto ao final, para não reforçar a mensagem falsa. E recomenda a antecipação: alertar o público sobre golpes e técnicas de manipulação antes que elas circulem, o que costuma funcionar melhor que o desmentido posterior.
+
+Exemplo prático. Circula por aplicativos de mensagem que um programa federal vai pagar um valor extra a quem atualizar o cadastro por um link. O link leva a uma página que imita o portal oficial e pede dados bancários. A ouvidoria do órgão percebe a onda de manifestações sobre o assunto. A resposta institucional combina medidas: aviso nos canais oficiais, em linguagem simples, com o fato correto primeiro, de que não há pagamento extra e de que o órgão não pede dados por link; orientação aos atendentes e respostas padronizadas na ouvidoria; comunicação às autoridades competentes sobre a página falsa, que usa a identidade visual do órgão; e acompanhamento das manifestações nas semanas seguintes, para verificar se a onda baixou.
+
+Pegadinhas do bloco dois.
+
+"Desinformação é toda informação falsa, independentemente da intenção de quem a divulga." Errado. Na tipologia de Wardle e Derakhshan, o conteúdo falso compartilhado sem intenção de enganar é informação incorreta; desinformação pressupõe intenção de enganar ou causar dano.
+
+"Conteúdo verdadeiro não pode integrar a desordem informacional." Errado. A má informação é conteúdo verdadeiro usado para causar dano, e o conteúdo verdadeiro com contexto falso é forma de desinformação.
+
+"Para preservar a confiança, o órgão público deve divulgar apenas números exatos, sem mencionar margens de incerteza." Errado. A boa prática é comunicar o que se sabe, o que não se sabe, intervalos e limitações; a falsa precisão cobra seu preço quando a estimativa muda.
+
+"Corrigido um erro em base de dados publicada, o órgão deve substituir o arquivo sem registro, para não dar destaque ao erro." Errado. A correção íntegra é visível, registrada, com data e motivo, e comunicada a quem usou a informação.
+
+"A publicidade institucional pode destacar o nome e a imagem da autoridade responsável pelo programa, para dar credibilidade à informação." Errado. O artigo trinta e sete, parágrafo primeiro, da Constituição veda nomes, símbolos ou imagens que caracterizem promoção pessoal.
+
+
+BLOCO TRÊS: LIBERDADE DE EXPRESSÃO E PLURALISMO
+
+A liberdade de expressão do servidor nas redes sociais e seus limites foram vistos no item um ponto três ponto dois, e a relatividade dos direitos fundamentais e a ponderação entre liberdade de expressão e honra, no um ponto um ponto quatro. Aqui entram a disciplina constitucional da liberdade de expressão e de imprensa, a vedação da censura, o direito de resposta, o pluralismo e o regime de responsabilidade das plataformas definido pelo Supremo Tribunal Federal.
+
+A Constituição protege a expressão em vários dispositivos. O artigo quinto, inciso quatro, diz que é livre a manifestação do pensamento, sendo vedado o anonimato. O inciso cinco assegura o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem. O inciso nove diz que é livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença. O inciso dez protege a intimidade, a vida privada, a honra e a imagem, com indenização pelo dano. E o inciso catorze assegura a todos o acesso à informação e resguarda o sigilo da fonte, quando necessário ao exercício profissional.
+
+O capítulo da comunicação social reforça a proteção. O artigo duzentos e vinte diz que a manifestação do pensamento, a criação, a expressão e a informação, sob qualquer forma, processo ou veículo, não sofrerão qualquer restrição, observado o disposto na Constituição. O parágrafo primeiro proíbe lei que contenha dispositivo que possa constituir embaraço à plena liberdade de informação jornalística, observados os incisos quatro, cinco, dez, treze e catorze do artigo quinto. O parágrafo segundo veda toda e qualquer censura de natureza política, ideológica e artística. O parágrafo quinto proíbe que os meios de comunicação social sejam objeto de monopólio ou oligopólio, direta ou indiretamente. E o parágrafo sexto diz que a publicação de veículo impresso de comunicação independe de licença de autoridade.
+
+A lógica do sistema é a da responsabilização posterior, e não do controle prévio. A expressão não depende de autorização nem é barrada antes de circular; quem abusa dela responde depois, pelo direito de resposta, pela indenização ou, nos casos previstos, criminalmente. A Convenção Americana sobre Direitos Humanos, no artigo treze, segue a mesma linha: o exercício da liberdade de pensamento e de expressão não pode estar sujeito a censura prévia, mas a responsabilidades ulteriores, expressamente fixadas em lei. O Supremo Tribunal Federal firmou esse entendimento em decisões conhecidas: na Arguição de Descumprimento de Preceito Fundamental cento e trinta, de dois mil e nove, considerou a Lei de Imprensa de mil novecentos e sessenta e sete incompatível com a Constituição; e na Ação Direta de Inconstitucionalidade quatro mil oitocentos e quinze, de dois mil e quinze, afastou a exigência de autorização prévia para biografias.
+
+A liberdade de expressão não é absoluta. Ela convive com a honra, a intimidade e a imagem, com a proteção de crianças e adolescentes e com a vedação da discriminação. O Supremo considerou que a incitação ao racismo não é protegida pela liberdade de expressão, no caso Ellwanger, de dois mil e três, e equiparou a homofobia e a transfobia ao crime de racismo, em dois mil e dezenove. Os crimes contra a honra, calúnia, difamação e injúria, do Código Penal, continuam aplicáveis. O ponto é que os limites são excepcionais, definidos em lei e aplicados depois, com ponderação no caso concreto.
+
+O direito de resposta é regulado pela Lei treze mil cento e oitenta e oito, de dois mil e quinze. O ofendido em matéria divulgada por veículo de comunicação social tem direito de resposta ou retificação, gratuito e proporcional ao agravo. Matéria é qualquer reportagem, nota ou notícia, independentemente do meio ou da plataforma, cujo conteúdo atente, ainda que por equívoco de informação, contra a honra, a intimidade, a reputação, o conceito, o nome, a marca ou a imagem de pessoa física ou jurídica identificada ou identificável. Ficam excluídos os comentários de usuários da internet nas páginas dos veículos. O direito deve ser exercido no prazo decadencial de sessenta dias, contados de cada divulgação, por correspondência ao veículo. A resposta deve ter o mesmo destaque, publicidade, periodicidade e dimensão ou duração do agravo. E a retratação espontânea não impede o direito de resposta nem prejudica a ação de reparação. Se o veículo não divulgar a resposta em sete dias, cabe ação judicial, com rito especial e rápido. Repare: o direito de resposta é um instrumento de mais expressão, e não de menos; ele acrescenta uma versão, em vez de apagar a primeira.
+
+O pluralismo político é fundamento da República, no artigo primeiro, inciso cinco, e não se confunde com pluripartidarismo, como visto no item um ponto um ponto quatro. No campo da comunicação, pluralismo significa diversidade de fontes, de vozes e de pontos de vista. A Constituição o protege de modo estrutural, ao vedar monopólio e oligopólio, e de modo programático, no artigo duzentos e vinte e um, que manda a programação de rádio e televisão dar preferência a finalidades educativas, artísticas, culturais e informativas, promover a cultura nacional e regional e a produção independente e regionalizar a produção. Os Princípios Globais das Nações Unidas também tratam a mídia independente, livre e plural como eixo da integridade da informação. A ideia é que a melhor proteção contra a desinformação não é uma voz oficial única, mas um ambiente com muitas fontes, capazes de se corrigir umas às outras.
+
+O Marco Civil da Internet, a Lei doze mil novecentos e sessenta e cinco, de dois mil e catorze, tem como fundamento o respeito à liberdade de expressão e, entre seus fundamentos e princípios, a pluralidade e a diversidade e a garantia da liberdade de expressão, comunicação e manifestação do pensamento. O artigo dezenove previa que o provedor de aplicações só seria responsabilizado civilmente por conteúdo de terceiros se, depois de ordem judicial específica, não o tornasse indisponível. A exceção era o artigo vinte e um, para a divulgação não autorizada de cenas de nudez ou de atos sexuais de caráter privado, em que bastava a notificação da vítima.
+
+Em vinte e seis de junho de dois mil e vinte e cinco, o Supremo Tribunal Federal, nos Recursos Extraordinários um milhão trinta e sete mil trezentos e noventa e seis e um milhão cinquenta e sete mil duzentos e cinquenta e oito, temas novecentos e oitenta e sete e quinhentos e trinta e três de repercussão geral, declarou o artigo dezenove parcialmente inconstitucional, por não proteger suficientemente os direitos fundamentais e a democracia. A tese tem pontos que convém conhecer.
+
+Regra geral: enquanto não houver nova lei, o provedor responde civilmente, nos termos do artigo vinte e um, por danos de conteúdos de terceiros em casos de crime ou de atos ilícitos, se não removê-los depois de notificado; a mesma regra vale para contas denunciadas como inautênticas. Crimes contra a honra: continua valendo o artigo dezenove, isto é, a responsabilização depende de ordem judicial, sem prejuízo de a plataforma remover por notificação extrajudicial; e, se o fato ofensivo já foi reconhecido por decisão judicial, as replicações com conteúdo idêntico devem ser removidas a partir de notificação, sem novas decisões. Presunção de responsabilidade: em anúncios e impulsionamentos pagos e em redes artificiais de distribuição, como robôs, a responsabilidade pode existir independentemente de notificação, salvo se o provedor provar que agiu com diligência e em tempo razoável.
+
+Dever de cuidado: o provedor responde se não remover imediatamente conteúdos de um rol taxativo de crimes graves, que inclui atos antidemocráticos, terrorismo, induzimento ao suicídio e à automutilação, incitação à discriminação, crimes contra a mulher em razão do sexo feminino, crimes sexuais contra vulneráveis e contra crianças e adolescentes e tráfico de pessoas. Essa responsabilidade exige falha sistêmica: deixar de adotar medidas adequadas de prevenção ou remoção. Um conteúdo ilícito isolado não basta para esse regime, e então se aplica o regime da notificação. E quem teve o conteúdo removido pode pedir judicialmente o restabelecimento, demonstrando a ausência de ilicitude.
+
+O artigo dezenove continua a valer para provedores de correio eletrônico, de reuniões fechadas por vídeo ou voz e de mensageria privada, quanto às comunicações interpessoais protegidas pelo sigilo. Os provedores devem ter autorregulação com sistema de notificações, devido processo e relatórios anuais de transparência, canais de atendimento acessíveis a usuários e não usuários e representante com sede no país. A tese diz que não há responsabilidade objetiva, faz um apelo ao Congresso Nacional para legislar sobre o tema e modula os efeitos, que são apenas prospectivos. Recursos contra a tese ainda estavam pendentes de julgamento na última informação que consultei.
+
+A decisão mostra o equilíbrio do tema. De um lado, a liberdade de expressão continua protegida: crimes contra a honra seguem dependendo de ordem judicial, o conteúdo isolado não gera responsabilidade automática, e há caminho para restabelecer o que foi removido sem ilicitude. De outro, a tese reconhece que a escala, o pagamento e a automação mudam a responsabilidade de quem distribui o conteúdo.
+
+Exemplo prático. Um blog publica que uma auditoria da Controladoria-Geral da União encontrou desvio milionário em um programa, quando o relatório apontou falhas de controle, sem conclusão sobre desvio. O órgão citado não pede a retirada do texto nem tenta impedir novas publicações. Publica, em seus canais, o que o relatório efetivamente concluiu, com o link para a íntegra, e envia ao blog um pedido de correção. Se a matéria atingir a honra ou a reputação de pessoa identificada ou identificável, essa pessoa pode exercer o direito de resposta, em sessenta dias, nos termos da Lei treze mil cento e oitenta e oito. A resposta pública é mais informação, e não menos.
+
+Pegadinhas do bloco três.
+
+"A Constituição admite a censura prévia de conteúdos jornalísticos quando houver risco à honra de autoridade pública." Errado. O artigo duzentos e vinte, parágrafo segundo, veda toda censura de natureza política, ideológica e artística; abusos geram responsabilização posterior, direito de resposta e indenização.
+
+"A manifestação do pensamento é livre, inclusive sob anonimato." Errado. O artigo quinto, inciso quatro, veda o anonimato.
+
+"A retratação espontânea do veículo extingue o direito de resposta do ofendido." Errado. Pela Lei treze mil cento e oitenta e oito, ela não impede o direito de resposta nem prejudica a ação de reparação.
+
+"Pela tese do Supremo de dois mil e vinte e cinco, as plataformas respondem objetivamente por qualquer conteúdo ilícito publicado por terceiros." Errado. A tese exclui a responsabilidade objetiva e exige, conforme o caso, notificação não atendida, falha sistêmica ou ausência de diligência.
+
+"Após a decisão do Supremo, a remoção de conteúdos que configurem crime contra a honra passou a gerar responsabilidade da plataforma a partir de simples notificação extrajudicial." Errado. Para crimes contra a honra, a responsabilização continua dependendo de ordem judicial, embora a plataforma possa remover por notificação.
+
+"Pluralismo político, como fundamento da República, significa apenas a existência de vários partidos." Errado. Pluralismo é a diversidade de ideias, vozes e grupos; o pluripartidarismo é só uma de suas expressões.
+
+
+BLOCO QUATRO: DISTINÇÃO ENTRE CRÍTICA LEGÍTIMA E DESINFORMAÇÃO
+
+A liberdade de expressão e seus limites foram vistos no bloco anterior, e a tipologia da desinformação, no bloco dois. Aqui entram os critérios para distinguir a crítica, que a democracia protege, da desinformação, e a forma como o agente público e a instituição devem responder a cada uma.
+
+Crítica é o juízo negativo sobre uma pessoa, uma instituição, uma decisão ou uma política. Ela é parte essencial da democracia e do controle social. A crítica legítima pode ser dura, irônica, parcial, injusta e até errada na sua avaliação, e continua sendo crítica. O que a protege não é estar certa, mas ser expressão de opinião sobre assunto público, apoiada em fatos que não são inventados.
+
+A distinção se apoia no bloco um. A opinião e a interpretação não são verdadeiras ou falsas como os fatos: a frase o programa é um desperdício de dinheiro público é um juízo, que pode ser contestado com argumentos, mas não desmentido como uma mentira. Já a frase o programa pagou dez bilhões a empresas fantasmas é uma afirmação de fato, que pode ser verificada. Se for falsa e tiver sido divulgada para enganar, é desinformação. Se for falsa e divulgada por engano, é informação incorreta. Se for verdadeira, é crítica apoiada em fato, por mais dura que seja.
+
+Alguns critérios ajudam a separar as duas. Primeiro: há uma afirmação de fato verificável, e ela é falsa ou enganosa? Sem afirmação de fato falsa, não há desinformação. Segundo: o contexto foi manipulado, com dados verdadeiros recortados para produzir uma conclusão falsa? Terceiro: há intenção de enganar, que costuma aparecer na insistência depois da correção, na fabricação de documentos ou no uso de identidade falsa. Quarto: há coordenação ou automação para simular apoio ou amplificar artificialmente a mensagem? Quinto: qual é o dano provável, como risco à saúde, golpe contra usuários ou ataque à integridade de pessoas?
+
+Há também sinais de que se está diante de crítica, e não de desinformação. O alvo é uma decisão, uma política ou o desempenho de uma autoridade no exercício da função. Os fatos citados existem, mesmo que a interpretação seja contestável. O autor se identifica e assume a posição. E a mensagem convida ao debate, ainda que de forma veemente.
+
+A figura pública tem de tolerar mais. A jurisprudência sobre liberdade de expressão, no Brasil e no sistema interamericano, reconhece que quem exerce função pública está sujeito a escrutínio mais intenso e deve suportar críticas mais severas que o particular, porque o debate sobre a gestão pública é de interesse coletivo. Isso não autoriza a mentira sobre fatos nem o ataque à honra que configure crime, mas impede que a autoridade trate a crítica como ofensa.
+
+O maior risco institucional é rotular a crítica como desinformação. Quando o Estado chama de desinformação aquilo que é apenas discordância, ele usa o combate à desinformação para silenciar o controle social, o que contraria a vedação da censura e o pluralismo, e destrói a confiança que pretendia proteger. Por isso, a resposta estatal à desinformação deve ser, em regra, mais informação: transparência, dados abertos, esclarecimento, correção. Medidas de remoção ou de responsabilização ficam para os casos previstos em lei e são decididas pelas instâncias competentes, com devido processo.
+
+A resposta adequada depende do que se tem diante de si. Diante da crítica, a instituição escuta, avalia se ela aponta um problema real, responde com dados e, se for o caso, corrige o que estava errado. A crítica é insumo de melhoria, como as manifestações de ouvidoria. Diante da informação incorreta, a instituição esclarece, com o fato correto em destaque. Diante da desinformação, esclarece e, conforme o caso, comunica às autoridades competentes, como quando há uso indevido da identidade do órgão ou golpe contra usuários. E diante da má informação, como a exposição de dados pessoais de servidores, protege as pessoas atingidas.
+
+O agente público, individualmente, também tem deveres. Como visto no item um ponto três ponto dois, ele mantém a liberdade de expressão e de crítica, inclusive sobre políticas do próprio governo, mas não pode divulgar informação sigilosa, antecipar conclusões de trabalhos não concluídos nem atacar a honra de pessoas. E, ao falar em nome da instituição, deve aplicar com rigor a separação entre fato, alegação e interpretação.
+
+Exemplo prático. Uma associação de usuários publica uma nota dizendo que o novo aplicativo de um serviço federal é um desastre, que exclui idosos e que o governo jogou dinheiro fora. Ao mesmo tempo, um perfil anônimo, replicado por dezenas de contas criadas na mesma semana, afirma que o aplicativo rouba dados bancários e envia as informações para o exterior, com um print adulterado como prova. A primeira mensagem é crítica: um juízo negativo e duro sobre uma política, apoiado em problemas reais de acessibilidade. A resposta é escutar, apresentar os dados de uso por faixa etária, anunciar a manutenção do atendimento presencial e corrigir as falhas. A segunda é desinformação: afirmação de fato falsa, com prova fabricada e amplificação coordenada. A resposta é esclarecer, com o fato correto e a explicação técnica, e comunicar às autoridades competentes o uso de material adulterado e de rede artificial.
+
+Pegadinhas do bloco quatro.
+
+"Crítica severa e injusta a uma política pública configura desinformação." Errado. Opinião, mesmo dura e injusta, é crítica protegida; desinformação exige afirmação de fato falsa ou enganosa, com intenção de enganar.
+
+"Para combater a desinformação, o órgão público pode exigir a retirada de publicações que critiquem sua atuação." Errado. A resposta estatal à crítica é escuta e informação; exigir a retirada de críticas viola a vedação da censura e o pluralismo.
+
+"Autoridades públicas devem receber a mesma proteção contra críticas que os particulares." Errado. Quem exerce função pública está sujeito a escrutínio mais intenso e deve tolerar críticas mais severas, sem prejuízo da proteção contra crimes contra a honra.
+
+"A existência de erro na avaliação de quem critica transforma a crítica em desinformação." Errado. O que caracteriza a desinformação é a falsidade de fatos com intenção de enganar, e não o desacerto de um juízo.
+
+"A desinformação se caracteriza sempre por conteúdo inteiramente inventado." Errado. Ela pode usar dados verdadeiros com contexto manipulado, conteúdo editado ou identidade impostora.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Fontes: autoria, natureza primária ou secundária, interesse, método, atualidade e corroboração independente; leitura lateral; contexto, recorte, data e escala.
+
+Fato, alegação e interpretação: fato é verificável; alegação é atribuída a quem a fez; interpretação é juízo sobre o significado; linguagem marca o estatuto de cada afirmação.
+
+Desordem informacional: informação incorreta, sem intenção; desinformação, com intenção; má informação, verdadeira usada para causar dano; efeitos sobre saúde, assistência, emergências e confiança.
+
+Incerteza e correção: dizer o que se sabe e o que não se sabe, com intervalos e limitações; corrigir visível, registrado e comunicado; fato correto antes e depois do boato.
+
+Liberdade de expressão: artigo quinto, incisos quatro, cinco, nove, dez e catorze; artigo duzentos e vinte e vedação de censura; responsabilização posterior; direito de resposta em sessenta dias, gratuito e proporcional; publicidade institucional sem promoção pessoal.
+
+Pluralismo: fundamento da República; vedação de monopólio e oligopólio; diversidade de fontes como proteção.
+
+Plataformas: artigo dezenove parcialmente inconstitucional; notificação para crimes e ilícitos; ordem judicial para crimes contra a honra; presunção em anúncios pagos e robôs; dever de cuidado com falha sistêmica; sem responsabilidade objetiva; efeitos prospectivos.
+
+Crítica e desinformação: sem fato falso não há desinformação; figura pública tolera mais; o Estado responde à crítica com escuta e informação, e não com retirada.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Notícias idênticas publicadas por vários sites, todas reproduzindo o mesmo texto de origem, constituem corroboração independente da informação.
+
+Gabarito: errado. Se todas reproduzem a mesma origem, há uma única fonte repetida.
+
+Item dois. Em relatório de controle, a afirmação de que o preço pago ficou trinta por cento acima da mediana de referência é um fato verificável, e a conclusão de que houve possível sobrepreço é uma interpretação.
+
+Gabarito: certo. O percentual decorre de evidência; o juízo sobre o seu significado é interpretação.
+
+Item três. Na tipologia de Wardle e Derakhshan, a divulgação de dados pessoais verdadeiros para expor e perseguir uma pessoa é exemplo de má informação.
+
+Gabarito: certo. Má informação é conteúdo verdadeiro usado para causar dano.
+
+Item quatro. Ao divulgar estimativa preliminar do impacto de uma política, o órgão deve omitir as limitações do cálculo, para evitar desconfiança.
+
+Gabarito: errado. A boa comunicação de incertezas apresenta limitações, intervalos e a possibilidade de revisão.
+
+Item cinco. A publicidade dos atos, programas, obras, serviços e campanhas dos órgãos públicos deve ter caráter educativo, informativo ou de orientação social, vedada a promoção pessoal de autoridades ou servidores.
+
+Gabarito: certo. Artigo trinta e sete, parágrafo primeiro, da Constituição.
+
+Item seis. A publicação de veículo impresso de comunicação depende de licença da autoridade competente, que avalia o enquadramento do conteúdo às finalidades informativas.
+
+Gabarito: errado. O artigo duzentos e vinte, parágrafo sexto, diz que essa publicação independe de licença de autoridade.
+
+Item sete. O direito de resposta, nos termos da Lei treze mil cento e oitenta e oito, de dois mil e quinze, abrange os comentários de usuários publicados nas páginas eletrônicas dos veículos de comunicação.
+
+Gabarito: errado. A lei exclui esses comentários do conceito de matéria.
+
+Item oito. O direito de resposta deve ser exercido no prazo decadencial de sessenta dias, contados da data de cada divulgação.
+
+Gabarito: certo. Artigo terceiro da Lei treze mil cento e oitenta e oito.
+
+Item nove. Segundo a tese fixada pelo Supremo Tribunal Federal em dois mil e vinte e cinco, os provedores de mensageria privada passaram a responder por conteúdos ilícitos de comunicações interpessoais a partir de notificação extrajudicial.
+
+Gabarito: errado. Para mensageria privada, quanto às comunicações interpessoais protegidas pelo sigilo, continua a aplicar-se o artigo dezenove.
+
+Item dez. Pela mesma tese, há presunção de responsabilidade do provedor por conteúdos ilícitos veiculados em anúncios e impulsionamentos pagos, afastada se ele comprovar que agiu com diligência e em tempo razoável.
+
+Gabarito: certo. É o item quatro da tese dos temas novecentos e oitenta e sete e quinhentos e trinta e três.
+
+Item onze. Uma associação de usuários afirma, em nota pública, que um programa federal é um fracasso e um desperdício de recursos. Por se tratar de avaliação negativa sem base em estudo técnico, a nota configura desinformação.
+
+Gabarito: errado. É juízo de valor sobre política pública, protegido como crítica; desinformação exige afirmação de fato falsa ou enganosa, com intenção de enganar.
+
+Item doze. Agentes públicos, no exercício de suas funções, estão sujeitos a escrutínio mais intenso e devem tolerar críticas mais severas do que os particulares.
+
+Gabarito: certo. O debate sobre a gestão pública é de interesse coletivo, sem prejuízo da proteção contra crimes contra a honra.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto três ponto um, decisão administrativa.
