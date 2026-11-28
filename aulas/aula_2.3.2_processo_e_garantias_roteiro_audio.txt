@@ -1,0 +1,277 @@
+AUDIOAULA. ITEM DOIS PONTO TRÊS PONTO DOIS DO EDITAL: PROCESSO E GARANTIAS
+
+
+ABERTURA
+
+Este é o item dois ponto três ponto dois, processo e garantias. Ele tem dois subitens, organizados aqui em quatro blocos: o primeiro subitem ocupa três blocos, com o devido processo, o contraditório e a defesa, depois a imparcialidade, e depois a finalidade da instrução e da prova; o segundo subitem, sobre a distinção entre procedimento investigativo e processo sancionador, a proteção de direitos e a necessidade de fundamentar conclusões, fica no bloco quatro. A banca costuma cobrar os direitos do administrado e as regras de intimação e de prova da Lei do processo administrativo federal, as súmulas sobre defesa técnica, depósito recursal e prova emprestada, e a natureza não contraditória e não punitiva dos procedimentos investigativos da regulamentação correcional da Controladoria-Geral da União.
+
+
+BLOCO UM: DEVIDO PROCESSO, CONTRADITÓRIO E DEFESA
+
+O devido processo legal nos sentidos formal e material, o contraditório, a ampla defesa e a razoável duração do processo na Constituição foram vistos no item um ponto um ponto quatro, e o recurso administrativo, no item dois ponto três ponto um. Aqui entra a forma como essas garantias se concretizam no processo administrativo, pela Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, e pela jurisprudência.
+
+Processo administrativo é a sequência ordenada de atos que prepara uma decisão da administração. Procedimento é o modo, o rito, a ordem dos atos. A Constituição usa a palavra processo, no artigo quinto, inciso cinquenta e cinco, quando assegura o contraditório e a ampla defesa aos litigantes em processo judicial ou administrativo e aos acusados em geral. As garantias, portanto, valem quando há litígio, isto é, conflito de interesses entre a administração e alguém, ou acusação.
+
+A Lei nove mil setecentos e oitenta e quatro traduz essa exigência no artigo segundo, parágrafo único, inciso dez: garantia dos direitos à comunicação, à apresentação de alegações finais, à produção de provas e à interposição de recursos, nos processos de que possam resultar sanções e nas situações de litígio. São quatro direitos em uma frase: ser comunicado, falar ao final, provar e recorrer.
+
+O artigo terceiro lista os direitos do administrado perante a administração, sem prejuízo de outros que lhe sejam assegurados. Primeiro, ser tratado com respeito pelas autoridades e servidores, que deverão facilitar o exercício de seus direitos e o cumprimento de suas obrigações. Segundo, ter ciência da tramitação dos processos administrativos em que tenha a condição de interessado, ter vista dos autos, obter cópias de documentos neles contidos e conhecer as decisões proferidas. Terceiro, formular alegações e apresentar documentos antes da decisão, os quais serão objeto de consideração pelo órgão competente. Quarto, fazer-se assistir, facultativamente, por advogado, salvo quando obrigatória a representação, por força de lei.
+
+O inciso três tem duas partes, e a segunda é a que dá sentido à primeira. Não basta permitir que o interessado fale; o órgão tem de considerar o que ele disse. Uma decisão que ignora a defesa apresentada viola o contraditório, ainda que o prazo para a defesa tenha sido aberto.
+
+Daí a distinção que a doutrina faz entre contraditório formal e contraditório substancial. O formal é a oportunidade de se manifestar. O substancial é o poder de influenciar a decisão: os argumentos e as provas da parte têm de ser examinados e enfrentados na motivação. A ampla defesa, por sua vez, é o conjunto de meios para exercer esse poder: conhecer a acusação, ter acesso aos autos, produzir provas, ser assistido, apresentar alegações e recorrer.
+
+O inciso quatro, sobre o advogado, conversa com a Súmula Vinculante cinco do Supremo Tribunal Federal: a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição. A presença de advogado é um direito do acusado, e não uma condição de validade do processo. A Súmula trezentos e quarenta e três do Superior Tribunal de Justiça tinha dito o contrário e ficou superada pela súmula vinculante.
+
+A outra súmula vinculante do tema é a vinte e um: é inconstitucional a exigência de depósito ou arrolamento prévios de dinheiro ou bens para admissibilidade de recurso administrativo. A ampla defesa inclui o recurso, e condicionar o recurso a pagamento o torna inacessível a quem não pode pagar. O artigo cinquenta e seis, parágrafo segundo, da Lei nove mil setecentos e oitenta e quatro já dizia que a interposição de recurso independe de caução, salvo exigência legal; a súmula afasta também a exigência legal de depósito prévio.
+
+O artigo quarto lista os deveres do administrado, porque o processo é uma relação de mão dupla: expor os fatos conforme a verdade; proceder com lealdade, urbanidade e boa-fé; não agir de modo temerário; e prestar as informações que lhe forem solicitadas e colaborar para o esclarecimento dos fatos. Esse dever de colaborar não se confunde com dever de se autoincriminar, como se verá no bloco quatro.
+
+A comunicação é a porta de entrada do contraditório. O artigo vinte e seis manda o órgão determinar a intimação do interessado para ciência de decisão ou a efetivação de diligências. A intimação deve conter a identificação do intimado e o nome do órgão ou entidade administrativa; a finalidade; a data, a hora e o local em que deve comparecer; se o intimado deve comparecer pessoalmente ou fazer-se representar; a informação da continuidade do processo independentemente do seu comparecimento; e a indicação dos fatos e fundamentos legais pertinentes.
+
+Os parágrafos do artigo vinte e seis trazem os detalhes cobrados. A intimação observará a antecedência mínima de três dias úteis quanto à data de comparecimento. Pode ser efetuada por ciência no processo, por via postal com aviso de recebimento, por telegrama ou por outro meio que assegure a certeza da ciência do interessado. No caso de interessados indeterminados, desconhecidos ou com domicílio indefinido, a intimação deve ser efetuada por meio de publicação oficial. E as intimações feitas sem observância das prescrições legais são nulas, mas o comparecimento do administrado supre a sua falta ou irregularidade.
+
+O artigo vinte e sete diz que o desatendimento da intimação não importa o reconhecimento da verdade dos fatos, nem a renúncia a direito pelo administrado. E o parágrafo único completa: no prosseguimento do processo, será garantido direito de ampla defesa ao interessado. No processo administrativo, portanto, não há o efeito da revelia do processo civil, em que os fatos alegados contra quem não se defende podem ser presumidos verdadeiros. A administração continua obrigada a provar.
+
+O artigo vinte e oito exige intimação dos atos que resultem para o interessado em imposição de deveres, ônus, sanções ou restrição ao exercício de direitos e atividades, e dos atos de outra natureza de seu interesse.
+
+Encerrada a instrução, o artigo quarenta e quatro dá ao interessado o direito de manifestar-se no prazo máximo de dez dias, salvo se outro prazo for legalmente fixado. São as alegações finais, que aparecem no inciso dez do artigo segundo. Elas existem porque só depois de toda a prova produzida o interessado consegue argumentar sobre o conjunto.
+
+O artigo quarenta e seis garante aos interessados o direito à vista do processo e a obter certidões ou cópias reprográficas dos dados e documentos que o integram, ressalvados os dados e documentos de terceiros protegidos por sigilo ou pelo direito à privacidade, à honra e à imagem.
+
+O contraditório pode ser diferido. O artigo quarenta e cinco permite que, em caso de risco iminente, a administração pública adote motivadamente providências acauteladoras sem a prévia manifestação do interessado. A interdição de um estabelecimento com risco sanitário grave é o exemplo típico. O contraditório não desaparece: ele vem depois da medida, que é provisória e tem de ser motivada. No regime disciplinar, a Lei oito mil cento e doze, de mil novecentos e noventa, tem uma medida da mesma família no artigo cento e quarenta e sete: o afastamento preventivo do servidor, por até sessenta dias, prorrogável por igual período, sem prejuízo da remuneração, para que ele não influa na apuração. O afastamento preventivo não é pena.
+
+Por fim, o artigo sessenta e oito diz que as sanções, a serem aplicadas por autoridade competente, terão natureza pecuniária ou consistirão em obrigação de fazer ou de não fazer, assegurado sempre o direito de defesa. E o artigo sessenta e nove lembra que os processos administrativos específicos continuarão a reger-se por lei própria, aplicando-se-lhes apenas subsidiariamente os preceitos da Lei nove mil setecentos e oitenta e quatro. O processo disciplinar dos servidores federais segue a Lei oito mil cento e doze; o processo de responsabilização de empresas segue a Lei doze mil oitocentos e quarenta e seis, de dois mil e treze. A lei geral preenche as lacunas.
+
+Pegadinhas do bloco um.
+
+Primeira. Afirmar que o desatendimento da intimação importa o reconhecimento da verdade dos fatos alegados pela administração. Errado. O artigo vinte e sete diz que não importa reconhecimento da verdade dos fatos nem renúncia a direito.
+
+Segunda. Afirmar que a intimação para comparecimento deve observar antecedência mínima de cinco dias úteis. Errado. O parágrafo segundo do artigo vinte e seis fixa três dias úteis.
+
+Terceira. Afirmar que a intimação feita sem as formalidades legais é nula em qualquer caso. Errado. O parágrafo quinto do artigo vinte e seis diz que o comparecimento do administrado supre a falta ou a irregularidade.
+
+Quarta. Afirmar que o processo disciplinar conduzido sem advogado constituído pelo acusado é nulo. Errado. Pela Súmula Vinculante cinco, a falta de defesa técnica por advogado no processo administrativo disciplinar não ofende a Constituição.
+
+Quinta. Afirmar que a adoção de medida acauteladora sem prévia manifestação do interessado viola, por si só, o contraditório. Errado. O artigo quarenta e cinco a admite em caso de risco iminente, de forma motivada, com contraditório posterior.
+
+
+BLOCO DOIS: IMPARCIALIDADE
+
+Os impedimentos e a suspeição dos artigos dezoito a vinte e um da Lei nove mil setecentos e oitenta e quatro, com o dever de comunicar o impedimento sob pena de falta grave, foram vistos no item um ponto três ponto três. Aqui entram a imparcialidade como garantia do processo, as regras que a protegem na composição das comissões e a separação entre quem investiga, quem acusa e quem julga.
+
+Imparcialidade é a posição de quem decide sem interesse próprio no resultado e sem ter formado a convicção antes de examinar as provas. Ela tem duas dimensões. A subjetiva diz respeito ao estado de espírito do agente: ele não pode ter interesse, amizade íntima ou inimizade notória em relação às partes. A objetiva diz respeito à aparência e à estrutura: mesmo que o agente seja, no íntimo, isento, o processo deve ser organizado de modo que um observador razoável não tenha motivo para duvidar da isenção.
+
+Imparcialidade não é neutralidade no sentido de indiferença ao resultado. A administração tem interesse em que o fato seja esclarecido e, se houver infração, em que ela seja punida. O que a imparcialidade exige é que esse interesse institucional não se transforme em interesse em condenar uma pessoa determinada.
+
+Na Constituição, a imparcialidade decorre do devido processo, da impessoalidade do artigo trinta e sete e da garantia do juiz natural, no inciso cinquenta e três do artigo quinto: ninguém será processado nem sentenciado senão pela autoridade competente. A competência fixada em norma, antes do fato e para todos os casos, impede que se escolha o julgador conforme o acusado.
+
+No processo disciplinar, a Lei oito mil cento e doze traz regras próprias de composição. O processo administrativo disciplinar é conduzido por comissão de três servidores estáveis, designados pela autoridade competente, que indicará, dentre eles, o seu presidente, o qual deverá ser ocupante de cargo efetivo superior ou de mesmo nível, ou ter nível de escolaridade igual ou superior ao do indiciado. A Portaria Normativa vinte e sete, de dois mil e vinte e dois, da Controladoria-Geral da União, que regula a atividade correcional no Executivo federal, repete essa regra no artigo setenta e seis.
+
+A estabilidade dos membros protege a comissão de pressões: o servidor estável não pode ser exonerado por ter conduzido um processo que desagradou a alguém. E a exigência de cargo ou escolaridade do presidente evita que um servidor julgue, por assim dizer, para cima, sem condições de avaliar a conduta de quem está em posição superior.
+
+O parágrafo segundo do artigo cento e quarenta e nove da mesma lei acrescenta um impedimento específico: não poderá participar de comissão de sindicância ou de inquérito cônjuge, companheiro ou parente do acusado, consanguíneo ou afim, em linha reta ou colateral, até o terceiro grau.
+
+E o artigo cento e cinquenta diz que a comissão exercerá suas atividades com independência e imparcialidade, assegurado o sigilo necessário à elucidação do fato ou exigido pelo interesse da administração. As reuniões e as audiências da comissão terão caráter reservado.
+
+Os requisitos de composição variam conforme a natureza do procedimento. A Portaria Normativa vinte e sete permite que a sindicância investigativa seja conduzida por um único servidor efetivo ou por comissão de dois ou mais, e dispensa o requisito da estabilidade, no artigo quarenta e sete. A sindicância acusatória, que pode resultar em pena, exige pelo menos dois servidores estáveis, no artigo setenta e quatro. A lógica é a do bloco quatro: quanto mais perto da sanção, maiores as garantias.
+
+A imparcialidade se protege também pela separação de funções. No modelo do Executivo federal, a ouvidoria recebe o relato; a unidade de correição faz o juízo de admissibilidade e conduz os procedimentos investigativos; uma comissão instrui o processo acusatório; e a autoridade julgadora decide. A comissão não julga: ela produz o relatório. A autoridade não instrui: ela decide com base no que foi produzido, podendo divergir da comissão quando o relatório contrariar as provas dos autos.
+
+A separação evita o chamado prejulgamento. Quem formulou publicamente uma conclusão sobre a culpa do acusado antes do processo perdeu a posição de terceiro em relação ao caso. A situação não está necessariamente listada nos artigos dezoito e vinte da Lei nove mil setecentos e oitenta e quatro, mas a doutrina e a jurisprudência a tratam como quebra da imparcialidade quando a manifestação revela convicção já formada.
+
+A imparcialidade tem uma consequência positiva para a instrução: quem conduz o processo deve buscar tanto as provas que incriminam quanto as que favorecem o acusado. Uma comissão que só ouve as testemunhas da acusação, ou que indefere sem motivo as provas pedidas pela defesa, demonstra parcialidade pela forma como instrui, ainda que nenhum dos seus membros tenha relação pessoal com o caso.
+
+O mesmo vale para a atividade de controle. O auditor que avalia um programa não pode ter participado da sua gestão, nem ter interesse no resultado da avaliação. As garantias de independência da auditoria interna governamental serão tratadas no item dois ponto três ponto três.
+
+Pegadinhas do bloco dois.
+
+Primeira. Afirmar que a comissão de processo administrativo disciplinar pode ser composta por quaisquer três servidores, estáveis ou não, desde que efetivos. Errado. A Lei oito mil cento e doze exige três servidores estáveis.
+
+Segunda. Afirmar que o presidente da comissão deve ocupar necessariamente cargo efetivo superior ao do indiciado. Errado. Basta cargo efetivo superior ou de mesmo nível, ou nível de escolaridade igual ou superior ao do indiciado.
+
+Terceira. Afirmar que o primo do acusado está impedido de integrar a comissão de inquérito. Errado. O impedimento do parágrafo segundo do artigo cento e quarenta e nove vai até o terceiro grau, e o primo é parente colateral de quarto grau.
+
+Quarta. Afirmar que a sindicância investigativa, como qualquer procedimento correcional, exige membros estáveis. Errado. A Portaria Normativa vinte e sete dispensa a estabilidade na sindicância investigativa e admite a sua condução por um único servidor efetivo.
+
+Quinta. Afirmar que a imparcialidade impõe à comissão o dever de não produzir provas por iniciativa própria, cabendo-lhe apenas avaliar as que as partes apresentarem. Errado. A comissão deve instruir de ofício e buscar provas favoráveis e desfavoráveis ao acusado.
+
+
+BLOCO TRÊS: FINALIDADE DA INSTRUÇÃO E DA PROVA
+
+As garantias de comunicação e de manifestação foram vistas no bloco um, e a postura de quem instrui, no bloco dois. Aqui entram para que serve a instrução, quem tem o ônus de provar, quais provas podem ser recusadas e como a prova chega à decisão.
+
+A instrução é a fase do processo destinada a reunir os elementos necessários para decidir. O artigo vinte e nove da Lei nove mil setecentos e oitenta e quatro diz que as atividades de instrução destinadas a averiguar e comprovar os dados necessários à tomada de decisão realizam-se de ofício ou mediante impulsão do órgão responsável pelo processo, sem prejuízo do direito dos interessados de propor atuações probatórias. O parágrafo primeiro manda o órgão competente fazer constar dos autos os dados necessários à decisão do processo. E o parágrafo segundo diz que os atos de instrução que exijam a atuação dos interessados devem realizar-se do modo menos oneroso para estes.
+
+Dois princípios explicam esse desenho. A oficialidade: a administração conduz o processo por iniciativa própria, e não depende de que as partes o impulsionem, como diz também o inciso doze do parágrafo único do artigo segundo, impulsão, de ofício, do processo administrativo, sem prejuízo da atuação dos interessados. E a verdade material: a administração busca o que realmente aconteceu, e não apenas o que as partes trouxeram aos autos. Por isso pode produzir provas que ninguém pediu, e por isso o silêncio do interessado não encerra a questão.
+
+A finalidade da prova é, portanto, permitir uma decisão correta sobre fatos. Prova é o meio pelo qual se demonstra a ocorrência ou a inexistência de um fato relevante para a decisão. Ela não serve para confirmar uma conclusão tomada de antemão, nem para acumular documentos sem relação com o que se precisa decidir. Uma instrução bem feita parte das perguntas que a decisão precisa responder e busca, para cada uma, a prova pertinente.
+
+O artigo trinta é curto e muito cobrado: são inadmissíveis no processo administrativo as provas obtidas por meios ilícitos. É a projeção do inciso cinquenta e seis do artigo quinto da Constituição. A doutrina estende a vedação às provas derivadas das ilícitas, pela chamada teoria dos frutos da árvore envenenada, ressalvadas as provas que poderiam ser obtidas por fonte independente.
+
+O ônus da prova tem regra expressa no artigo trinta e seis: cabe ao interessado a prova dos fatos que tenha alegado, sem prejuízo do dever atribuído ao órgão competente para a instrução. Essa regra se aplica com naturalidade aos processos em que o interessado pede algo: quem pede um benefício alegando que cumpre os requisitos deve demonstrá-los. Nos processos sancionadores, a lógica se inverte quanto à infração: cabe à administração provar que o fato ocorreu e que o acusado o praticou. A presunção de inocência, que a Constituição formula para o processo penal, irradia para o direito administrativo sancionador, e a dúvida relevante favorece o acusado.
+
+O artigo trinta e sete afasta uma exigência burocrática comum: quando o interessado declarar que fatos e dados estão registrados em documentos existentes na própria administração responsável pelo processo ou em outro órgão administrativo, o órgão competente para a instrução proverá, de ofício, à obtenção dos documentos ou das respectivas cópias. A administração não pode exigir do cidadão um documento que ela própria tem.
+
+O artigo trinta e oito trata da atuação probatória do interessado. Ele pode, na fase instrutória e antes da tomada da decisão, juntar documentos e pareceres, requerer diligências e perícias, bem como aduzir alegações referentes à matéria objeto do processo. O parágrafo primeiro diz que os elementos probatórios deverão ser considerados na motivação do relatório e da decisão. E o parágrafo segundo diz que somente poderão ser recusadas, mediante decisão fundamentada, as provas propostas pelos interessados quando sejam ilícitas, impertinentes, desnecessárias ou protelatórias.
+
+O rol do parágrafo segundo é fechado e exige fundamentação. Ilícita é a prova obtida por meio vedado. Impertinente é a que não tem relação com o objeto do processo. Desnecessária é a que trata de fato já provado ou que não precisa de prova. Protelatória é a que só serve para atrasar. A Portaria Normativa vinte e sete, no artigo cento e dezenove, detalha o mesmo raciocínio para os procedimentos correcionais e acrescenta as provas de produção impossível e as relacionadas a fato sobre o qual a lei exige forma própria de provar.
+
+Os artigos seguintes organizam a produção da prova. Quando forem necessárias informações ou provas dos interessados ou de terceiros, serão expedidas intimações com data, prazo, forma e condições de atendimento; se a intimação não for atendida, a autoridade pode suprir de ofício a omissão, sem se eximir de decidir. Quando dados, atuações ou documentos solicitados ao interessado forem necessários à apreciação do pedido formulado, o não atendimento no prazo fixado implicará o arquivamento do processo, pelo artigo quarenta. E os interessados serão intimados de prova ou diligência ordenada com antecedência mínima de três dias úteis, mencionando-se data, hora e local de realização, pelo artigo quarenta e um. Esta última regra concretiza o contraditório na produção da prova: o interessado tem direito de acompanhar a diligência e de formular perguntas.
+
+O artigo quarenta e dois trata dos pareceres. Quando deva ser obrigatoriamente ouvido um órgão consultivo, o parecer deverá ser emitido no prazo máximo de quinze dias, salvo norma especial ou comprovada necessidade de maior prazo. Se um parecer obrigatório e vinculante deixar de ser emitido no prazo, o processo não terá seguimento até a respectiva apresentação, responsabilizando-se quem der causa ao atraso. Se o parecer for obrigatório e não vinculante, o processo poderá ter prosseguimento e ser decidido com a sua dispensa, sem prejuízo da responsabilidade de quem se omitiu. E o artigo quarenta e três prevê que, quando o órgão técnico não entregar laudo exigido por ato normativo, o órgão responsável pela instrução solicitará laudo a outro órgão dotado de qualificação e capacidade técnica equivalentes.
+
+Quando o órgão de instrução não for o competente para decidir, o artigo quarenta e sete manda elaborar relatório indicando o pedido inicial, o conteúdo das fases do procedimento e formulando proposta de decisão, objetivamente justificada, encaminhando o processo à autoridade competente. O relatório é a ponte entre a prova e a decisão.
+
+A prova emprestada é a prova produzida em outro processo e trasladada para o processo atual. A Súmula quinhentos e noventa e um do Superior Tribunal de Justiça diz que é permitida a prova emprestada no processo administrativo disciplinar, desde que devidamente autorizada pelo juízo competente e respeitados o contraditório e a ampla defesa. A Portaria Normativa vinte e sete repete a regra no artigo cento e dezenove, parágrafo segundo, e exige que a cópia seja juntada com certidão que identifique o processo de origem. O caso mais comum é o da interceptação telefônica: ela só pode ser feita para investigação criminal ou instrução processual penal, mas, uma vez autorizada pelo juiz, pode ser compartilhada com o processo disciplinar, com autorização judicial.
+
+A mesma portaria trata de outra fonte de prova frequente: os instrumentos de trabalho. O artigo cento e vinte permite, para a elucidação de fatos específicos e mediante decisão fundamentada, o acesso e o monitoramento, independentemente de notificação do investigado ou do acusado, do conteúdo dos instrumentos disponibilizados pelo órgão para uso funcional do servidor, como equipamentos e aplicações de tecnologia da informação, dados de sistemas, correios eletrônicos funcionais, agendas e registros de ligações. O que é instrumento de trabalho fornecido pelo órgão não tem a mesma proteção da comunicação privada.
+
+Exemplo prático. Uma comissão apura se um servidor inseriu dados falsos em um sistema de concessão de benefícios. A defesa pede três provas: a oitiva de dez colegas sobre o bom comportamento do acusado, a perícia nos registros de acesso do sistema e a juntada de um relatório de auditoria que apontou falhas de segurança na senha dos usuários. A comissão defere a perícia, porque ela responde à pergunta central, quem fez cada inserção. Defere a juntada do relatório, que é documento da própria administração e é pertinente à hipótese de uso indevido da senha por terceiro. E limita a oitiva sobre comportamento a duas testemunhas, com decisão fundamentada: o bom comportamento não está em disputa, e dez depoimentos sobre o mesmo ponto seriam desnecessários. O relatório final enfrenta o resultado da perícia e o achado de auditoria, inclusive para explicar por que, ou por que não, eles afastam a autoria.
+
+Pegadinhas do bloco três.
+
+Primeira. Afirmar que, no processo administrativo, a produção de provas depende de requerimento das partes. Errado. Pelo artigo vinte e nove, a instrução se realiza de ofício ou por impulsão do órgão, sem prejuízo do direito do interessado de propor provas.
+
+Segunda. Afirmar que a autoridade pode recusar provas propostas pelo interessado sempre que as considerar inconvenientes. Errado. O parágrafo segundo do artigo trinta e oito só admite a recusa, por decisão fundamentada, das provas ilícitas, impertinentes, desnecessárias ou protelatórias.
+
+Terceira. Afirmar que o interessado deve juntar os documentos que comprovem os fatos alegados, ainda que eles já estejam em poder do próprio órgão. Errado. O artigo trinta e sete manda o órgão obter esses documentos de ofício.
+
+Quarta. Afirmar que, se o parecer obrigatório e não vinculante não for emitido no prazo, o processo fica suspenso até a sua apresentação. Errado. A suspensão vale para o parecer obrigatório e vinculante; no não vinculante, o processo pode prosseguir e ser decidido.
+
+Quinta. Afirmar que a prova obtida por interceptação telefônica em processo penal não pode ser usada em processo disciplinar, porque a interceptação só se admite para fins criminais. Errado. A Súmula quinhentos e noventa e um do Superior Tribunal de Justiça admite a prova emprestada, com autorização do juízo competente e respeito ao contraditório e à ampla defesa.
+
+
+BLOCO QUATRO: PROCEDIMENTO INVESTIGATIVO E PROCESSO SANCIONADOR; PROTEÇÃO DE DIREITOS E FUNDAMENTAÇÃO DAS CONCLUSÕES
+
+A separação entre receber um relato, apurar fatos e decidir sobre responsabilidade, pelo desenho das ouvidorias, foi vista no item dois ponto dois ponto três, e o dever de fundamentação, no dois ponto três ponto um. Aqui entram a diferença de natureza entre investigar e processar para punir, os direitos que se mantêm mesmo na fase investigativa e a exigência de que toda conclusão se apoie nas provas. As espécies de processo disciplinar e de responsabilização de empresas serão vistas no item dois ponto três ponto quatro.
+
+Procedimento investigativo é o conjunto de atos destinado a reunir elementos de informação sobre um fato, para verificar se há indícios de autoria e de materialidade que justifiquem um processo. Ele é preparatório: não acusa ninguém, não aplica sanção e não decide sobre responsabilidade. Processo sancionador é aquele em que há uma acusação formal contra pessoa determinada e do qual pode resultar uma sanção. Nele, o contraditório e a ampla defesa são obrigatórios.
+
+A Portaria Normativa vinte e sete da Controladoria-Geral da União, alterada em dois mil e vinte e quatro em pontos que não afetam esta distinção, organiza os dois mundos. Os procedimentos investigativos são quatro. A investigação preliminar sumária, que pode apurar falta disciplinar de servidor e ato lesivo de pessoa jurídica, com prazo de até cento e oitenta dias. A sindicância investigativa, para falta disciplinar, quando a complexidade ou os indícios de autoria e materialidade não justificarem a instauração imediata de processo correcional, com prazo de até sessenta dias, prorrogável sucessivamente. A sindicância patrimonial, para avaliar indícios de enriquecimento ilícito, inclusive evolução patrimonial incompatível com os recursos do servidor, com prazo de até trinta dias, prorrogável sucessivamente. E a investigação preliminar, para ato lesivo de pessoa jurídica contra a administração, nos termos da Lei Anticorrupção, com prazo de até sessenta dias, prorrogável sucessivamente.
+
+A portaria define todos os quatro com a mesma fórmula: procedimento investigativo de caráter preparatório, não contraditório e não punitivo, de acesso restrito. São quatro atributos. Preparatório, porque serve para decidir se haverá processo. Não contraditório, porque não há acusado a quem se deva dar defesa: há, no máximo, um investigado. Não punitivo, porque dele não pode resultar sanção. E de acesso restrito, porque a investigação em curso precisa de reserva para ser eficaz e para proteger a honra de quem ainda não foi acusado de nada.
+
+A instauração dos procedimentos investigativos é feita por despacho, dispensada a publicação. Já os processos acusatórios, como a sindicância acusatória e o processo administrativo disciplinar, são instaurados por ato publicado, e a portaria os define como processos destinados a apurar responsabilidade, observados os princípios do contraditório e da ampla defesa.
+
+Entre os dois mundos está o juízo de admissibilidade. O artigo trinta e sete da portaria o define como o ato administrativo por meio do qual o titular da unidade setorial de correição decide, de forma fundamentada, pelo arquivamento da denúncia, representação ou relato de irregularidade; pela celebração de termo de ajustamento de conduta; pela instauração de procedimento investigativo, no caso de falta de informações ou impossibilidade de obtê-las; ou pela instauração de processo correcional. E o artigo trinta e nove diz que, se presentes indícios de autoria e materialidade, será determinada a instauração de processo correcional, sendo desnecessária a existência de procedimento investigativo prévio.
+
+Dessa forma, a investigação prévia não é etapa obrigatória. Ela existe para quando faltam elementos. Se a denúncia já chega com indícios suficientes, a autoridade instaura diretamente o processo. E, no sentido contrário, a denúncia que não contiver os indícios mínimos que possibilitem a sua apuração será motivadamente arquivada, pelo parágrafo segundo do artigo trinta e oito. Até o arquivamento precisa de fundamento.
+
+Ao final do procedimento investigativo, o relatório deve ser conclusivo quanto à existência ou não de indícios de autoria e materialidade, e recomendar o arquivamento, a instauração do processo correcional cabível ou a celebração de termo de ajustamento de conduta. O relatório investigativo não conclui que alguém é culpado. Ele conclui que há, ou não há, base para acusar.
+
+A distinção tem efeitos práticos que aparecem em questões. A ausência de contraditório na investigação não gera nulidade, porque não havia acusação. Mas nenhuma sanção pode se apoiar apenas no que foi colhido na investigação sem que o acusado tenha tido oportunidade de contraditá-lo no processo. Os elementos da fase investigativa precisam ser submetidos ao contraditório no processo acusatório, seja pela repetição da prova, seja pela oportunidade de o acusado se manifestar sobre ela. E vícios da investigação, em regra, não contaminam o processo acusatório que se seguiu, desde que este tenha sido regular.
+
+O fato de a investigação não ter contraditório não significa que ela não tenha limites. A proteção de direitos começa antes da acusação.
+
+O primeiro limite é a existência de base mínima. A Lei treze mil oitocentos e sessenta e nove, de dois mil e dezenove, a Lei de Abuso de Autoridade, tipifica como crime, no artigo vinte e sete, requisitar instauração ou instaurar procedimento investigatório de infração penal ou administrativa em desfavor de alguém à falta de qualquer indício da prática de crime, de ilícito funcional ou de infração administrativa. O parágrafo único afasta o crime quando se tratar de sindicância ou investigação preliminar sumária, devidamente justificada. A investigação preliminar existe justamente para verificar se há indícios; o que a lei pune é abrir investigação sem nenhum motivo, para perseguir alguém. O artigo trinta, que tinha sido vetado e foi restabelecido pelo Congresso, tipifica dar início ou proceder à persecução penal, civil ou administrativa sem justa causa fundamentada ou contra quem se sabe inocente. A validade desses dispositivos é questionada no Supremo Tribunal Federal, e não verifiquei o resultado das ações.
+
+O segundo limite é o tempo. O artigo trinta e um da mesma lei tipifica estender injustificadamente a investigação, procrastinando-a em prejuízo do investigado ou fiscalizado. A investigação sem fim mantém uma pessoa sob suspeita indefinida, o que é uma pena sem processo. Os prazos da portaria, com prorrogações justificadas, servem a essa proteção. No processo disciplinar, porém, a Súmula quinhentos e noventa e dois do Superior Tribunal de Justiça diz que o excesso de prazo para a conclusão do processo administrativo disciplinar só causa nulidade se houver demonstração de prejuízo à defesa.
+
+O terceiro limite é o acesso da defesa. O Estatuto da Advocacia, alterado em dois mil e dezesseis, garante ao advogado examinar, em qualquer instituição responsável por conduzir investigação, autos de investigações de qualquer natureza, findos ou em andamento, com procuração quando houver sigilo, e permite à autoridade delimitar o acesso a diligências em andamento cuja divulgação comprometa a sua eficácia. A Súmula Vinculante catorze afirma esse direito em relação aos elementos de prova já documentados em procedimento investigatório de órgão com competência de polícia judiciária. E o artigo trinta e dois da Lei de Abuso de Autoridade, também restabelecido pelo Congresso, tipifica negar ao interessado, ao seu defensor ou advogado acesso aos autos de investigação preliminar ou de qualquer outro procedimento investigatório de infração penal, civil ou administrativa, ressalvado o acesso a peças relativas a diligências em curso ou que indiquem a realização de diligências futuras, cujo sigilo seja imprescindível. A regra comum: o que já está documentado é acessível à defesa; o que está em andamento pode ficar em sigilo.
+
+A Portaria Normativa vinte e sete, no artigo cento e catorze, mantém acesso restrito, entre outros, aos dados pessoais, às informações protegidas por sigilo legal, à identificação do denunciante e aos procedimentos investigativos e processos correcionais ainda não concluídos. E o parágrafo primeiro do mesmo artigo impede que essa restrição seja usada para negar ao investigado, acusado ou indiciado o acesso às informações juntadas aos autos que lhe sejam necessárias para o exercício da ampla defesa. O parágrafo segundo diz que o denunciante não tem acesso a essas informações. O sigilo protege a investigação e as pessoas envolvidas; não é instrumento contra a defesa.
+
+O quarto limite é a não autoincriminação. O dever de colaborar do artigo quarto da Lei nove mil setecentos e oitenta e quatro não obriga o acusado a produzir prova contra si. A Constituição assegura ao preso o direito de permanecer calado, e a jurisprudência estende o direito ao silêncio a qualquer pessoa investigada ou acusada, inclusive no interrogatório do processo disciplinar. O silêncio não pode ser interpretado em prejuízo da defesa. A testemunha, ao contrário, tem dever de dizer a verdade, salvo quanto aos fatos que possam incriminá-la.
+
+O quinto limite é a proteção dos dados e da imagem. A Lei de Abuso de Autoridade tipifica, no artigo vinte e oito, divulgar gravação ou trecho de gravação sem relação com a prova que se pretendia produzir, expondo a intimidade ou a vida privada ou ferindo a honra ou a imagem do investigado ou acusado. E a Portaria Normativa vinte e sete manda tratar os dados pessoais necessários à instrução de acordo com os princípios da Lei Geral de Proteção de Dados, como finalidade, necessidade e segurança, e determina que relatórios e termos apenas façam referência a documentos sigilosos, sem reproduzir o seu conteúdo.
+
+Por fim, a necessidade de fundamentar conclusões. Tanto o relatório de uma investigação quanto o relatório de uma comissão acusatória e a decisão da autoridade precisam mostrar a relação entre o que concluem e as provas dos autos. A Lei oito mil cento e doze exige, no artigo cento e sessenta e um, que a indiciação especifique os fatos imputados ao servidor e as respectivas provas; no artigo cento e sessenta e cinco, que o relatório da comissão seja minucioso, mencione as provas em que se baseou para formar a sua convicção e seja sempre conclusivo quanto à inocência ou à responsabilidade do servidor; e, no artigo cento e sessenta e oito, que o julgamento acate o relatório da comissão, salvo quando contrário às provas dos autos, caso em que a autoridade poderá, motivadamente, agravar a penalidade proposta, abrandá-la ou isentar o servidor de responsabilidade.
+
+A fundamentação também separa os graus de conclusão. Um relatório investigativo fundamenta a existência de indícios; um relatório acusatório fundamenta a responsabilidade ou a inocência; uma decisão fundamenta a sanção, com a sua dosimetria. Usar a linguagem de uma etapa na outra é um erro de fundamentação: dizer, em uma investigação preliminar, que o servidor cometeu a infração, ou punir com base em um relatório que concluiu apenas haver indícios. A distinção entre indício, falha de gestão, irregularidade e responsabilidade será aprofundada no item dois ponto três ponto quatro.
+
+A alteração de dois mil e vinte e quatro na Portaria Normativa vinte e sete trouxe uma regra ligada a esse ponto, no artigo setenta e oito á: as comissões disciplinares devem buscar o consenso, mas podem decidir por maioria, e o membro divergente pode elaborar relatório apartado no prazo dos trabalhos. A divergência fundamentada fica registrada e chega à autoridade julgadora.
+
+Exemplo prático. A corregedoria de um órgão recebe, pela ouvidoria, denúncia anônima de que um servidor do setor de compras favorece uma empresa. O relato não traz documentos. No juízo de admissibilidade, o titular da unidade conclui, de forma fundamentada, que faltam elementos e instaura uma investigação preliminar sumária, por despacho, sem publicação. O servidor não é notificado nem chamado a se defender, porque não há acusação. A investigação cruza as contratações do setor com os sócios das empresas e encontra o irmão do servidor no quadro societário da empresa contratada em seis processos que ele instruiu. O relatório conclui que há indícios de autoria e materialidade e recomenda a instauração de processo administrativo disciplinar; não afirma que o servidor favoreceu a empresa. Instaurado o processo, o servidor é notificado, tem acesso aos documentos da investigação, acompanha as oitivas e se defende. A autoridade decide ao final, com base no que foi provado sob contraditório.
+
+Pegadinhas do bloco quatro.
+
+Primeira. Afirmar que a sindicância investigativa é nula se não for assegurado ao investigado o contraditório e a ampla defesa. Errado. Ela é procedimento preparatório, não contraditório e não punitivo; as garantias são obrigatórias no processo acusatório que eventualmente se seguir.
+
+Segunda. Afirmar que a instauração de processo correcional depende sempre de procedimento investigativo prévio. Errado. O artigo trinta e nove da Portaria Normativa vinte e sete dispensa o procedimento prévio quando já presentes indícios de autoria e materialidade.
+
+Terceira. Afirmar que o sigilo dos procedimentos correcionais em curso autoriza negar ao acusado acesso aos documentos juntados aos autos. Errado. A restrição não pode impedir o acesso às informações necessárias à ampla defesa, pelo parágrafo primeiro do artigo cento e catorze da portaria.
+
+Quarta. Afirmar que, com base no relatório conclusivo de uma sindicância investigativa, a autoridade pode aplicar diretamente pena de advertência. Errado. O procedimento investigativo é não punitivo; a sanção depende de processo acusatório com contraditório e ampla defesa.
+
+Quinta. Afirmar que o excesso de prazo para a conclusão do processo administrativo disciplinar gera, por si só, a sua nulidade. Errado. Pela Súmula quinhentos e noventa e dois do Superior Tribunal de Justiça, a nulidade depende de demonstração de prejuízo à defesa.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Garantias do inciso dez do artigo segundo: comunicação, alegações finais, produção de provas e recursos, nos processos com possibilidade de sanção e nas situações de litígio.
+
+Direitos do artigo terceiro: respeito, ciência, vista e cópias, alegações consideradas antes da decisão, advogado facultativo.
+
+Contraditório substancial: a manifestação tem de ser enfrentada na decisão.
+
+Intimação: conteúdo do artigo vinte e seis, publicação oficial para interessados desconhecidos, alegações finais em dez dias.
+
+Imparcialidade: subjetiva e objetiva; comissão de três estáveis; independência e reserva; separação entre investigar, instruir e julgar; busca de provas favoráveis e desfavoráveis.
+
+Instrução: oficialidade e verdade material; prova ilícita inadmissível; ônus do interessado quanto ao que alega, ônus da administração quanto à infração.
+
+Pareceres: quinze dias; vinculante atrasado paralisa, não vinculante pode ser dispensado; laudo de outro órgão quando o técnico não entrega.
+
+Investigação: preparatória, não contraditória, não punitiva, de acesso restrito; instaurada por despacho; quatro espécies com prazos de cento e oitenta, sessenta, trinta e sessenta dias.
+
+Admissibilidade: decisão fundamentada entre arquivar, ajustar conduta, investigar ou instaurar processo.
+
+Limites à investigação: base mínima, duração razoável, acesso da defesa ao que está documentado, direito ao silêncio e proteção de dados e imagem.
+
+Conclusões: indiciação com fatos e provas; relatório minucioso e conclusivo; julgamento acata o relatório, salvo contrariedade às provas; cada etapa conclui no seu grau.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Nos termos da Lei nove mil setecentos e oitenta e quatro, o administrado tem direito de formular alegações e apresentar documentos antes da decisão, os quais serão objeto de consideração pelo órgão competente.
+
+Gabarito: certo. Artigo terceiro, inciso três.
+
+Item dois. Regularmente intimado, o interessado deixa de comparecer à audiência designada. Nesse caso, presumem-se verdadeiros os fatos que lhe são imputados no processo administrativo.
+
+Gabarito: errado. O artigo vinte e sete afasta o reconhecimento da verdade dos fatos e a renúncia a direito.
+
+Item três. A exigência de depósito prévio de dinheiro como condição de admissibilidade de recurso administrativo é inconstitucional.
+
+Gabarito: certo. Súmula Vinculante vinte e um.
+
+Item quatro. Em caso de risco iminente, a administração pode adotar providências acauteladoras sem a prévia manifestação do interessado, desde que motivadamente.
+
+Gabarito: certo. Artigo quarenta e cinco.
+
+Item cinco. Pode integrar a comissão de inquérito de processo disciplinar o sobrinho do acusado, desde que seja servidor estável.
+
+Gabarito: errado. O sobrinho é parente colateral de terceiro grau, alcançado pelo impedimento do parágrafo segundo do artigo cento e quarenta e nove da Lei oito mil cento e doze.
+
+Item seis. Somente poderão ser recusadas, mediante decisão fundamentada, as provas propostas pelos interessados quando sejam ilícitas, impertinentes, desnecessárias ou protelatórias.
+
+Gabarito: certo. Artigo trinta e oito, parágrafo segundo.
+
+Item sete. Em processo administrativo disciplinar, cabe ao servidor acusado provar que não praticou a infração que lhe é imputada, em razão da regra segundo a qual o interessado deve provar os fatos que alega.
+
+Gabarito: errado. No processo sancionador, cabe à administração provar a infração e a autoria; a regra do artigo trinta e seis não transfere ao acusado esse ônus.
+
+Item oito. É permitida a prova emprestada no processo administrativo disciplinar, desde que devidamente autorizada pelo juízo competente e respeitados o contraditório e a ampla defesa.
+
+Gabarito: certo. Súmula quinhentos e noventa e um do Superior Tribunal de Justiça.
+
+Item nove. A investigação preliminar sumária, prevista na regulamentação correcional do Executivo federal, é procedimento de caráter contraditório, instaurado por portaria publicada, do qual pode resultar a aplicação de advertência.
+
+Gabarito: errado. Ela é preparatória, não contraditória e não punitiva, de acesso restrito, instaurada por despacho sem publicação.
+
+Item dez. Presentes indícios de autoria e materialidade, o titular da unidade setorial de correição deve primeiro instaurar sindicância investigativa, para só depois instaurar o processo disciplinar.
+
+Gabarito: errado. O artigo trinta e nove da Portaria Normativa vinte e sete dispensa o procedimento investigativo prévio nesse caso.
+
+Item onze. O defensor tem direito de acesso aos elementos de prova já documentados nos autos de procedimento investigatório, podendo a autoridade restringir o acesso a diligências em andamento cujo sigilo seja imprescindível.
+
+Gabarito: certo. Estatuto da Advocacia, Súmula Vinculante catorze e artigo trinta e dois da Lei treze mil oitocentos e sessenta e nove.
+
+Item doze. No julgamento do processo disciplinar, a autoridade julgadora está obrigada a acatar o relatório da comissão, ainda que ele contrarie as provas dos autos.
+
+Gabarito: errado. Pelo artigo cento e sessenta e oito da Lei oito mil cento e doze, o julgamento acata o relatório salvo quando contrário às provas dos autos.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto três ponto três, funções de controle e melhoria da gestão.
