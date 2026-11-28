@@ -1,0 +1,266 @@
+AUDIOAULA. ITEM DOIS PONTO DOIS PONTO QUATRO DO EDITAL: PARTICIPAÇÃO E MELHORIA DE SERVIÇOS
+
+
+ABERTURA
+
+Este é o item dois ponto dois ponto quatro, participação e melhoria de serviços. Ele tem cinco subitens, um por bloco: participação e controle social, com conselhos, consultas e escuta de usuários, representatividade e barreiras; recorrências em manifestações como sinais de problemas; subnotificação; transparência ativa, dados abertos e Portal da Transparência como meios de acesso e controle, com seus limites; e o papel da Controladoria-Geral da União na orientação e no monitoramento da transparência. A banca costuma cobrar a natureza consultiva das consultas públicas, os prazos de participação nas agências reguladoras, a leitura cuidadosa de volumes de manifestações e as competências da Controladoria na política de dados abertos e no monitoramento da Lei de Acesso à Informação.
+
+
+BLOCO UM: PARTICIPAÇÃO E CONTROLE SOCIAL, CONSELHOS, CONSULTAS, ESCUTA, REPRESENTATIVIDADE E BARREIRAS
+
+Os fundamentos constitucionais da participação, a escada de Árnstein, a sequência de decretos que terminou no Sistema de Participação Social e os conselhos de usuários da Lei treze mil quatrocentos e sessenta foram vistos nos itens um ponto um ponto dois, um ponto quatro ponto dois e um ponto quatro ponto cinco. Aqui entram o conceito de controle social, os instrumentos de participação com suas regras procedimentais e o problema de quem participa e de quem fica de fora.
+
+Participação social é a atuação da sociedade nas decisões e na gestão pública: na formulação, na execução, no monitoramento e na avaliação de políticas e serviços. Controle social é uma das finalidades dessa participação: o acompanhamento e a fiscalização da ação do Estado pelos cidadãos e por suas organizações. O controle social complementa os controles interno e externo, mas não os substitui: ele depende de informação produzida pelo próprio Estado, não tem poder de sanção e, para produzir efeito, precisa chegar a quem tem competência para agir, como a ouvidoria, o controle interno, o tribunal de contas ou o Ministério Público. A Lei de Responsabilidade Fiscal dá um exemplo dessa ponte: o artigo setenta e três A, incluído pela Lei Complementar cento e trinta e um, de dois mil e nove, diz que qualquer cidadão, partido político, associação ou sindicato é parte legítima para denunciar ao tribunal de contas e ao Ministério Público o descumprimento da lei.
+
+Os conselhos de políticas públicas são instâncias permanentes, criadas por lei, em que governo e sociedade discutem uma política setorial. Podem ser deliberativos, quando suas decisões vinculam a gestão dentro do que a lei define, ou consultivos, quando opinam. Muitos são paritários. Na saúde, por exemplo, a Lei oito mil cento e quarenta e dois, de mil novecentos e noventa, prevê conselhos de caráter permanente e deliberativo, com representação dos usuários paritária em relação ao conjunto dos demais segmentos. A força de um conselho depende menos do papel que da prática: acesso a informação, capacitação dos conselheiros, autonomia diante do gestor e retorno sobre o que foi deliberado.
+
+Os conselhos de usuários de serviços públicos têm outra natureza: são órgãos consultivos, voltados à avaliação dos serviços, e não à política setorial. No Executivo federal, o Decreto nove mil quatrocentos e noventa e dois, desde as alterações de dois mil e vinte, prevê a seleção de conselheiros por chamamento público e avaliações individualizadas de serviços, com participação não remunerada e considerada serviço público relevante.
+
+As consultas e audiências públicas são instrumentos pontuais, ligados a uma decisão específica. A Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, traz a regra geral. Pelo artigo trinta e um, quando a matéria do processo envolver assunto de interesse geral, o órgão pode, por despacho motivado, abrir período de consulta pública para manifestação de terceiros, antes da decisão, se não houver prejuízo para a parte interessada. A abertura é divulgada pelos meios oficiais, com prazo para alegações escritas. E o parágrafo segundo traz uma regra muito cobrada: o comparecimento à consulta não confere, por si só, a condição de interessado no processo, mas confere o direito de obter da administração resposta fundamentada, que pode ser comum a todas as alegações substancialmente iguais.
+
+O artigo trinta e dois da mesma lei permite, a juízo da autoridade e diante da relevância da questão, a realização de audiência pública para debates sobre a matéria, antes da decisão. O artigo trinta e três admite outros meios de participação, diretamente ou por organizações e associações legalmente reconhecidas. E o artigo trinta e quatro exige que os resultados da consulta, da audiência e dos demais meios sejam apresentados com a indicação do procedimento adotado.
+
+Repare em três características. Na regra geral, a consulta e a audiência são facultativas: a lei diz que o órgão pode abri-las. São consultivas: o resultado não vincula a decisão. Mas não são decorativas: quem participa tem direito a resposta fundamentada, e os resultados precisam ser apresentados. A decisão final continua da autoridade competente, que deve considerar as contribuições e motivar o que acolheu e o que rejeitou.
+
+Nas agências reguladoras, a consulta deixa de ser facultativa. A Lei treze mil oitocentos e quarenta e oito, de dois mil e dezenove, a lei geral das agências, diz no artigo nono que as minutas e propostas de alteração de atos normativos de interesse geral dos agentes econômicos, consumidores ou usuários serão objeto de consulta pública antes da decisão do conselho diretor ou da diretoria colegiada. O prazo mínimo é de quarenta e cinco dias, salvo previsão diversa em lei, acordo ou tratado, ou caso excepcional de urgência e relevância, devidamente motivado. No início da consulta, a agência deve disponibilizar o relatório de análise de impacto regulatório e os estudos que fundamentam a proposta. As críticas e sugestões recebidas devem ser publicadas em até dez dias úteis após o fim do prazo, e o posicionamento da agência sobre elas, em até trinta dias úteis após a reunião que deliberar sobre o ato. A audiência pública, no artigo dez, é facultativa, por decisão colegiada, convocada com pelo menos cinco dias úteis de antecedência.
+
+No ciclo orçamentário, a Lei de Responsabilidade Fiscal, no artigo quarenta e oito, parágrafo primeiro, inciso um, manda assegurar a transparência também mediante incentivo à participação popular e à realização de audiências públicas durante a elaboração e a discussão dos planos, da lei de diretrizes orçamentárias e dos orçamentos.
+
+A escuta de usuários é mais ampla que os colegiados. Inclui as manifestações de ouvidoria, as pesquisas de satisfação, a avaliação continuada dos serviços prevista nos artigos vinte e três e vinte e quatro da Lei treze mil quatrocentos e sessenta, os dados de uso dos próprios serviços e as ações de ouvidoria ativa. A Portaria Normativa cê gê u cento e dezesseis, de dois mil e vinte e quatro, organiza a participação das ouvidorias nessa avaliação por quatro fontes: dados agregados das manifestações; dados sobre a prestação dos serviços e as interações dos usuários, como tempo gasto em cada etapa; pesquisas de satisfação, com a ferramenta padronizada do governo federal; e pesquisas específicas, inclusive junto aos conselhos de usuários.
+
+A escuta também precisa alcançar quem não usa o serviço. O não usuário pode ser justamente quem foi excluído por uma barreira: o cidadão que desistiu do atendimento digital, que não sabia que tinha direito ao benefício ou que não conseguiu chegar à agência. Ouvir só quem usa mede a satisfação de quem conseguiu entrar.
+
+Representatividade é a questão de saber se quem participa expressa os interesses e as experiências do conjunto afetado pela decisão. O problema central é a autosseleção: participam mais os que têm tempo, informação, escolaridade, acesso digital, organização e interesse direto na decisão. Uma consulta sobre uma regra técnica pode receber centenas de contribuições de empresas reguladas e quase nenhuma de consumidores. Uma audiência pública pode ser dominada por um grupo organizado. Um conselho pode ser ocupado sempre pelas mesmas entidades. Em todos esses casos, o volume de participação não garante que a decisão ouviu a população afetada.
+
+Há riscos conhecidos. Captura, quando o espaço participativo passa a servir a um interesse particular. Cooptação, quando o gestor usa o conselho para legitimar decisões já tomadas. E participação simbólica, quando há escuta sem retorno, o que gera descrença e esvazia o canal.
+
+As barreiras à participação são de vários tipos. Informacionais: a pessoa não sabe que a consulta existe ou não entende o tema. De linguagem: documentos técnicos, siglas e jargão. Digitais: falta de acesso, de equipamento ou de habilidade. Territoriais: audiências só na capital. Temporais e econômicas: reuniões em horário de trabalho, custo de deslocamento. De acessibilidade: ausência de intérprete de língua de sinais, de material acessível, de local adaptado. E de confiança: medo de exposição ou retaliação e a percepção de que nada muda.
+
+As respostas acompanham as barreiras. Divulgação ativa e direcionada aos grupos afetados. Documento de apoio em linguagem simples. Vários canais, presenciais e digitais, com prazos razoáveis. Audiências descentralizadas e em horários variados. Recursos de acessibilidade. Ouvidoria ativa nos locais de prestação e nas comunidades, priorizando, como manda a portaria, populações vulneráveis ou digitalmente excluídas. Pesquisas por amostra, que alcançam quem não se apresentaria espontaneamente; a própria Lei treze mil quatrocentos e sessenta admite avaliação por qualquer meio que garanta significância estatística. E devolutiva: publicar o que foi recebido, o que foi acolhido e por quê.
+
+Exemplo prático. Um auditor avalia a consulta pública que precedeu uma mudança nas regras de acesso a um benefício. A consulta ficou aberta por quinze dias, apenas na internet, com um texto técnico de quarenta páginas. Recebeu trezentas contribuições, quase todas de escritórios de advocacia e associações de prestadores, e nenhuma de beneficiários. O relatório final não indicou quais contribuições foram acolhidas. O auditor registra que a consulta foi formalmente feita, mas com baixa representatividade e sem devolutiva, e recomenda versão em linguagem simples, canais presenciais nas agências, divulgação aos beneficiários e publicação do posicionamento sobre as contribuições, conforme o artigo trinta e quatro da Lei nove mil setecentos e oitenta e quatro.
+
+Pegadinhas do bloco um.
+
+"Pela Lei nove mil setecentos e oitenta e quatro, quem se manifesta em consulta pública adquire a condição de interessado no processo administrativo." Errado. O comparecimento não confere, por si só, essa condição, mas dá direito a resposta fundamentada, que pode ser comum a alegações substancialmente iguais.
+
+"O resultado da consulta pública vincula a decisão da autoridade." Errado. A consulta é instrumento de apoio à decisão; a autoridade decide, considerando as contribuições e motivando a decisão.
+
+"A consulta pública sobre atos normativos de interesse geral das agências reguladoras é facultativa e tem prazo mínimo de trinta dias." Errado. O artigo nono da Lei treze mil oitocentos e quarenta e oito a torna obrigatória, com prazo mínimo de quarenta e cinco dias, salvo exceções motivadas.
+
+"Grande número de contribuições em uma consulta demonstra que a decisão considerou a população afetada." Errado. Volume não é representatividade; a autosseleção pode concentrar as contribuições em grupos organizados.
+
+"O controle social dispensa os controles interno e externo, por ser exercido diretamente pelo cidadão." Errado. Ele complementa esses controles e depende deles para produzir consequências, como mostra a legitimidade para denunciar ao tribunal de contas, no artigo setenta e três A da Lei de Responsabilidade Fiscal.
+
+"Os conselhos de usuários de serviços públicos são órgãos deliberativos sobre a política setorial." Errado. São órgãos consultivos voltados à avaliação dos serviços.
+
+
+BLOCO DOIS: RECORRÊNCIAS EM MANIFESTAÇÕES COMO SINAIS DE PROBLEMAS
+
+O caminho do relato à melhoria, com consolidar, classificar, analisar a causa e agir, e o relatório anual de gestão da ouvidoria foram vistos no item dois ponto um ponto cinco. Aqui entram o que é uma recorrência, como identificá-la sem se enganar com os números e como transformá-la em sinal para a gestão e para o controle.
+
+Uma manifestação isolada fala de um caso. Uma recorrência fala de um processo. Quando muitas pessoas, em momentos e lugares diferentes, relatam o mesmo problema, a explicação mais provável não é a falha de um atendente, mas uma regra mal desenhada, um sistema com defeito, uma orientação errada ou uma capacidade insuficiente. A Portaria Normativa cê gê u cento e dezesseis inclui entre as diretrizes das ouvidorias a busca pela produção de soluções coletivas a partir do conjunto de problemas individuais recorrentes identificados nas manifestações. E define que a análise dos dados agregados das manifestações visa identificar padrões: serviços com mais manifestações, falhas no cumprimento dos compromissos de qualidade, problemas recorrentes, necessidades comuns e oportunidades de melhoria.
+
+Recorrência tem três formas que convém separar. A primeira é a reiteração: a mesma pessoa voltando várias vezes pelo mesmo problema, o que indica que a primeira resposta não resolveu. A segunda é a repetição entre pessoas: muitos manifestantes com o mesmo problema, o que indica falha de processo. A terceira é a concentração: o problema se repete em uma unidade, uma região, um fornecedor ou um período, o que aponta onde procurar a causa.
+
+Identificar recorrências exige método. Primeiro, uma classificação consistente: tipos, assuntos e subassuntos bem definidos e aplicados do mesmo jeito por toda a equipe. A portaria manda as ouvidorias fazerem a gestão adequada dos indexadores de assuntos e o preenchimento correto dos campos que qualificam a manifestação, e, na produção de informações estratégicas, definir termos, tipologias e taxonomias, com dicionário, quando necessário. Sem isso, o mesmo problema aparece com cinco nomes e não se soma.
+
+Segundo, comparar com a base certa. Uma unidade que atende cem mil pessoas recebe mais reclamações que uma que atende mil, sem ser pior. A medida útil é a taxa: reclamações por mil atendimentos, por mil beneficiários ou por mil processos. Terceiro, olhar o tempo: uma série mensal mostra se o problema é crônico, se surgiu depois de uma mudança, como um novo sistema ou uma nova regra, ou se é sazonal, como os picos em períodos de declaração ou de renovação de cadastro. Quarto, ler o texto, e não só a categoria: o campo livre das manifestações mostra o mecanismo do problema, e as ferramentas de classificação automática de textos, vistas no item três ponto dois ponto quatro, ajudam a fazer isso em escala, com revisão humana.
+
+Há armadilhas na leitura. O volume de manifestações depende do acesso ao canal: uma unidade com ouvidoria ativa e divulgação boa recebe mais, e isso pode significar melhor escuta, não pior serviço. Campanhas de divulgação e notícias na imprensa geram picos que não refletem mudança no problema. Um único manifestante muito ativo pode inflar uma categoria. E uma queda de manifestações pode refletir desistência do usuário, e não solução, tema do próximo bloco. Por isso a recorrência é um sinal, que orienta a análise, e não uma conclusão.
+
+O sinal precisa chegar a quem pode agir. A portaria trata de relatórios com informações estratégicas para a gestão, produzidos com escopo e finalidade definidos, e de relatórios temáticos com análise quantitativa e qualitativa, que apontem falhas e oportunidades de melhoria priorizadas por impacto e ocorrência, os problemas e suas possíveis causas e soluções. E manda as ouvidorias participarem das instâncias de governança de serviços, onde os resultados das avaliações devem ser debatidos. O sinal também serve ao controle: recorrências em denúncias ou reclamações sobre um mesmo programa, unidade ou fornecedor são um insumo legítimo para o planejamento de auditorias baseado em risco.
+
+Do sinal à solução, a pergunta muda de quantos reclamaram para por que acontece. A solução individual responde a cada manifestante. A solução coletiva muda o processo para que o problema deixe de ocorrer. E a verificação mostra se funcionou: a recorrência daquele assunto caiu, em taxa, depois da mudança? A reiteração dos mesmos manifestantes diminuiu?
+
+Exemplo prático. A ouvidoria de uma autarquia percebe que as reclamações sobre indeferimento de um auxílio triplicaram em dois meses. A taxa por mil pedidos também triplicou, o que afasta a hipótese de simples aumento de demanda. A série mostra que a alta começou no mês em que entrou em operação uma nova versão do formulário digital. A leitura dos textos revela o mecanismo: o campo de renda passou a exigir valor mensal, mas muitos usuários informam valor anual, e o sistema indefere automaticamente por renda acima do limite. A ouvidoria leva o relatório à área gestora e ao comitê de governança de serviços. A solução coletiva é corrigir o campo e reprocessar os pedidos afetados; a individual, responder a cada manifestante com o caminho para a revisão.
+
+Pegadinhas do bloco dois.
+
+"A unidade com o maior número absoluto de reclamações é a que presta o pior serviço." Errado. É preciso comparar taxas, com a base de atendimentos ou usuários, e considerar diferenças de acesso ao canal.
+
+"Recorrência em manifestações comprova a existência de irregularidade." Errado. Ela é sinal que orienta a análise da causa, e não conclusão; a confirmação depende de verificação.
+
+"A solução de cada manifestação individual dispensa a análise das recorrências." Errado. A Portaria Normativa cento e dezesseis inclui entre as diretrizes a produção de soluções coletivas a partir dos problemas individuais recorrentes.
+
+"Um aumento de reclamações logo após uma campanha de divulgação da ouvidoria indica piora do serviço." Errado. O aumento pode refletir maior acesso ao canal; a leitura exige considerar mudanças na forma de registro.
+
+"Para identificar recorrências, basta contar as manifestações por tipo." Errado. São necessários classificação consistente de assuntos, comparação por taxa, análise temporal e leitura do conteúdo.
+
+
+BLOCO TRÊS: SUBNOTIFICAÇÃO
+
+A distinção entre baixa ocorrência e baixa detecção e os sinais de detecção fraca foram vistos no item dois ponto um ponto cinco. Aqui entram a subnotificação como fenômeno próprio: o que a causa, quem ela atinge mais, como estimá-la e como reduzi-la.
+
+Subnotificação é a diferença entre o que acontece e o que chega aos registros. Ela existe em quase todos os registros públicos: em reclamações sobre serviços, em denúncias de irregularidades, em casos de assédio, em crimes, em doenças. Na criminologia, essa parte que nunca aparece é chamada de cifra oculta. O ponto central é que os registros de ouvidoria medem a decisão de relatar, e não diretamente o problema.
+
+Para relatar, uma pessoa precisa passar por várias etapas: perceber que houve um problema; reconhecer que aquilo é inadequado, e não normal; saber que existe um canal; conseguir usá-lo; achar que vale a pena; e não ter medo das consequências. Cada etapa é um filtro, e as causas da subnotificação se encaixam nelas.
+
+Na percepção, a pessoa nem sabe que foi prejudicada, como o beneficiário que recebe valor menor que o devido sem perceber. Na normalização, o problema é tão antigo que deixa de parecer problema, como a fila que sempre existiu ou a cobrança informal que todos pagam. No conhecimento do canal, a ouvidoria não é conhecida ou é confundida com o atendimento comum. No acesso, as barreiras do bloco um impedem o registro. Na expectativa de resultado, a experiência anterior de não receber resposta ensina que reclamar não adianta. E no medo, a pessoa depende de quem seria denunciado, como o servidor em relação à chefia, o terceirizado em relação ao preposto ou o beneficiário em relação ao agente que concede o benefício.
+
+Por isso a subnotificação não é uniforme. Ela tende a ser maior entre pessoas com menos acesso e mais dependência: grupos vulneráveis, pessoas digitalmente excluídas, trabalhadores com vínculo precário, vítimas de assédio e discriminação. A consequência é grave: os registros sub-representam justamente quem mais sofre os problemas, e decisões tomadas só com base neles tendem a deslocar foco e recursos para quem já tem voz.
+
+Estimar a subnotificação exige olhar para fora do registro. Pesquisas de vitimização ou de experiência perguntam a uma amostra da população se o problema aconteceu e se foi relatado; a diferença entre as duas respostas é a estimativa mais direta. Pesquisas de clima e de percepção, dentro das organizações, fazem o mesmo para assédio e irregularidades. Cruzamentos com bases administrativas revelam fatos que ninguém relatou, como pagamentos a pessoas falecidas. Verificações ativas, como visitas, testes de atendimento e auditorias, medem o problema diretamente. E comparações entre unidades semelhantes mostram silêncios suspeitos.
+
+Reduzir a subnotificação é reduzir o custo e o risco de relatar e aumentar o seu retorno. Divulgar o canal onde o problema acontece, como nas agências, nos formulários e nos contracheques. Simplificar o registro e oferecer vários meios. Proteger a identidade e prevenir retaliação, como visto no item dois ponto dois ponto três. Dar devolutiva: responder bem e mostrar publicamente o que mudou por causa das manifestações; o Decreto nove mil quatrocentos e noventa e dois prevê a divulgação de indicadores das ouvidorias em transparência ativa, em painel mantido pela cê gê u. E ir até as pessoas, com ouvidoria ativa e pesquisas por amostra, em vez de esperar que elas venham.
+
+Um efeito paradoxal precisa ser entendido. Quando uma organização melhora o canal, os registros sobem. O aumento pode ser sinal de sucesso da política, porque mostra que a subnotificação caiu, e não de piora do problema. Quem lê os números sem saber disso pode punir a unidade que passou a escutar melhor e premiar a que continua em silêncio. A leitura correta compara os registros com outra fonte, como uma pesquisa, antes de concluir.
+
+Exemplo prático. Uma empresa contratada para serviços de limpeza em vários prédios de um ministério não tem nenhuma reclamação registrada sobre atraso de salários dos terceirizados. Uma pesquisa anônima, aplicada pela ouvidoria nos próprios prédios, com apoio presencial, mostra que mais da metade dos trabalhadores teve salário atrasado no último ano, e que quase nenhum sabia que podia se manifestar na ouvidoria do ministério, ou tinha medo de ser desligado pela empresa. O silêncio era subnotificação. A ouvidoria passa a divulgar o canal nos postos de trabalho, reforça a proteção da identidade e informa os fiscais do contrato, que passam a verificar mensalmente os comprovantes de pagamento.
+
+Pegadinhas do bloco três.
+
+"Registros de ouvidoria medem diretamente a ocorrência dos problemas nos serviços." Errado. Eles medem os problemas que foram percebidos e relatados; a diferença entre ocorrência e registro é a subnotificação.
+
+"A subnotificação afeta igualmente todos os grupos de usuários." Errado. Ela tende a ser maior entre pessoas com menos acesso, mais dependência e mais medo, que ficam sub-representadas nos registros.
+
+"O aumento de registros depois da melhoria de um canal demonstra que o problema se agravou." Errado. Pode indicar redução da subnotificação; a conclusão exige comparação com outra fonte.
+
+"A subnotificação só pode ser estimada pelos próprios registros de ouvidoria." Errado. A estimativa exige fontes externas ao registro, como pesquisas de experiência, cruzamentos de bases e verificações ativas.
+
+"Garantir anonimato é suficiente para eliminar a subnotificação." Errado. Proteção reduz o medo, mas a subnotificação também decorre de desconhecimento do canal, normalização, barreiras de acesso e descrença no retorno.
+
+
+BLOCO QUATRO: TRANSPARÊNCIA ATIVA, DADOS ABERTOS E PORTAL DA TRANSPARÊNCIA COMO MEIOS DE ACESSO E CONTROLE
+
+O rol mínimo de transparência ativa da Lei de Acesso à Informação foi visto no item dois ponto dois ponto um, e a definição de dados abertos do Decreto oito mil setecentos e setenta e sete, de dois mil e dezesseis, com os requisitos técnicos e a interface de dados do Portal da Transparência, no três ponto dois ponto quatro. Aqui entram a política de dados abertos como instrumento de gestão, o Portal da Transparência como meio de controle e as dimensões de qualidade e os limites da informação publicada.
+
+Transparência ativa, dados abertos e portal são três camadas da mesma ideia. A transparência ativa é o dever de publicar sem pedido. Os dados abertos são a forma de publicar que permite reutilizar: bases inteiras, em formato aberto, processáveis por máquina e com licença livre. E o portal é a vitrine que organiza essas informações para consulta. Um cidadão consulta o portal; um jornalista, um pesquisador ou um auditor baixa os dados abertos e faz as próprias análises. Para o controle social, essa segunda camada é decisiva: quem só vê telas depende das perguntas que o órgão escolheu responder.
+
+A política de dados abertos do Executivo federal, do Decreto oito mil setecentos e setenta e sete, tem entre seus princípios a publicidade como regra, o acesso irrestrito em formato aberto, a descrição das bases com informação suficiente sobre qualidade e integridade, a permissão irrestrita de reuso, a publicação na forma primária e com a maior granularidade possível, a atualização periódica e a designação clara de responsável pela publicação, atualização e manutenção de cada base. O instrumento de cada órgão é o Plano de Dados Abertos, com inventário e catálogo das bases, critérios de priorização, cronograma, responsabilidades e mecanismos de engajamento dos cidadãos. A autoridade de monitoramento da Lei de Acesso à Informação, de cada órgão, responde pela publicação e atualização do plano.
+
+Duas regras do decreto são muito cobradas. O artigo oitavo diz que as bases que não contenham informações protegidas por sigilo, informação pessoal ou documento preparatório são automaticamente passíveis de abertura, e que, nas bases parcialmente protegidas, a regra vale para a parte não protegida. E o artigo sexto manda aplicar aos pedidos de abertura de bases os prazos e procedimentos da Lei de Acesso à Informação; se o órgão negar alegando custos adicionais desproporcionais, deve quantificar esses custos e analisar a viabilidade de incluir a base em futura edição do plano.
+
+O Portal da Transparência do Governo Federal é mantido pela cê gê u desde dois mil e quatro. Ele reúne, em consulta e em dados abertos, informações sobre despesas e receitas federais, transferências a estados, municípios e entidades, benefícios sociais pagos a cidadãos, servidores e suas remunerações, viagens a serviço, cartões de pagamento do governo, licitações e contratos, emendas parlamentares e cadastros de sanções a empresas e pessoas. Os dados vêm dos sistemas que os órgãos usam para executar o orçamento e gerir pessoal e benefícios.
+
+O portal federal é uma face de uma obrigação mais ampla, da Lei de Responsabilidade Fiscal. O artigo quarenta e oito, parágrafo primeiro, inciso dois, incluído pela Lei Complementar cento e trinta e um, de dois mil e nove, exige a liberação ao pleno conhecimento e acompanhamento da sociedade, em tempo real, de informações pormenorizadas sobre a execução orçamentária e financeira, em meios eletrônicos de acesso público. O artigo quarenta e oito A detalha: na despesa, todos os atos praticados pelas unidades gestoras no momento de sua realização, com o número do processo, o bem fornecido ou o serviço prestado, a pessoa beneficiária do pagamento e, quando for o caso, o procedimento licitatório; na receita, o lançamento e o recebimento de toda a receita. E o artigo setenta e três C sujeita o ente que descumprir esses deveres à vedação de receber transferências voluntárias. Uma alteração recente: a Lei Complementar duzentos e vinte e quatro, de dois mil e vinte e cinco, incluiu o inciso quatro nesse parágrafo, para exigir a divulgação, em portal de transparência, em formato aberto e padronizado, dos benefícios tributários, financeiros e creditícios concedidos. Não confirmei a data a partir da qual esse inciso produz efeitos.
+
+Como meio de controle, a informação publicada serve a três tipos de uso. O cidadão verifica um fato concreto: se a obra da sua rua foi paga, quanto recebe um cargo, se uma empresa tem sanções. O jornalista e a organização da sociedade civil analisam padrões: concentração de contratos, gastos atípicos, beneficiários improváveis. E o próprio controle usa os dados em trilhas de auditoria e cruzamentos.
+
+Mas a informação publicada tem dimensões de qualidade, e quem a usa precisa avaliá-las. Exatidão: o dado corresponde ao fato? Um registro errado no sistema de origem aparece errado no portal, porque o portal não corrige, só reproduz. Atualização: com que defasagem o dado é publicado, e o que significa tempo real para cada base? Uma base de despesas pode ser atualizada diariamente, e uma de remunerações, mensalmente. Cobertura: o que está e o que não está na base? Completude: os campos estão preenchidos? Consistência: os mesmos fatos batem entre bases diferentes? E documentação: há dicionário de dados que explique cada campo, cada código e cada mudança de metodologia?
+
+Os limites da informação também precisam ser conhecidos. O primeiro é de cobertura federativa: o portal federal mostra o que a União gastou e transferiu, mas o uso dos recursos transferidos por um município aparece, em regra, nos sistemas e portais do próprio município ou nas plataformas específicas de transferências. O segundo é de fase da despesa: empenho, liquidação e pagamento são etapas diferentes, e um valor empenhado não significa serviço prestado nem dinheiro pago. O terceiro é de natureza do dado: o portal registra atos formais, e não a realidade física; um pagamento registrado não prova que a obra existe. O quarto é de restrições legais: informações classificadas, sigilos legais e dados pessoais protegidos ficam de fora ou aparecem tratados, como números de documento parcialmente mascarados. E o quinto é de interpretação: um gasto alto não é, por si só, irregular, e comparações sem contexto levam a conclusões erradas.
+
+Por isso a transparência é meio, e não fim. Ela permite o controle quando os dados são de qualidade, quando os limites estão documentados e quando há quem os leia com método. Uma informação publicada mas incompreensível, desatualizada ou sem cobertura cumpre a letra do dever e falha na finalidade.
+
+Exemplo prático. Uma organização da sociedade civil usa os dados abertos de transferências e conclui que um município recebeu dez milhões para construir creches, mas que nenhuma creche foi inaugurada. Antes de levar o caso adiante, um auditor que analisa a denúncia verifica os limites da informação. Os dados mostram valores empenhados, e só uma parte foi efetivamente paga. A execução física das obras não está no portal federal. E dois dos instrumentos tiveram o objeto alterado. A análise passa então à plataforma de transferências e aos documentos de execução, e a visita às obras confirma que uma delas foi paga e está parada. O dado aberto foi o ponto de partida; a conclusão exigiu outras fontes.
+
+Pegadinhas do bloco quatro.
+
+"Publicar relatórios em telas de consulta no portal do órgão atende à política de dados abertos." Errado. Dados abertos exigem bases em formato aberto, processáveis por máquina e com licença livre, na forma primária e com a maior granularidade possível.
+
+"Base de dados sem informação sigilosa ou pessoal só é aberta se houver pedido do cidadão." Errado. O artigo oitavo do Decreto oito mil setecentos e setenta e sete a considera automaticamente passível de abertura.
+
+"O órgão pode negar a abertura de uma base alegando custos desproporcionais, sem outra providência." Errado. Deve quantificar os custos e analisar a viabilidade de incluir a base em futura edição do Plano de Dados Abertos.
+
+"O valor empenhado divulgado no portal comprova que o serviço foi prestado." Errado. Empenho, liquidação e pagamento são fases distintas, e o portal registra atos formais, não a execução física.
+
+"O Portal da Transparência do Governo Federal mostra a aplicação, pelos municípios, de todos os recursos que receberam da União." Errado. O portal mostra o que a União transferiu; a aplicação pelo ente aparece, em regra, em seus próprios sistemas e portais ou em plataformas específicas.
+
+"Por reproduzir os sistemas oficiais, o portal garante a exatidão dos dados." Errado. Erros do sistema de origem aparecem no portal; quem usa os dados deve avaliar exatidão, atualização, cobertura e consistência.
+
+
+BLOCO CINCO: PAPEL DA CONTROLADORIA-GERAL DA UNIÃO NA ORIENTAÇÃO E NO MONITORAMENTO DA TRANSPARÊNCIA
+
+As competências recursais da cê gê u na Lei de Acesso à Informação e seus enunciados foram vistos nos itens dois ponto dois ponto um e dois ponto dois ponto dois; o Sistema de Integridade, Transparência e Acesso à Informação, no dois ponto um ponto três; e a coordenação das ouvidorias federais, no dois ponto dois ponto três. Aqui entra a visão de conjunto: para que a Controladoria atua na transparência, com quais instrumentos e até onde vai essa atuação.
+
+A base legal da competência está na Lei catorze mil seiscentos, de dois mil e vinte e três, que organiza os ministérios. O artigo quarenta e nove lista as áreas de competência da cê gê u, entre elas a ouvidoria e o incremento da transparência, dos dados abertos e do acesso à informação. E o parágrafo primeiro inclui expressamente a competência de monitorar o cumprimento da Lei de Acesso à Informação no âmbito do Poder Executivo federal.
+
+A Lei de Acesso à Informação, no artigo quarenta e um, manda o Executivo federal designar um órgão responsável por quatro tarefas: promover campanha de abrangência nacional de fomento à cultura da transparência; promover o treinamento de agentes públicos; monitorar a aplicação da lei e concentrar as estatísticas de pedidos e de classificações; e encaminhar ao Congresso Nacional relatório anual sobre a implementação da lei. A lei não nomeia o órgão; o Decreto sete mil setecentos e vinte e quatro atribui essas funções à cê gê u, que também, desde dois mil e vinte e três, normatiza por enunciados vinculantes, como visto no item dois ponto dois ponto um.
+
+A finalidade institucional dessa atuação pode ser resumida em quatro verbos. Orientar: produzir guias, enunciados, capacitações e respostas a consultas, para que cada órgão saiba como cumprir a lei. Monitorar: acompanhar prazos, qualidade das respostas, classificações, transparência ativa e planos de dados abertos, e apontar falhas. Induzir: criar incentivos e apoio para que órgãos e entes avancem além do mínimo. E prover meios: manter as plataformas comuns que tornam o cumprimento possível, como o sistema de pedidos e manifestações e o Portal da Transparência.
+
+Na política de dados abertos, o papel é expresso no Decreto oito mil setecentos e setenta e sete. Desde o Decreto nove mil novecentos e três, de dois mil e dezenove, a gestão da política é coordenada pela cê gê u, por meio da Infraestrutura Nacional de Dados Abertos, que tem governança multiparticipativa; os aspectos tecnológicos ficaram com o ministério da área de gestão. A cê gê u publica o cronograma de elaboração dos planos de dados abertos dos órgãos e, pelo artigo dez, monitora a aplicação do decreto e o cumprimento dos prazos e procedimentos.
+
+Na relação com estados e municípios, a atuação é de outra natureza, porque não há hierarquia entre a União e os demais entes, e cada Poder e cada ente regulamenta a lei no seu âmbito. A cê gê u avalia e induz. A Escala Brasil Transparente, metodologia da cê gê u para medir a transparência de estados e municípios, começou avaliando a transparência passiva e evoluiu para a versão trezentos e sessenta graus, que avalia também a transparência ativa, como a publicação de receitas, despesas, licitações, contratos, obras e servidores. Há também programas de apoio técnico a entes que querem melhorar sua transparência, e, desde dois mil e vinte e dois, a cooperação com a associação dos tribunais de contas no Programa Nacional de Transparência Pública, que avalia portais nos três níveis da federação.
+
+No plano internacional e do governo aberto, a cê gê u coordena a participação brasileira na Parceria para Governo Aberto, iniciativa internacional da qual o Brasil é fundador, e os planos de ação nacionais construídos com a sociedade civil. No plano interno, a política nacional de governo aberto foi instituída pelo Decreto dez mil cento e sessenta, de dois mil e dezenove, com um comitê interministerial coordenado pela cê gê u; não reli esse decreto nesta preparação.
+
+Três limites completam o quadro. Primeiro: a responsabilidade pelo cumprimento continua sendo de cada órgão. A autoridade de monitoramento do artigo quarenta da Lei de Acesso à Informação, designada pelo dirigente máximo de cada órgão, deve assegurar o cumprimento da lei, monitorar sua implementação, recomendar medidas e orientar as unidades. A cê gê u monitora o sistema; não responde os pedidos de cada ministério. Segundo: o monitoramento não é sanção. Quando encontra falha, a cê gê u orienta, recomenda e, nos recursos, determina providências; a responsabilização de quem descumpre a lei segue as vias próprias, como as disciplinares. Terceiro: fora do Executivo federal, a atuação da cê gê u é de avaliação, apoio e cooperação, e não de controle hierárquico.
+
+Exemplo prático. Na avaliação anual, a cê gê u identifica que uma autarquia federal tem um Plano de Dados Abertos vencido, bases prometidas que nunca foram publicadas e respostas a pedidos de acesso que se limitam a indicar um link genérico. A cê gê u notifica a autarquia, recomenda a revisão do plano e o cumprimento do cronograma, e oferece capacitação à equipe do serviço de informação. A autoridade de monitoramento da autarquia apresenta um plano de ação com prazos, e a cê gê u acompanha a execução. Nos recursos em que a resposta por link genérico não atendeu ao pedido, a cê gê u dá provimento e determina a entrega da informação.
+
+Pegadinhas do bloco cinco.
+
+"A Lei de Acesso à Informação nomeia expressamente a Controladoria-Geral da União como órgão responsável pela campanha nacional de transparência e pelo relatório anual ao Congresso." Errado. O artigo quarenta e um manda o Executivo federal designar um órgão; a atribuição à cê gê u vem do regulamento.
+
+"A cê gê u é responsável por responder aos pedidos de acesso dirigidos aos ministérios." Errado. Cada órgão responde aos seus pedidos, e sua autoridade de monitoramento assegura o cumprimento da lei; a cê gê u orienta, monitora e julga recursos.
+
+"A gestão da Política de Dados Abertos do Executivo federal é coordenada pelo ministério da área de planejamento." Errado. Desde o Decreto nove mil novecentos e três, de dois mil e dezenove, a coordenação é da cê gê u, por meio da Infraestrutura Nacional de Dados Abertos.
+
+"A Escala Brasil Transparente permite à cê gê u aplicar sanções a municípios que descumprem a Lei de Acesso à Informação." Errado. É metodologia de avaliação e indução; não há hierarquia entre a União e os demais entes.
+
+"A Escala Brasil Transparente, em sua versão atual, avalia apenas a transparência passiva." Errado. A versão trezentos e sessenta graus avalia a transparência ativa e a passiva.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Participação: controle social complementa os controles institucionais; consulta e audiência da Lei nove mil setecentos e oitenta e quatro são facultativas e consultivas, com resposta fundamentada e resultados apresentados; nas agências, consulta obrigatória de quarenta e cinco dias, contribuições em dez dias úteis e posicionamento em trinta dias úteis.
+
+Representatividade e barreiras: volume não é representatividade; autosseleção, captura e participação simbólica; barreiras informacionais, de linguagem, digitais, territoriais, temporais, de acessibilidade e de confiança; respostas com vários canais, ouvidoria ativa, amostras e devolutiva.
+
+Recorrências: reiteração, repetição entre pessoas e concentração; classificação consistente, taxa, série temporal e leitura do texto; sinal para análise, não conclusão; solução coletiva e verificação.
+
+Subnotificação: registro mede a decisão de relatar; filtros de percepção, normalização, conhecimento, acesso, expectativa e medo; maior entre os mais vulneráveis; estimativa por fontes externas; aumento de registros pode ser sucesso.
+
+Dados abertos e portal: abertura automática de bases sem proteção; negativa por custo exige quantificação; portal mantido pela cê gê u desde dois mil e quatro; tempo real na Lei de Responsabilidade Fiscal; benefícios tributários pela Lei Complementar duzentos e vinte e quatro, de dois mil e vinte e cinco.
+
+Qualidade e limites: exatidão, atualização, cobertura, completude, consistência e documentação; cobertura federativa, fases da despesa, ato formal versus realidade, restrições legais e interpretação.
+
+Controladoria-Geral da União: competência na Lei catorze mil seiscentos; funções do artigo quarenta e um atribuídas pelo regulamento; orientar, monitorar, induzir e prover meios; coordenação da política de dados abertos; Escala Brasil Transparente trezentos e sessenta graus; cada órgão continua responsável.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Conforme a Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, o comparecimento à consulta pública não confere, por si só, a condição de interessado no processo, mas confere o direito de obter da administração resposta fundamentada, que poderá ser comum a todas as alegações substancialmente iguais.
+
+Gabarito: certo. Artigo trinta e um, parágrafo segundo.
+
+Item dois. As agências reguladoras podem decidir sobre minutas de atos normativos de interesse geral dos usuários sem consulta pública, desde que realizem audiência pública.
+
+Gabarito: errado. O artigo nono da Lei treze mil oitocentos e quarenta e oito exige consulta pública prévia, com prazo mínimo de quarenta e cinco dias, salvo exceções motivadas.
+
+Item três. Uma audiência pública sobre a reforma de um equipamento de saúde contou com grande presença de representantes de uma única associação de prestadores. O número de participantes, por si só, assegura a representatividade da escuta da população afetada.
+
+Gabarito: errado. Volume não é representatividade; a autosseleção pode concentrar a participação em grupos organizados.
+
+Item quatro. A avaliação continuada dos serviços públicos pode ser feita por pesquisa de satisfação ou por qualquer outro meio que garanta significância estatística aos resultados.
+
+Gabarito: certo. Artigo vinte e quatro da Lei treze mil quatrocentos e sessenta.
+
+Item cinco. A comparação entre unidades quanto às reclamações recebidas deve considerar a taxa de reclamações em relação ao volume de atendimentos, e não apenas os números absolutos.
+
+Gabarito: certo. A taxa corrige diferenças de porte, e o número absoluto pode refletir apenas maior volume de atendimentos.
+
+Item seis. Recorrência de manifestações sobre o mesmo assunto em várias unidades indica, com segurança, irregularidade praticada pelos agentes dessas unidades.
+
+Gabarito: errado. Recorrência é sinal que orienta a análise; costuma indicar falha de processo, e qualquer conclusão depende de verificação.
+
+Item sete. Depois que a ouvidoria passou a atender presencialmente nos locais de trabalho dos terceirizados, as manifestações desse público dobraram. O aumento pode indicar redução da subnotificação, e não necessariamente agravamento dos problemas.
+
+Gabarito: certo. Melhorar o canal reduz a subnotificação e eleva os registros; a conclusão exige comparação com outra fonte.
+
+Item oito. A ausência de reclamações em determinado serviço demonstra a satisfação de seus usuários.
+
+Gabarito: errado. Pode haver subnotificação por desconhecimento do canal, barreiras, normalização, descrença ou medo.
+
+Item nove. Pelo Decreto oito mil setecentos e setenta e sete, de dois mil e dezesseis, as bases de dados que não contenham informações protegidas são automaticamente passíveis de abertura.
+
+Gabarito: certo. Artigo oitavo.
+
+Item dez. Pela Lei de Responsabilidade Fiscal, as informações pormenorizadas sobre a execução orçamentária e financeira devem ser divulgadas até o fim do mês seguinte ao da realização da despesa.
+
+Gabarito: errado. A divulgação é em tempo real, com os atos registrados no momento de sua realização, conforme o artigo quarenta e oito, parágrafo primeiro, inciso dois, e o artigo quarenta e oito A.
+
+Item onze. Compete à Controladoria-Geral da União coordenar a gestão da Política de Dados Abertos do Poder Executivo federal, por meio da Infraestrutura Nacional de Dados Abertos, e monitorar a aplicação do decreto que a institui.
+
+Gabarito: certo. Artigos quinto e dez do Decreto oito mil setecentos e setenta e sete, com redação dada em dois mil e dezenove.
+
+Item doze. Constatada falha na transparência ativa de um município, a Controladoria-Geral da União, como órgão central de transparência, pode aplicar-lhe sanção administrativa.
+
+Gabarito: errado. A atuação junto a estados e municípios é de avaliação, apoio e indução, sem hierarquia entre os entes.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto dois ponto cinco, integridade da informação e comunicação.
