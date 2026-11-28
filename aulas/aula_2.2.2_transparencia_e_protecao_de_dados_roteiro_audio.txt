@@ -1,0 +1,179 @@
+AUDIOAULA. ITEM DOIS PONTO DOIS PONTO DOIS DO EDITAL: TRANSPARÊNCIA E PROTEÇÃO DE DADOS
+
+
+ABERTURA
+
+Este é o item dois ponto dois ponto dois, transparência e proteção de dados. Ele tem dois subitens, um por bloco: a compatibilização entre acesso à informação e proteção de dados pessoais, com finalidade, necessidade e salvaguardas; e a diferença entre dados pessoais e dados pessoais sensíveis, com noções de tarjamento, anonimização e risco de reidentificação. A banca costuma cobrar a ideia de que a Lei Geral de Proteção de Dados Pessoais não criou nova hipótese de sigilo, a vedação de negar acesso de forma genérica por haver dados pessoais no documento, o rol de dados sensíveis e a diferença entre tarjar, pseudonimizar e anonimizar.
+
+
+BLOCO UM: COMPATIBILIZAÇÃO ENTRE ACESSO À INFORMAÇÃO E PROTEÇÃO DE DADOS PESSOAIS
+
+As quatro categorias de restrição da Lei de Acesso à Informação, entre elas a informação pessoal do artigo trinta e um, foram vistas no item dois ponto dois ponto um; os princípios da Lei Geral de Proteção de Dados Pessoais, nos itens um ponto três ponto dois e três ponto três ponto quatro; e o tratamento e o uso compartilhado de dados pelo poder público, no um ponto quatro ponto cinco. Aqui entram a relação entre as duas leis, o roteiro de análise de um pedido que envolve dados pessoais e a aplicação de finalidade, necessidade e salvaguardas à divulgação.
+
+São dois direitos fundamentais. O acesso à informação está no artigo quinto, inciso trinta e três, da Constituição. A proteção de dados pessoais foi incluída pela Emenda Constitucional cento e quinze, de dois mil e vinte e dois, no inciso setenta e nove do mesmo artigo: é assegurado, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais. A mesma emenda deu à União a competência para organizar e fiscalizar a proteção e o tratamento de dados pessoais e a competência privativa para legislar sobre o tema. Nenhum dos dois direitos é absoluto, e nenhum anula o outro: a tarefa de quem responde a um pedido é harmonizá-los no caso concreto.
+
+A Lei Geral de Proteção de Dados Pessoais, a Lei treze mil setecentos e nove, de dois mil e dezoito, protege os direitos fundamentais de liberdade e de privacidade e o livre desenvolvimento da personalidade. Ela regula o tratamento de dados pessoais, e não o acesso a informações públicas. A consequência mais cobrada é esta: a lei de proteção de dados não criou nova hipótese de sigilo nem de restrição de acesso. As hipóteses de restrição continuam sendo as da Lei de Acesso à Informação, e, para informações pessoais, a restrição recai sobre o que diz respeito à intimidade, à vida privada, à honra e à imagem.
+
+A própria lei de proteção de dados faz a ponte. O artigo vinte e três define o poder público por remissão às pessoas jurídicas do parágrafo único do artigo primeiro da Lei de Acesso à Informação. O parágrafo segundo desse artigo diz que a lei de proteção de dados não dispensa essas pessoas jurídicas de instituir as autoridades previstas na Lei de Acesso à Informação. E o parágrafo terceiro manda que os prazos e procedimentos para o exercício dos direitos do titular perante o poder público observem a legislação específica, em especial a lei do hábeas data, a lei de processo administrativo federal e a Lei de Acesso à Informação.
+
+A cê gê u consolidou essa leitura em dois enunciados. O Enunciado cê gê u número quatro, de dois mil e vinte e dois, diz que, nos pedidos de acesso e nos recursos, as decisões sobre a publicidade de dados de pessoas naturais devem ser fundamentadas nos artigos terceiro e trinta e um da Lei de Acesso à Informação. Os motivos: a Lei de Acesso à Informação, por ser mais específica, é a norma de regência processual e material desse tipo de processo; e ela, a Lei do Governo Digital e a lei de proteção de dados são sistematicamente compatíveis, harmonizam os direitos de acesso, de intimidade e de proteção de dados e não têm antinomia entre si. O Enunciado cê gê u número doze, de dois mil e vinte e três, diz que o fundamento informações pessoais não pode ser usado de forma geral e abstrata para negar acesso a documentos ou processos que contenham dados pessoais, porque esses dados podem ser tratados, isto é, tarjados, excluídos, omitidos ou descaracterizados, para que o restante seja fornecido. E acrescenta que a proteção de dados pode ser flexibilizada quando, no caso concreto, a proteção do interesse público geral e preponderante se impuser, nos termos do artigo trinta e um, parágrafo terceiro, inciso cinco, da Lei de Acesso à Informação.
+
+Nos enunciados, a cê gê u aplica isso a situações recorrentes, todas de dois mil e vinte e três. Currículos de agentes públicos, com títulos e experiência, são de acesso público, porque servem para avaliar a aptidão para cargos e funções. Documentos de candidatos aprovados em seleções públicas, inclusive provas orais, são acessíveis, ressalvadas as informações pessoais sensíveis. Valores de benefícios pagos e identificação de beneficiários de programas sociais são públicos, sem incidência de sigilo bancário nem de argumentos de proteção de dados, ressalvados os casos em que a identificação puder expor informação pessoal sensível. E registros de entrada e saída de prédios públicos são acessíveis, salvo agenda classificada ou sob restrição temporária.
+
+Disso sai um roteiro de análise, usado pela própria cê gê u em capacitações. Primeira pergunta: a informação identifica uma pessoa natural, ou permite identificá-la? Se não, não há o que proteger por esse fundamento. Segunda pergunta: a informação diz respeito à intimidade, à vida privada, à honra ou à imagem dessa pessoa? Se não, ela não tem acesso restrito pelo artigo trinta e um, mesmo sendo um dado pessoal. Terceira pergunta, se a resposta anterior foi sim: há previsão legal, consentimento expresso ou uma das hipóteses do parágrafo terceiro do artigo trinta e um, como o interesse público e geral preponderante, que autorize a divulgação? Quarta: o que não puder ser divulgado pode ser separado do restante? Se puder, entrega-se o restante, com a ocultação fundamentada.
+
+Um exemplo da aplicação desse roteiro vem de um recurso julgado pela cê gê u. Um órgão negou o acesso às gravações de reuniões administrativas de uma comissão, porque os participantes não tinham consentido com a divulgação. A cê gê u deu provimento: reuniões de agentes públicos, nessa qualidade, não tratam de intimidade nem de vida privada, e o acesso a informações públicas não depende da concordância de quem participou do ato. Mandou, porém, tratar os trechos sobre os quais incidisse alguma proteção legal.
+
+Há um ponto que costuma passar despercebido: atender a um pedido de acesso também é tratamento de dados. O artigo quinto, inciso dez, da lei de proteção de dados inclui no conceito de tratamento o acesso, a comunicação, a transferência e a difusão. Por isso a divulgação precisa de base legal. Para o órgão público, ela é, em regra, o cumprimento de obrigação legal, do artigo sétimo, inciso dois, e o dever de transparência imposto pela Lei de Acesso à Informação. A lei de proteção de dados, então, não decide se a informação sai; ela orienta como sai, com respeito aos princípios.
+
+É aqui que entram finalidade, necessidade e salvaguardas, aplicadas à divulgação. A finalidade da transparência é permitir o controle social e o exercício de direitos. Ela define quais dados importam: para saber quem ocupa um cargo e quanto recebe, importam nome, cargo, lotação e remuneração; não importam o endereço residencial nem o número completo do documento de identidade. A necessidade, do artigo sexto, inciso três, limita a divulgação ao mínimo pertinente e proporcional àquela finalidade: se o propósito é atendido sem um dado, o dado não precisa sair. E as salvaguardas são as medidas que permitem entregar a informação sem expor o que não deve ser exposto.
+
+As salvaguardas estão espalhadas nas duas leis e no regulamento. A primeira é o acesso parcial, com ocultação, visto no item anterior. A segunda é a exigência, no Decreto sete mil setecentos e vinte e quatro, artigo sessenta, de comprovação de identidade de quem pede informações pessoais sobre si e, quando o pedido é de terceiro, de procuração, consentimento ou demonstração de uma das hipóteses que autorizam o acesso. A terceira é o termo de responsabilidade, do artigo sessenta e um do decreto, que vincula o terceiro à finalidade declarada e o responsabiliza pelo uso indevido. A quarta é a responsabilidade de quem obtém acesso, prevista no artigo trinta e um, parágrafo segundo, da lei. E a quinta são as medidas de segurança do artigo quarenta e seis da lei de proteção de dados, que valem para o órgão ao preparar e enviar a resposta, como enviar ao destinatário certo e não deixar dados ocultos no arquivo.
+
+Repare em uma diferença de lógica. Na informação pública, a lei veda perguntar o motivo do pedido. Na informação pessoal restrita pedida por terceiro, a lógica se inverte: o terceiro precisa demonstrar a hipótese que o autoriza, e o acesso fica vinculado à finalidade declarada. O artigo trinta e um, parágrafo quarto, e o artigo cinquenta e oito do decreto, vistos no item anterior, completam o quadro: a restrição não pode ser invocada para prejudicar apuração de irregularidade em que o titular esteja envolvido, nem para impedir a recuperação de fatos históricos relevantes, nem quando bastar ocultar, anonimizar ou pseudonimizar.
+
+E o titular? Para ele, a informação pessoal não é restrita: o artigo trinta e um, parágrafo primeiro, inciso um, garante o acesso à pessoa a que ela se refere. Em caso de morte ou ausência, os direitos passam ao cônjuge ou companheiro, aos descendentes ou aos ascendentes, conforme o regulamento.
+
+A compatibilização também vale depois da divulgação. O artigo sétimo, parágrafo terceiro, da lei de proteção de dados diz que o tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização. E o parágrafo sétimo, incluído pela Lei treze mil oitocentos e cinquenta e três, de dois mil e dezenove, admite o tratamento posterior desses dados para novas finalidades, desde que observados propósitos legítimos e específicos, os direitos do titular e os princípios da lei. Dado publicado por transparência não vira dado livre: uma empresa que copia a lista de servidores do portal de transparência para montar um cadastro de venda de crédito consignado está usando o dado fora da finalidade que justificou sua publicação.
+
+Por fim, uma mudança institucional recente. A autoridade nacional de proteção de dados foi transformada em Agência Nacional de Proteção de Dados pela Lei quinze mil trezentos e cinquenta e dois, de vinte e cinco de fevereiro de dois mil e vinte e seis, resultado da conversão da Medida Provisória mil trezentos e dezessete, de dois mil e vinte e cinco. A sigla continua a mesma, á pê ene dê, e a entidade passou a ter natureza de autarquia especial. A lei de proteção de dados atribui a ela, em relação ao poder público, o poder de pedir informações sobre as operações de tratamento, de enviar informe com medidas para cessar violações e de solicitar a publicação de relatórios de impacto. O papel da cê gê u na orientação e no monitoramento da transparência é tema do item dois ponto dois ponto quatro.
+
+Exemplo prático. Um cidadão pede a relação dos empregados terceirizados que prestam serviço em uma autarquia, com nome, função, empresa e posto de trabalho. A área responsável nega tudo, alegando que a lei de proteção de dados impede a divulgação de nomes. A negativa é genérica e contraria os dois enunciados. Pelo roteiro: o nome identifica a pessoa, mas, associado a função, empresa e posto, não revela intimidade, vida privada, honra ou imagem; ele serve ao controle da execução do contrato, por exemplo para verificar se o posto pago está de fato ocupado. A resposta adequada entrega nome, função, empresa e posto, e oculta o que não serve a essa finalidade, como o número do documento de identidade, o endereço e o telefone pessoal, com a indicação do fundamento de cada ocultação.
+
+Pegadinhas do bloco um.
+
+"A Lei Geral de Proteção de Dados Pessoais criou nova hipótese de sigilo, que autoriza a negativa de acesso a qualquer documento que contenha dados pessoais." Errado. Ela não criou hipótese de sigilo; a restrição segue o artigo trinta e um da Lei de Acesso à Informação, e o Enunciado cê gê u número doze veda o uso genérico do fundamento informações pessoais.
+
+"Havendo conflito entre a Lei de Acesso à Informação e a lei de proteção de dados, prevalece esta, por ser posterior." Errado. O Enunciado cê gê u número quatro afirma que as leis são compatíveis, sem antinomia, e que a Lei de Acesso à Informação, por ser mais específica, rege o processamento dos pedidos de acesso.
+
+"Todo dado pessoal tem acesso restrito pelo prazo de cem anos." Errado. A restrição do artigo trinta e um, parágrafo primeiro, recai sobre as informações pessoais relativas à intimidade, à vida privada, à honra e à imagem.
+
+"A divulgação de gravação de reunião administrativa de agentes públicos depende do consentimento dos participantes." Errado. A atuação do agente público, nessa qualidade, não é intimidade nem vida privada, e o acesso não depende da concordância de quem participou, ressalvados trechos com proteção legal.
+
+"Como a Lei de Acesso à Informação veda exigir os motivos do pedido, o terceiro que pede informação pessoal restrita não precisa justificar o acesso." Errado. Nesse caso, o regulamento exige consentimento, procuração ou a demonstração de hipótese que autorize o acesso, além de termo de responsabilidade vinculado à finalidade.
+
+"Dados pessoais publicados em transparência ativa podem ser usados livremente para qualquer finalidade." Errado. O artigo sétimo, parágrafo terceiro, da lei de proteção de dados exige considerar a finalidade, a boa-fé e o interesse público que justificaram a disponibilização.
+
+"A identificação de beneficiários de programas sociais pagos por instituição financeira está protegida pelo sigilo bancário." Errado. O Enunciado cê gê u número dez, de dois mil e vinte e três, afirma que essas informações são públicas, ressalvados os casos em que a identificação expuser informação pessoal sensível.
+
+
+BLOCO DOIS: DADOS PESSOAIS E SENSÍVEIS, TARJAMENTO, ANONIMIZAÇÃO E REIDENTIFICAÇÃO
+
+As definições legais de anonimização e pseudonimização, a regra de que dado anonimizado não é dado pessoal, os quase identificadores e as técnicas e modelos de anonimização de bases foram vistos no item três ponto três ponto quatro. Aqui entram a distinção entre dado pessoal e dado sensível e seu efeito sobre a resposta, o tarjamento de documentos e o risco de reidentificação a partir de documentos e respostas.
+
+Dado pessoal, no artigo quinto, inciso um, da lei de proteção de dados, é a informação relacionada a pessoa natural identificada ou identificável. A Lei de Acesso à Informação usa a mesma definição para informação pessoal, no artigo quarto. Identificada é a pessoa já individualizada pelo dado, como pelo nome ou pelo número de inscrição no cadastro de pessoas físicas. Identificável é a que pode ser individualizada com meios razoáveis, combinando o dado com outros. Duas consequências: a lei não protege dados de pessoas jurídicas, e um dado sem nome pode ser pessoal, se permitir chegar à pessoa.
+
+Dado pessoal sensível, no inciso dois do mesmo artigo, é o dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, e dado genético ou biométrico, quando vinculado a uma pessoa natural. A razão da categoria é o potencial discriminatório: o uso indevido desses dados expõe a pessoa a exclusão, preconceito ou dano grave.
+
+Três cuidados de leitura. Primeiro: o dado de saúde é o dado sobre a saúde do titular, como diagnóstico, condição física ou mental, e não a informação de que alguém trabalha na área da saúde. A cê gê u reformou, em recurso, a decisão de um ministério que havia ocultado os nomes de profissionais de saúde lotados em distritos sanitários indígenas sob o argumento de que seriam dados sensíveis de saúde. Segundo: dado financeiro, como renda, patrimônio ou conta bancária, não está no rol de sensíveis, embora possa ter proteção própria, como o sigilo bancário, ou ser de alto risco. Terceiro: o parágrafo primeiro do artigo onze estende o regime dos sensíveis a qualquer tratamento que revele dados sensíveis e possa causar dano ao titular. Uma lista de servidores afastados por um código de doença, ou de frequentadores de um serviço religioso, revela dado sensível mesmo sem o nomear.
+
+O regime dos sensíveis é mais estreito. O artigo onze só admite o tratamento com consentimento específico e destacado, para finalidades específicas, ou, sem consentimento, quando indispensável para: cumprimento de obrigação legal ou regulatória; tratamento compartilhado necessário à execução, pela administração pública, de políticas públicas previstas em leis ou regulamentos; estudos por órgão de pesquisa, com anonimização sempre que possível; exercício regular de direitos, inclusive em contrato e em processo judicial, administrativo e arbitral; proteção da vida ou da incolumidade física; tutela da saúde, exclusivamente em procedimento realizado por profissionais de saúde, serviços de saúde ou autoridade sanitária; e prevenção à fraude e segurança do titular em processos de identificação e autenticação de cadastro em sistemas eletrônicos. Ficam de fora duas bases do artigo sétimo: o legítimo interesse e a proteção do crédito. E o parágrafo segundo do artigo onze manda os órgãos públicos dar publicidade à dispensa de consentimento nas duas primeiras hipóteses.
+
+Dados de crianças e adolescentes têm regra própria no artigo catorze: o tratamento deve ser feito no seu melhor interesse, e, para crianças, o parágrafo primeiro exige consentimento específico e em destaque de pelo menos um dos pais ou do responsável legal.
+
+Como isso pesa na resposta a um pedido de acesso? O dado sensível quase sempre diz respeito à intimidade ou à vida privada, e por isso costuma cair na restrição do artigo trinta e um. Os enunciados da cê gê u repetem a mesma ressalva: documentos de concursos, processos disciplinares concluídos e listas de beneficiários de programas sociais são acessíveis, salvo as informações pessoais sensíveis. O dado pessoal comum, por outro lado, só é restrito se tocar a intimidade, a vida privada, a honra ou a imagem, o que exige análise caso a caso. E os dados funcionais do agente público, no exercício do cargo, como nome, cargo, lotação, remuneração, e-mail e telefone funcionais, em regra não têm restrição.
+
+Tarjamento é a ocultação, em um documento que será entregue a terceiro ou publicado, das informações pessoais ou sigilosas que não podem ser divulgadas. É a forma mais comum de acesso parcial. Ele atua sobre o documento, trecho a trecho, e não sobre uma base inteira. No Executivo federal, a plataforma usada para pedidos de acesso tem uma ferramenta de tarjamento, adaptada pela cê gê u a partir de uma solução desenvolvida pela Petrobras.
+
+Em um documento típico, costumam ser tarjados: o número completo do documento de identidade e da inscrição no cadastro de pessoas físicas de particulares; endereço residencial, telefone e e-mail pessoais; dados bancários; dados de saúde, como atestados e códigos de doença; dados sensíveis de qualquer pessoa; e dados de terceiros que aparecem no documento sem relação com a finalidade do pedido. Em regra, não se tarjam o nome, o cargo e os contatos funcionais do agente público no exercício da função, nem o conteúdo da decisão, os valores e a motivação, que são o objeto do controle.
+
+O tarjamento tem riscos técnicos, ligados à segurança da resposta. Uma tarja desenhada sobre o texto de um arquivo digital pode esconder o dado na tela e mantê-lo na camada de texto, recuperável por cópia e cola ou por busca. Os metadados do arquivo podem trazer o nome do autor ou do interessado. Anexos, comentários, versões anteriores e nomes de arquivos podem repetir o que foi tarjado no corpo. Um documento digitalizado pode ter o dado repetido em carimbos, cabeçalhos ou rodapés. Por isso a boa prática é tarjar com ferramenta que remove de fato o conteúdo, gerar um novo arquivo a partir do tarjado e conferir o resultado antes de enviar.
+
+Tarjar, pseudonimizar e anonimizar não são sinônimos. A tarja remove partes de um documento, mas o que sobra pode continuar identificando a pessoa, e então o documento continua contendo dado pessoal. A pseudonimização, definida no artigo treze, parágrafo quarto, troca o identificador por outro, e a reassociação só é possível com uma informação adicional mantida separadamente pelo controlador; o dado continua pessoal. A anonimização, do artigo quinto, inciso onze, faz o dado perder a possibilidade de associação, direta ou indireta, a um indivíduo, considerados os meios técnicos razoáveis e disponíveis; só aí o dado deixa de ser pessoal, nos termos do artigo doze. Na prática dos pedidos de acesso, a tarja serve a documentos, e a anonimização e a agregação servem a bases de dados e estatísticas.
+
+O risco de reidentificação, em documentos e respostas, tem formas próprias. A primeira é o contexto: o nome foi tarjado, mas o texto diz a única servidora do setor em licença no mês, ou o chefe da unidade de tal cidade, e qualquer colega sabe quem é. A segunda é a unidade pequena: uma estatística por unidade, cargo e sexo, em uma unidade com três servidores, pode descrever uma pessoa. A terceira é o mosaico: respostas a pedidos diferentes, cada uma inofensiva, combinadas entre si ou com informações já publicadas, reconstroem a identidade. A quarta é a tarja inconsistente: o mesmo nome tarjado em uma página e esquecido em outra, ou números de documento ocultados em posições diferentes em publicações diferentes. A resposta a esses riscos é ler o documento como alguém que conhece o contexto, generalizar ou suprimir o detalhe que individualiza, suprimir contagens muito pequenas em tabelas e manter um padrão único de tarja no órgão.
+
+Uma última distinção importante: proteger contra a reidentificação não é ocultar tudo. Se o detalhe que individualiza é o próprio objeto do controle, como o nome do agente público que assinou o contrato, ele é divulgado. A pergunta é sempre a mesma do bloco um: o que se oculta diz respeito à intimidade, à vida privada, à honra ou à imagem, e não ao exercício da função pública? A proteção da identidade de quem faz denúncia segue regras próprias, tema do item dois ponto dois ponto três.
+
+Exemplo prático. Um jornalista pede a íntegra de um processo disciplinar já concluído contra um servidor de uma superintendência regional. O Enunciado cê gê u número três, de dois mil e vinte e três, ao tratar dos processos disciplinares de militares, lembra a regra aplicada aos civis: o processo concluído é passível de acesso público, sem prejuízo da proteção das informações pessoais sensíveis e legalmente sigilosas. O auditor que revisa a resposta encontra no processo um atestado médico do acusado com código de doença, a ficha financeira com dados bancários, o endereço residencial e o depoimento de uma testemunha que relata a própria situação familiar. Ficam tarjados o atestado, os dados bancários, o endereço e o trecho do depoimento sobre a vida familiar da testemunha. Permanecem o nome do acusado, os fatos imputados, a defesa, o relatório da comissão e a decisão. Antes de enviar, o auditor confere que a tarja removeu o texto do arquivo, que os metadados não trazem nomes e que o relatório final não repete, em outra página, o diagnóstico tarjado no atestado.
+
+Pegadinhas do bloco dois.
+
+"Dado financeiro, como a renda de uma pessoa, é dado pessoal sensível, nos termos da lei de proteção de dados." Errado. O rol do artigo quinto, inciso dois, não inclui dados financeiros, que podem ter outras proteções, como o sigilo bancário.
+
+"O nome de um profissional de saúde lotado em unidade pública é dado sensível referente à saúde." Errado. O dado referente à saúde é o relativo à saúde do titular, como diagnóstico ou condição física ou mental, e não à atividade profissional exercida.
+
+"O tratamento de dados sensíveis pode se fundamentar no legítimo interesse do controlador." Errado. O artigo onze não prevê o legítimo interesse nem a proteção do crédito entre as hipóteses para dados sensíveis.
+
+"Dado que não contém nome nem número de documento não é dado pessoal." Errado. É pessoal o dado relacionado a pessoa identificável, e a combinação com outros dados ou com o contexto pode identificá-la.
+
+"Documento com os nomes tarjados é documento anonimizado, e por isso deixa de conter dados pessoais." Errado. A tarja remove partes do documento, mas o contexto pode identificar a pessoa; só há anonimização quando o dado perde a possibilidade de associação ao indivíduo, considerados os meios razoáveis.
+
+"Uma tarja preta inserida sobre o texto de um arquivo digital garante a proteção do dado." Errado. O dado pode permanecer na camada de texto, nos metadados ou em outras partes do arquivo; é preciso remover o conteúdo e conferir o resultado.
+
+"Dado pseudonimizado deixa de ser dado pessoal." Errado. Pelo artigo treze, parágrafo quarto, a reassociação continua possível com a informação adicional mantida pelo controlador.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Dois direitos fundamentais: acesso à informação, no artigo quinto, inciso trinta e três, e proteção de dados pessoais, no inciso setenta e nove, incluído pela Emenda Constitucional cento e quinze, de dois mil e vinte e dois.
+
+Relação entre as leis: a Lei de Acesso à Informação rege os pedidos e as restrições; a lei de proteção de dados orienta como divulgar; Enunciados cê gê u número quatro, de dois mil e vinte e dois, e número doze, de dois mil e vinte e três.
+
+Roteiro: identifica pessoa natural; toca intimidade, vida privada, honra ou imagem; há previsão legal, consentimento ou interesse público preponderante; o que pode ser separado é entregue.
+
+Finalidade, necessidade e salvaguardas: o propósito do controle social define os dados; divulga-se o mínimo pertinente; salvaguardas são acesso parcial, identidade comprovada, termo de responsabilidade, responsabilidade por uso indevido e segurança da resposta.
+
+Agência Nacional de Proteção de Dados: autarquia especial desde a Lei quinze mil trezentos e cinquenta e dois, de dois mil e vinte e seis.
+
+Dado pessoal e sensível: pessoa identificada ou identificável; rol do artigo quinto, inciso dois; regime estreito do artigo onze, inclusive para o tratamento que revela dado sensível; crianças no artigo catorze.
+
+Tarjamento, pseudonimização e anonimização: ocultação de trechos de documentos; substituição reversível com informação separada; perda da associação ao indivíduo.
+
+Reidentificação em documentos: contexto, unidade pequena, mosaico e tarja inconsistente.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. A Constituição Federal assegura, nos termos da lei, o direito à proteção dos dados pessoais, inclusive nos meios digitais, por dispositivo incluído em dois mil e vinte e dois.
+
+Gabarito: certo. Artigo quinto, inciso setenta e nove, incluído pela Emenda Constitucional cento e quinze.
+
+Item dois. Com a entrada em vigor da Lei Geral de Proteção de Dados Pessoais, os órgãos públicos passaram a ter o dever de negar pedidos de acesso a documentos que contenham dados pessoais de terceiros.
+
+Gabarito: errado. A lei não criou hipótese de sigilo, e o fundamento informações pessoais não pode ser usado de forma geral e abstrata; os dados são tratados e o restante é entregue.
+
+Item três. Segundo entendimento da Controladoria-Geral da União, a Lei de Acesso à Informação, por ser mais específica, é a norma de regência processual e material dos pedidos de acesso, inclusive quando envolvem dados de pessoas naturais.
+
+Gabarito: certo. Enunciado cê gê u número quatro, de dois mil e vinte e dois.
+
+Item quatro. Um órgão recebe pedido de cópia de um contrato administrativo, no qual constam o nome e o cargo do servidor que o assinou. Por se tratar de dado pessoal, o nome do servidor deve ser tarjado.
+
+Gabarito: errado. Nome e cargo do agente público no exercício da função não dizem respeito à intimidade ou à vida privada e são objeto do controle social.
+
+Item cinco. O tratamento de dados pessoais cujo acesso é público deve considerar a finalidade, a boa-fé e o interesse público que justificaram sua disponibilização.
+
+Gabarito: certo. Artigo sétimo, parágrafo terceiro, da Lei treze mil setecentos e nove.
+
+Item seis. Dado referente à opinião política e dado biométrico vinculado a uma pessoa natural são dados pessoais sensíveis.
+
+Gabarito: certo. Artigo quinto, inciso dois.
+
+Item sete. O tratamento de dados pessoais sensíveis dispensa o consentimento sempre que houver legítimo interesse do controlador.
+
+Gabarito: errado. O legítimo interesse não está entre as hipóteses do artigo onze.
+
+Item oito. Uma tabela publicada por um órgão traz o número de servidores afastados por doença, por unidade e por tipo de doença, e uma das unidades tem apenas dois servidores. Por não trazer nomes, a tabela não envolve tratamento de dado pessoal sensível.
+
+Gabarito: errado. Em unidade tão pequena, a tabela permite identificar a pessoa e revela dado de saúde; o artigo onze, parágrafo primeiro, aplica o regime dos sensíveis ao tratamento que revele esses dados.
+
+Item nove. Na pseudonimização, o dado perde a possibilidade de associação a um indivíduo, salvo pelo uso de informação adicional mantida separadamente pelo controlador em ambiente controlado e seguro.
+
+Gabarito: certo. Artigo treze, parágrafo quarto.
+
+Item dez. O documento cujos nomes foram tarjados torna-se dado anonimizado e sai do alcance da lei de proteção de dados.
+
+Gabarito: errado. O contexto restante pode identificar a pessoa; a anonimização exige a perda da possibilidade de associação, considerados os meios razoáveis.
+
+Item onze. A divulgação, em resposta a pedido de acesso, de gravações de reuniões administrativas realizadas por agentes públicos depende do consentimento prévio de todos os participantes.
+
+Gabarito: errado. A atuação do agente público nessa qualidade não é protegida como intimidade, e o acesso não depende da concordância dos participantes.
+
+Item doze. A proteção de dados pessoais pode ser flexibilizada em pedido de acesso quando, no caso concreto, a proteção do interesse público geral e preponderante se impuser.
+
+Gabarito: certo. Artigo trinta e um, parágrafo terceiro, inciso cinco, da Lei de Acesso à Informação, e Enunciado cê gê u número doze.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto dois ponto três, ouvidoria e proteção das pessoas.
