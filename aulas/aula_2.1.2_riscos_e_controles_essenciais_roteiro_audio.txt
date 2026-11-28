@@ -1,0 +1,248 @@
+AUDIOAULA. ITEM DOIS PONTO UM PONTO DOIS DO EDITAL: RISCOS E CONTROLES ESSENCIAIS
+
+
+ABERTURA
+
+Este é o item dois ponto um ponto dois, riscos e controles essenciais. Ele tem dois subitens: o primeiro, extenso, é tratado em dois blocos, um sobre os elementos do risco e o risco residual, outro sobre prevenção, detecção, proporcionalidade e segregação de funções; o segundo, a identificação de vulnerabilidades e de controles compatíveis com situações usuais, fica no bloco três. A banca costuma cobrar as definições da Instrução Normativa Conjunta número um, de dois mil e dezesseis, a troca entre risco inerente e risco residual, a classificação dos controles em preventivos e detectivos e a ideia de que controle adequado é o proporcional ao risco.
+
+
+BLOCO UM: RISCO, CAUSA, CONSEQUÊNCIA, CONTROLE E RISCO RESIDUAL
+
+O processo de gestão de riscos da norma ízo trinta e um mil e as formas de tratamento foram vistos no item três ponto quatro ponto quatro; a gestão de riscos como prática do mecanismo estratégia, no dois ponto um ponto um; e o triângulo da fraude, no um ponto um ponto sete. Aqui entram os conceitos normativos do Poder Executivo federal, a anatomia de um risco e a passagem do risco inerente para o risco residual.
+
+A base normativa tem dois níveis. No topo está o Decreto nove mil duzentos e três, de dois mil e dezessete, a política de governança da administração federal direta, autárquica e fundacional. O artigo quarto, inciso sexto, traz como diretriz implementar controles internos fundamentados na gestão de risco, privilegiando ações estratégicas de prevenção antes de processos sancionadores. E o artigo dezessete manda a alta administração estabelecer, manter, monitorar e aprimorar sistema de gestão de riscos e controles internos, com vistas à identificação, à avaliação, ao tratamento, ao monitoramento e à análise crítica dos riscos que possam impactar a implementação da estratégia e a consecução dos objetivos da organização.
+
+O mesmo artigo dezessete lista quatro princípios. Primeiro: implementação e aplicação de forma sistemática, estruturada, oportuna e documentada, subordinada ao interesse público. Segundo: integração da gestão de riscos ao planejamento estratégico e aos seus desdobramentos, às atividades, aos processos de trabalho e aos projetos, em todos os níveis da organização. Terceiro: estabelecimento de controles internos proporcionais aos riscos, considerando as suas causas, fontes, consequências e impactos, observada a relação custo-benefício. Quarto: utilização dos resultados da gestão de riscos para apoio à melhoria contínua do desempenho e dos processos de governança, de gestão de riscos e de controle.
+
+No nível de detalhe está a Instrução Normativa Conjunta número um, de dez de maio de dois mil e dezesseis, editada pelo então Ministério do Planejamento, Orçamento e Gestão e pela Controladoria-Geral da União, a cê gê u. Ela é anterior ao decreto e dispõe sobre controles internos, gestão de riscos e governança no Poder Executivo federal. Não localizei ato que a revogasse, e ela segue citada pela cê gê u como referência sobre o tema. O seu artigo segundo é um glossário de conceitos.
+
+Risco, pelo inciso treze, é a possibilidade de ocorrência de um evento que venha a ter impacto no cumprimento dos objetivos. E a mesma definição completa: o risco é medido em termos de impacto e de probabilidade. Três elementos estão aí: um evento ainda não ocorrido, a sua relação com um objetivo e as duas dimensões de medida. Sem objetivo definido não há como falar em risco, e por isso o artigo nono diz que a existência de objetivos claros é pré-requisito para a eficácia dos controles internos da gestão.
+
+Incerteza, pelo inciso dez, é a incapacidade de saber com antecedência a real probabilidade ou o impacto de eventos futuros. Mensuração de risco, pelo inciso onze, é estimar a importância de um risco e calcular a probabilidade e o impacto da sua ocorrência. Apetite a risco, pelo inciso dois, é o nível de risco que uma organização está disposta a aceitar.
+
+A definição da instrução normativa trata o risco pelo lado negativo, como ameaça ao objetivo. A norma ízo trinta e um mil define risco como efeito da incerteza nos objetivos, e esse efeito pode ser positivo ou negativo. As duas definições convivem, mas, no Executivo federal, a referência normativa é a da instrução.
+
+A instrução define também fraude, no inciso seis: quaisquer atos ilegais caracterizados por desonestidade, dissimulação ou quebra de confiança, que não implicam o uso de ameaça de violência ou de força física. A ausência de violência é o traço que separa a fraude de outros ilícitos patrimoniais.
+
+A anatomia de um risco tem três partes. A causa é a razão pela qual o evento pode acontecer: combina uma fonte de risco, como pessoas, processos, sistemas, infraestrutura ou fatores externos, com uma vulnerabilidade, que é a fragilidade que deixa a fonte produzir o evento. O evento é o que pode acontecer. A consequência é o efeito do evento sobre o objetivo. As metodologias usadas no Executivo federal recomendam descrever o risco numa frase com essa ordem: devido a tal causa, poderá ocorrer tal evento, o que poderá levar a tal consequência, impactando tal objetivo.
+
+Um exemplo de redação: devido à alteração de dados bancários de fornecedores sem confirmação independente, poderá ocorrer pagamento em conta de terceiro, o que poderá levar a prejuízo ao erário e a atraso no pagamento do fornecedor legítimo, impactando a execução regular do contrato. A ausência de confirmação é a causa. O pagamento em conta de terceiro é o evento. O prejuízo e o atraso são as consequências.
+
+Essa separação importa porque os erros mais comuns de quem descreve riscos são dois. Um é registrar a consequência como se fosse o risco: "prejuízo ao erário" é efeito, e não diz o que precisa ser controlado. O outro é registrar a falta de um controle como se fosse o risco: "ausência de segregação de funções" é vulnerabilidade, ou seja, causa. O artigo oitavo, inciso sete, da instrução normativa usa exatamente esse vocabulário, ao exigir o mapeamento das vulnerabilidades que impactam os objetivos, para que os riscos a serem geridos sejam adequadamente identificados.
+
+A anatomia orienta o controle. Controles que atuam sobre a causa reduzem a probabilidade do evento. Controles que atuam depois do evento, detectando-o ou contendo os seus efeitos, reduzem o impacto. A técnica conhecida como gravata-borboleta desenha exatamente isso: as causas de um lado, o evento no nó central, as consequências do outro, e os controles posicionados em cada ramo.
+
+O controle também tem definição normativa. Controles internos da gestão, pelo inciso cinco do artigo segundo, são o conjunto de regras, procedimentos, diretrizes, protocolos, rotinas de sistemas informatizados, conferências e trâmites de documentos e informações, entre outros, operacionalizados de forma integrada pela direção e pelo corpo de servidores das organizações, destinados a enfrentar os riscos e fornecer segurança razoável de que, na consecução da missão da entidade, quatro objetivos gerais serão alcançados: execução ordenada, ética, econômica, eficiente e eficaz das operações; cumprimento das obrigações de accountability; cumprimento das leis e regulamentos aplicáveis; e salvaguarda dos recursos para evitar perdas, mau uso e danos.
+
+Dessa definição saem duas consequências. Primeira: rotinas de sistemas informatizados são controle interno da gestão, ao lado de regras e conferências. Segunda: o controle oferece segurança razoável, e não absoluta. Os artigos quarto e nono repetem a expressão. Nenhum conjunto de controles elimina o risco, porque há limites de custo, erro humano, conluio e eventos imprevistos.
+
+A medida do risco combina as duas dimensões. A probabilidade é a chance de o evento ocorrer; o impacto é a gravidade da consequência sobre o objetivo. Cada dimensão recebe uma nota numa escala, em geral de um a cinco, e o nível de risco resulta da combinação das duas, normalmente pelo produto. A matriz de probabilidade e impacto posiciona os riscos em faixas, como baixo, moderado, alto e extremo. A instrução normativa, no artigo dezesseis, inciso quatro, admite análises qualitativas, quantitativas ou a combinação de ambas, e manda que os riscos sejam avaliados quanto à sua condição de inerentes e residuais.
+
+Risco inerente, pelo inciso catorze do artigo segundo, é o risco a que uma organização está exposta sem considerar quaisquer ações gerenciais que possam reduzir a probabilidade da sua ocorrência ou o seu impacto. Risco residual, pelo inciso quinze, é o risco a que a organização está exposta após a implementação de ações gerenciais para o tratamento do risco. O inerente é a fotografia sem controles; o residual, a fotografia com os controles existentes.
+
+A passagem de um para o outro depende da qualidade dos controles. Metodologias usadas no Executivo federal aplicam ao risco inerente um fator de avaliação dos controles: quanto mais bem desenhado e mais efetivo o controle, maior a redução. Um controle inexistente não reduz nada; um controle fraco reduz pouco; um controle forte reduz muito. Um controle que existe só no papel equivale, para esse cálculo, a controle inexistente. A diferença entre existência documental, implementação e efetividade é tema do item dois ponto um ponto quatro.
+
+O risco residual é então comparado com o apetite a risco. Se estiver dentro do nível aceitável, o risco pode ser aceito e monitorado. Se estiver acima, pede novas respostas. A instrução normativa, no artigo dezesseis, inciso cinco, prevê quatro estratégias de resposta: evitar, transferir, aceitar ou tratar. E diz que a escolha depende do nível de exposição a riscos previamente estabelecido pela organização, em confronto com a avaliação que se fez do risco. A lista da ízo trinta e um mil, vista no item três ponto quatro ponto quatro, é mais detalhada, mas a da instrução tem essas quatro.
+
+O artigo dezoito traz as tipologias que os órgãos devem considerar no mapeamento, entre outras possíveis. Riscos operacionais: eventos que podem comprometer as atividades, normalmente associados a falhas, deficiência ou inadequação de processos internos, pessoas, infraestrutura e sistemas. Riscos de imagem ou reputação: eventos que podem comprometer a confiança da sociedade, de parceiros, de clientes ou de fornecedores na capacidade de o órgão cumprir a sua missão. Riscos legais: eventos derivados de alterações legislativas ou normativas. E riscos financeiros ou orçamentários: eventos que comprometem a disponibilidade de recursos ou a própria execução orçamentária, como atrasos no cronograma de licitações. Os riscos para a integridade ficam para o item dois ponto um ponto três.
+
+As responsabilidades estão nos artigos doze, dezesseis e dezenove. Estabelecer, manter, monitorar e aperfeiçoar os controles internos da gestão é responsabilidade da alta administração, sem prejuízo da responsabilidade dos gestores dos processos e programas nos seus âmbitos. Aos demais servidores cabe operacionalizar os controles e identificar e comunicar deficiências às instâncias superiores. Os gestores avaliam os riscos das unidades, processos e atividades que lhes são afetos, e a alta administração avalia os riscos no âmbito da organização, com visão consolidada. O dirigente máximo é o principal responsável pela estratégia e pela estrutura de gerenciamento de riscos.
+
+Exemplo prático. Numa auditoria do processo de concessão de diárias de um órgão federal, a equipe da cê gê u encontra o risco descrito assim: devido à ausência de comprovação do deslocamento, poderá ocorrer pagamento de diária por viagem não realizada, o que poderá levar a prejuízo ao erário. Sem nenhum controle, o órgão avaliou a probabilidade como alta e o impacto como moderado: risco inerente alto. Existem dois controles: a exigência de bilhete de embarque na prestação de contas e a aprovação da chefia. Mas a equipe verifica que a chefia aprova sem abrir os anexos e que nenhuma prestação de contas é devolvida há dois anos. O órgão havia registrado o risco residual como baixo, como se os dois controles fossem fortes. O correto é tratar a aprovação como controle fraco, o que mantém o residual perto do inerente e acima do apetite declarado. A recomendação natural não é acrescentar uma terceira assinatura, e sim tornar efetiva a conferência existente, por exemplo com cruzamento automático entre as viagens pagas e os dados das companhias aéreas.
+
+Pegadinhas do bloco um.
+
+"Para a Instrução Normativa Conjunta número um, de dois mil e dezesseis, risco é o dano efetivamente sofrido pela organização em razão de um evento adverso." Errado. Risco é a possibilidade de ocorrência de um evento que venha a ter impacto nos objetivos, medido em termos de impacto e de probabilidade.
+
+"Na descrição técnica de um risco, a ausência de segregação de funções no setor de pagamentos ocupa o lugar do evento." Errado. Ela é vulnerabilidade, portanto causa; o evento seria, por exemplo, o pagamento indevido.
+
+"Risco inerente é o que permanece depois da implementação dos controles, e risco residual é o que existiria sem eles." Errado. Os conceitos estão trocados: o inerente desconsidera as ações gerenciais; o residual é o que resta após o tratamento.
+
+"Controles internos da gestão bem desenhados e efetivos oferecem segurança absoluta de que os objetivos serão alcançados." Errado. A instrução normativa fala em segurança razoável, e algum risco residual sempre permanece.
+
+"A instrução normativa enumera de forma taxativa as tipologias de riscos que os órgãos podem mapear." Errado. Ela lista riscos operacionais, de imagem, legais e financeiros ou orçamentários entre outras tipologias possíveis.
+
+"As respostas a riscos previstas na instrução normativa são apenas duas: tratar ou aceitar." Errado. São quatro: evitar, transferir, aceitar ou tratar.
+
+
+BLOCO DOIS: PREVENÇÃO, DETECÇÃO, PROPORCIONALIDADE E SEGREGAÇÃO DE FUNÇÕES
+
+A segregação de funções nos perfis de acesso e na Lei de Licitações foi vista no item três ponto dois ponto dois, e a regra do Decreto-Lei duzentos que manda suprimir controles puramente formais, no um ponto um ponto cinco. Aqui entram a estrutura dos controles na instrução normativa, a classificação das atividades de controle, os critérios de proporcionalidade e a segregação como atividade de controle.
+
+A instrução normativa organiza os controles internos da gestão em cinco componentes, no artigo onze. Ambiente de controle: a base de todos os controles, formada pelo conjunto de regras e pela estrutura que determinam a qualidade dos controles. Entre os seus elementos estão a integridade e os valores éticos da direção e dos servidores, o compromisso de reunir e manter pessoas competentes, a filosofia da direção e o estilo gerencial, uma estrutura organizacional com responsabilidades e delegação de autoridade claramente atribuídas, e políticas de recursos humanos que avaliem o desempenho e cobrem cada um pelos controles sob a sua responsabilidade. Avaliação de risco: processo permanente de identificação e análise dos riscos relevantes, que determina a resposta apropriada. Atividades de controles internos. Informação e comunicação. E monitoramento.
+
+Esses cinco componentes seguem o modelo de controle interno do côsso, o comitê das organizações patrocinadoras criado nos Estados Unidos, cuja estrutura integrada de controle interno foi atualizada em dois mil e treze, com dezessete princípios. Para a gestão de riscos, a instrução normativa usa outra lista, no artigo dezesseis, com oito componentes: ambiente interno, fixação de objetivos, identificação de eventos, avaliação de riscos, resposta a riscos, atividades de controles internos, informação e comunicação, e monitoramento. Essa lista segue o modelo de gerenciamento de riscos corporativos do côsso de dois mil e quatro. O côsso revisou esse modelo em dois mil e dezessete, que passou a ter cinco componentes e vinte princípios, mas a instrução normativa manteve os oito.
+
+O artigo oitavo traz quinze princípios para o desenho dos controles internos da gestão. Entre eles: aderência à integridade e a valores éticos; clara definição dos responsáveis pelos diversos controles; clara definição de objetivos; mapeamento das vulnerabilidades; desenvolvimento de atividades de controle que contribuam para níveis aceitáveis de riscos; adequado suporte de tecnologia da informação; realização de avaliações periódicas da eficácia dos controles; e comunicação do resultado dessas avaliações aos responsáveis pela adoção de ações corretivas, incluindo a alta administração.
+
+O núcleo do subitem está no componente atividades de controles internos, descrito no artigo onze, inciso três. São atividades materiais e formais, como políticas, procedimentos, técnicas e ferramentas, implementadas pela gestão para diminuir os riscos e assegurar o alcance dos objetivos. A instrução diz que essas atividades podem ser preventivas, que reduzem a ocorrência de eventos de risco, ou detectivas, que possibilitam a identificação da ocorrência dos eventos de risco, implementadas de forma manual ou automatizada.
+
+O mesmo dispositivo exige que as atividades de controle sejam apropriadas, funcionem consistentemente de acordo com um plano de longo prazo, tenham custo adequado, sejam abrangentes, razoáveis e diretamente relacionadas aos objetivos de controle. E dá oito exemplos: procedimentos de autorização e aprovação; segregação de funções, entre autorização, execução, registro e controle; controles de acesso a recursos e registros; verificações; conciliações; avaliação de desempenho operacional; avaliação das operações, dos processos e das atividades; e supervisão.
+
+O controle preventivo atua antes do evento, sobre a causa, e reduz a probabilidade. Exemplos: a alçada que exige aprovação da autoridade competente acima de certo valor; a validação, pelo sistema, de que o cê pê éfe ou o cê ene pê jota do credor está regular antes do empenho; o bloqueio automático de pagamento com o mesmo documento fiscal já pago; o controle de acesso que impede um perfil de executar operação incompatível.
+
+O controle detectivo atua depois que o evento ocorreu e permite identificá-lo a tempo de reagir. Exemplos: a conciliação bancária; o relatório de exceções, que lista pagamentos fora do padrão; a revisão periódica das trilhas de auditoria; o inventário físico de bens comparado ao registro contábil; o cruzamento de bases de dados, como a folha de pagamento com o registro de óbitos.
+
+A literatura e os manuais de controle acrescentam duas categorias que a instrução não nomeia nesse inciso. Os controles corretivos restauram a situação depois de detectado o evento: a glosa de valores, a recuperação de pagamento indevido, a restauração de dados a partir de cópia de segurança. Os controles diretivos orientam a conduta desejada: normas, manuais, orientações e capacitação. A instrução cobre a ideia de correção por outro caminho, ao dizer, no artigo dezesseis, inciso seis, que as atividades de controle incluem controles preventivos e detectivos, bem como a preparação prévia de planos de contingência e de resposta à materialização dos riscos.
+
+Prevenção e detecção são complementares. O preventivo costuma ser mais caro e pode tornar o processo mais lento, porque se interpõe a toda operação; é o indicado quando o evento é irreversível ou de impacto alto. O detectivo costuma ser mais barato, porque pode trabalhar sobre amostras ou exceções; é indispensável onde a prevenção é inviável ou custosa demais, e funciona também como dissuasão, porque quem sabe que será detectado tende a não tentar. Um detectivo só tem valor se alguém agir sobre o que ele aponta: um relatório de exceções que ninguém lê é controle apenas aparente.
+
+A distinção entre manual e automatizado também tem consequências. O automatizado é consistente, alcança todo o volume e não se cansa, mas depende dos controles gerais de tecnologia: se qualquer pessoa pode alterar o parâmetro da regra, ou se mudanças no sistema entram sem revisão, o controle automatizado deixa de ser confiável. O manual permite julgamento em casos que pedem análise, mas está sujeito a erro, fadiga e à assinatura automática, em que o visto é dado sem a verificação que ele deveria representar.
+
+Proporcionalidade é a ideia de que o controle deve ser dimensionado pelo risco que enfrenta. Ela aparece em quatro pontos. No Decreto nove mil duzentos e três, artigo dezessete, inciso três, já citado: controles proporcionais aos riscos, considerando causas, fontes, consequências e impactos, observada a relação custo-benefício. Na instrução normativa, artigo catorze, inciso três: procedimentos de controle interno proporcionais ao risco, observada a relação custo-benefício, e destinados a agregar valor à organização. No artigo terceiro, parágrafo quinto, da mesma instrução: os controles devem ser dimensionados e desenvolvidos na proporção requerida pelos riscos, de acordo com a natureza, a complexidade, a estrutura e a missão do órgão. E na Lei catorze mil cento e trinta e três, de dois mil e vinte e um, artigo cento e sessenta e nove, parágrafo primeiro, que manda considerar os custos e os benefícios na implementação das práticas de gestão de riscos e controle preventivo das contratações.
+
+A proporcionalidade tem dois lados. O primeiro é contra o excesso. Controle custa dinheiro, tempo de servidores e tempo do cidadão que espera a decisão. Um controle cujo custo supera o risco que ele reduz destrói valor. E a sobreposição de controles formais cria falsa segurança: três assinaturas sobre o mesmo documento, sem que nenhuma delas confira o conteúdo, valem menos do que uma conferência real. O segundo lado é contra a insuficiência. Risco alto exige controle à altura, e o artigo terceiro, parágrafo primeiro, da instrução normativa é taxativo: os controles internos da gestão, independentemente do porte da organização, devem ser efetivos e consistentes com a natureza, a complexidade e o risco das operações. O porte influencia o desenho, mas não dispensa a efetividade.
+
+Quando o custo de reduzir um risco ainda mais não compensa, a resposta proporcional é aceitar o residual, de forma consciente e registrada pela instância competente. Aceitar um risco depois de avaliá-lo é decisão de gestão; deixar um risco sem avaliação é omissão.
+
+Os controles mais importantes de um processo são chamados controles-chave: aqueles que, sozinhos ou como principal barreira, mitigam um risco relevante. Se um controle-chave falha, o risco residual sobe de forma significativa. É sobre eles que a gestão concentra o monitoramento e que a auditoria concentra os testes.
+
+Segregação de funções é a atividade de controle que distribui entre pessoas diferentes as etapas de uma operação crítica. A instrução normativa nomeia quatro funções a separar: autorização, execução, registro e controle. A literatura clássica de auditoria também separa a custódia dos bens. A lógica é que nenhuma pessoa domine sozinha o ciclo inteiro, porque quem autoriza, executa e registra pode cometer um erro ou uma fraude e ocultá-lo no próprio registro.
+
+A segregação tem um limite claro: ela não impede o conluio. Se as pessoas que exercem as funções separadas combinarem a fraude, a separação deixa de funcionar. Por isso ela é complementada por supervisão, rodízio periódico de funções, gozo obrigatório de férias, em que o substituto passa a ver o que o titular escondia, e por controles detectivos independentes.
+
+Quando a segregação é inviável, como numa unidade pequena com um único servidor em determinada função, a resposta não é dispensar o controle, e sim adotar controles compensatórios. Controle compensatório é aquele que reduz o mesmo risco por outro caminho, quando o controle principal não pode ser aplicado. Exemplos: revisão posterior, por chefia ou por outra unidade, de amostra das operações; conciliação feita por pessoa independente; relatórios automáticos enviados a um terceiro sempre que o mesmo usuário cadastra e aprova; e rodízio entre unidades.
+
+Por fim, a instrução normativa separa três coisas que costumam ser confundidas. O artigo sétimo diz que os controles internos da gestão não se confundem com as atividades do Sistema de Controle Interno do artigo setenta e quatro da Constituição, nem com as atribuições da auditoria interna, cuja finalidade específica é medir e avaliar a eficácia e a eficiência desses controles. Os controles internos da gestão são de responsabilidade de cada órgão, operados por todos os agentes no seu dia a dia, e a instrução os chama de primeira linha ou camada de defesa; o artigo sexto admite instâncias de segunda linha, como comitês e assessorias de riscos, controles internos e integridade, para supervisionar e monitorar esses controles.
+
+Pegadinhas do bloco dois.
+
+"Segundo a instrução normativa, as atividades de controles internos classificam-se em preventivas, detectivas e corretivas." Errado. O artigo onze, inciso três, menciona preventivas e detectivas, manuais ou automatizadas; corretivos e diretivos vêm da literatura, e a instrução trata a resposta por meio de planos de contingência.
+
+"O controle detectivo reduz a probabilidade de ocorrência do evento de risco." Errado. Quem reduz a ocorrência é o preventivo; o detectivo possibilita identificar o evento ocorrido e, assim, limitar o impacto.
+
+"Quanto maior o número de controles sobre um processo, menor o risco e melhor a gestão." Errado. Os controles devem ser proporcionais ao risco, observada a relação custo-benefício, pelo Decreto nove mil duzentos e três e pela instrução normativa.
+
+"Órgãos de pequeno porte estão dispensados de manter controles internos efetivos, bastando a supervisão eventual do dirigente." Errado. O artigo terceiro, parágrafo primeiro, exige controles efetivos independentemente do porte; o porte só influencia o dimensionamento.
+
+"A segregação de funções impede a ocorrência de fraudes, inclusive quando praticadas em conluio." Errado. O conluio é justamente o limite da segregação, que precisa ser complementada por supervisão, rodízio e controles detectivos.
+
+"A instrução normativa adota a mesma estrutura de cinco componentes para os controles internos e para a gestão de riscos." Errado. Os controles internos têm cinco componentes, no artigo onze; a gestão de riscos tem oito, no artigo dezesseis.
+
+
+BLOCO TRÊS: IDENTIFICAÇÃO DE VULNERABILIDADES E DE CONTROLES COMPATÍVEIS
+
+A diferença entre existência documental, implementação e efetividade é tema do item dois ponto um ponto quatro, e a distinção entre indício, falha e irregularidade, do dois ponto três ponto quatro. Aqui entram um método para ler situações de trabalho, os sinais nos dados que revelam vulnerabilidades e os pares mais comuns entre vulnerabilidade e controle compatível.
+
+O ponto de partida é sempre o objetivo do processo. Pagar o fornecedor certo, pelo valor certo, por aquilo que foi entregue. Pagar a cada servidor o que lhe é devido. Conceder um benefício a quem preenche os requisitos. Com o objetivo definido, o processo é desdobrado em etapas, e para cada etapa se pergunta quem a executa, com que informação e com que registro.
+
+Em cada etapa, três perguntas organizam a análise. O que pode dar errado aqui, ou seja, qual é o evento. Por que pode dar errado, ou seja, qual é a vulnerabilidade. E o que já existe para impedir ou revelar o problema, ou seja, quais são os controles atuais e se eles alcançam aquela causa.
+
+As vulnerabilidades típicas se repetem em quase todos os processos. Concentração de funções: a mesma pessoa autoriza, executa e registra. Ausência de conferência independente: quem confere está subordinado a quem executa, ou é a mesma pessoa. Ausência de registro: a etapa acontece por mensagem eletrônica ou telefone, sem trilha. Acesso excessivo: perfis com permissões além do necessário, contas genéricas compartilhadas, usuários desligados ainda ativos. Regra só no manual: a norma interna proíbe, mas o sistema permite. Dados pouco confiáveis: cadastros desatualizados ou sem validação. Dependência de pessoa-chave: só um servidor sabe executar a rotina. Exceções frequentes: o fluxo normal é contornado por urgência com tanta frequência que a exceção vira regra.
+
+Diante de uma vulnerabilidade, o controle compatível é aquele que cumpre cinco critérios. Primeiro, relação direta com a causa: o artigo onze, inciso três, da instrução normativa exige atividades diretamente relacionadas aos objetivos de controle, e um curso de capacitação, por exemplo, não reduz o risco de desvio praticado por quem conhece a regra e decide violá-la. Segundo, momento adequado: evento irreversível ou de impacto alto pede controle preventivo; evento reversível em processo de grande volume admite controle detectivo por exceção ou por amostragem. Terceiro, independência: quem exerce o controle não pode ser quem executa a operação controlada. Quarto, proporcionalidade: o custo do controle, inclusive em demora, tem de ser compatível com o risco. Quinto, evidência: o controle precisa deixar registro de que foi executado e do que verificou.
+
+Uma consequência prática do segundo e do quarto critérios: quando a regra é objetiva e o volume é alto, o controle compatível costuma ser automatizado. O sistema bloqueia, valida ou gera o alerta em todas as operações. Quando a decisão exige julgamento, o controle compatível é manual, mas com critérios definidos e registro da análise.
+
+O primeiro par usual está no cadastro de fornecedores e nos dados bancários. A vulnerabilidade é a alteração da conta de recebimento por simples pedido, recebido por mensagem eletrônica, feita pelo mesmo servidor que depois libera o pagamento. O evento é o pagamento em conta de terceiro, que é difícil de reaver. Controles compatíveis: confirmação da alteração por canal independente, usando o contato que já constava do cadastro, e não o que veio no pedido; verificação de que a conta pertence ao próprio cê ene pê jota do credor; segregação entre quem altera dados cadastrais e quem aprova pagamentos; e, como detectivo, relatório de contas alteradas recentemente, revisado antes de cada lote de pagamento.
+
+O segundo par está no pagamento. A Lei quatro mil trezentos e vinte, de mil novecentos e sessenta e quatro, diz, no artigo sessenta e dois, que o pagamento da despesa só será efetuado quando ordenado após a sua regular liquidação; e o artigo sessenta e três define a liquidação como a verificação do direito adquirido pelo credor, com base nos títulos e documentos comprobatórios do respectivo crédito. As vulnerabilidades típicas são pagar sem liquidação e pagar em duplicidade. Controles compatíveis: o sistema impede a ordem de pagamento sem a liquidação registrada; o sistema bloqueia o mesmo documento fiscal, do mesmo credor, pelo mesmo valor; e a conciliação periódica entre os pagamentos e os documentos liquidados.
+
+O terceiro par está no recebimento do objeto contratado. A vulnerabilidade é o atesto sem evidência: a nota fiscal recebe o "atesto" sem medição, sem registro do que foi entregue, às vezes em lote. O evento é pagar por serviço não prestado ou prestado com qualidade inferior. O controle compatível não é mais uma assinatura, e sim a exigência de evidência vinculada ao atesto, como o relatório de medição, os registros do sistema que mostram o serviço executado, as fotografias datadas, além de fiscal designado formalmente e distinto de quem conduziu a contratação, e da revisão por amostragem pela chefia ou pela unidade de contratos.
+
+O quarto par está na folha de pagamento. As vulnerabilidades típicas são a manutenção de pagamento a servidor ou pensionista falecido, o cadastro de pessoa inexistente e o lançamento manual de rubricas. Controles compatíveis: cruzamento periódico da folha com o registro de óbitos e com a base de cadastro de pessoas físicas; recadastramento periódico, a chamada prova de vida; relatório de rubricas incluídas manualmente, com aprovação de pessoa distinta de quem lançou; e alçada para valores acima do padrão do cargo.
+
+O quinto par está nas contratações diretas de pequeno valor. A vulnerabilidade é o fracionamento: dividir uma necessidade previsível em várias compras, cada uma abaixo do limite da dispensa por valor. A Lei catorze mil cento e trinta e três, no artigo setenta e cinco, parágrafo primeiro, diz que, para aferir esses limites, devem ser observados o somatório do que for despendido no exercício financeiro pela respectiva unidade gestora e o somatório da despesa com objetos de mesma natureza, entendidos como os relativos a contratações no mesmo ramo de atividade. Controles compatíveis: planejamento anual das contratações, que torna a necessidade previsível; e monitoramento automático do valor acumulado por objeto e por ramo de atividade ao longo do exercício, com alerta antes de o limite ser alcançado.
+
+O sexto par está no acesso a sistemas, visto em detalhe no item três ponto dois ponto dois. Contas genéricas compartilhadas, perfis acumulados e usuários desligados que continuam ativos são vulnerabilidades; os controles compatíveis são contas nominais, revisão periódica de acessos pelo gestor do processo, desativação vinculada ao desligamento e trilhas protegidas contra alteração por quem as gera.
+
+O sétimo par está no almoxarifado e no patrimônio. A vulnerabilidade é a mesma pessoa receber, guardar e registrar os bens. O controle compatível é separar a custódia do registro e fazer inventário periódico por comissão independente, com conciliação entre o estoque físico e o registro contábil.
+
+Os dados fornecidos numa situação de trabalho costumam trazer sinais dessas vulnerabilidades. Uma mesma conta bancária para fornecedores diferentes. Fornecedor com endereço, telefone ou conta de servidor. Empresa constituída pouco antes de ser contratada. Pagamentos registrados de madrugada ou em fins de semana, fora do padrão da unidade. Valores repetidos logo abaixo de limites de alçada ou de dispensa. Um único usuário concentrando a criação e a aprovação das mesmas operações. Aprovações em segundos, ou centenas de aprovações no mesmo minuto, que indicam visto sem verificação. Pagamento de remuneração a pessoa com registro de óbito. Cada sinal aponta uma vulnerabilidade e justifica apuração; nenhum, sozinho, prova irregularidade.
+
+Exemplo prático. Um auditor de tecnologia da cê gê u recebe a extração dos pagamentos de uma unidade em um ano e cruza os registros de usuários do sistema. Ele encontra três achados. Primeiro, dois fornecedores distintos recebem na mesma conta bancária. Segundo, nos dois casos, a conta foi alterada poucos dias antes do pagamento, a pedido feito por mensagem eletrônica. Terceiro, o mesmo usuário alterou os dados bancários e aprovou os pagamentos, porque o perfil de gestor financeiro acumula as duas permissões. A leitura é direta. A vulnerabilidade é o perfil que acumula alteração cadastral e aprovação, somado à falta de confirmação independente; o evento possível é o pagamento em conta de terceiro; a consequência é o prejuízo ao erário. Os controles compatíveis são: preventivo e automatizado, com o sistema impedindo que o mesmo usuário altere dados bancários e aprove pagamento ao mesmo credor; preventivo e manual, com a confirmação da alteração por canal já cadastrado; detectivo, com relatório de contas compartilhadas entre credores e de alterações recentes; e corretivo, com a apuração e a recuperação dos valores. Não seriam compatíveis uma assinatura adicional em papel depois do pagamento, que chega tarde, nem uma campanha de capacitação, que não atua sobre a causa.
+
+Pegadinhas do bloco três.
+
+"Se o fiscal do contrato assina todas as notas fiscais antes do pagamento, o controle sobre o recebimento é efetivo." Errado. A assinatura sem evidência da verificação é controle apenas formal, e a vulnerabilidade continua aberta.
+
+"Diante de pagamentos feitos em conta de terceiro após alterações cadastrais por mensagem eletrônica, a capacitação dos servidores é controle suficiente." Errado. A capacitação não atua sobre a causa; o controle compatível é a confirmação independente e a segregação entre alteração e aprovação.
+
+"Admite-se o pagamento antes da liquidação quando houver controle detectivo posterior capaz de identificar eventual pagamento indevido." Errado. O artigo sessenta e dois da Lei quatro mil trezentos e vinte só admite pagamento após a regular liquidação.
+
+"O fracionamento de despesa é aferido pelo valor de cada contratação considerada isoladamente." Errado. O artigo setenta e cinco, parágrafo primeiro, da Lei catorze mil cento e trinta e três manda somar as despesas do exercício da unidade gestora com objetos de mesma natureza.
+
+"A constatação de que dois fornecedores recebem na mesma conta bancária comprova, por si só, a ocorrência de fraude." Errado. É sinal de vulnerabilidade que justifica apuração, e não prova de irregularidade.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Decreto nove mil duzentos e três, artigo dezessete: a alta administração estabelece, mantém, monitora e aprimora sistema de gestão de riscos e controles internos; princípios de aplicação sistemática, integração ao planejamento, controles proporcionais aos riscos e uso dos resultados para melhoria contínua.
+
+Instrução Normativa Conjunta número um, de dois mil e dezesseis: incerteza, mensuração e apetite a risco no artigo segundo; fraude é ato ilegal de desonestidade, dissimulação ou quebra de confiança, sem violência.
+
+Anatomia do risco: causa, formada por fonte e vulnerabilidade; evento; consequência sobre o objetivo. Controle na causa reduz a probabilidade; controle depois do evento reduz o impacto.
+
+Controles internos da gestão incluem rotinas de sistemas informatizados e servem a quatro objetivos: operações ordenadas, éticas, econômicas, eficientes e eficazes; accountability; conformidade; salvaguarda de recursos.
+
+Nível de risco combina probabilidade e impacto em escala e matriz; o residual depende da qualidade dos controles e é comparado ao apetite a risco. Tipologias do artigo dezoito: operacional, imagem, legal, financeiro e orçamentário.
+
+Alta administração estabelece e aperfeiçoa os controles; servidores os operam e comunicam deficiências; gestores avaliam os riscos das suas unidades; dirigente máximo responde pela estrutura de gerenciamento de riscos.
+
+Cinco componentes dos controles internos seguem o côsso de controle interno; oito componentes da gestão de riscos seguem o côsso de gerenciamento de riscos de dois mil e quatro. Oito exemplos de atividades de controle no artigo onze, inciso três.
+
+Preventivo é indicado para evento irreversível ou de alto impacto; detectivo trabalha por amostra ou exceção e só vale se alguém agir; automatizado depende dos controles gerais de tecnologia; manual sofre com o visto automático. Controles-chave concentram monitoramento e testes.
+
+Proporcionalidade contra o excesso e contra a insuficiência; risco aceito depois de avaliado, com registro, é decisão de gestão. Segregação entre autorização, execução, registro e controle; sem ela, controles compensatórios.
+
+Controles internos da gestão são primeira linha e não se confundem com o Sistema de Controle Interno do artigo setenta e quatro da Constituição nem com a auditoria interna.
+
+Método de análise: objetivo, etapas, evento, vulnerabilidade e controles existentes. Controle compatível tem relação direta com a causa, momento adequado, independência, proporcionalidade e evidência.
+
+Pares usuais: dados bancários com confirmação independente; pagamento bloqueado sem liquidação e com checagem de duplicidade; atesto com evidência; folha cruzada com óbitos e prova de vida; fracionamento com monitoramento acumulado; acessos nominais e revisados; custódia separada do registro, com inventário independente.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. De acordo com a Instrução Normativa Conjunta número um, de dois mil e dezesseis, risco é a possibilidade de ocorrência de um evento que venha a ter impacto no cumprimento dos objetivos, sendo medido em termos de impacto e de probabilidade.
+
+Gabarito: certo. É a definição literal do artigo segundo, inciso treze.
+
+Item dois. Risco residual é aquele a que a organização está exposta sem considerar quaisquer ações gerenciais que possam reduzir a probabilidade de sua ocorrência ou o seu impacto.
+
+Gabarito: errado. Essa é a definição de risco inerente; o residual é o que permanece após a implementação das ações de tratamento.
+
+Item três. Na formulação "devido à ausência de conferência dos dados bancários, poderá ocorrer pagamento em conta de terceiro, o que poderá levar a prejuízo ao erário", o prejuízo ao erário corresponde à causa do risco.
+
+Gabarito: errado. O prejuízo é a consequência; a causa é a ausência de conferência, e o evento é o pagamento em conta de terceiro.
+
+Item quatro. Os controles internos da gestão destinam-se a enfrentar os riscos e a fornecer segurança razoável, e não absoluta, de que os objetivos da organização serão alcançados.
+
+Gabarito: certo. A expressão consta do artigo segundo, inciso cinco, e dos artigos quarto e nono da instrução normativa.
+
+Item cinco. Pelo Decreto nove mil duzentos e três, de dois mil e dezessete, a gestão de riscos deve observar o estabelecimento de controles internos proporcionais aos riscos, considerando suas causas, fontes, consequências e impactos, observada a relação custo-benefício.
+
+Gabarito: certo. É o princípio do artigo dezessete, inciso três.
+
+Item seis. Os controles detectivos, segundo a instrução normativa, são aqueles que reduzem a ocorrência dos eventos de risco, ao passo que os preventivos possibilitam a identificação de eventos já ocorridos.
+
+Gabarito: errado. As definições estão trocadas: preventivos reduzem a ocorrência; detectivos possibilitam a identificação.
+
+Item sete. A segregação de funções entre autorização, execução, registro e controle, prevista como atividade de controle na instrução normativa, é suficiente para impedir fraudes praticadas em conluio pelos agentes responsáveis por essas funções.
+
+Gabarito: errado. O conluio é o limite da segregação, que precisa de supervisão, rodízio e controles detectivos independentes.
+
+Item oito. Em unidade de pequeno porte, na qual um único servidor executa e registra os pagamentos, a impossibilidade de segregar essas funções pode ser enfrentada com controles compensatórios, como a revisão periódica de amostra das operações por chefia independente e a conciliação feita por outra unidade.
+
+Gabarito: certo. Controles compensatórios reduzem o mesmo risco por outro caminho, e o porte não dispensa controles efetivos, pelo artigo terceiro, parágrafo primeiro.
+
+Item nove. Os controles internos da gestão de um órgão do Poder Executivo federal confundem-se com as atividades do Sistema de Controle Interno previstas no artigo setenta e quatro da Constituição, sendo exercidos pela unidade de auditoria interna.
+
+Gabarito: errado. O artigo sétimo da instrução normativa diz que não se confundem; a auditoria interna avalia a eficácia desses controles, que são operados pela própria gestão.
+
+Item dez. Uma unidade gestora realizou, ao longo do exercício, dez contratações diretas de material de expediente, cada uma abaixo do limite da dispensa por valor e com fornecedores diferentes. Como cada contratação, isoladamente, respeitou o limite, não há indício de fracionamento a apurar.
+
+Gabarito: errado. O artigo setenta e cinco, parágrafo primeiro, da Lei catorze mil cento e trinta e três manda somar a despesa do exercício da unidade gestora com objetos de mesma natureza.
+
+Item onze. Ao constatar alterações de contas bancárias de fornecedores feitas a partir de pedidos por mensagem eletrônica e seguidas de pagamento pelo mesmo usuário, o auditor pode recomendar, como controles compatíveis, a confirmação da alteração por canal já cadastrado e o impedimento, no sistema, de que o mesmo usuário altere os dados bancários e aprove o pagamento ao mesmo credor.
+
+Gabarito: certo. São controles preventivos que atuam diretamente sobre as causas identificadas, com o segundo implementado de forma automatizada.
+
+Item doze. Segundo a instrução normativa, diante dos riscos mapeados e avaliados, o órgão deve escolher entre evitar, transferir, aceitar ou tratar o risco, e a escolha depende do nível de exposição previamente estabelecido em confronto com a avaliação feita.
+
+Gabarito: certo. É o componente resposta a riscos, do artigo dezesseis, inciso cinco.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto um ponto três, integridade pública.
