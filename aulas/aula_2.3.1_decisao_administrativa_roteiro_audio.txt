@@ -1,0 +1,317 @@
+AUDIOAULA. ITEM DOIS PONTO TRÊS PONTO UM DO EDITAL: DECISÃO ADMINISTRATIVA
+
+
+ABERTURA
+
+Este é o item dois ponto três ponto um, decisão administrativa. Ele tem dois subitens, cada um dividido em dois blocos: no primeiro subitem, os elementos da decisão, isto é, competência, finalidade, motivação, proporcionalidade e segurança jurídica, e depois a consideração das consequências e das condições de atuação; no segundo, o dever de fundamentação e, em seguida, os limites ao exercício do poder e à revisão de decisões. A banca costuma cobrar a letra dos artigos vinte a trinta da Lei de Introdução às Normas do Direito Brasileiro e do seu regulamento, o rol do artigo cinquenta da Lei do processo administrativo federal, o prazo decadencial de cinco anos para anular atos favoráveis e a diferença entre anular, revogar e convalidar.
+
+
+BLOCO UM: COMPETÊNCIA, FINALIDADE, MOTIVAÇÃO, PROPORCIONALIDADE E SEGURANÇA JURÍDICA
+
+A delegação e a avocação de competência foram vistas no item um ponto quatro ponto um, e os três testes da proporcionalidade, o abuso de poder e a autotutela, no item um ponto um ponto quatro. Aqui entram os elementos que tornam uma decisão administrativa válida, a forma como cada um deles pode falhar e os princípios que a Lei nove mil setecentos e oitenta e quatro, de mil novecentos e noventa e nove, a Lei do processo administrativo federal, exige em toda decisão.
+
+Decisão administrativa é a manifestação da administração que resolve uma questão concreta: defere ou indefere um pedido, aplica ou deixa de aplicar uma sanção, aprova uma prestação de contas, anula um contrato. Ela é, na maioria dos casos, um ato administrativo, e se submete às mesmas exigências de validade.
+
+A doutrina tradicional identifica cinco elementos do ato administrativo: competência, finalidade, forma, motivo e objeto. A base legal mais citada é a Lei quatro mil setecentos e dezessete, de mil novecentos e sessenta e cinco, a Lei da Ação Popular. O seu artigo segundo declara nulos os atos lesivos ao patrimônio público nos casos de incompetência, vício de forma, ilegalidade do objeto, inexistência dos motivos e desvio de finalidade. E o parágrafo único define cada vício.
+
+A incompetência fica caracterizada quando o ato não se inclui nas atribuições legais do agente que o praticou. O vício de forma consiste na omissão ou na observância incompleta ou irregular de formalidades indispensáveis à existência ou seriedade do ato. A ilegalidade do objeto ocorre quando o resultado do ato importa violação de lei, regulamento ou outro ato normativo. A inexistência dos motivos se verifica quando a matéria de fato ou de direito em que se fundamenta o ato é materialmente inexistente ou juridicamente inadequada ao resultado obtido. E o desvio de finalidade se verifica quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.
+
+Os temas do edital correspondem a esses elementos. A competência responde à pergunta quem pode decidir. A finalidade, para quê. A motivação expõe o porquê. A proporcionalidade mede se o conteúdo da decisão é adequado ao fim. E a segurança jurídica protege quem confiou na decisão anterior.
+
+Competência é o conjunto de atribuições que a lei confere a um órgão ou agente. Ela decorre sempre de norma, e não da vontade do agente. O artigo onze da Lei nove mil setecentos e oitenta e quatro diz que a competência é irrenunciável e se exerce pelos órgãos administrativos a que foi atribuída como própria, salvo os casos de delegação e avocação legalmente admitidos. Daí as características que a doutrina aponta: a competência é irrenunciável, intransferível, salvo delegação, imodificável pela vontade do agente e imprescritível, isto é, não se perde pelo fato de não ser exercida.
+
+E quando a lei não diz quem decide? O artigo dezessete resolve: inexistindo competência legal específica, o processo administrativo deverá ser iniciado perante a autoridade de menor grau hierárquico para decidir. A regra aproxima a decisão de quem conhece o caso e preserva a possibilidade de recurso às instâncias superiores.
+
+O vício de competência pode ter graus. A usurpação de função, quando alguém sem nenhuma investidura exerce função pública, é crime e produz ato inexistente. O excesso de poder, quando o agente investido ultrapassa os limites da sua competência, é forma de abuso de poder. E a chamada função de fato ocorre quando o agente tem uma investidura irregular, mas aparência de legitimidade, como o servidor nomeado sem preencher um requisito: os atos praticados perante terceiros de boa-fé costumam ser preservados, pela teoria da aparência.
+
+Finalidade é o resultado de interesse público que o ato deve alcançar. A doutrina distingue duas camadas. A finalidade em sentido amplo é sempre o interesse público. A finalidade em sentido estrito é o fim específico que a lei atribui àquele tipo de ato: a remoção de ofício serve para atender à necessidade do serviço, a interdição de um estabelecimento serve para proteger a saúde ou a segurança, a sanção disciplinar serve para punir uma infração. O desvio de finalidade pode ocorrer mesmo quando o agente busca um interesse público, se esse interesse não for o que a lei previu para aquele ato. Usar a remoção para punir é desvio, ainda que a punição fosse cabível por outro caminho.
+
+A Lei nove mil setecentos e oitenta e quatro traduz a finalidade no artigo segundo, parágrafo único, inciso dois: atendimento a fins de interesse geral, vedada a renúncia total ou parcial de poderes ou competências, salvo autorização em lei. E o inciso três acrescenta a objetividade no atendimento do interesse público, vedada a promoção pessoal de agentes ou autoridades.
+
+Motivo e motivação não são a mesma coisa. Motivo é o pressuposto de fato e de direito que autoriza ou exige a prática do ato: a falta disciplinar comprovada, a vacância do cargo, o vencimento do prazo. Motivação é a exposição escrita desses motivos, a explicação de por que o fato se enquadra na norma e leva àquele resultado. O motivo é elemento do ato; a motivação integra a sua forma. Um ato pode ter motivo válido e motivação deficiente, ou motivação bem escrita sobre um motivo que não existe.
+
+Daí a teoria dos motivos determinantes. Os motivos declarados pela autoridade vinculam a validade do ato: se forem falsos ou inexistentes, o ato é inválido, ainda que a lei nem exigisse motivação. O exemplo clássico é a exoneração de servidor ocupante de cargo em comissão, que é de livre nomeação e exoneração, nos termos do artigo trinta e sete, inciso dois, da Constituição. A autoridade não precisa explicar por que exonera. Mas, se explicar, e o fato alegado não tiver ocorrido, a exoneração pode ser anulada.
+
+O artigo segundo, parágrafo único, inciso sete, da Lei nove mil setecentos e oitenta e quatro exige a indicação dos pressupostos de fato e de direito que determinarem a decisão. O dever de fundamentação e as suas hipóteses obrigatórias ficam para o bloco três.
+
+Proporcionalidade, no plano da lei, está no inciso seis do mesmo parágrafo: adequação entre meios e fins, vedada a imposição de obrigações, restrições e sanções em medida superior àquelas estritamente necessárias ao atendimento do interesse público. O caput do artigo segundo lista separadamente a razoabilidade e a proporcionalidade entre os princípios do processo administrativo. A doutrina costuma ligar a razoabilidade ao bom senso e à coerência lógica da decisão, e a proporcionalidade aos testes de adequação, necessidade e proporcionalidade em sentido estrito.
+
+Na prática da decisão, a proporcionalidade aparece em três lugares. Na escolha da medida: entre várias medidas aptas, a administração deve preferir a menos gravosa que seja igualmente eficaz. Na dosimetria da sanção: a pena deve corresponder à gravidade da infração. E na invalidação: anular tudo nem sempre é a resposta proporcional a um vício, como se verá no próximo bloco.
+
+Segurança jurídica é a previsibilidade e a estabilidade das relações com o poder público. O caput do artigo segundo da Lei nove mil setecentos e oitenta e quatro a inclui entre os princípios, e o inciso treze do parágrafo único traz a sua aplicação mais cobrada: interpretação da norma administrativa da forma que melhor garanta o atendimento do fim público a que se dirige, vedada aplicação retroativa de nova interpretação.
+
+Esse inciso não proíbe a administração de mudar de entendimento. Ela pode, e às vezes deve, rever uma interpretação equivocada. O que a lei proíbe é aplicar a nova interpretação a fatos passados, desfazendo situações que se formaram com base no entendimento anterior.
+
+A segurança jurídica tem uma face objetiva, ligada à estabilidade das situações, como o respeito ao direito adquirido, ao ato jurídico perfeito e à coisa julgada, no artigo quinto, inciso trinta e seis, da Constituição, e à decadência do direito de anular. E tem uma face subjetiva, a proteção da confiança legítima: quem agiu de boa-fé, confiando em ato do poder público, não deve ser surpreendido por uma mudança abrupta que lhe imponha prejuízo desproporcional.
+
+Uma última nota sobre a forma. O inciso oito do parágrafo único do artigo segundo exige a observância das formalidades essenciais à garantia dos direitos dos administrados. E o inciso nove pede a adoção de formas simples, suficientes para propiciar adequado grau de certeza, segurança e respeito aos direitos dos administrados. O formalismo da lei é moderado: a forma serve à garantia, e não a si mesma.
+
+Pegadinhas do bloco um.
+
+Primeira. Afirmar que a competência administrativa pode ser renunciada pelo titular, desde que o ato de renúncia seja publicado. Errado. O artigo onze diz que a competência é irrenunciável; o que a lei admite é a delegação, nos casos permitidos.
+
+Segunda. Afirmar que, inexistindo competência legal específica, o processo deve ser iniciado perante a autoridade de maior grau hierárquico. Errado. O artigo dezessete manda iniciar perante a autoridade de menor grau hierárquico para decidir.
+
+Terceira. Afirmar que só há desvio de finalidade quando o agente busca interesse pessoal. Errado. Também há desvio quando o agente busca um interesse público diferente daquele que a regra de competência previu para o ato.
+
+Quarta. Afirmar que, se a lei dispensa a motivação de um ato, os motivos eventualmente declarados não afetam a sua validade. Errado. Pela teoria dos motivos determinantes, os motivos declarados vinculam o ato, e a sua falsidade o invalida.
+
+Quinta. Afirmar que a vedação de aplicação retroativa de nova interpretação impede a administração de alterar o seu entendimento sobre uma norma. Errado. A mudança é possível; o que o inciso treze do artigo segundo veda é aplicá-la retroativamente.
+
+
+BLOCO DOIS: CONSEQUÊNCIAS E CONDIÇÕES DE ATUAÇÃO
+
+O artigo vinte da Lei de Introdução às Normas do Direito Brasileiro, que veda decidir com base em valores jurídicos abstratos sem considerar as consequências práticas, foi visto no item um ponto três ponto um, e o artigo vinte e oito, sobre a responsabilidade pessoal por dolo ou erro grosseiro, nos itens um ponto três ponto dois e dois ponto um ponto cinco. Aqui entram os demais dispositivos da lei sobre consequências e condições de atuação, com o detalhamento do Decreto nove mil oitocentos e trinta, de dois mil e dezenove, que os regulamenta no Poder Executivo federal.
+
+A Lei de Introdução às Normas do Direito Brasileiro é o Decreto-Lei quatro mil seiscentos e cinquenta e sete, de mil novecentos e quarenta e dois. A Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito, incluiu nela os artigos vinte a trinta, dirigidos a quem decide na aplicação do direito público. Alguns dispositivos foram vetados e não podem ser cobrados como vigentes: o parágrafo único do artigo vinte e três, o artigo vinte e cinco inteiro, o inciso dois e o parágrafo segundo do artigo vinte e seis, os três parágrafos do artigo vinte e oito e o parágrafo segundo do artigo vinte e nove.
+
+O alcance subjetivo é amplo. Os dispositivos falam em esferas administrativa, controladora e judicial. Valem, portanto, para o gestor que decide, para o órgão de controle que avalia a decisão, como a Controladoria-Geral da União e o Tribunal de Contas da União, e para o juiz.
+
+O artigo vinte tem um parágrafo único que completa o caput: a motivação demonstrará a necessidade e a adequação da medida imposta ou da invalidação de ato, contrato, ajuste, processo ou norma administrativa, inclusive em face das possíveis alternativas. O decreto, no artigo terceiro, esclarece três pontos. Valores jurídicos abstratos são aqueles previstos em normas jurídicas com alto grau de indeterminação e abstração, como moralidade, interesse público ou eficiência. O decisor só precisa considerar as consequências práticas que, no exercício diligente da sua atuação, consiga vislumbrar diante dos fatos e fundamentos de mérito e jurídicos. E a motivação deve demonstrar a necessidade e a adequação da medida, inclusive consideradas as alternativas, observados os critérios de adequação, proporcionalidade e razoabilidade.
+
+O consequencialismo da lei, portanto, não exige prever o futuro com certeza. Exige que a decisão mostre que o decisor pensou no que vai acontecer depois dela e comparou caminhos.
+
+O artigo vinte e um trata da decisão que invalida. A decisão que, nas esferas administrativa, controladora ou judicial, decretar a invalidação de ato, contrato, ajuste, processo ou norma administrativa deverá indicar de modo expresso as suas consequências jurídicas e administrativas. E o parágrafo único acrescenta que a decisão deverá, quando for o caso, indicar as condições para que a regularização ocorra de modo proporcional e equânime e sem prejuízo aos interesses gerais, não se podendo impor aos sujeitos atingidos ônus ou perdas que, em função das peculiaridades do caso, sejam anormais ou excessivos.
+
+O decreto, no artigo quarto, dá ao decisor duas ferramentas de modulação. Ao declarar a invalidade, ele pode restringir os efeitos da declaração ou decidir que ela só tenha eficácia a partir de momento posteriormente definido. A modulação busca mitigar os ônus ou as perdas anormais ou excessivos. Na prática, anular um contrato de fornecimento de medicamentos de um dia para o outro pode deixar um hospital sem estoque; a decisão pode fixar um prazo para nova contratação, mantendo os efeitos do contrato viciado até lá.
+
+O artigo vinte e dois é o dispositivo das condições de atuação. Na interpretação de normas sobre gestão pública, serão considerados os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, sem prejuízo dos direitos dos administrados. O parágrafo primeiro diz que, em decisão sobre regularidade de conduta ou validade de ato, contrato, ajuste, processo ou norma administrativa, serão consideradas as circunstâncias práticas que houverem imposto, limitado ou condicionado a ação do agente.
+
+O controle, então, deve avaliar a decisão na situação em que ela foi tomada: com a equipe, o prazo, o orçamento, a informação e o sistema que o gestor tinha à mão. Não com o conhecimento que só apareceu depois. A ressalva final do caput é decisiva: as dificuldades do gestor não autorizam sacrificar direitos dos administrados.
+
+Os parágrafos segundo e terceiro do artigo vinte e dois tratam de sanções. Na aplicação de sanções, serão consideradas a natureza e a gravidade da infração cometida, os danos que dela provierem para a administração pública, as circunstâncias agravantes ou atenuantes e os antecedentes do agente. E as sanções aplicadas ao agente serão levadas em conta na dosimetria das demais sanções de mesma natureza e relativas ao mesmo fato. Esse terceiro parágrafo não impede que esferas independentes punam o mesmo fato; ele manda que uma considere a outra na medida da pena, para evitar punição desproporcional pela soma.
+
+O artigo vinte e três trata da mudança de interpretação. A decisão que estabelecer interpretação ou orientação nova sobre norma de conteúdo indeterminado, impondo novo dever ou novo condicionamento de direito, deverá prever regime de transição quando indispensável para que o novo dever ou condicionamento seja cumprido de modo proporcional, equânime e eficiente e sem prejuízo aos interesses gerais. O decreto, nos artigos sexto e sétimo, define nova interpretação como aquela que altera o entendimento anterior consolidado, e diz o que o regime de transição deve conter: os destinatários, as medidas de adequação e o prazo e o modo para o cumprimento do novo dever.
+
+O artigo vinte e quatro protege situações já constituídas e será retomado no bloco quatro, porque é limite à revisão.
+
+O artigo vinte e seis cria o compromisso. Para eliminar irregularidade, incerteza jurídica ou situação contenciosa na aplicação do direito público, a autoridade administrativa poderá, após oitiva do órgão jurídico e, quando for o caso, após realização de consulta pública, e presentes razões de relevante interesse geral, celebrar compromisso com os interessados, que só produzirá efeitos a partir de sua publicação oficial. O compromisso deve buscar solução jurídica proporcional, equânime, eficiente e compatível com os interesses gerais, não pode conferir desoneração permanente de dever ou condicionamento de direito reconhecidos por orientação geral, e deve prever com clareza as obrigações das partes, o prazo para seu cumprimento e as consequências do descumprimento.
+
+O artigo vinte e sete trata da compensação. A decisão do processo, nas esferas administrativa, controladora ou judicial, poderá impor compensação por benefícios indevidos ou prejuízos anormais ou injustos resultantes do processo ou da conduta dos envolvidos. A decisão sobre a compensação será motivada, ouvidas previamente as partes sobre seu cabimento, sua forma e, se for o caso, seu valor. E, para prevenir ou regular a compensação, poderá ser celebrado compromisso processual entre os envolvidos.
+
+O decreto acrescenta um instrumento próprio do controle, o termo de ajustamento de gestão, no artigo onze: um acordo entre o órgão de controle e o gestor para corrigir falhas apontadas, com compromisso de adequação. O decreto proíbe a sua celebração quando tiver havido dano ao erário praticado por agente público que agiu com dolo ou erro grosseiro.
+
+O artigo vinte e nove permite que a edição de atos normativos por autoridade administrativa, salvo os de mera organização interna, seja precedida de consulta pública para manifestação de interessados, preferencialmente por meio eletrônico, a qual será considerada na decisão. O verbo é poderá: a consulta é uma faculdade, e não um requisito de validade de todo ato normativo. Quando ela ocorre, o edital de convocação divulga a minuta e fixa o prazo.
+
+Por fim, o artigo trinta: as autoridades públicas devem atuar para aumentar a segurança jurídica na aplicação das normas, inclusive por meio de regulamentos, súmulas administrativas e respostas a consultas. E o parágrafo único diz que esses instrumentos terão caráter vinculante em relação ao órgão ou entidade a que se destinam, até ulterior revisão.
+
+Uma síntese do bloco: os artigos vinte a trinta não enfraquecem o controle. Eles mudam o método. O controle continua apontando ilegalidades, mas precisa mostrar consequências, considerar as condições reais de quem decidiu, modular a invalidação quando necessário e reservar a responsabilização pessoal para o dolo e o erro grosseiro.
+
+Exemplo prático. Durante uma enchente, um município contrata, por dispensa emergencial, a montagem de abrigos. Meses depois, uma auditoria encontra preço acima da referência e um termo de referência incompleto. O relatório que respeita a lei descreve o achado, mas também registra as circunstâncias: a contratação ocorreu em quarenta e oito horas, com a defesa civil em operação, o sistema de cotação fora do ar e só dois fornecedores na região. Ele separa o que decorreu dessas condições, como a pesquisa de preços restrita, do que não decorreu delas, como um aditivo assinado semanas depois, já sem urgência. E, em vez de recomendar a anulação de um contrato já executado, recomenda apurar o eventual sobrepreço do aditivo e revisar o procedimento de contratações emergenciais.
+
+Pegadinhas do bloco dois.
+
+Primeira. Afirmar que os artigos vinte a trinta da Lei de Introdução às Normas do Direito Brasileiro se aplicam apenas à esfera administrativa. Errado. Eles se dirigem às esferas administrativa, controladora e judicial.
+
+Segunda. Afirmar que, pelo artigo vinte e dois, as dificuldades reais do gestor autorizam afastar direitos dos administrados. Errado. O próprio caput ressalva que a consideração dessas dificuldades se faz sem prejuízo dos direitos dos administrados.
+
+Terceira. Afirmar que a decisão que impõe nova interpretação sobre norma de conteúdo indeterminado deve sempre prever regime de transição. Errado. O artigo vinte e três exige o regime de transição quando indispensável ao cumprimento proporcional, equânime e eficiente do novo dever.
+
+Quarta. Afirmar que a edição de todo ato normativo exige consulta pública prévia, sob pena de nulidade. Errado. O artigo vinte e nove diz que a edição poderá ser precedida de consulta pública; é faculdade.
+
+Quinta. Afirmar que súmulas administrativas e respostas a consultas, editadas para aumentar a segurança jurídica, têm efeito apenas orientativo. Errado. O parágrafo único do artigo trinta lhes dá caráter vinculante em relação ao órgão ou entidade a que se destinam, até ulterior revisão.
+
+
+BLOCO TRÊS: DEVER DE FUNDAMENTAÇÃO
+
+A diferença entre motivo e motivação e a teoria dos motivos determinantes foram vistas no bloco um, e a exigência de demonstrar consequências e alternativas, no bloco dois. Aqui entram as hipóteses em que a motivação é obrigatória, os requisitos de uma fundamentação válida, o dever de decidir e a decisão coordenada.
+
+Fundamentar é expor as razões de fato e de direito que levaram à decisão, de modo que o destinatário saiba por que perdeu ou ganhou, possa recorrer com eficácia, e que o controle consiga verificar se a decisão é legal, proporcional e coerente. A fundamentação é, ao mesmo tempo, garantia do administrado e condição de controle.
+
+A base constitucional é indireta para a administração em geral. O artigo noventa e três, inciso dez, da Constituição exige que as decisões administrativas dos tribunais sejam motivadas. Para os demais órgãos, a doutrina extrai o dever do princípio democrático, do devido processo legal, do contraditório e da publicidade. No plano legal, a motivação está entre os princípios do caput do artigo segundo da Lei nove mil setecentos e oitenta e quatro.
+
+O artigo cinquenta é o rol mais cobrado do tema. Os atos administrativos deverão ser motivados, com indicação dos fatos e dos fundamentos jurídicos, quando: primeiro, neguem, limitem ou afetem direitos ou interesses; segundo, imponham ou agravem deveres, encargos ou sanções; terceiro, decidam processos administrativos de concurso ou seleção pública; quarto, dispensem ou declarem a inexigibilidade de processo licitatório; quinto, decidam recursos administrativos; sexto, decorram de reexame de ofício; sétimo, deixem de aplicar jurisprudência firmada sobre a questão ou discrepem de pareceres, laudos, propostas e relatórios oficiais; oitavo, importem anulação, revogação, suspensão ou convalidação de ato administrativo.
+
+Uma forma de organizar o rol: os incisos um e dois cobrem os atos que prejudicam alguém; os incisos três e quatro, as escolhas sensíveis de pessoas e de contratação; os incisos cinco e seis, a revisão de decisões; o inciso sete, o afastamento do entendimento já estabelecido; e o inciso oito, o desfazimento ou a correção de atos.
+
+O inciso sete merece destaque para quem trabalha com controle. Quando a autoridade decide contra o parecer técnico, contra o laudo ou contra o relatório oficial, precisa explicar por quê. Ela não está obrigada a seguir o parecer, mas está obrigada a enfrentá-lo.
+
+O parágrafo primeiro do artigo cinquenta traz os requisitos da motivação: ela deve ser explícita, clara e congruente, podendo consistir em declaração de concordância com fundamentos de anteriores pareceres, informações, decisões ou propostas, que, neste caso, serão parte integrante do ato. É a chamada motivação aliunde, ou por remissão: a autoridade adota como razão de decidir a nota técnica ou o parecer que a precedeu. O decreto nove mil oitocentos e trinta repete a ideia no artigo segundo, parágrafo terceiro, ao admitir que a motivação consista em declaração de concordância com o conteúdo de notas técnicas, pareceres, informações, decisões ou propostas que precederam a decisão.
+
+Explícita significa que a motivação deve estar expressa, e não presumida. Clara significa compreensível para o destinatário. E congruente significa que as razões devem levar logicamente à conclusão: uma motivação que descreve uma falta leve e conclui pela pena máxima, sem explicar a passagem, é incongruente.
+
+O parágrafo segundo admite, na solução de vários assuntos da mesma natureza, a utilização de meio mecânico que reproduza os fundamentos das decisões, desde que não prejudique direito ou garantia dos interessados. É o que permite decisões padronizadas em massa, como as de um sistema que analisa milhares de pedidos iguais. E o parágrafo terceiro determina que a motivação das decisões de órgãos colegiados e comissões ou de decisões orais constará da respectiva ata ou de termo escrito.
+
+O decreto nove mil oitocentos e trinta detalha o conteúdo, no artigo segundo. A decisão será motivada com a contextualização dos fatos, quando cabível, e com a indicação dos fundamentos de mérito e jurídicos. A motivação da decisão conterá os seus fundamentos e apresentará a congruência entre as normas e os fatos que a embasaram, de forma argumentativa. E indicará as normas, a interpretação jurídica, a jurisprudência ou a doutrina que a embasaram.
+
+O que não é fundamentação? O Código de Processo Civil, que se aplica supletiva e subsidiariamente aos processos administrativos pelo seu artigo quinze, lista no artigo quatrocentos e oitenta e nove, parágrafo primeiro, os vícios mais comuns. Não se considera fundamentada a decisão que se limita a indicar, reproduzir ou parafrasear ato normativo sem explicar a sua relação com a causa; que emprega conceitos jurídicos indeterminados sem explicar o motivo concreto da sua incidência; que invoca motivos que se prestariam a justificar qualquer outra decisão; que não enfrenta todos os argumentos capazes de, em tese, infirmar a conclusão; ou que se limita a invocar precedente sem identificar os seus fundamentos determinantes nem demonstrar que o caso se ajusta a eles. Uma decisão administrativa que diz apenas indefiro, por ausência de interesse público, sem dizer qual interesse e por que ele falta, tem exatamente o vício do conceito indeterminado sem explicação.
+
+A motivação deve ser prévia ou contemporânea ao ato. A motivação apresentada só depois, para justificar uma decisão já contestada, é vista com reserva pela doutrina, porque tende a ser construída para defender a decisão, e não para explicá-la.
+
+Há atos que dispensam motivação, por exceção prevista no próprio sistema. O exemplo é a exoneração de ocupante de cargo em comissão, de livre exoneração. Fora das hipóteses do artigo cinquenta e das exceções, a tendência da doutrina é exigir motivação como regra, por força do princípio da motivação no caput do artigo segundo.
+
+O dever de fundamentar pressupõe o dever de decidir. O artigo quarenta e oito diz que a administração tem o dever de explicitamente emitir decisão nos processos administrativos e sobre solicitações ou reclamações, em matéria de sua competência. E o artigo quarenta e nove fixa o prazo: concluída a instrução de processo administrativo, a administração tem o prazo de até trinta dias para decidir, salvo prorrogação por igual período expressamente motivada.
+
+O silêncio administrativo, portanto, não é decisão. Na falta de regra legal específica que atribua efeito ao silêncio, a omissão não equivale a deferimento nem a indeferimento; é descumprimento do dever de decidir, e pode ser levado ao Judiciário. Algumas leis atribuem efeito ao silêncio em casos específicos, mas isso depende de previsão expressa.
+
+Um instrumento recente organiza a decisão que envolve muitos órgãos: a decisão coordenada, incluída na Lei nove mil setecentos e oitenta e quatro pela Lei catorze mil duzentos e dez, de dois mil e vinte e um, nos artigos quarenta e nove á a quarenta e nove gê. No âmbito da administração pública federal, as decisões administrativas que exijam a participação de três ou mais setores, órgãos ou entidades poderão ser tomadas mediante decisão coordenada, sempre que for justificável pela relevância da matéria e houver discordância que prejudique a celeridade do processo decisório.
+
+A lei define a decisão coordenada como a instância de natureza interinstitucional ou intersetorial que atua de forma compartilhada com a finalidade de simplificar o processo administrativo, mediante participação concomitante de todas as autoridades e agentes decisórios e dos responsáveis pela instrução técnico-jurídica. Ela não exclui a responsabilidade originária de cada órgão ou autoridade envolvida. O dissenso deve ser manifestado durante as reuniões, de forma fundamentada, acompanhado das propostas de solução e de alteração necessárias. E a conclusão é consolidada em ata, publicada por extrato no Diário Oficial da União, que inclui, entre outros pontos, a síntese dos fundamentos e a decisão de cada órgão sobre a matéria da sua competência.
+
+Três exclusões são as mais cobradas. A decisão coordenada não se aplica aos processos administrativos de licitação, aos relacionados ao poder sancionador e aos que envolvam autoridades de Poderes distintos.
+
+Pegadinhas do bloco três.
+
+Primeira. Afirmar que a autoridade que discorda do parecer técnico precisa apenas registrar que não o acolhe. Errado. O artigo cinquenta, inciso sete, exige motivação quando o ato discrepa de pareceres, laudos, propostas e relatórios oficiais.
+
+Segunda. Afirmar que é inválida a motivação que se limita a declarar concordância com parecer anterior. Errado. O parágrafo primeiro do artigo cinquenta admite a motivação por concordância, e o parecer passa a integrar o ato.
+
+Terceira. Afirmar que o prazo de trinta dias para decidir, após a instrução, é improrrogável. Errado. O artigo quarenta e nove admite prorrogação por igual período, expressamente motivada.
+
+Quarta. Afirmar que, na falta de decisão no prazo legal, o pedido se considera deferido. Errado. Sem lei específica que atribua esse efeito, o silêncio não equivale a deferimento; é descumprimento do dever de decidir do artigo quarenta e oito.
+
+Quinta. Afirmar que a decisão coordenada pode ser usada para acelerar processos sancionadores que envolvam vários órgãos. Errado. A lei exclui expressamente os processos relacionados ao poder sancionador, além dos de licitação e dos que envolvam Poderes distintos.
+
+
+BLOCO QUATRO: LIMITES AO EXERCÍCIO DO PODER E À REVISÃO DE DECISÕES
+
+O abuso de poder, nas formas de excesso e de desvio, e a autotutela foram vistos no item um ponto um ponto quatro, e a impossibilidade de delegar a decisão de recursos, no item um ponto quatro ponto um. Aqui entram os limites do poder discricionário e do seu controle, e as regras sobre anulação, revogação, convalidação, decadência, recurso e revisão.
+
+O primeiro limite está na própria natureza do poder de decidir. No ato vinculado, a lei define todos os elementos: preenchidos os requisitos, a administração deve praticar o ato, como a concessão de uma aposentadoria a quem cumpriu as condições. No ato discricionário, a lei deixa à administração uma margem de escolha quanto ao motivo ou ao objeto, para que ela avalie a conveniência e a oportunidade, como a autorização de uso de um espaço público. Essa margem é o mérito administrativo.
+
+A doutrina majoritária ensina que competência, finalidade e forma são sempre vinculadas, mesmo no ato discricionário. A liberdade, quando existe, está no motivo e no objeto. Discricionariedade não é arbitrariedade: a escolha é feita dentro da lei, com motivação, para a finalidade legal e de forma proporcional.
+
+O controle judicial alcança a legalidade, em sentido amplo, de qualquer ato, inclusive do discricionário. O juiz pode verificar a competência, a forma, a finalidade, a existência e a adequação dos motivos e a proporcionalidade da medida. O que ele não pode é substituir a escolha legítima do administrador pela sua, quando havia mais de uma solução válida. O mesmo vale, com mais razão, para os órgãos de controle administrativo. O decreto nove mil oitocentos e trinta diz, no artigo treze, que a análise da regularidade da decisão não poderá substituir a atribuição do agente público, dos órgãos ou das entidades no exercício de suas atribuições e competências, inclusive quanto à definição de políticas públicas.
+
+Um segundo limite vem do direito penal. A Lei treze mil oitocentos e sessenta e nove, de dois mil e dezenove, a Lei de Abuso de Autoridade, define crimes cometidos por agente público que, no exercício de suas funções ou a pretexto de exercê-las, abuse do poder que lhe tenha sido atribuído. O parágrafo primeiro do artigo primeiro exige uma finalidade específica: as condutas só são crime quando praticadas com a finalidade de prejudicar outrem ou beneficiar a si mesmo ou a terceiro, ou ainda por mero capricho ou satisfação pessoal. E o parágrafo segundo afasta o chamado crime de hermenêutica: a divergência na interpretação de lei ou na avaliação de fatos e provas não configura abuso de autoridade. Decidir com base em interpretação razoável, mesmo que depois vencida, não é crime.
+
+Os limites à revisão começam pelas duas formas clássicas de desfazimento. A Súmula trezentos e quarenta e seis do Supremo Tribunal Federal diz que a administração pública pode declarar a nulidade dos seus próprios atos. E a Súmula quatrocentos e setenta e três completa: a administração pode anular seus próprios atos, quando eivados de vícios que os tornam ilegais, porque deles não se originam direitos; ou revogá-los, por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos, e ressalvada, em todos os casos, a apreciação judicial.
+
+O artigo cinquenta e três da Lei nove mil setecentos e oitenta e quatro positivou a regra com um ajuste de verbo: a administração deve anular seus próprios atos, quando eivados de vício de legalidade, e pode revogá-los por motivo de conveniência ou oportunidade, respeitados os direitos adquiridos. Anular é dever; revogar é faculdade.
+
+As diferenças entre as duas formas são sistemáticas. A anulação tem por fundamento a ilegalidade; a revogação, a conveniência e a oportunidade. A anulação pode ser feita pela administração e pelo Judiciário; a revogação, só pela administração que praticou o ato, porque envolve mérito. A anulação, em regra, produz efeitos retroativos, desde a origem do ato; a revogação produz efeitos dali em diante, porque o ato era válido. A anulação alcança atos vinculados e discricionários; a revogação, só os discricionários.
+
+A doutrina aponta atos que não podem ser revogados: os atos vinculados, porque não há mérito a reavaliar; os atos que já exauriram os seus efeitos, os chamados atos consumados; os atos que geraram direitos adquiridos; os atos que integram um procedimento, quando já se passou à fase seguinte; e os meros atos administrativos, como certidões e atestados, cujos efeitos decorrem da lei.
+
+A anulação de ato que produziu efeitos favoráveis a alguém exige contraditório prévio. O destinatário tem de ser ouvido antes que o seu direito aparente seja desfeito, por força do artigo quinto, inciso cinquenta e cinco, da Constituição e do próprio devido processo.
+
+A convalidação é a terceira via. O artigo cinquenta e cinco diz que, em decisão na qual se evidencie não acarretarem lesão ao interesse público nem prejuízo a terceiros, os atos que apresentarem defeitos sanáveis poderão ser convalidados pela própria administração. A convalidação corrige o vício e preserva o ato desde a origem, com efeitos retroativos. Para a doutrina majoritária, são sanáveis, em regra, o vício de competência, desde que não se trate de competência exclusiva, e o vício de forma, desde que a forma não seja essencial à validade do ato. Vícios de finalidade, de motivo e de objeto, em regra, não se convalidam. E a convalidação também exige motivação, pelo inciso oito do artigo cinquenta.
+
+O limite temporal mais cobrado é a decadência. O artigo cinquenta e quatro diz que o direito da administração de anular os atos administrativos de que decorram efeitos favoráveis para os destinatários decai em cinco anos, contados da data em que foram praticados, salvo comprovada má-fé. O parágrafo primeiro diz que, no caso de efeitos patrimoniais contínuos, o prazo de decadência contar-se-á da percepção do primeiro pagamento. E o parágrafo segundo considera exercício do direito de anular qualquer medida de autoridade administrativa que importe impugnação à validade do ato.
+
+Quatro detalhes desse artigo. O prazo vale para atos favoráveis ao destinatário; atos desfavoráveis podem ser anulados a qualquer tempo, em benefício do administrado. A má-fé afasta a decadência, mas precisa ser comprovada; a boa-fé se presume. O parágrafo segundo significa que a abertura de processo para rever o ato, dentro dos cinco anos, já interrompe o risco de decadência, mesmo que a decisão final venha depois. E a Súmula seiscentos e trinta e três do Superior Tribunal de Justiça diz que a Lei nove mil setecentos e oitenta e quatro, especialmente no que diz respeito ao prazo decadencial para a revisão de atos administrativos no âmbito da administração pública federal, pode ser aplicada, de forma subsidiária, aos estados e municípios, se inexistente norma local e específica que regule a matéria.
+
+O Supremo Tribunal Federal já afastou a decadência em situações de inconstitucionalidade flagrante, como o provimento de cargo público sem concurso. Não confirmei a extensão atual dessa jurisprudência.
+
+Os tribunais de contas também têm limite temporal. A Súmula Vinculante três diz que, nos processos perante o Tribunal de Contas da União, asseguram-se o contraditório e a ampla defesa quando da decisão puder resultar anulação ou revogação de ato administrativo que beneficie o interessado, excetuada a apreciação da legalidade do ato de concessão inicial de aposentadoria, reforma e pensão. E, no Tema quatrocentos e quarenta e cinco da repercussão geral, julgado em dois mil e vinte, o Supremo fixou que os tribunais de contas estão sujeitos ao prazo de cinco anos para o julgamento da legalidade do ato de concessão inicial de aposentadoria, reforma ou pensão, a contar da chegada do processo à respectiva corte de contas. Passado esse prazo, o ato é considerado definitivamente registrado.
+
+A segurança jurídica limita a revisão também quanto ao critério. O artigo vinte e quatro da Lei de Introdução às Normas do Direito Brasileiro diz que a revisão, nas esferas administrativa, controladora ou judicial, quanto à validade de ato, contrato, ajuste, processo ou norma administrativa cuja produção já se houver completado levará em conta as orientações gerais da época, sendo vedado que, com base em mudança posterior de orientação geral, se declarem inválidas situações plenamente constituídas. O parágrafo único define orientações gerais como as interpretações e especificações contidas em atos públicos de caráter geral ou em jurisprudência judicial ou administrativa majoritária, e ainda as adotadas por prática administrativa reiterada e de amplo conhecimento público. O decreto, no artigo quinto, acrescenta que essa vedação não exclui a possibilidade de suspensão de efeitos futuros de relação em curso.
+
+Dessa forma, um ato praticado de acordo com o entendimento dominante na época não pode ser anulado porque o entendimento mudou depois. Mas a relação que continua no tempo pode ser ajustada dali em diante.
+
+O recurso administrativo é a revisão provocada pelo interessado. O artigo cinquenta e seis diz que das decisões administrativas cabe recurso, em face de razões de legalidade e de mérito. O recurso é dirigido à autoridade que proferiu a decisão, a qual, se não a reconsiderar no prazo de cinco dias, o encaminhará à autoridade superior. E, salvo exigência legal, a interposição de recurso administrativo independe de caução. O artigo cinquenta e sete limita a tramitação a, no máximo, três instâncias administrativas, salvo disposição legal diversa.
+
+O prazo para recorrer é de dez dias, contado a partir da ciência ou divulgação oficial da decisão recorrida, salvo disposição legal específica, pelo artigo cinquenta e nove. O recurso deve ser decidido em até trinta dias a partir do recebimento dos autos pelo órgão competente, prazo que pode ser prorrogado por igual período, ante justificativa explícita.
+
+Pelo artigo sessenta e um, salvo disposição legal em contrário, o recurso não tem efeito suspensivo. Havendo justo receio de prejuízo de difícil ou incerta reparação decorrente da execução, a autoridade recorrida ou a imediatamente superior poderá, de ofício ou a pedido, dar efeito suspensivo ao recurso.
+
+O artigo sessenta e três lista os casos em que o recurso não será conhecido: fora do prazo, perante órgão incompetente, por quem não seja legitimado ou após exaurida a esfera administrativa. Quando o recurso é dirigido a órgão incompetente, o recorrente é informado sobre a autoridade competente, e o prazo para recurso é devolvido. E o parágrafo segundo traz um limite à preclusão: o não conhecimento do recurso não impede a administração de rever de ofício o ato ilegal, desde que não ocorrida preclusão administrativa.
+
+O artigo sessenta e quatro define o poder do órgão recursal: ele poderá confirmar, modificar, anular ou revogar, total ou parcialmente, a decisão recorrida, se a matéria for de sua competência. E o parágrafo único admite o agravamento: se da aplicação do disposto neste artigo puder decorrer gravame à situação do recorrente, este deverá ser cientificado para que formule suas alegações antes da decisão. No recurso administrativo, portanto, a chamada reforma para pior é possível, desde que o recorrente seja ouvido antes.
+
+A revisão do artigo sessenta e cinco é diferente do recurso. Os processos administrativos de que resultem sanções poderão ser revistos, a qualquer tempo, a pedido ou de ofício, quando surgirem fatos novos ou circunstâncias relevantes suscetíveis de justificar a inadequação da sanção aplicada. E o parágrafo único veda o agravamento: da revisão do processo não poderá resultar agravamento da sanção.
+
+O contraste é o ponto mais explorado do tema. No recurso, que ataca uma decisão ainda não definitiva, a situação do recorrente pode piorar, com ciência prévia. Na revisão, que reabre um processo sancionador já encerrado por causa de fato novo, a sanção não pode aumentar. A revisão não serve para rediscutir as mesmas provas: exige fato novo ou circunstância relevante.
+
+Há, no Congresso, projeto de lei para substituir a Lei nove mil setecentos e oitenta e quatro por um estatuto nacional do processo administrativo, aplicável também a estados e municípios. Não confirmei se ele já foi aprovado; as regras desta aula seguem a lei em vigor.
+
+Exemplo prático. Em dois mil e vinte e seis, uma unidade de gestão de pessoas descobre que uma servidora recebe, desde dois mil e dezenove, um adicional calculado sobre base errada. A primeira pergunta é a decadência: o adicional tem efeito patrimonial contínuo, então o prazo de cinco anos conta do primeiro pagamento, e já passou. A segunda é a boa-fé: não há indício de que a servidora tenha induzido o erro, e a má-fé não se presume. A terceira é o critério: o cálculo seguia uma orientação normativa do órgão central, vigente na época e depois alterada. Se a anulação estiver vedada pela decadência e pelo artigo vinte e quatro, a unidade não anula os pagamentos passados, mas pode ajustar o cálculo dali em diante, por ser relação em curso, motivando a decisão e ouvindo a servidora antes.
+
+Pegadinhas do bloco quatro.
+
+Primeira. Afirmar que o Judiciário pode revogar ato administrativo discricionário que considere inconveniente. Errado. O Judiciário controla a legalidade e pode anular; a revogação, por conveniência e oportunidade, cabe só à administração que praticou o ato.
+
+Segunda. Afirmar que, pela Lei nove mil setecentos e oitenta e quatro, a administração pode anular os seus atos ilegais, se assim entender conveniente. Errado. O artigo cinquenta e três diz que a administração deve anular; anular é dever, e a faculdade é a de revogar.
+
+Terceira. Afirmar que o prazo decadencial de cinco anos do artigo cinquenta e quatro se aplica mesmo quando comprovada a má-fé do beneficiário. Errado. O próprio caput ressalva a comprovada má-fé.
+
+Quarta. Afirmar que, no recurso administrativo, é vedado agravar a situação do recorrente. Errado. O parágrafo único do artigo sessenta e quatro admite o agravamento, desde que o recorrente seja cientificado para formular alegações antes da decisão; a vedação de agravamento é da revisão do artigo sessenta e cinco.
+
+Quinta. Afirmar que a divergência na interpretação de lei pode, por si só, configurar crime de abuso de autoridade. Errado. O parágrafo segundo do artigo primeiro da Lei treze mil oitocentos e sessenta e nove diz o contrário.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Elementos: competência, finalidade, forma, motivo e objeto; vícios definidos no artigo segundo da Lei da Ação Popular.
+
+Competência: decorre da lei, é irrenunciável e, sem regra específica, cabe à autoridade de menor grau hierárquico.
+
+Finalidade: interesse público em geral e fim específico da regra de competência.
+
+Motivo é o pressuposto; motivação é a sua exposição; motivos declarados vinculam.
+
+Proporcionalidade: medida menos gravosa, dosimetria da sanção e invalidação na medida necessária.
+
+Segurança jurídica: proteção da confiança, decadência e vedação de aplicar retroativamente nova interpretação.
+
+Consequências: motivação com necessidade, adequação e alternativas; invalidação com consequências expressas e possível modulação dos efeitos.
+
+Condições de atuação: obstáculos reais do gestor, circunstâncias práticas, critérios de dosimetria e consideração das sanções de outras esferas.
+
+Instrumentos: regime de transição, compromisso, compensação, termo de ajustamento de gestão, consulta pública e instrumentos vinculantes de segurança jurídica.
+
+Fundamentação: rol do artigo cinquenta; explícita, clara e congruente; concordância com parecer; ata para colegiados; trinta dias para decidir após a instrução.
+
+Decisão coordenada: três ou mais órgãos, relevância e discordância, responsabilidade de cada um preservada, ata publicada por extrato.
+
+Limites ao poder: mérito no motivo e no objeto; controle de legalidade sem substituir a escolha válida; abuso de autoridade exige finalidade específica.
+
+Revisão: anulação por ilegalidade, revogação por mérito, convalidação de defeitos sanáveis; cinco anos para anular atos favoráveis, do primeiro pagamento nos efeitos contínuos; cinco anos para o tribunal de contas registrar aposentadoria; orientações gerais da época.
+
+Recurso: legalidade e mérito, dez dias, reconsideração em cinco, três instâncias, sem efeito suspensivo como regra.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. Segundo a Lei nove mil setecentos e oitenta e quatro, a competência administrativa pode ser renunciada pelo seu titular, desde que haja publicação do ato no meio oficial.
+
+Gabarito: errado. A competência é irrenunciável, pelo artigo onze.
+
+Item dois. Um servidor ocupante de cargo em comissão é exonerado com a justificativa de que teria faltado ao serviço em determinado mês, fato que depois se prova inexistente. A exoneração pode ser invalidada, ainda que a lei dispense a motivação desse tipo de ato.
+
+Gabarito: certo. Teoria dos motivos determinantes.
+
+Item três. Nos termos da Lei da Ação Popular, há desvio de finalidade quando o agente pratica o ato visando a fim diverso daquele previsto, explícita ou implicitamente, na regra de competência.
+
+Gabarito: certo. Artigo segundo, parágrafo único, alínea e, da Lei quatro mil setecentos e dezessete.
+
+Item quatro. A decisão que, na esfera controladora, decretar a invalidação de um contrato administrativo deverá indicar de modo expresso as suas consequências jurídicas e administrativas.
+
+Gabarito: certo. Artigo vinte e um da Lei de Introdução às Normas do Direito Brasileiro.
+
+Item cinco. Na avaliação da regularidade da conduta de um gestor, o órgão de controle deve desconsiderar as circunstâncias práticas da sua atuação, para assegurar a objetividade do exame.
+
+Gabarito: errado. O artigo vinte e dois, parágrafo primeiro, manda considerar as circunstâncias práticas que impuseram, limitaram ou condicionaram a ação do agente.
+
+Item seis. A motivação do ato administrativo pode consistir em declaração de concordância com fundamentos de parecer anterior, que, nesse caso, integrará o ato.
+
+Gabarito: certo. Artigo cinquenta, parágrafo primeiro, da Lei nove mil setecentos e oitenta e quatro.
+
+Item sete. Pela Lei nove mil setecentos e oitenta e quatro, todo ato administrativo deve ser motivado, inclusive a exoneração de ocupante de cargo em comissão.
+
+Gabarito: errado. A exoneração de cargo em comissão é de livre exoneração e dispensa motivação.
+
+Item oito. A decisão coordenada, prevista na Lei nove mil setecentos e oitenta e quatro, pode ser adotada em processo administrativo sancionador que exija a participação de três ou mais órgãos.
+
+Gabarito: errado. Os processos relacionados ao poder sancionador são expressamente excluídos.
+
+Item nove. Ao julgar ação contra ato discricionário, o juiz pode revogá-lo, se concluir que outra solução atenderia melhor ao interesse público.
+
+Gabarito: errado. O Judiciário não revoga ato administrativo nem substitui a escolha válida do administrador.
+
+Item dez. O direito da administração de anular ato de que decorram efeitos favoráveis ao destinatário decai em cinco anos, salvo comprovada má-fé, e, nos efeitos patrimoniais contínuos, o prazo conta da percepção do primeiro pagamento.
+
+Gabarito: certo. Artigo cinquenta e quatro, caput e parágrafo primeiro.
+
+Item onze. Na revisão de processo administrativo de que resultou sanção, motivada por fato novo, a autoridade pode agravar a penalidade, desde que assegure prévia manifestação do interessado.
+
+Gabarito: errado. O parágrafo único do artigo sessenta e cinco veda o agravamento da sanção na revisão.
+
+Item doze. O órgão competente para decidir o recurso administrativo pode modificar a decisão recorrida em prejuízo do recorrente, desde que este seja cientificado para formular alegações antes da decisão.
+
+Gabarito: certo. Artigo sessenta e quatro, parágrafo único.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto três ponto dois, processo e garantias.
