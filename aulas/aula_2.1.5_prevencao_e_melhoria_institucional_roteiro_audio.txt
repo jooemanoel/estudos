@@ -1,0 +1,220 @@
+AUDIOAULA. ITEM DOIS PONTO UM PONTO CINCO DO EDITAL: PREVENÇÃO E MELHORIA INSTITUCIONAL
+
+
+ABERTURA
+
+Este é o item dois ponto um ponto cinco, prevenção e melhoria institucional. Ele tem três subitens, um por bloco: cultura, incentivos e confiança, diferenças de capacidade entre organizações, orientação e medidas proporcionais; denúncias e resultados de controle como insumos de melhoria; e a distinção entre baixa ocorrência e baixa detecção de problemas, com a leitura de evidências simples sobre o funcionamento e os resultados das medidas. A banca costuma cobrar a lógica preventiva e graduada do controle, o dever da alta administração de implementar recomendações ou assumir formalmente o risco, previsto no Referencial Técnico da Auditoria Interna Governamental, e a armadilha de ler poucos problemas registrados como poucos problemas reais.
+
+
+BLOCO UM: CULTURA, INCENTIVOS, CONFIANÇA, CAPACIDADES E MEDIDAS PROPORCIONAIS
+
+O triângulo da fraude, a lei de Gúdrart, a segurança psicológica e o desenho de metas foram vistos no item um ponto três ponto cinco; a proporcionalidade dos controles ao risco, no dois ponto um ponto dois. Aqui entram a forma como o controle usa cultura, incentivos e confiança para prevenir, as diferenças de capacidade entre organizações e a graduação das respostas.
+
+Prevenir é agir sobre as condições que tornam o problema provável, antes que ele aconteça. A diretriz normativa é conhecida: o Decreto nove mil duzentos e três, de dois mil e dezessete, no artigo quarto, inciso seis, manda implementar controles internos fundamentados na gestão de risco, que privilegiem ações estratégicas de prevenção antes de processos sancionadores. Prevenção não substitui sanção; ela vem antes e atua em escala, porque uma falha de processo corrigida evita muitos casos futuros, enquanto uma sanção resolve um caso passado.
+
+Cultura organizacional é o conjunto de valores, crenças e práticas compartilhadas que dizem, na prática, o que é aceito e o que não é. Ela pesa mais do que a norma escrita porque é a referência que as pessoas usam nas situações que a norma não previu. Para a prevenção, a cultura importa por três razões. Primeira: ela define se os erros aparecem ou são escondidos. Segunda: ela define se uma regra é vista como proteção ou como obstáculo a contornar. Terceira: ela define se quem aponta um problema é visto como colaborador ou como traidor. Nenhuma dessas três coisas muda por decreto; mudam com exemplo da liderança, com consequências coerentes e com tempo.
+
+Uma ferramenta útil para graduar a resposta a falhas, vinda da segurança na aviação e na saúde, é a ideia de cultura justa, associada a autores como Djêims Rízon e Dêivid Márx. Ela distingue três situações. Erro humano: a pessoa fez algo diferente do que pretendia, como digitar um valor errado; a resposta adequada é apoiar e corrigir o processo que permitiu o erro. Comportamento de risco: a pessoa escolheu um atalho sem perceber o risco, ou achando que ele era justificado, como pular uma conferência porque todos pulam; a resposta adequada é orientar, remover o incentivo ao atalho e reforçar o controle. Conduta temerária ou dolosa: a pessoa sabia do risco relevante e o ignorou, ou agiu de má-fé; a resposta adequada é a apuração e a sanção. A cultura justa não é cultura sem punição: é a punição reservada a quem a merece, para que os demais tenham segurança de relatar erros.
+
+Incentivos, no plano institucional, são as consequências que a organização associa a cada comportamento. Para a prevenção, três incentivos são decisivos. O incentivo a relatar: se quem relata um problema sofre custos, como exposição, isolamento ou retaliação, e quem se cala não sofre nada, a organização para de saber o que acontece. O incentivo a corrigir: se a unidade que reconhece uma falha é tratada da mesma forma que a que a esconde, ninguém reconhece. O incentivo a decidir: se o gestor que decide de boa-fé, com base nas informações que tinha, é responsabilizado por qualquer resultado ruim, ele passa a não decidir, ou a decidir só o que é seguro para ele, não o que é melhor para o serviço. Esse terceiro efeito ficou conhecido no debate brasileiro como apagão das canetas.
+
+A Lei de Introdução às Normas do Direito Brasileiro, alterada pela Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito, respondeu a esse problema. O artigo vinte e dois manda considerar, na interpretação das normas de gestão pública, os obstáculos e as dificuldades reais do gestor e as exigências das políticas públicas a seu cargo, e, no parágrafo primeiro, as circunstâncias práticas que impuseram, limitaram ou condicionaram a ação do agente. O artigo vinte e oito diz que o agente público responde pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro. O Decreto nove mil oitocentos e trinta, de dois mil e dezenove, que regulamenta esses artigos, define erro grosseiro como o erro manifesto, evidente e inescusável, praticado com culpa grave. A consideração das consequências e das condições de atuação será aprofundada no item dois ponto três ponto um.
+
+Confiança é o terceiro elemento do subitem, em dois sentidos. O primeiro é a confiança das pessoas nos mecanismos: o servidor só relata se confiar que será protegido e que algo vai acontecer; o usuário só reclama se acreditar que a reclamação é lida. O segundo é a confiança entre controle e gestão. Um controle percebido como adversário recebe informações incompletas, defensivas e tardias; um controle percebido como parceiro na solução recebe as falhas cedo, quando ainda são baratas de corrigir. Isso não significa controle complacente: significa controle previsível, com critérios conhecidos, que reconhece boa-fé, que distingue falha de fraude e que reserva a dureza para quem a justifica.
+
+A segunda parte do subitem são as diferenças de capacidade entre organizações. As capacidades estatais, administrativa e política, foram vistas no item um ponto um ponto três. Aqui o ponto é prático: órgãos, entidades e entes federativos diferem muito em pessoal, sistemas, orçamento e maturidade de gestão. Um ministério com unidade de auditoria interna, gestão de riscos estruturada e sistemas integrados não está na mesma situação de um município pequeno com um único servidor responsável por compras, contabilidade e transparência. Exigir de ambos as mesmas medidas, com a mesma profundidade, produz um de dois resultados ruins: ou a regra não é cumprida pelo menor, ou é cumprida só no papel.
+
+As normas reconhecem essas diferenças em vários pontos. A Lei catorze mil cento e trinta e três, no artigo cento e setenta e seis, deu aos municípios com até vinte mil habitantes prazo de seis anos, contado da publicação da lei, para cumprir os requisitos de designação de agentes e de segregação de funções dos artigos sétimo e oitavo, a obrigatoriedade da licitação eletrônica e as regras de divulgação em sítio oficial. A Lei de Acesso à Informação, no artigo oitavo, parágrafo quarto, dispensa os municípios com até dez mil habitantes da divulgação obrigatória na internet, mantida a divulgação em tempo real da execução orçamentária e financeira. No setor privado, o Decreto onze mil cento e vinte e nove prevê avaliação simplificada do programa de integridade de microempresas e empresas de pequeno porte, como visto no item dois ponto um ponto quatro. E a Lei Complementar cento e vinte e três, de dois mil e seis, no artigo cinquenta e cinco, determina que a fiscalização de microempresas e empresas de pequeno porte, nos aspectos trabalhista, metrológico, sanitário, ambiental, de segurança, de relações de consumo e de uso e ocupação do solo, tenha natureza prioritariamente orientadora quando a atividade comportar grau de risco compatível; o parágrafo primeiro impõe o critério da dupla visita para a lavratura de autos de infração, salvo falta de registro de empregado ou de anotação na carteira de trabalho, reincidência, fraude, resistência ou embaraço à fiscalização.
+
+O sentido comum desses dispositivos é o mesmo: a obrigação não desaparece, mas o caminho para cumpri-la e a forma de cobrar levam em conta a capacidade de quem deve cumpri-la. Reconhecer capacidade baixa não é aceitar risco alto: onde o risco é alto, a resposta é apoiar o fortalecimento da capacidade, não baixar a exigência.
+
+A terceira parte do subitem é a orientação. Orientar é dar ao gestor, antes do problema, a informação de que ele precisa para agir corretamente. É a forma mais barata de prevenção, porque atua sobre muitas pessoas ao mesmo tempo e não depende de descobrir cada falha. Os instrumentos são variados: guias, manuais, modelos de editais e de documentos, respostas a consultas, capacitações, cursos a distância, painéis de dados e serviços de consultoria. O Referencial Técnico da Atividade de Auditoria Interna Governamental do Poder Executivo Federal, aprovado pela Instrução Normativa da Secretaria Federal de Controle Interno número três, de nove de junho de dois mil e dezessete, distingue os serviços de avaliação, que analisam evidências para opinar sobre governança, riscos e controles, dos serviços de consultoria, que são assessoramento e aconselhamento prestados a pedido do gestor. A Lei catorze mil cento e trinta e três, no artigo cento e setenta e três, manda os tribunais de contas promoverem, por meio das escolas de contas, capacitação dos servidores e empregados que atuam nas funções essenciais da lei. E a mesma lei de introdução, no artigo trinta, manda as autoridades públicas atuarem para aumentar a segurança jurídica, inclusive por regulamentos, súmulas administrativas e respostas a consultas, que têm caráter vinculante para o órgão ou entidade a que se destinam até ulterior revisão.
+
+A orientação tem limites que convém conhecer. Ela não transfere a decisão: o gestor orientado continua responsável pela sua escolha. E a consultoria do controle interno não pode comprometer a independência da avaliação futura, motivo pelo qual o auditor que presta consultoria não assume responsabilidades de gestão.
+
+A quarta parte do subitem são as medidas proporcionais. Proporcional é a medida adequada ao objetivo, necessária, porque não há outra menos gravosa igualmente eficaz, e equilibrada entre o que custa e o que protege. Na prevenção, a proporcionalidade se manifesta como uma escada de respostas. Na base, orientar e corrigir; no meio, recomendar, acompanhar e exigir plano de ação; no topo, apurar e sancionar. Essa ideia tem formulação clássica na teoria da regulação responsiva, de Iân Iâres e Djón Breiuêite, de mil novecentos e noventa e dois, conhecida como pirâmide de fiscalização: a maior parte das interações se resolve na base, por persuasão; a resposta sobe de degrau quando o destinatário não coopera; e a existência de degraus altos e críveis é o que torna eficaz a conversa na base. A pirâmide não diz que se deve sempre começar por baixo: fraude, dolo e risco grave justificam começar pelo alto.
+
+A Lei catorze mil cento e trinta e três traduz essa escada no artigo cento e sessenta e nove, parágrafo terceiro, visto no item dois ponto um ponto um: impropriedade formal pede saneamento, aperfeiçoamento dos controles preventivos e capacitação; irregularidade com dano pede, além disso, apuração das infrações e comunicação aos órgãos competentes.
+
+Exemplo prático. Na análise de contratações de vinte prefeituras que recebem transferências federais, uma equipe da cê gê u encontra o mesmo padrão em dezesseis delas: pesquisas de preço feitas com três orçamentos de fornecedores locais, sem consulta a painéis de preços públicos. Em duas, os orçamentos foram produzidos pela mesma pessoa, com papel timbrado de empresas diferentes. A resposta proporcional não é igual para todas. Nas catorze em que há falha de método, sem indício de fraude, cabe orientar, recomendar o uso das fontes oficiais e oferecer capacitação. Nas duas em que há indício de montagem de orçamentos, cabe aprofundar a apuração. E o padrão repetido em dezesseis prefeituras sugere uma causa comum, como desconhecimento da regra ou falta de acesso às ferramentas, que se resolve melhor com um guia e um curso do que com dezesseis processos.
+
+Pegadinhas do bloco um.
+
+"A diretriz de privilegiar a prevenção antes de processos sancionadores significa que a administração deve esgotar medidas de orientação antes de instaurar qualquer apuração." Errado. O Decreto nove mil duzentos e três privilegia a prevenção, mas não a torna condição prévia: diante de indício de fraude ou dano, a apuração é devida.
+
+"Pela Lei de Introdução às Normas do Direito Brasileiro, o agente público responde pessoalmente por qualquer erro em suas decisões, desde que haja dano ao erário." Errado. O artigo vinte e oito restringe a responsabilização pessoal aos casos de dolo ou erro grosseiro, definido no Decreto nove mil oitocentos e trinta como erro manifesto, evidente e inescusável, praticado com culpa grave.
+
+"Cultura justa é aquela em que os erros não geram consequências, para estimular o relato." Errado. Ela distingue erro humano, comportamento de risco e conduta temerária ou dolosa, e reserva a sanção para esta última.
+
+"Os municípios com até vinte mil habitantes estão dispensados da segregação de funções e da licitação eletrônica." Errado. O artigo cento e setenta e seis da Lei catorze mil cento e trinta e três lhes deu prazo de seis anos para cumprir essas exigências, não dispensa definitiva.
+
+"O critério da dupla visita da Lei Complementar cento e vinte e três impede a autuação imediata de microempresa em qualquer hipótese." Errado. O parágrafo primeiro do artigo cinquenta e cinco excetua falta de registro de empregado ou de anotação na carteira, reincidência, fraude, resistência ou embaraço à fiscalização.
+
+"A orientação prestada pelo controle interno transfere a ele a responsabilidade pela decisão do gestor." Errado. O gestor continua responsável pela decisão, e o auditor que presta consultoria não assume responsabilidades de gestão.
+
+
+BLOCO DOIS: DENÚNCIAS E RESULTADOS DE CONTROLE COMO INSUMOS DE MELHORIA
+
+Os canais de relato, a ouvidoria, a proteção do denunciante e as fontes de informação das funções de integridade foram vistos nos itens um ponto três ponto cinco e dois ponto um ponto três. Aqui entra o uso das denúncias e dos resultados de controle para melhorar processos, e não só para resolver casos.
+
+Uma denúncia ou um achado de auditoria pode ser tratado de duas formas. Na primeira, ele é um caso: verifica-se o fato, responde-se ao denunciante ou ao auditor, eventualmente se apura a responsabilidade, e o assunto se encerra. Na segunda, ele é também um sinal: pergunta-se por que o fato foi possível, se ele se repete em outros lugares e o que no processo precisa mudar para que não ocorra de novo. A primeira forma é necessária; só a segunda produz melhoria institucional. A organização que trata cada relato apenas como caso isolado resolve o mesmo problema muitas vezes.
+
+O caminho do relato à melhoria tem quatro passos. Consolidar: reunir as manifestações e os achados de várias fontes e de vários períodos, porque um caso isolado raramente revela um padrão. Classificar: agrupar por tema, processo, unidade, tipo de falha e gravidade. Analisar a causa: perguntar o que tornou o fato possível, se falha de regra, de sistema, de capacitação, de supervisão, de incentivo ou de segregação. Agir e acompanhar: transformar a causa em medida, com responsável e prazo, e verificar depois se a medida funcionou. A leitura das recorrências em manifestações como sinais de problemas será aprofundada no item dois ponto dois ponto quatro.
+
+A análise de causa é o ponto central. Achado e causa são coisas diferentes. Achado é a situação encontrada, por exemplo, pagamentos em duplicidade a fornecedores. Causa é a razão pela qual a situação existe, por exemplo, o sistema de pagamentos não bloqueia notas fiscais com o mesmo número e o mesmo fornecedor. Corrigir o achado é estornar os pagamentos duplicados; tratar a causa é incluir a validação no sistema. Uma técnica simples de análise é a dos cinco porquês: perguntar por que o fato ocorreu, e, sobre a resposta, perguntar de novo por que, até chegar a algo que a organização pode mudar.
+
+Para as denúncias e manifestações de usuários, a base normativa é a Lei treze mil quatrocentos e sessenta, de dois mil e dezessete. O artigo treze lista as atribuições das ouvidorias, entre elas acompanhar a prestação dos serviços, visando a garantir a sua efetividade, propor aperfeiçoamentos na prestação dos serviços e auxiliar na prevenção e correção dos atos e procedimentos incompatíveis com os princípios da lei. O artigo catorze, inciso dois, manda a ouvidoria elaborar, anualmente, relatório de gestão que consolide as informações das manifestações e, com base nelas, aponte falhas e sugira melhorias na prestação dos serviços. O artigo quinze diz o conteúdo mínimo desse relatório: o número de manifestações recebidas no ano anterior; os seus motivos; a análise dos pontos recorrentes; e as providências adotadas pela administração pública nas soluções apresentadas. O parágrafo único manda encaminhá-lo à autoridade máxima do órgão a que pertence a ouvidoria e disponibilizá-lo integralmente na internet. E o artigo vinte e três manda avaliar os serviços, entre outros aspectos, pela quantidade de manifestações e pelas medidas adotadas para melhorar a prestação, com pesquisa de satisfação feita, no mínimo, a cada ano, e resultados publicados e utilizados para reorientar e ajustar os serviços.
+
+Repare que o relatório de gestão tem destinatário e finalidade: a autoridade máxima, que pode agir sobre as causas, e a sociedade, que pode cobrar. E o seu conteúdo mínimo exige não só números, mas análise de recorrências e providências adotadas. Um relatório que só conta manifestações não cumpre a lei.
+
+O uso de denúncias como insumo tem dois cuidados. O primeiro: a denúncia é informação a verificar, não prova. Ela orienta onde olhar, ajuda a priorizar auditorias e a mapear riscos, mas a conclusão depende de apuração. O segundo: o uso agregado não pode expor quem relatou. Os dados consolidados devem ser tratados de forma que não permitam identificar o denunciante, especialmente em unidades pequenas, onde poucas informações bastam para reconhecer alguém. A proteção da identidade será tratada no item dois ponto dois ponto três.
+
+Para os resultados de controle, a base no Executivo federal é o Referencial Técnico da Auditoria Interna Governamental, a Instrução Normativa número três, de dois mil e dezessete. Quatro pontos dele interessam aqui.
+
+Primeiro: as recomendações devem tratar das causas. O item cento e sessenta e quatro diz que a comunicação dos resultados dos trabalhos de avaliação deve apresentar recomendações que agreguem valor à unidade auditada e que, precipuamente, tratem as causas das falhas identificadas. E o item cento e sessenta e dois diz que a comunicação reflete o posicionamento da unidade de auditoria formado com base nas análises da equipe, nas informações e esclarecimentos da gestão e nas possíveis soluções discutidas com a unidade auditada. A recomendação construída com a gestão tende a ser mais viável e mais implementada.
+
+Segundo: a responsabilidade pela implementação é da gestão. O item cento e setenta e seis diz que é responsabilidade da alta administração da unidade auditada zelar pela adequada implementação das recomendações, cabendo-lhe aceitar formalmente o risco associado caso decida por não realizar nenhuma ação. A gestão pode, portanto, não implementar uma recomendação, mas não pode simplesmente ignorá-la: se não age, assume o risco, de forma formal. E o item cento e oitenta diz que, se a unidade de auditoria concluir que a unidade auditada aceitou um nível de risco que pode ser inaceitável, o responsável pela auditoria deve discutir o assunto com a alta administração ou o conselho.
+
+Terceiro: o monitoramento é permanente e proporcional. O item cento e setenta e sete manda a unidade de auditoria monitorar permanentemente a implementação das recomendações, com previsão no plano de auditoria interna. O cento e setenta e oito diz que a intensidade do monitoramento depende dos riscos envolvidos, da complexidade do objeto da recomendação e do grau de maturidade da unidade auditada. E o cento e setenta e nove permite alterar ou cancelar recomendações durante o monitoramento, em razão de mudanças no objeto ou no contexto. Recomendação não é ordem imutável: é proposta de melhoria acompanhada até produzir efeito ou perder o sentido.
+
+Quarto: as recomendações não atendidas sobem. O item cento e três manda o responsável pela auditoria comunicar periodicamente à alta administração e ao conselho, se houver, entre outras informações, as recomendações não atendidas que representem riscos aos processos de governança, de gerenciamento de riscos e de controles internos.
+
+No controle externo, o Tribunal de Contas da União distingue as suas deliberações, na Resolução trezentos e quinze, de dois mil e vinte, em três tipos. A determinação tem natureza mandamental: impõe providências para prevenir ou corrigir irregularidade, remover seus efeitos ou abster-se de atos irregulares. A ciência tem natureza declaratória: informa a unidade sobre irregularidade cuja correção não exige providências concretas e imediatas, para evitar a repetição. A recomendação tem natureza colaborativa: apresenta oportunidades de melhoria, para contribuir com o aperfeiçoamento da gestão ou dos programas de governo. Não reli o texto da resolução nesta preparação, então tome a redação como aproximada; a distinção entre os três tipos é o que importa. Para a melhoria institucional, os três são insumos: a determinação corrige; a ciência previne a repetição; a recomendação aperfeiçoa.
+
+Há outras fontes que entram na mesma lógica: os resultados de processos disciplinares e de responsabilização de empresas, que mostram onde os controles falharam; os achados das auditorias de tecnologia; os resultados das avaliações de políticas públicas; e as pesquisas de satisfação. A ideia é sempre a mesma: cada resultado de controle diz algo sobre o processo, e não só sobre o caso.
+
+O ciclo se fecha quando a melhoria é verificada. Implementar a recomendação é diferente de resolver o problema. Uma recomendação de criar um manual pode ser cumprida com a publicação do manual, sem que nada mude no processo. Por isso o monitoramento de qualidade pergunta não só se a ação prevista foi feita, mas se a falha deixou de ocorrer. Essa diferença é o tema do bloco três.
+
+Exemplo prático. A ouvidoria de uma autarquia recebe, em um semestre, quarenta manifestações sobre pagamentos indevidos de um benefício, distribuídas por oito estados. Tratadas uma a uma, elas geram quarenta respostas e algumas apurações. Consolidadas, revelam que trinta e uma envolvem beneficiários falecidos que continuaram recebendo por vários meses. Um desenvolvedor da cê gê u que apoia a auditoria cruza a base de pagamentos com a de óbitos e descobre a causa: o sistema consulta a base de óbitos uma vez por trimestre, e não diariamente, e não bloqueia pagamentos de forma automática quando encontra coincidência. A recomendação trata a causa, com consulta diária e bloqueio cautelar com revisão humana. O monitoramento verifica, nos meses seguintes, se os pagamentos após o óbito caíram. As quarenta manifestações viraram uma correção de processo.
+
+Pegadinhas do bloco dois.
+
+"O relatório de gestão da ouvidoria deve conter o número de manifestações recebidas, sendo facultativa a indicação das providências adotadas." Errado. O artigo quinze da Lei treze mil quatrocentos e sessenta exige, no mínimo, número, motivos, análise dos pontos recorrentes e providências adotadas.
+
+"O relatório de gestão da ouvidoria é documento interno, encaminhado apenas à autoridade máxima." Errado. O parágrafo único do artigo quinze manda encaminhá-lo à autoridade máxima e disponibilizá-lo integralmente na internet.
+
+"A gestão é obrigada a implementar todas as recomendações da auditoria interna governamental." Errado. Pelo Referencial Técnico, a alta administração zela pela implementação, mas pode decidir não agir, desde que aceite formalmente o risco associado.
+
+"As recomendações da auditoria interna, uma vez emitidas, não podem ser alteradas." Errado. O item cento e setenta e nove do referencial permite alterá-las ou cancelá-las durante o monitoramento, por mudanças no objeto ou no contexto.
+
+"A intensidade do monitoramento das recomendações deve ser uniforme, para garantir tratamento isonômico às unidades auditadas." Errado. Ela depende dos riscos, da complexidade do objeto e do grau de maturidade da unidade auditada.
+
+"Por ser informação privilegiada, a denúncia recebida pela ouvidoria comprova o fato e dispensa apuração." Errado. A denúncia orienta onde olhar e alimenta a análise de riscos, mas a conclusão depende de verificação e apuração.
+
+
+BLOCO TRÊS: BAIXA OCORRÊNCIA, BAIXA DETECÇÃO E LEITURA DE EVIDÊNCIAS SOBRE AS MEDIDAS
+
+A ideia de que poucas denúncias não significam poucos problemas foi apresentada no item um ponto três ponto cinco. Aqui entram o raciocínio por trás dessa distinção, os sinais que ajudam a separá-las e a leitura de evidências simples sobre se as medidas funcionam e produzem resultado. A subnotificação será tratada no item dois ponto dois ponto quatro, e a leitura de taxas, indicadores e inferências, no dois ponto quatro ponto dois e no dois ponto quatro ponto três.
+
+O raciocínio básico é este. O que a organização vê não é o que acontece: é o que acontece e foi detectado. O número de problemas registrados depende de duas coisas ao mesmo tempo: de quantos problemas de fato ocorrem e da probabilidade de cada um ser detectado. Um número baixo de registros é compatível com duas realidades opostas: poucos problemas e boa detecção, ou muitos problemas e detecção fraca. O número sozinho não distingue uma da outra. Por isso a frase clássica: ausência de evidência não é evidência de ausência.
+
+O efeito vale nos dois sentidos. Quando a detecção melhora, os registros sobem, mesmo que a ocorrência real esteja estável ou até caindo. Uma unidade que implanta um canal confiável, passa a cruzar dados ou amplia a auditoria tende a registrar mais problemas no início. Ler esse aumento como piora é penalizar justamente quem passou a enxergar.
+
+A pergunta útil, diante de um número baixo, é: qual era a capacidade de encontrar o problema, se ele existisse? Alguns sinais ajudam a responder.
+
+Sinais de que a detecção pode ser fraca. A cobertura é pequena: poucos processos testados, amostras mínimas, áreas de maior risco nunca auditadas. O canal é pouco conhecido ou pouco confiável: as pessoas não sabem que ele existe, ou relatam medo e descrença. Os problemas conhecidos vêm de fora: são descobertos pela imprensa, pelo tribunal de contas, pela polícia ou por denúncia externa, e não pelos mecanismos internos. O tempo entre o fato e a descoberta é longo. Não há testes de controle, só declarações de que os controles existem. E há incentivo para não registrar, como metas que punem a unidade com mais ocorrências.
+
+Sinais de que a ocorrência pode de fato ser baixa. A cobertura é ampla e baseada em risco. Há detecção ativa, como cruzamento de dados e testes periódicos, que procuram o problema em vez de esperar que ele apareça. Os canais são conhecidos, usados e recebem relatos de outros temas, o que mostra que as pessoas confiam neles. Os controles foram testados e funcionaram. E organizações comparáveis, com detecção semelhante, também registram poucos casos.
+
+Para aumentar a confiança na leitura, a organização pode buscar o problema de forma ativa. Testes de controle: refazer uma amostra de transações para ver se o controle as teria barrado. Análise de dados: trilhas de auditoria que varrem toda a base em busca de padrões de risco, como pagamentos após óbito, fornecedores com sócios servidores ou fracionamento de compras. Pesquisas de percepção e de experiência com servidores e usuários, que captam o que não chega aos canais. E comparação com organizações semelhantes. Nenhuma dessas medidas mede a ocorrência real com exatidão, mas todas reduzem a dependência dos registros espontâneos.
+
+A segunda parte do subitem é a leitura de evidências simples sobre o funcionamento e os resultados das medidas. São duas perguntas diferentes, e confundi-las é o erro mais comum. A primeira pergunta é se a medida está funcionando: se o que foi previsto está acontecendo. A segunda é se a medida está produzindo resultado: se o problema que ela deveria reduzir diminuiu.
+
+Evidências de funcionamento são evidências de processo. O treinamento foi dado, a quantas pessoas, de que áreas, com que conteúdo e com que avaliação de aprendizagem. O canal recebe manifestações, em quanto tempo elas são tratadas e quantas recebem resposta conclusiva. As verificações de fornecedores são feitas antes da contratação, e em que proporção dos contratos. As recomendações foram implementadas no prazo. Essas evidências mostram que a medida existe na prática, o que já é mais do que existir no papel, como visto no item dois ponto um ponto quatro. Mas não mostram que ela resolve o problema.
+
+Evidências de resultado são evidências de efeito. Os pagamentos indevidos caíram. A recorrência de um tipo de achado diminuiu. O tempo de detecção encurtou. As reclamações sobre um serviço específico baixaram, e a satisfação subiu. As falhas passaram a ser encontradas pelos controles internos antes de chegarem aos órgãos externos. Essas evidências respondem à pergunta que importa, mas precisam ser lidas com cuidado.
+
+Os cuidados mínimos de leitura são cinco, e cada um corresponde a um erro frequente. Primeiro, comparar com um ponto de partida: só faz sentido dizer que algo melhorou se houver medida anterior, feita da mesma forma. Segundo, olhar o denominador: dez ocorrências em cem processos não é o mesmo que dez em mil; números absolutos enganam quando o volume muda. Terceiro, verificar se a forma de medir mudou: um novo sistema de registro, uma nova definição de ocorrência ou um novo canal mudam o número sem mudar a realidade. Quarto, considerar o efeito da própria detecção: uma medida que aumenta a detecção pode fazer os registros subirem no curto prazo justamente porque funciona. Quinto, considerar explicações alternativas: a queda pode ter vindo de outra causa, como uma mudança de regra, de sistema ou de volume, e não da medida avaliada.
+
+Duas combinações típicas ajudam a fixar a lógica. Funcionamento alto com resultado nulo: o treinamento alcançou todos, mas os erros continuam; a medida pode estar mal desenhada, mirar a causa errada ou ser genérica demais. Funcionamento baixo com resultado aparentemente bom: quase ninguém usa o canal, e não há denúncias; aqui o resultado bom é provavelmente ilusão de detecção fraca. Nas duas, o indicador de processo e o de resultado, lidos juntos, contam uma história que nenhum deles conta sozinho.
+
+Uma última regra de leitura: indicadores de processo, quando viram meta isolada, tendem a ser otimizados em vez do resultado, como visto no item um ponto três ponto cinco. Contar treinamentos é útil para saber se a medida funciona; premiar a unidade pelo número de treinamentos, sem olhar o efeito, produz treinamentos, não integridade.
+
+Exemplo prático. Duas superintendências regionais de uma autarquia, de porte semelhante, apresentam no relatório anual de gestão da integridade números opostos. A primeira registrou zero denúncias de irregularidades em contratações e zero achados de auditoria interna. A segunda registrou vinte e três denúncias e catorze achados. A leitura apressada diz que a primeira é exemplar e a segunda, problemática. Um auditor da cê gê u examina os dados de funcionamento. Na primeira, a auditoria interna não testou contratações nos últimos três anos, a pesquisa com servidores mostra que sessenta por cento não sabem da existência do canal, e as duas únicas irregularidades conhecidas da regional foram reveladas pelo tribunal de contas. Na segunda, a auditoria testa contratações todos os anos, o canal é conhecido pela maioria, e dez dos catorze achados vieram de cruzamentos de dados da própria unidade. A conclusão razoável é que a primeira provavelmente tem baixa detecção, e a segunda, detecção ativa; os números baixos da primeira não permitem afirmar baixa ocorrência.
+
+Pegadinhas do bloco três.
+
+"Se uma unidade não registrou nenhuma irregularidade em determinado período, conclui-se que os seus controles são eficazes." Errado. Sem informação sobre cobertura, testes e confiança nos canais, zero registros é compatível tanto com baixa ocorrência quanto com baixa detecção.
+
+"O aumento das irregularidades registradas depois da implantação de uma ferramenta de cruzamento de dados demonstra que a gestão piorou." Errado. A melhora da detecção tende a aumentar os registros no curto prazo, sem que a ocorrência real tenha aumentado.
+
+"O alcance de cem por cento dos servidores em treinamentos de integridade demonstra a efetividade da medida." Errado. Alcance é evidência de funcionamento; a efetividade exige evidência de resultado, como redução de falhas ou mudança de comportamento.
+
+"Problemas descobertos por órgãos externos, e não pelos controles internos, são indiferentes para avaliar a capacidade de detecção da organização." Errado. Esse padrão é sinal típico de detecção interna fraca.
+
+"A comparação do número absoluto de ocorrências entre dois anos é suficiente para avaliar o resultado de uma medida." Errado. É preciso considerar o denominador, mudanças na forma de medir, o efeito da própria detecção e explicações alternativas.
+
+
+RESUMO FINAL: PONTOS PARA NÃO ESQUECER
+
+Prevenção: atua sobre as condições do problema, em escala, antes da sanção, conforme o Decreto nove mil duzentos e três.
+
+Incentivos e confiança: relatar, corrigir e decidir precisam ser comportamentos seguros; controle previsível e que distingue falha de fraude recebe a informação mais cedo.
+
+Capacidades: obrigação mantida, caminho adaptado; prazos diferenciados para municípios pequenos na Lei de Licitações, fiscalização prioritariamente orientadora para microempresas, apoio onde o risco é alto.
+
+Orientação e proporcionalidade: guias, consultas, capacitação e consultoria; escada de respostas da regulação responsiva, com degraus altos críveis.
+
+Insumos de melhoria: consolidar, classificar, analisar a causa, agir e verificar; relatório anual de gestão da ouvidoria com recorrências e providências; recomendações voltadas às causas, monitoramento permanente e recomendações não atendidas reportadas à alta administração.
+
+Controle externo: determinação mandamental, ciência declaratória e recomendação colaborativa.
+
+Detecção: registros dependem da ocorrência e da detecção; cobertura, testes, canais confiáveis e origem das descobertas indicam qual das duas explica o número.
+
+Evidências: funcionamento é processo, resultado é efeito; leitura com ponto de partida, denominador, estabilidade da medida e explicações alternativas.
+
+
+ITENS DE FIXAÇÃO COM GABARITO
+
+Item um. De acordo com o Decreto nove mil duzentos e três, de dois mil e dezessete, os controles internos devem ser fundamentados na gestão de risco e privilegiar ações estratégicas de prevenção antes de processos sancionadores.
+
+Gabarito: certo. É a diretriz do artigo quarto, inciso seis.
+
+Item dois. Um servidor, por erro de digitação, lançou valor incorreto em um empenho, falha detectada e corrigida na conferência. Segundo a lógica da cultura justa, a resposta adequada é a instauração de processo disciplinar, para desestimular novos erros.
+
+Gabarito: errado. Erro humano sem intenção pede apoio e correção do processo; a sanção é reservada à conduta temerária ou dolosa.
+
+Item três. Nos termos da Lei de Introdução às Normas do Direito Brasileiro, o agente público responde pessoalmente por suas decisões ou opiniões técnicas em caso de dolo ou erro grosseiro.
+
+Gabarito: certo. É o artigo vinte e oito, incluído pela Lei treze mil seiscentos e cinquenta e cinco, de dois mil e dezoito.
+
+Item quatro. Na fiscalização trabalhista de empresa de pequeno porte, constatada a falta de registro de empregado, o auditor deve observar o critério da dupla visita antes de lavrar o auto de infração.
+
+Gabarito: errado. A falta de registro de empregado é exceção expressa ao critério da dupla visita no parágrafo primeiro do artigo cinquenta e cinco da Lei Complementar cento e vinte e três.
+
+Item cinco. Pela Lei treze mil quatrocentos e sessenta, de dois mil e dezessete, o relatório anual de gestão da ouvidoria deve indicar, no mínimo, o número de manifestações recebidas no ano anterior, os seus motivos, a análise dos pontos recorrentes e as providências adotadas pela administração.
+
+Gabarito: certo. É o artigo quinze, que também manda encaminhá-lo à autoridade máxima e publicá-lo integralmente na internet.
+
+Item seis. Segundo o Referencial Técnico da Atividade de Auditoria Interna Governamental, a alta administração da unidade auditada que decida não implementar uma recomendação deve justificar a decisão à unidade de auditoria, ficando dispensada de qualquer outra providência.
+
+Gabarito: errado. O item cento e setenta e seis exige que ela aceite formalmente o risco associado, e a auditoria pode levar o tema à alta administração ou ao conselho se o risco aceito puder ser inaceitável.
+
+Item sete. As recomendações de auditoria interna governamental devem tratar, precipuamente, as causas das falhas identificadas, e não apenas os seus efeitos.
+
+Gabarito: certo. É o item cento e sessenta e quatro do Referencial Técnico.
+
+Item oito. Para assegurar isonomia, a unidade de auditoria interna deve monitorar com a mesma intensidade todas as recomendações emitidas, independentemente do risco e da maturidade da unidade auditada.
+
+Gabarito: errado. O item cento e setenta e oito manda definir a intensidade com base nos riscos, na complexidade do objeto e no grau de maturidade da unidade.
+
+Item nove. Os municípios com até vinte mil habitantes ficaram definitivamente dispensados de realizar licitações sob a forma eletrônica, por força da Lei catorze mil cento e trinta e três.
+
+Gabarito: errado. O artigo cento e setenta e seis concedeu prazo de seis anos, contado da publicação da lei, e não dispensa definitiva.
+
+Item dez. Uma unidade que passou a cruzar dados de pagamentos com bases externas registrou, no primeiro ano, o triplo de irregularidades do ano anterior. Esse aumento, isoladamente, não permite concluir que a ocorrência de irregularidades cresceu.
+
+Gabarito: certo. A melhora da detecção tende a elevar os registros sem que a ocorrência real tenha aumentado.
+
+Item onze. A ausência de denúncias em um canal recém-criado, pouco divulgado e desconhecido pela maioria dos servidores constitui evidência suficiente de baixa ocorrência de irregularidades na organização.
+
+Gabarito: errado. Canal desconhecido é sinal de baixa detecção, e a ausência de registros não distingue baixa ocorrência de baixa detecção.
+
+Item doze. A verificação de que todas as ações previstas em um plano de integridade foram executadas no prazo é evidência de funcionamento das medidas, mas não demonstra, por si só, que elas produziram o resultado pretendido.
+
+Gabarito: certo. Execução é evidência de processo; resultado exige evidência de efeito sobre o problema que a medida deveria reduzir.
+
+
+ENCERRAMENTO
+
+A próxima aula trata do item dois ponto dois ponto um, acesso à informação.
